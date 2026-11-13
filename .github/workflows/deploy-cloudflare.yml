@@ -137,9 +137,18 @@ jobs:
           set -e
           echo "Worker: $WORKER_URL"
           echo "Pages:  $PAGES_URL"
-          curl -fsS --max-time 30 "$WORKER_URL/api/search?q=%E9%9B%AA%E8%B1%B9" | head -c 200
-          echo
-          curl -fsS --max-time 30 "$PAGES_URL/" | grep -o "WILD WORLD" | head -1
+          echo "== Pages home"
+          curl -fsS --max-time 60 "$PAGES_URL/" | grep -o "WILD WORLD" | head -1
+          echo "== Pages search API"
+          curl -fsS --max-time 60 "$PAGES_URL/api/search?q=%E9%9B%AA%E8%B1%B9" | grep -o '"results"' | head -1
+          echo "== Pages media"
+          curl -fsSI --max-time 60 "$PAGES_URL/media/hero/hero-01.jpg" | grep -i "content-type" | head -1
+          echo "== Pages species detail"
+          curl -fsS --max-time 60 "$PAGES_URL/encyclopedia/giant-panda" | grep -o "大熊猫" | head -1
+          echo "== Pages admin status"
+          curl -sS -o /dev/null -w "%{http_code}" --max-time 60 "$PAGES_URL/admin" | grep -E "^200$"
+          echo "== Worker search API"
+          curl -fsS --max-time 60 "$WORKER_URL/api/search?q=%E9%9B%AA%E8%B1%B9" | grep -o '"results"' | head -1
 
       - name: Summary
         run: |

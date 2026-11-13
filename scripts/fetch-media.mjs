@@ -55,7 +55,7 @@ async function exists(dest) {
 }
 
 async function download(url, dest) {
-  const res = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(45000) });
+  const res = await fetch(url, { headers: { "User-Agent": UA } });
   if (!res.ok) throw new Error(`download HTTP ${res.status}`);
   const type = res.headers.get("content-type") || "";
   if (!/image|audio|mpeg|octet/.test(type)) throw new Error(`unexpected content-type ${type}`);
@@ -63,15 +63,9 @@ async function download(url, dest) {
   await pipeline(res.body, createWriteStream(dest));
 }
 
-let previous = { photos: [], sounds: [], species: {} };
-try {
-  previous = JSON.parse(await readFile(path.join(ROOT, "public/data/integration.json"), "utf8"));
-} catch {
-  previous = { photos: [], sounds: [], species: {} };
-}
-const photos = Array.isArray(previous.photos) ? previous.photos : [];
-const sounds = Array.isArray(previous.sounds) ? previous.sounds : [];
-const external = previous.species && typeof previous.species === "object" ? previous.species : {};
+const photos = [];
+const sounds = [];
+const external = {};
 const errors = [];
 
 async function writeIntegration(hero = []) {
@@ -125,7 +119,7 @@ for (const s of SPECIES) {
       if (!src) continue;
       const file = `public/media/species/${s.slug}-${String(index + 1).padStart(2, "0")}.jpg`;
       if (!(await exists(path.join(ROOT, file)))) await download(src, path.join(ROOT, file));
-      if (!photos.some((x) => x.id === `ph-inat-${p.id}`)) photos.push({
+      photos.push({
         id: `ph-inat-${p.id}`,
         species_slug: s.slug,
         url: `/${file.replace(/^public\//, "")}`,
@@ -160,12 +154,11 @@ for (const s of SPECIES) {
           if (!code) continue;
           const orig = snd.file_url || "";
           if (!orig) continue;
-          const ext = (orig.split("?")[0].match(/\.(m4a|mp3|ogg)$/i) || [])[1]?.toLowerCase();
-          if (!ext) continue;
+          const ext = (orig.split("?")[0].match(/\.(m4a|mp3|wav|ogg)$/i) || [])[1]?.toLowerCase() ?? "m4a";
           const name = `${s.slug}-${String(soundIndex + 1).padStart(2, "0")}.${ext}`;
           const local = `public/media/sounds/${name}`;
           if (!(await exists(path.join(ROOT, local)))) await download(orig, path.join(ROOT, local));
-          if (!sounds.some((x) => x.id === `au-inat-${snd.id}`)) sounds.push({
+          sounds.push({
             id: `au-inat-${snd.id}`,
             species_slug: s.slug,
             title: `${s.cn} · 野外录音 ${soundIndex + 1}`,
@@ -187,9 +180,9 @@ for (const s of SPECIES) {
           });
           soundIndex += 1;
           await sleep(200);
-          if (soundIndex >= 1) break;
+          if (soundIndex >= 2) break;
         }
-        if (soundIndex >= 1) break;
+        if (soundIndex >= 2) break;
       }
     } catch (e) {
       errors.push({ slug: s.slug, kind: "sounds", message: String(e.message || e) });

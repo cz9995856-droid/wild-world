@@ -24,6 +24,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Production build (also generates Next types)
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://wildworld.example.org
+
       - name: Type check
         run: npm run typecheck
 
@@ -32,11 +37,6 @@ jobs:
 
       - name: Unit tests
         run: npm test
-
-      - name: Production build
-        run: npm run build
-        env:
-          NEXT_PUBLIC_SITE_URL: https://wildworld.example.org
 
   e2e:
     runs-on: ubuntu-latest

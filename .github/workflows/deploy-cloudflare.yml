@@ -153,56 +153,13 @@ jobs:
         if: always()
         run: curl -fsS --max-time 60 "$WORKER_URL/api/search?q=%E9%9B%AA%E8%B1%B9" | grep -o '"results"' | head -1
 
-      - name: Probe admin status
+      - name: Smoke admin (browser UA)
         if: always()
         run: |
-          code=$(curl -sS -L -o /dev/null -w '%{http_code}' --max-time 60 "$PAGES_URL/admin")
-          echo "$code" > /tmp/admin-code
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+          code=$(curl -sS -L -A "$UA" -o /dev/null -w '%{http_code}' --max-time 60 "$PAGES_URL/admin")
           echo "admin status=$code"
-
-      - name: Admin status 200
-        if: always()
-        continue-on-error: true
-        run: test "$(cat /tmp/admin-code)" = "200"
-
-      - name: Admin status 307
-        if: always()
-        continue-on-error: true
-        run: test "$(cat /tmp/admin-code)" = "307"
-
-      - name: Admin status 308
-        if: always()
-        continue-on-error: true
-        run: test "$(cat /tmp/admin-code)" = "308"
-
-      - name: Admin status 401
-        if: always()
-        continue-on-error: true
-        run: test "$(cat /tmp/admin-code)" = "401"
-
-      - name: Admin status 403
-        if: always()
-        continue-on-error: true
-        run: test "$(cat /tmp/admin-code)" = "403"
-
-      - name: Admin status 404
-        if: always()
-        continue-on-error: true
-        run: test "$(cat /tmp/admin-code)" = "404"
-
-      - name: Admin status 500
-        if: always()
-        continue-on-error: true
-        run: test "$(cat /tmp/admin-code)" = "500"
-
-      - name: Admin status 000
-        if: always()
-        continue-on-error: true
-        run: test "$(cat /tmp/admin-code)" = "000"
-
-      - name: Admin gate
-        if: always()
-        run: test "$(cat /tmp/admin-code)" = "200"
+          test "$code" = "200"
 
       - name: Summary
         run: |

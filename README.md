@@ -55,6 +55,26 @@
 
 ---
 
+## 2. 推送到 GitHub
+
+项目已在本地初始化为 `main` 分支并完成提交（`085d5b0`）。当前执行环境没有 GitHub 登录凭证，因此需要你在自己的账号下创建空仓库并推送：
+
+```bash
+# 1) 在 GitHub 创建空仓库：cz9995856-droid/wild-world（不要初始化 README）
+# 2) 在当前目录执行：
+git remote add origin https://github.com/cz9995856-droid/wild-world.git
+git push -u origin main
+```
+
+或使用 GitHub CLI：
+
+```bash
+gh auth login
+gh repo create cz9995856-droid/wild-world --public --source=. --remote=origin --push
+```
+
+推送完成后，可在 Vercel 中导入该仓库，按 [DEPLOYMENT.md](./DEPLOYMENT.md) 配置环境变量；若要后台写入持久化，请使用 Supabase 或自托管服务器，不要只依赖 Vercel 只读文件系统。
+
 ## 2. 快速开始
 
 要求：Node.js **22.13+**（`eslint-visitor-keys@5` 要求 `^20.19 || ^22.13 || >=24`；本环境为 22.11，仅有引擎警告）。

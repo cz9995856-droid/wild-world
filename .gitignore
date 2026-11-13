@@ -19,3 +19,4 @@ test-results
 .wrangler/
 wrangler.generated.jsonc
 cloudflare/deploy-meta.json
+cloudflare/pages/public/media/

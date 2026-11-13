@@ -237,3 +237,4 @@ node scripts/json-to-seed-sql.mjs /path/to/export.json supabase/seed.sql
 - 纪录片：版权归制作机构，本站仅提供官方外链。
 
 数据与许可详情：[`DATA_SOURCES.md`](./DATA_SOURCES.md) · 部署：[`DEPLOYMENT.md`](./DEPLOYMENT.md) · 测试：[`TEST_REPORT.md`](./TEST_REPORT.md)
+<!-- cloudflare hybrid deployment: 2026-11-13T17:35:38Z -->

@@ -84,6 +84,14 @@ async function workersSubdomain() {
 let stage = "d1";
 console.log("stage: ensure D1");
 const d1Id = await ensureD1();
+stage = "d1-schema";
+console.log("stage: apply D1 schema");
+const schema = await readFile(path.join(root, "cloudflare/d1/schema.sql"), "utf8");
+await cf(`/d1/database/${d1Id}/query`, {
+  method: "POST",
+  body: JSON.stringify({ sql: schema }),
+});
+console.log("D1 schema applied");
 stage = "pages";
 console.log("stage: ensure Pages project");
 const pagesProject = await ensurePagesProject();

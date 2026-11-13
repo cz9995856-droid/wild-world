@@ -81,11 +81,17 @@ async function workersSubdomain() {
   }
 }
 
+let stage = "d1";
+console.log("stage: ensure D1");
 const d1Id = await ensureD1();
+stage = "pages";
+console.log("stage: ensure Pages project");
 const pagesProject = await ensurePagesProject();
+stage = "subdomain";
+console.log("stage: ensure Workers subdomain");
 const subdomain = await workersSubdomain();
 if (!subdomain) {
-  console.error("未找到 workers.dev 子域，请先在 Cloudflare Dashboard 设置 Workers 子域。");
+  console.error("未找到 workers.dev 子域，请先在 Cloudflare Dashboard → Workers & Pages 设置 workers.dev 子域。");
   process.exit(1);
 }
 
@@ -116,3 +122,7 @@ if (process.env.GITHUB_ENV) {
     { flag: "a" }
   );
 }
+process.on("unhandledRejection", (err) => {
+  console.error(`prepare failed: ${err?.stack || err}`);
+  process.exit(1);
+});

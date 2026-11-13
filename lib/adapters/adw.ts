@@ -1,0 +1,1 @@
+export { getAdwReference } from "@/lib/adapters/wikipedia";

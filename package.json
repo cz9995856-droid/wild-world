@@ -1,0 +1,47 @@
+{
+  "name": "wild-world",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WILD WORLD · 全球数字动物自然博物馆",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "fetch:media": "node scripts/fetch-media.mjs",
+    "fetch:sounds": "node scripts/fetch-sounds.mjs",
+    "sync:news": "node scripts/sync-news.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "@supabase/supabase-js": "2.119.0",
+    "fast-xml-parser": "5.12.0",
+    "lucide-react": "0.468.0",
+    "maplibre-gl": "5.9.0",
+    "next": "15.5.29",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "three": "0.187.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.3",
+    "@playwright/test": "1.65.0",
+    "@types/node": "22.10.5",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "@types/three": "0.187.0",
+    "autoprefixer": "10.4.20",
+    "eslint": "9.39.5",
+    "eslint-config-next": "15.5.29",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.19",
+    "typescript": "5.7.3",
+    "vitest": "3.2.7"
+  }
+}

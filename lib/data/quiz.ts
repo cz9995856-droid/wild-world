@@ -1,0 +1,153 @@
+import type { QuizQuestion } from "@/lib/types";
+
+export const QUIZ_QUESTIONS: QuizQuestion[] = [
+  {
+    id: "q-001",
+    question: "大熊猫的前掌上用来抓握竹子的“伪拇指”来自哪种结构？",
+    options: ["额外生长的第六指", "腕部籽骨的延长", "特化的爪甲", "掌骨融合"],
+    answer_index: 1,
+    explanation:
+      "大熊猫的“伪拇指”是腕部籽骨（桡侧籽骨）的延长结构，并非真正的手指。这一结构帮助它在取食竹子时更稳定地抓握。",
+    difficulty: 2,
+    category: "解剖",
+    source_name: "Wikipedia · Giant panda",
+    source_url: "https://en.wikipedia.org/wiki/Giant_panda",
+  },
+  {
+    id: "q-002",
+    question: "以下哪种动物终生保留外鳃，并具有肢体再生能力？",
+    options: ["墨西哥钝口螈", "绿海龟", "帝企鹅", "雪豹"],
+    answer_index: 0,
+    explanation:
+      "墨西哥钝口螈具有幼态延续现象，终生保留外鳃，并能再生四肢、尾巴与部分脊髓组织。",
+    difficulty: 1,
+    category: "两栖动物",
+    source_name: "San Diego Zoo Wildlife Alliance",
+    source_url: "https://animals.sandiegozoo.org/animals/axolotl",
+  },
+  {
+    id: "q-003",
+    question: "蓝鲸的主要食物是什么？",
+    options: ["大型鱼类", "磷虾", "海草", "头足类"],
+    answer_index: 1,
+    explanation:
+      "蓝鲸是滤食性须鲸，几乎完全以磷虾为食，觅食季每天可摄入数吨磷虾。",
+    difficulty: 1,
+    category: "食性",
+    source_name: "NOAA Fisheries · Blue Whale",
+    source_url: "https://www.fisheries.noaa.gov/species/blue-whale",
+  },
+  {
+    id: "q-004",
+    question: "长颈鹿的颈部有多少节颈椎？",
+    options: ["7 节", "12 节", "20 节", "数量因亚种而异"],
+    answer_index: 0,
+    explanation:
+      "长颈鹿与人类一样只有 7 节颈椎，但每节颈椎被极度延长。这是哺乳动物颈椎数量保守性的经典例子。",
+    difficulty: 2,
+    category: "解剖",
+    source_name: "Wikipedia · Giraffe",
+    source_url: "https://en.wikipedia.org/wiki/Giraffe",
+  },
+  {
+    id: "q-005",
+    question: "帝企鹅的孵卵任务主要由谁承担？",
+    options: ["雌鸟", "雄鸟", "双亲轮流", "群体共同"],
+    answer_index: 1,
+    explanation:
+      "雌鸟产下单枚卵后会前往海中觅食，雄鸟将卵放在脚背上、以育儿袋覆盖，持续孵化约 65 天，期间几乎不进食。",
+    difficulty: 1,
+    category: "繁殖",
+    source_name: "British Antarctic Survey",
+    source_url: "https://www.bas.ac.uk/",
+  },
+  {
+    id: "q-006",
+    question: "非洲草原象的妊娠期约为多久？",
+    options: ["约 3 个月", "约 9 个月", "约 15 个月", "约 22 个月"],
+    answer_index: 3,
+    explanation:
+      "非洲草原象妊娠期约 22 个月，是陆生哺乳动物中最长的妊娠期之一。",
+    difficulty: 3,
+    category: "繁殖",
+    source_name: "Animal Diversity Web",
+    source_url: "https://animaldiversity.org/accounts/Loxodonta_africana/",
+  },
+  {
+    id: "q-007",
+    question: "帝王蝶的北美迁徙种群依靠什么完成定向？",
+    options: ["学习记忆", "地磁场与太阳方位", "群体跟随", "气味标记"],
+    answer_index: 1,
+    explanation:
+      "研究表明帝王蝶利用太阳方位与体内时钟，并可能感知地磁场，完成跨代迁徙。",
+    difficulty: 2,
+    category: "行为",
+    source_name: "US Fish & Wildlife Service",
+    source_url: "https://www.fws.gov/initiative/monarch-butterfly",
+  },
+  {
+    id: "q-008",
+    question: "以下哪种动物是唯一不会飞的鹦鹉？",
+    options: ["鸮鹦鹉", "非洲灰鹦鹉", "金刚鹦鹉", "葵花凤头鹦鹉"],
+    answer_index: 0,
+    explanation:
+      "鸮鹦鹉是新西兰特有的夜行性鹦鹉，翅膀退化、不会飞行，也是体重最大的鹦鹉。",
+    difficulty: 1,
+    category: "鸟类",
+    source_name: "New Zealand Department of Conservation",
+    source_url: "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kakapo/",
+  },
+  {
+    id: "q-009",
+    question: "小头鼠海豚（Vaquita）面临的最主要直接威胁是什么？",
+    options: ["船只撞击", "刺网缠绕", "海洋噪声", "塑料误食"],
+    answer_index: 1,
+    explanation:
+      "小头鼠海豚主要死于非法刺网渔业中的缠绕。保护措施的核心是替代渔具与刺网禁令。",
+    difficulty: 2,
+    category: "保护",
+    source_name: "NOAA Fisheries · Vaquita",
+    source_url: "https://www.fisheries.noaa.gov/species/vaquita",
+  },
+  {
+    id: "q-010",
+    question: "游隼俯冲时的速度可以达到什么量级？",
+    options: ["约 80 km/h", "约 150 km/h", "超过 300 km/h", "约 500 km/h"],
+    answer_index: 2,
+    explanation:
+      "游隼在俯冲捕猎时可超过 300 km/h，是已知最快的动物运动之一。该数值为极端俯冲速度，并非巡航速度。",
+    difficulty: 2,
+    category: "运动",
+    source_name: "The Peregrine Fund",
+    source_url: "https://peregrinefund.org/",
+  },
+  {
+    id: "q-011",
+    question: "赛加羚羊膨大的鼻部有什么功能？",
+    options: ["储存水分", "过滤尘土并调节吸入空气", "增强嗅觉定位", "发出低频叫声"],
+    answer_index: 1,
+    explanation:
+      "赛加羚羊的鼻部结构可在沙尘环境中过滤空气，并在寒冷季节预热吸入的空气。",
+    difficulty: 2,
+    category: "解剖",
+    source_name: "Saiga Conservation Alliance",
+    source_url: "https://saiga-conservation.org/",
+  },
+  {
+    id: "q-012",
+    question: "关于保护等级，以下哪种说法是严谨的？",
+    options: [
+      "“濒危”是一个永恒不变的标签",
+      "保护等级应标注来源、评估年份与适用范围",
+      "所有动物的种群数量都有精确统计",
+      "观察点数量等于物种分布面积",
+    ],
+    answer_index: 1,
+    explanation:
+      "保护等级是特定评估年份、特定分类单元与特定区域的结论，必须标注来源与年份；观测点也不能等同于完整分布范围。",
+    difficulty: 3,
+    category: "数据素养",
+    source_name: "IUCN Red List",
+    source_url: "https://www.iucnredlist.org/",
+  },
+];

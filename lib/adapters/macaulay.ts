@@ -1,0 +1,1 @@
+export { searchMacaulay as searchMacaulayLibrary } from "@/lib/adapters/smithsonian";

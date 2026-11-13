@@ -15,6 +15,8 @@ const config = [
     ignores: [
       "node_modules/**",
       ".next/**",
+      ".open-next/**",
+      ".wrangler/**",
       "out/**",
       "coverage/**",
       "playwright-report/**",

@@ -1,6 +1,4 @@
 import "server-only";
-import { readFile } from "node:fs/promises";
-import path from "node:path";
 import type { AudioEntry, DataSourceConfig, MediaAsset, NewsArticle, Species } from "@/lib/types";
 import { SPECIES, SPECIES_BY_SLUG } from "@/lib/data/species";
 import { VIDEOS } from "@/lib/data/videos";
@@ -10,6 +8,7 @@ import { HOME_SECTIONS } from "@/lib/data/sections";
 import { SOURCE_REGISTRY } from "@/lib/sources/registry";
 import { NEWS_SOURCES } from "@/lib/data/news-meta";
 import { applyEditorial } from "@/lib/data/news-editorial";
+import { INTEGRATION, NEWS_SNAPSHOT } from "@/lib/data/static-data";
 import { readStore, type StoreShape } from "@/lib/store/content-store";
 import { hashString } from "@/lib/utils";
 
@@ -78,28 +77,18 @@ const EMPTY_INTEGRATION: IntegrationFile = {
   errors: [],
 };
 
-let integrationCache: { at: number; data: IntegrationFile } | null = null;
+const EMPTY_SNAPSHOT: IntegrationFile = { ...EMPTY_INTEGRATION };
 
 export async function getIntegration(): Promise<IntegrationFile> {
-  if (integrationCache && Date.now() - integrationCache.at < 30_000) return integrationCache.data;
-  try {
-    const raw = await readFile(path.join(process.cwd(), "public/data/integration.json"), "utf8");
-    const parsed = JSON.parse(raw) as Partial<IntegrationFile>;
-    const data: IntegrationFile = {
-      ...EMPTY_INTEGRATION,
-      ...parsed,
-      photos: parsed.photos ?? [],
-      sounds: parsed.sounds ?? [],
-      species: parsed.species ?? {},
-      hero: parsed.hero ?? [],
-      errors: parsed.errors ?? [],
-    };
-    integrationCache = { at: Date.now(), data };
-    return data;
-  } catch {
-    integrationCache = { at: Date.now(), data: EMPTY_INTEGRATION };
-    return EMPTY_INTEGRATION;
-  }
+  return {
+    ...EMPTY_SNAPSHOT,
+    ...INTEGRATION,
+    photos: INTEGRATION.photos ?? [],
+    sounds: INTEGRATION.sounds ?? [],
+    species: INTEGRATION.species ?? {},
+    hero: INTEGRATION.hero ?? [],
+    errors: INTEGRATION.errors ?? [],
+  };
 }
 
 function applyOverrides(species: Species, store: StoreShape): Species {
@@ -234,24 +223,9 @@ export async function getSpeciesAudio(slug: string): Promise<AudioEntry[]> {
 }
 
 export async function getNews(): Promise<NewsArticle[]> {
-  const [store, integration] = await Promise.all([readStore(), getIntegration()]);
-  void integration;
-  let snapshot: NewsArticle[] = [];
-  try {
-    const raw = await readFile(path.join(process.cwd(), "public/data/news-snapshot.json"), "utf8");
-    const parsed = JSON.parse(raw) as { articles?: NewsArticle[] };
-    snapshot = parsed.articles ?? [];
-  } catch {
-    snapshot = [];
-  }
-  let live: NewsArticle[] = [];
-  try {
-    const raw = await readFile(path.join(process.cwd(), ".data/news-live.json"), "utf8");
-    const parsed = JSON.parse(raw) as { articles?: NewsArticle[] };
-    live = parsed.articles ?? [];
-  } catch {
-    live = [];
-  }
+  const store = await readStore();
+  const snapshot = NEWS_SNAPSHOT.articles ?? [];
+  const live = store.live_news ?? [];
   const deleted = new Set(store.news_deleted);
   const merged = new Map<string, NewsArticle>();
   for (const a of [...snapshot, ...live, ...store.news_manual]) {
@@ -267,13 +241,12 @@ export async function getNewsBySlug(slug: string): Promise<NewsArticle | null> {
 }
 
 export async function getNewsMeta(): Promise<{ generated_at: string | null; errors: Array<{ source_id: string; message: string; at: string }>; count: number }> {
-  try {
-    const raw = await readFile(path.join(process.cwd(), "public/data/news-snapshot.json"), "utf8");
-    const parsed = JSON.parse(raw) as { generated_at?: string; errors?: Array<{ source_id: string; message: string; at: string }>; articles?: NewsArticle[] };
-    return { generated_at: parsed.generated_at ?? null, errors: parsed.errors ?? [], count: parsed.articles?.length ?? 0 };
-  } catch {
-    return { generated_at: null, errors: [], count: 0 };
-  }
+  const store = await readStore();
+  return {
+    generated_at: store.news_live_updated_at ?? NEWS_SNAPSHOT.generated_at ?? null,
+    errors: NEWS_SNAPSHOT.errors ?? [],
+    count: (NEWS_SNAPSHOT.articles?.length ?? 0) + (store.live_news?.length ?? 0),
+  };
 }
 
 export async function getPublishedNews(): Promise<NewsArticle[]> {

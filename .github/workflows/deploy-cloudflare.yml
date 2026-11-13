@@ -1,0 +1,108 @@
+name: Deploy Cloudflare Pages + Worker
+
+on:
+  push:
+    branches: [cf-pages]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Prepare Cloudflare resources
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: node scripts/cloudflare/prepare.mjs
+
+      - name: Apply D1 schema
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler d1 execute wild-world --remote --file=cloudflare/d1/schema.sql --config wrangler.generated.jsonc
+
+      - name: Build Worker
+        env:
+          CF_BUILD: "1"
+          NEXT_PUBLIC_SITE_URL: https://wild-world-museum.pages.dev
+        run: npx opennextjs-cloudflare build
+
+      - name: Deploy Worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler deploy --config wrangler.generated.jsonc
+
+      - name: Set Worker secrets
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+          ADMIN_SESSION_SECRET: ${{ secrets.ADMIN_SESSION_SECRET }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
+        run: |
+          set -e
+          put_secret() {
+            name="$1"; value="$2"
+            if [ -n "$value" ]; then
+              printf '%s' "$value" | npx wrangler secret put "$name" --name wild-world-api
+              echo "set $name"
+            else
+              echo "skip $name (not configured)"
+            fi
+          }
+          put_secret ADMIN_PASSWORD "$ADMIN_PASSWORD"
+          put_secret ADMIN_SESSION_SECRET "$ADMIN_SESSION_SECRET"
+          put_secret AI_API_KEY "$AI_API_KEY"
+          put_secret AI_BASE_URL "$AI_BASE_URL"
+          put_secret AI_MODEL "$AI_MODEL"
+
+      - name: Deploy Pages proxy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler pages deploy cloudflare/pages/public --project-name wild-world-museum --branch main --commit-dirty=true
+
+      - name: Smoke test
+        run: |
+          set -e
+          echo "Worker: $WORKER_URL"
+          echo "Pages:  $PAGES_URL"
+          curl -fsS --max-time 30 "$WORKER_URL/api/search?q=%E9%9B%AA%E8%B1%B9" | head -c 200
+          echo
+          curl -fsS --max-time 30 "$PAGES_URL/" | grep -o "WILD WORLD" | head -1
+
+      - name: Summary
+        run: |
+          {
+            echo "## Cloudflare deployment"
+            echo ""
+            echo "- Pages: $PAGES_URL"
+            echo "- Worker: $WORKER_URL"
+            echo "- D1: $D1_ID"
+            echo ""
+            echo "Vercel 主站仍在线；确认 Pages 正常后再删除 Vercel。"
+          } >> "$GITHUB_STEP_SUMMARY"

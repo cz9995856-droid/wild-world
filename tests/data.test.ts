@@ -47,7 +47,7 @@ describe("species data integrity", () => {
   });
 
   it("only uses known groups", () => {
-    const keys = new Set(GROUPS.map((g) => g.key));
+    const keys = new Set<string>(GROUPS.map((g) => g.key));
     for (const s of SPECIES) expect(keys.has(s.group)).toBe(true);
   });
 

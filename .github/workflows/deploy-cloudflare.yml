@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  statuses: write
 
 concurrency:
   group: cloudflare-pages
@@ -145,9 +146,14 @@ jobs:
         run: curl -fsS --max-time 60 "$PAGES_URL/encyclopedia/giant-panda" | grep -o "大熊猫" | head -1
 
       - name: Smoke admin
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           code=$(curl -sS -L -o /dev/null -w '%{http_code}' --max-time 60 "$PAGES_URL/admin")
           echo "admin status=$code"
+          state="failure"
+          [ "$code" = "200" ] && state="success"
+          curl -s -o /dev/null -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json"             "https://api.github.com/repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA"             -d "{\"state\":\"$state\",\"context\":\"admin-status\",\"description\":\"HTTP $code\"}"
           test "$code" = "200"
 
       - name: Smoke map

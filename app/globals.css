@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --paper: #f5f1e7;
-  --surface: #fbf8f1;
-  --surface-2: #efe9dc;
-  --ink: #122019;
-  --ink-soft: #34443a;
-  --muted: #64716a;
-  --line: rgba(18, 32, 25, 0.14);
-  --line-strong: rgba(18, 32, 25, 0.26);
-  --forest: #0f2e22;
-  --forest-deep: #081711;
-  --sage: #a9bfa8;
-  --amber: #c29b4a;
-  --clay: #a96246;
-  --photo-overlay: linear-gradient(180deg, rgba(8, 23, 17, 0.05) 20%, rgba(8, 23, 17, 0.72) 100%);
+  --paper: #f3ede1;
+  --surface: #faf6ec;
+  --surface-2: #e8dfcf;
+  --ink: #14251c;
+  --ink-soft: #34483b;
+  --muted: #6b7367;
+  --line: rgba(20, 37, 28, 0.14);
+  --line-strong: rgba(20, 37, 28, 0.28);
+  --forest: #163a2b;
+  --forest-deep: #0b2016;
+  --sage: #a8b79e;
+  --amber: #b08a58;
+  --clay: #8b6a4b;
+  --photo-overlay: linear-gradient(180deg, rgba(11, 32, 22, 0.04) 18%, rgba(11, 32, 22, 0.74) 100%);
 }
 
 [data-theme="dark"] {

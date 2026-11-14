@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-11-14",
+  "note": "WildChina 物种影像映射。每张图片保存来源、作者、许可与核验状态；缺图时前端显示受控占位并标记待人工审核。",
+  "species": {
+    "giant-panda": {
+      "hero": {
+        "url": "/media/pixabay/giant-panda.jpg",
+        "author": "maminounou",
+        "source_name": "Pixabay",
+        "source_url": "https://pixabay.com/photos/panda-bamboo-mammal-black-and-white-8171354/",
+        "license": "Pixabay Content License",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "commercial_use": true,
+        "verified": true,
+        "review_status": "editorial"
+      },
+      "full": {
+        "url": "/media/species/giant-panda-03.jpg",
+        "author": "James Eaton",
+        "source_name": "iNaturalist",
+        "source_url": "https://www.inaturalist.org/photos/351209016",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "commercial_use": true,
+        "verified": true,
+        "review_status": "verified"
+      }
+    }
+  }
+}

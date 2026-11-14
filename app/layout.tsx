@@ -1,24 +1,20 @@
 import type { Metadata, Viewport } from "next";
-import { cookies } from "next/headers";
 import "./globals.css";
+import "./wildchina.css";
 import { Providers } from "@/components/providers";
-import { SiteHeader } from "@/components/site-header";
-import { SiteFooter } from "@/components/site-footer";
-import { SearchOverlay } from "@/components/search-overlay";
-import { SITE } from "@/lib/site-config";
-import { LOCALE_COOKIE, type Locale } from "@/lib/i18n";
+import { WC } from "@/lib/wildchina/site";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE.url),
+  metadataBase: new URL(WC.url),
   title: {
-    default: "WILD WORLD · 全球数字动物自然博物馆",
-    template: "%s · WILD WORLD",
+    default: "WildChina · 中国特有脊椎动物探索",
+    template: "%s · WildChina",
   },
-  description: SITE.description,
-  keywords: ["动物百科", "野生动物", "自然博物馆", "动物保护", "生物多样性", "WILD WORLD"],
+  description: WC.description,
+  keywords: ["中国特有动物", "野生动物", "自然科普", "物种图鉴", "生态保护", "WildChina"],
   openGraph: {
-    title: "WILD WORLD · 全球数字动物自然博物馆",
-    description: SITE.description,
+    title: "WildChina · 中国特有脊椎动物探索",
+    description: WC.description,
     type: "website",
     locale: "zh_CN",
   },
@@ -27,26 +23,19 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#F5F1E7" },
-    { media: "(prefers-color-scheme: dark)", color: "#0B1510" },
+    { media: "(prefers-color-scheme: light)", color: "#F3EDE1" },
+    { media: "(prefers-color-scheme: dark)", color: "#0B2016" },
   ],
   width: "device-width",
   initialScale: 1,
 };
 
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const store = await cookies();
-  const cookieLocale = store.get(LOCALE_COOKIE)?.value;
-  const locale: Locale = cookieLocale === "en" ? "en" : "zh";
-
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang={locale === "zh" ? "zh-CN" : "en"} suppressHydrationWarning>
+    <html lang="zh-CN" suppressHydrationWarning>
       <body className="min-h-screen antialiased">
-        <Providers initialLocale={locale}>
-          <SiteHeader initialLocale={locale} />
-          <SearchOverlay />
+        <Providers initialLocale="zh">
           <main id="main">{children}</main>
-          <SiteFooter />
         </Providers>
       </body>
     </html>

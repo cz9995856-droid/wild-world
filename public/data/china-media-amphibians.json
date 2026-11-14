@@ -4889,6 +4889,32 @@
     "review_status": "editorial",
     "ai_generated": false
    }
+  },
+  "cynops-wolterstorffi": {
+   "hero": {
+    "url": "/media/endemic/cynops-wolterstorffi-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/cynops-wolterstorffi-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
   }
  }
 }

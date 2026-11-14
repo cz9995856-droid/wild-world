@@ -46,18 +46,19 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          state="success"
-          msg="ok"
-          if [ "${{ steps.prepare.outcome }}" != "success" ]; then
-            state="failure"
-            if [ -f cloudflare/deploy-debug.log ]; then
-              msg=$(sed -E 's/\x1B\[[0-9;]*[A-Za-z]//g' cloudflare/deploy-debug.log | tail -6 | tr '\n' ' ' | cut -c1-130)
-            else
-              msg="prepare failed without log"
-            fi
+          if [ "${{ steps.prepare.outcome }}" = "success" ]; then
+            gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-prepare -f description=ok || true
+            exit 0
           fi
-          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state="$state" -f context=cf-prepare -f description="$msg"
-          if [ "$state" = "failure" ]; then exit 1; fi
+          msg="CF_PREPARE_FAIL"
+          if [ -f cloudflare/deploy-debug.log ]; then
+            if grep -q "Authentication error" cloudflare/deploy-debug.log; then msg="CF_AUTH_401"; fi
+            if grep -q "not found" cloudflare/deploy-debug.log; then msg="CF_NOT_FOUND"; fi
+            if grep -q "rate limit" cloudflare/deploy-debug.log; then msg="CF_RATE_LIMIT"; fi
+            if grep -q "Unauthorized" cloudflare/deploy-debug.log; then msg="CF_UNAUTHORIZED"; fi
+          fi
+          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=failure -f context=cf-prepare -f description="$msg" || true
+          exit 1
 
       - name: Publish deployed Worker URL
         env:

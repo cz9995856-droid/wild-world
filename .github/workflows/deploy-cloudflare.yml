@@ -41,23 +41,17 @@ jobs:
           node scripts/cloudflare/prepare.mjs 2>&1 | tee cloudflare/deploy-debug.log
           node -e "const m=require('./cloudflare/deploy-meta.json');console.log('WORKER_URL='+m.workerUrl);console.log('PAGES_URL='+m.pagesUrl);console.log('D1_ID='+m.d1Id)" >> "$GITHUB_ENV"
 
-      - name: Publish prepare diagnostic
-        if: always()
+      - name: Publish prepare failure log
+        if: steps.prepare.outcome == 'failure'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if [ "${{ steps.prepare.outcome }}" = "success" ]; then
-            gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-prepare -f description=ok || true
-            exit 0
-          fi
-          msg="CF_PREPARE_FAIL"
-          if [ -f cloudflare/deploy-debug.log ]; then
-            if grep -q "Authentication error" cloudflare/deploy-debug.log; then msg="CF_AUTH_401"; fi
-            if grep -q "not found" cloudflare/deploy-debug.log; then msg="CF_NOT_FOUND"; fi
-            if grep -q "rate limit" cloudflare/deploy-debug.log; then msg="CF_RATE_LIMIT"; fi
-            if grep -q "Unauthorized" cloudflare/deploy-debug.log; then msg="CF_UNAUTHORIZED"; fi
-          fi
-          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=failure -f context=cf-prepare -f description="$msg" || true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B cf-debug
+          git add -f cloudflare/deploy-debug.log
+          git commit -m "ci: capture cloudflare prepare failure" || true
+          git push -f origin cf-debug || true
           exit 1
 
       - name: Publish deployed Worker URL

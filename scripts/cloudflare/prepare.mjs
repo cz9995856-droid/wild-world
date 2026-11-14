@@ -21,6 +21,8 @@ if (!TOKEN || !ACCOUNT) {
 
 const root = process.cwd();
 
+console.log(`account-length=${ACCOUNT.length} account=${ACCOUNT}`);
+
 const verifyRes = await fetch("https://api.cloudflare.com/client/v4/user/tokens/verify", {
   headers: { Authorization: `Bearer ${TOKEN}`, "Content-Type": "application/json" },
 });
@@ -29,6 +31,17 @@ if (!verifyRes.ok) {
   const body = await verifyRes.text();
   console.error(`Token 验证失败 (${verifyRes.status}): ${body.slice(0, 500)}`);
   process.exit(1);
+}
+
+try {
+  const accountsRes = await fetch("https://api.cloudflare.com/client/v4/accounts", {
+    headers: { Authorization: `Bearer ${TOKEN}` },
+  });
+  const accountsBody = await accountsRes.json();
+  const ids = (accountsBody.result ?? []).map((a) => `${a.id}:${a.name}`);
+  console.log(`token-accounts-status=${accountsRes.status} accounts=${ids.join(" | ") || "none"}`);
+} catch (err) {
+  console.log(`token-accounts-error=${err instanceof Error ? err.message : String(err)}`);
 }
 
 async function cf(pathname, init = {}) {

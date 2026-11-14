@@ -59,7 +59,9 @@ describe("searchAll", () => {
 
   it("respects the category filter", () => {
     const birds = searchAll("鸟", SPECIES, news, { types: ["species"], category: "bird" });
-    expect(birds.every((h) => ["sp-010", "sp-013", "sp-017", "sp-020", "sp-023", "sp-024"].includes(h.id))).toBe(true);
+    const birdIds = new Set(SPECIES.filter((s) => s.group === "bird").map((s) => s.id));
+    expect(birds.length).toBeGreaterThan(0);
+    expect(birds.every((h) => birdIds.has(h.id))).toBe(true);
   });
 
   it("returns suggestions ranked by name match", () => {

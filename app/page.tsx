@@ -27,6 +27,7 @@ import {
   getVideos,
 } from "@/lib/repository";
 import { NEWS_SOURCES } from "@/lib/data/news-meta";
+import { buildNewsVisuals } from "@/lib/news-visual";
 import { hashString } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
@@ -47,6 +48,7 @@ export default async function HomePage() {
   ]);
   const daily = await getDailySpecies();
   const videos = getVideos();
+  const newsVisuals = buildNewsVisuals(media, species);
 
   const covers: Record<string, string> = {};
   for (const asset of media) {
@@ -54,11 +56,20 @@ export default async function HomePage() {
     if (sp && !covers[sp.slug]) covers[sp.slug] = asset.url;
   }
 
+  const diversePhotos: typeof media = [];
+  const seenMediaSpecies = new Set<string>();
+  for (const asset of media) {
+    const key = asset.species_id ?? asset.id;
+    if (seenMediaSpecies.has(key)) continue;
+    seenMediaSpecies.add(key);
+    diversePhotos.push(asset);
+  }
+
   const counts: Record<string, number> = {};
   for (const s of species) counts[s.group] = (counts[s.group] ?? 0) + 1;
 
   const categoryImages: Record<string, string> = {};
-  for (const group of ["mammal", "bird", "reptile", "amphibian", "insect"]) {
+  for (const group of ["mammal", "bird", "reptile", "amphibian", "fish", "insect"]) {
     const withPhoto = species.find((s) => s.group === group && covers[s.slug]);
     if (withPhoto) categoryImages[group] = covers[withPhoto.slug];
   }
@@ -91,6 +102,7 @@ export default async function HomePage() {
           total={news.length}
           sources={connectedSources}
           generatedAt={newsMeta.generated_at}
+          visuals={newsVisuals}
         />
       ),
     },
@@ -141,7 +153,7 @@ export default async function HomePage() {
       label: "高清摄影馆",
       description: "逐张署名的授权野生动物影像。",
       defaultVisible: true,
-      node: <PhotographySection photos={media.slice(0, 40)} />,
+      node: <PhotographySection photos={diversePhotos.slice(0, 40)} />,
     },
     {
       id: "videos",

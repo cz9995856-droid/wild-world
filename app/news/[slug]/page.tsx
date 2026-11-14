@@ -5,6 +5,7 @@ import { ExternalLink, ArrowLeft, ShieldCheck } from "lucide-react";
 import { getNews, getNewsBySlug, getAllSpecies } from "@/lib/repository";
 import { NEWS_CATEGORY_LABEL, NEWS_SOURCES } from "@/lib/data/news-meta";
 import { DataBadge } from "@/components/ui/badges";
+import { OfficialSourceBar } from "@/components/ui/official-source";
 import { formatDate, formatDateTime } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
@@ -66,7 +67,15 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
               <p className="mt-3 font-serif text-[15px] italic leading-relaxed text-[var(--muted)]">{article.title_original}</p>
             )}
 
-            <div className="mt-7 border-y border-[var(--line)] py-4">
+            <OfficialSourceBar
+              href={article.original_url}
+              name={`${article.source_name} · ${article.title_original}`}
+              note={`该报道发布于 ${formatDate(article.published_at)}，版权归原媒体所有。本馆只提供官方原文入口，不转载全文与图片。`}
+              cta="阅读官方原文"
+              className="mt-7"
+            />
+
+            <div className="mt-5 border-y border-[var(--line)] py-4">
               <p className="text-[13.5px] leading-relaxed text-[var(--ink-soft)]">
                 {article.summary_cn ?? article.excerpt_original}
               </p>

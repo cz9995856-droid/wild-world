@@ -15,3 +15,8 @@ playwright-report
 test-results
 .DS_Store
 .codeartsdoer/
+.open-next/
+.wrangler/
+wrangler.generated.jsonc
+cloudflare/deploy-meta.json
+cloudflare/pages/public/media/

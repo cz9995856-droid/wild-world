@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader } from "@/components/ui/page-header";
 import { NewsBrowser } from "@/components/news/news-browser";
-import { getNews } from "@/lib/repository";
+import { getAllSpecies, getMediaAssets, getNews } from "@/lib/repository";
 import { NEWS_SOURCES } from "@/lib/data/news-meta";
 import { formatDate } from "@/lib/utils";
+import { buildNewsVisuals } from "@/lib/news-visual";
 
 export const dynamic = "force-dynamic";
 
@@ -14,7 +15,8 @@ export const metadata: Metadata = {
 };
 
 export default async function NewsPage() {
-  const articles = await getNews();
+  const [articles, species, media] = await Promise.all([getNews(), getAllSpecies(), getMediaAssets()]);
+  const visuals = buildNewsVisuals(media, species);
   const connected = NEWS_SOURCES.filter((s) => s.status === "connected");
 
   return (
@@ -66,7 +68,7 @@ export default async function NewsPage() {
           </div>
         </div>
 
-        <NewsBrowser articles={articles} />
+        <NewsBrowser articles={articles} visuals={visuals} />
       </div>
     </>
   );

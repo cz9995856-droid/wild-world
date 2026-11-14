@@ -4,8 +4,8 @@
 
 - 技术栈：Next.js 15 App Router · React 19 · TypeScript · Tailwind CSS 3 · MapLibre GL · React Three Fiber
 - 数据层：Supabase / PostgreSQL 迁移与种子已提供；未配置数据库时使用本地种子 + `.data` 文件仓库
-- 真实素材：94 张 iNaturalist 授权影像、9 条野外录音、4 张首屏授权影像；逐张记录作者、来源、许可与获取时间
-- 真实新闻：60 条来自 Mongabay / Nature / ScienceDaily / Phys.org 的 RSS 条目；标题、发布日期与原文链接均来自源站
+- 真实素材：144 张 iNaturalist 授权影像（36 物种各 4 张）+ 35 张 Pixabay 授权影像、36 条 30 秒试听预览、4 张首屏授权影像，以及馆方用授权图片生成的 22 秒循环短片；逐张记录作者、来源、许可与获取时间
+- 真实新闻：68 条来自 Mongabay / Nature / ScienceDaily / Phys.org 的 RSS 条目；标题、发布日期与原文链接均来自源站，配图使用馆藏授权影像并标注“示意图”
 - 状态透明：已核验 / 编辑整理 / 待审核 / 示例；未连接的接口明确显示未配置，不伪造连接状态
 
 > 当前环境说明：本项目已完成页面联调、**生产构建（npm run build）**、类型检查、ESLint 与 39 个单元测试。由于执行环境限制，**Playwright 浏览器测试未能运行**；用例已提供。详见 [`TEST_REPORT.md`](./TEST_REPORT.md)。
@@ -237,3 +237,4 @@ node scripts/json-to-seed-sql.mjs /path/to/export.json supabase/seed.sql
 - 纪录片：版权归制作机构，本站仅提供官方外链。
 
 数据与许可详情：[`DATA_SOURCES.md`](./DATA_SOURCES.md) · 部署：[`DEPLOYMENT.md`](./DEPLOYMENT.md) · 测试：[`TEST_REPORT.md`](./TEST_REPORT.md)
+<!-- cloudflare hybrid deployment: 2026-11-13T17:35:38Z -->

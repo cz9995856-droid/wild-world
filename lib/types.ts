@@ -116,7 +116,7 @@ export interface Species {
   featured: boolean;
   updated_at: string;
   palette: { base: string; deep: string; accent: string };
-  artwork: "bear" | "cat" | "elephant" | "whale" | "giraffe" | "primate" | "bird" | "reptile" | "amphibian" | "insect" | "canine" | "antelope";
+  artwork: "bear" | "cat" | "elephant" | "whale" | "giraffe" | "primate" | "bird" | "reptile" | "amphibian" | "insect" | "canine" | "antelope" | "fish" | "invertebrate";
 }
 
 export type NewsCategory =

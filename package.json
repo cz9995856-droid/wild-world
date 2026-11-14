@@ -14,7 +14,11 @@
     "test:e2e": "playwright test",
     "fetch:media": "node scripts/fetch-media.mjs",
     "fetch:sounds": "node scripts/fetch-sounds.mjs",
-    "sync:news": "node scripts/sync-news.mjs"
+    "sync:news": "node scripts/sync-news.mjs",
+    "cf:prepare": "node scripts/cloudflare/prepare.mjs",
+    "cf:build": "opennextjs-cloudflare build",
+    "cf:deploy": "wrangler deploy --config wrangler.generated.jsonc",
+    "cf:pages": "wrangler pages deploy cloudflare/pages/public --project-name wild-world-museum --branch main --commit-dirty=true"
   },
   "dependencies": {
     "@react-three/drei": "10.7.9",
@@ -31,6 +35,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "3.3.3",
+    "@opennextjs/cloudflare": "^1.20.17",
     "@playwright/test": "1.65.0",
     "@types/node": "22.10.5",
     "@types/react": "19.0.7",
@@ -41,7 +46,10 @@
     "eslint-config-next": "15.5.29",
     "postcss": "8.4.49",
     "tailwindcss": "3.4.19",
+    "topojson-client": "^3.1.0",
     "typescript": "5.7.3",
-    "vitest": "3.2.7"
+    "vitest": "3.2.7",
+    "world-atlas": "^2.0.2",
+    "wrangler": "^4.161.0"
   }
 }

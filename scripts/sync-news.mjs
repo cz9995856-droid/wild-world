@@ -4,7 +4,7 @@ import { XMLParser } from "fast-xml-parser";
 
 const ROOT = process.cwd();
 const UA = process.env.NEWS_USER_AGENT || "WILDWORLD-Museum/1.0 (+https://wildworld.example.org)";
-const MAX_ITEMS = Number(process.env.NEWS_SYNC_MAX_ITEMS || 60);
+const MAX_ITEMS = Number(process.env.NEWS_SYNC_MAX_ITEMS || 120);
 
 const FEEDS = [
   { id: "mongabay", name: "Mongabay", url: "https://news.mongabay.com/feed/", fallback: "conservation" },

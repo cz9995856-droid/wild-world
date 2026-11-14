@@ -55,13 +55,11 @@ jobs:
       - name: Publish deployed Worker URL
         env:
           GH_TOKEN: ${{ github.token }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          curl -s -o /dev/null -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" \
-            -d "{\"state\":\"success\",\"context\":\"cf-worker-url\",\"description\":\"$WORKER_URL\"}"
-          curl -s -o /dev/null -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" \
-            -d "{\"state\":\"success\",\"context\":\"cf-pages-url\",\"description\":\"$PAGES_URL\"}"
+          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-worker-url -f description="$WORKER_URL"
+          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-pages-url -f description="$PAGES_URL"
+          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-account-id -f description="$CLOUDFLARE_ACCOUNT_ID"
 
       - name: Build Worker
         env:

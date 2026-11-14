@@ -26,6 +26,7 @@ export const FOOTER_GROUPS = [
       { href: "/encyclopedia", label: "动物百科" },
       { href: "/photography", label: "高清摄影馆" },
       { href: "/videos", label: "纪录片专区" },
+      { href: "/taxonomy", label: "分类树" },
       { href: "/timeline", label: "进化时间线" },
     ],
   },

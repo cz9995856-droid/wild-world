@@ -1,4 +1,5 @@
 import type { SourceRef, Species } from "@/lib/types";
+import { EXTRA_SPECIES } from "./species-extra";
 
 const RETRIEVED = "2026-11-01";
 
@@ -73,7 +74,7 @@ function sp(input: Omit<Species, "conservation" | "status_label" | "verified" | 
   };
 }
 
-export const SPECIES: Species[] = [
+const BASE_SPECIES: Species[] = [
   sp({
     id: "sp-001",
     slug: "giant-panda",
@@ -1278,6 +1279,8 @@ export const SPECIES: Species[] = [
   }),
 ];
 
+export const SPECIES: Species[] = [...BASE_SPECIES, ...EXTRA_SPECIES];
+
 export const SPECIES_BY_SLUG = new Map(SPECIES.map((s) => [s.slug, s]));
 export const SPECIES_BY_ID = new Map(SPECIES.map((s) => [s.id, s]));
 
@@ -1287,5 +1290,6 @@ export const GROUPS = [
   { key: "bird", label: "鸟类", en: "Birds" },
   { key: "reptile", label: "爬行动物", en: "Reptiles" },
   { key: "amphibian", label: "两栖动物", en: "Amphibians" },
+  { key: "fish", label: "鱼类", en: "Fish" },
   { key: "insect", label: "昆虫", en: "Insects" },
 ] as const;

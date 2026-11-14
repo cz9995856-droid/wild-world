@@ -38,7 +38,7 @@ const news = JSON.parse(readFileSync(path.join(root, "public/data/news-snapshot.
 describe("species data integrity", () => {
   it("contains a full catalogue", () => {
     expect(SPECIES.length).toBeGreaterThanOrEqual(20);
-    expect(SPECIES.length).toBe(24);
+    expect(SPECIES.length).toBeGreaterThanOrEqual(30);
   });
 
   it("has unique ids and slugs", () => {

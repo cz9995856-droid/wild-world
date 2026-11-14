@@ -116,10 +116,31 @@ export function WorldMap({
     if (!containerRef.current || mapRef.current) return;
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: "https://demotiles.maplibre.org/style.json",
+      style: {
+        version: 8,
+        sources: {
+          land: { type: "geojson", data: "/data/world-land.json" },
+          graticule: { type: "geojson", data: "/data/world-graticule.json" },
+        },
+        layers: [
+          { id: "background", type: "background", paint: { "background-color": "#EDE8DC" } },
+          {
+            id: "land",
+            type: "fill",
+            source: "land",
+            paint: { "fill-color": "#D9D0BE", "fill-outline-color": "#948C79" },
+          },
+          {
+            id: "graticule",
+            type: "line",
+            source: "graticule",
+            paint: { "line-color": "#122019", "line-opacity": 0.12, "line-width": 0.6 },
+          },
+        ],
+      },
       center: [25, 18],
       zoom: 1.4,
-      attributionControl: { compact: true },
+      attributionControl: false,
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
     map.addControl(new maplibregl.ScaleControl({ maxWidth: 90, unit: "metric" }), "bottom-left");
@@ -329,17 +350,20 @@ export function WorldMap({
             </button>
           </div>
         )}
-        <div className="pointer-events-none absolute left-3 top-3 z-10 border border-[var(--line)] bg-[var(--surface)] px-3 py-2 text-[9.5px] text-[var(--muted)] shadow-sm">
+        <div className="pointer-events-none absolute left-3 top-3 z-10 border border-[var(--line)] bg-[var(--surface)] px-3 py-2 text-[11px] text-[var(--muted)] shadow-sm">
           <p className="text-[var(--ink-soft)]">图例 / Legend</p>
           <p className="mt-1 flex items-center gap-1.5"><span className="h-2 w-2 rounded-full bg-[#C29B4A]" /> GBIF {gbifCount}</p>
           <p className="mt-0.5 flex items-center gap-1.5"><span className="h-2 w-2 rounded-full bg-[#2A6B51]" /> iNaturalist {inatCount}</p>
         </div>
         <button
           onClick={resetView}
-          className="absolute bottom-4 right-4 z-10 flex items-center gap-1.5 border border-[var(--line-strong)] bg-[var(--surface)] px-3 py-2 text-[10px] shadow-sm"
+          className="absolute bottom-4 right-4 z-10 flex items-center gap-1.5 border border-[var(--line-strong)] bg-[var(--surface)] px-3 py-2 text-[11px] shadow-sm"
         >
           <RotateCcw size={11} /> 重置视图
         </button>
+        <span className="pointer-events-none absolute bottom-1 right-4 z-10 text-[9px] text-[var(--muted)]">
+          Natural Earth（公共领域）· GBIF · iNaturalist
+        </span>
       </div>
 
       <aside className="space-y-3">

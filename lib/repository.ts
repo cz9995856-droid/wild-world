@@ -317,10 +317,16 @@ export async function getSiteSettings() {
       : null;
   });
   return {
-    hero_video_url: store.settings.hero_video_url ?? process.env.NEXT_PUBLIC_HERO_VIDEO_URL ?? "",
+    hero_video_url:
+      store.settings.hero_video_url ??
+      process.env.NEXT_PUBLIC_HERO_VIDEO_URL ??
+      "/media/hero/wild-world-loop.mp4",
     hero_poster:
       store.settings.hero_poster ?? process.env.NEXT_PUBLIC_HERO_VIDEO_POSTER ?? heroImages[0] ?? "",
-    hero_video_credit: store.settings.hero_video_credit ?? process.env.NEXT_PUBLIC_HERO_VIDEO_CREDIT ?? "",
+    hero_video_credit:
+      store.settings.hero_video_credit ??
+      process.env.NEXT_PUBLIC_HERO_VIDEO_CREDIT ??
+      "馆方剪辑 · 素材为馆藏授权影像，非野外实拍视频",
     hero_images: heroImages,
     hero_credits: heroCredits,
     daily_species_slug: store.settings.daily_species_slug ?? null,

@@ -76,7 +76,7 @@ supabase db push          # 应用 supabase/migrations/0001_init.sql
 1. `supabase/migrations/0001_init.sql`
 2. `supabase/seed.sql`
 
-`seed.sql` 由后台导出自动生成，包含 24 个物种、96 张媒体、20 条录音、48 条新闻、8 个视频条目、12 道题、7 个时间线节点、来源与首页配置。
+`seed.sql` 由后台导出自动生成，包含 36 个物种、144 张媒体、36 条录音、68 条新闻、8 个视频条目、12 道题、7 个时间线节点、来源与首页配置。
 
 ### 4.2 环境变量
 

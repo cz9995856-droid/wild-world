@@ -7,7 +7,8 @@
 | 来源 | 用途 | 接口 / 方式 | 当前状态 | 许可与商用 |
 | --- | --- | --- | --- | --- |
 | [GBIF](https://www.gbif.org/) | 物种分类键、观测记录 | `https://api.gbif.org/v1/species/match`、`/occurrence/search` | **实时可用**，无需密钥 | 各数据集许可不同（CC0 / CC BY / CC BY-NC）；逐条记录 `datasetKey` 与许可；商用需逐条核对 |
-| [iNaturalist](https://www.inaturalist.org/) | 物种图片、野外录音、观测点 | `https://api.inaturalist.org/v1/taxa`、`/observations`；媒体文件 `inaturalist-open-data.s3.amazonaws.com` | **已抓取**：144 张图（36 物种 × 4）、36 条录音；观测点实时 | 逐张 CC BY / CC BY-NC / CC BY-NC-SA 等；NC 不商用；本站不提供 NC 素材直接下载 |
+| [iNaturalist](https://www.inaturalist.org/) | 物种图片、野外录音、观测点 | `https://api.inaturalist.org/v1/taxa`、`/observations`；媒体文件 `inaturalist-open-data.s3.amazonaws.com` | **已抓取**：144 张图（36 物种 × 4）、36 条录音（本地 30 秒试听预览）；观测点实时 | 逐张 CC BY / CC BY-NC / CC BY-NC-SA 等；NC 不商用；本站不提供 NC 素材直接下载 |
+| [Pixabay](https://pixabay.com/) | 高清野生动物照片扩展 | `https://pixabay.com/api/`（官方 API）+ 本地压缩入库 | **已抓取**：35 张横版图（每物种 1 张；vaquita 无合适横版图未使用替代品） | Pixabay Content License：可商用与改编；禁止转售未改编素材与暗示背书；逐张保留作者与页面链接 |
 | [Mongabay RSS](https://news.mongabay.com/feed/) | 保护与环境新闻 | RSS | **已连接**（32 条原始条目） | 仅标题 / 摘要 / 链接；版权归 Mongabay |
 | [Nature RSS](https://www.nature.com/nature.rss) | 动物学研究 | RSS | **已连接**（按动物相关性过滤） | 仅标题 / 摘要 / 链接；版权归 Nature Portfolio |
 | [ScienceDaily](https://www.sciencedaily.com/rss/plants_animals.xml) | 动植物研究 | RSS | **已连接** | 仅标题 / 摘要 / 链接 |
@@ -17,11 +18,11 @@
 ### 抓取结果（`public/data/integration.json`）
 
 - 生成时间：2026-11-14
-- 物种：36 / 36 有档案，36 / 36 有可用授权照片（每物种 4 张）
-- 图片：144 张，全部保存作者、许可、原始记录 ID、获取时间
-- 录音：36 条（iNaturalist，许可与录音者逐条记录）
+- 物种：36 / 36 有档案，36 / 36 有可用授权照片
+- 图片：179 张（144 张 iNaturalist + 35 张 Pixabay），全部保存作者、许可、原始记录 ID、获取时间
+- 录音：36 条（iNaturalist，许可与录音者逐条记录；本地为 30 秒试听预览，完整录音见来源页）
 - 首屏：4 张横向授权照片（`public/media/hero`）+ 馆方用授权图片生成的 22 秒循环短片（`wild-world-loop.mp4`）
-- 已知限制：98 张为 CC BY-NC，仅用于非商业展示；新闻配图只选可商用影像，并标注“示意图”
+- 已知限制：98 张 iNaturalist 素材为 CC BY-NC，仅用于非商业展示；新闻配图只选可商用影像，并标注“示意图”
 
 > 媒体文件已本地化到 `public/media`，避免外链失效。许可元数据仍指向原始记录页。
 

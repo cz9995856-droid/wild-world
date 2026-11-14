@@ -4,7 +4,7 @@
 
 - 技术栈：Next.js 15 App Router · React 19 · TypeScript · Tailwind CSS 3 · MapLibre GL · React Three Fiber
 - 数据层：Supabase / PostgreSQL 迁移与种子已提供；未配置数据库时使用本地种子 + `.data` 文件仓库
-- 真实素材：144 张 iNaturalist 授权影像（36 物种各 4 张）、36 条野外录音、4 张首屏授权影像，以及馆方用授权图片生成的 22 秒循环短片；逐张记录作者、来源、许可与获取时间
+- 真实素材：144 张 iNaturalist 授权影像（36 物种各 4 张）+ 35 张 Pixabay 授权影像、36 条 30 秒试听预览、4 张首屏授权影像，以及馆方用授权图片生成的 22 秒循环短片；逐张记录作者、来源、许可与获取时间
 - 真实新闻：68 条来自 Mongabay / Nature / ScienceDaily / Phys.org 的 RSS 条目；标题、发布日期与原文链接均来自源站，配图使用馆藏授权影像并标注“示意图”
 - 状态透明：已核验 / 编辑整理 / 待审核 / 示例；未连接的接口明确显示未配置，不伪造连接状态
 

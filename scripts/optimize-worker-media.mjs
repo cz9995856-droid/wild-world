@@ -28,13 +28,13 @@ async function walk(dir) {
     try {
       const meta = await sharp(buffer).metadata();
       const isHero = full.includes(`${path.sep}hero${path.sep}`);
-      const maxWidth = isHero ? 1920 : 1400;
-      const needsResize = (meta.width ?? 0) > maxWidth || buffer.length > 220_000;
+      const maxWidth = isHero ? 1600 : 1080;
+      const needsResize = (meta.width ?? 0) > maxWidth || buffer.length > 180_000;
       if (needsResize) {
         const output = await sharp(buffer)
           .rotate()
           .resize({ width: maxWidth, withoutEnlargement: true })
-          .jpeg({ quality: isHero ? 78 : 74, mozjpeg: true })
+          .jpeg({ quality: isHero ? 76 : 68, mozjpeg: true })
           .toBuffer();
         if (output.length < buffer.length) {
           await writeFile(full, output);

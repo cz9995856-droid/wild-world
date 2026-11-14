@@ -16,9 +16,11 @@ const integration = JSON.parse(readFileSync(path.join(root, "public/data/integra
     url: string;
     author: string;
     license: string;
+    source_name: string;
     source_url: string;
     retrieved_at: string;
     commercial_use: boolean;
+    derivatives_allowed: boolean;
   }>;
   sounds: Array<{
     id: string;
@@ -98,8 +100,12 @@ describe("media provenance", () => {
     for (const photo of integration.photos) {
       expect(photo.license).toBeTruthy();
       expect(photo.author).toBeTruthy();
-      expect(photo.source_url).toMatch(/^https:\/\/www\.inaturalist\.org\/photos\//);
+      expect(photo.source_url).toMatch(/^https:\/\/(www\.inaturalist\.org\/photos\/|pixabay\.com\/photos\/)/);
       expect(photo.retrieved_at).toBeTruthy();
+      if (photo.source_name === "Pixabay") {
+        expect(photo.commercial_use).toBe(true);
+        expect(photo.derivatives_allowed).toBe(true);
+      }
       expect(SPECIES.some((s) => s.slug === photo.species_slug)).toBe(true);
       expect(existsSync(path.join(root, "public", photo.url.replace(/^\//, "")))).toBe(true);
       if (photo.license.includes("NC")) expect(photo.commercial_use).toBe(false);

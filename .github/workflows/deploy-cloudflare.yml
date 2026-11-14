@@ -37,7 +37,9 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: node scripts/cloudflare/prepare.mjs 2>&1 | tee cloudflare/deploy-debug.log
+        run: |
+          node scripts/cloudflare/prepare.mjs 2>&1 | tee cloudflare/deploy-debug.log
+          node -e "const m=require('./cloudflare/deploy-meta.json');console.log('WORKER_URL='+m.workerUrl);console.log('PAGES_URL='+m.pagesUrl);console.log('D1_ID='+m.d1Id)" >> "$GITHUB_ENV"
 
       - name: Publish prepare failure log
         if: steps.prepare.outcome == 'failure'

@@ -60,10 +60,11 @@ jobs:
 
       - name: Split media to Pages
         run: |
-          rm -rf cloudflare/pages/public/media .open-next/assets/media
+          rm -rf cloudflare/pages/public/media
           mkdir -p cloudflare/pages/public
           cp -r public/media cloudflare/pages/public/media
-          du -sh cloudflare/pages/public/media .open-next/assets
+          node scripts/optimize-worker-media.mjs .open-next/assets/media
+          du -sh cloudflare/pages/public/media .open-next/assets/media
 
       - name: Deploy Worker
         id: deploy
@@ -100,7 +101,7 @@ jobs:
           put_secret() {
             name="$1"; value="$2"
             if [ -n "$value" ]; then
-              printf '%s' "$value" | npx wrangler secret put "$name" --name wild-world-api
+              printf '%s' "$value" | npx wrangler secret put "$name" --name wild-world
               echo "set $name"
             else
               echo "skip $name (not configured)"

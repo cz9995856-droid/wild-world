@@ -3,7 +3,7 @@ import path from "node:path";
 
 const TOKEN = process.env.CLOUDFLARE_API_TOKEN;
 const ACCOUNT = process.env.CLOUDFLARE_ACCOUNT_ID;
-const WORKER_NAME = "wild-world-api";
+const WORKER_NAME = "wild-world";
 const PAGES_PROJECT = "wild-world-museum";
 const D1_NAME = "wild-world";
 

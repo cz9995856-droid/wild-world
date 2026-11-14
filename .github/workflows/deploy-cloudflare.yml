@@ -41,18 +41,23 @@ jobs:
           node scripts/cloudflare/prepare.mjs 2>&1 | tee cloudflare/deploy-debug.log
           node -e "const m=require('./cloudflare/deploy-meta.json');console.log('WORKER_URL='+m.workerUrl);console.log('PAGES_URL='+m.pagesUrl);console.log('D1_ID='+m.d1Id)" >> "$GITHUB_ENV"
 
-      - name: Publish prepare failure log
-        if: steps.prepare.outcome == 'failure'
+      - name: Publish prepare diagnostic
+        if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -b cf-debug || git checkout cf-debug
-          git add -f cloudflare/deploy-debug.log
-          git commit -m "ci: capture cloudflare prepare failure"
-          git push -f origin cf-debug
-          exit 1
+          state="success"
+          msg="ok"
+          if [ "${{ steps.prepare.outcome }}" != "success" ]; then
+            state="failure"
+            if [ -f cloudflare/deploy-debug.log ]; then
+              msg=$(sed -E 's/\x1B\[[0-9;]*[A-Za-z]//g' cloudflare/deploy-debug.log | tail -6 | tr '\n' ' ' | cut -c1-130)
+            else
+              msg="prepare failed without log"
+            fi
+          fi
+          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state="$state" -f context=cf-prepare -f description="$msg"
+          if [ "$state" = "failure" ]; then exit 1; fi
 
       - name: Publish deployed Worker URL
         env:

@@ -1,8 +1,15 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const TOKEN = process.env.CLOUDFLARE_API_TOKEN;
-const ACCOUNT = process.env.CLOUDFLARE_ACCOUNT_ID;
+const rawToken = process.env.CLOUDFLARE_API_TOKEN ?? "";
+const TOKEN = rawToken.trim();
+const ACCOUNT = (process.env.CLOUDFLARE_ACCOUNT_ID ?? "").trim();
+
+console.log(`token-length=${TOKEN.length} had-whitespace=${TOKEN !== rawToken} had-newline=${rawToken.includes("\n")}`);
+if (!TOKEN || TOKEN.length < 30 || /\s/.test(TOKEN)) {
+  console.error("Cloudflare API Token 格式不正确：请只粘贴 Token 值，不要包含变量名、空格或换行。");
+  process.exit(1);
+}
 const WORKER_NAME = "wild-world-app";
 const PAGES_PROJECT = "wild-world-museum";
 const D1_NAME = "wild-world";
@@ -13,6 +20,16 @@ if (!TOKEN || !ACCOUNT) {
 }
 
 const root = process.cwd();
+
+const verifyRes = await fetch("https://api.cloudflare.com/client/v4/user/tokens/verify", {
+  headers: { Authorization: `Bearer ${TOKEN}`, "Content-Type": "application/json" },
+});
+console.log(`token-verify-status=${verifyRes.status}`);
+if (!verifyRes.ok) {
+  const body = await verifyRes.text();
+  console.error(`Token 验证失败 (${verifyRes.status}): ${body.slice(0, 500)}`);
+  process.exit(1);
+}
 
 async function cf(pathname, init = {}) {
   const res = await fetch(`https://api.cloudflare.com/client/v4/accounts/${ACCOUNT}${pathname}`, {

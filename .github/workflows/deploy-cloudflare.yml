@@ -60,11 +60,10 @@ jobs:
 
       - name: Split media to Pages
         run: |
-          rm -rf cloudflare/pages/public/media
+          rm -rf cloudflare/pages/public/media .open-next/assets/media
           mkdir -p cloudflare/pages/public
           cp -r public/media cloudflare/pages/public/media
-          node scripts/optimize-worker-media.mjs .open-next/assets/media
-          du -sh cloudflare/pages/public/media .open-next/assets/media
+          du -sh cloudflare/pages/public/media .open-next/assets
 
       - name: Deploy Worker
         id: deploy

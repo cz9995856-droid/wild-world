@@ -1,3 +1,5 @@
+import amphibianData from "@/public/data/china-species-amphibians.json";
+
 export type ChinaGroup = "mammal" | "bird" | "reptile" | "amphibian" | "fish";
 
 export interface ChinaSpecies {
@@ -39,7 +41,7 @@ export interface ChinaSpecies {
 const SP2000 = "https://www.sp2000.org.cn/";
 const IUCN = "https://www.iucnredlist.org/";
 
-export const CHINA_SPECIES: ChinaSpecies[] = [
+const BASE_CHINA_SPECIES: ChinaSpecies[] = [
   {
     slug: "giant-panda",
     nameCn: "大熊猫",
@@ -390,6 +392,11 @@ export const CHINA_SPECIES: ChinaSpecies[] = [
     ],
     verified: true,
   },
+];
+
+export const CHINA_SPECIES: ChinaSpecies[] = [
+  ...BASE_CHINA_SPECIES,
+  ...(amphibianData as unknown as ChinaSpecies[]),
 ];
 
 export const CHINA_SPECIES_BY_SLUG = new Map(CHINA_SPECIES.map((s) => [s.slug, s]));

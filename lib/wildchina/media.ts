@@ -1,4 +1,5 @@
 import raw from "@/public/data/china-media.json";
+import amphibianRaw from "@/public/data/china-media-amphibians.json";
 
 export interface ChinaImage {
   url: string;
@@ -10,6 +11,7 @@ export interface ChinaImage {
   commercial_use: boolean;
   verified: boolean;
   review_status: string;
+  ai_generated?: boolean;
 }
 
 export type ChinaMediaSlot = "hero" | "habitat" | "full";
@@ -20,7 +22,10 @@ interface ChinaMediaEntry {
   full?: ChinaImage;
 }
 
-export const CHINA_MEDIA = raw.species as Record<string, ChinaMediaEntry>;
+export const CHINA_MEDIA = {
+  ...(raw.species as Record<string, ChinaMediaEntry>),
+  ...(amphibianRaw.species as Record<string, ChinaMediaEntry>),
+} as Record<string, ChinaMediaEntry>;
 
 export function getSpeciesImage(slug: string, slot: ChinaMediaSlot): ChinaImage | null {
   return CHINA_MEDIA[slug]?.[slot] ?? null;

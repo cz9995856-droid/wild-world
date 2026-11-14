@@ -1,0 +1,4894 @@
+{
+ "generated_at": "2026-11-14",
+ "note": "两栖类中国特有种影像映射（iNaturalist 远程 CDN）",
+ "species": {
+  "ichthyophis-bannanicus": {
+   "hero": {
+    "url": "/media/endemic/ichthyophis-bannanicus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/ichthyophis-bannanicus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "hynobius-amjiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348573513/large.jpeg",
+    "author": "Yinpeng Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/348573513",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257989216/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/257989216",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hynobius-arisanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40624720/medium.jpg",
+    "author": "Cheng-Tao Lin",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/40624720",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40624072/medium.jpg",
+    "author": "Cheng-Tao Lin",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/40624072",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hynobius-chinensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619713822/medium.jpg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/619713822",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619713812/medium.jpg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/619713812",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hynobius-formosanus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/435700605/large.jpeg",
+    "author": "Chi-Hsuan Shao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/435700605",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441671059/large.jpeg",
+    "author": "Chi-Hsuan Shao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/441671059",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hynobius-fucus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356951788/medium.jpg",
+    "author": "Shaway Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/356951788",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58132158/large.jpeg",
+    "author": "yulee",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/58132158",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hynobius-glacialis": {
+   "hero": {
+    "url": "/media/endemic/hynobius-glacialis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/hynobius-glacialis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "hynobius-guabangshanensis": {
+   "hero": {
+    "url": "/media/endemic/hynobius-guabangshanensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/hynobius-guabangshanensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "hynobius-maoershanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/551211495/medium.jpg",
+    "author": "p_concolor",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/551211495",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166255047/large.jpeg",
+    "author": "航一帆",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/166255047",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hynobius-sonani": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443588388/large.jpeg",
+    "author": "guanyuan8488",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/443588388",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/298804008/medium.jpg",
+    "author": "Larry Chen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/298804008",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hynobius-yiwuensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/307663637/medium.jpg",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/307663637",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451228639/large.jpeg",
+    "author": "李博恒",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/451228639",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pachyhynobius-shangchengensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/635193541/medium.jpg",
+    "author": "海丰沙塘鳢",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/635193541",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639471226/medium.jpg",
+    "author": "森中之龙",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/639471226",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pseudohynobius-flavomaculatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263722760/large.jpeg",
+    "author": "kangrinpoche",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/263722760",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/550635686/medium.jpg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/550635686",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pseudohynobius-jinfo": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484055058/medium.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/484055058",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484055058/medium.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/484055058",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pseudohynobius-kuankuoshuiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/437887291/medium.png",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/437887291",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/437887291/medium.png",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/437887291",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pseudohynobius-puxiongensis": {
+   "hero": {
+    "url": "/media/endemic/pseudohynobius-puxiongensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/pseudohynobius-puxiongensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "liua-shihi": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275482566/large.jpeg",
+    "author": "noobmaster6138",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/275482566",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/274893137/large.jpeg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/274893137",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "liua-tsinpaensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/388831080/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/388831080",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/388626270/large.jpeg",
+    "author": "Vishal Kumar Prasad",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/388626270",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "onychodactylus-zhangyapingi": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376353196/large.jpeg",
+    "author": "Dallin Kohler",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/376353196",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/377073649/large.jpeg",
+    "author": "Dallin Kohler",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/377073649",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "onychodactylus-zhaoermii": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378001853/large.jpeg",
+    "author": "Dallin Kohler",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/378001853",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378000003/large.jpeg",
+    "author": "Dallin Kohler",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/378000003",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "batrachuperus-karlschmidti": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57583083/medium.jpg",
+    "author": "ZY Yao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/57583083",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57583083/medium.jpg",
+    "author": "ZY Yao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/57583083",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "batrachuperus-londongensis": {
+   "hero": {
+    "url": "/media/endemic/batrachuperus-londongensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/batrachuperus-londongensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "batrachuperus-pinchonii": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57583098/medium.jpg",
+    "author": "ZY Yao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/57583098",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57583098/medium.jpg",
+    "author": "ZY Yao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/57583098",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "batrachuperus-taibaiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260528376/medium.jpg",
+    "author": "Zongzhuang Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/260528376",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/260528376/medium.jpg",
+    "author": "Zongzhuang Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/260528376",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "batrachuperus-tibetanus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155356/medium.jpg",
+    "author": "2012 Todd Pierson",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/155356",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155356/medium.jpg",
+    "author": "2012 Todd Pierson",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/155356",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "batrachuperus-yenyuanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/478256340/large.jpeg",
+    "author": "昆虫学liuye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/478256340",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/478256344/large.jpeg",
+    "author": "昆虫学liuye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/478256344",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "andrias-davidianus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/409145395/large.jpeg",
+    "author": "王晨宇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/409145395",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592867929/medium.jpg",
+    "author": "mk0403",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/592867929",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-asperrimus": {
+   "hero": {
+    "url": "/media/endemic/tylototriton-asperrimus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/tylototriton-asperrimus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "tylototriton-kweichowensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/667304331/medium.jpg",
+    "author": "esoue",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/667304331",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393246340/medium.jpg",
+    "author": "Yishen Xiao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/393246340",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-pseudoverrucosus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693393504/medium.jpg",
+    "author": "nectocotis",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/693393504",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693393496/medium.jpg",
+    "author": "nectocotis",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/693393496",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-shanjing": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276585582/large.jpeg",
+    "author": "Yann Bigant",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/276585582",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64570/medium.jpg",
+    "author": "Brian Gratwicke",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/64570",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-verrucosus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293553123/medium.png",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/293553123",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293553123/medium.png",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/293553123",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-wenxianensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604922996/medium.jpg",
+    "author": "刘昭宇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/604922996",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604922996/medium.jpg",
+    "author": "刘昭宇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/604922996",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-taliangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/692071879/medium.jpg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/692071879",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/692071879/medium.jpg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/692071879",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-anhuiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649112958/medium.jpg",
+    "author": "rofmsyb",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/649112958",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530019609/medium.jpg",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/530019609",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-hainanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/381203730/medium.jpg",
+    "author": "oldfears",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/381203730",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/381203695/medium.jpg",
+    "author": "oldfears",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/381203695",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "echinotriton-chinhaiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/634609088/medium.jpg",
+    "author": "mingyafeng",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/634609088",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/634609088/medium.jpg",
+    "author": "mingyafeng",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/634609088",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "echinotriton-maxiquadratus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/612732438/medium.jpg",
+    "author": "jjydd",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/612732438",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/431909111/large.jpeg",
+    "author": "o-o2002",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/431909111",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-archospotus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738718689/medium.jpg",
+    "author": "KrabX",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/738718689",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738718689/medium.jpg",
+    "author": "KrabX",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/738718689",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-brevipes": {
+   "hero": {
+    "url": "/media/endemic/pachytriton-brevipes-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/pachytriton-brevipes-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "pachytriton-feii": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62374106/medium.jpg",
+    "author": "John Howes",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/62374106",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161893503/medium.jpg",
+    "author": "nnudwyane",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/161893503",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-granulosus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329394294/medium.jpg",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/329394294",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329393988/medium.jpg",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/329393988",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-inexpectatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616010001/medium.jpg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/616010001",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/615962767/medium.jpg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/615962767",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-moi": {
+   "hero": {
+    "url": "/media/endemic/pachytriton-moi-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/pachytriton-moi-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "pachytriton-xanthospilos": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328484249/medium.jpg",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/328484249",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/328484249/medium.jpg",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/328484249",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-airobranchiatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233018794/medium.jpg",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/233018794",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233018794/medium.jpg",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/233018794",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-wuguanfui": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442871394/medium.jpg",
+    "author": "relifenai",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/442871394",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442871394/medium.jpg",
+    "author": "relifenai",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/442871394",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-caudopunctatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/558367006/medium.jpg",
+    "author": "昆虫学liuye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/558367006",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/556383831/medium.jpg",
+    "author": "昆虫学liuye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/556383831",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-chinensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/272208829/large.jpeg",
+    "author": "shiguangshi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/272208829",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://static.inaturalist.org/photos/518701436/medium.jpg",
+    "author": "CC黎明",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/518701436",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-fuzhongensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734408351/medium.jpg",
+    "author": "Yixuan Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/734408351",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734408351/medium.jpg",
+    "author": "Yixuan Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/734408351",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-hongkongensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173940393/medium.jpg",
+    "author": "Tse Chung Yi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/173940393",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2270026/medium.jpg",
+    "author": "Jonathan Kolby",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2270026",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-labiatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214350151/medium.jpg",
+    "author": "KENPEI",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/214350151",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214350151/medium.jpg",
+    "author": "KENPEI",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/214350151",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-qixilingensis": {
+   "hero": {
+    "url": "/media/endemic/paramesotriton-qixilingensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/paramesotriton-qixilingensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "paramesotriton-yunwuensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586555272/medium.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/586555272",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586555488/medium.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/586555488",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-aurantius": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332622377/medium.png",
+    "author": "Future",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/332622377",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473414928/medium.jpg",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/473414928",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "cynops-orientalis": {
+   "hero": {
+    "url": "/media/endemic/cynops-orientalis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/cynops-orientalis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "bombina-maxima": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/440938069/large.jpeg",
+    "author": "jincan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/440938069",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232844045/medium.jpg",
+    "author": "Ran Dai",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/232844045",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "bombina-fortinuptialis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/131205997/medium.jpg",
+    "author": "ong-siau-kun",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/131205997",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/131205997/medium.jpg",
+    "author": "ong-siau-kun",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/131205997",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "bombina-lichuanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304661424/large.jpeg",
+    "author": "noobmaster6138",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/304661424",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304661449/large.jpeg",
+    "author": "noobmaster6138",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/304661449",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-jingdongensis": {
+   "hero": {
+    "url": "/media/endemic/oreolalax-jingdongensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/oreolalax-jingdongensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "oreolalax-lichuanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/550212244/medium.jpg",
+    "author": "yihangli",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/550212244",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/518561904/medium.jpg",
+    "author": "钟彦葵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/518561904",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-multipunctatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308628829/medium.jpg",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/308628829",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308628829/medium.jpg",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/308628829",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-nanjiangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204801740/medium.jpg",
+    "author": "林孫鋒(Lin Sun Fong)",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/204801740",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204801740/medium.jpg",
+    "author": "林孫鋒(Lin Sun Fong)",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/204801740",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-omeimontis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/303413972/large.jpeg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/303413972",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/303413972/large.jpeg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/303413972",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-popei": {
+   "hero": {
+    "url": "/media/endemic/oreolalax-popei-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/oreolalax-popei-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "oreolalax-rhodostigmatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213331796/medium.jpg",
+    "author": "Jiao Sun (孙娇)",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/213331796",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336225905/large.jpeg",
+    "author": "江国彬",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/336225905",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-schmidti": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/416801298/large.jpeg",
+    "author": "F. Yucheng",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/416801298",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/627458884/medium.jpg",
+    "author": "fugee",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/627458884",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-xiangchengensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/753686447/medium.jpg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/753686447",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/753686447/medium.jpg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/753686447",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "scutiger-boulengeri": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2628373/medium.jpg",
+    "author": "seasav",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2628373",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2628373/medium.jpg",
+    "author": "seasav",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2628373",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "scutiger-chintingensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/383353302/medium.jpg",
+    "author": "Haitong and Nicola",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/383353302",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/383353310/medium.jpg",
+    "author": "Haitong and Nicola",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/383353310",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "scutiger-glandulatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333564918/medium.jpg",
+    "author": "董昆鹏 (Kun-Peng DONG)",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/333564918",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333564918/medium.jpg",
+    "author": "董昆鹏 (Kun-Peng DONG)",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/333564918",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "scutiger-maculatus": {
+   "hero": {
+    "url": "/media/endemic/scutiger-maculatus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/scutiger-maculatus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "scutiger-mammatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346804435/large.jpeg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/346804435",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346804435/large.jpeg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/346804435",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "scutiger-pingwuensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2628373/medium.jpg",
+    "author": "seasav",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2628373",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2628373/medium.jpg",
+    "author": "seasav",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2628373",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "scutiger-tuberculatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200415072/medium.jpg",
+    "author": "Jigme Tshelthrim Wangyal",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/200415072",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200415072/medium.jpg",
+    "author": "Jigme Tshelthrim Wangyal",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/200415072",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "scutiger-wuguanfui": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/314216575/large.jpeg",
+    "author": "徐Kai",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/314216575",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/314216575/large.jpeg",
+    "author": "徐Kai",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/314216575",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "scutiger-spinosus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79255508/medium.jpg",
+    "author": "\nKai Wang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/79255508",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79255508/medium.jpg",
+    "author": "\nKai Wang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/79255508",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachium-boringii": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1677442/medium.jpg",
+    "author": "Cameron M. Hudson, Jinzhong Fu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/1677442",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1677445/medium.jpg",
+    "author": "Cameron M. Hudson, Jinzhong Fu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/1677445",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachium-hainanense": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253017263/large.jpeg",
+    "author": "KrabX",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/253017263",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237022308/large.jpeg",
+    "author": "Leo Lyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/237022308",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachium-liui": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590099644/medium.jpg",
+    "author": "Huang Baochen | 黄宝臣",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/590099644",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/724475454/medium.jpg",
+    "author": "ksnaiab_陈天乐",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/724475454",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachium-tengchongense": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350291188/medium.jpg",
+    "author": "Yinpeng Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/350291188",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347535162/medium.jpg",
+    "author": "Yinpeng Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/347535162",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-laui": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64663125/large.jpeg",
+    "author": "Tommy Hui",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/64663125",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181809433/medium.jpg",
+    "author": "Edward",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/181809433",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-liui": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380108812/large.jpeg",
+    "author": "shiguangshi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/380108812",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264965494/large.jpeg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/264965494",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-mangshanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/516619062/medium.jpg",
+    "author": "Vincent Zhu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/516619062",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/516619062/medium.jpg",
+    "author": "Vincent Zhu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/516619062",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-maoershanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231224957/medium.jpg",
+    "author": "ong-siau-kun",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/231224957",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231224957/medium.jpg",
+    "author": "ong-siau-kun",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/231224957",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-yunkaiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/480294837/large.jpeg",
+    "author": "aazicat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/480294837",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/480294837/large.jpeg",
+    "author": "aazicat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/480294837",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-bijie": {
+   "hero": {
+    "url": "/media/endemic/leptobrachella-bijie-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/leptobrachella-bijie-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "leptobrachella-bashaensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727548324/medium.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/727548324",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727548324/medium.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/727548324",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "megophrys-boettgeri": {
+   "hero": {
+    "url": "/media/endemic/megophrys-boettgeri-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/megophrys-boettgeri-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "megophrys-gigantica": {
+   "hero": {
+    "url": "/media/endemic/megophrys-gigantica-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/megophrys-gigantica-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "brachytarsophrys-platyparietus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/407357159/medium.jpg",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/407357159",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185494520/large.jpeg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/185494520",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "bufo-ailaoanus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/437113009/large.jpeg",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/437113009",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/437113009/large.jpeg",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/437113009",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "bufo-tuberospinius": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348578739/large.jpeg",
+    "author": "Yinpeng Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/348578739",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348578739/large.jpeg",
+    "author": "Yinpeng Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/348578739",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hyla-annectans": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/287513608/large.jpeg",
+    "author": "红耳鹎 Xinrong Lin",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/287513608",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/272300813/large.jpeg",
+    "author": "Jonathan Hakim",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/272300813",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hyla-chinensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316298652/large.jpeg",
+    "author": "oldfears",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/316298652",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368712332/medium.jpg",
+    "author": "Shipher Wu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/368712332",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hyla-sanchiangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418923663/large.jpeg",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/418923663",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513399634/medium.jpg",
+    "author": "桔梗",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/513399634",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hyla-tsinlingensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327341960/medium.jpg",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/327341960",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149808526/large.jpeg",
+    "author": "ew_xiong",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/149808526",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rana-sangzhiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727535805/medium.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/727535805",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727535805/medium.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/727535805",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rana-longicrus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13173858/medium.jpg",
+    "author": "cypherone",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/13173858",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13173859/medium.jpg",
+    "author": "Skink Chen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/13173859",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rana-chaochiaoensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238852456/medium.jpg",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/238852456",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410306257/large.jpeg",
+    "author": "jincan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/410306257",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rana-chensinensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1505327/medium.jpg",
+    "author": "Kim, Hyun-tae",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/1505327",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1505331/medium.jpg",
+    "author": "Kim, Hyun-tae",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/1505331",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rana-culaiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181309920/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/181309920",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/131480839/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/131480839",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rana-hanluica": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225434308/medium.jpg",
+    "author": "jinze",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/225434308",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225434308/medium.jpg",
+    "author": "jinze",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/225434308",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rana-jiemuxiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402101095/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/402101095",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402101095/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/402101095",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rana-omeimontis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128278856/medium.jpg",
+    "author": "Ed Shaw",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/128278856",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/431130681/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/431130681",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rana-zhenhaiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/652836874/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/652836874",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/652836941/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/652836941",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rana-dabieshanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345176581/medium.jpg",
+    "author": "张艺言",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/345176581",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345176614/medium.jpg",
+    "author": "张艺言",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/345176614",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-bellulus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346818481/large.jpeg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/346818481",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375986926/large.jpeg",
+    "author": "觅虫记Liumingyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/375986926",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-chunganensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227878533/large.jpeg",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/227878533",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227878533/large.jpeg",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/227878533",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-hainanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401397636/medium.jpg",
+    "author": "KrabX",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/401397636",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414276314/large.jpeg",
+    "author": "KrabX",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/414276314",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-hongkongensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34058458/large.jpeg",
+    "author": "Tommy Hui",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/34058458",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44974/medium.jpg",
+    "author": "Thomas Brown",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/44974",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-jinjiangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/394631482/large.jpeg",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/394631482",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/394631482/large.jpeg",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/394631482",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-mantzorum": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327339679/medium.jpg",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/327339679",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313353612/large.jpeg",
+    "author": "w--w",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/313353612",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-ricketti": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/716752029/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/716752029",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60890706/medium.jpg",
+    "author": "huichuntung",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/60890706",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-torrentis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348064437/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/348064437",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348064396/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/348064396",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-wuyiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693930414/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/693930414",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693930357/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/693930357",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-albispinus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226082337/medium.jpg",
+    "author": "Tse Chung Yi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/226082337",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226082324/medium.jpg",
+    "author": "Tse Chung Yi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/226082324",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-nyingchiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327341486/large.jpeg",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/327341486",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327341486/large.jpeg",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/327341486",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-yunkaiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262123484/large.jpeg",
+    "author": "kangkang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/262123484",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262123484/large.jpeg",
+    "author": "kangkang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/262123484",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-sinensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156264535/large.jpeg",
+    "author": "Yoonjung Yi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/156264535",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156264535/large.jpeg",
+    "author": "Yoonjung Yi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/156264535",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-yatseni": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/565340261/medium.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/565340261",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115766804/medium.jpg",
+    "author": "ong-siau-kun",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/115766804",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nidirana-adenopleura": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19954756/large.jpeg",
+    "author": "Liu JimFood",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/19954756",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222170332/large.jpeg",
+    "author": "倒立",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/222170332",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nidirana-daunchina": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/219354893/large.jpeg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/219354893",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20999221/large.jpeg",
+    "author": "Chung-Hang Hung",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/20999221",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nidirana-hainanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/659364987/medium.jpg",
+    "author": "龙栩川",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/659364987",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/636561250/medium.jpg",
+    "author": "oldfears",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/636561250",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nidirana-pleuraden": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159770229/medium.jpg",
+    "author": "wuyuxuan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/159770229",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159770229/medium.jpg",
+    "author": "wuyuxuan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/159770229",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nidirana-mangveni": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/710526037/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/710526037",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418919195/large.jpeg",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/418919195",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nidirana-xiangica": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490138716/medium.jpg",
+    "author": "tianji12138",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/490138716",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490138716/medium.jpg",
+    "author": "tianji12138",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/490138716",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "glandirana-minima": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226356101/medium.jpg",
+    "author": "antzheng",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/226356101",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225428422/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/225428422",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "glandirana-tientaiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160296339/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/160296339",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308659333/medium.jpg",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/308659333",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hylarana-latouchii": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/652835785/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/652835785",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/706047033/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/706047033",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hylarana-spinulosa": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348568885/medium.jpg",
+    "author": "Larry Chen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/348568885",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253017081/large.jpeg",
+    "author": "KrabX",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/253017081",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-exiliversabilis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473414306/medium.jpg",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/473414306",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474277575/medium.jpg",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/474277575",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-grahami": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347400856/medium.jpg",
+    "author": "Yinpeng Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/347400856",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347400856/medium.jpg",
+    "author": "Yinpeng Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/347400856",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-graminea": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368064421/medium.jpg",
+    "author": "Simba",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/368064421",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278952683/medium.jpg",
+    "author": "虫虫",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/278952683",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-hainanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/629248813/medium.jpg",
+    "author": "KrabX",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/629248813",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346661301/medium.jpg",
+    "author": "observe-syz",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/346661301",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-hejiangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444419553/medium.jpg",
+    "author": "昆虫学liuye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/444419553",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/431131083/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/431131083",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-huanggangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/743670605/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/743670605",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/743670580/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/743670580",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-kuangwuensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166254888/large.jpeg",
+    "author": "航一帆",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/166254888",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166254888/large.jpeg",
+    "author": "航一帆",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/166254888",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-leporipes": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/716753211/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/716753211",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/716753217/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/716753217",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-lungshengensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444396393/medium.jpg",
+    "author": "昆虫学liuye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/444396393",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225525168/medium.jpg",
+    "author": "ong-siau-kun",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/225525168",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-margaretae": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113733133/medium.jpg",
+    "author": "ZY Yao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/113733133",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113733134/medium.jpg",
+    "author": "Ed Shaw",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/113733134",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-nanjiangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/703221927/medium.jpg",
+    "author": "qy17",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/703221927",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/703221927/medium.jpg",
+    "author": "qy17",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/703221927",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-nasuta": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254786706/large.jpeg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/254786706",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254786706/large.jpeg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/254786706",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-tianmuii": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693932431/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/693932431",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/695993403/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/695993403",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-tormota": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305526437/medium.jpg",
+    "author": "Xuan Chuan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/305526437",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133503667/medium.jpg",
+    "author": "ChenJX",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/133503667",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-versabilis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144510965/large.jpeg",
+    "author": "Abyssss",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/144510965",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144510965/large.jpeg",
+    "author": "Abyssss",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/144510965",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-wuchuanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/446783583/large.jpeg",
+    "author": "Anthony Ye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/446783583",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2416624/medium.JPG",
+    "author": "andy gluesenkamp",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2416624",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-kweichowensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/706056219/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/706056219",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/706056197/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/706056197",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-yizhangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/661279137/medium.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/661279137",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/661279137/medium.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/661279137",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pelophylax-fukienensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85592298/medium.jpg",
+    "author": "u7 Liao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/85592298",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367188471/medium.jpg",
+    "author": "曾粲然",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367188471",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pelophylax-plancyi": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463087761/large.jpeg",
+    "author": "zdk0812",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/463087761",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/642832897/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/642832897",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "liurana-alpina": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/314214241/large.jpeg",
+    "author": "徐Kai",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/314214241",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/314214241/large.jpeg",
+    "author": "徐Kai",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/314214241",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "liurana-medogensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/694546065/medium.jpg",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/694546065",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/694546097/medium.jpg",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/694546097",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "liurana-xizangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/671565855/medium.jpg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/671565855",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/671565855/medium.jpg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/671565855",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "fejervarya-multistriata": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4801438/medium.jpg",
+    "author": "Sunnetchan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/4801438",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71575130/large.jpeg",
+    "author": "Dickson Wong",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/71575130",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "limnonectes-fragilis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604171856/medium.jpg",
+    "author": "帕索卡",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/604171856",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606807297/medium.jpg",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/606807297",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "limnonectes-fujianensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/716752420/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/716752420",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54788/medium.jpg",
+    "author": "Thomas Brown",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/54788",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nanorana-chayuensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183585488/large.jpeg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/183585488",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183585861/large.jpeg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/183585861",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nanorana-conaensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411352202/large.jpeg",
+    "author": "Haijie Lu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/411352202",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405586525/medium.jpg",
+    "author": "yihangli",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/405586525",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nanorana-medogensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/694545762/medium.jpg",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/694545762",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162376090/medium.jpg",
+    "author": "Shiwan Lu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/162376090",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nanorana-parkeri": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66200441/large.jpeg",
+    "author": "desertnaturalist",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/66200441",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66200441/large.jpeg",
+    "author": "desertnaturalist",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/66200441",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nanorana-pleskei": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265082788/medium.jpg",
+    "author": "Li Jianong",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/265082788",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265082982/medium.jpg",
+    "author": "Li Jianong",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/265082982",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nanorana-taihangnica": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189603603/large.jpeg",
+    "author": "Maojin Lang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/189603603",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/220130304/medium.jpg",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/220130304",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nanorana-unculuanus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237351883/large.jpeg",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/237351883",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237351883/large.jpeg",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/237351883",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-exilispinosa": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11215825/medium.jpg",
+    "author": "HKEI",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/11215825",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4837475/medium.jpg",
+    "author": "Jacky Lau",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/4837475",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-shini": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322380096/large.jpeg",
+    "author": "墨湖布清蛇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/322380096",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322380096/large.jpeg",
+    "author": "墨湖布清蛇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/322380096",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-spinosa": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111395911/large.jpeg",
+    "author": "Marco Chan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/111395911",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/681657497/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/681657497",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-yei": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/527431947/medium.jpg",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/527431947",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444160063/large.jpeg",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/444160063",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "buergeria-oxycephala": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234913351/large.jpeg",
+    "author": "j_wildphoto",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/234913351",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234913351/large.jpeg",
+    "author": "j_wildphoto",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/234913351",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "buergeria-otai": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17966989/medium.jpg",
+    "author": "Liu JimFood",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/17966989",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49677766/medium.jpg",
+    "author": "Liu JimFood",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/49677766",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "feihyla-fuhua": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/344556255/large.jpeg",
+    "author": "observe-syz",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/344556255",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327102457/medium.jpg",
+    "author": "小游",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/327102457",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "gracixalus-jinggangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519546637/medium.jpg",
+    "author": "钟彦葵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/519546637",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519546637/medium.jpg",
+    "author": "钟彦葵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/519546637",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "gracixalus-tianlinensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454611898/medium.jpg",
+    "author": "鸹鸹",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/454611898",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454611898/medium.jpg",
+    "author": "鸹鸹",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/454611898",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "kurixalus-idiootocus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468601615/large.jpeg",
+    "author": "曾粲然",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/468601615",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/450119926/medium.jpg",
+    "author": "CHUNG CHANG-LIN",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/450119926",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "kurixalus-berylliniris": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251822287/medium.jpg",
+    "author": "Shaway Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/251822287",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12955415/medium.jpg",
+    "author": "Liu JimFood",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/12955415",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "kurixalus-wangi": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59039108/medium.jpg",
+    "author": "CHUNG CHANG-LIN",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/59039108",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/220075239/large.jpeg",
+    "author": "Tunyu Chen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/220075239",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "liuixalus-romeri": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218541729/medium.jpg",
+    "author": "Tse Chung Yi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/218541729",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218708148/medium.jpg",
+    "author": "Tse Chung Yi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/218708148",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "raorchestes-huanglianshan": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625292838/medium.jpg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/625292838",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/625292838/medium.jpg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/625292838",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "raorchestes-hillisi": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162070715/large.jpeg",
+    "author": "刘光裕 Liu Guangyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/162070715",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162070715/large.jpeg",
+    "author": "刘光裕 Liu Guangyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/162070715",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rhacophorus-translineatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162563203/large.jpeg",
+    "author": "chintan sheth",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/162563203",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161665781/large.jpeg",
+    "author": "chintan sheth",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/161665781",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "zhangixalus-leucofasciatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223612709/large.jpeg",
+    "author": "墨湖布清蛇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/223612709",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145150465/medium.jpg",
+    "author": "鸿志",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/145150465",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "zhangixalus-wui": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393204968/large.jpeg",
+    "author": "kangrinpoche",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/393204968",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393204952/large.jpeg",
+    "author": "kangrinpoche",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/393204952",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "glyphoglossus-yunnanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/382914474/medium.png",
+    "author": "Yunnanlist",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/382914474",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/294623512/medium.png",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/294623512",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "kaloula-rugifera": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384988900/medium.jpg",
+    "author": "Simba",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/384988900",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304785085/large.jpeg",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/304785085",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "kaloula-verrucosa": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345818060/medium.jpg",
+    "author": "observe-syz",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/345818060",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/415856950/large.jpeg",
+    "author": "jincan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/415856950",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "microhyla-fissipes": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/637504887/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/637504887",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/642832731/medium.jpg",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/642832731",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "microhyla-beilunensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633506305/medium.jpg",
+    "author": "Hakura",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/633506305",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633506305/medium.jpg",
+    "author": "Hakura",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/633506305",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "micryletta-steinegeri": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/434671895/large.jpeg",
+    "author": "Chi-Hsuan Shao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/434671895",
+    "license": "CC BY-NC-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329380784/large.jpeg",
+    "author": "Yung-Lun Lin",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/329380784",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  }
+ }
+}

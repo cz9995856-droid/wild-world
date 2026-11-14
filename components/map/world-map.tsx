@@ -155,8 +155,14 @@ export function WorldMap({
     const fallbackTimer = window.setTimeout(() => {
       if (!map.loaded()) setMapError(true);
     }, 15000);
+    const resizeObserver = new ResizeObserver(() => {
+      if (!mapRef.current) return;
+      mapRef.current.resize();
+    });
+    if (containerRef.current) resizeObserver.observe(containerRef.current);
     mapRef.current = map;
     return () => {
+      resizeObserver.disconnect();
       window.clearTimeout(fallbackTimer);
       map.remove();
       mapRef.current = null;
@@ -332,7 +338,9 @@ export function WorldMap({
   return (
     <div className={`grid gap-4 lg:grid-cols-[1fr_320px] ${height}`}>
       <div className="relative min-h-[420px] overflow-hidden border border-[var(--line)] bg-[var(--surface-2)]">
-        <div ref={containerRef} className="absolute inset-0" />
+        <div className="absolute inset-0">
+          <div ref={containerRef} className="h-full w-full" />
+        </div>
         {!mapReady && !mapError && (
           <div className="absolute inset-0 flex items-center justify-center bg-[var(--surface-2)] text-[12px] text-[var(--muted)]">
             <Loader2 size={16} className="mr-2 animate-spin" /> 正在加载 MapLibre 底图…
@@ -343,7 +351,7 @@ export function WorldMap({
             <MapPin size={22} className="text-[var(--clay)]" />
             <p className="mt-3 text-[13px]">底图加载失败</p>
             <p className="mt-1 max-w-sm text-[11px] leading-relaxed text-[var(--muted)]">
-              地图样式来自 MapLibre 公共 demo。网络不可用时不会显示伪造点位。
+              地图样式来自本地离线 Natural Earth 数据。网络不可用时不会显示伪造点位。
             </p>
             <button onClick={() => window.location.reload()} className="btn-outline mt-4">
               重试

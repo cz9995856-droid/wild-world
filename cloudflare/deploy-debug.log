@@ -1,0 +1,18 @@
+token-length=53 had-whitespace=false had-newline=false
+account-length=32 account=062435dfdde219758c320c360f809293
+token-verify-status=200
+token-accounts-status=200 accounts=062435dfdde219758c320c360f809293:Cz9995856@gmail.com's Account
+stage: ensure D1
+file:///home/runner/work/wild-world/wild-world/scripts/cloudflare/prepare.mjs:64
+    const err = new Error(`${pathname} -> ${message}`);
+                ^
+
+Error: /d1/database -> 10000: Authentication error
+    at cf (file:///home/runner/work/wild-world/wild-world/scripts/cloudflare/prepare.mjs:64:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async ensureD1 (file:///home/runner/work/wild-world/wild-world/scripts/cloudflare/prepare.mjs:75:19)
+    at async file:///home/runner/work/wild-world/wild-world/scripts/cloudflare/prepare.mjs:116:14 {
+  status: 401
+}
+
+Node.js v22.23.4

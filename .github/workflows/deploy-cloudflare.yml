@@ -100,7 +100,7 @@ jobs:
           put_secret() {
             name="$1"; value="$2"
             if [ -n "$value" ]; then
-              printf '%s' "$value" | npx wrangler secret put "$name" --name wild-world
+              printf '%s' "$value" | npx wrangler secret put "$name" --name wild-world-app
               echo "set $name"
             else
               echo "skip $name (not configured)"

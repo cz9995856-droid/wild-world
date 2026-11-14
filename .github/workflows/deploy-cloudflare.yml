@@ -57,8 +57,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-worker-url -f description="$WORKER_URL"
-          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-pages-url -f description="$PAGES_URL"
+          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-worker-url -f description=worker -f target_url="$WORKER_URL"
+          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-pages-url -f description=pages -f target_url="$PAGES_URL"
           gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-account-id -f description="$CLOUDFLARE_ACCOUNT_ID"
 
       - name: Build Worker

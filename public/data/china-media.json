@@ -1,30 +1,368 @@
 {
-  "generated_at": "2026-11-14",
-  "note": "WildChina 物种影像映射。每张图片保存来源、作者、许可与核验状态；缺图时前端显示受控占位并标记待人工审核。",
-  "species": {
-    "giant-panda": {
-      "hero": {
-        "url": "/media/pixabay/giant-panda.jpg",
-        "author": "maminounou",
-        "source_name": "Pixabay",
-        "source_url": "https://pixabay.com/photos/panda-bamboo-mammal-black-and-white-8171354/",
-        "license": "Pixabay Content License",
-        "license_url": "https://pixabay.com/service/license-summary/",
-        "commercial_use": true,
-        "verified": true,
-        "review_status": "editorial"
-      },
-      "full": {
-        "url": "/media/species/giant-panda-03.jpg",
-        "author": "James Eaton",
-        "source_name": "iNaturalist",
-        "source_url": "https://www.inaturalist.org/photos/351209016",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "commercial_use": true,
-        "verified": true,
-        "review_status": "verified"
-      }
-    }
+ "generated_at": "2026-11-14",
+ "note": "WildChina 物种影像映射。每张图片保存来源、作者、许可与核验状态；缺图时前端显示受控占位并标记待人工审核。",
+ "species": {
+  "giant-panda": {
+   "hero": {
+    "url": "/media/pixabay/giant-panda.jpg",
+    "author": "maminounou",
+    "source_name": "Pixabay",
+    "source_url": "https://pixabay.com/photos/panda-bamboo-mammal-black-and-white-8171354/",
+    "license": "Pixabay Content License",
+    "license_url": "https://pixabay.com/service/license-summary/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial"
+   },
+   "full": {
+    "url": "/media/species/giant-panda-03.jpg",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/351209016",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "verified"
+   }
+  },
+  "milu": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177105337/large.jpg",
+    "author": "Mike Evans",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/177105337",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179560928/large.jpeg",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/179560928",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "chinese-alligator": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567675962/large.jpg",
+    "author": "Logan Fu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/567675962",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619167409/large.jpg",
+    "author": "Logan Fu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/619167409",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "sichuan-snub-nosed-monkey": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95986791/large.jpg",
+    "author": "Jack Hynes",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/95986791",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468186012/large.jpg",
+    "author": "tianyang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/468186012",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "yunnan-snub-nosed-monkey": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13400591/large.jpg",
+    "author": "Scott Bowers",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/13400591",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13400588/large.jpg",
+    "author": "Scott Bowers",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/13400588",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hainan-gibbon": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513126251/large.jpg",
+    "author": "observe-syz",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/513126251",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513126246/large.jpg",
+    "author": "observe-syz",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/513126246",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "guizhou-snub-nosed-monkey": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247494116/large.jpeg",
+    "author": "花蚀",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/247494116",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16028180/large.jpg",
+    "author": "中国物种信息系统（CSIS）",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/16028180",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "south-china-tiger": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58512139/large.jpg",
+    "author": "anonymous",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/58512139",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/751284700/large.jpg",
+    "author": "J. Patrick Fischer",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/751284700",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "przewalski-gazelle": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27772484/large.jpeg",
+    "author": "pfaucher",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/27772484",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27772484/large.jpeg",
+    "author": "pfaucher",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/27772484",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "brown-eared-pheasant": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607401216/large.jpg",
+    "author": "Yishen Xiao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/607401216",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112276670/large.jpg",
+    "author": "Mikael Bauer",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/112276670",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "chinese-monal": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/391875626/large.jpg",
+    "author": "Lucy Yuan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/391875626",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/206511678/large.jpg",
+    "author": "gy007",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/206511678",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "chinese-giant-salamander": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/409145395/large.jpeg",
+    "author": "王晨宇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/409145395",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592867929/large.jpg",
+    "author": "mk0403",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/592867929",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "baiji": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/155441209/large.jpg",
+    "author": "\nTangdadi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/155441209",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172883195/large.jpg",
+    "author": "Institute of Hydrobiology, Chinese Academy of Sciences",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/172883195",
+    "license": "PD",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tibetan-antelope": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27823297/large.jpeg",
+    "author": "pfaucher",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/27823297",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205077/large.jpg",
+    "author": "中国物种信息系统（CSIS）",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/205077",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
   }
+ }
 }

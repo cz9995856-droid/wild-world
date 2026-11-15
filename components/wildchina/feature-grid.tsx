@@ -12,8 +12,13 @@ export function FeatureGrid() {
           <span className="wc-feature-arrow" aria-hidden="true">
             <ArrowUpRight size={17} />
           </span>
+          {section.href === "/explore/lab" && (
+            <span className="absolute left-4 top-4 border border-[#f3ede1]/50 bg-[#0b2016]/70 px-2 py-1 text-[9px] tracking-[0.2em] text-[#f3ede1] backdrop-blur">
+              主板块
+            </span>
+          )}
           <div className="wc-feature-body">
-            <p className="text-[10px] tracking-[0.26em] text-[#f3ede1]/70">{section.en.toUpperCase()}</p>
+            <p className="text-[10px] tracking-[0.26em] text-[#f3ede1]/70">{section.category}</p>
             <h2 className="display mt-2 text-[28px] sm:text-[34px]">{section.title}</h2>
             <p className="mt-2 max-w-[46ch] text-[12.5px] leading-relaxed text-[#f3ede1]/80">
               {section.description}

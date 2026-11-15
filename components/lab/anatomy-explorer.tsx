@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Bone, Eye, Info, Layers } from "lucide-react";
 
 type Layer = "surface" | "skeleton" | "muscle";
-type Mode = "elephant" | "bird";
+type Mode = "tiger" | "snub-monkey" | "pheasant" | "salamander" | "elephant" | "bird";
 
 interface Part {
   id: string;
@@ -210,18 +210,281 @@ const BIRD_PARTS: Part[] = [
   },
 ];
 
-export function AnatomyExplorer() {
-  const [mode, setMode] = useState<Mode>("elephant");
+const TIGER_PARTS: Part[] = [
+  {
+    id: "tiger-jaw",
+    label: "犬齿与咬合",
+    x: 79,
+    y: 40,
+    summary: "短颌、强咬肌",
+    detail: "华南虎的犬齿粗壮，下颌短而厚，咬肌发达，适合制服中型有蹄类猎物。裂齿结构用于剪切肌肉与骨骼。",
+    layer: "surface",
+  },
+  {
+    id: "tiger-coat",
+    label: "条纹毛被",
+    x: 44,
+    y: 42,
+    summary: "每只条纹独一无二",
+    detail: "条纹可打散身体轮廓，帮助在林地与灌丛中隐蔽。条纹模式个体间不同，可用于野外个体识别。",
+    layer: "surface",
+  },
+  {
+    id: "tiger-skull",
+    label: "颅骨与 zygomatic",
+    x: 72,
+    y: 34,
+    summary: "宽颧弓、短吻",
+    detail: "猫科颅骨短而宽，颧弓粗壮以容纳咬肌。华南虎颅骨尺寸小于东北虎，符合其体型差异。",
+    layer: "skeleton",
+  },
+  {
+    id: "tiger-limb",
+    label: "四肢骨",
+    x: 38,
+    y: 70,
+    summary: "可伸缩爪、强壮肱骨",
+    detail: "前肢肱骨与尺桡骨粗壮，配合可伸缩的爪，便于扑击与攀爬。后肢跖骨较长，提供爆发力。",
+    layer: "skeleton",
+  },
+  {
+    id: "tiger-muscle",
+    label: "肩背肌群",
+    x: 40,
+    y: 36,
+    summary: "扑击发力核心",
+    detail: "肩胛周围肌群与背最长肌发达，支持短距离高速冲刺与扑击；猫科多为伏击型猎手，不擅长长距离追逐。",
+    layer: "muscle",
+  },
+  {
+    id: "tiger-tail",
+    label: "尾与平衡",
+    x: 12,
+    y: 46,
+    summary: "长尾辅助转向",
+    detail: "尾椎链在跳跃与急转时提供平衡，尾端常为深色，可作为同类间的视觉信号。",
+    layer: "muscle",
+  },
+];
+
+const SNUB_MONKEY_PARTS: Part[] = [
+  {
+    id: "monkey-nose",
+    label: "仰鼻",
+    x: 78,
+    y: 34,
+    summary: "鼻孔上仰",
+    detail: "金丝猴属的鼻梁短、鼻孔朝上，是“仰鼻猴”名称来源。这一特征在高山冷湿环境中可能与减少热量散失有关。",
+    layer: "surface",
+  },
+  {
+    id: "monkey-face",
+    label: "蓝色面部",
+    x: 74,
+    y: 40,
+    summary: "裸露皮肤呈蓝灰",
+    detail: "川金丝猴面部皮肤裸露，呈淡蓝或灰蓝色；不同金丝猴种类的面部色彩与毛色差异是分类识别依据之一。",
+    layer: "surface",
+  },
+  {
+    id: "monkey-arm",
+    label: "前肢与指骨",
+    x: 40,
+    y: 52,
+    summary: "抓握与树栖",
+    detail: "指骨长、拇指对握，适合在树枝间抓握与取食。前肢略短于后肢，利于在树冠层跳跃。",
+    layer: "skeleton",
+  },
+  {
+    id: "monkey-skull",
+    label: "短吻颅骨",
+    x: 70,
+    y: 28,
+    summary: "眶后闭合",
+    detail: "灵长类眶后闭合、双眼前视，提供良好立体视觉；短吻与较大的脑颅比例是猴科特征。",
+    layer: "skeleton",
+  },
+  {
+    id: "monkey-muscle",
+    label: "肩带肌群",
+    x: 42,
+    y: 38,
+    summary: "攀爬与悬吊",
+    detail: "肩带与胸肌发达，支持攀爬、悬吊与跳跃；金丝猴在秦岭等高海拔森林中依赖树冠层移动。",
+    layer: "muscle",
+  },
+  {
+    id: "monkey-tail",
+    label: "长尾",
+    x: 14,
+    y: 50,
+    summary: "平衡与社交",
+    detail: "长尾在树间移动时辅助平衡，也是同类间姿态与情绪表达的一部分。",
+    layer: "muscle",
+  },
+];
+
+const PHEASANT_PARTS: Part[] = [
+  {
+    id: "pheasant-train",
+    label: "尾羽",
+    x: 18,
+    y: 52,
+    summary: "长尾羽、求偶展示",
+    detail: "褐马鸡与红腹锦鸡的尾羽发达，雄鸟在求偶时展开或竖起尾羽。长尾也带来飞行灵活性上的代价。",
+    layer: "surface",
+  },
+  {
+    id: "pheasant-wattle",
+    label: "面部裸皮",
+    x: 78,
+    y: 34,
+    summary: "红色裸皮与冠羽",
+    detail: "雉类的面部常具裸露皮肤，颜色鲜艳，配合冠羽用于求偶与个体识别；颜色来自皮肤血流与结构色。",
+    layer: "surface",
+  },
+  {
+    id: "pheasant-keel",
+    label: "龙骨突",
+    x: 48,
+    y: 56,
+    summary: "胸肌附着面",
+    detail: "鸟类胸骨中央的龙骨突为胸肌提供附着面。雉类飞行能力有限，龙骨突相对不如候鸟发达。",
+    layer: "skeleton",
+  },
+  {
+    id: "pheasant-foot",
+    label: "趾与爪",
+    x: 44,
+    y: 82,
+    summary: "地栖抓刨",
+    detail: "雉类为地栖鸟类，趾粗壮、爪钝，适合在落叶层刨食种子、昆虫与嫩芽。",
+    layer: "skeleton",
+  },
+  {
+    id: "pheasant-pec",
+    label: "胸肌",
+    x: 46,
+    y: 48,
+    summary: "短距离爆发飞行",
+    detail: "胸肌驱动短距离爆发飞行，雉类常以突然起飞逃避捕食者，但难以长距离飞行。",
+    layer: "muscle",
+  },
+  {
+    id: "pheasant-leg-muscle",
+    label: "后肢肌群",
+    x: 40,
+    y: 72,
+    summary: "奔跑与刨地",
+    detail: "后肢肌群发达，支持在地面快速奔跑与刨地取食，是地栖生活的主要运动方式。",
+    layer: "muscle",
+  },
+];
+
+const SALAMANDER_PARTS: Part[] = [
+  {
+    id: "salamander-skin",
+    label: "皮肤与黏液",
+    x: 46,
+    y: 52,
+    summary: "裸皮、辅助呼吸",
+    detail: "大鲵皮肤裸露、富含黏液腺，可通过皮肤进行气体交换。皮肤对干燥与污染敏感，是环境指示特征。",
+    layer: "surface",
+  },
+  {
+    id: "salamander-head",
+    label: "扁平头部",
+    x: 78,
+    y: 42,
+    summary: "宽扁头、侧线",
+    detail: "大鲵头部宽扁，口裂大，具侧线感受器，可在浑浊溪流中感知水流与猎物振动。",
+    layer: "surface",
+  },
+  {
+    id: "salamander-skull",
+    label: "颅骨与颌",
+    x: 72,
+    y: 36,
+    summary: "宽颌、细齿",
+    detail: "两栖类颅骨较扁平，颌骨具细密牙齿，用于固定而非咀嚼；大鲵咬合力量大，捕食时以 suction 与咬合配合。",
+    layer: "skeleton",
+  },
+  {
+    id: "salamander-vertebra",
+    label: "脊椎与肋",
+    x: 40,
+    y: 50,
+    summary: "长躯干、多节脊椎",
+    detail: "大鲵躯干长，脊椎节数多，配合侧向摆动产生游泳推进力；四肢短小，主要依靠躯干波动前进。",
+    layer: "skeleton",
+  },
+  {
+    id: "salamander-tail",
+    label: "尾肌",
+    x: 14,
+    y: 52,
+    summary: "侧扁尾、推进",
+    detail: "尾部侧扁、肌肉发达，是游泳的主要推进结构；尾也可储存能量。",
+    layer: "muscle",
+  },
+  {
+    id: "salamander-limb",
+    label: "四肢肌",
+    x: 44,
+    y: 70,
+    summary: "短肢、爬行",
+    detail: "四肢短小，主要用于在水底或岸边支撑与缓慢爬行，不承担高速运动。",
+    layer: "muscle",
+  },
+];
+
+const MODE_PARTS: Record<Mode, Part[]> = {
+  tiger: TIGER_PARTS,
+  "snub-monkey": SNUB_MONKEY_PARTS,
+  pheasant: PHEASANT_PARTS,
+  salamander: SALAMANDER_PARTS,
+  elephant: ELEPHANT_PARTS,
+  bird: BIRD_PARTS,
+};
+
+const MODE_LABELS: Record<Mode, string> = {
+  tiger: "华南虎",
+  "snub-monkey": "金丝猴",
+  pheasant: "雉类",
+  salamander: "大鲵",
+  elephant: "非洲象",
+  bird: "鸟类",
+};
+
+const MODE_COLOR: Record<Mode, string> = {
+  tiger: "#C97A3C",
+  "snub-monkey": "#C7A55E",
+  pheasant: "#8C4A2F",
+  salamander: "#5B6B48",
+  elephant: "#8C8A80",
+  bird: "#7C8994",
+};
+
+function modeForSlug(slug?: string, group?: string): Mode {
+  if (!slug) return "tiger";
+  if (slug.includes("pheasant") || slug.includes("monal") || group === "bird") return "pheasant";
+  if (slug.includes("salamander") || group === "amphibian") return "salamander";
+  if (slug.includes("monkey") || slug.includes("gibbon")) return "snub-monkey";
+  return "tiger";
+}
+
+export function AnatomyExplorer({ initialSlug, group }: { initialSlug?: string; group?: string } = {}) {
+  const [mode, setMode] = useState<Mode>(modeForSlug(initialSlug, group));
   const [layer, setLayer] = useState<Layer>("surface");
-  const [activeId, setActiveId] = useState("trunk");
-  const parts = mode === "elephant" ? ELEPHANT_PARTS : BIRD_PARTS;
+  const parts = MODE_PARTS[mode];
+  const [activeId, setActiveId] = useState(parts[0]?.id ?? "trunk");
   const visible = parts.filter((p) => p.layer === layer);
   const active = parts.find((p) => p.id === activeId) ?? parts[0];
 
   function switchMode(next: Mode) {
     setMode(next);
     setLayer("surface");
-    setActiveId(next === "elephant" ? "trunk" : "wing");
+    setActiveId(MODE_PARTS[next][0]?.id ?? "trunk");
   }
 
   return (
@@ -229,7 +492,7 @@ export function AnatomyExplorer() {
       <div className="border border-[var(--line)] bg-[var(--surface)]">
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--line)] p-3">
           <div className="flex gap-1">
-            {(["elephant", "bird"] as Mode[]).map((m) => (
+            {(["tiger", "snub-monkey", "pheasant", "salamander", "elephant", "bird"] as Mode[]).map((m) => (
               <button
                 key={m}
                 onClick={() => switchMode(m)}
@@ -237,7 +500,7 @@ export function AnatomyExplorer() {
                   mode === m ? "border-[var(--forest)] bg-[var(--forest)] text-[#F5F1E7]" : "border-[var(--line)]"
                 }`}
               >
-                {m === "elephant" ? "非洲象" : "鸟类"}
+                {MODE_LABELS[m]}
               </button>
             ))}
           </div>
@@ -264,7 +527,7 @@ export function AnatomyExplorer() {
         </div>
 
         <div className="relative aspect-[4/3] bg-[#0F2E22]">
-          <svg viewBox="0 0 100 100" className="h-full w-full" aria-label={mode === "elephant" ? "大象身体结构示意图" : "鸟类身体结构示意图"} role="img">
+          <svg viewBox="0 0 100 100" className="h-full w-full" aria-label={`${MODE_LABELS[mode]}身体结构示意图`} role="img">
             <defs>
               <linearGradient id="anatomy-bg" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0%" stopColor="#123526" />
@@ -281,7 +544,35 @@ export function AnatomyExplorer() {
               ))}
             </g>
 
-            {mode === "elephant" ? (
+            {mode === "tiger" || mode === "snub-monkey" || mode === "pheasant" || mode === "salamander" ? (
+              <g>
+                <ellipse
+                  cx="44"
+                  cy="48"
+                  rx={mode === "salamander" ? 26 : 22}
+                  ry={mode === "salamander" ? 8 : mode === "pheasant" ? 13 : 15}
+                  fill={MODE_COLOR[mode]}
+                  fillOpacity="0.85"
+                  stroke="#EDE8DC"
+                  strokeWidth="0.5"
+                />
+                <circle
+                  cx={mode === "salamander" ? 74 : 67}
+                  cy={mode === "pheasant" ? 40 : 36}
+                  r={mode === "snub-monkey" ? 8 : mode === "salamander" ? 7 : 9}
+                  fill={MODE_COLOR[mode]}
+                  stroke="#EDE8DC"
+                  strokeWidth="0.5"
+                />
+                {mode === "pheasant" && (
+                  <path d="M30 44c-14 2-22 8-26 14 10-2 18-5 26-7Z" fill={MODE_COLOR[mode]} stroke="#EDE8DC" strokeWidth="0.3" />
+                )}
+                {mode === "snub-monkey" && <path d="M24 48c-8 3-12 9-12 16 6-4 10-7 14-9Z" fill={MODE_COLOR[mode]} />}
+                {mode === "tiger" && <path d="M20 44c-8 2-13 7-15 12 6-1 11-3 15-5Z" fill={MODE_COLOR[mode]} />}
+                {mode === "salamander" && <path d="M20 48c-10 1-16 3-18 5 8 2 14 2 19 1Z" fill={MODE_COLOR[mode]} />}
+                <circle cx={mode === "salamander" ? 78 : 71} cy={mode === "pheasant" ? 38 : 35} r="1" fill="#141C18" />
+              </g>
+            ) : mode === "elephant" ? (
               <g>
                 <ellipse cx="44" cy="48" rx="27" ry="20" fill="#8C8A80" fillOpacity="0.85" stroke="#EDE8DC" strokeWidth="0.5" />
                 <circle cx="70" cy="38" r="12" fill="#8C8A80" stroke="#EDE8DC" strokeWidth="0.5" />
@@ -343,7 +634,7 @@ export function AnatomyExplorer() {
             )}
 
             <g fill="#EDE8DC" fontFamily="monospace" fontSize="1.6" opacity="0.5">
-              <text x="4" y="95">FIG. {mode === "elephant" ? "01" : "02"} · {layer.toUpperCase()}</text>
+              <text x="4" y="95">FIG. {String(["tiger", "snub-monkey", "pheasant", "salamander", "elephant", "bird"].indexOf(mode) + 1).padStart(2, "0")} · {layer.toUpperCase()}</text>
               <text x="78" y="95">WILD WORLD</text>
             </g>
           </svg>

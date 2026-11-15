@@ -109,6 +109,23 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
           </InfoBlock>
 
           <InfoBlock title="中文分布区域">{species.distribution}</InfoBlock>
+
+          <Link
+            href={`/explore/lab?species=${species.slug}#three-d`}
+            className="flex items-center justify-between gap-3 border border-[var(--forest)] bg-[var(--forest)] px-4 py-3 text-[#F5F1E7] transition-opacity hover:opacity-90"
+          >
+            <span>
+              <span className="block text-[12.5px]">进入生命实验室</span>
+              <span className="mt-0.5 block text-[9.5px] text-white/60">
+                查看 3D 模型、身体结构与该物种的知识挑战
+              </span>
+            </span>
+            <ExternalLink size={15} />
+          </Link>
+
+          {species.aliases.length > 0 && (
+            <InfoBlock title="别名">{species.aliases.join("、")}</InfoBlock>
+          )}
           <InfoBlock title="外貌及形态特征">{species.morphology}</InfoBlock>
           <InfoBlock title="生活习性">{species.behavior}</InfoBlock>
           <InfoBlock title="食性与繁殖">{species.dietReproduction}</InfoBlock>

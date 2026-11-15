@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { BookOpen, CalendarDays, Compass, Leaf, RotateCcw, Shield, Sparkles, Trophy } from "lucide-react";
 import type { QuizQuestion, QuizTopic } from "@/lib/types";
-import { QUIZ_BANK, QUIZ_BY_ID, QUIZ_TOPICS, questionsByTopic, topicCounts } from "@/lib/wildchina/quiz-bank";
+import { QUIZ_BANK, QUIZ_BY_ID, QUIZ_TOPICS, questionsByDifficulty, questionsByTopic, topicCounts } from "@/lib/wildchina/quiz-bank";
 import {
   computeStats,
   explorerLevel,
@@ -166,6 +166,39 @@ export function ChallengeCenter() {
               开始挑战
             </button>
           </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="flex items-end justify-between gap-3">
+          <div>
+            <p className="wc-kicker">Practice Modes</p>
+            <h2 className="display mt-1 text-[26px]">答题模式</h2>
+          </div>
+          <span className="text-[10px] text-[var(--muted)]">按难度循序渐进</span>
+        </div>
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          {(
+            [
+              { label: "入门", difficulty: 1 as const, note: "基础识别与常见特征" },
+              { label: "中级", difficulty: 2 as const, note: "生态关系与保护判断" },
+              { label: "高级", difficulty: 3 as const, note: "研究方法与复杂推理" },
+            ]
+          ).map((mode) => {
+            const list = questionsByDifficulty(mode.difficulty);
+            return (
+              <button
+                key={mode.label}
+                onClick={() => start(`${mode.label}挑战`, "Practice Mode", list)}
+                disabled={list.length === 0}
+                className="border border-[var(--line)] bg-[var(--surface)] p-4 text-left transition-colors hover:border-[var(--line-strong)] disabled:opacity-40"
+              >
+                <p className="text-[14px]">{mode.label}</p>
+                <p className="mt-1 text-[10px] text-[var(--muted)]">{mode.note}</p>
+                <p className="mt-3 text-[9.5px] text-[var(--muted)]">{list.length} 道题</p>
+              </button>
+            );
+          })}
         </div>
       </section>
 

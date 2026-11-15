@@ -641,8 +641,8 @@ export function Lab3D({ initialSlug, group }: { initialSlug?: string; group?: st
   const [wireframe, setWireframe] = useState(false);
 
   return (
-    <div className="grid gap-4 lg:grid-cols-[1fr_240px]">
-      <div className="relative min-h-[360px] overflow-hidden border border-[var(--line)] bg-[radial-gradient(ellipse_at_50%_30%,#E9E2D3,#D9D0BE)]">
+    <div className="grid gap-4 lg:grid-cols-[1fr_240px] lg:items-start">
+      <div className="relative min-h-[360px] overflow-hidden border border-[var(--line)] bg-[radial-gradient(ellipse_at_50%_30%,#E9E2D3,#D9D0BE)] lg:sticky lg:top-20 lg:h-[calc(100vh-9rem)] lg:max-h-[560px] lg:min-h-[380px]">
         <Canvas camera={{ position: [4.4, 2.7, 5.4], fov: 42 }} dpr={[1, 2]} shadows>
           <color attach="background" args={["#E9E2D3"]} />
           <fog attach="fog" args={["#E9E2D3", 8, 16]} />
@@ -694,7 +694,7 @@ export function Lab3D({ initialSlug, group }: { initialSlug?: string; group?: st
         </div>
       </div>
 
-      <div>
+      <div className="lg:sticky lg:top-20 lg:max-h-[calc(100vh-9rem)] lg:overflow-y-auto lg:pr-1">
         <div className="border border-[var(--line)] bg-[var(--surface)] p-4">
           <p className="label text-[var(--muted)]">Model · 模型（{MODELS.length}）</p>
           <div className="mt-2 space-y-1.5">
@@ -715,7 +715,7 @@ export function Lab3D({ initialSlug, group }: { initialSlug?: string; group?: st
         <div className="mt-3 border border-[var(--line)] bg-[var(--surface-2)] p-4 text-[10px] leading-relaxed text-[var(--muted)]">
           <p className="text-[var(--ink-soft)]">这不是标本扫描</p>
           <p className="mt-2">
-            当前 12 个模型（象、熊猫、长颈鹿、猛禽、蓝鲸、大猩猩、犀牛、鳄类、鲨鱼、海豚、企鹅、鹿类）均为馆方原创程序化几何，用于观察体型比例与结构关系，不用于形态测量。Smithsonian 3D 与 Sketchfab 授权模型尚未接入；接入后会逐件标注作者与许可。
+            当前 13 个模型均为中国特有动物的馆方原创程序化几何，用于观察体型比例与结构关系，不用于形态测量。真实 3D 标本扫描尚未接入；接入后会逐件标注作者与许可。
           </p>
         </div>
       </div>

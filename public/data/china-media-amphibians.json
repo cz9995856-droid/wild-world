@@ -4915,6 +4915,3353 @@
     "review_status": "sample",
     "ai_generated": true
    }
+  },
+  "tylototriton-lizhengchangi": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464621222/original.jpg",
+    "author": "Vincent Zhu",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/464621222",
+    "license": "CC BY-NC-ND",
+    "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464621222/original.jpg",
+    "author": "Vincent Zhu",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/464621222",
+    "license": "CC BY-NC-ND",
+    "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-yangi": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733006727/original.jpg",
+    "author": "zhangchi2004",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/733006727",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/673733756/original.jpg",
+    "author": "Yuhao Wu",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/673733756",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "cynops-orphicus": {
+   "hero": {
+    "url": "http://www.archive.org/stream/catalogueofdepar14unse#page/n53/mode/2up",
+    "author": "GBIF 记录贡献者",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "http://researcharchive.calacademy.org/research/herpetology/catalog/index.asp?xAction=Search&RecStyle=Full&OrderBy=Museum%2C+CatNo&Sex=%5Bany%5D&Museum=CAS&Class=%5Bany%5D&Ordersub=%5Bany%5D&Stage=%5Bany%5D&PageStyle=Multiple&PageSize=20&Pres=%5Bany%5D&CatNo=78704&Page=1",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "http://www.archive.org/stream/catalogueofdepar14unse#page/n53/mode/2up",
+    "author": "GBIF 记录贡献者",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "http://researcharchive.calacademy.org/research/herpetology/catalog/index.asp?xAction=Search&RecStyle=Full&OrderBy=Museum%2C+CatNo&Sex=%5Bany%5D&Museum=CAS&Class=%5Bany%5D&Ordersub=%5Bany%5D&Stage=%5Bany%5D&PageStyle=Multiple&PageSize=20&Pres=%5Bany%5D&CatNo=78704&Page=1",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "cynops-fudingensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/628705853/original.jpg",
+    "author": "nancyecho22",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/628705853",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/628718439/original.jpg",
+    "author": "nancyecho22",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/628718439",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-major": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/662511357/original.jpg",
+    "author": "Michael Zelun Lee",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/662511357",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/662511357/original.jpg",
+    "author": "Michael Zelun Lee",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/662511357",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "scutiger-wanglangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541986642/original.jpg",
+    "author": "CORDENOS Thierry",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/541986642",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541986641/original.jpg",
+    "author": "CORDENOS Thierry",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/541986641",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachium-leishanense": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616010260/original.jpg",
+    "author": "Amaël Borzée",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/616010260",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616010270/original.jpg",
+    "author": "Amaël Borzée",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/616010270",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-purpura": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/492081077/original.jpg",
+    "author": "通通",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/492081077",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/492081077/original.jpg",
+    "author": "通通",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/492081077",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "megophrys-binchuanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/712063898/original.jpg",
+    "author": "wresy",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/712063898",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://static.inaturalist.org/sounds/2107506.mp3?1786029807",
+    "author": "wresy",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/sounds/2107506",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "megophrys-brachykolos": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618420944/original.jpg",
+    "author": "o-o2002",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/618420944",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618420953/original.jpg",
+    "author": "o-o2002",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/618420953",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "megophrys-kuatunensis": {
+   "hero": {
+    "url": "https://iiif.mcz.harvard.edu/iiif/3/1519/full/max/0/default.jpg",
+    "author": "© President and Fellows of Harvard College",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://iiif.mcz.harvard.edu/iiif/3/1519/full/max/0/default.jpg",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://iiif.mcz.harvard.edu/iiif/3/1520/full/max/0/default.jpg",
+    "author": "© President and Fellows of Harvard College",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://iiif.mcz.harvard.edu/iiif/3/1520/full/max/0/default.jpg",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "megophrys-mangshanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639436571/original.jpg",
+    "author": "桃子",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/639436571",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/639436542/original.jpg",
+    "author": "桃子",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/639436542",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "megophrys-medogensis": {
+   "hero": {
+    "url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/1104938/colour.png",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/1104938/colour.png",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://xeno-canto.org/sounds/uploaded/FRENVBIZTF/XC1104938-260502_1746.wav",
+    "author": "Shuangqi Liu",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/uploaded/FRENVBIZTF/XC1104938-260502_1746.wav",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "megophrys-omeimontis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/665805878/original.jpg",
+    "author": "zztty",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/665805878",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/1153451/colour.png",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/1153451/colour.png",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "megophrys-shapingensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360783303/original.jpg",
+    "author": "虫虫",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/360783303",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/367820320/original.jpg",
+    "author": "虫虫",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367820320",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "megophrys-wawuensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308627984/original.jpg",
+    "author": "夜星槎",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/308627984",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308627984/original.jpg",
+    "author": "夜星槎",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/308627984",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "megophrys-nanlingensis": {
+   "hero": {
+    "url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/954636/colour.png",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/954636/colour.png",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://xeno-canto.org/sounds/uploaded/FRENVBIZTF/XC954636-231004_1902.wav",
+    "author": "Shuangqi Liu",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/uploaded/FRENVBIZTF/XC954636-231004_1902.wav",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "megophrys-wushanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/750487675/original.jpg",
+    "author": "春泥",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/750487675",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/750487735/original.jpg",
+    "author": "春泥",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/750487735",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "ingerophrynus-ledongensis": {
+   "hero": {
+    "url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/954214/colour.png",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/954214/colour.png",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://xeno-canto.org/sounds/uploaded/FRENVBIZTF/XC954214-230202_2349_%E4%B9%90%E4%B8%9C%E8%9F%BE%E8%9C%8D.wav",
+    "author": "Shuangqi Liu",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/uploaded/FRENVBIZTF/XC954214-230202_2349_%E4%B9%90%E4%B8%9C%E8%9F%BE%E8%9C%8D.wav",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "parapelophryne-scalpta": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607643835/original.jpg",
+    "author": "oldfears",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/607643835",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/662714428/original.jpg",
+    "author": "龙栩川",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/662714428",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hyla-simplex": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617173676/original.jpg",
+    "author": "王琰",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/617173676",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/617173669/original.jpg",
+    "author": "王琰",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/617173669",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rana-shuchinae": {
+   "hero": {
+    "url": "https://iiif.mcz.harvard.edu/iiif/3/942/full/max/0/default.jpg",
+    "author": "© President and Fellows of Harvard College",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://iiif.mcz.harvard.edu/iiif/3/942/full/max/0/default.jpg",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://iiif.mcz.harvard.edu/iiif/3/943/full/max/0/default.jpg",
+    "author": "© President and Fellows of Harvard College",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://iiif.mcz.harvard.edu/iiif/3/943/full/max/0/default.jpg",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-tuberodepressus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/755497483/original.jpg",
+    "author": "MINGFEI HOU",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/755497483",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/755497222/original.jpg",
+    "author": "MINGFEI HOU",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/755497222",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-granulosus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/522933680/original.jpg",
+    "author": "steve b",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/522933680",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/522934016/original.jpg",
+    "author": "steve b",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/522934016",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-loloensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/621528725/original.jpg",
+    "author": "fugee",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/621528725",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532821515/original.jpg",
+    "author": "Vincent Zhu",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/532821515",
+    "license": "CC BY-NC-ND",
+    "license_url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "amolops-viridimaculatus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595184841/original.jpg",
+    "author": "通通",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/595184841",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595184841/original.jpg",
+    "author": "通通",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/595184841",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nidirana-nankunensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/647538692/original.jpg",
+    "author": "Amaël Borzée",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/647538692",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/647538777/original.jpg",
+    "author": "Amaël Borzée",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/647538777",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nidirana-leishanensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/703057674/original.jpg",
+    "author": "Tree-Cheng",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/703057674",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/751695815/original.jpg",
+    "author": "Max Tibby",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/751695815",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nidirana-occidentalis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/701847072/original.jpg",
+    "author": "jing zheng",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/701847072",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595184830/original.jpg",
+    "author": "通通",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/595184830",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-fengkaiensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/678951374/original.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/678951374",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/678951360/original.jpg",
+    "author": "Haocong_Cat",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/678951360",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "odorrana-schmackeri": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/717617503/original.jpg",
+    "author": "Amaël Borzée",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/717617503",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718799086/original.jpg",
+    "author": "david_guo618",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/718799086",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nanorana-quadranus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/536062474/original.jpg",
+    "author": "Gao XiaoYan",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/536062474",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/536065215/original.jpg",
+    "author": "Gao XiaoYan",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/536065215",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-jiulongensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393108113/original.png",
+    "author": "HAO JIAJUN",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/393108113",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/325742648/original.jpg",
+    "author": "咩赫得",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/325742648",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "gracixalus-nonggangensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438612981/original.jpeg",
+    "author": "橄榄",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/438612981",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438612981/original.jpeg",
+    "author": "橄榄",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/438612981",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-boulengeri": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/615910119/original.jpg",
+    "author": "Amaël Borzée",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/615910119",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/615910141/original.jpg",
+    "author": "Amaël Borzée",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/615910141",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "theloderma-rhododiscus": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631360073/original.jpg",
+    "author": "sandcarve",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/631360073",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631854425/original.jpg",
+    "author": "fugee",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/631854425",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "gracixalus-guangdongensis": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/634210665/original.jpg",
+    "author": "sandcarve",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/634210665",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/634210649/original.jpg",
+    "author": "sandcarve",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/634210649",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "liuixalus-hainanus": {
+   "hero": {
+    "url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/1182502/colour.png",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/1182502/colour.png",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://xeno-canto.org/sounds/uploaded/FRENVBIZTF/XC1182502-260923_2328.wav",
+    "author": "Shuangqi Liu",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/uploaded/FRENVBIZTF/XC1182502-260923_2328.wav",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "liuixalus-ocellatus": {
+   "hero": {
+    "url": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1002665/colour.png",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1002665/colour.png",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1002665-%E7%9C%BC%E6%96%91%E5%88%98%E6%A0%91%E8%9B%99call-%E7%90%BC%E4%B8%AD%E9%BB%8E%E6%AF%8D%E5%B1%B1.mp3",
+    "author": "Dave Guo",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/uploaded/KQMHASAYBL/XC1002665-%E7%9C%BC%E6%96%91%E5%88%98%E6%A0%91%E8%9B%99call-%E7%90%BC%E4%B8%AD%E9%BB%8E%E6%AF%8D%E5%B1%B1.mp3",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "microhyla-mixtura": {
+   "hero": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602906106/original.jpg",
+    "author": "leekelai",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/602906106",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/602906114/original.jpg",
+    "author": "leekelai",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/602906114",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "pseudohynobius-guizhouensis": {
+   "hero": {
+    "url": "/media/endemic/pseudohynobius-guizhouensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/pseudohynobius-guizhouensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "pachytriton-changi": {
+   "hero": {
+    "url": "/media/endemic/pachytriton-changi-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/pachytriton-changi-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "paramesotriton-longliensis": {
+   "hero": {
+    "url": "/media/endemic/paramesotriton-longliensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/paramesotriton-longliensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "paramesotriton-maolanensis": {
+   "hero": {
+    "url": "/media/endemic/paramesotriton-maolanensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/paramesotriton-maolanensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "paramesotriton-wulingensis": {
+   "hero": {
+    "url": "/media/endemic/paramesotriton-wulingensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/paramesotriton-wulingensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "cynops-chenggongensis": {
+   "hero": {
+    "url": "/media/endemic/cynops-chenggongensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/cynops-chenggongensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "cynops-glaucus": {
+   "hero": {
+    "url": "/media/endemic/cynops-glaucus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/cynops-glaucus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "oreolalax-granulosus": {
+   "hero": {
+    "url": "/media/endemic/oreolalax-granulosus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/oreolalax-granulosus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "oreolalax-pingii": {
+   "hero": {
+    "url": "/media/endemic/oreolalax-pingii-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/oreolalax-pingii-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "oreolalax-puxiongensis": {
+   "hero": {
+    "url": "/media/endemic/oreolalax-puxiongensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/oreolalax-puxiongensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "oreolalax-rugosus": {
+   "hero": {
+    "url": "/media/endemic/oreolalax-rugosus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/oreolalax-rugosus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "scutiger-gongshanensis": {
+   "hero": {
+    "url": "/media/endemic/scutiger-gongshanensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/scutiger-gongshanensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "scutiger-muliensis": {
+   "hero": {
+    "url": "/media/endemic/scutiger-muliensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/scutiger-muliensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "leptobrachella-alpinus": {
+   "hero": {
+    "url": "/media/endemic/leptobrachella-alpinus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/leptobrachella-alpinus-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "leptobrachella-yingjiangensis": {
+   "hero": {
+    "url": "/media/endemic/leptobrachella-yingjiangensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/leptobrachella-yingjiangensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "leptobrachella-suiyangensis": {
+   "hero": {
+    "url": "/media/endemic/leptobrachella-suiyangensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/leptobrachella-suiyangensis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "megophrys-daweimontis": {
+   "hero": {
+    "url": "/media/endemic/megophrys-daweimontis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/megophrys-daweimontis-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "megophrys-lini": {
+   "hero": {
+    "url": "/media/endemic/megophrys-lini-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/megophrys-lini-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "megophrys-spinata": {
+   "hero": {
+    "url": "/media/endemic/megophrys-spinata-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/megophrys-spinata-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "megophrys-feii": {
+   "hero": {
+    "url": "/media/endemic/megophrys-feii-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/megophrys-feii-ai.jpg",
+    "author": "AI 生成（Pollinations）",
+    "source_name": "Pollinations.ai",
+    "source_url": "https://pollinations.ai",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "paramesotriton-guangxiensis": {
+   "hero": {
+    "url": "/media/endemic/paramesotriton-guangxiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/paramesotriton-guangxiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/paramesotriton-guangxiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "pseudohynobius-shuichengensis": {
+   "hero": {
+    "url": "/media/endemic/pseudohynobius-shuichengensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/pseudohynobius-shuichengensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/pseudohynobius-shuichengensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "paramesotriton-zhijinensis": {
+   "hero": {
+    "url": "/media/endemic/paramesotriton-zhijinensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/paramesotriton-zhijinensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/paramesotriton-zhijinensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "cynops-cyanurus": {
+   "hero": {
+    "url": "/media/endemic/cynops-cyanurus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/cynops-cyanurus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/cynops-cyanurus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "oreolalax-chuanbeiensis": {
+   "hero": {
+    "url": "/media/endemic/oreolalax-chuanbeiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/oreolalax-chuanbeiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/oreolalax-chuanbeiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "oreolalax-weigoldi": {
+   "hero": {
+    "url": "/media/endemic/oreolalax-weigoldi-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/oreolalax-weigoldi-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/oreolalax-weigoldi-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "scutiger-liupanensis": {
+   "hero": {
+    "url": "/media/endemic/scutiger-liupanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/scutiger-liupanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/scutiger-liupanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "leptobrachella-tengchongensis": {
+   "hero": {
+    "url": "/media/endemic/leptobrachella-tengchongensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/leptobrachella-tengchongensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/leptobrachella-tengchongensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "leptobrachella-wulingensis": {
+   "hero": {
+    "url": "/media/endemic/leptobrachella-wulingensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/leptobrachella-wulingensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/leptobrachella-wulingensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "megophrys-cheni": {
+   "hero": {
+    "url": "/media/endemic/megophrys-cheni-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/megophrys-cheni-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/megophrys-cheni-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "megophrys-huangshanensis": {
+   "hero": {
+    "url": "/media/endemic/megophrys-huangshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/megophrys-huangshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/megophrys-huangshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "megophrys-nankiangensis": {
+   "hero": {
+    "url": "/media/endemic/megophrys-nankiangensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/megophrys-nankiangensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/megophrys-nankiangensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "brachytarsophrys-popeii": {
+   "hero": {
+    "url": "/media/endemic/brachytarsophrys-popeii-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/brachytarsophrys-popeii-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/brachytarsophrys-popeii-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "bufo-aspinius": {
+   "hero": {
+    "url": "/media/endemic/bufo-aspinius-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/bufo-aspinius-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/bufo-aspinius-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "bufo-luchunnicus": {
+   "hero": {
+    "url": "/media/endemic/bufo-luchunnicus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/bufo-luchunnicus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/bufo-luchunnicus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "amolops-daiyunensis": {
+   "hero": {
+    "url": "/media/endemic/amolops-daiyunensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/amolops-daiyunensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/amolops-daiyunensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "amolops-mengdingensis": {
+   "hero": {
+    "url": "/media/endemic/amolops-mengdingensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/amolops-mengdingensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/amolops-mengdingensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "amolops-shuichengicus": {
+   "hero": {
+    "url": "/media/endemic/amolops-shuichengicus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/amolops-shuichengicus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/amolops-shuichengicus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "odorrana-rotodora": {
+   "hero": {
+    "url": "/media/endemic/odorrana-rotodora-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/odorrana-rotodora-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/odorrana-rotodora-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "pelophylax-hubeiensis": {
+   "hero": {
+    "url": "/media/endemic/pelophylax-hubeiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/pelophylax-hubeiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/pelophylax-hubeiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "oreolalax-liangbeiensis": {
+   "hero": {
+    "url": "/media/endemic/oreolalax-liangbeiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/oreolalax-liangbeiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/oreolalax-liangbeiensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "megophrys-wuliangshanensis": {
+   "hero": {
+    "url": "/media/endemic/megophrys-wuliangshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/megophrys-wuliangshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/megophrys-wuliangshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "megophrys-zhoui": {
+   "hero": {
+    "url": "/media/endemic/megophrys-zhoui-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/megophrys-zhoui-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/megophrys-zhoui-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "brachytarsophrys-chuannanensis": {
+   "hero": {
+    "url": "/media/endemic/brachytarsophrys-chuannanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/brachytarsophrys-chuannanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/brachytarsophrys-chuannanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "bufo-menglianus": {
+   "hero": {
+    "url": "/media/endemic/bufo-menglianus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/bufo-menglianus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/bufo-menglianus-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "hyla-immaculata": {
+   "hero": {
+    "url": "/media/endemic/hyla-immaculata-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/hyla-immaculata-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/hyla-immaculata-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "rana-weiningensis": {
+   "hero": {
+    "url": "/media/endemic/rana-weiningensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/rana-weiningensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/rana-weiningensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "rana-chevronta": {
+   "hero": {
+    "url": "/media/endemic/rana-chevronta-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/rana-chevronta-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/rana-chevronta-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "rana-zhengi": {
+   "hero": {
+    "url": "/media/endemic/rana-zhengi-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/rana-zhengi-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/rana-zhengi-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "amolops-chayuensis": {
+   "hero": {
+    "url": "/media/endemic/amolops-chayuensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/amolops-chayuensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/amolops-chayuensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "amolops-kangtingensis": {
+   "hero": {
+    "url": "/media/endemic/amolops-kangtingensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/amolops-kangtingensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/amolops-kangtingensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "amolops-lifanensis": {
+   "hero": {
+    "url": "/media/endemic/amolops-lifanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/amolops-lifanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/amolops-lifanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "amolops-wenshanensis": {
+   "hero": {
+    "url": "/media/endemic/amolops-wenshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/amolops-wenshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/amolops-wenshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "amolops-xinduqiao": {
+   "hero": {
+    "url": "/media/endemic/amolops-xinduqiao-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/amolops-xinduqiao-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/amolops-xinduqiao-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "odorrana-anlungensis": {
+   "hero": {
+    "url": "/media/endemic/odorrana-anlungensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/odorrana-anlungensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/odorrana-anlungensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "odorrana-cangyuanensis": {
+   "hero": {
+    "url": "/media/endemic/odorrana-cangyuanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/odorrana-cangyuanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/odorrana-cangyuanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "pelophylax-tenggerensis": {
+   "hero": {
+    "url": "/media/endemic/pelophylax-tenggerensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/pelophylax-tenggerensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/pelophylax-tenggerensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "limnonectes-liui": {
+   "hero": {
+    "url": "/media/endemic/limnonectes-liui-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/limnonectes-liui-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/limnonectes-liui-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "nanorana-phrynoides": {
+   "hero": {
+    "url": "/media/endemic/nanorana-phrynoides-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/nanorana-phrynoides-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/nanorana-phrynoides-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "nanorana-maculosa": {
+   "hero": {
+    "url": "/media/endemic/nanorana-maculosa-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/nanorana-maculosa-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/nanorana-maculosa-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "nanorana-ventripunctata": {
+   "hero": {
+    "url": "/media/endemic/nanorana-ventripunctata-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/nanorana-ventripunctata-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/nanorana-ventripunctata-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "nanorana-sichuanensis": {
+   "hero": {
+    "url": "/media/endemic/nanorana-sichuanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/nanorana-sichuanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/nanorana-sichuanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "kurixalus-lenquanensis": {
+   "hero": {
+    "url": "/media/endemic/kurixalus-lenquanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/kurixalus-lenquanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/kurixalus-lenquanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "liuixalus-feii": {
+   "hero": {
+    "url": "/media/endemic/liuixalus-feii-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/liuixalus-feii-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/liuixalus-feii-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "philautus-kempii": {
+   "hero": {
+    "url": "/media/endemic/philautus-kempii-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/philautus-kempii-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/philautus-kempii-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "nasutixalus-yingjiangensis": {
+   "hero": {
+    "url": "/media/endemic/nasutixalus-yingjiangensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/nasutixalus-yingjiangensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/nasutixalus-yingjiangensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "microhyla-fanjingshanensis": {
+   "hero": {
+    "url": "/media/endemic/microhyla-fanjingshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "habitat": {
+    "url": "/media/endemic/microhyla-fanjingshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   },
+   "full": {
+    "url": "/media/endemic/microhyla-fanjingshanensis-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成示意图，非真实摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
   }
- }
+ },
+ "updated_at": "2026-11-15T03:58:20.437Z"
 }

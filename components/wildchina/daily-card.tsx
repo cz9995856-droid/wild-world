@@ -17,19 +17,19 @@ export function DailyCard({
   dateKey: string;
 }) {
   return (
-    <section className="wc-hero-card" aria-label="今日动物">
+    <section className="wc-hero-card" aria-label="动物时刻">
       <div className="wc-hero-photo">
         <WcPhoto
           src={image?.url ?? null}
           alt={`${species.nameCn} ${species.scientificName}`}
           priority
           sizes="(max-width: 1023px) 100vw, 55vw"
-          fallbackLabel="今日动物影像待补充"
+          fallbackLabel="动物时刻影像待补充"
           fallbackNote="该物种尚未取得可核验的主视觉照片"
         />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0b2016]/70 via-transparent to-[#0b2016]/25" />
         <div className="absolute left-0 top-0 p-5 text-[#f3ede1] sm:p-7">
-          <p className="wc-kicker text-[#f3ede1]/70">今日动物</p>
+          <p className="wc-kicker text-[#f3ede1]/70">动物时刻</p>
           <p className="mt-1 text-[15px] tracking-[0.24em]">{species.groupLabel}</p>
         </div>
         {image && (

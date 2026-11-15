@@ -4,36 +4,8 @@ import { LabTabs } from "@/components/lab/lab-tabs";
 import { getSiteSettings } from "@/lib/repository";
 import { CHINA_SPECIES } from "@/lib/wildchina/species";
 import { QUIZ_BANK } from "@/lib/wildchina/quiz-bank";
-import { hashTint, modelForSlug, type ModelOption } from "@/lib/wildchina/model-map";
-
-const MODEL_LIMIT = 120;
-
-function buildModelOptions(): ModelOption[] {
-  const byGroup = new Map<string, typeof CHINA_SPECIES>();
-  for (const s of CHINA_SPECIES) {
-    const list = byGroup.get(s.group) ?? [];
-    list.push(s);
-    byGroup.set(s.group, list);
-  }
-  const groups = [...byGroup.values()];
-  const maxLen = Math.max(...groups.map((g) => g.length));
-  const out: ModelOption[] = [];
-  for (let i = 0; i < maxLen && out.length < MODEL_LIMIT; i += 1) {
-    for (const group of groups) {
-      const s = group[i];
-      if (!s || out.length >= MODEL_LIMIT) continue;
-      out.push({
-        slug: s.slug,
-        label: s.nameCn,
-        note: `${s.groupLabel} · ${s.taxonomy.family || "分类待核验"}`,
-        kind: modelForSlug(s.slug, s.group),
-        tint: hashTint(s.slug),
-        group: s.group,
-      });
-    }
-  }
-  return out;
-}
+import { ENDEMIC_MODELS } from "@/lib/wildchina/endemic-models";
+import { hashTint, type ModelOption } from "@/lib/wildchina/model-map";
 
 export const dynamic = "force-dynamic";
 
@@ -41,6 +13,25 @@ export const metadata: Metadata = {
   title: "生命实验室",
   description: "中国特有动物的身体结构、3D 模型、地理探索与生命知识挑战。",
 };
+
+const GROUP_LABEL: Record<string, string> = {
+  mammal: "哺乳纲",
+  bird: "鸟纲",
+  reptile: "爬行纲",
+  fish: "硬骨鱼纲",
+  amphibian: "两栖纲",
+};
+
+function buildModelOptions(): ModelOption[] {
+  return ENDEMIC_MODELS.map((m) => ({
+    slug: m.slug,
+    label: m.label,
+    note: `${GROUP_LABEL[m.group] ?? "脊椎动物"} · 通用形态示意`,
+    kind: m.kind,
+    tint: hashTint(m.slug),
+    group: m.group,
+  }));
+}
 
 export default async function ChinaLabPage({
   searchParams,
@@ -67,7 +58,7 @@ export default async function ChinaLabPage({
           </p>
         </div>
         <p className="text-[11px] leading-relaxed text-[var(--muted)]">
-          {CHINA_SPECIES.length} 种动物 · {QUIZ_BANK.length} 道题
+          {CHINA_SPECIES.length} 种动物 · {QUIZ_BANK.length} 道题 · {ENDEMIC_MODELS.length} 个模型
           <br />
           {target ? `当前物种：${target.nameCn}` : "选择物种开始"}
           <br />
@@ -88,7 +79,7 @@ export default async function ChinaLabPage({
         initialGroup={target?.group}
       />
       <p className="mt-6 text-[10.5px] leading-relaxed text-[var(--muted)]">
-        3D 模型为馆方原创程序化几何，不是标本扫描；对比数据标注测量口径，缺失数据不参与计算。
+        3D 模型为馆方原创程序化几何，按类群通用形态与物种色调参数生成，不是标本扫描；缺失数据不参与计算。
       </p>
     </div>
   );

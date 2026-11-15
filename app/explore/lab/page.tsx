@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { WcHeader } from "@/components/wildchina/wc-header";
 import { LabTabs } from "@/components/lab/lab-tabs";
-import { getAllSpecies, getQuiz, getSiteSettings } from "@/lib/repository";
+import { getQuiz, getSiteSettings } from "@/lib/repository";
+import { CHINA_SPECIES } from "@/lib/wildchina/species";
 
 export const dynamic = "force-dynamic";
 
@@ -16,15 +17,13 @@ export default async function ChinaLabPage({
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
   const params = await searchParams;
-  const [species, settings] = await Promise.all([getAllSpecies(), getSiteSettings()]);
   const quiz = getQuiz();
+  const settings = await getSiteSettings();
   const requested = typeof params.species === "string" ? params.species : "";
   const target =
-    species.find((s) => s.slug === requested) ??
-    species.find((s) => s.slug === "giant-panda") ??
-    species[0];
-  const initialSlug = target?.slug ?? "";
-  const initialGroup = target?.group;
+    CHINA_SPECIES.find((s) => s.slug === requested) ??
+    CHINA_SPECIES.find((s) => s.slug === "giant-panda") ??
+    CHINA_SPECIES[0];
 
   return (
     <div className="wc-frame">
@@ -38,25 +37,25 @@ export default async function ChinaLabPage({
           </p>
         </div>
         <p className="text-[11px] leading-relaxed text-[var(--muted)]">
-          {species.length} 种动物 · {quiz.length} 道题
+          {CHINA_SPECIES.length} 种动物 · {quiz.length} 道题
           <br />
-          {target ? `当前物种：${target.name_cn}` : "选择物种开始"}
+          {target ? `当前物种：${target.nameCn}` : "选择物种开始"}
           <br />
           影像更新 {settings.integration_generated_at?.slice(0, 10) ?? "待生成"}
         </p>
       </div>
       <LabTabs
-        species={species}
+        speciesCount={CHINA_SPECIES.length}
         quiz={quiz}
-        mapOptions={species.map((s) => ({
+        mapOptions={CHINA_SPECIES.map((s) => ({
           slug: s.slug,
-          name_cn: s.name_cn,
-          name_en: s.name_en,
-          scientific_name: s.scientific_name,
-          gbif_taxon_key: s.distribution.gbif_taxon_key ?? null,
+          name_cn: s.nameCn,
+          name_en: s.englishName,
+          scientific_name: s.scientificName,
+          gbif_taxon_key: null,
         }))}
-        initialSlug={initialSlug}
-        initialGroup={initialGroup}
+        initialSlug={target?.slug ?? ""}
+        initialGroup={target?.group}
       />
       <p className="mt-6 text-[10.5px] leading-relaxed text-[var(--muted)]">
         3D 模型为馆方原创程序化几何，不是标本扫描；对比数据标注测量口径，缺失数据不参与计算。

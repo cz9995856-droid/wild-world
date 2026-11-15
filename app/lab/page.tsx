@@ -33,7 +33,7 @@ export default async function LabPage() {
       />
       <div className="container-museum pb-20 pt-8">
         <LabTabs
-          species={species}
+          speciesCount={species.length}
           quiz={quiz}
           mapOptions={species.map((s) => ({
             slug: s.slug,

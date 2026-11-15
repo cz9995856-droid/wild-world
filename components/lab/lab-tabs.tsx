@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { Activity, Box, Bone, Globe2, Trophy } from "lucide-react";
-import type { QuizQuestion, Species } from "@/lib/types";
+import type { QuizQuestion } from "@/lib/types";
 import { AnatomyExplorer } from "@/components/lab/anatomy-explorer";
 import { QuizLab } from "@/components/lab/quiz-lab";
 import { WorldMapLoader } from "@/components/map/world-map-loader";
@@ -28,13 +28,13 @@ const TABS = [
 type TabId = (typeof TABS)[number]["id"];
 
 export function LabTabs({
-  species,
+  speciesCount,
   quiz,
   mapOptions,
   initialSlug,
   initialGroup,
 }: {
-  species: Species[];
+  speciesCount: number;
   quiz: QuizQuestion[];
   mapOptions: Array<{ slug: string; name_cn: string; name_en: string; scientific_name: string; gbif_taxon_key: number | null }>;
   initialSlug: string;
@@ -89,7 +89,7 @@ export function LabTabs({
           <p className="mt-2 text-[9.5px] leading-relaxed text-[var(--muted)]">
             原创教学模型（非扫描）与实时观测（外部接口）分开标注。页面会分别显示状态。
           </p>
-          <p className="mt-2 text-[9px] text-[var(--muted)]">已覆盖 {species.length} 种动物</p>
+          <p className="mt-2 text-[9px] text-[var(--muted)]">已覆盖 {speciesCount} 种动物</p>
           <DataBadge status="editorial" className="mt-2" />
         </div>
       </aside>

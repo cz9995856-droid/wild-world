@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { getSpeciesBySlug } from "@/lib/repository";
+import { CHINA_SPECIES_BY_SLUG } from "@/lib/wildchina/species";
 import { fetchOccurrences } from "@/lib/adapters/gbif";
 import { fetchObservations } from "@/lib/adapters/inaturalist";
 
@@ -11,9 +12,11 @@ export async function GET(request: Request) {
   const source = searchParams.get("source") ?? "both";
   const country = searchParams.get("country") ?? "";
   const species = await getSpeciesBySlug(slug);
-  if (!species) return NextResponse.json({ error: "species_not_found" }, { status: 404 });
+  const chinaSpecies = CHINA_SPECIES_BY_SLUG.get(slug);
+  if (!species && !chinaSpecies) return NextResponse.json({ error: "species_not_found" }, { status: 404 });
 
-  const gbifKey = species.distribution.gbif_taxon_key ?? null;
+  const scientificName = species?.scientific_name ?? chinaSpecies?.scientificName ?? "";
+  const gbifKey = species?.distribution.gbif_taxon_key ?? null;
   const jobs: Array<Promise<unknown>> = [];
   let gbif: Awaited<ReturnType<typeof fetchOccurrences>> | null = null;
   let inat: Awaited<ReturnType<typeof fetchObservations>> | null = null;
@@ -22,7 +25,7 @@ export async function GET(request: Request) {
     jobs.push(
       fetchOccurrences({
         taxonKey: gbifKey,
-        scientificName: species.scientific_name,
+        scientificName,
         limit: 200,
         country: country || undefined,
       }).then((r) => {
@@ -33,7 +36,7 @@ export async function GET(request: Request) {
   if (source === "inat" || source === "both") {
     jobs.push(
       fetchObservations({
-        scientificName: species.scientific_name,
+        scientificName,
         limit: 150,
       }).then((r) => {
         inat = r;
@@ -44,14 +47,14 @@ export async function GET(request: Request) {
 
   return NextResponse.json({
     species: {
-      slug: species.slug,
-      name_cn: species.name_cn,
-      name_en: species.name_en,
-      scientific_name: species.scientific_name,
+      slug,
+      name_cn: species?.name_cn ?? chinaSpecies?.nameCn ?? "",
+      name_en: species?.name_en ?? chinaSpecies?.englishName ?? "",
+      scientific_name: scientificName,
       gbif_taxon_key: gbifKey,
-      distribution_note: species.distribution.note,
-      countries: species.distribution.countries,
-      biomes: species.distribution.biomes,
+      distribution_note: species?.distribution.note ?? chinaSpecies?.endemicNote ?? "",
+      countries: species?.distribution.countries ?? ["CN"],
+      biomes: species?.distribution.biomes ?? [],
     },
     gbif,
     inat,

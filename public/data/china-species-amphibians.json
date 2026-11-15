@@ -26,7 +26,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "体呈蠕虫状，状似蚯蚓，无四肢，背腹略扁平，尾短，略呈圆锥状。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -47,6 +47,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -76,7 +84,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>安吉小鯢</b>（學名：<i>Hynobius amjiensis</i>）為小鯢科小鯢屬的兩棲動物，是中國的特有物種。分布於浙江等地，多棲息於山頂峽谷間的沼澤地內。其生存的海拔下限為1300米。該物種的模式產地在浙江安吉龍王山。安吉小鯢被國際自然保護聯盟IUCN定為嚴重瀕危物種。",
+  "morphology": "本种与义乌小鲵Hynobius Xiwuensis相近似，但本种体形较大，全长162mm左右；体侧肋沟13条，环体11一12条；尾长略短于头体长，约为头体长的92.5%；前后肢贴体相对时，指、趾端重叠。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -97,6 +105,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -126,7 +142,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>阿里山山椒魚</b>（<i>Hynobius arisanensis</i>）是台灣特有種，又名<b>阿里山小鲵</b>，為一級保育類動物，是以地名命名的山椒魚。牠分佈於台灣海拔2,000公尺到2300公尺以上的高山上。這種山椒魚體型最長只有10公分長，顏色為黑褐色或褐色，背部除了有白色小圓形斑點外，也有少數個體具有明顯特別的形狀斑點。前腳有四趾，後腳有五趾，是辨識阿里山山椒魚的最主要特徵。目前這是台灣五種山椒魚中最容易發現的種類。",
+  "morphology": "犁骨齿列内枝甚长，其长为舌宽的6/7，后端向后延伸达眼眶后部；肋沟12-13条；第五趾发育不全，呈短突状；体深褐色，具黄褐色颗粒斑点。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -147,6 +163,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -179,7 +203,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>中国小鲵</b>（学名：<i>Hynobius chinensis</i>）为小鲵科小鲵属的两栖动物，是中国的特有物种。分布于福建、湖北等地。该物种的模式产地在湖北宜昌。",
+  "morphology": "犁骨齿列中等长短，后端仅达眼球中部；体粗短，头长宽几相等，略大于头体长1/4，前、后肢贴体相对时，指、趾端相遇；无掌、蹠突；颈褶不明显；尾基部至末端均侧扁，无背、腹鳍褶，体腹面有大理石斑纹。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -200,6 +224,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -229,7 +261,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>台灣山椒魚</b>（學名：<i>Hynobius formosanus</i>），又名<b>台灣小鯢</b>、<b>臺灣小鯢</b>，因身上有胡椒的味道，所以被稱作胡椒魚。其體長約5～9公分，終生具有尾巴，屬於兩生類的生物，牠們是肉食性，原本是處於寒帶的物種，約在十萬年前的冰河時期，牠們移至臺灣生活，就是所謂的孑遺生物，現可在臺灣二千（或一千五百）公尺以上的高山（如玉山）看到他們的蹤跡。因為生活環境受侷限，以及棲息地森林砍伐破壞，現已屬於瀕臨絕種動物。臺灣山椒魚位於世界山椒魚中分布的最低緯度，目前可分為下列三種：阿里山型山椒魚、能高型山椒魚、南湖型山椒魚。（一般分為阿里山山椒魚、臺灣山椒魚、楚南氏山椒魚；目前的分類仍未有定論，可能有更多種，而也有學者認為臺灣山椒魚和阿里山山椒魚是同種。）",
+  "morphology": "犁骨齿列内枝长，其长为舌宽的3/4，后端向后延伸达眼眶后部；肋沟12-13条；趾5个或第五趾退化；体背面茶褐或深褐色，无花纹或有金黄色斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -250,6 +282,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -377,7 +417,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与安吉小鲵Hynobius amjiensis Gu相近似。但本种体型较小，全长125.4-151.Omm；犁骨齿细，排列较密，外枝有齿9-10枚，内枝25-27枚，两内枝齿列后端互相连接；尾较短，平均为头体长的70%左右；卵袋较短，不超过20cm，呈香蕉状。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -398,6 +438,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -427,7 +475,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与中国小鲵Hynobius chinensis Gunther相近似。但本种犁骨齿列较长，达眼球后缘，外枝有齿8-11枚，内枝22-33枚，左右内枝后端齿列不连接；肋沟12条；无掌突，亦无蹠突。<br>",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -448,6 +496,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -477,7 +533,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>楚南氏山椒魚</b>（<i>Hynobius sonani</i>）是台灣特有種動物之一，為一級保育類動物。1920年（大正九年）五月，台灣總督府昆蟲部日籍學者楚南仁博在霧社支廳管轄內的追分（今翠峰）進行昆蟲採集時，首先在濕潤地的石頭下發現了一隻三寸五分長的山椒魚；後來又在能高駐在所（今天池工作站）發現一隻。",
+  "morphology": "犁骨齿列内枝长，其长为舌宽的4/5，后端向后延伸到达眼眶后部；肋沟12-13条；趾5，有的趾不发育或缺如。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -498,6 +554,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -528,7 +592,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "形态与中国小鲵Hynobius chinensis近似。但犁骨齿列内枝较长，向后延伸达眼球后缘，其长度大于两内枝前缘间的宽度；体形适中，头长明显大于头宽；前、后肢贴体相对时，指、趾端多相遇；有掌、蹠突；体侧肋沟10条；尾基略圆，往后逐渐侧扁，有尾鳍褶，雄鲵的更明显；体腹面灰白色，无斑纹。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -549,6 +613,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -580,7 +652,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>商城肥鯢</b>（學名：<i>Pachyhynobius shangchengensis</i>）為小鯢科肥鯢屬的兩棲動物，是中國的特有物種。分布於安徽、河南、湖北等地，主要生活於海拔380至1100米的山澗流速緩慢的溪河中，或淺水灘以及及靜水處。該物種的模式產地在河南商城。",
+  "morphology": "体形明显肥壮，尾短于头体长；有唇褶，前后肢短弱，指4个，趾5个；犁骨齿列呈“/”形，近内鼻孔内侧，无囟门；上颌骨与翼骨相连接；鳞骨内侧明显隆起。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -601,6 +673,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -632,7 +712,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种的犁骨齿列与秦巴拟小鲵相比，相对较长，每侧有齿12-17枚；肺长，游离端向后达第八或第九条肋沟部位；体尾背面有鲜明的黄色斑块；繁殖季节，雄性头部、体背及四肢背面有小白刺。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -653,6 +733,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -780,7 +868,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与黄斑拟小鲵Pseudohynobius flavomaculatus (Hu et Fei)相近似，但本种背面斑块近圆形，头长约为头宽的1.55倍。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -801,6 +889,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -880,7 +976,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与黄斑拟小鲵Pseudohynobius flavomaculatus (Hu et Fei)相近似，但本种体尾及四肢背面紫褐色，无黄色斑块；四肢长，前后肢贴体相对时掌、蹠部前半重叠。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -901,6 +997,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -1239,7 +1343,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>山溪鲵</b>（学名：<i>Batrachuperus pinchonii</i>）为小鲵科山溪鲵属的两栖动物，俗名羌活鱼、白龙、杉木鱼，是中国的特有物种。分布于四川、贵州等地，常见于高山山溪及湖泊石块树根下以及苔藓中或溶雪泉水碎石下。其生存的海拔范围为 1700至 4000米。该物种的模式产地在四川宝兴。",
+  "morphology": "犁骨齿两小团，左右间距较宽；掌、蹠腹面有棕色角质鞘；背面多有明显花斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -1260,6 +1364,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -1347,7 +1459,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>西藏山溪鲵</b>（学名：<i>Batrachuperus tibetanus</i>）为小鲵科山溪鲵属的两栖动物，俗名娃娃鱼、羌活鱼、山辣子、杉木鱼，是中国的特有物种。分布于四川、西藏、陕西、青海、甘肃等地，多栖息于山地溪流。其生存的海拔范围为 1500至 4300米。该物种的模式产地在四川西北。",
+  "morphology": "犁骨齿两短列，位于犁腭骨中部，呈“/”形；前颌骨间有囟门；唇褶发达；掌、蹠部无角质鞘；体背面有细麻斑或无斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -1368,6 +1480,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -1398,7 +1518,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>盐源山溪鲵</b>（学名：<i>Batrachuperus yenyuanensis</i>）为小鲵科山溪鲵属的两栖动物，俗名羌活鱼，是中国的特有物种。分布于四川等地，常栖息于溪内石块下或枯枝落叶中。其生存的海拔范围为 2900至 4000米。该物种的模式产地在四川盐源白灵山。",
+  "morphology": "尾较长，尾肌弱；尾背鳍褶高而薄，起自尾基部；掌、蹠部无角质鞘，掌、蹠突明显。<br>",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -1419,6 +1539,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -1461,7 +1589,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>中国大鲵</b>（学名：<i>Andrias davidianus</i>）是大鲵属的一种，俗名<b>中国娃娃鱼</b>、<b>娃娃鱼</b>、<b>海狗鱼</b>，乃生活在淡水中的两栖动物。目前世上最早的化石出土于中国内蒙古，距今约1.65亿年，所以中国大鲵可被称为活化石。1988年《中华人民共和国野生动物保护法》将之列为国家二级重点保护野生动物。",
+  "morphology": "体大，全长一般100cm左右；头躯扁平，尾侧扁。眼小，无眼睑，体侧有明显的与体轴平行的纵行厚肤褶；每2个小疣粒紧密排列成对。<br>",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -1482,6 +1610,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -1511,7 +1647,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>细痣疣螈</b>（学名：<i>Tylototriton asperrimus</i>）为蝾螈科疣螈属的两栖动物，俗名山蜡狗。在分布在越南和中国大陆的广东、广西、安徽、湖南、贵州等地，多见于林区水塘边石缝或稻田泥土中。其生存的海拔范围为500至1500米。该物种的模式产地在广西瑶山。",
+  "morphology": "周身黑棕色，口角后上方无浅色突起，仅指、趾、肛缘及尾腹鳍褶下缘橘红色；头侧脊棱明显；尾短于头体长；体侧瘰粒13-16枚，瘰粒间界线明显。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -1532,6 +1668,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -1562,7 +1706,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>贵州疣螈</b>（学名：<i>Tylototriton kweichowensis</i>）为蝾螈科疣螈属的两栖动物，俗名描包石、苗婆蛇、土蛤蚧，是中国的特有物种。分布于贵州、云南等地，主要生活于高山小流溪、小水塘、周围有杂草或矮灌木以及溪底有淤泥或碎石细沙。其生存的海拔范围为1500至2400米。该物种的模式产地在贵州大定县公鸡山。",
+  "morphology": "体形和体表色斑与红瘰疣螈较为相似，但本种体侧有密集的瘰疣，背脊、头后侧及指、趾端为橘红色，液浸标本为土黄色。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -1583,6 +1727,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -1712,7 +1864,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>紅瘰疣螈</b>（學名<i>Tylototriton shanjing</i>）是東南亞特有的一種有毒蠑螈。",
+  "morphology": "本种与棕黑疣螈Tylototriton verrucosus相近，但本种背部和体侧棕黑色，而头部、背脊棱、体侧瘰粒、尾部、四肢、肛部周围均为棕红色或棕黄色。<br>",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -1733,6 +1885,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -1762,7 +1922,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>棕黑疣螈</b>（学名：<i>Tylototriton verrucosus</i>）为蝾螈科疣螈属的两栖动物，俗名娃娃蛇。在中国大陆，分布于云南等地，多栖息于山林及稻田附近以及营陆地生活。其生存的海拔范围为1000至2400米。该物种的模式产地在云南陇川户撒。",
+  "morphology": "本种与红瘰疣螈Tylototriton shanjing相近，但本种体尾背面为一致的棕黑色或仅头部、体侧瘰粒、尾部、四肢上或多或少为暗橘红或暗橘黄色。<br>",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -1783,6 +1943,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -1813,7 +1981,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>文县疣螈</b>（学名：<i>Tylototriton wenxianensis</i>）为蝾螈科疣螈属的两栖动物，是中国的特有物种。分布于四川、甘肃等地，一般栖息于山区林间以及五月间生活在静水塘及其附近。该物种的模式产地在甘肃文县。",
+  "morphology": "体侧瘰粒几乎连成纵行，彼此分界不清；体腹面疣粒与背面疣粒大小较为一致，且不成横缢纹状；肛裂周缘的颜色与体色同。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -1834,6 +2002,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -1913,7 +2089,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>大凉疣螈</b>（学名：<i>Tylototriton taliangensis</i>）为蝾螈科疣螈属的两栖动物，是中国的特有物种。分布于四川等地，主要生活于山区。其生存的海拔范围为1390至2650米。该物种的模式产地在四川冕宁。",
+  "morphology": "背面满布大小疣粒；除耳后腺、指、趾和尾下缘橘红色外，周身棕黑色。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -1934,6 +2110,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -2014,7 +2198,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>海南疣螈</b>（学名：<i>Tylototriton hainanensis</i>）为蝾螈科疣螈属的两栖动物，是中国的特有物种。分布于海南岛等地，主要生活于山区林间、一般生活在树林中植物根部以及枯枝落叶中或洞穴中。该物种的模式产地在海南。其种加词“<i>hainanensis</i>”意为“海南的”。",
+  "morphology": "头骨宽度远大于头骨长，额鳞弧相对较窄；体形较大，全长140mm左右；体侧有14-16枚圆形瘰粒。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -2035,6 +2219,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -2064,7 +2256,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>镇海棘螈</b>（学名：<i>Echinotriton chinhaiensis</i>）为蝾螈科棘螈属的两栖动物，是中国的特有物种。仅分布于浙江宁波市北仑区林场，一般栖息于沿海丘陵地区山脚旁以及阴暗潮湿土质松软的泥土或石隙中。其生存的海拔范围为100至200米。",
+  "morphology": "嘴角后上方有浅色突起，其内有钩状方骨侧突；头躯十分宽扁；背侧各有1纵行瘰疣；第五趾较短小。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -2085,6 +2277,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -2223,7 +2423,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>黑斑肥螈</b>（學名：<i>Pachytriton brevipes</i>）為蠑螈科肥螈屬的兩棲動物，俗名水和尚、狗魚、四腳魚，是中國的特有物種。",
+  "morphology": "唇褶明显；皮肤光滑；体形肥硕，背腹面略平扁；背面及两侧青黑或棕褐色，周身满布深色圆斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -2244,6 +2444,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -2678,7 +2886,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>尾斑瘰螈</b>（學名：<i>Paramesotriton caudopunctatus</i>）為蠑螈科瘰螈屬的兩棲動物，俗名化骨丹，是中國的特有物種。分布於湖南、貴州等地，主要棲息於林區山地溪邊靜水水域中。其生存的海拔範圍為500至1800米。該物種的模式產地在貴州雷公山。",
+  "morphology": "全身满布小痣粒，背中央及两侧有3纵行密集瘰疣；吻长明显大于眼径；指、趾宽扁，两侧均有缘膜。雄螈尾部两侧有镶黑边的紫红色圆斑或长条形斑。<br>",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -2699,6 +2907,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -2734,7 +2950,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>中国瘰螈</b>（学名：<i>Paramesotriton chinensis</i>）为蝾螈科瘰螈属的两栖动物，俗名水和尚、化骨丹，是中国的特有物种。分布于浙江、安徽、湖南、广东、广西等地，常生活于流水较急或较缓的流溪中以及或栖息在溪旁草丛和腐叶遮盖的潮湿地方。其生存的海拔范围为200至1200米。该物种的模式产地在浙江宁波。",
+  "morphology": "吻长与眼径几等长；背面有一条浅色脊纹或无；腹面色深有浅色斑；雄螈尾侧无斑；指、趾无缘膜。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -2755,6 +2971,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -2834,7 +3058,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与中国瘰螈相近似，但本种吻长明显大于眼径；体背面及两侧全为黑褐色；背脊棱强烈隆起。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -2855,6 +3079,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -2886,7 +3118,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>香港瘰螈</b>（學名：<i>Paramesotriton hongkongensis</i>），舊稱<b>香港蠑螈</b>，是香港唯一一種本土蠑螈。部份自然學家認為牠們是中國瘰螈（<i>Paramesotriton chinensis</i>）的一個亞種，但普遍認同分立的方法（Thorn and Raffaëlli et. al. 2001）除香港外，廣東省深圳市少數地區也有其蹤影。",
+  "morphology": "香港瘰螈与中国瘰螈Paramesotriton chinensis的区别是本种头体背面皮肤较光滑，疣粒较少；体侧横突末端部位疣粒大，形成明显的侧棱；尾较短，尾鳍褶薄；腹面橘红色斑圆形。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -2907,6 +3139,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -2991,7 +3231,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种由于上鳃骨后端上翘，较厚成束的肌肉包在上鳃骨外面，使成体头部后端两侧鳃迹部位各有一个明显突起（图905：a)；体背嵴棱强烈隆起；指、趾两侧无缘膜，指、趾末端有黑色角质层；肛后尾的腹鳍褶橘红色，约在1/2处其橘红色消失；雄螈尾后段浅紫红色，无斑纹。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -3012,6 +3252,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -3185,7 +3433,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与瘰螈属物种相似，但本种成体头部后端两侧各有3条退化的鳃迹，明显属于童体型；指、趾两侧无缘膜；体背脊两侧各有1条土黄色纵纹；肛后尾的腹鳍褶呈橘红色或橘黄色，此颜色约在尾下的后3/4处消失。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -3206,6 +3454,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -3334,7 +3590,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与蓝尾蝾螈近似。本种皮肤较光滑，无背脊棱，上唇褶发达，雌螈尾部黑斑明显。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -3355,6 +3611,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -3492,7 +3756,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与蓝尾蝾螈Cynops cyanurus相似，但东方蝾螈背脊平扁或略隆起；皮肤较光滑，掌突显或不显；眼后下方无橘红色斑；肛前半部橘红色，后半部黑色。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -3513,6 +3777,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -3590,7 +3862,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "体型中等大小，头扁平，吻棱明显；皮肤上有小疣粒，背脊略凹；尾部具小黑点，尾背鳍褶和腹鳍褶适中（与其他种相比，较明显）；前肢掌部和后肢蹠部有鲜橘红色斑；体腹面正中有1条不规则纵行橘红色带纹，两侧黑斑排列成行。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -3611,6 +3883,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁、胡淑琴、叶昌媛、黄永昭等, 2006. 中国动物志 两栖纲(上卷) 总论 蚓螈目 有尾目. 北京: 科学出版社. 471 页，120 图，16 图版",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -3842,7 +4122,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>川北齿蟾</b>（学名：<i>Oreolalax chuanbeiensis</i>）为锄足蟾科齿蟾属的两栖动物，是中国的特有物种。分布于四川等地，通常栖息在山区流溪边石下或倒木下。该物种的模式产地在四川平武。其种加词“<i>chuanbeiensis</i>”意为“四川省北部”。",
+  "morphology": "鼓膜隐于皮下；吻到枕部及体侧皮肤较光滑，背部满布刺疣；四肢背面有细而整齐的黑色横纹4-6条；腹部两侧及四肢腹面有稀疏麻斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -3863,6 +4143,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -3892,7 +4180,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与疣刺齿蟾Oreolalax rugosus相近似。但棘疣齿蟾体形较大；股后腺小而不显；雄蟾胸部1对刺团大，其内侧间距窄。蝌蚪唇齿式多为I：5+5/4+4:I；体尾黑色，上尾鳍无铁锈斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -3913,6 +4201,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -3942,7 +4238,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>景东齿蟾</b>（学名：<i>Oreolalax jingdongensis</i>）为锄足蟾科齿蟾属的两栖动物，是中国的特有物种。分布于云南等地，主要生活于常绿阔叶林下的山溪中、水流平缓以及溪中多石块。该物种的模式产地在云南景东徐家坝。其种加词“<i>jingdongensis</i>”意为“云南景东的”。",
+  "morphology": "后肢长，前伸时胫跗关节达吻端，左、右跟部重叠颇多；趾间一般具1/3蹼；背部疣粒粗大；雄蟾第一、第二指背面及胸部刺粒大而稀疏。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -3963,6 +4259,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -3992,7 +4296,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与大齿蟾Oreolalax major相近。凉北齿蟾体形较小，成蟾雄性体长47.0-56.3mm，雌性体长56.0-65.7mm；后肢较短，胫长不到体长之半，左、右跟部仅相遇；腹面无任何斑点；雄性腹部两侧无黑刺。蝌蚪唇齿式多为I : 3+3（或4+4）/4+4 : I。卵粒动物极浅灰色，植物极乳白色。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4013,6 +4317,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4044,7 +4356,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>利川齿蟾</b>（学名：<i>Oreolalax lichuanensis</i>）为锄足蟾科齿蟾属的两栖动物，是中国的特有物种。分布于湖北、四川、贵州等地，常见于高山地下水流出的溪水沟中。其生存的海拔范围为1790至2300米。该物种的模式产地在湖北利川。其种加词“<i>lichuanensis</i>”意为“湖北利川的”。",
+  "morphology": "外形与宝兴齿蟾相近。但利川齿蟾鼓膜略显，后肢前伸时胫跗关节前眼后角；整个腹面浅紫色，满布浅黄色细麻斑。蝌蚪体尾交界处有一明显浅色弧形斑，并沿上尾鳍前端延伸成一浅色纵纹。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4065,6 +4377,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4094,7 +4414,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>大齿蟾</b>（学名：<i>Oreolalax major</i>）为锄足蟾科齿蟾属的两栖动物，是中国的特有物种。分布于四川等地，多生活于山溪附近。其生存的海拔2000米。该物种的模式产地在四川峨眉山。其种加词“<i>major</i>”意为“大的”。",
+  "morphology": "外形与凉北齿蟾Oreolalax liangbeiensis相近。大齿蟾体形较大，成蟾雄性体长59.2-68.7mm，雌性体长65.0-70.Omm；后肢较长，胫长几乎为体长之半，左、右跟部重叠；咽喉部及四肢腹面有醒目的棕灰色或黑色麻斑；雄性腹部两侧有细小黑刺。蝌蚪唇齿式为I：4+4/4+4 :1,个别为I：5+5/4+4：I(或5+5：I)。卵粒全乳白色。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4115,6 +4435,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4144,7 +4472,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "体长48mm左右；背面密布圆形小疣和黑斑点。蝌蚪体、尾均有黑斑点。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4165,6 +4493,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4192,7 +4528,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与宝兴齿蟾Oreolalax popei相近，但本种整个腹面及股后无斑纹；胫、跗部背面与体背部的疣粒几等大；体形较小，雄、雌性体长57mm左右。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4213,6 +4549,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4242,7 +4586,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>峨眉齿蟾</b>（学名：<i>Oreolalax omeimontis</i>）为锄足蟾科齿蟾属的两栖动物，是中国的特有物种。分布于四川等地，多栖息于山溪附近。其生存的海拔为2000米。该物种的模式产地在四川峨眉山。其种加词“<i>omeimontis</i>”意为“四川峨眉山的”。",
+  "morphology": "两眼间有三角形斑；雄蟾胸部有1对细密黑刺团外，前臂远端内侧有1团小黑刺，有咽侧下内声囊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4263,6 +4607,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4292,7 +4644,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>秉志齒蟾</b>（學名：<i>Oreolalax pingii</i>）為鋤足蟾科齒蟾屬的兩棲動物，是中國的特有物種。分布於四川等地，常生活於小山溪石下或山旁的靜水坑內。其生存的海拔範圍為2700至3300米。該物種的模式產地在四川昭覺。其種小名「<i>pingii</i>」以中國科學院院士、動物學家秉志的名字命名。",
+  "morphology": "背部皮肤松厚，背后部至肛上前方有一条短纵肤沟；雄蟾背部皮肤较光滑，仅眼后有大小刺疣。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4313,6 +4665,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4343,7 +4703,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>宝兴齿蟾</b>（学名：<i>Oreolalax popei</i>）为锄足蟾科齿蟾属的两栖动物，是中国的特有物种。分布于四川、陕西、甘肃等地，一般栖息于高山区急流水沟内石下。其生存的海拔范围为1000至2900米。该物种的模式产地在四川宝兴。",
+  "morphology": "本种外形与利川齿蟾O. lichuanensis相似。但宝兴齿蟾鼓膜不显，胫跗关节前达眼前角或眼中部；腹面满布灰黑色麻斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4364,6 +4724,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4393,7 +4761,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与无蹼齿蟾Oreolalax schmidti相近。普雄齿蟾头体背面皮肤极粗糙，雄蟾尤甚，其体背面形成长短不一的强黑刺棱，始自眼后，头背面具小疣；雌蟾体背黑刺疣较雄蟾少。卵动物极浅紫灰色，植物极乳白色。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4414,6 +4782,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4446,7 +4822,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>红点齿蟾</b>（学名：<i>Oreolalax rhodostigmatus</i>）为 两栖纲 锄足蟾科齿蟾属的两栖动物，是中国的特有物种。",
+  "morphology": "整个背面满布小疣；2个掌突高、长椭圆形，排成倒“八”形；体侧有10余个极显著的橘红色或浅黄圆疣；腋腺及股后腺大而圆，橘红色。蝌蚪体形肥大，大者全长达110mm，第一行短唇齿的下方，又有1行短唇齿位于左、右第一、二行唇齿之间，唇齿式一般为I：1＋1，I：8+8/9+9：I，或I: 1+1，I：7+7/8+8：I；两口角处副突多，且有小齿。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4467,6 +4843,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4497,7 +4881,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>疣刺齿蟾</b>（学名：<i>Oreolalax rugosus</i>）为锄足蟾科齿蟾属的两栖动物，是中国的特有物种。分布于四川、云南等地，常见于高山区小山溪、石块多以及水流平缓。其生存的海拔范围为1800至3300米。该物种的模式产地在四川昭觉。",
+  "morphology": "整个背面满布刺疣；无鼓膜；趾间蹼显著；四肢无横斑或有不规则之横斑；后肢前伸贴体时胫跗关节达眼部。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4518,6 +4902,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4547,7 +4939,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>无蹼齿蟾</b>（学名：<i>Oreolalax schmidti</i>）为锄足蟾科齿蟾属的两栖动物，是中国的特有物种。分布于四川等地，常见于山区地带的草皮或烂叶下。其生存的海拔范围为1700至2600米。该物种的模式产地在四川峨眉山。",
+  "morphology": "外形与普雄齿蟾Oreolalax puxiongensis相近。无蹼齿蟾雄蟾头背面较光滑，体背部皮肤较粗糙，多为圆形小黑刺疣，雌蟾疣较少，且疣上无刺。卵粒乳白色。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4568,6 +4960,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4595,7 +4995,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "魏氏齿蟾后肢较长，胫长略超过体长之半；趾侧缘膜较宽，趾间蹼发达；雄蟾胸部和腹部前2/3处有许多小黑刺集成一片。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4616,6 +5016,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4646,7 +5054,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>乡城齿蟾</b>（学名：<i>Oreolalax xiangchengensis</i>）为锄足蟾科齿蟾属的两栖动物，是中国的特有物种。分布于四川、云南等地，多生活于高山区多石块的山溪。其生存的海拔范围为2680至3300米。该物种的模式产地在四川乡城。其种加词“<i>xiangchengensis</i>”意为“四川省乡城县的”。",
+  "morphology": "体背面刺疣较小，疣周围无黑斑；四肢背面及唇缘无斑纹或不显；雄性趾间全蹼，雌性者略逊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4667,6 +5075,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4699,7 +5115,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>西藏齒突蟾</b>（學名：<i>Scutiger boulengeri</i>）為鋤足蟾科齒突蟾屬的兩棲動物，分布範圍以中國為主。分布於四川、西藏、甘肅、青海等地，多生活於小山溪的盡源處或大中型溪流緩流處岸邊石下或石塊間隙內。其生存的海拔範圍為3300至5100米。該物種的模式產地在金沙江上游。",
+  "morphology": "外形与林芝齿突蟾Scutiger (S.) nyingchiensis相近似。但本种雄蟾背、腹均具刺疣；雌蟾背疣少，腹部具疣粒而无刺；趾侧缘膜宽，第四趾1/3-1/2蹼。蝌蚪唇齿式为I：6+6(或I：5+5)/6+6：I。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -4720,6 +5136,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4749,7 +5173,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>金顶齿突蟾</b>（学名：<i>Scutiger chintingensis</i>）为锄足蟾科齿突蟾属的两栖动物，是中国的特有物种。分布于四川等地，主要生活于高山区溪流附近。其生存的海拔为3050米。该物种的模式产地在四川峨眉山。",
+  "morphology": "趾间有蹼，背疣长而显著，无鼓膜。雄蟾胸、腋部有两对黑刺团，上臂及前臂内侧均有黑刺。蝌蚪体小而扁，唇齿式I：3+3/2+2：I。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4770,6 +5194,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4898,7 +5330,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>六盤齒突蟾</b>（學名：<i>Scutiger liupanensis</i>）為鋤足蟾科齒突蟾屬的兩棲動物，是中國的特有物種。只發現於寧夏六盤山。其種加詞「<i>liupanensis</i>」意為「六盤山的」。",
+  "morphology": "外形与西藏齿突蟾Scutiger (S.) boulengeri相近似。但本种第一、第二趾间蹼不超过趾长的1/3;头骨长大于头骨宽；雄性腹正中刺疣呈纵长排列，约为腹部面积的1/3。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4919,6 +5351,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -4948,7 +5388,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>花齒突蟾</b>（學名：<i>Scutiger maculatus</i>）為鋤足蟾科齒突蟾屬的兩棲動物，是中國的特有物種。分布於四川、西藏等地，常棲息於小山溪岸邊的石下。其生存的海拔範圍為3500至4000米。該物種的模式產地在四川甘孜。",
+  "morphology": "趾间蹼较发达，缘膜宽；肛两侧无大疣。雄蟾胸腺上黑刺细密，内侧3指有小婚刺，腹部无刺疣。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -4969,6 +5409,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -5101,7 +5549,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>平武齒突蟾</b>（學名：<i>Scutiger pingwuensis</i>）為鋤足蟾科齒突蟾屬的兩棲動物，是中國的特有物種。分布於四川等地。該物種的模式產地在四川平武。",
+  "morphology": "雄蟾胸部刺团2对，上臂及前臂内侧均有黑刺；上颌无齿；皮肤甚粗糙，几乎周身满布黑刺疣。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -5122,6 +5570,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -5202,7 +5658,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与西藏齿突蟾Scutiger (S.) boulengeri和六盘齿突蟾Scutiger (S.) liupanensis相近似。但本种雄蟾体长52.7-58.2 (55.5)mm，雌蟾体长64.3mm左右；背部疣粒小，背侧光滑无疣粒；胫部疣粒小于背部疣粒；肛部周围光滑；趾间具微蹼；雄性腹部刺群位于腹中部呈带状，腋腺略小于胸腺等特征可分别与后两种相区别。而西藏齿突蟾的体背部疣粒大，体侧具疣粒；背部和胫部的疣粒几等大；肛部周围有成对大疣和小疣；趾间蹼一般大于半蹼；腹部刺群呈片，在腹中部不呈带状等特征与本种明显有别；六盘齿突蟾体较小，雄蟾体长40.0-48.0 (43.7)mm；体背部疣粒大；背部和胫部的疣粒几等大；肛部有一对大疣等特征可与本种别区。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -5223,6 +5679,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -5406,7 +5870,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "新种与海南拟髭蟾Leptobrachium hainanense Ye et Fei的形态相近。但新种的四肢相对较长，前臂及手长略长于体长之半，为体长的50.5%-56.6%，胫长为体长的37.1%-37.7%；外掌突远小于内掌突；整个腹面紫褐色，满布白色痣粒；眼上部白色；蝌蚪唇齿式为I：8＋8/7＋7：I。而海南拟髭蟾后肢相对较短小，前臂及手长短于体长之半，为体长的45.9%-48.0%，胫长为体长的31.9%-34.8％；内掌突略小于外掌突或几乎等大；胸、腹中部色浅，不呈紫褐色，白色痣粒不明显；眼上部浅蓝色；蝌蚪唇齿式为I：6＋6/5＋5：I。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -5427,6 +5891,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6259,7 +6731,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种以趾侧缘膜宽，鼓膜纵椭圆形区别于小角蟾Megophrys minor;其上眼睑无角状疣，蝌蚪尾末端钝圆则不同于短肢角蟾Megophrys brachykolos",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -6280,6 +6752,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6314,7 +6794,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与小角蟾Megophrys minor相似。淡肩角蟾背面肩部有大的浅色半圆斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -6335,6 +6815,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6365,7 +6853,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "上眼睑中部有一小的角状疣；腿短，左、右跟部不相遇；鼓膜直径宽于眼径之半。蝌蚪的尾末端尖。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -6386,6 +6874,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6463,7 +6959,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与张氏角蟾Megophrys zhangi相似，均具犁骨棱和犁骨齿。但本种后肢前伸贴体时胫跗关节前达吻端；上眼睑外缘有1个很小的突起；趾间无蹼，趾侧无缘膜。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -6484,6 +6980,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6513,7 +7017,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与沙坪角蟾Megophrys shapingensis相近。该蟾上唇缘有栉齿状疣粒；鼓膜隐蔽；雄蟾有一对内声囊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -6534,6 +7038,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6561,7 +7073,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种形态与淡肩角蟾M. boettgeri相近。但本种趾侧无缘膜，趾间几乎无蹼；足内侧第一、二趾基部有关节下瘤；两眼间有“倒三角形”形斑，不与背部深色斑相连成宽带纹，其背部形成“X”或“）（”或形成不规则深色斑；肩上方浅色圆斑或半圆斑略显或不明显；雄蟾第一、第二指上有婚刺。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -6582,6 +7094,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6614,7 +7134,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与小角蟾Megophrys minor相近。本种体形较小；后肢较短，胫跗关节仅达眼后角与鼓膜之间。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -6635,6 +7155,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6715,7 +7243,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与大角蟾Megophrys major相近。但本种趾侧无缘膜，趾间无蹼；眼间深色三角形斑之后角向后延长与背中部“工”形深色斑相连接；左、右鼻骨不相接，彼此相距远；鼻骨与蝶筛骨和额顶骨均相接。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -6736,6 +7264,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6765,7 +7301,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与峨眉角蟾Megophrys omeimontis很相似。但本种鼓膜椭圆形，斜置，距眼后角远；趾侧无缘膜，趾间无蹼或有蹼迹；第一、第二指无关节下瘤。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -6786,6 +7322,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6815,7 +7359,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "鼓膜隐蔽；无犁骨棱和犁骨齿；趾间具微蹼。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -6836,6 +7380,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6869,7 +7421,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "犁骨棱发达，末端膨大具细齿；雄蟾第一、第二指婚垫上有细而密集的黑刺；趾侧缘膜窄，基部相连成蹼迹。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -6890,6 +7442,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6919,7 +7479,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与大花角蟾Megophrys gigantica相近。但本种上唇缘无栉齿状疣粒；无鼓膜；趾间蹼及趾侧缘膜均显著；雄蟾无声囊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -6940,6 +7500,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -6970,7 +7538,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与峨眉角蟾Megophrys omeimontis很相似。但该蟾的犁骨棱细弱，末端不膨大，亦无细齿；雄蟾第一、第二指上有大而分散的锥状黑刺；趾侧缘膜及趾蹼均发达。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -6991,6 +7559,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -7020,7 +7596,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "瓦屋角蟾与巫山角蟾Megophrys wushanensis相近，其共同点是背部有宽的“工”形深色斑，无成对的肤棱。但本种体形相对较大；在背两侧有深色宽纵纹；腹部深色斑不规则，四肢腹面无斑，趾侧无缘膜。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -7041,6 +7617,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -7070,7 +7654,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与小角蟾Megophrys minor相近。但本种体形小；趾间无蹼；掌、蹠突和指、趾端腹面以及关节下瘤部橘红色，腹面和腿腹面有黑褐色圆斑；蝌蚪体尾无斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -7091,6 +7675,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -7122,7 +7714,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与小角蟾Megophrys minor相近。但本种趾侧缘膜显著；体背中部有宽的“工”形酱色斑，并与两眼间三角形斑相连，斑之边缘均镶以浅色细纹；腹部和四肢腹面为酱色，均被浅色细纹分隔成近圆形斑；背部无痣粒组成的肤棱；蝌蚪体尾均无深色斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -7143,6 +7735,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -7369,7 +7969,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与费氏短腿蟾Brachytarsophrys feae相近似。但本种眼后不呈肥肿隆起；额顶骨棱脊弱，位额顶骨两侧；内蹠突约等于第一趾长度；体侧有分散的大疣。蝌蚪体腹面的浅色宽横纹较长，其侧端达出水孔部位；尾部有深浅相间的纵行带纹。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -7390,6 +7990,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -7470,7 +8078,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>哀牢蟾蜍</b>（学名：<i>Bufo ailaoanus</i>）为蟾蜍科蟾蜍属的两栖动物，是中国大陆的特有物种。分布于云南地区，常栖息于竹林及水沟。其生存的海拔范围为2550至2600米。该物种的模式产地在云南双柏。其种加词“<i>ailaoanus</i>”意为“哀牢山的”。",
+  "morphology": "无鼓膜，无耳柱骨；体长不超过60mm",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -7491,6 +8099,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -7887,7 +8503,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>中国雨蛙</b>（学名：<i>Hyla chinensis</i>）又名<b>中国树蟾</b>，为雨蛙科雨蛙属的两栖动物，俗名绿猴、雨怪、小姑鲁门、雨鬼。分布于台湾本岛以及中国大陆的江苏、浙江、福建、江西、河南、湖北、湖南、广东、广西等地，该物种的模式产地在中国。",
+  "morphology": "眼后鼓膜上、下方棕色细线纹在肩部汇合成三角形斑；体侧、股前后方有大小不等的黑斑点。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -7908,6 +8524,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -7935,7 +8559,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "背面纯绿色，鼻孔至眼之间无深色线纹，体侧和胫前后均无黑斑点，肛上方有一条细白横纹；足略长于胫，趾间约1/3蹼。蝌蚪体尾背面无浅色纵纹；肛孔位于下尾鳍基部中央。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -7956,6 +8580,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -7992,7 +8624,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>三港雨蛙</b>（学名：<i>Hyla sanchiangensis</i>）为雨蛙科雨蛙属的两栖动物，俗名<b>小姑鲁门</b>、<b>雨鬼</b>，是中国的特有物种。分布于浙江、安徽、福建、江西、湖南、广西、贵州等地，常栖息于稻田附近。其生存的海拔范围为800至1000米。该物种的模式产地在福建崇安三港。",
+  "morphology": "颞褶较细，上面一般无疣；眼前下方至口角有一块明显的灰白斑，眼后鼓膜上、下方两条深棕色线纹在肩部不相汇合；体侧后段、股前后、胫腹面有黑棕色斑点；蝌蚪有两条棕色线纹，肛孔斜开尾基右侧。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -8013,6 +8645,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -8045,7 +8685,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>华南雨蛙</b>（学名：<i>Hyla simplex</i>）为雨蛙科雨蛙属的两栖动物。分布于越南，老挝（未确定），以及中国大陆广东、广西、海南等地，常栖息于水域附近草丛间或甘蔗地或竹林里。其生存的海拔范围为20至230米。该物种的模式产地在越南。...",
+  "morphology": "本种体背面纯绿色，无深色斑点；体侧及股前后均无黑斑点；左、右跟部重叠；后肢前伸时胫跗关节达眼后角。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -8066,6 +8706,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -8099,7 +8747,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>秦岭雨蛙</b>（学名：<i>Hyla tsinlingensis</i>）为雨蛙科雨蛙属的两栖动物，是中国的特有物种。分布于陕西、甘肃、湖北、四川、湖南等地，常栖息于高山稻田或水域附近。其生存的海拔范围为600至1341米。该物种的模式产地在陕西周至。",
+  "morphology": "本种与华西雨蛙武陵亚种Hyla gongshanensis wulingensis相近。秦岭雨蛙体形较大，一般体长在40mm左右；吻端和头侧有镶细黑线的棕色斑，体侧斑点多，一般呈镶嵌式；蝌蚪肛孔位右侧。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -8120,6 +8768,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -8254,7 +8910,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>长脚赤蛙</b>（学名：<i>Rana longicrus</i>）为蛙科蛙属的两栖动物。分布于台灣本島以及中国大陆的福建等地，常栖息于落叶林、池塘、沼泽以及水田。其生存的海拔上限为500米。该物种的模式产地在台湾。",
+  "morphology": "本种外形与日本林蛙Rana japonica相近似。但本种四肢细长，后肢前伸贴体时胫跗关节达到吻端或超过；背侧褶在鼓膜上方略弯曲；雄蛙第一指上婚垫（刺）在基部处为一团。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -8275,6 +8931,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -8306,7 +8970,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>昭觉林蛙</b>（学名：<i>Rana chaochiaoensis</i>）为蛙科蛙属的两栖动物，是中国的特有物种。分布于四川、贵州、云南、陕西等地，常栖息于山岭地带近水的草间及树林里。其生存的海拔范围为1150至3340米。该物种的模式产地在四川昭觉。",
+  "morphology": "外形与峨眉林蛙Rana omeimontis相近。但本种吻端钝圆；蝌蚪唇齿式I：2+2（或3+3）／ 1+1 : III，下唇乳突一排，中央稀疏或有缺刻。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -8327,6 +8991,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -8374,7 +9046,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>中国林蛙</b>（学名：<i>Rana chensinensis</i>），又称红肚田鸡，满语称<b>哈士蟆</b>或<b>哈什蟆</b>，是两栖纲无尾目赤蛙科赤蛙屬的一种两栖动物。",
+  "morphology": "背侧褶在鼓膜上方呈曲折状；后肢长为体长的185%左右，后肢前伸贴体时胫跗关节超过眼或鼻孔；外侧3趾间几乎近2/3蹼；鼓膜部位有三角形黑斑。雄蛙第一指基部的两个大婚垫内下侧间的间距明显，近腕部一团不大于指部一团；有一对咽侧下内声囊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -8395,6 +9067,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -8424,7 +9104,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>峰斑林蛙</b>（学名：<i>Rana chevronta</i>）为蛙科蛙属的两栖动物，是中国的特有物种。分布于四川等地。该物种的模式产地在四川峨眉山。",
+  "morphology": "外形与峨眉林蛙Rana omeimontis相近似。但本种头顶至枕后有一“又”形斑，体背中部至后端有一“^”形峰斑；指末端略膨大成小吸盘而无沟；外侧蹠间蹼约达踱部的1/2；背侧褶宽厚；雄蛙仅背侧有雄性线。<br>",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -8445,6 +9125,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -8530,7 +9218,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与峨眉林蛙Rana omeimontis Ye et Fei相近。但本种股部背面黑褐色横纹窄、整齐，约9条；雄蛙无雄性线；蝌蚪尾末端钝圆，唇齿式为I：3+3/1+1：III；繁殖期在10月上旬至中旬。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -8551,6 +9239,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -8632,7 +9328,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与镇海林蛙Rana zhenhaiensis相近。但本种体较大，雄蛙体长56.7-63.7mm，雌蛙体长61.7-70.3mm；背侧褶在鼓膜上方平直；雄蛙婚垫白色，基部者明显分为两团；繁殖期在8-9月。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -8653,6 +9349,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -8788,7 +9492,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与峨眉林蛙Rana omeimontis相近似。但本种体相对较小，雄蛙体长40-57mm，雌蛙体长36-60mm；背侧褶在鼓膜上方略弯；雄蛙婚垫灰色，基部者不明显分为两团；繁殖期在12-4月。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -8809,6 +9513,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -8889,7 +9601,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "片马湍蛙有背侧褶与崇安湍蛙Amolops chunganensis相似。但第一指端具小吸盘，且无边缘沟；雄蛙无声囊；体型较大（雄蛙体长46-50mm，雌蛙体长64mm）。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -8910,6 +9622,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -8997,7 +9717,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>崇安湍蛙</b>（学名：<i>Amolops chunganensis</i>）为蛙科湍蛙属的两栖动物，是中国的特有物种。分布于浙江、福建、湖南、广西、四川、贵州、陕西、甘肃等地，多栖息于热带地区山溪。其生存的海拔范围为600至1200米。该物种的模式产地在福建崇安。",
+  "morphology": "外形特征与山湍蛙Amolops monticola相近似。崇安湍蛙体小；吻较长，约为体长的15%；第三指吸盘小于鼓膜；颞褶不显；背侧褶较窄。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -9018,6 +9738,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -9047,7 +9775,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>戴云湍蛙</b>（学名：<i>Amolops daiyunensis</i>）为蛙科湍蛙属的两栖动物，是中国的特有物种。分布于福建等地。该物种的模式产地在福建戴云山。",
+  "morphology": "本种外形与海南湍蛙Amolops hainanensis相似。但本种下颌前侧方无大的齿状突；雄蛙有乳白色婚垫和1对咽侧下内声囊。与香港湍蛙A. hongkongensis的区别，本种体型相对较大、吻长明显大于眼径、鼓膜小；皮肤较光滑；跗部有宽厚腺体。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -9068,6 +9796,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -9098,7 +9834,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>棘皮湍蛙</b>（學名：<i>Amolops granulosus</i>）為蛙科湍蛙屬的兩棲動物，是中國的特有物種。分布於湖北、四川等地。該物種的模式產地在四川。",
+  "morphology": "眼后至胯部有断续腺褶，略似背侧褶；除吻背面皮肤平滑外，雄蛙自上眼睑后半部至体后端及四肢背面满布小白刺，雌蛙的小刺很少。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -9119,6 +9855,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -9148,7 +9892,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>海南湍蛙</b>（学名：<i>Amolops hainanensis</i>）为蛙科湍蛙属的两栖动物，是中国的特有物种。分布于海南等地。该物种的模式产地在海南五指山。其种加词“<i>hainanensis</i>”意为“海南的”。",
+  "morphology": "下颌前部有1对大的齿状骨突；眼后枕部两侧隆起；跗部腹面皮肤有厚腺体。雄蛙第一指无婚垫；无声囊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -9169,6 +9913,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -9200,7 +9952,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>香港瀑蛙</b>（<i><b>Amolops hongkongensis</b></i>）是一種青蛙物種 ，於香港首先被發現。...",
+  "morphology": "本种与戴云湍蛙Amolops daiyunensis很相近。但香港湍蛙背面皮肤有许多小疣，在体前部和侧面疣粒尤为突出；吻较长，明显突出；眼较大，眼径与吻长相等；鼓膜隐蔽；体较小；附部无宽厚腺体。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -9221,6 +9973,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -9350,7 +10110,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>理县湍蛙</b>（学名：<i>Amolops lifanensis</i>）为蛙科湍蛙属的两栖动物。在中国大陆，分布于四川等地。该物种的模式产地在四川理县。",
+  "morphology": "外形与四川湍蛙Amolops mantzorum很相似。但理县湍蛙鼓膜不显或隐约可见；生活时一般呈黄蓝灰色，杂以黑色或黑棕色斑纹；生活于中型山溪地区。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -9371,6 +10131,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -9401,7 +10169,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>棕点湍蛙</b>（学名：<i>Amolops loloensis</i>）为蛙科湍蛙属的两栖动物，是中国的特有物种。分布于四川等地。该物种的模式产地在四川。",
+  "morphology": "本种与四川湍蛙Amolops mantzorum较相似。但棕点湍蛙生活时背面基色为绿色，其上有镶浅色边的圆形或椭圆形的棕红色大斑；雄蛙有雄性线。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -9422,6 +10190,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -9453,7 +10229,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>四川湍蛙</b>（学名：<i>Amolops mantzorum</i>）为蛙科湍蛙属的两栖动物，是中国的特有物种。分布于四川、云南、甘肃等地，常见于小瀑布及急流的山溪旁。其生存的海拔范围为1000至3800米。该物种的模式产地在四川宝兴。",
+  "morphology": "本种与理县湍蛙Amolops lifanensis很相似。四川湍蛙鼓膜较明显；生活时一般呈绿色或蓝绿色，杂以棕褐色或棕色花斑；该蛙生活于大型山溪或大河附近。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -9474,6 +10250,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -9514,7 +10298,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>华南湍蛙</b>（学名：<i>Amolops ricketti</i>）为蛙科湍蛙属的两栖动物。",
+  "morphology": "本种与武夷端蛙Amolops wuyiensis相似。华南湍蛙有犁骨齿；雄蛙第一指具粗壮的乳白色婚刺，无声囊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -9535,6 +10319,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -9564,7 +10356,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>小湍蛙</b>（学名：<i>Amolops torrentis</i>）为蛙科湍蛙属的两栖动物，是中国的特有物种。分布于海南等地。该物种的模式产地在海南五指山。",
+  "morphology": "体型小，体长一般在40mm以下；下颌前侧无齿状骨突；雄蛙第一指无婚垫，有咽下内声囊。蝌蚪上角质颌呈“^^”形，吻背面有角质小刺，排列多不规则。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -9585,6 +10377,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -9664,7 +10464,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>绿点湍蛙</b>（学名：<i>Amolops viridimaculatus</i>）为蛙科湍蛙属的两栖动物。分布于越南，印度以及中国云南等地，一般栖息于热带亚热带山溪以及急流中小瀑布。其生存的海拔范围为400至2340米。该物种的模式产地在云南腾冲。",
+  "morphology": "本种与棕点湍蛙Amolops loloensis相近。绿点湍蛙个体较大；生活时整个背面棕色，背面和体侧有分散的近圆形或椭圆形绿色斑块；后肢较长，前伸时胫跗关节达鼻孔至吻端。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -9685,6 +10485,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -9718,7 +10526,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>武夷湍蛙</b>（学名：<i>Amolops wuyiensis</i>）为蛙科湍蛙属的两栖动物，是中国的特有物种。分布于浙江、安徽、福建等地。该物种的模式产地在福建崇安。",
+  "morphology": "本种与华南湍蛙Amolops ricketti相似。武夷湍蛙无犁骨齿；雄蛙第一指上具棕黑色婚刺，有一对咽侧下内声囊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -9739,6 +10547,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -10231,7 +11047,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "第二、第三指内外侧缘膜明显，趾间具半蹼，第四趾外侧蹼几乎达到第二关节下瘤；指端膨大，一般均有腹侧沟；雄蛙有肩上腺，鸣声“咕（gu)、咕、咕”，由2-3声组成。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -10252,6 +11068,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -10281,7 +11105,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "趾蹼较弱，第四趾外侧蹼仅达近端关节下瘤；指端腹侧一般无沟，趾端腹侧具沟明显。雄蛙有肩上腺；有筑泥窝习性，卵平铺于泥窝内，鸣声似琴声，“登(deng),登、登”，多为3-4声。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -10302,6 +11126,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -10331,7 +11163,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "种种的鸣声与弹琴蛙Hylarana (Nidirana) adenopleura和林琴蛙Hylarana(Nidirana）lini的鸣声较为相近，而与仙琴蛙Hylarana (Nidirana）daunchina和竖琴蛙Hylarana (Nidirana) psaltes的鸣声（似琴声）迥不相同。但本新种体形小，雄蛙体长32.8-33.5(33.3，n=4)mm，无婚垫，咽胸部多无斑纹；趾间具1/3-1/2蹼，后肢相对较长，平均约为体长的177％等特征可与弹琴蛙相区别。而林琴蛙的体形较大，雄蛙体长44.2-61.2(53.5，n＝9)mm，第一指基部有婚垫，咽胸部有浅灰色斑等特征可与本种相区别。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -10352,6 +11184,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -10687,7 +11527,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>小山蛙</b>（学名：<i>Glandirana minima</i>）为蛙科蛙属的两栖动物，是中国的特有物种。分布于福建等地。该物种的模式产地在福建福清。",
+  "morphology": "指、趾末端略膨大，趾腹面有侧腹沟；成蛙最大体长不超过32mm；背面黄褐色；无背侧褶；背部及体侧有8行左右长短不一的纵肤棱。雄蛙具一对咽侧下内声囊，无肩腺、无肱腺。蝌蚪周身皮下密布圆球状透明（液浸后为白色）的小颗粒，体背两侧各有2-6个较大的颗粒状腺体排成一纵行。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -10708,6 +11548,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -10900,7 +11748,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>安龙臭蛙</b>（学名：<i>Rana anlungensis</i>）为蛙科蛙属的两栖动物，是中国的特有物种。分布于贵州等地，常见于植物茂密水清见底以及岩石上苔藓多的山溪内。其生存的海拔范围为1480至1550米。该物种的模式产地在贵州安龙。",
+  "morphology": "外形与合江臭蛙Odorrana (Odorrana) hejiangensis较相近。但安龙臭蛙体型小，雄蛙体长不超过40mm，雌蛙体长70mm以下；趾蹼缺刻较深；背面及体侧深色斑分界不清。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -10921,6 +11769,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -11057,7 +11913,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>無指盤臭蛙</b>（學名：<i>Rana grahami</i>）為蛙科蛙屬的兩棲動物，是中國的特有物種。分布於四川省、貴州省、雲南省等地，常生活於中小山溪內植物茂盛以及陰暗潮濕處。其生存的海拔範圍為720至3200米。該物種的模式產地在昆明。",
+  "morphology": "指端无腹侧沟；鼓膜较大；雄蛙胸腹部均有小白刺。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -11078,6 +11934,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -11161,7 +12025,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>海南臭蛙</b>（<i><b>Odorrana hainanensis</b></i>）为蛙科蛙属的两栖动物，是中国海南的特有物种。常与云南臭蛙混淆。雄蛙体长49–62毫米，雌蛙75–123毫米。 因栖息地遭破坏，生存受到威胁。",
+  "morphology": "本种与云南臭蛙Odorrana (Odorrana) andersonii相近，但有下列特征不同于后者：指吸盘宽大，很明显，第三指吸盘宽度为基部宽的1.9倍；指、趾的吸盘均有腹侧沟，沟长，两侧沟在指、趾端部几乎相连；指、趾末端骨节呈“T”形；体背面小疣粒分布均匀，无大疣和刺粒；鼓膜大，雄蛙者为眼径的2/3，约为体长的8.3%；雄、雌成体体长差异大，其比为1 : 1.8;卵全为乳黄色，动物极无色素。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -11182,6 +12046,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -11212,7 +12084,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与安龙臭蛙Odorrana (Odorrana) anlungensis相近，但本种体型较大，雄蛙体长34-56mm，雌蛙体长86-88mm；趾间蹼缺刻较浅。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -11233,6 +12105,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -11317,7 +12197,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>光雾臭蛙</b>（学名：<i>Odorrana kuangwuensis</i>）为蛙科臭蛙属的两栖动物，是中国的特有物种。分布于四川、湖北、重庆及陕西等地。该物种的模式产地在四川光雾山。",
+  "morphology": "外形与绿臭蛙Odorrana (Odorrana) margaretae相近。但光雾臭蛙背后部有斑点，后肢腹面及趾间蹼均有大的花斑，股后无碎斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -11338,6 +12218,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -11425,7 +12313,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>龙胜臭蛙</b>（学名：<i>Rana lungshengensis</i>）为蛙科蛙属的两栖动物，是中国的特有物种。分布于湖南、广西、贵州等地，多栖息于山溪边悬崖峭壁上。其生存的海拔范围为900至1158米。该物种的模式产地在广西龙胜。",
+  "morphology": "外形与花臭蛙Odorrana (Odorrana) schmackeri较相近，但龙胜臭蛙鼓膜与第三指吸盘几乎等大；上眼睑、体背后部及后肢背面均有密集小白刺；雄蛙体长55mm以上，雄雌体长差异较小。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -11446,6 +12334,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -11480,7 +12376,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "外形与云南臭蛙Odorrana (Odorrana) andersonii相似。但绿臭蛙体背部深绿色，且无斑点；雄蛙胸部只有1团小白刺，略呈“△”形，无声囊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -11501,6 +12397,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -11528,7 +12432,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与花臭蛙Odorrana (Odorrana) schmackeri (Boettger, 1892)相近似，但本种成体雄、雌体长之比值较小，约为1：1.34；犁骨齿列短，两内侧间距宽，距内鼻孔远；背面深色斑点周围没有浅色边缘；股后部深色斑大而稀疏；趾间蹼较弱，第四趾蹼达远端关节下瘤；腹内成熟卵的动、植物极均为乳白色。而花臭蛙成体雄、雌体长之比较大，为1：1.93;犁骨齿列长，两内侧间距窄，距内鼻孔较近；背面深色斑点周围有浅色边缘；股后部深色斑小而密集；趾间蹼较发达，第四趾蹼达第四趾吸盘的基部；腹内成熟卵动物极呈棕色，植物极呈乳白色。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -11549,6 +12453,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -11693,7 +12605,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>花臭蛙</b>（学名：<i>Rana schmackeri</i>）为蛙科蛙属的两栖动物，是中国的特有物种。分布于江苏、浙江、安徽、福建、江西、河南、湖北、湖南、广东、广西、四川、贵州、陕西、甘肃等地，多见于较开阔的山溪及附近潮湿处以及常蹲在有苔藓的岩石上。其生存的海拔范围为200至1500米。该物种的模式产地在湖北宜昌。",
+  "morphology": "本种与龙胜臭蛙Odorrana (Odorrana) lungshengensis较相近。但花臭蛙鼓膜大，约为第三指吸盘的两倍；上眼睑、后肢背面及背部均无小白刺；雄蛙体长小于50mm，雄雌体长差异较大。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -11714,6 +12626,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -11798,7 +12718,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>凹耳蛙</b>（學名：<i>Odorrana tormota</i>）為赤蛙科臭赤蛙屬的兩棲動物，是中國的特有物種。分布於浙江安吉縣和建德市以及安徽黃山，一般棲息於山溪附近。其生存的海拔範圍為380至700米。該物種的模式產地在安徽黃山。",
+  "morphology": "背侧褶明显；鼓膜明显凹陷，雄蛙的几乎深陷成一外听道；有1对咽侧下外声囊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -11819,6 +12739,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -11906,7 +12834,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>务川臭蛙</b>（学名：<i>Rana wuchuanensis</i>）为蛙科臭蛙属的两栖动物，是中国的特有物种。只发现在贵州务川白村的一个深山溶洞内，海拔为720米。",
+  "morphology": "外形与光雾臭蛙Odorrana kuangwuensis颇相似，但本种鼓膜大，约为眼径的4/5，指、趾吸盘较大，趾间蹼缺刻较深，仅达第二关节下瘤，趾间蹼无大花斑，仅有少量细小花纹；体腹部满布深灰色大斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -11927,6 +12855,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -12058,7 +12994,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与龙胜臭蛙Odorrana lungshengensis (Liu et Hu）近似，但存在明显差别。本种体型较小，雄性体长47.3-54.0(51.4，n =6)mm，雌性58.2-71.5(67.4，n＝5)mm；雄性鼓膜较大，约为第三指吸盘的2倍，为眼径的2/3-3/4；雄性前臂粗壮，为体长的12.8％；雄性上眼睑、颞部、体背后部及后肢背面均无白色刺群；体背面棕色斑大而密，形状不规则；腹面褐色，其上斑纹稀少；股后部色浅，深色斑明显。而龙胜臭蛙体型较大，雄性体长59.5-66.8(62.2，n=4)mm，雌性72.8-85.0(80.9，n＝3)mm；雄性鼓膜较小，其直径约等于第三指吸盘宽度，为眼径的1/2；雄性前臂不粗壮，为体长的11.4%；雄性上眼睑、颞部、体背后部及后肢背面均有白色刺群；体背面棕色斑多呈圆形且较稀疏，大小较为一致；腹面满布黑褐色斑；股后部色深，斑纹不明显。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -12079,6 +13015,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -12160,7 +13104,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与金线侧褶蛙Pelophylax plancyi的主要区别在于：本种的背侧褶较窄，几乎近于平行，约为体长的0.5％；头长略大于头宽；内蹠突较短，约为第一趾长的1/2；后肢较长，左、右跟部重叠或相遇，胫跗关节可达眼中部。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -12181,6 +13125,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -12214,7 +13166,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与金线侧褶蛙Pelophylax plancyi相近，其主要区别在于本种雄蛙无声囊，而金线蛙有1对咽侧内声囊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -12235,6 +13187,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -12279,7 +13239,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>金线侧褶蛙</b>（学名：<i>Pelophylax plancyi</i>），又名<b>金线蛙</b>，为蛙科侧褶蛙属的两栖动物。分布于台湾以及中国大陆的河北、山西、山东、江苏、浙江、安徽、福建、江西、河南、湖南等地。该物种的模式产地在北京。",
+  "morphology": "趾间几乎满蹼；内蹠突极发达；背侧褶最宽处与上眼睑等宽；大腿后部云斑少，有清晰的黄色与酱色纵纹。雄蛙有一对咽侧内声囊。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -12300,6 +13260,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -12425,7 +13393,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与西藏舌突蛙Liurana xizangensis相近，但有下列特征不同于后者：内侧第一指很短小，远短于第二指；趾端略膨大，无沟；蹠部无疣；腹部皮肤光滑，无疣；腹部具醒目的深色云斑。后者内侧第一指略短于第二指；趾端钝圆，有不清晰的横沟；蹠部有小疣；腹部有扁平大疣；腹部无云斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -12446,6 +13414,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -12475,7 +13451,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "体背前后各有一深色斑，腹面无云斑；鼓膜大，约为眼径的4/5；腹面有扁平疣。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -12496,6 +13472,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -12540,7 +13524,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "本种与海陆蛙Fejervarya cancrivora相似。但本种体长小于60mm；第五趾无缘膜或极不明显；有外蹠突；雄蛙有单咽下外声囊。生活于淡水水域。<br>",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -12561,6 +13545,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -12640,7 +13632,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>脆皮蛙</b>（学名：<i>Rana fragilis</i>）为蛙科蛙属的两栖动物，是中国的特有物种。分布于海南等地。该物种的模式产地在海南。",
+  "morphology": "外形与版纳大头蛙Limnonectes bannaensis很相近。但脆皮大头蛙的皮肤极易破裂；指关节下瘤相对较大；雄蛙下颌前端齿状骨突较发达，较版纳大头蛙的短；无婚垫。蝌蚪口部唇齿式为II：1+1/1+1：I，下唇缘甚宽，分成4-6个小叶，下唇乳突多。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -12661,6 +13653,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -12699,7 +13699,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>福建大头蛙</b>（学名：<i> Limnonectes fujianensis</i>），为叉舌蟾科大头蛙属的两栖动物。其种加词“<i>fujianensis</i>”意为“福建的”。之前常与相近的<b>爪哇大头蛙</b>(<i>Limnonectes kuhlii</i>，真正的“古氏赤蛙”)相混淆. 名称由来是该物种的产地模式在中国的福建省。亦可见于湖南，浙江和江西以及台湾，亦有文献记载其有更广泛的分布。",
+  "morphology": "本种与版纳大头蛙Limnonectes bannaensis相近，但本种背面大疣多，呈圆形或长圆形，眼后和颞褶上方显一条明显的长腺褶；趾间约为半蹼，即第四趾两侧蹼的凹陷处不超过第二关节下瘤；第一趾较短，趾端仅达第二趾近端关节下瘤；体型较小，雄蛙体长54(46.5-61.4)mm左右；蝌蚪尾部显碎斑。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -12720,6 +13720,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -13002,7 +14010,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>高山倭蛙</b>（学名：<i>Nanorana parkeri</i>）原称<b>高山蛙</b>，一种分布在中华人民共和国西藏自治区及尼泊尔等地区的两栖动物，隶属于叉舌蟾科倭蛙属，常见于湖泊、水塘、沼泽地带及山溪以及河流附近。其生存的海拔范围为2850至4700米。该物种的模式产地在西藏纳木湖。",
+  "morphology": "本种外形与倭蛙Nanorana pleskei相近。本种无鼓膜和鼓环，无耳柱骨或退化呈短突；前喙骨细，骨化部分较多；体背有排列较为规则的长、短疣粒5-10行；背面深色斑纹不甚规则。蝌蚪口较大，第一行下唇齿略短于第二行。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -13023,6 +14031,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -13056,7 +14072,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>倭蛙</b>（学名：<i>Nanorana pleskei</i>）为蛙科倭蛙属的两栖动物，是中国的特有物种。分布于四川、甘肃、青海等地，常栖息于高原沼泽地带。其生存的海拔范围为3300至4500米。该物种的模式产地在四川松潘。",
+  "morphology": "鼓膜小或鼓环清晰；指、趾关节下瘤不显；背面有镶浅色边缘的深棕色或黑褐色椭圆形大斑，腹面无斑点；前喙骨很细弱，骨化部分较少。蝌蚪口小，下唇齿第一行显然短于第二行。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -13077,6 +14093,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -13262,7 +14286,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>腹斑倭蛙</b>（学名：<i>Nanorana ventripunctata</i>）为蛙科倭蛙属的两栖动物，是中国的特有物种。分布于云南等地，多见于水坑、水塘以及湖泊等静水域。其生存的海拔范围为3120至4100米。该物种的模式产地在云南中甸。",
+  "morphology": "外形与倭蛙Nanorana pleskei相近。本种指、趾关节下瘤小而明显；背面具有大小不规则的深色斑点，各斑点无浅色边；咽喉部、腹部和四肢腹面散有深色斑点；前喙骨细长；蝌蚪口较大，第一行下唇齿略短于第二行。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -13283,6 +14307,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等.2009.中国动物志 两栖纲 下卷 无尾目  蛙科.北京:科学出版社",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -13694,7 +14726,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "形态描述待编辑核验。",
+  "morphology": "指间具微蹼，外侧指间蹼较明显；趾间全蹼；两眼间有一横斑或呈三角形斑；栖于流溪。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -13715,6 +14747,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -14644,7 +15684,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>横纹树蛙</b>（学名：<i><b>Rhacophorus translineatus</b></i>）为树蛙科树蛙属的两栖动物，分布于印度以及中国西藏。该物种的模式产地在西藏墨脱。",
+  "morphology": "吻端尖出成皮质锥状吻突；胫跗关节处有1个三角形片状肤褶；背面有9-12条排列均匀的深褐色横纹。<br>",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "main",
@@ -14665,6 +15705,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -14893,7 +15941,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>四川狭口蛙</b>（学名：<i>Kaloula rugifera</i>）为姬蛙科狭口蛙属的两栖动物，是中国的特有物种。分布于四川、甘肃等地。该物种的模式产地在四川。",
+  "morphology": "指末端略膨大，前缘平齐如切；趾蹼发达。雄蛙指端背面有成簇骨质疣突，胸、腹部有一片厚皮肤腺。<br>",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -14914,6 +15962,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -14945,7 +16001,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>多疣狭口蛙</b>（学名：<i>Kaloula verrucosa</i>）为姬蛙科狭口蛙属的两栖动物，是中国的特有物种。分布于四川、贵州、云南等地，常生活于水塘、菜地排水沟、路旁水沟以及潮湿的水草间。其生存的海拔范围为1800至2100米。该物种的模式产地在云南昆明。",
+  "morphology": "背部小疣颇多；指、趾末端钝圆而不膨大；趾间蹼发达；雄蛙指端有4-6枚骨质疣突，整个胸、腹部有厚皮肤腺。<br>",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -14966,6 +16022,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -15066,7 +16130,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>合征姬蛙</b>（学名：<i>Microhyla mixtura</i>）为姬蛙科姬蛙属的两栖动物，是中国的特有物种。分布于安徽、湖北、四川、贵州、陕西等地，多生活于山区小水坑及附近。其生存的海拔范围为670至1700米。该物种的模式产地在四川万源。",
+  "morphology": "指端无吸盘，其背面亦无纵沟，可区别于粗皮姬蛙及小弧斑姬蛙；趾端具吸盘，其背面有纵沟，可区别于花姬蛙与饰纹姬蛙；趾间微蹼又可区别于大姬蛙。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -15087,6 +16151,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false
@@ -15216,7 +16288,7 @@
    "year": 2024,
    "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
   },
-  "morphology": "<b>史丹吉氏小雨蛙</b>（<i>Micryletta steinegeri</i>）為姬蛙科下的一物種，為台灣特有種，主要分布於台灣中部及南部。本種過去曾被認為是德力姬蛙（<i>Micryletta inornata</i>）的同物異名。...",
+  "morphology": "指、趾关节下瘤大，其间具肤棱；指基下瘤明显；指、趾端无吸盘，背面无纵沟。眼鼻下方至肩部、上臂背面有深色斑点；内蹠突椭圆。",
   "behavior": "生活史与行为细节待编辑核验。",
   "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
   "endemic": "strict",
@@ -15237,6 +16309,14 @@
    {
     "name": "iNaturalist",
     "url": "https://www.inaturalist.org"
+   },
+   {
+    "name": "中国动物志（动物科普数据 API）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "费梁，胡溆琴，叶昌媛，黄永昭等Fei, L., S.-q. Hu, C.-y. Ye, and Y.-z. Huang .2009.中国动物志 两栖纲 中卷 无尾目 Fauna Sinica. Amphibia. Volume 2. Anu",
+    "url": "http://zoology.especies.cn/"
    }
   ],
   "verified": false

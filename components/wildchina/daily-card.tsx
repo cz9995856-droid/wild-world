@@ -7,12 +7,17 @@ import { taxonomyLine } from "@/lib/wildchina/taxonomy";
 
 const NONE = "暂无记录";
 
+export type CardSpecies = Pick<
+  ChinaSpecies,
+  "slug" | "nameCn" | "scientificName" | "groupLabel" | "aliases" | "taxonomy" | "distribution" | "endemic"
+>;
+
 export function DailyCard({
   species,
   image,
   dateKey,
 }: {
-  species: ChinaSpecies;
+  species: CardSpecies;
   image: ChinaImage | null;
   dateKey: string;
 }) {

@@ -335,7 +335,7 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     difficulty: 2,
     category: "两栖动物",
     source_name: "AmphibiaChina",
-    source_url: "http://www.amphibiachina.org/",
+    source_url: "https://www.amphibiachina.org/",
   },
   {
     id: "q-030",

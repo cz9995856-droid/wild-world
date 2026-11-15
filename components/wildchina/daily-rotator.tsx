@@ -2,11 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { DailyCard } from "@/components/wildchina/daily-card";
-import type { ChinaSpecies } from "@/lib/wildchina/species";
+import type { CardSpecies } from "@/components/wildchina/daily-card";
 import type { ChinaImage } from "@/lib/wildchina/media";
 
 export interface AnimalMomentItem {
-  species: ChinaSpecies;
+  species: CardSpecies;
   image: ChinaImage | null;
 }
 

@@ -22,6 +22,7 @@ export default function HomePage() {
           nameCn: s.nameCn,
           scientificName: s.scientificName,
           groupLabel: s.groupLabel,
+          group: s.group,
           aliases: s.aliases,
           taxonomy: s.taxonomy,
           distribution: s.distribution,

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { DailyCard } from "@/components/wildchina/daily-card";
 import type { CardSpecies } from "@/components/wildchina/daily-card";
 import type { ChinaImage } from "@/lib/wildchina/media";
@@ -11,14 +11,24 @@ export interface AnimalMomentItem {
 }
 
 export function DailyRotator({ items, dateKey }: { items: AnimalMomentItem[]; dateKey: string }) {
-  const [index, setIndex] = useState(0);
+  const groups = useMemo(() => {
+    const map = new Map<string, AnimalMomentItem[]>();
+    for (const item of items) {
+      const key = item.species.group || "other";
+      if (!map.has(key)) map.set(key, []);
+      map.get(key)!.push(item);
+    }
+    return [...map.values()];
+  }, [items]);
+
+  const [current, setCurrent] = useState<AnimalMomentItem | null>(items[0] ?? null);
 
   useEffect(() => {
-    if (items.length <= 1) return;
-    setIndex(Math.floor(Math.random() * items.length));
-  }, [items.length]);
+    if (groups.length === 0) return;
+    const group = groups[Math.floor(Math.random() * groups.length)];
+    setCurrent(group[Math.floor(Math.random() * group.length)]);
+  }, [groups]);
 
-  const current = items[index] ?? items[0];
   if (!current) return null;
 
   return <DailyCard species={current.species} image={current.image} dateKey={dateKey} />;

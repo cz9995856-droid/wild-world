@@ -473,15 +473,41 @@ function modeForSlug(slug?: string, group?: string): Mode {
   return "tiger";
 }
 
-export function AnatomyExplorer({ initialSlug, group }: { initialSlug?: string; group?: string } = {}) {
+export interface AnatomySpeciesOption {
+  slug: string;
+  label: string;
+  group?: string;
+  note?: string;
+}
+
+export function AnatomyExplorer({
+  initialSlug,
+  group,
+  options,
+}: {
+  initialSlug?: string;
+  group?: string;
+  options?: AnatomySpeciesOption[];
+} = {}) {
   const [mode, setMode] = useState<Mode>(modeForSlug(initialSlug, group));
+  const [speciesSlug, setSpeciesSlug] = useState(initialSlug ?? "");
   const [layer, setLayer] = useState<Layer>("surface");
   const parts = MODE_PARTS[mode];
   const [activeId, setActiveId] = useState(parts[0]?.id ?? "trunk");
   const visible = parts.filter((p) => p.layer === layer);
   const active = parts.find((p) => p.id === activeId) ?? parts[0];
+  const selectedSpecies = options?.find((o) => o.slug === speciesSlug);
 
   function switchMode(next: Mode) {
+    setMode(next);
+    setLayer("surface");
+    setActiveId(MODE_PARTS[next][0]?.id ?? "trunk");
+  }
+
+  function pickSpecies(slug: string) {
+    setSpeciesSlug(slug);
+    const target = options?.find((o) => o.slug === slug);
+    const next = modeForSlug(slug, target?.group);
     setMode(next);
     setLayer("surface");
     setActiveId(MODE_PARTS[next][0]?.id ?? "trunk");
@@ -508,6 +534,32 @@ export function AnatomyExplorer({ initialSlug, group }: { initialSlug?: string; 
             <Layers size={12} /> 图层
           </div>
         </div>
+        {options && options.length > 0 && (
+          <div className="border-b border-[var(--line)] px-3 py-2">
+            <label className="flex flex-wrap items-center gap-2 text-[10px] text-[var(--muted)]">
+              物种
+              <select
+                value={speciesSlug}
+                onChange={(event) => pickSpecies(event.target.value)}
+                className="border border-[var(--line)] bg-[var(--surface)] px-2 py-1 text-[11px] text-[var(--ink)]"
+              >
+                <option value="">按类群模板</option>
+                {options.map((o) => (
+                  <option key={o.slug} value={o.slug}>
+                    {o.label}
+                  </option>
+                ))}
+              </select>
+              <span>共 {options.length} 种可选</span>
+            </label>
+            {selectedSpecies && (
+              <p className="mt-1 text-[10px] leading-relaxed text-[var(--muted)]">
+                {selectedSpecies.label}
+                {selectedSpecies.note ? ` · ${selectedSpecies.note}` : ""}
+              </p>
+            )}
+          </div>
+        )}
         <div className="flex flex-wrap gap-1 border-b border-[var(--line)] px-3 py-2">
           {(["surface", "skeleton", "muscle"] as Layer[]).map((l) => (
             <button

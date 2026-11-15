@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { Activity, Box, Bone, Globe2, Trophy } from "lucide-react";
-import type { QuizQuestion } from "@/lib/types";
 import { AnatomyExplorer } from "@/components/lab/anatomy-explorer";
-import { QuizLab } from "@/components/lab/quiz-lab";
+import { ChallengeCenter } from "@/components/quiz/challenge-center";
+import type { ModelOption } from "@/lib/wildchina/model-map";
 import { WorldMapLoader } from "@/components/map/world-map-loader";
 import { DataBadge } from "@/components/ui/badges";
 
@@ -29,16 +29,16 @@ type TabId = (typeof TABS)[number]["id"];
 
 export function LabTabs({
   speciesCount,
-  quiz,
   mapOptions,
   initialSlug,
   initialGroup,
+  models,
 }: {
   speciesCount: number;
-  quiz: QuizQuestion[];
   mapOptions: Array<{ slug: string; name_cn: string; name_en: string; scientific_name: string; gbif_taxon_key: number | null }>;
   initialSlug: string;
   initialGroup?: string;
+  models?: ModelOption[];
 }) {
   const [active, setActive] = useState<TabId>("three-d");
 
@@ -102,8 +102,14 @@ export function LabTabs({
           </h2>
         </div>
 
-        {active === "three-d" && <Lab3D initialSlug={initialSlug} group={initialGroup} />}
-        {active === "anatomy" && <AnatomyExplorer initialSlug={initialSlug} group={initialGroup} />}
+        {active === "three-d" && <Lab3D initialSlug={initialSlug} group={initialGroup} models={models} />}
+        {active === "anatomy" && (
+          <AnatomyExplorer
+            initialSlug={initialSlug}
+            group={initialGroup}
+            options={models?.map((m) => ({ slug: m.slug, label: m.label, group: m.group, note: m.note }))}
+          />
+        )}
         {active === "geo" && (
           <div>
             <div className="mb-3 border border-[var(--line)] bg-[var(--surface-2)] p-4 text-[10.5px] leading-relaxed text-[var(--muted)]">
@@ -112,7 +118,7 @@ export function LabTabs({
             <WorldMapLoader options={mapOptions} initialSlug={initialSlug} height="min-h-[560px]" />
           </div>
         )}
-        {active === "quiz" && <QuizLab questions={quiz} />}
+        {active === "quiz" && <ChallengeCenter />}
 
         <div className="mt-8 border-t border-[var(--line)] pt-4 text-[9.5px] leading-relaxed text-[var(--muted)]">
           实验室使用的模型与示意为馆方原创，题库为编辑整理；外部观测记录逐条标注来源。

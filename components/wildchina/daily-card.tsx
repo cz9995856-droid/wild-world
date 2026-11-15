@@ -9,7 +9,7 @@ const NONE = "暂无记录";
 
 export type CardSpecies = Pick<
   ChinaSpecies,
-  "slug" | "nameCn" | "scientificName" | "groupLabel" | "aliases" | "taxonomy" | "distribution" | "endemic"
+  "slug" | "nameCn" | "scientificName" | "groupLabel" | "group" | "aliases" | "taxonomy" | "distribution" | "endemic"
 >;
 
 export function DailyCard({
@@ -81,6 +81,9 @@ export function DailyCard({
               </Link>
               <Link href={`/explore/lab?species=${species.slug}#three-d`} className="btn-outline">
                 进入生命实验室
+              </Link>
+              <Link href="/explore/challenge" className="btn-outline">
+                生命探索挑战
               </Link>
             </dd>
           </div>

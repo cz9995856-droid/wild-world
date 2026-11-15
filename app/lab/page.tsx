@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/ui/page-header";
 import { LabTabs } from "@/components/lab/lab-tabs";
-import { getAllSpecies, getQuiz, getSiteSettings } from "@/lib/repository";
+import { getAllSpecies, getSiteSettings } from "@/lib/repository";
+import { QUIZ_BANK } from "@/lib/wildchina/quiz-bank";
 
 export const dynamic = "force-dynamic";
 
@@ -12,7 +13,6 @@ export const metadata: Metadata = {
 
 export default async function LabPage() {
   const [species, settings] = await Promise.all([getAllSpecies(), getSiteSettings()]);
-  const quiz = getQuiz();
   const initialSlug =
     species.find((s) => s.slug === "giant-panda")?.slug ?? species[0]?.slug ?? "";
 
@@ -26,7 +26,7 @@ export default async function LabPage() {
         meta={
           <div className="flex flex-wrap gap-2 lg:justify-end">
             <span className="chip">{species.length} 种动物</span>
-            <span className="chip">{quiz.length} 道题</span>
+            <span className="chip">{QUIZ_BANK.length} 道题</span>
             <span className="chip">影像更新 {settings.integration_generated_at?.slice(0, 10) ?? "待生成"}</span>
           </div>
         }
@@ -34,7 +34,6 @@ export default async function LabPage() {
       <div className="container-museum pb-20 pt-8">
         <LabTabs
           speciesCount={species.length}
-          quiz={quiz}
           mapOptions={species.map((s) => ({
             slug: s.slug,
             name_cn: s.name_cn,

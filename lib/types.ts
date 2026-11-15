@@ -191,16 +191,26 @@ export interface AudioEntry {
   review_status: ReviewStatus;
 }
 
+export type QuizType = "single" | "multiple" | "boolean";
+export type QuizTopic = "species" | "ecology" | "conservation" | "science" | "review";
+
 export interface QuizQuestion {
   id: string;
   question: string;
   options: string[];
   answer_index: number;
+  answer?: number[];
+  type?: QuizType;
+  topic?: QuizTopic;
+  option_explains?: string[];
   explanation: string;
   difficulty: 1 | 2 | 3;
   category: string;
+  species_slug?: string | null;
   source_name: string;
   source_url: string;
+  updated_at?: string;
+  verified?: boolean;
 }
 
 export interface TimelineEra {

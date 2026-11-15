@@ -6,55 +6,10 @@ import { OrbitControls, ContactShadows } from "@react-three/drei";
 import type { Group } from "three";
 import { Box, Compass, RotateCcw } from "lucide-react";
 
-type ModelKind =
-  | "panda"
-  | "tiger"
-  | "snub-monkey"
-  | "milu"
-  | "antelope"
-  | "horse"
-  | "yak"
-  | "takin"
-  | "pheasant"
-  | "ibis"
-  | "salamander"
-  | "crocodile"
-  | "dolphin"
-  | "elephant"
-  | "giraffe"
-  | "bird"
-  | "whale"
-  | "gorilla"
-  | "rhino"
-  | "shark"
-  | "penguin"
-  | "deer";
+import { modelForSlug, type ModelKind, type ModelOption } from "@/lib/wildchina/model-map";
 
-export const SLUG_TO_MODEL: Record<string, ModelKind> = {
-  "giant-panda": "panda",
-  "chinese-alligator": "crocodile",
-  milu: "milu",
-  "sichuan-snub-nosed-monkey": "snub-monkey",
-  "yunnan-snub-nosed-monkey": "snub-monkey",
-  "guizhou-snub-nosed-monkey": "snub-monkey",
-  "hainan-gibbon": "snub-monkey",
-  "south-china-tiger": "tiger",
-  "przewalski-gazelle": "antelope",
-  "tibetan-antelope": "antelope",
-  "brown-eared-pheasant": "pheasant",
-  "chinese-monal": "pheasant",
-  "chinese-giant-salamander": "salamander",
-  baiji: "dolphin",
-};
-
-export function modelForSlug(slug: string, group?: string): ModelKind {
-  if (SLUG_TO_MODEL[slug]) return SLUG_TO_MODEL[slug];
-  if (group === "amphibian") return "salamander";
-  if (group === "bird") return "pheasant";
-  if (group === "reptile") return "crocodile";
-  if (group === "fish") return "dolphin";
-  return "panda";
-}
+export { modelForSlug };
+export type { ModelKind };
 
 
 
@@ -635,14 +590,32 @@ const MODELS: Array<{ key: ModelKind; label: string; note: string }> = [
   { key: "dolphin", label: "白鱀豚", note: "吻突、背鳍与流线体" },
 ];
 
-export function Lab3D({ initialSlug, group }: { initialSlug?: string; group?: string } = {}) {
-  const [kind, setKind] = useState<ModelKind>(initialSlug ? modelForSlug(initialSlug, group) : "panda");
+export function Lab3D({
+  initialSlug,
+  group,
+  models,
+}: {
+  initialSlug?: string;
+  group?: string;
+  models?: ModelOption[];
+} = {}) {
+  const options: ModelOption[] =
+    models && models.length > 0
+      ? models
+      : MODELS.map((m) => ({ slug: m.key, label: m.label, note: m.note, kind: m.key, tint: 0 }));
+  const [currentSlug, setCurrentSlug] = useState(initialSlug ?? options[0]?.slug ?? "");
+  const [kind, setKind] = useState<ModelKind>(
+    initialSlug ? modelForSlug(initialSlug, group) : options[0]?.kind ?? "panda"
+  );
+  const active = options.find((o) => o.slug === currentSlug) ?? options.find((o) => o.kind === kind) ?? options[0];
+  const tint = active?.tint ?? 0;
   const [autoRotate, setAutoRotate] = useState(true);
   const [wireframe, setWireframe] = useState(false);
 
   return (
     <div className="grid gap-4 lg:grid-cols-[1fr_240px] lg:items-start">
       <div className="relative min-h-[360px] overflow-hidden border border-[var(--line)] bg-[radial-gradient(ellipse_at_50%_30%,#E9E2D3,#D9D0BE)] lg:sticky lg:top-20 lg:h-[calc(100vh-9rem)] lg:max-h-[560px] lg:min-h-[380px]">
+        <div className="absolute inset-0" style={{ filter: `hue-rotate(${tint}deg) saturate(${1 + (tint % 40) / 200})` }}>
         <Canvas camera={{ position: [4.4, 2.7, 5.4], fov: 42 }} dpr={[1, 2]} shadows>
           <color attach="background" args={["#E9E2D3"]} />
           <fog attach="fog" args={["#E9E2D3", 8, 16]} />
@@ -673,6 +646,7 @@ export function Lab3D({ initialSlug, group }: { initialSlug?: string; group?: st
           </mesh>
           <OrbitControls enablePan={false} minDistance={2.6} maxDistance={8} enableDamping dampingFactor={0.08} />
         </Canvas>
+        </div>
 
         <div className="pointer-events-none absolute left-3 top-3 border border-[var(--line)] bg-[var(--surface)]/80 px-3 py-2 text-[9px] backdrop-blur">
           <p className="flex items-center gap-1.5 text-[var(--ink-soft)]"><Box size={11} /> Procedural model</p>
@@ -696,18 +670,23 @@ export function Lab3D({ initialSlug, group }: { initialSlug?: string; group?: st
 
       <div className="lg:sticky lg:top-20 lg:max-h-[calc(100vh-9rem)] lg:overflow-y-auto lg:pr-1">
         <div className="border border-[var(--line)] bg-[var(--surface)] p-4">
-          <p className="label text-[var(--muted)]">Model · 模型（{MODELS.length}）</p>
+          <p className="label text-[var(--muted)]">Model · 模型（{options.length}）</p>
           <div className="mt-2 space-y-1.5">
-            {MODELS.map((m) => (
+            {options.map((m) => (
               <button
-                key={m.key}
-                onClick={() => setKind(m.key)}
+                key={m.slug}
+                onClick={() => {
+                  setKind(m.kind);
+                  setCurrentSlug(m.slug);
+                }}
                 className={`block w-full border px-3 py-2 text-left transition-colors ${
-                  kind === m.key ? "border-[var(--forest)] bg-[var(--forest)] text-[#F5F1E7]" : "border-[var(--line)] hover:border-[var(--line-strong)]"
+                  active?.slug === m.slug
+                    ? "border-[var(--forest)] bg-[var(--forest)] text-[#F5F1E7]"
+                    : "border-[var(--line)] hover:border-[var(--line-strong)]"
                 }`}
               >
                 <span className="text-[11.5px]">{m.label}</span>
-                <span className={`mt-0.5 block text-[9px] ${kind === m.key ? "text-white/60" : "text-[var(--muted)]"}`}>{m.note}</span>
+                <span className={`mt-0.5 block text-[9px] ${active?.slug === m.slug ? "text-white/60" : "text-[var(--muted)]"}`}>{m.note}</span>
               </button>
             ))}
           </div>
@@ -715,7 +694,7 @@ export function Lab3D({ initialSlug, group }: { initialSlug?: string; group?: st
         <div className="mt-3 border border-[var(--line)] bg-[var(--surface-2)] p-4 text-[10px] leading-relaxed text-[var(--muted)]">
           <p className="text-[var(--ink-soft)]">这不是标本扫描</p>
           <p className="mt-2">
-            当前 13 个模型均为中国特有动物的馆方原创程序化几何，用于观察体型比例与结构关系，不用于形态测量。真实 3D 标本扫描尚未接入；接入后会逐件标注作者与许可。
+            当前 {options.length} 个模型条目覆盖中国特有动物，均为馆方原创程序化几何（按类群通用形态 + 物种色调参数），用于观察体型比例与结构关系，不用于形态测量或物种鉴定。真实 3D 标本扫描尚未接入；接入后会逐件标注作者与许可。
           </p>
         </div>
       </div>

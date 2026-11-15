@@ -3,6 +3,7 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 import type { ChinaSpecies } from "@/lib/wildchina/species";
 import type { ChinaImage } from "@/lib/wildchina/media";
 import { WcPhoto } from "@/components/wildchina/wc-photo";
+import { taxonomyLine } from "@/lib/wildchina/taxonomy";
 
 const NONE = "暂无记录";
 
@@ -15,10 +16,6 @@ export function DailyCard({
   image: ChinaImage | null;
   dateKey: string;
 }) {
-  const taxonomy = [species.taxonomy.class, species.taxonomy.order, species.taxonomy.family, species.taxonomy.genus]
-    .filter(Boolean)
-    .join(" → ");
-
   return (
     <section className="wc-hero-card" aria-label="今日动物">
       <div className="wc-hero-photo">
@@ -27,13 +24,13 @@ export function DailyCard({
           alt={`${species.nameCn} ${species.scientificName}`}
           priority
           sizes="(max-width: 1023px) 100vw, 55vw"
-          fallbackLabel="今日动物影像待人工审核"
-          fallbackNote="该物种尚未取得可核验的授权主视觉照片"
+          fallbackLabel="今日动物影像待补充"
+          fallbackNote="该物种尚未取得可核验的主视觉照片"
         />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0b2016]/70 via-transparent to-[#0b2016]/25" />
         <div className="absolute left-0 top-0 p-5 text-[#f3ede1] sm:p-7">
-          <p className="wc-kicker text-[#f3ede1]/70">Today&apos;s Animal</p>
-          <p className="mt-1 text-[15px] tracking-[0.24em]">今日动物</p>
+          <p className="wc-kicker text-[#f3ede1]/70">今日动物</p>
+          <p className="mt-1 text-[15px] tracking-[0.24em]">{species.groupLabel}</p>
         </div>
         {image && (
           <p className="absolute bottom-3 left-0 right-0 px-5 text-[9px] text-[#f3ede1]/75 sm:px-7">
@@ -44,7 +41,7 @@ export function DailyCard({
 
       <div className="wc-hero-panel">
         <div className="flex items-center justify-between gap-4">
-          <span className="wc-kicker">Species Archive</span>
+          <span className="wc-kicker">物种档案</span>
           <span className="text-[10px] text-[var(--muted)]">{dateKey} · 北京时间</span>
         </div>
 
@@ -57,13 +54,15 @@ export function DailyCard({
         </div>
 
         <dl className="mt-5 flex-1">
-          <div className="wc-field">
-            <dt className="wc-field-label">别名</dt>
-            <dd className="wc-field-value mt-1">{species.aliases.length ? species.aliases.join(" / ") : NONE}</dd>
-          </div>
+          {species.aliases.length > 0 && (
+            <div className="wc-field">
+              <dt className="wc-field-label">别名</dt>
+              <dd className="wc-field-value mt-1">{species.aliases.join(" / ")}</dd>
+            </div>
+          )}
           <div className="wc-field">
             <dt className="wc-field-label">分类系统</dt>
-            <dd className="wc-field-value mt-1">{taxonomy || NONE}</dd>
+            <dd className="wc-field-value mt-1">{taxonomyLine(species.taxonomy) || NONE}</dd>
           </div>
           <div className="wc-field">
             <dt className="wc-field-label">分布地</dt>
@@ -71,9 +70,12 @@ export function DailyCard({
           </div>
           <div className="wc-field">
             <dt className="wc-field-label">更多</dt>
-            <dd className="mt-1">
+            <dd className="mt-1 flex flex-wrap gap-2">
               <Link href={`/explore/encyclopedia/${species.slug}`} className="btn-primary">
                 查看完整物种档案 <ArrowUpRight size={14} />
+              </Link>
+              <Link href={`/explore/lab?species=${species.slug}#three-d`} className="btn-outline">
+                进入生命实验室
               </Link>
             </dd>
           </div>

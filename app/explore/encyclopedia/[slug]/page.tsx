@@ -11,6 +11,7 @@ import {
   speciesHref,
 } from "@/lib/wildchina/species";
 import { getSpeciesImage } from "@/lib/wildchina/media";
+import { taxonCn } from "@/lib/wildchina/taxonomy";
 
 export function generateStaticParams() {
   return CHINA_SPECIES.map((species) => ({ slug: species.slug }));
@@ -53,7 +54,7 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
       <header className="mt-4 grid gap-6 border-b border-[var(--line)] pb-8 lg:grid-cols-[1.2fr_1fr] lg:items-end">
         <div>
           <p className="wc-kicker">
-            {species.groupLabel} · {species.endemic === "strict" ? "Strictly Endemic" : "Mainly in China"}
+            {species.groupLabel} · {species.endemic === "strict" ? "严格中国特有" : "主要分布于中国"}
           </p>
           <h1 className="display mt-3 text-[44px] leading-[0.96] sm:text-[62px]">{species.nameCn}</h1>
           <p className="mt-3 font-serif text-[15px] italic text-[var(--muted)]">
@@ -95,10 +96,10 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
           <InfoBlock title="基础分类信息">
             <dl className="grid gap-3 sm:grid-cols-2">
               {[
-                ["纲", species.taxonomy.class],
-                ["目", species.taxonomy.order],
-                ["科", species.taxonomy.family],
-                ["属", species.taxonomy.genus],
+                ["纲", taxonCn(species.taxonomy.class)],
+                ["目", taxonCn(species.taxonomy.order)],
+                ["科", taxonCn(species.taxonomy.family)],
+                ["属", taxonCn(species.taxonomy.genus)],
               ].map(([label, value]) => (
                 <div key={label} className="border-t border-[var(--line)] pt-2">
                   <dt className="wc-field-label">{label}</dt>

@@ -566,6 +566,483 @@ function Salamander() {
   );
 }
 
+function Snake() {
+  return (
+    <group scale={0.9} position={[0, -0.4, 0]}>
+      {[
+        [1.05, 0.55, 0.35, 0.3],
+        [0.55, 0.4, 0.3, 0.26],
+        [0.0, 0.28, 0.26, 0.23],
+        [-0.55, 0.22, 0.22, 0.2],
+        [-1.0, 0.2, 0.18, 0.17],
+        [-1.35, 0.22, 0.13, 0.14],
+      ].map(([x, y, rx, ry], i) => (
+        <mesh key={`snake-${i}`} position={[x, y, 0]} scale={[1, ry / rx, 0.9]}>
+          <sphereGeometry args={[rx, 28, 28]} />
+          <meshStandardMaterial color={i < 2 ? "#6B7B4A" : "#8A7A4A"} roughness={0.9} />
+        </mesh>
+      ))}
+      <mesh position={[1.3, 0.62, 0]} scale={[0.34, 0.22, 0.28]}>
+        <sphereGeometry args={[0.7, 26, 26]} />
+        <meshStandardMaterial color="#5E6B3E" roughness={0.9} />
+      </mesh>
+      {[0.1, -0.1].map((z) => (
+        <mesh key={`snake-eye-${z}`} position={[1.48, 0.68, z]}>
+          <sphereGeometry args={[0.035, 10, 10]} />
+          <meshStandardMaterial color="#D9B33E" />
+        </mesh>
+      ))}
+      <mesh position={[1.62, 0.55, 0]} rotation={[0, 0, -0.2]}>
+        <coneGeometry args={[0.02, 0.28, 6]} />
+        <meshStandardMaterial color="#C0392B" />
+      </mesh>
+    </group>
+  );
+}
+
+function Turtle() {
+  return (
+    <group scale={0.85} position={[0, -0.25, 0]}>
+      <mesh position={[0, 0.45, 0]} scale={[1.0, 0.5, 0.8]}>
+        <sphereGeometry args={[0.9, 36, 24, 0, Math.PI * 2, 0, Math.PI / 2]} />
+        <meshStandardMaterial color="#5E5236" roughness={0.85} />
+      </mesh>
+      <mesh position={[0, 0.3, 0]} scale={[1.05, 0.16, 0.86]}>
+        <cylinderGeometry args={[0.95, 0.95, 0.18, 28]} />
+        <meshStandardMaterial color="#7A6A45" roughness={0.9} />
+      </mesh>
+      {[
+        [0.75, 0.32],
+        [0.75, -0.32],
+        [-0.7, 0.32],
+        [-0.7, -0.32],
+      ].map(([x, z], i) => (
+        <mesh key={`turtle-leg-${i}`} position={[x, 0.05, z]} rotation={[0, 0, x > 0 ? -0.3 : 0.3]}>
+          <cylinderGeometry args={[0.12, 0.15, 0.42, 12]} />
+          <meshStandardMaterial color="#6E5F3E" roughness={0.9} />
+        </mesh>
+      ))}
+      <mesh position={[1.05, 0.42, 0]} scale={[0.34, 0.22, 0.26]}>
+        <sphereGeometry args={[0.7, 24, 24]} />
+        <meshStandardMaterial color="#7D6C48" roughness={0.9} />
+      </mesh>
+      {[0.1, -0.1].map((z) => (
+        <mesh key={`turtle-eye-${z}`} position={[1.28, 0.5, z]}>
+          <sphereGeometry args={[0.03, 10, 10]} />
+          <meshStandardMaterial color="#141C18" />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+function Lizard() {
+  return (
+    <group scale={0.8} position={[0, -0.3, 0]}>
+      <mesh position={[0, 0.32, 0]} scale={[1.0, 0.32, 0.5]}>
+        <sphereGeometry args={[0.9, 32, 32]} />
+        <meshStandardMaterial color="#8A9A5B" roughness={0.9} />
+      </mesh>
+      <mesh position={[0.92, 0.42, 0]} scale={[0.42, 0.28, 0.34]}>
+        <sphereGeometry args={[0.7, 26, 26]} />
+        <meshStandardMaterial color="#96A665" roughness={0.9} />
+      </mesh>
+      <mesh position={[-1.15, 0.26, 0]} rotation={[0, 0, 0.35]}>
+        <cylinderGeometry args={[0.04, 0.12, 1.1, 10]} />
+        <meshStandardMaterial color="#7C8C52" roughness={0.9} />
+      </mesh>
+      <mesh position={[-2.0, 0.12, 0]} rotation={[0, 0, 0.5]}>
+        <coneGeometry args={[0.035, 0.7, 8]} />
+        <meshStandardMaterial color="#6E7D46" roughness={0.9} />
+      </mesh>
+      {[
+        [0.5, 0.34],
+        [0.5, -0.34],
+        [-0.4, 0.34],
+        [-0.4, -0.34],
+      ].map(([x, z], i) => (
+        <mesh key={`lizard-leg-${i}`} position={[x, 0.02, z]} rotation={[0, 0, z > 0 ? 1.1 : -1.1]}>
+          <cylinderGeometry args={[0.03, 0.05, 0.5, 8]} />
+          <meshStandardMaterial color="#7C8C52" />
+        </mesh>
+      ))}
+      {[0.1, -0.1].map((z) => (
+        <mesh key={`lizard-eye-${z}`} position={[1.12, 0.5, z]}>
+          <sphereGeometry args={[0.035, 10, 10]} />
+          <meshStandardMaterial color="#141C18" />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+function Fish() {
+  return (
+    <group scale={0.85} position={[0, 0.1, 0]}>
+      <mesh position={[0, 0, 0]} scale={[1.35, 0.55, 0.35]}>
+        <sphereGeometry args={[0.9, 36, 36]} />
+        <meshStandardMaterial color="#5E7A8A" roughness={0.5} metalness={0.15} />
+      </mesh>
+      <mesh position={[1.28, 0.02, 0]} scale={[0.4, 0.28, 0.22]}>
+        <sphereGeometry args={[0.7, 26, 26]} />
+        <meshStandardMaterial color="#6B8797" roughness={0.55} />
+      </mesh>
+      <mesh position={[-1.35, 0.05, 0]} rotation={[0, 0, -1.2]}>
+        <coneGeometry args={[0.35, 0.7, 4]} />
+        <meshStandardMaterial color="#4E6A7A" roughness={0.6} />
+      </mesh>
+      <mesh position={[-0.1, 0.55, 0]} rotation={[0, 0, 0.1]} scale={[0.7, 0.35, 0.06]}>
+        <sphereGeometry args={[0.6, 20, 20]} />
+        <meshStandardMaterial color="#4E6A7A" roughness={0.6} />
+      </mesh>
+      {[0.12, -0.12].map((z) => (
+        <mesh key={`fish-eye-${z}`} position={[1.5, 0.08, z]}>
+          <sphereGeometry args={[0.035, 10, 10]} />
+          <meshStandardMaterial color="#141C18" />
+        </mesh>
+      ))}
+      <mesh position={[0.4, 0.02, 0.3]} rotation={[0.4, 0, 0]} scale={[0.4, 0.2, 0.05]}>
+        <sphereGeometry args={[0.6, 16, 16]} />
+        <meshStandardMaterial color="#4E6A7A" roughness={0.6} />
+      </mesh>
+    </group>
+  );
+}
+
+function Crane() {
+  return (
+    <group scale={0.75} position={[0, -0.35, 0]}>
+      <mesh position={[0, 0.95, 0]} scale={[0.75, 0.5, 0.45]}>
+        <sphereGeometry args={[0.85, 36, 36]} />
+        <meshStandardMaterial color="#EDE8DC" roughness={0.9} />
+      </mesh>
+      <mesh position={[0.55, 1.55, 0]} rotation={[0, 0, -0.45]}>
+        <cylinderGeometry args={[0.055, 0.09, 0.9, 12]} />
+        <meshStandardMaterial color="#E4DDCE" roughness={0.9} />
+      </mesh>
+      <mesh position={[0.82, 2.05, 0]} scale={[0.24, 0.2, 0.2]}>
+        <sphereGeometry args={[0.7, 26, 26]} />
+        <meshStandardMaterial color="#F2EDE1" roughness={0.9} />
+      </mesh>
+      <mesh position={[1.02, 2.02, 0]} rotation={[0, 0, -Math.PI / 2 + 0.2]}>
+        <coneGeometry args={[0.035, 0.45, 10]} />
+        <meshStandardMaterial color="#C9B74A" roughness={0.5} />
+      </mesh>
+      <mesh position={[0.75, 2.14, 0]} rotation={[0, 0, -0.2]}>
+        <coneGeometry args={[0.03, 0.4, 8]} />
+        <meshStandardMaterial color="#C0392B" />
+      </mesh>
+      {[0.18, -0.18].map((z) => (
+        <mesh key={`crane-leg-${z}`} position={[0.05, 0.1, z]}>
+          <cylinderGeometry args={[0.03, 0.035, 1.3, 8]} />
+          <meshStandardMaterial color="#C9B74A" />
+        </mesh>
+      ))}
+      <mesh position={[-0.75, 1.0, 0]} rotation={[0, 0, 0.3]} scale={[0.5, 0.28, 0.05]}>
+        <sphereGeometry args={[0.6, 20, 20]} />
+        <meshStandardMaterial color="#D8D2C4" roughness={0.9} />
+      </mesh>
+    </group>
+  );
+}
+
+function Duck() {
+  return (
+    <group scale={0.85} position={[0, -0.15, 0]}>
+      <mesh position={[0, 0.45, 0]} scale={[0.95, 0.55, 0.6]}>
+        <sphereGeometry args={[0.85, 36, 36]} />
+        <meshStandardMaterial color="#7A6A4A" roughness={0.9} />
+      </mesh>
+      <mesh position={[0.6, 0.95, 0]} scale={[0.42, 0.42, 0.38]}>
+        <sphereGeometry args={[0.7, 28, 28]} />
+        <meshStandardMaterial color="#2E6B4F" roughness={0.6} metalness={0.2} />
+      </mesh>
+      <mesh position={[0.95, 0.88, 0]} rotation={[0, 0, -Math.PI / 2]}>
+        <coneGeometry args={[0.1, 0.34, 12]} />
+        <meshStandardMaterial color="#D9B34A" roughness={0.5} />
+      </mesh>
+      {[0.16, -0.16].map((z) => (
+        <mesh key={`duck-eye-${z}`} position={[0.78, 1.02, z]}>
+          <sphereGeometry args={[0.03, 10, 10]} />
+          <meshStandardMaterial color="#141C18" />
+        </mesh>
+      ))}
+      <mesh position={[-0.75, 0.55, 0]} rotation={[0, 0, 0.2]} scale={[0.5, 0.25, 0.05]}>
+        <sphereGeometry args={[0.6, 18, 18]} />
+        <meshStandardMaterial color="#6B5C40" roughness={0.9} />
+      </mesh>
+      {[0.18, -0.18].map((z) => (
+        <mesh key={`duck-foot-${z}`} position={[0.1, -0.12, z]}>
+          <boxGeometry args={[0.28, 0.03, 0.18]} />
+          <meshStandardMaterial color="#D9B34A" />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+function Songbird() {
+  return (
+    <group scale={0.85} position={[0, -0.1, 0]}>
+      <mesh position={[0, 0.35, 0]} scale={[0.7, 0.62, 0.55]}>
+        <sphereGeometry args={[0.8, 32, 32]} />
+        <meshStandardMaterial color="#8A7A5B" roughness={0.9} />
+      </mesh>
+      <mesh position={[0.5, 0.68, 0]} scale={[0.38, 0.36, 0.34]}>
+        <sphereGeometry args={[0.7, 26, 26]} />
+        <meshStandardMaterial color="#A08A66" roughness={0.9} />
+      </mesh>
+      <mesh position={[0.78, 0.65, 0]} rotation={[0, 0, -Math.PI / 2]}>
+        <coneGeometry args={[0.04, 0.22, 10]} />
+        <meshStandardMaterial color="#3A3A32" />
+      </mesh>
+      {[0.14, -0.14].map((z) => (
+        <mesh key={`sb-eye-${z}`} position={[0.66, 0.74, z]}>
+          <sphereGeometry args={[0.028, 10, 10]} />
+          <meshStandardMaterial color="#141C18" />
+        </mesh>
+      ))}
+      <mesh position={[-0.62, 0.4, 0]} rotation={[0, 0, 0.15]} scale={[0.55, 0.18, 0.05]}>
+        <sphereGeometry args={[0.6, 18, 18]} />
+        <meshStandardMaterial color="#7A6A4A" roughness={0.9} />
+      </mesh>
+      {[0.12, -0.12].map((z) => (
+        <mesh key={`sb-leg-${z}`} position={[0.12, -0.05, z]}>
+          <cylinderGeometry args={[0.015, 0.018, 0.3, 8]} />
+          <meshStandardMaterial color="#5A4A32" />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+function Rodent() {
+  return (
+    <group scale={0.85} position={[0, -0.25, 0]}>
+      <mesh position={[0, 0.35, 0]} scale={[0.75, 0.55, 0.55]}>
+        <sphereGeometry args={[0.8, 32, 32]} />
+        <meshStandardMaterial color="#A89574" roughness={0.95} />
+      </mesh>
+      <mesh position={[0.55, 0.62, 0]} scale={[0.4, 0.36, 0.36]}>
+        <sphereGeometry args={[0.7, 26, 26]} />
+        <meshStandardMaterial color="#B5A17C" roughness={0.95} />
+      </mesh>
+      {[0.26, -0.26].map((z) => (
+        <mesh key={`rodent-ear-${z}`} position={[0.42, 0.9, z]} scale={[0.5, 0.7, 0.1]}>
+          <sphereGeometry args={[0.22, 16, 16]} />
+          <meshStandardMaterial color="#C9B69A" roughness={0.95} />
+        </mesh>
+      ))}
+      <mesh position={[-0.85, 0.3, 0]} rotation={[0, 0, 0.2]}>
+        <cylinderGeometry args={[0.02, 0.05, 1.1, 8]} />
+        <meshStandardMaterial color="#C9B69A" />
+      </mesh>
+      {[0.14, -0.14].map((z) => (
+        <mesh key={`rodent-eye-${z}`} position={[0.72, 0.68, z]}>
+          <sphereGeometry args={[0.028, 10, 10]} />
+          <meshStandardMaterial color="#141C18" />
+        </mesh>
+      ))}
+      {[0.2, -0.2].map((z) => (
+        <mesh key={`rodent-leg-${z}`} position={[0.35, 0.02, z]}>
+          <cylinderGeometry args={[0.03, 0.04, 0.28, 8]} />
+          <meshStandardMaterial color="#9A8664" />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+function Deer() {
+  return (
+    <group scale={0.7} position={[0, -0.35, 0]}>
+      <mesh position={[0, 0.7, 0]} scale={[1.05, 0.55, 0.48]}>
+        <sphereGeometry args={[0.9, 36, 36]} />
+        <meshStandardMaterial color="#9A6B47" roughness={0.9} />
+      </mesh>
+      <mesh position={[0.85, 1.35, 0]} rotation={[0, 0, -0.5]}>
+        <cylinderGeometry args={[0.1, 0.16, 0.95, 14]} />
+        <meshStandardMaterial color="#9A6B47" roughness={0.9} />
+      </mesh>
+      <mesh position={[1.18, 1.78, 0]} scale={[0.34, 0.26, 0.24]}>
+        <sphereGeometry args={[0.7, 26, 26]} />
+        <meshStandardMaterial color="#A87B55" roughness={0.9} />
+      </mesh>
+      {[0.26, -0.26].map((z) => (
+        <mesh key={`deer-ear-${z}`} position={[1.08, 1.98, z]} rotation={[z > 0 ? 0.5 : -0.5, 0, 0]}>
+          <coneGeometry args={[0.05, 0.22, 8]} />
+          <meshStandardMaterial color="#8E6142" />
+        </mesh>
+      ))}
+      {[1, -1].map((side) => (
+        <group key={`deer-antler-${side}`} position={[1.14, 1.98, side * 0.08]}>
+          <mesh rotation={[side * 0.3, 0, -0.15]}>
+            <cylinderGeometry args={[0.02, 0.035, 0.45, 8]} />
+            <meshStandardMaterial color="#7A6547" />
+          </mesh>
+          <mesh position={[-0.1, 0.28, side * 0.1]} rotation={[side * 0.5, 0, 0.5]}>
+            <cylinderGeometry args={[0.018, 0.028, 0.3, 8]} />
+            <meshStandardMaterial color="#7A6547" />
+          </mesh>
+        </group>
+      ))}
+      {[
+        [0.55, 0.28],
+        [0.55, -0.28],
+        [-0.55, 0.28],
+        [-0.55, -0.28],
+      ].map(([x, z], i) => (
+        <mesh key={`deer-leg-${i}`} position={[x, 0.05, z]}>
+          <cylinderGeometry args={[0.035, 0.05, 1.2, 10]} />
+          <meshStandardMaterial color="#8E6142" />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+function Cattle() {
+  return (
+    <group scale={0.65} position={[0, -0.3, 0]}>
+      <mesh position={[0, 0.75, 0]} scale={[1.25, 0.8, 0.72]}>
+        <sphereGeometry args={[0.9, 36, 36]} />
+        <meshStandardMaterial color="#4A4038" roughness={0.95} />
+      </mesh>
+      <mesh position={[1.05, 1.05, 0]} scale={[0.55, 0.52, 0.5]}>
+        <sphereGeometry args={[0.8, 30, 30]} />
+        <meshStandardMaterial color="#3F362F" roughness={0.95} />
+      </mesh>
+      {[0.3, -0.3].map((z) => (
+        <mesh key={`cattle-horn-${z}`} position={[1.08, 1.42, z]} rotation={[z > 0 ? 0.8 : -0.8, 0, 0.2]}>
+          <coneGeometry args={[0.055, 0.4, 10]} />
+          <meshStandardMaterial color="#C9B896" roughness={0.5} />
+        </mesh>
+      ))}
+      {[
+        [0.65, 0.35],
+        [0.65, -0.35],
+        [-0.65, 0.35],
+        [-0.65, -0.35],
+      ].map(([x, z], i) => (
+        <mesh key={`cattle-leg-${i}`} position={[x, -0.1, z]}>
+          <cylinderGeometry args={[0.09, 0.11, 1.0, 12]} />
+          <meshStandardMaterial color="#3F362F" roughness={0.95} />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+function Goat() {
+  return (
+    <group scale={0.72} position={[0, -0.3, 0]}>
+      <mesh position={[0, 0.6, 0]} scale={[1.0, 0.5, 0.45]}>
+        <sphereGeometry args={[0.9, 34, 34]} />
+        <meshStandardMaterial color="#B99D6A" roughness={0.9} />
+      </mesh>
+      <mesh position={[0.88, 1.2, 0]} rotation={[0, 0, -0.6]}>
+        <cylinderGeometry args={[0.09, 0.13, 0.85, 12]} />
+        <meshStandardMaterial color="#C4A875" roughness={0.9} />
+      </mesh>
+      <mesh position={[1.2, 1.6, 0]} scale={[0.3, 0.24, 0.22]}>
+        <sphereGeometry args={[0.7, 24, 24]} />
+        <meshStandardMaterial color="#CBB07F" roughness={0.9} />
+      </mesh>
+      {[0.2, -0.2].map((z) => (
+        <mesh key={`goat-horn-${z}`} position={[1.18, 1.86, z]} rotation={[z > 0 ? 0.5 : -0.5, 0, 0.15]}>
+          <cylinderGeometry args={[0.02, 0.035, 0.4, 8]} />
+          <meshStandardMaterial color="#5B4A34" />
+        </mesh>
+      ))}
+      {[
+        [0.5, 0.24],
+        [0.5, -0.24],
+        [-0.5, 0.24],
+        [-0.5, -0.24],
+      ].map(([x, z], i) => (
+        <mesh key={`goat-leg-${i}`} position={[x, -0.05, z]}>
+          <cylinderGeometry args={[0.032, 0.045, 1.1, 10]} />
+          <meshStandardMaterial color="#A98B5B" />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+function Macaque() {
+  return (
+    <group scale={0.78} position={[0, -0.15, 0]}>
+      <mesh position={[0, 0.6, 0]} scale={[0.78, 0.95, 0.58]}>
+        <sphereGeometry args={[0.9, 36, 36]} />
+        <meshStandardMaterial color="#8A7355" roughness={0.95} />
+      </mesh>
+      <mesh position={[0.1, 1.5, 0]} scale={[0.5, 0.5, 0.48]}>
+        <sphereGeometry args={[0.8, 28, 28]} />
+        <meshStandardMaterial color="#A08A68" roughness={0.95} />
+      </mesh>
+      <mesh position={[0.52, 1.42, 0]} scale={[0.26, 0.28, 0.28]}>
+        <sphereGeometry args={[0.7, 22, 22]} />
+        <meshStandardMaterial color="#C9AE8A" roughness={0.9} />
+      </mesh>
+      {[0.12, -0.12].map((z) => (
+        <mesh key={`mac-eye-${z}`} position={[0.66, 1.5, z]}>
+          <sphereGeometry args={[0.032, 10, 10]} />
+          <meshStandardMaterial color="#141C18" />
+        </mesh>
+      ))}
+      {[0.62, -0.62].map((z) => (
+        <mesh key={`mac-arm-${z}`} position={[0.28, 0.72, z]} rotation={[0, 0, -0.25]}>
+          <cylinderGeometry args={[0.08, 0.1, 1.15, 12]} />
+          <meshStandardMaterial color="#7A644A" roughness={0.95} />
+        </mesh>
+      ))}
+      <mesh position={[-0.78, 0.95, 0]} rotation={[0, 0, 1.0]}>
+        <cylinderGeometry args={[0.035, 0.05, 1.3, 10]} />
+        <meshStandardMaterial color="#8A7355" />
+      </mesh>
+    </group>
+  );
+}
+
+function Frog() {
+  return (
+    <group scale={0.85} position={[0, -0.35, 0]}>
+      <mesh position={[0, 0.35, 0]} scale={[0.85, 0.55, 0.75]}>
+        <sphereGeometry args={[0.8, 34, 34]} />
+        <meshStandardMaterial color="#6B7B4A" roughness={0.9} />
+      </mesh>
+      <mesh position={[0.55, 0.62, 0]} scale={[0.48, 0.32, 0.55]}>
+        <sphereGeometry args={[0.7, 28, 28]} />
+        <meshStandardMaterial color="#7A8C55" roughness={0.9} />
+      </mesh>
+      {[0.26, -0.26].map((z) => (
+        <mesh key={`frog-eye-${z}`} position={[0.62, 0.86, z]}>
+          <sphereGeometry args={[0.11, 16, 16]} />
+          <meshStandardMaterial color="#C9B74A" />
+        </mesh>
+      ))}
+      {[0.26, -0.26].map((z) => (
+        <mesh key={`frog-eye-dot-${z}`} position={[0.66, 0.9, z]}>
+          <sphereGeometry args={[0.045, 10, 10]} />
+          <meshStandardMaterial color="#141C18" />
+        </mesh>
+      ))}
+      {[0.42, -0.42].map((z) => (
+        <mesh key={`frog-leg-${z}`} position={[-0.4, 0.1, z]} rotation={[0, 0, -1.1]}>
+          <cylinderGeometry args={[0.07, 0.1, 0.7, 12]} />
+          <meshStandardMaterial color="#5E6B3E" />
+        </mesh>
+      ))}
+      {[0.45, -0.45].map((z) => (
+        <mesh key={`frog-front-${z}`} position={[0.45, 0.05, z]}>
+          <cylinderGeometry args={[0.035, 0.05, 0.35, 10]} />
+          <meshStandardMaterial color="#5E6B3E" />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
 function Spinner({ autoRotate, children }: { autoRotate: boolean; children: React.ReactNode }) {
   const ref = useRef<Group>(null);
   useFrame((_, delta) => {
@@ -626,16 +1103,29 @@ export function Lab3D({
             <Spinner autoRotate={autoRotate}>
               {kind === "tiger" && <Tiger />}
               {kind === "snub-monkey" && <SnubMonkey />}
+              {kind === "macaque" && <Macaque />}
               {kind === "milu" && <Milu />}
+              {kind === "deer" && <Deer />}
+              {kind === "rodent" && <Rodent />}
               {kind === "antelope" && <Antelope />}
+              {kind === "goat" && <Goat />}
               {kind === "horse" && <Horse />}
               {kind === "yak" && <Yak />}
+              {kind === "cattle" && <Cattle />}
               {kind === "takin" && <Takin />}
               {kind === "pheasant" && <Pheasant />}
+              {kind === "songbird" && <Songbird />}
               {kind === "ibis" && <Ibis />}
+              {kind === "crane" && <Crane />}
+              {kind === "duck" && <Duck />}
               {kind === "salamander" && <Salamander />}
+              {kind === "frog" && <Frog />}
+              {kind === "snake" && <Snake />}
+              {kind === "turtle" && <Turtle />}
+              {kind === "lizard" && <Lizard />}
               {kind === "panda" && <Panda />}
               {kind === "crocodile" && <Crocodile />}
+              {kind === "fish" && <Fish />}
               {kind === "dolphin" && <Dolphin />}
             </Spinner>
             <ContactShadows position={[0, -1.25, 0]} opacity={0.28} scale={9} blur={2.6} far={4} />

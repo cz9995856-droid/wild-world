@@ -4,7 +4,17 @@ import { useState } from "react";
 import { Bone, Eye, Info, Layers } from "lucide-react";
 
 type Layer = "surface" | "skeleton" | "muscle";
-type Mode = "tiger" | "snub-monkey" | "pheasant" | "salamander" | "elephant" | "bird";
+type Mode =
+  | "tiger"
+  | "snub-monkey"
+  | "pheasant"
+  | "salamander"
+  | "snake"
+  | "turtle"
+  | "fish"
+  | "crane"
+  | "elephant"
+  | "bird";
 
 interface Part {
   id: string;
@@ -438,11 +448,243 @@ const SALAMANDER_PARTS: Part[] = [
   },
 ];
 
+const SNAKE_PARTS: Part[] = [
+  {
+    id: "snake-vertebra",
+    label: "脊椎链",
+    x: 45,
+    y: 55,
+    summary: "数百节脊椎、无四肢",
+    detail: "蛇类脊椎数量可达数百节，每节与肋骨相连，形成高度灵活的躯干。四肢退化，运动依赖躯干的侧向波动。",
+    layer: "skeleton",
+  },
+  {
+    id: "snake-jaw",
+    label: "可动颌关节",
+    x: 78,
+    y: 42,
+    summary: "方骨可动、张口幅度大",
+    detail: "蛇类的方骨与颅骨形成可动连接，配合左右下颌独立活动，能吞下相对较大的猎物。",
+    layer: "skeleton",
+  },
+  {
+    id: "snake-fang",
+    label: "毒牙",
+    x: 86,
+    y: 45,
+    summary: "沟牙或管牙",
+    detail: "蝮蛇等具有管牙或沟牙，毒液经导管注入猎物。毒牙形态是蛇类分类与危险评估的重要依据。",
+    layer: "surface",
+  },
+  {
+    id: "snake-scale",
+    label: "鳞片",
+    x: 40,
+    y: 42,
+    summary: "角质鳞、减少失水",
+    detail: "蛇类体表覆盖角质鳞片，可减少水分散失并保护皮肤。腹鳞特化，协助在粗糙表面移动。",
+    layer: "surface",
+  },
+  {
+    id: "snake-muscle",
+    label: "体侧肌群",
+    x: 45,
+    y: 62,
+    summary: "侧向波动推进",
+    detail: "体侧肌群交替收缩，使躯干产生侧向波，配合腹鳞抓地完成前进。",
+    layer: "muscle",
+  },
+  {
+    id: "snake-tongue",
+    label: "分叉舌",
+    x: 92,
+    y: 52,
+    summary: "采集化学信号",
+    detail: "蛇类分叉舌用于采集空气中的化学分子，送入犁鼻器分析，帮助追踪猎物与识别同类。",
+    layer: "surface",
+  },
+];
+
+const TURTLE_PARTS: Part[] = [
+  {
+    id: "turtle-carapace",
+    label: "背甲",
+    x: 45,
+    y: 40,
+    summary: "脊椎与肋骨融合",
+    detail: "龟类背甲由脊椎与肋骨融合形成，外覆角质盾片。背甲是防御结构，也限制其运动方式。",
+    layer: "skeleton",
+  },
+  {
+    id: "turtle-plastron",
+    label: "腹甲",
+    x: 45,
+    y: 66,
+    summary: "腹面骨板",
+    detail: "腹甲位于身体腹面，与背甲共同构成保护腔。闭壳龟类可通过韧带闭合甲壳。",
+    layer: "skeleton",
+  },
+  {
+    id: "turtle-neck",
+    label: "颈部",
+    x: 74,
+    y: 46,
+    summary: "可伸缩、颈椎灵活",
+    detail: "龟类颈椎灵活，可将头颈缩入壳内。不同类群收缩方式（侧颈或直颈）不同。",
+    layer: "surface",
+  },
+  {
+    id: "turtle-limb",
+    label: "四肢",
+    x: 36,
+    y: 70,
+    summary: "陆龟柱状、水龟蹼足",
+    detail: "陆龟四肢粗壮如柱，水龟四肢具蹼，形态差异反映栖息环境。",
+    layer: "surface",
+  },
+  {
+    id: "turtle-trunk-muscle",
+    label: "肩带与腰肌",
+    x: 42,
+    y: 54,
+    summary: "壳内肌肉固定",
+    detail: "龟类肩带与腰带位于肋骨内侧，肌肉系统在壳内固定，支撑四肢伸缩。",
+    layer: "muscle",
+  },
+  {
+    id: "turtle-tail",
+    label: "尾",
+    x: 16,
+    y: 56,
+    summary: "短尾、泄殖腔开口",
+    detail: "龟类尾部较短，泄殖腔开口位于尾基部。雌雄个体尾长与形态存在差异。",
+    layer: "surface",
+  },
+];
+
+const FISH_PARTS: Part[] = [
+  {
+    id: "fish-gill",
+    label: "鳃",
+    x: 72,
+    y: 44,
+    summary: "气体交换",
+    detail: "鳃丝密布毛细血管，从水中提取溶解氧。鳃的结构对水体缺氧与污染非常敏感。",
+    layer: "surface",
+  },
+  {
+    id: "fish-lateral",
+    label: "侧线",
+    x: 45,
+    y: 52,
+    summary: "感知水流与振动",
+    detail: "侧线是鱼类的机械感受系统，沿体侧分布，能探测水流变化与低频振动。",
+    layer: "surface",
+  },
+  {
+    id: "fish-fin",
+    label: "鳍",
+    x: 30,
+    y: 38,
+    summary: "背鳍、胸鳍、尾鳍",
+    detail: "鳍由鳍条支撑，负责稳定、转向与推进。不同鱼类的鳍形反映其游泳方式。",
+    layer: "skeleton",
+  },
+  {
+    id: "fish-swimbladder",
+    label: "鳔",
+    x: 45,
+    y: 44,
+    summary: "调节浮力",
+    detail: "多数硬骨鱼具有鳔，通过调节气体量控制浮力。底栖鱼类鳔常退化。",
+    layer: "skeleton",
+  },
+  {
+    id: "fish-muscle",
+    label: "肌节",
+    x: 40,
+    y: 56,
+    summary: "W 形肌节推进",
+    detail: "鱼类躯干由 W 形肌节组成，交替收缩产生波浪式推进，是主要游泳动力。",
+    layer: "muscle",
+  },
+  {
+    id: "fish-jaw",
+    label: "颌与口腔",
+    x: 84,
+    y: 48,
+    summary: "摄食与呼吸共用通道",
+    detail: "鱼类口腔与鳃腔相通，摄食与呼吸共用通道。不同食性的颌齿形态差异明显。",
+    layer: "skeleton",
+  },
+];
+
+const CRANE_PARTS: Part[] = [
+  {
+    id: "crane-neck",
+    label: "长颈",
+    x: 65,
+    y: 32,
+    summary: "颈椎多、视野高",
+    detail: "鹤类颈椎数量多，颈部细长，可在浅水中高举头部观察周围环境。",
+    layer: "skeleton",
+  },
+  {
+    id: "crane-leg",
+    label: "长腿",
+    x: 52,
+    y: 76,
+    summary: "涉水行走",
+    detail: "鹤类后肢细长，胫跗骨延长，适合在浅水与湿地行走。趾间无蹼，与鸭类不同。",
+    layer: "skeleton",
+  },
+  {
+    id: "crane-windpipe",
+    label: "加长气管",
+    x: 60,
+    y: 46,
+    summary: "鸣声低沉、传远",
+    detail: "部分鹤类气管加长并盘曲于胸骨内，使鸣声低沉且传播距离更远。",
+    layer: "surface",
+  },
+  {
+    id: "crane-keel",
+    label: "龙骨突",
+    x: 45,
+    y: 50,
+    summary: "胸肌附着",
+    detail: "鹤类胸骨具龙骨突，为飞行胸肌提供附着面。体型较大的鹤飞行时需要较强胸肌。",
+    layer: "skeleton",
+  },
+  {
+    id: "crane-wing",
+    label: "翼肌",
+    x: 42,
+    y: 44,
+    summary: "迁徙飞行",
+    detail: "鹤类翼展大，胸肌与翼肌发达，支持长距离迁徙飞行。",
+    layer: "muscle",
+  },
+  {
+    id: "crane-beak",
+    label: "喙",
+    x: 82,
+    y: 38,
+    summary: "细长、取食水生动物",
+    detail: "鹤类喙细长，适合在浅水中捕捉鱼、蛙与水生昆虫，不同种类喙形略有差异。",
+    layer: "surface",
+  },
+];
+
 const MODE_PARTS: Record<Mode, Part[]> = {
   tiger: TIGER_PARTS,
   "snub-monkey": SNUB_MONKEY_PARTS,
   pheasant: PHEASANT_PARTS,
   salamander: SALAMANDER_PARTS,
+  snake: SNAKE_PARTS,
+  turtle: TURTLE_PARTS,
+  fish: FISH_PARTS,
+  crane: CRANE_PARTS,
   elephant: ELEPHANT_PARTS,
   bird: BIRD_PARTS,
 };
@@ -452,6 +694,10 @@ const MODE_LABELS: Record<Mode, string> = {
   "snub-monkey": "金丝猴",
   pheasant: "雉类",
   salamander: "大鲵",
+  snake: "蛇类",
+  turtle: "龟类",
+  fish: "鱼类",
+  crane: "鹤类",
   elephant: "非洲象",
   bird: "鸟类",
 };
@@ -461,15 +707,24 @@ const MODE_COLOR: Record<Mode, string> = {
   "snub-monkey": "#C7A55E",
   pheasant: "#8C4A2F",
   salamander: "#5B6B48",
+  snake: "#6B7B4A",
+  turtle: "#5E5236",
+  fish: "#5E7A8A",
+  crane: "#EDE8DC",
   elephant: "#8C8A80",
   bird: "#7C8994",
 };
 
 function modeForSlug(slug?: string, group?: string): Mode {
   if (!slug) return "tiger";
-  if (slug.includes("pheasant") || slug.includes("monal") || group === "bird") return "pheasant";
-  if (slug.includes("salamander") || group === "amphibian") return "salamander";
-  if (slug.includes("monkey") || slug.includes("gibbon")) return "snub-monkey";
+  if (/(lizard|agama)/.test(slug)) return "snake";
+  if (/(viper|snake|krait|cobra)/.test(slug)) return "snake";
+  if (/(turtle|tortoise)/.test(slug)) return "turtle";
+  if (/(sturgeon|paddlefish|sucker|schizothorax|barbel|lenok|taimen|fish)/.test(slug) || group === "fish") return "fish";
+  if (/(crane|tern|gull)/.test(slug)) return "crane";
+  if (group === "bird") return "pheasant";
+  if (group === "amphibian") return "salamander";
+  if (/(monkey|gibbon|macaque|langur)/.test(slug)) return "snub-monkey";
   return "tiger";
 }
 
@@ -518,7 +773,7 @@ export function AnatomyExplorer({
       <div className="border border-[var(--line)] bg-[var(--surface)]">
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--line)] p-3">
           <div className="flex gap-1">
-            {(["tiger", "snub-monkey", "pheasant", "salamander", "elephant", "bird"] as Mode[]).map((m) => (
+            {(["tiger", "snub-monkey", "pheasant", "salamander", "snake", "turtle", "fish", "crane", "elephant", "bird"] as Mode[]).map((m) => (
               <button
                 key={m}
                 onClick={() => switchMode(m)}

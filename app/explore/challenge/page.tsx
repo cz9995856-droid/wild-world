@@ -16,8 +16,8 @@ export default function ChallengePage() {
           <p className="wc-kicker">Life Challenge Center</p>
           <h1 className="display mt-2 text-[38px] sm:text-[50px]">生命探索挑战中心</h1>
           <p className="wc-prose mt-3">
-            用答题理解中国特有脊椎动物的生命特征、生态关系与保护价值。四大专题题库、每日挑战与错题本，
-            答题记录保存在当前设备。
+            以答题探索馆藏：理解中国特有脊椎动物的生命特征、生态关系与保护价值。四大专题题库、每日挑战与错题本，
+            答题记录仅保存在当前设备。
           </p>
         </div>
       </div>

@@ -54,7 +54,7 @@ export default async function ChinaLabPage({
           <p className="wc-kicker">Life Lab</p>
           <h1 className="display mt-2 text-[38px] sm:text-[50px]">生命实验室</h1>
           <p className="wc-prose mt-3">
-            从中国特有动物的身体结构、3D 模型到生命知识挑战，用交互理解它们如何生存。原创模型用于理解结构，实时观测用于理解分布。
+            馆内互动展区：从身体结构、3D 形态到生命知识挑战，用交互理解中国特有动物如何生存。原创模型用于理解结构，实时观测用于理解分布。
           </p>
         </div>
         <p className="text-[11px] leading-relaxed text-[var(--muted)]">

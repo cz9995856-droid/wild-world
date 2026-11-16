@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ExternalLink } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 import { WcHeader } from "@/components/wildchina/wc-header";
 import { WcPhoto, WcCredit } from "@/components/wildchina/wc-photo";
 import { ChinaFavoriteButton } from "@/components/wildchina/china-favorite-button";
@@ -111,18 +111,32 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
 
           <InfoBlock title="中文分布区域">{species.distribution}</InfoBlock>
 
-          <Link
-            href={`/explore/lab?species=${species.slug}#three-d`}
-            className="flex items-center justify-between gap-3 border border-[var(--forest)] bg-[var(--forest)] px-4 py-3 text-[#F5F1E7] transition-opacity hover:opacity-90"
-          >
-            <span>
-              <span className="block text-[12.5px]">进入生命实验室</span>
-              <span className="mt-0.5 block text-[9.5px] text-white/60">
-                查看 3D 模型、身体结构与该物种的知识挑战
+          <div className="grid gap-2 sm:grid-cols-2">
+            <Link
+              href={`/explore/lab?species=${species.slug}#three-d`}
+              className="flex items-center justify-between gap-3 border border-[var(--forest)] bg-[var(--forest)] px-4 py-3 text-[#F5F1E7] transition-opacity hover:opacity-90"
+            >
+              <span>
+                <span className="block text-[12.5px]">进入生命实验室</span>
+                <span className="mt-0.5 block text-[9.5px] text-white/60">
+                  查看 3D 模型与身体结构
+                </span>
               </span>
-            </span>
-            <ExternalLink size={15} />
-          </Link>
+              <ExternalLink size={15} />
+            </Link>
+            <Link
+              href="/explore/challenge"
+              className="flex items-center justify-between gap-3 border border-[var(--line-strong)] bg-[var(--surface)] px-4 py-3 transition-colors hover:border-[var(--forest)]"
+            >
+              <span>
+                <span className="block text-[12.5px]">生命探索挑战</span>
+                <span className="mt-0.5 block text-[9.5px] text-[var(--muted)]">
+                  在题库中检验对该类群的理解
+                </span>
+              </span>
+              <ArrowRight size={15} />
+            </Link>
+          </div>
 
           {species.aliases.length > 0 && (
             <InfoBlock title="别名">{species.aliases.join("、")}</InfoBlock>

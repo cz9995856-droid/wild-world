@@ -49,6 +49,9 @@ export function DailyCard({
           <span className="wc-kicker">物种档案</span>
           <span className="text-[10px] text-[var(--muted)]">{dateKey} · 北京时间</span>
         </div>
+        <p className="mt-1 text-[10px] tracking-[0.12em] text-[var(--muted)]">
+          中国特有脊椎动物数字自然博物馆 · 每日一馆藏
+        </p>
 
         <div className="mt-6 sm:mt-8">
           <p className="wc-field-label">中文名</p>

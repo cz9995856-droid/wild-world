@@ -30,6 +30,10 @@ function writeCache(key: string, payload: CachedPayload) {
   CACHE.set(key, { at: Date.now(), payload });
 }
 
+const CACHE_HEADERS = {
+  "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600",
+};
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const slug = (searchParams.get("slug") ?? "").trim();
@@ -43,7 +47,7 @@ export async function GET(request: Request) {
   const cacheKey = `${slug}|${source}|${country}`;
   const cached = readCache(cacheKey);
   if (cached) {
-    return NextResponse.json({ ...cached, cached: true });
+    return NextResponse.json({ ...cached, cached: true }, { headers: CACHE_HEADERS });
   }
 
   const species = await getSpeciesBySlug(slug);
@@ -103,5 +107,5 @@ export async function GET(request: Request) {
 
   writeCache(cacheKey, payload);
 
-  return NextResponse.json(payload);
+  return NextResponse.json(payload, { headers: CACHE_HEADERS });
 }

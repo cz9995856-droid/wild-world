@@ -44,6 +44,17 @@ export function getSpeciesImage(slug: string, slot: ChinaMediaSlot): ChinaImage 
   return CHINA_MEDIA[slug]?.[slot] ?? null;
 }
 
+const THUMB_DIRS = new Set(["species", "pixabay", "habitat", "extra", "hero"]);
+
+export function thumbUrl(url: string | null | undefined): string {
+  if (!url) return "";
+  if (!url.startsWith("/media/")) return url;
+  const rest = url.slice("/media/".length);
+  const dir = rest.split("/")[0];
+  if (!THUMB_DIRS.has(dir)) return url;
+  return `/media/thumbs/${rest.replace(/\.(jpe?g|png|webp)$/i, ".webp")}`;
+}
+
 export function hasHero(slug: string): boolean {
   return Boolean(CHINA_MEDIA[slug]?.hero);
 }

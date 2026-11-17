@@ -10,7 +10,7 @@ import {
   speciesHref,
   type ChinaGroup,
 } from "@/lib/wildchina/species";
-import { getSpeciesImage } from "@/lib/wildchina/media";
+import { getSpeciesImage, thumbUrl } from "@/lib/wildchina/media";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
@@ -24,11 +24,13 @@ interface Query {
   habitat?: string;
   status?: string;
   province?: string;
+  page?: string;
 }
 
 function hrefWith(current: Query, patch: Partial<Query>) {
   const params = new URLSearchParams();
   const merged = { ...current, ...patch };
+  if (!("page" in patch)) delete merged.page;
   for (const [key, value] of Object.entries(merged)) {
     if (value) params.set(key, value);
   }
@@ -65,6 +67,13 @@ export default async function ChinaEncyclopediaPage({
 
   const provinces = [...new Set(CHINA_SPECIES.flatMap((species) => species.provinces))];
   const statuses = [...new Set(CHINA_SPECIES.map((species) => species.conservation.status))];
+
+  const PAGE_SIZE = 36;
+  const requestedPage = Math.max(1, Number(current.page ?? "1") || 1);
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const page = Math.min(requestedPage, totalPages);
+  const pageItems = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  const pageHref = (target: number) => hrefWith({ ...current, page: undefined }, { page: target > 1 ? String(target) : undefined });
 
   return (
     <div className="wc-frame">
@@ -154,8 +163,9 @@ export default async function ChinaEncyclopediaPage({
           </Link>
         </div>
       ) : (
+        <>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {filtered.map((species) => {
+          {pageItems.map((species) => {
             const image = getSpeciesImage(species.slug, "hero") ?? getSpeciesImage(species.slug, "full");
             return (
               <article
@@ -165,7 +175,7 @@ export default async function ChinaEncyclopediaPage({
                 <Link href={speciesHref(species.slug)} className="block">
                   <div className="relative aspect-[4/3] overflow-hidden bg-[var(--surface-2)]">
                     <WcPhoto
-                      src={image?.url ?? null}
+                      src={thumbUrl(image?.url) || null}
                       alt={`${species.nameCn} ${species.scientificName}`}
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                       className="transition-transform duration-700 group-hover:scale-[1.04]"
@@ -200,6 +210,24 @@ export default async function ChinaEncyclopediaPage({
             );
           })}
         </div>
+        {totalPages > 1 && (
+          <nav className="mt-6 flex flex-wrap items-center justify-center gap-3" aria-label="分页">
+            {page > 1 ? (
+              <Link href={pageHref(page - 1)} className="border border-[var(--line)] px-4 py-2 text-[11px] hover:border-[var(--forest)]">
+                上一页
+              </Link>
+            ) : null}
+            <span className="text-[11px] text-[var(--muted)]">
+              第 {page} / {totalPages} 页 · 每页 {PAGE_SIZE} 种
+            </span>
+            {page < totalPages ? (
+              <Link href={pageHref(page + 1)} className="border border-[var(--line)] px-4 py-2 text-[11px] hover:border-[var(--forest)]">
+                下一页
+              </Link>
+            ) : null}
+          </nav>
+        )}
+        </>
       )}
 
       <p className="mt-8 text-[10.5px] leading-relaxed text-[var(--muted)]">

@@ -2395,5 +2395,100 @@
    }
   ],
   "verified": false
+ },
+ {
+  "slug": "crested-ibis",
+  "nameCn": "朱鹮",
+  "aliases": [],
+  "scientificName": "Nipponia nippon",
+  "englishName": "朱鹮",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Pelecaniformes",
+   "family": "Threskiornithidae",
+   "genus": "Nipponia"
+  },
+  "distribution": "历史分布于东亚，中国为主要繁殖地之一",
+  "provinces": [],
+  "habitats": [
+   "湿地",
+   "浅水农田",
+   "溪流"
+  ],
+  "conservation": {
+   "status": "EN",
+   "label": "濒危",
+   "year": 2018,
+   "note": "以 IUCN 评估为参考，具体版本待复核。"
+  },
+  "morphology": "中等体型(55厘米)偏粉色鹮。脸朱红色，嘴长而下弯，嘴端红色，颈后饰羽长，为白或灰色(繁殖期)，腿绯红。亚成鸟灰色，部分成鸟仍为灰色。夏季灰色较浓，饰羽较长。飞行时飞羽下面红色。",
+  "behavior": "在湿地、浅水农田与溪流边觅食水生动物；繁殖期在树上营巢，对人为干扰敏感。",
+  "dietReproduction": "取食鱼类、两栖类与水生昆虫；繁殖期在乔木上筑巢，每窝产卵数较少。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Nipponia%20nippon"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "chinese-paddlefish",
+  "nameCn": "白鲟",
+  "aliases": [],
+  "scientificName": "Psephurus gladius",
+  "englishName": "白鲟",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "Actinopterygii",
+   "order": "Acipenseriformes",
+   "family": "Polyodontidae",
+   "genus": "Psephurus"
+  },
+  "distribution": "长江水系，历史记录见于干流与大型支流",
+  "provinces": [],
+  "habitats": [
+   "江河干流",
+   "砾石河段"
+  ],
+  "conservation": {
+   "status": "CR",
+   "label": "极危",
+   "year": 2022,
+   "note": "白鲟自 2003 年后无确证记录，评估状态待复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "大型淡水鱼类，历史记录显示其在长江干流活动，具体生态习性资料极为有限。",
+  "dietReproduction": "以鱼类等水生动物为食；繁殖与洄游行为缺乏完整记录。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Psephurus%20gladius"
+   }
+  ],
+  "verified": false
  }
 ]

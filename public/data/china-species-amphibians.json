@@ -13028,56 +13028,6 @@
   "verified": false
  },
  {
-  "slug": "odorrana-kweichowensis",
-  "nameCn": "贵州臭蛙",
-  "aliases": [],
-  "scientificName": "Odorrana kweichowensis",
-  "englishName": "贵州臭蛙",
-  "group": "amphibian",
-  "groupLabel": "两栖纲",
-  "taxonomy": {
-   "class": "Amphibia",
-   "order": "Anura",
-   "family": "Ranidae",
-   "genus": "Odorrana"
-  },
-  "distribution": "贵州",
-  "provinces": [
-   "贵州"
-  ],
-  "habitats": [],
-  "conservation": {
-   "status": "VU",
-   "label": "易危",
-   "year": 2024,
-   "note": "种群数量未在本档案中给出，需参考 IUCN 评估原文。"
-  },
-  "morphology": "形态描述待编辑核验。",
-  "behavior": "生活史与行为细节待编辑核验。",
-  "dietReproduction": "食性待编辑核验。 繁殖信息待编辑核验。",
-  "endemic": "strict",
-  "endemicNote": "GBIF 记录仅见中国（含台港澳），暂按严格特有处理，待名录复核。",
-  "sp2000": {
-   "id": null,
-   "url": "https://www.sp2000.org.cn/"
-  },
-  "sources": [
-   {
-    "name": "AmphibiaChina 中国两栖类名录（2020）",
-    "url": "http://www.amphibiachina.org"
-   },
-   {
-    "name": "GBIF Species API",
-    "url": "https://www.gbif.org/species/10708747"
-   },
-   {
-    "name": "iNaturalist",
-    "url": "https://www.inaturalist.org"
-   }
-  ],
-  "verified": false
- },
- {
   "slug": "pelophylax-fukienensis",
   "nameCn": "福建侧褶蛙",
   "aliases": [],

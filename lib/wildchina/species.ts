@@ -395,11 +395,19 @@ const BASE_CHINA_SPECIES: ChinaSpecies[] = [
   },
 ];
 
-export const CHINA_SPECIES: ChinaSpecies[] = [
+function dedupeBySlug(list: ChinaSpecies[]): ChinaSpecies[] {
+  const map = new Map<string, ChinaSpecies>();
+  for (const item of list) {
+    if (!map.has(item.slug)) map.set(item.slug, item);
+  }
+  return [...map.values()];
+}
+
+export const CHINA_SPECIES: ChinaSpecies[] = dedupeBySlug([
   ...BASE_CHINA_SPECIES,
   ...(amphibianData as unknown as ChinaSpecies[]),
   ...(extraData as unknown as ChinaSpecies[]),
-];
+]);
 
 export const CHINA_SPECIES_BY_SLUG = new Map(CHINA_SPECIES.map((s) => [s.slug, s]));
 

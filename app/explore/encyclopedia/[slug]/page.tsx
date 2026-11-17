@@ -211,7 +211,7 @@ function InfoBlock({ title, children }: { title: string; children: React.ReactNo
   return (
     <section>
       <h2 className="display text-[24px]">{title}</h2>
-      <div className="wc-prose mt-2">{children}</div>
+      <div className="wc-prose-lg mt-2">{children}</div>
     </section>
   );
 }

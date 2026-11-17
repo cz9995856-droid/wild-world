@@ -1,4 +1,5 @@
 import amphibianData from "@/public/data/china-species-amphibians.json";
+import extraData from "@/public/data/china-species-extra.json";
 
 export type ChinaGroup = "mammal" | "bird" | "reptile" | "amphibian" | "fish";
 
@@ -397,6 +398,7 @@ const BASE_CHINA_SPECIES: ChinaSpecies[] = [
 export const CHINA_SPECIES: ChinaSpecies[] = [
   ...BASE_CHINA_SPECIES,
   ...(amphibianData as unknown as ChinaSpecies[]),
+  ...(extraData as unknown as ChinaSpecies[]),
 ];
 
 export const CHINA_SPECIES_BY_SLUG = new Map(CHINA_SPECIES.map((s) => [s.slug, s]));

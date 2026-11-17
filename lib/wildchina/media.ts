@@ -1,5 +1,7 @@
 import raw from "@/public/data/china-media.json";
 import amphibianRaw from "@/public/data/china-media-amphibians.json";
+import extraRaw from "@/public/data/china-media-extra.json";
+import habitatRaw from "@/public/data/china-media-habitat.json";
 
 export interface ChinaImage {
   url: string;
@@ -22,10 +24,21 @@ interface ChinaMediaEntry {
   full?: ChinaImage;
 }
 
-export const CHINA_MEDIA = {
+const BASE_MEDIA = {
   ...(raw.species as Record<string, ChinaMediaEntry>),
   ...(amphibianRaw.species as Record<string, ChinaMediaEntry>),
-} as Record<string, ChinaMediaEntry>;
+  ...(extraRaw.species as Record<string, ChinaMediaEntry>),
+};
+
+const HABITAT_MEDIA = (habitatRaw.species ?? {}) as Record<string, ChinaMediaEntry>;
+
+export const CHINA_MEDIA = Object.entries(HABITAT_MEDIA).reduce<Record<string, ChinaMediaEntry>>(
+  (acc, [slug, entry]) => {
+    acc[slug] = { ...(acc[slug] ?? {}), ...entry };
+    return acc;
+  },
+  { ...BASE_MEDIA }
+);
 
 export function getSpeciesImage(slug: string, slot: ChinaMediaSlot): ChinaImage | null {
   return CHINA_MEDIA[slug]?.[slot] ?? null;

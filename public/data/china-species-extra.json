@@ -1,0 +1,2399 @@
+[
+ {
+  "slug": "white-headed-langur",
+  "nameCn": "白头叶猴",
+  "aliases": [],
+  "scientificName": "Trachypithecus leucocephalus",
+  "englishName": "白头叶猴",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Primates",
+   "family": "Cercopithecidae",
+   "genus": "Trachypithecus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "喀斯特石山森林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "多在树冠层或岩壁活动，以家族群为单位；日活动节律与活动范围受栖息地质量影响。",
+  "dietReproduction": "以树叶、果实、嫩芽与花为主，食谱随季节变化；繁殖周期与幼仔抚育多由雌性承担。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Trachypithecus%20leucocephalus"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "francois-langur",
+  "nameCn": "黑叶猴",
+  "aliases": [],
+  "scientificName": "Trachypithecus francoisi",
+  "englishName": "黑叶猴",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Primates",
+   "family": "Cercopithecidae",
+   "genus": "Trachypithecus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "喀斯特石山森林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "体型纤瘦，四肢细长，头小，尾很长的一种黑猴子。头的比例特小，头额有一撮耸起的黑色冠毛，衬得头部竖向尖细，颜面更瘦削。不具颊囊。手脚狭长，4指（趾）细长，拇指特别短。臀胝小。尾长超过体长的1.5倍左右，尾端毛乳白色。雄性较大，个体一般较猕猴稍大。体毛颇长，几乎完全黑色，略有光泽，从耳下经颊到口角有两道白毛，若白络胡。只颜脸、耳朵和跖部裸露，肤色亦为黑色。",
+  "behavior": "多在树冠层或岩壁活动，以家族群为单位；日活动节律与活动范围受栖息地质量影响。",
+  "dietReproduction": "以树叶、果实、嫩芽与花为主，食谱随季节变化；繁殖周期与幼仔抚育多由雌性承担。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Trachypithecus%20francoisi"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "tibetan-macaque",
+  "nameCn": "藏酋猴",
+  "aliases": [],
+  "scientificName": "Macaca thibetana",
+  "englishName": "藏酋猴",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Primates",
+   "family": "Cercopithecidae",
+   "genus": "Macaca"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "喀斯特石山森林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "猕猴属最大的一种猴，雄猴平均体重15kg，最重的可达30kg以上。身体粗壮，尾较短，不及后脚之长。背毛棕褐，暗棕褐或黑褐色，胸部浅灰，腹毛淡黄色。颜面部仔猴为肉色，幼年白色，成年鲜红，老年转为紫色具黑斑或为黑色。",
+  "behavior": "多在树冠层或岩壁活动，以家族群为单位；日活动节律与活动范围受栖息地质量影响。",
+  "dietReproduction": "以树叶、果实、嫩芽与花为主，食谱随季节变化；繁殖周期与幼仔抚育多由雌性承担。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Macaca%20thibetana"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "chinese-pangolin",
+  "nameCn": "中华穿山甲",
+  "aliases": [],
+  "scientificName": "Manis pentadactyla",
+  "englishName": "中华穿山甲",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Pholidota",
+   "family": "Manidae",
+   "genus": "Manis"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "灌丛",
+   "林缘"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "体披鳞甲的一种食蚁兽。除腹面外，从头至尾披覆瓦状角质鳞，嵌接成行，片间有刚毛。头细、眼小、舌长、无牙齿。四肢粗短，前足趾爪强壮，便于挖土打洞。平时走路掌背着地，受惊蜷成球状。尾长而扁阔，披鳞，肌筋发达，攀附蜷曲有力。颜脸、颌颊、耳眼、胸腹直至尾基以及四肢内侧无鳞有稀毛。鳞甲颜色有棕褐和黑褐两种类型，以棕褐色的多见。",
+  "behavior": "多在夜间或晨昏活动，依靠嗅觉与听觉定位猎物；领域行为明显，活动范围随食物资源变化。",
+  "dietReproduction": "食性较广，捕食小型脊椎动物、昆虫，也取食果实；繁殖季节与幼仔数量因地区而异，需以原始文献为准。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Manis%20pentadactyla"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "large-indian-civet",
+  "nameCn": "大灵猫",
+  "aliases": [],
+  "scientificName": "Viverra zibetha",
+  "englishName": "大灵猫",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Viverridae",
+   "genus": "Viverra"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "灌丛",
+   "林缘"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "体长670-830mm，尾长400-510mm，体重5-9kg，耳基下部至喉颈部黑褐色，中间有2条宽的白色或淡黄色横纹。肩、背、腰部黑褐色，肩部浅褐色，两肩中央及背脊有黑色鬃毛。胸部、腋部灰褐色，腹部、鼠鼷部灰白色。具黑白相间的闭锁环纹，尾端黑色。两性肛门与外生殖器之间有一腺体（灵猫香囊），分泌\\\"灵猫香\\\"。",
+  "behavior": "多在夜间或晨昏活动，依靠嗅觉与听觉定位猎物；领域行为明显，活动范围随食物资源变化。",
+  "dietReproduction": "食性较广，捕食小型脊椎动物、昆虫，也取食果实；繁殖季节与幼仔数量因地区而异，需以原始文献为准。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Viverra%20zibetha"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "small-indian-civet",
+  "nameCn": "小灵猫",
+  "aliases": [],
+  "scientificName": "Viverricula indica",
+  "englishName": "小灵猫",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Viverridae",
+   "genus": "Viverricula"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "灌丛",
+   "林缘"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "体形比大灵猫小，体重2~4 kg。颜面狭窄，吻部尖突；会阴部亦有香囊，闭合时像一对肾脏，开启时形如一个半切开的苹果；肛门两侧的臭腺比大灵猫发达。体色和斑纹可因季节不同而异，冬毛棕黄或乳黄褐色；从耳后至肩有2条黑褐色颈纹，其间夹杂另2条短纹；从肩至臀部有3~5条暗色背纹，中央3条清晰，外侧2条时断时续；四足乌黑色，腹部灰黄或灰白色，尾部有7~9个暗褐色环。",
+  "behavior": "多在夜间或晨昏活动，依靠嗅觉与听觉定位猎物；领域行为明显，活动范围随食物资源变化。",
+  "dietReproduction": "食性较广，捕食小型脊椎动物、昆虫，也取食果实；繁殖季节与幼仔数量因地区而异，需以原始文献为准。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Viverricula%20indica"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "asian-golden-cat",
+  "nameCn": "金猫",
+  "aliases": [],
+  "scientificName": "Catopuma temminckii",
+  "englishName": "亚洲金猫",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Felidae",
+   "genus": "Catopuma"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "灌丛",
+   "林缘"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "中型猫类，貌似豹，体长75-100cm，尾长34-56cm，体重10kg左右。两眼内角各有宽的白色或黄白色条纹，至头顶转为红棕色，棕色纹两侧各有细黑纹伴衬；面颊两侧有白色和深色相间的条纹；四肢上部有斑点；体色多样，至少有三类色型：红色金猫，背毛红棕色，故商品名称\"红春豹\"；灰色金猫，毛色灰棕者称\"芝麻豹\"；灰棕色色型背部有斑纹者，俗称\"狸豹\"。几种色型间还有各种过度类型，此外还有近黑色的黑金猫。据福建27张金猫皮中红春豹占81.5％，狸豹占11.5％，芝麻豹占7.4%；江西1971-1974年的476张金猫皮中，红春豹和芝麻豹合占92.0％，狸豹占6.7％，黑豹仅占1.3％；四川省1973-1980年444张金猫皮中，红春豹占16.0％，芝麻豹占32.7％，狸豹占51.3％。",
+  "behavior": "多在夜间或晨昏活动，依靠嗅觉与听觉定位猎物；领域行为明显，活动范围随食物资源变化。",
+  "dietReproduction": "食性较广，捕食小型脊椎动物、昆虫，也取食果实；繁殖季节与幼仔数量因地区而异，需以原始文献为准。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Catopuma%20temminckii"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "forest-musk-deer",
+  "nameCn": "林麝",
+  "aliases": [],
+  "scientificName": "Moschus berezovskii",
+  "englishName": "林麝",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Moschidae",
+   "genus": "Moschus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "高山草甸",
+   "针阔混交林",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "体重 7-9 kg，成体毛色全身暗褐色，没有斑点，臀部毛色更深，颈下纹明显．耳背端毛色褐色。尾短，隐于毛丛中，不外裸露。",
+  "behavior": "多在晨昏活动，常结群，沿固定路径在栖息地内迁移；受干扰时会向高海拔或密林转移。",
+  "dietReproduction": "以草、嫩枝、树叶与灌丛为食，食物组成随季节变化；繁殖期与产仔期具有明显季节性。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Moschus%20berezovskii"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "alpine-musk-deer",
+  "nameCn": "马麝",
+  "aliases": [],
+  "scientificName": "Moschus chrysogaster",
+  "englishName": "马麝",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Moschidae",
+   "genus": "Moschus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "高山草甸",
+   "针阔混交林",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "是麝属中体型最大的种类，体长80-90cm，体重10-15kg。雄性有发达的獠牙，裸于唇外。雄麝腹部有麝香腺囊，尾短而粗，仅尾尖有毛束其余裸露部分为腺体。全身沙黄褐色，后部棕褐色、成兽颈背有4－6个大型棕黄色斑块，后方有少量模糊斑点，颌白色，颈下纹浅黄或灰白色。",
+  "behavior": "多在晨昏活动，常结群，沿固定路径在栖息地内迁移；受干扰时会向高海拔或密林转移。",
+  "dietReproduction": "以草、嫩枝、树叶与灌丛为食，食物组成随季节变化；繁殖期与产仔期具有明显季节性。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Moschus%20chrysogaster"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "white-lipped-deer",
+  "nameCn": "白唇鹿",
+  "aliases": [],
+  "scientificName": "Cervus albirostris",
+  "englishName": "白唇鹿",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Cervidae",
+   "genus": "Cervus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "高山草甸",
+   "针阔混交林",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "多在晨昏活动，常结群，沿固定路径在栖息地内迁移；受干扰时会向高海拔或密林转移。",
+  "dietReproduction": "以草、嫩枝、树叶与灌丛为食，食物组成随季节变化；繁殖期与产仔期具有明显季节性。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Cervus%20albirostris"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "tufted-deer",
+  "nameCn": "毛冠鹿",
+  "aliases": [],
+  "scientificName": "Elaphodus cephalophus",
+  "englishName": "毛冠鹿",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Cervidae",
+   "genus": "Elaphodus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "高山草甸",
+   "针阔混交林",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "（一）特征（Characteristic）\n体型似麂，体重16～28kg；体毛青灰色，尾背面黑色，腹面白色，很象黑麂，但额顶部有马蹄形黑色冠毛（黑麂为棕色）；雄性有角，但很短小，角冠不分叉，其长度仅1cm左右；无额腺，但眶下腺特别发达（见线描图和头骨图）。\n（二）量衡度（Measurement）\n毛冠鹿体形及头骨大小，存在明显的地区差异，三个亚种的量衡度列于表6-14。毛冠鹿头骨与麂属相比，除角短小外，额顶部隆起（麂属则下陷），泪窝长径大于眼窝长径（麂属泪窝长径小于眼窝）。\n\n表6-14躯体和头骨量度\nTable 6-11 Meascrements for body （cm） and skull （mm） of Tufted deer\n亚种SubspeciesE. c. cephalophusE. c. cephalophusE. c. cephalophus    Xn    Xn    Xn体重Body weight （kg）24.7士4.601218.7士1.831716.3士1.7126体长Head gt, body length100.8士8.061292.3士7.411689.5士4 .1828尾长Tail length11.0士1.331010.8士1.63169.2士1.3928耳长Ear length10.6土1.431111.2士1.18169.6士1.8027后足长Hind foot length30.1土2.521228.8士1.221226.6士1.2723肩高Shoulder height－-58.9士4.011153.4土2.5321颅全长Greatest skull length198 6-18 6627193.6士6.6321185.1土6.0852颅基长Condylobasal length186.9士7.3025181.7土5.4222174.8士5 8523基长Basal length176 0牛7.6628171.9士4.7722165.5士5 7824鼻骨长Nasal length61.8土4 3765588士3 .752358.5土3.5022鼻骨宽Nasal width29 3士2 896128. 士2.722227.4士1.8022泪窝长径Lacrymal pit diameter35.1士1.816232.6士2 .132232.5士2.3626眼窝长径Orbit diameter31.5士1 226231.0士1.212230.2士1.2622眶间宽Inter-orbit width48 8土3.296646.1土3.302242.7土1.8722颧宽Zygomatic width85.6士3 256783.5士3.342379.1土2. 6050颅宽Cranium width57. 0士5563.55.4土2.412452.5土2.3626上颊齿Upper check teeth59.1+2.956757.3士3.222556.3士2.3326下颊齿Lower check teeth67.0土3.263264.6士3.882263.31土3.0326",
+  "behavior": "多在晨昏活动，常结群，沿固定路径在栖息地内迁移；受干扰时会向高海拔或密林转移。",
+  "dietReproduction": "以草、嫩枝、树叶与灌丛为食，食物组成随季节变化；繁殖期与产仔期具有明显季节性。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Elaphodus%20cephalophus"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "chinese-serow",
+  "nameCn": "中华鬣羚",
+  "aliases": [],
+  "scientificName": "Capricornis milneedwardsii",
+  "englishName": "中华鬣羚",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "",
+   "order": "",
+   "family": "",
+   "genus": "Capricornis"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "高山草甸",
+   "针阔混交林",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "多在晨昏活动，常结群，沿固定路径在栖息地内迁移；受干扰时会向高海拔或密林转移。",
+  "dietReproduction": "以草、嫩枝、树叶与灌丛为食，食物组成随季节变化；繁殖期与产仔期具有明显季节性。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Capricornis%20milneedwardsii"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "sichuan-takin",
+  "nameCn": "羚牛",
+  "aliases": [],
+  "scientificName": "Budorcas taxicolor",
+  "englishName": "羚牛",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Bovidae",
+   "genus": "Budorcas"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "高山草甸",
+   "针阔混交林",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "多在晨昏活动，常结群，沿固定路径在栖息地内迁移；受干扰时会向高海拔或密林转移。",
+  "dietReproduction": "以草、嫩枝、树叶与灌丛为食，食物组成随季节变化；繁殖期与产仔期具有明显季节性。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Budorcas%20taxicolor"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "wild-yak",
+  "nameCn": "野牦牛",
+  "aliases": [],
+  "scientificName": "Bos mutus",
+  "englishName": "野牦牛",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Bovidae",
+   "genus": "Bos"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "高山草甸",
+   "针阔混交林",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "多在晨昏活动，常结群，沿固定路径在栖息地内迁移；受干扰时会向高海拔或密林转移。",
+  "dietReproduction": "以草、嫩枝、树叶与灌丛为食，食物组成随季节变化；繁殖期与产仔期具有明显季节性。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Bos%20mutus"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "chinese-hare",
+  "nameCn": "华南兔",
+  "aliases": [],
+  "scientificName": "Lepus sinensis",
+  "englishName": "华南兔",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Lagomorpha",
+   "family": "Leporidae",
+   "genus": "Lepus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "高寒草甸",
+   "林缘",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "体长360～400mm；尾甚短，长20～70mm；后足长80～108mm，耳短，长55,80mm。颅长70～90mm，颅宽32.42mm；鼻骨长32～36mm；眶后宽9～12.6mm；硬腭长约27.29mm；腭桥最窄处5.5～6.6mm；内鼻孔宽6.5～7.3mm；听泡长11.2～12mm；门齿孔长约20mm；上颊齿列长15～17mm。\n    毛衣粗；体背面棕上黄色，杂以黑色，体侧面较浅，从颈项至耳基棕黄色，头与体背面毛色相似；耳前缘淡棕黄色，耳背面前半部较头部深暗，后半部与颈部相同，耳端黑褐色；尾上面毛色与体背面相同，下面浅棕黄色；体腹面鲜淡棕黄色或胸和腹中央白而略带浅土黄色；前肢毛色似颈部，后足背较前肢浅淡，足底灰黄褐色；除大腿内侧一部分毛基为白色外，全身其他部分毛基均为灰色，只是深浅不同而已。\n    颅骨眶上突前端无显著缺刻。鼻骨前端在垂直线上超出上门齿前缘，后端略超过前颌骨后端。鼻骨后部较前部宽。颧弧前端稍宽于后端。下颌骨髁突较草兔的发达。脑盒较小。",
+  "behavior": "地栖或半树栖，多在晨昏活动；洞穴或巢址为其躲避天敌与调节体温的关键结构。",
+  "dietReproduction": "以草本植物、嫩叶、种子与树皮为食；繁殖力较强，种群数量受食物与天敌共同调节。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Lepus%20sinensis"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "plateau-pika",
+  "nameCn": "高原鼠兔",
+  "aliases": [],
+  "scientificName": "Ochotona curzoniae",
+  "englishName": "高原鼠兔",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Lagomorpha",
+   "family": "Ochotonidae",
+   "genus": "Ochotona"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "高寒草甸",
+   "林缘",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "体型较大，长200～240mm；后足33～37mm；耳长20～3mm；重可达178g。颅长40～43mm；颅高平均17. 9mm；腭长通常不小于17mm；听泡较低、较小，长10.6mm。\n    体背面淡灰色至沙黄色，唇周及鼻尖黑色或黑褐色，体腹面浅黄色或褐黄色。\n    颅骨颧宽稍大于颅长的一半，颅骨上面弧度较大，额骨隆凸，无小圆孔，门齿孔与腭孔汇合呈梨形。",
+  "behavior": "地栖或半树栖，多在晨昏活动；洞穴或巢址为其躲避天敌与调节体温的关键结构。",
+  "dietReproduction": "以草本植物、嫩叶、种子与树皮为食；繁殖力较强，种群数量受食物与天敌共同调节。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Ochotona%20curzoniae"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "complex-toothed-flying-squirrel",
+  "nameCn": "复齿鼯鼠",
+  "aliases": [],
+  "scientificName": "Trogopterus xanthipes",
+  "englishName": "复齿鼯鼠",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Sciuridae",
+   "genus": "Trogopterus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "高寒草甸",
+   "林缘",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "体长268-300mm，尾长260-270mm。耳基内、外侧各有一小簇黑色长毛。后足底趾垫位于内侧，呈圆形。体背面黄褐色带赤褐色或浅淡土黄色杂有灰色。前、后足背面鲜黄褐色。眼圈赤褐色或黄褐色。体腹面白色，尾灰色带黄褐色。\n系我国特有种。主要特征见属。体长268～300mm；尾长260～270mm；后足长56～60mm；\n耳长30mm或更长些。颅长55～61.5mm；基长46～54.2mm；颧宽33～37.5mm；乳突宽26～30mm；腭长30.2～35.8mm；上颊齿列长14.7～17.1mm。\n    体背面黄褐带赤褐色或浅淡上黄色杂以灰色；前后足背面鲜黄褐色，有时带浅淡赤色；眼圈赤褐色或黄褐微带赤色；耳簇毛长而黑；体腹面白色，毛基部灰色；尾灰色带黄褐色调，有的上面远端有许多黑色长毛，下面远端2/3呈黑色。后足蹠垫裸露，位于足底内侧，呈卵圆形。\n    颅骨宽约为长的61％，臼齿齿冠珐琅质型式甚为复杂，故名复齿鼯鼠（详见属的描述）。第二上前臼齿为颊齿中的最大者。",
+  "behavior": "地栖或半树栖，多在晨昏活动；洞穴或巢址为其躲避天敌与调节体温的关键结构。",
+  "dietReproduction": "以草本植物、嫩叶、种子与树皮为食；繁殖力较强，种群数量受食物与天敌共同调节。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Trogopterus%20xanthipes"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "chinese-zokor",
+  "nameCn": "中华鼢鼠",
+  "aliases": [],
+  "scientificName": "Eospalax fontanierii",
+  "englishName": "中华鼢鼠",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Spalacidae",
+   "genus": "Eospalax"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "高寒草甸",
+   "林缘",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "地栖或半树栖，多在晨昏活动；洞穴或巢址为其躲避天敌与调节体温的关键结构。",
+  "dietReproduction": "以草本植物、嫩叶、种子与树皮为食；繁殖力较强，种群数量受食物与天敌共同调节。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Eospalax%20fontanierii"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "tibetan-sand-fox",
+  "nameCn": "藏狐",
+  "aliases": [],
+  "scientificName": "Vulpes ferrilata",
+  "englishName": "藏狐",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Canidae",
+   "genus": "Vulpes"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "灌丛",
+   "林缘"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "耳较短，不及后足长之半；尾粗短，尾长不及体长的一半；被毛厚密，背部毛稍卷曲，其中央部披毛棕黄色，有些针毛的末端或次末端黑色，故掺有灰黑色调；体侧毛银灰色，腹毛棕白色，尾深灰色并现花白，末端接近棕白色。",
+  "behavior": "多在夜间或晨昏活动，依靠嗅觉与听觉定位猎物；领域行为明显，活动范围随食物资源变化。",
+  "dietReproduction": "食性较广，捕食小型脊椎动物、昆虫，也取食果实；繁殖季节与幼仔数量因地区而异，需以原始文献为准。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Vulpes%20ferrilata"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "chinese-desert-cat",
+  "nameCn": "荒漠猫",
+  "aliases": [],
+  "scientificName": "Felis bieti",
+  "englishName": "荒漠猫",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Felidae",
+   "genus": "Felis"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "灌丛",
+   "林缘"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "体型较家猫大，尾长，四肢略高，耳端长有一撮短毛。体背棕灰或暗沙黄色，头部灰白，鼻端周围棕红色，额部有两条暗棕色纵纹； 胸、腹及四肢内侧呈淡沙黄色， 四肢外侧各有4-5条暗棕色横纹； 尾端黑色。",
+  "behavior": "多在夜间或晨昏活动，依靠嗅觉与听觉定位猎物；领域行为明显，活动范围随食物资源变化。",
+  "dietReproduction": "食性较广，捕食小型脊椎动物、昆虫，也取食果实；繁殖季节与幼仔数量因地区而异，需以原始文献为准。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Felis%20bieti"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "blue-eared-pheasant",
+  "nameCn": "蓝马鸡",
+  "aliases": [],
+  "scientificName": "Crossoptilon auritum",
+  "englishName": "蓝马鸡",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Crossoptilon"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "林缘灌丛",
+   "亚高山针叶林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "体大(95厘米)的蓝灰色马鸡。具黑色天鹅绒式头盖，猩红色眼周裸皮及白色髭须延长成耳羽簇。枕后有一近白色横斑。尾羽弯曲，丝状中心尾羽灰色，与紫蓝色外侧尾羽成对比。此种在马鸡分布中为最西北。\n虹膜－橘黄；嘴－粉红；脚－红色。",
+  "behavior": "地栖为主，受惊时短距离爆发飞行；繁殖期雄鸟有求偶展示与领域争斗。",
+  "dietReproduction": "取食种子、嫩芽、昆虫与小型无脊椎动物；多在林下或灌丛地面营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Crossoptilon%20auritum"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "white-eared-pheasant",
+  "nameCn": "白马鸡",
+  "aliases": [],
+  "scientificName": "Crossoptilon crossoptilon",
+  "englishName": "白马鸡",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Crossoptilon"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "林缘灌丛",
+   "亚高山针叶林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "地栖为主，受惊时短距离爆发飞行；繁殖期雄鸟有求偶展示与领域争斗。",
+  "dietReproduction": "取食种子、嫩芽、昆虫与小型无脊椎动物；多在林下或灌丛地面营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Crossoptilon%20crossoptilon"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "golden-pheasant",
+  "nameCn": "红腹锦鸡",
+  "aliases": [],
+  "scientificName": "Chrysolophus pictus",
+  "englishName": "红腹锦鸡",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Chrysolophus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "林缘灌丛",
+   "亚高山针叶林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "雄鸟：体型显小但修长(98厘米)，头顶及背有耀眼的金色丝状羽；枕部披风为金色并具黑色条纹；上背金属绿色，下体绯红。翼为金属蓝色，尾长而弯曲，中央尾羽近黑而具皮黄色点斑，其余部位黄褐色。雌鸟体型较小，为黄褐色，上体密布黑色带斑，下体淡皮黄色。\n虹膜－黄色；嘴－绿黄；脚－角质黄色。",
+  "behavior": "地栖为主，受惊时短距离爆发飞行；繁殖期雄鸟有求偶展示与领域争斗。",
+  "dietReproduction": "取食种子、嫩芽、昆虫与小型无脊椎动物；多在林下或灌丛地面营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Chrysolophus%20pictus"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "chinese-monal",
+  "nameCn": "绿尾虹雉",
+  "aliases": [],
+  "scientificName": "Lophophorus lhuysii",
+  "englishName": "绿尾虹雉",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Lophophorus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "林缘灌丛",
+   "亚高山针叶林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "雄鸟：体大(76厘米)、具紫色金属样光泽的雉类。头绿色，枕部金色。下体黑色带绿色金属光泽。形长的冠羽绛紫色。与白尾梢虹雉区别在于有冠羽，尾部彩色，仅上背白色。与棕尾虹雉区别在于紫色蓬松羽冠及蓝绿色尾羽。雌鸟与其他虹雉的雌鸟区别在背为白色。\n虹膜－褐色；嘴－灰黑；脚－暗角质色(雄鸟)，淡角质色(雌鸟)。",
+  "behavior": "地栖为主，受惊时短距离爆发飞行；繁殖期雄鸟有求偶展示与领域争斗。",
+  "dietReproduction": "取食种子、嫩芽、昆虫与小型无脊椎动物；多在林下或灌丛地面营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Lophophorus%20lhuysii"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "tibetan-eared-pheasant",
+  "nameCn": "红腹角雉",
+  "aliases": [],
+  "scientificName": "Tragopan temminckii",
+  "englishName": "红腹角雉",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Tragopan"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "林缘灌丛",
+   "亚高山针叶林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "地栖为主，受惊时短距离爆发飞行；繁殖期雄鸟有求偶展示与领域争斗。",
+  "dietReproduction": "取食种子、嫩芽、昆虫与小型无脊椎动物；多在林下或灌丛地面营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Tragopan%20temminckii"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "cabots-tragopan",
+  "nameCn": "黄腹角雉",
+  "aliases": [],
+  "scientificName": "Tragopan caboti",
+  "englishName": "黄腹角雉",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Tragopan"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "林缘灌丛",
+   "亚高山针叶林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "地栖为主，受惊时短距离爆发飞行；繁殖期雄鸟有求偶展示与领域争斗。",
+  "dietReproduction": "取食种子、嫩芽、昆虫与小型无脊椎动物；多在林下或灌丛地面营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Tragopan%20caboti"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "white-necked-long-tailed-pheasant",
+  "nameCn": "白颈长尾雉",
+  "aliases": [],
+  "scientificName": "Syrmaticus ellioti",
+  "englishName": "白颈长尾雉",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Syrmaticus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "林缘灌丛",
+   "亚高山针叶林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "地栖为主，受惊时短距离爆发飞行；繁殖期雄鸟有求偶展示与领域争斗。",
+  "dietReproduction": "取食种子、嫩芽、昆虫与小型无脊椎动物；多在林下或灌丛地面营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Syrmaticus%20ellioti"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "reeves-pheasant",
+  "nameCn": "白冠长尾雉",
+  "aliases": [],
+  "scientificName": "Syrmaticus reevesii",
+  "englishName": "白冠长尾雉",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Syrmaticus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "林缘灌丛",
+   "亚高山针叶林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "地栖为主，受惊时短距离爆发飞行；繁殖期雄鸟有求偶展示与领域争斗。",
+  "dietReproduction": "取食种子、嫩芽、昆虫与小型无脊椎动物；多在林下或灌丛地面营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Syrmaticus%20reevesii"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "sichuan-partridge",
+  "nameCn": "四川山鹧鸪",
+  "aliases": [],
+  "scientificName": "Arborophila rufipectus",
+  "englishName": "四川山鹧鸪",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Arborophila"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "林缘灌丛",
+   "亚高山针叶林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "中等体型(30厘米)、色彩浓艳的山鹧鸪。头顶褐，眉纹白，胸部具宽阔的栗色环带及喉近白为本种特征。眼周裸皮红色，耳羽黄棕色。\n虹膜－暗褐；嘴－灰色；脚－近粉。",
+  "behavior": "地栖为主，受惊时短距离爆发飞行；繁殖期雄鸟有求偶展示与领域争斗。",
+  "dietReproduction": "取食种子、嫩芽、昆虫与小型无脊椎动物；多在林下或灌丛地面营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Arborophila%20rufipectus"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "hainan-partridge",
+  "nameCn": "海南山鹧鸪",
+  "aliases": [],
+  "scientificName": "Arborophila ardens",
+  "englishName": "海南山鹧鸪",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Arborophila"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "林缘灌丛",
+   "亚高山针叶林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "地栖为主，受惊时短距离爆发飞行；繁殖期雄鸟有求偶展示与领域争斗。",
+  "dietReproduction": "取食种子、嫩芽、昆虫与小型无脊椎动物；多在林下或灌丛地面营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Arborophila%20ardens"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "reed-parrotbill",
+  "nameCn": "震旦鸦雀",
+  "aliases": [],
+  "scientificName": "Paradoxornis heudei",
+  "englishName": "震旦鸦雀",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Paradoxornithidae",
+   "genus": "Paradoxornis"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "湿地芦苇",
+   "林缘灌丛",
+   "山地森林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "在林缘、灌丛或湿地活动，多单独或小群觅食；鸣声用于领域宣示与配对。",
+  "dietReproduction": "以昆虫、种子与果实为食；繁殖期在灌丛或芦苇丛营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Paradoxornis%20heudei"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "chinese-thrush",
+  "nameCn": "山噪鹛",
+  "aliases": [],
+  "scientificName": "Garrulax davidi",
+  "englishName": "山噪鹛",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "",
+   "order": "",
+   "family": "",
+   "genus": "Garrulax"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "湿地芦苇",
+   "林缘灌丛",
+   "山地森林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "在林缘、灌丛或湿地活动，多单独或小群觅食；鸣声用于领域宣示与配对。",
+  "dietReproduction": "以昆虫、种子与果实为食；繁殖期在灌丛或芦苇丛营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Garrulax%20davidi"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "yellow-bellied-tit",
+  "nameCn": "黄腹山雀",
+  "aliases": [],
+  "scientificName": "Pardaliparus venustulus",
+  "englishName": "黄腹山雀",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "",
+   "order": "",
+   "family": "",
+   "genus": "Pardaliparus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "湿地芦苇",
+   "林缘灌丛",
+   "山地森林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "在林缘、灌丛或湿地活动，多单独或小群觅食；鸣声用于领域宣示与配对。",
+  "dietReproduction": "以昆虫、种子与果实为食；繁殖期在灌丛或芦苇丛营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Pardaliparus%20venustulus"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "white-browed-tit",
+  "nameCn": "白眉山雀",
+  "aliases": [],
+  "scientificName": "Poecile superciliosus",
+  "englishName": "白眉山雀",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Paridae",
+   "genus": "Poecile"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "湿地芦苇",
+   "林缘灌丛",
+   "山地森林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "在林缘、灌丛或湿地活动，多单独或小群觅食；鸣声用于领域宣示与配对。",
+  "dietReproduction": "以昆虫、种子与果实为食；繁殖期在灌丛或芦苇丛营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Poecile%20superciliosus"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "baoxing-thrush",
+  "nameCn": "宝兴歌鸫",
+  "aliases": [],
+  "scientificName": "Turdus mupinensis",
+  "englishName": "宝兴歌鸫",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Turdidae",
+   "genus": "Turdus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "湿地芦苇",
+   "林缘灌丛",
+   "山地森林"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "在林缘、灌丛或湿地活动，多单独或小群觅食；鸣声用于领域宣示与配对。",
+  "dietReproduction": "以昆虫、种子与果实为食；繁殖期在灌丛或芦苇丛营巢。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Turdus%20mupinensis"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "chinese-crocodile-lizard",
+  "nameCn": "鳄蜥",
+  "aliases": [],
+  "scientificName": "Shinisaurus crocodilurus",
+  "englishName": "鳄蜥",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Reptilia",
+   "order": "Squamata",
+   "family": "Shinisauridae",
+   "genus": "Shinisaurus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "岩缝",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "雌性体全长222-397mm，雄性体长156-360mm。身体呈圆柱形，尾侧扁似鳄鱼，尾背面有由大鳞形成两行明显的纵脊。",
+  "behavior": "伏击型捕食者，依靠热感应与化学信号定位猎物；活动节律受温度显著影响。",
+  "dietReproduction": "捕食啮齿类、蛙类、蜥蜴与鸟类等；多数种类卵生，部分种类有护卵行为。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Shinisaurus%20crocodilurus"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "mangshan-pit-viper",
+  "nameCn": "莽山烙铁头",
+  "aliases": [],
+  "scientificName": "Protobothrops mangshanensis",
+  "englishName": "莽山原矛头蝮",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Reptilia",
+   "order": "Squamata",
+   "family": "Viperidae",
+   "genus": "Protobothrops"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "岩缝",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "伏击型捕食者，依靠热感应与化学信号定位猎物；活动节律受温度显著影响。",
+  "dietReproduction": "捕食啮齿类、蛙类、蜥蜴与鸟类等；多数种类卵生，部分种类有护卵行为。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Protobothrops%20mangshanensis"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "white-headed-viper",
+  "nameCn": "白头蝰",
+  "aliases": [],
+  "scientificName": "Azemiops kharini",
+  "englishName": "白头蝰",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "",
+   "order": "",
+   "family": "",
+   "genus": "Azemiops"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "岩缝",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "伏击型捕食者，依靠热感应与化学信号定位猎物；活动节律受温度显著影响。",
+  "dietReproduction": "捕食啮齿类、蛙类、蜥蜴与鸟类等；多数种类卵生，部分种类有护卵行为。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Azemiops%20kharini"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "sharp-nosed-pit-viper",
+  "nameCn": "尖吻蝮",
+  "aliases": [],
+  "scientificName": "Deinagkistrodon acutus",
+  "englishName": "尖吻蝮",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Reptilia",
+   "order": "Squamata",
+   "family": "Viperidae",
+   "genus": "Deinagkistrodon"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "岩缝",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "吻端尖而略翘向前上方；头呈三角形。头背具对称大鳞片，有颊窝，体形粗壮，背面正中有一行约20多个方形大块斑又称“方胜纹”。",
+  "behavior": "伏击型捕食者，依靠热感应与化学信号定位猎物；活动节律受温度显著影响。",
+  "dietReproduction": "捕食啮齿类、蛙类、蜥蜴与鸟类等；多数种类卵生，部分种类有护卵行为。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Deinagkistrodon%20acutus"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "jerdons-pit-viper",
+  "nameCn": "烙铁头",
+  "aliases": [],
+  "scientificName": "Protobothrops jerdonii",
+  "englishName": "菜花原矛头蝮",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Reptilia",
+   "order": "Squamata",
+   "family": "Viperidae",
+   "genus": "Protobothrops"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "岩缝",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "有颊窝，头背都是小鳞片；鼻鳞与第一枚上唇鳞完全分开；背鳞中段21行，背面黑黄间杂，正背有一行镶黑边的深棕色或深红色斑块。",
+  "behavior": "伏击型捕食者，依靠热感应与化学信号定位猎物；活动节律受温度显著影响。",
+  "dietReproduction": "捕食啮齿类、蛙类、蜥蜴与鸟类等；多数种类卵生，部分种类有护卵行为。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Protobothrops%20jerdonii"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "king-rat-snake",
+  "nameCn": "王锦蛇",
+  "aliases": [],
+  "scientificName": "Elaphe carinata",
+  "englishName": "王锦蛇",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Reptilia",
+   "order": "Squamata",
+   "family": "Colubridae",
+   "genus": "Elaphe"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "岩缝",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "体粗大，头体背黑黄相杂，头背面有似“王”字样的黑纹；背鳞除最外侧1-2行平滑外，均强烈起棱，中段背鳞21行以上；腹鳞绝大多数200片以上。幼体的色斑相差甚大。",
+  "behavior": "伏击型捕食者，依靠热感应与化学信号定位猎物；活动节律受温度显著影响。",
+  "dietReproduction": "捕食啮齿类、蛙类、蜥蜴与鸟类等；多数种类卵生，部分种类有护卵行为。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Elaphe%20carinata"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "beauty-rat-snake",
+  "nameCn": "黑眉锦蛇",
+  "aliases": [],
+  "scientificName": "Elaphe taeniura",
+  "englishName": "黑眉锦蛇",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Reptilia",
+   "order": "Squamata",
+   "family": "Colubridae",
+   "genus": "Elaphe"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "岩缝",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "大型无毒蛇。头体背黄绿色或棕灰色，眼后有明显的黑纹，体前中段有黑色梯状或蝶状斑纹，至后段逐渐不显，从体中段开始，两侧有明显的黑纵带达尾端。背中央数行背鳞稍有起棱。",
+  "behavior": "伏击型捕食者，依靠热感应与化学信号定位猎物；活动节律受温度显著影响。",
+  "dietReproduction": "捕食啮齿类、蛙类、蜥蜴与鸟类等；多数种类卵生，部分种类有护卵行为。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Elaphe%20taeniura"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "oriental-rat-snake",
+  "nameCn": "乌梢蛇",
+  "aliases": [],
+  "scientificName": "Ptyas dhumnades",
+  "englishName": "乌梢蛇",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Reptilia",
+   "order": "Squamata",
+   "family": "Colubridae",
+   "genus": "Ptyas"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "岩缝",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "伏击型捕食者，依靠热感应与化学信号定位猎物；活动节律受温度显著影响。",
+  "dietReproduction": "捕食啮齿类、蛙类、蜥蜴与鸟类等；多数种类卵生，部分种类有护卵行为。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Ptyas%20dhumnades"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "yellow-margined-box-turtle",
+  "nameCn": "黄缘闭壳龟",
+  "aliases": [],
+  "scientificName": "Cuora flavomarginata",
+  "englishName": "黄缘闭壳龟",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Reptilia",
+   "order": "Testudines",
+   "family": "Geoemydidae",
+   "genus": "Cuora"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "溪流",
+   "湿地",
+   "林下"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "背部棕红色，具一浅棕色脊棱。腹部棕黑色，其四周及背甲腹缘黄色。背腹甲以韧带相连，腹甲前后两叶亦以韧带相连，可分别向上关闭背甲，头、颈、四肢及尾均可缩入壳内，得以保护。上颚钩曲。肛盾单枚，前端有不达末端的纵缝。",
+  "behavior": "水栖或半水栖，需晒背调节体温；受惊时可将头颈与四肢缩入壳内。",
+  "dietReproduction": "杂食，取食水生植物、螺类、昆虫与腐殖质；繁殖期在岸边沙土中产卵。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Cuora%20flavomarginata"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "hot-spring-snake",
+  "nameCn": "温泉蛇",
+  "aliases": [],
+  "scientificName": "Thermophis baileyi",
+  "englishName": "西藏温泉蛇",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Reptilia",
+   "order": "Squamata",
+   "family": "Colubridae",
+   "genus": "Thermophis"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "山地森林",
+   "岩缝",
+   "灌丛"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "我国西藏高原内部唯一的蛇种，发现于海拔4000m左右的温泉地区。鼻鳞前半在头背扩展，与吻鳞相切甚多，鼻间鳞较短，与吻鳞相切部分极窄；颊鳞变异甚大。背鳞中段19行，尾下鳞单双不定。",
+  "behavior": "伏击型捕食者，依靠热感应与化学信号定位猎物；活动节律受温度显著影响。",
+  "dietReproduction": "捕食啮齿类、蛙类、蜥蜴与鸟类等；多数种类卵生，部分种类有护卵行为。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Thermophis%20baileyi"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "chinese-sturgeon",
+  "nameCn": "中华鲟",
+  "aliases": [],
+  "scientificName": "Acipenser sinensis",
+  "englishName": "中华鲟",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "Actinopterygii",
+   "order": "Acipenseriformes",
+   "family": "Acipenseridae",
+   "genus": "Acipenser"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "江河干流",
+   "砾石河段",
+   "湖泊"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "依赖连续河道完成繁殖与觅食迁移，对水温、流速与底质条件敏感。",
+  "dietReproduction": "以底栖无脊椎动物、藻类与有机碎屑为食；产卵场多位于砾石底质河段。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Acipenser%20sinensis"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "yangtze-sturgeon",
+  "nameCn": "长江鲟",
+  "aliases": [],
+  "scientificName": "Acipenser dabryanus",
+  "englishName": "达氏鲟",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "Actinopterygii",
+   "order": "Acipenseriformes",
+   "family": "Acipenseridae",
+   "genus": "Acipenser"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "江河干流",
+   "砾石河段",
+   "湖泊"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "依赖连续河道完成繁殖与觅食迁移，对水温、流速与底质条件敏感。",
+  "dietReproduction": "以底栖无脊椎动物、藻类与有机碎屑为食；产卵场多位于砾石底质河段。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Acipenser%20dabryanus"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "chinese-sucker",
+  "nameCn": "胭脂鱼",
+  "aliases": [],
+  "scientificName": "Myxocyprinus asiaticus",
+  "englishName": "胭脂鱼",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "Actinopterygii",
+   "order": "Cypriniformes",
+   "family": "Catostomidae",
+   "genus": "Myxocyprinus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "江河干流",
+   "砾石河段",
+   "湖泊"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "依赖连续河道完成繁殖与觅食迁移，对水温、流速与底质条件敏感。",
+  "dietReproduction": "以底栖无脊椎动物、藻类与有机碎屑为食；产卵场多位于砾石底质河段。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Myxocyprinus%20asiaticus"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "dali-schizothorax",
+  "nameCn": "大理裂腹鱼",
+  "aliases": [],
+  "scientificName": "Schizothorax taliensis",
+  "englishName": "大理裂腹鱼",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "Actinopterygii",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Schizothorax"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "江河干流",
+   "砾石河段",
+   "湖泊"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "依赖连续河道完成繁殖与觅食迁移，对水温、流速与底质条件敏感。",
+  "dietReproduction": "以底栖无脊椎动物、藻类与有机碎屑为食；产卵场多位于砾石底质河段。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Schizothorax%20taliensis"
+   }
+  ],
+  "verified": false
+ },
+ {
+  "slug": "dianchi-golden-line-barbel",
+  "nameCn": "滇池金线鲃",
+  "aliases": [],
+  "scientificName": "Sinocyclocheilus grahami",
+  "englishName": "滇池金线鲃",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "Actinopterygii",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Sinocyclocheilus"
+  },
+  "distribution": "分布记录待核验",
+  "provinces": [],
+  "habitats": [
+   "江河干流",
+   "砾石河段",
+   "湖泊"
+  ],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": 2024,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充。",
+  "behavior": "依赖连续河道完成繁殖与觅食迁移，对水温、流速与底质条件敏感。",
+  "dietReproduction": "以底栖无脊椎动物、藻类与有机碎屑为食；产卵场多位于砾石底质河段。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有或主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "动物科普数据 API（中国动物志等）",
+    "url": "http://zoology.especies.cn/"
+   },
+   {
+    "name": "iNaturalist",
+    "url": "https://www.inaturalist.org/search?q=Sinocyclocheilus%20grahami"
+   }
+  ],
+  "verified": false
+ }
+]

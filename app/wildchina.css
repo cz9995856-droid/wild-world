@@ -266,6 +266,17 @@
   color: var(--ink-soft);
 }
 
+.wc-prose-lg {
+  max-width: 74ch;
+  font-size: 16.5px;
+  line-height: 2;
+  color: var(--ink-soft);
+}
+
+.wc-prose-lg p + p {
+  margin-top: 0.9em;
+}
+
 .wc-media-placeholder {
   display: flex;
   flex-direction: column;

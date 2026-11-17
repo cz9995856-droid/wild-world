@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T05:35:49.576Z",
+ "generated_at": "2026-11-17T06:03:28.055Z",
  "note": "栖息环境示意图（AI 生成，仅示意）",
  "species": {
   "ichthyophis-bannanicus": {
@@ -142,20 +142,6 @@
     "ai_generated": true
    }
   },
-  "pachyhynobius-shangchengensis": {
-   "habitat": {
-    "url": "/media/habitat/pachyhynobius-shangchengensis-habitat-ai.png",
-    "author": "AI 生成（智谱 CogView）",
-    "source_name": "智谱 AI",
-    "source_url": "https://open.bigmodel.cn",
-    "license": "AI 生成生境示意图，非实地摄影",
-    "license_url": "",
-    "commercial_use": false,
-    "verified": false,
-    "review_status": "sample",
-    "ai_generated": true
-   }
-  },
   "hynobius-yiwuensis": {
    "habitat": {
     "url": "/media/habitat/hynobius-yiwuensis-habitat-ai.png",
@@ -170,9 +156,9 @@
     "ai_generated": true
    }
   },
-  "pseudohynobius-flavomaculatus": {
+  "pachyhynobius-shangchengensis": {
    "habitat": {
-    "url": "/media/habitat/pseudohynobius-flavomaculatus-habitat-ai.png",
+    "url": "/media/habitat/pachyhynobius-shangchengensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -187,6 +173,20 @@
   "pseudohynobius-guizhouensis": {
    "habitat": {
     "url": "/media/habitat/pseudohynobius-guizhouensis-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "pseudohynobius-flavomaculatus": {
+   "habitat": {
+    "url": "/media/habitat/pseudohynobius-flavomaculatus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -394,9 +394,9 @@
     "ai_generated": true
    }
   },
-  "tylototriton-kweichowensis": {
+  "tylototriton-asperrimus": {
    "habitat": {
-    "url": "/media/habitat/tylototriton-kweichowensis-habitat-ai.png",
+    "url": "/media/habitat/tylototriton-asperrimus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -408,9 +408,9 @@
     "ai_generated": true
    }
   },
-  "tylototriton-asperrimus": {
+  "tylototriton-kweichowensis": {
    "habitat": {
-    "url": "/media/habitat/tylototriton-asperrimus-habitat-ai.png",
+    "url": "/media/habitat/tylototriton-kweichowensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -562,9 +562,9 @@
     "ai_generated": true
    }
   },
-  "echinotriton-maxiquadratus": {
+  "pachytriton-archospotus": {
    "habitat": {
-    "url": "/media/habitat/echinotriton-maxiquadratus-habitat-ai.png",
+    "url": "/media/habitat/pachytriton-archospotus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -576,9 +576,9 @@
     "ai_generated": true
    }
   },
-  "pachytriton-archospotus": {
+  "echinotriton-maxiquadratus": {
    "habitat": {
-    "url": "/media/habitat/pachytriton-archospotus-habitat-ai.png",
+    "url": "/media/habitat/echinotriton-maxiquadratus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -674,20 +674,6 @@
     "ai_generated": true
    }
   },
-  "pachytriton-airobranchiatus": {
-   "habitat": {
-    "url": "/media/habitat/pachytriton-airobranchiatus-habitat-ai.png",
-    "author": "AI 生成（智谱 CogView）",
-    "source_name": "智谱 AI",
-    "source_url": "https://open.bigmodel.cn",
-    "license": "AI 生成生境示意图，非实地摄影",
-    "license_url": "",
-    "commercial_use": false,
-    "verified": false,
-    "review_status": "sample",
-    "ai_generated": true
-   }
-  },
   "pachytriton-xanthospilos": {
    "habitat": {
     "url": "/media/habitat/pachytriton-xanthospilos-habitat-ai.png",
@@ -702,9 +688,9 @@
     "ai_generated": true
    }
   },
-  "paramesotriton-caudopunctatus": {
+  "pachytriton-airobranchiatus": {
    "habitat": {
-    "url": "/media/habitat/paramesotriton-caudopunctatus-habitat-ai.png",
+    "url": "/media/habitat/pachytriton-airobranchiatus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -730,9 +716,9 @@
     "ai_generated": true
    }
   },
-  "paramesotriton-chinensis": {
+  "paramesotriton-caudopunctatus": {
    "habitat": {
-    "url": "/media/habitat/paramesotriton-chinensis-habitat-ai.png",
+    "url": "/media/habitat/paramesotriton-caudopunctatus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -758,9 +744,9 @@
     "ai_generated": true
    }
   },
-  "paramesotriton-hongkongensis": {
+  "paramesotriton-chinensis": {
    "habitat": {
-    "url": "/media/habitat/paramesotriton-hongkongensis-habitat-ai.png",
+    "url": "/media/habitat/paramesotriton-chinensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -786,9 +772,9 @@
     "ai_generated": true
    }
   },
-  "paramesotriton-maolanensis": {
+  "paramesotriton-hongkongensis": {
    "habitat": {
-    "url": "/media/habitat/paramesotriton-maolanensis-habitat-ai.png",
+    "url": "/media/habitat/paramesotriton-hongkongensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -803,6 +789,20 @@
   "paramesotriton-longliensis": {
    "habitat": {
     "url": "/media/habitat/paramesotriton-longliensis-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "paramesotriton-maolanensis": {
+   "habitat": {
+    "url": "/media/habitat/paramesotriton-maolanensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -842,9 +842,9 @@
     "ai_generated": true
    }
   },
-  "paramesotriton-aurantius": {
+  "paramesotriton-wulingensis": {
    "habitat": {
-    "url": "/media/habitat/paramesotriton-aurantius-habitat-ai.png",
+    "url": "/media/habitat/paramesotriton-wulingensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -856,9 +856,9 @@
     "ai_generated": true
    }
   },
-  "paramesotriton-wulingensis": {
+  "paramesotriton-aurantius": {
    "habitat": {
-    "url": "/media/habitat/paramesotriton-wulingensis-habitat-ai.png",
+    "url": "/media/habitat/paramesotriton-aurantius-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -898,9 +898,9 @@
     "ai_generated": true
    }
   },
-  "cynops-glaucus": {
+  "cynops-orientalis": {
    "habitat": {
-    "url": "/media/habitat/cynops-glaucus-habitat-ai.png",
+    "url": "/media/habitat/cynops-orientalis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -912,9 +912,9 @@
     "ai_generated": true
    }
   },
-  "cynops-orientalis": {
+  "cynops-glaucus": {
    "habitat": {
-    "url": "/media/habitat/cynops-orientalis-habitat-ai.png",
+    "url": "/media/habitat/cynops-glaucus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1066,9 +1066,9 @@
     "ai_generated": true
    }
   },
-  "oreolalax-nanjiangensis": {
+  "oreolalax-omeimontis": {
    "habitat": {
-    "url": "/media/habitat/oreolalax-nanjiangensis-habitat-ai.png",
+    "url": "/media/habitat/oreolalax-omeimontis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1080,9 +1080,9 @@
     "ai_generated": true
    }
   },
-  "oreolalax-omeimontis": {
+  "oreolalax-nanjiangensis": {
    "habitat": {
-    "url": "/media/habitat/oreolalax-omeimontis-habitat-ai.png",
+    "url": "/media/habitat/oreolalax-nanjiangensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1122,20 +1122,6 @@
     "ai_generated": true
    }
   },
-  "oreolalax-rhodostigmatus": {
-   "habitat": {
-    "url": "/media/habitat/oreolalax-rhodostigmatus-habitat-ai.png",
-    "author": "AI 生成（智谱 CogView）",
-    "source_name": "智谱 AI",
-    "source_url": "https://open.bigmodel.cn",
-    "license": "AI 生成生境示意图，非实地摄影",
-    "license_url": "",
-    "commercial_use": false,
-    "verified": false,
-    "review_status": "sample",
-    "ai_generated": true
-   }
-  },
   "oreolalax-puxiongensis": {
    "habitat": {
     "url": "/media/habitat/oreolalax-puxiongensis-habitat-ai.png",
@@ -1150,9 +1136,9 @@
     "ai_generated": true
    }
   },
-  "oreolalax-schmidti": {
+  "oreolalax-rhodostigmatus": {
    "habitat": {
-    "url": "/media/habitat/oreolalax-schmidti-habitat-ai.png",
+    "url": "/media/habitat/oreolalax-rhodostigmatus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1178,9 +1164,9 @@
     "ai_generated": true
    }
   },
-  "oreolalax-xiangchengensis": {
+  "oreolalax-schmidti": {
    "habitat": {
-    "url": "/media/habitat/oreolalax-xiangchengensis-habitat-ai.png",
+    "url": "/media/habitat/oreolalax-schmidti-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1206,9 +1192,9 @@
     "ai_generated": true
    }
   },
-  "scutiger-chintingensis": {
+  "oreolalax-xiangchengensis": {
    "habitat": {
-    "url": "/media/habitat/scutiger-chintingensis-habitat-ai.png",
+    "url": "/media/habitat/oreolalax-xiangchengensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1223,6 +1209,20 @@
   "scutiger-glandulatus": {
    "habitat": {
     "url": "/media/habitat/scutiger-glandulatus-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "scutiger-chintingensis": {
+   "habitat": {
+    "url": "/media/habitat/scutiger-chintingensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1374,20 +1374,6 @@
     "ai_generated": true
    }
   },
-  "leptobrachium-leishanense": {
-   "habitat": {
-    "url": "/media/habitat/leptobrachium-leishanense-habitat-ai.png",
-    "author": "AI 生成（智谱 CogView）",
-    "source_name": "智谱 AI",
-    "source_url": "https://open.bigmodel.cn",
-    "license": "AI 生成生境示意图，非实地摄影",
-    "license_url": "",
-    "commercial_use": false,
-    "verified": false,
-    "review_status": "sample",
-    "ai_generated": true
-   }
-  },
   "leptobrachium-hainanense": {
    "habitat": {
     "url": "/media/habitat/leptobrachium-hainanense-habitat-ai.png",
@@ -1402,9 +1388,9 @@
     "ai_generated": true
    }
   },
-  "leptobrachium-liui": {
+  "leptobrachium-leishanense": {
    "habitat": {
-    "url": "/media/habitat/leptobrachium-liui-habitat-ai.png",
+    "url": "/media/habitat/leptobrachium-leishanense-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1430,9 +1416,9 @@
     "ai_generated": true
    }
   },
-  "leptobrachella-alpinus": {
+  "leptobrachium-liui": {
    "habitat": {
-    "url": "/media/habitat/leptobrachella-alpinus-habitat-ai.png",
+    "url": "/media/habitat/leptobrachium-liui-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1447,6 +1433,20 @@
   "leptobrachella-laui": {
    "habitat": {
     "url": "/media/habitat/leptobrachella-laui-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "leptobrachella-alpinus": {
+   "habitat": {
+    "url": "/media/habitat/leptobrachella-alpinus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1486,9 +1486,9 @@
     "ai_generated": true
    }
   },
-  "leptobrachella-purpura": {
+  "leptobrachella-maoershanensis": {
    "habitat": {
-    "url": "/media/habitat/leptobrachella-purpura-habitat-ai.png",
+    "url": "/media/habitat/leptobrachella-maoershanensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1500,9 +1500,9 @@
     "ai_generated": true
    }
   },
-  "leptobrachella-maoershanensis": {
+  "leptobrachella-purpura": {
    "habitat": {
-    "url": "/media/habitat/leptobrachella-maoershanensis-habitat-ai.png",
+    "url": "/media/habitat/leptobrachella-purpura-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1542,9 +1542,9 @@
     "ai_generated": true
    }
   },
-  "leptobrachella-bijie": {
+  "leptobrachella-suiyangensis": {
    "habitat": {
-    "url": "/media/habitat/leptobrachella-bijie-habitat-ai.png",
+    "url": "/media/habitat/leptobrachella-suiyangensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1556,9 +1556,9 @@
     "ai_generated": true
    }
   },
-  "leptobrachella-suiyangensis": {
+  "leptobrachella-bijie": {
    "habitat": {
-    "url": "/media/habitat/leptobrachella-suiyangensis-habitat-ai.png",
+    "url": "/media/habitat/leptobrachella-bijie-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1598,9 +1598,9 @@
     "ai_generated": true
    }
   },
-  "megophrys-brachykolos": {
+  "megophrys-boettgeri": {
    "habitat": {
-    "url": "/media/habitat/megophrys-brachykolos-habitat-ai.png",
+    "url": "/media/habitat/megophrys-boettgeri-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1612,9 +1612,9 @@
     "ai_generated": true
    }
   },
-  "megophrys-boettgeri": {
+  "megophrys-brachykolos": {
    "habitat": {
-    "url": "/media/habitat/megophrys-boettgeri-habitat-ai.png",
+    "url": "/media/habitat/megophrys-brachykolos-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1654,20 +1654,6 @@
     "ai_generated": true
    }
   },
-  "megophrys-lini": {
-   "habitat": {
-    "url": "/media/habitat/megophrys-lini-habitat-ai.png",
-    "author": "AI 生成（智谱 CogView）",
-    "source_name": "智谱 AI",
-    "source_url": "https://open.bigmodel.cn",
-    "license": "AI 生成生境示意图，非实地摄影",
-    "license_url": "",
-    "commercial_use": false,
-    "verified": false,
-    "review_status": "sample",
-    "ai_generated": true
-   }
-  },
   "megophrys-kuatunensis": {
    "habitat": {
     "url": "/media/habitat/megophrys-kuatunensis-habitat-ai.png",
@@ -1682,9 +1668,9 @@
     "ai_generated": true
    }
   },
-  "megophrys-mangshanensis": {
+  "megophrys-lini": {
    "habitat": {
-    "url": "/media/habitat/megophrys-mangshanensis-habitat-ai.png",
+    "url": "/media/habitat/megophrys-lini-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1710,9 +1696,9 @@
     "ai_generated": true
    }
   },
-  "megophrys-omeimontis": {
+  "megophrys-mangshanensis": {
    "habitat": {
-    "url": "/media/habitat/megophrys-omeimontis-habitat-ai.png",
+    "url": "/media/habitat/megophrys-mangshanensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1727,6 +1713,20 @@
   "megophrys-shapingensis": {
    "habitat": {
     "url": "/media/habitat/megophrys-shapingensis-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "megophrys-omeimontis": {
+   "habitat": {
+    "url": "/media/habitat/megophrys-omeimontis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1766,9 +1766,9 @@
     "ai_generated": true
    }
   },
-  "megophrys-feii": {
+  "megophrys-wushanensis": {
    "habitat": {
-    "url": "/media/habitat/megophrys-feii-habitat-ai.png",
+    "url": "/media/habitat/megophrys-wushanensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1780,9 +1780,9 @@
     "ai_generated": true
    }
   },
-  "megophrys-wushanensis": {
+  "megophrys-feii": {
    "habitat": {
-    "url": "/media/habitat/megophrys-wushanensis-habitat-ai.png",
+    "url": "/media/habitat/megophrys-feii-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1934,20 +1934,6 @@
     "ai_generated": true
    }
   },
-  "rana-sangzhiensis": {
-   "habitat": {
-    "url": "/media/habitat/rana-sangzhiensis-habitat-ai.png",
-    "author": "AI 生成（智谱 CogView）",
-    "source_name": "智谱 AI",
-    "source_url": "https://open.bigmodel.cn",
-    "license": "AI 生成生境示意图，非实地摄影",
-    "license_url": "",
-    "commercial_use": false,
-    "verified": false,
-    "review_status": "sample",
-    "ai_generated": true
-   }
-  },
   "hyla-tsinlingensis": {
    "habitat": {
     "url": "/media/habitat/hyla-tsinlingensis-habitat-ai.png",
@@ -1962,9 +1948,9 @@
     "ai_generated": true
    }
   },
-  "rana-longicrus": {
+  "rana-sangzhiensis": {
    "habitat": {
-    "url": "/media/habitat/rana-longicrus-habitat-ai.png",
+    "url": "/media/habitat/rana-sangzhiensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -1979,6 +1965,20 @@
   "rana-chaochiaoensis": {
    "habitat": {
     "url": "/media/habitat/rana-chaochiaoensis-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "rana-longicrus": {
+   "habitat": {
+    "url": "/media/habitat/rana-longicrus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2074,9 +2074,9 @@
     "ai_generated": true
    }
   },
-  "rana-dabieshanensis": {
+  "rana-zhenhaiensis": {
    "habitat": {
-    "url": "/media/habitat/rana-dabieshanensis-habitat-ai.png",
+    "url": "/media/habitat/rana-zhenhaiensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2088,9 +2088,9 @@
     "ai_generated": true
    }
   },
-  "rana-zhenhaiensis": {
+  "rana-dabieshanensis": {
    "habitat": {
-    "url": "/media/habitat/rana-zhenhaiensis-habitat-ai.png",
+    "url": "/media/habitat/rana-dabieshanensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2242,20 +2242,6 @@
     "ai_generated": true
    }
   },
-  "amolops-viridimaculatus": {
-   "habitat": {
-    "url": "/media/habitat/amolops-viridimaculatus-habitat-ai.png",
-    "author": "AI 生成（智谱 CogView）",
-    "source_name": "智谱 AI",
-    "source_url": "https://open.bigmodel.cn",
-    "license": "AI 生成生境示意图，非实地摄影",
-    "license_url": "",
-    "commercial_use": false,
-    "verified": false,
-    "review_status": "sample",
-    "ai_generated": true
-   }
-  },
   "amolops-tuberodepressus": {
    "habitat": {
     "url": "/media/habitat/amolops-tuberodepressus-habitat-ai.png",
@@ -2270,9 +2256,9 @@
     "ai_generated": true
    }
   },
-  "amolops-albispinus": {
+  "amolops-viridimaculatus": {
    "habitat": {
-    "url": "/media/habitat/amolops-albispinus-habitat-ai.png",
+    "url": "/media/habitat/amolops-viridimaculatus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2298,9 +2284,9 @@
     "ai_generated": true
    }
   },
-  "amolops-nyingchiensis": {
+  "amolops-albispinus": {
    "habitat": {
-    "url": "/media/habitat/amolops-nyingchiensis-habitat-ai.png",
+    "url": "/media/habitat/amolops-albispinus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2315,6 +2301,20 @@
   "amolops-yunkaiensis": {
    "habitat": {
     "url": "/media/habitat/amolops-yunkaiensis-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "amolops-nyingchiensis": {
+   "habitat": {
+    "url": "/media/habitat/amolops-nyingchiensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2410,9 +2410,9 @@
     "ai_generated": true
    }
   },
-  "nidirana-leishanensis": {
+  "nidirana-nankunensis": {
    "habitat": {
-    "url": "/media/habitat/nidirana-leishanensis-habitat-ai.png",
+    "url": "/media/habitat/nidirana-nankunensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2424,9 +2424,9 @@
     "ai_generated": true
    }
   },
-  "nidirana-nankunensis": {
+  "nidirana-leishanensis": {
    "habitat": {
-    "url": "/media/habitat/nidirana-nankunensis-habitat-ai.png",
+    "url": "/media/habitat/nidirana-leishanensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2550,9 +2550,9 @@
     "ai_generated": true
    }
   },
-  "odorrana-graminea": {
+  "odorrana-grahami": {
    "habitat": {
-    "url": "/media/habitat/odorrana-graminea-habitat-ai.png",
+    "url": "/media/habitat/odorrana-grahami-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2564,9 +2564,9 @@
     "ai_generated": true
    }
   },
-  "odorrana-grahami": {
+  "odorrana-graminea": {
    "habitat": {
-    "url": "/media/habitat/odorrana-grahami-habitat-ai.png",
+    "url": "/media/habitat/odorrana-graminea-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2690,9 +2690,9 @@
     "ai_generated": true
    }
   },
-  "odorrana-nasuta": {
+  "odorrana-schmackeri": {
    "habitat": {
-    "url": "/media/habitat/odorrana-nasuta-habitat-ai.png",
+    "url": "/media/habitat/odorrana-schmackeri-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2704,9 +2704,9 @@
     "ai_generated": true
    }
   },
-  "odorrana-schmackeri": {
+  "odorrana-nasuta": {
    "habitat": {
-    "url": "/media/habitat/odorrana-schmackeri-habitat-ai.png",
+    "url": "/media/habitat/odorrana-nasuta-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2844,6 +2844,20 @@
     "ai_generated": true
    }
   },
+  "liurana-alpina": {
+   "habitat": {
+    "url": "/media/habitat/liurana-alpina-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
   "liurana-medogensis": {
    "habitat": {
     "url": "/media/habitat/liurana-medogensis-habitat-ai.png",
@@ -2858,9 +2872,9 @@
     "ai_generated": true
    }
   },
-  "liurana-xizangensis": {
+  "fejervarya-multistriata": {
    "habitat": {
-    "url": "/media/habitat/liurana-xizangensis-habitat-ai.png",
+    "url": "/media/habitat/fejervarya-multistriata-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2872,9 +2886,9 @@
     "ai_generated": true
    }
   },
-  "fejervarya-multistriata": {
+  "liurana-xizangensis": {
    "habitat": {
-    "url": "/media/habitat/fejervarya-multistriata-habitat-ai.png",
+    "url": "/media/habitat/liurana-xizangensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2914,34 +2928,6 @@
     "ai_generated": true
    }
   },
-  "nanorana-chayuensis": {
-   "habitat": {
-    "url": "/media/habitat/nanorana-chayuensis-habitat-ai.png",
-    "author": "AI 生成（智谱 CogView）",
-    "source_name": "智谱 AI",
-    "source_url": "https://open.bigmodel.cn",
-    "license": "AI 生成生境示意图，非实地摄影",
-    "license_url": "",
-    "commercial_use": false,
-    "verified": false,
-    "review_status": "sample",
-    "ai_generated": true
-   }
-  },
-  "liurana-alpina": {
-   "habitat": {
-    "url": "/media/habitat/liurana-alpina-habitat-ai.png",
-    "author": "AI 生成（智谱 CogView）",
-    "source_name": "智谱 AI",
-    "source_url": "https://open.bigmodel.cn",
-    "license": "AI 生成生境示意图，非实地摄影",
-    "license_url": "",
-    "commercial_use": false,
-    "verified": false,
-    "review_status": "sample",
-    "ai_generated": true
-   }
-  },
   "nanorana-conaensis": {
    "habitat": {
     "url": "/media/habitat/nanorana-conaensis-habitat-ai.png",
@@ -2956,9 +2942,9 @@
     "ai_generated": true
    }
   },
-  "nanorana-medogensis": {
+  "nanorana-chayuensis": {
    "habitat": {
-    "url": "/media/habitat/nanorana-medogensis-habitat-ai.png",
+    "url": "/media/habitat/nanorana-chayuensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -2973,6 +2959,20 @@
   "nanorana-parkeri": {
    "habitat": {
     "url": "/media/habitat/nanorana-parkeri-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "nanorana-medogensis": {
+   "habitat": {
+    "url": "/media/habitat/nanorana-medogensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -3040,20 +3040,6 @@
     "ai_generated": true
    }
   },
-  "quasipaa-boulengeri": {
-   "habitat": {
-    "url": "/media/habitat/quasipaa-boulengeri-habitat-ai.png",
-    "author": "AI 生成（智谱 CogView）",
-    "source_name": "智谱 AI",
-    "source_url": "https://open.bigmodel.cn",
-    "license": "AI 生成生境示意图，非实地摄影",
-    "license_url": "",
-    "commercial_use": false,
-    "verified": false,
-    "review_status": "sample",
-    "ai_generated": true
-   }
-  },
   "quasipaa-exilispinosa": {
    "habitat": {
     "url": "/media/habitat/quasipaa-exilispinosa-habitat-ai.png",
@@ -3068,9 +3054,9 @@
     "ai_generated": true
    }
   },
-  "quasipaa-jiulongensis": {
+  "quasipaa-boulengeri": {
    "habitat": {
-    "url": "/media/habitat/quasipaa-jiulongensis-habitat-ai.png",
+    "url": "/media/habitat/quasipaa-boulengeri-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -3096,9 +3082,9 @@
     "ai_generated": true
    }
   },
-  "quasipaa-spinosa": {
+  "quasipaa-jiulongensis": {
    "habitat": {
-    "url": "/media/habitat/quasipaa-spinosa-habitat-ai.png",
+    "url": "/media/habitat/quasipaa-jiulongensis-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -3113,6 +3099,20 @@
   "quasipaa-yei": {
    "habitat": {
     "url": "/media/habitat/quasipaa-yei-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "quasipaa-spinosa": {
+   "habitat": {
+    "url": "/media/habitat/quasipaa-spinosa-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -3236,9 +3236,9 @@
     "ai_generated": true
    }
   },
-  "kurixalus-idiootocus": {
+  "kurixalus-berylliniris": {
    "habitat": {
-    "url": "/media/habitat/kurixalus-idiootocus-habitat-ai.png",
+    "url": "/media/habitat/kurixalus-berylliniris-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -3250,9 +3250,9 @@
     "ai_generated": true
    }
   },
-  "kurixalus-berylliniris": {
+  "kurixalus-idiootocus": {
    "habitat": {
-    "url": "/media/habitat/kurixalus-berylliniris-habitat-ai.png",
+    "url": "/media/habitat/kurixalus-idiootocus-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -3432,9 +3432,9 @@
     "ai_generated": true
    }
   },
-  "microhyla-fissipes": {
+  "microhyla-mixtura": {
    "habitat": {
-    "url": "/media/habitat/microhyla-fissipes-habitat-ai.png",
+    "url": "/media/habitat/microhyla-mixtura-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -3446,9 +3446,9 @@
     "ai_generated": true
    }
   },
-  "microhyla-mixtura": {
+  "microhyla-fissipes": {
    "habitat": {
-    "url": "/media/habitat/microhyla-mixtura-habitat-ai.png",
+    "url": "/media/habitat/microhyla-fissipes-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -3488,9 +3488,9 @@
     "ai_generated": true
    }
   },
-  "chinese-serow": {
+  "chinese-hare": {
    "habitat": {
-    "url": "/media/habitat/chinese-serow-habitat-ai.png",
+    "url": "/media/habitat/chinese-hare-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -3502,9 +3502,9 @@
     "ai_generated": true
    }
   },
-  "chinese-hare": {
+  "chinese-serow": {
    "habitat": {
-    "url": "/media/habitat/chinese-hare-habitat-ai.png",
+    "url": "/media/habitat/chinese-serow-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",
@@ -3645,6 +3645,188 @@
   "dianchi-golden-line-barbel": {
    "habitat": {
     "url": "/media/habitat/dianchi-golden-line-barbel-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "giant-panda": {
+   "habitat": {
+    "url": "/media/habitat/giant-panda-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "milu": {
+   "habitat": {
+    "url": "/media/habitat/milu-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "sichuan-snub-nosed-monkey": {
+   "habitat": {
+    "url": "/media/habitat/sichuan-snub-nosed-monkey-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "chinese-alligator": {
+   "habitat": {
+    "url": "/media/habitat/chinese-alligator-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "guizhou-snub-nosed-monkey": {
+   "habitat": {
+    "url": "/media/habitat/guizhou-snub-nosed-monkey-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "hainan-gibbon": {
+   "habitat": {
+    "url": "/media/habitat/hainan-gibbon-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "yunnan-snub-nosed-monkey": {
+   "habitat": {
+    "url": "/media/habitat/yunnan-snub-nosed-monkey-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "przewalski-gazelle": {
+   "habitat": {
+    "url": "/media/habitat/przewalski-gazelle-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "south-china-tiger": {
+   "habitat": {
+    "url": "/media/habitat/south-china-tiger-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "brown-eared-pheasant": {
+   "habitat": {
+    "url": "/media/habitat/brown-eared-pheasant-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "chinese-giant-salamander": {
+   "habitat": {
+    "url": "/media/habitat/chinese-giant-salamander-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "tibetan-antelope": {
+   "habitat": {
+    "url": "/media/habitat/tibetan-antelope-habitat-ai.png",
+    "author": "AI 生成（智谱 CogView）",
+    "source_name": "智谱 AI",
+    "source_url": "https://open.bigmodel.cn",
+    "license": "AI 生成生境示意图，非实地摄影",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": false,
+    "review_status": "sample",
+    "ai_generated": true
+   }
+  },
+  "baiji": {
+   "habitat": {
+    "url": "/media/habitat/baiji-habitat-ai.png",
     "author": "AI 生成（智谱 CogView）",
     "source_name": "智谱 AI",
     "source_url": "https://open.bigmodel.cn",

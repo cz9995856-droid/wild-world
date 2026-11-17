@@ -32,6 +32,24 @@ for (const f of ["china-species-amphibians.json", "china-species-extra.json"]) {
   }
 }
 
+const BASE_SPECIES = [
+  { slug: "giant-panda", group: "mammal" },
+  { slug: "chinese-alligator", group: "reptile" },
+  { slug: "milu", group: "mammal" },
+  { slug: "sichuan-snub-nosed-monkey", group: "mammal" },
+  { slug: "yunnan-snub-nosed-monkey", group: "mammal" },
+  { slug: "guizhou-snub-nosed-monkey", group: "mammal" },
+  { slug: "hainan-gibbon", group: "mammal" },
+  { slug: "south-china-tiger", group: "mammal" },
+  { slug: "przewalski-gazelle", group: "mammal" },
+  { slug: "tibetan-antelope", group: "mammal" },
+  { slug: "brown-eared-pheasant", group: "bird" },
+  { slug: "chinese-monal", group: "bird" },
+  { slug: "chinese-giant-salamander", group: "amphibian" },
+  { slug: "baiji", group: "mammal" },
+];
+speciesLists.push(...BASE_SPECIES);
+
 const need = speciesLists.filter((s) => !media[s.slug]?.habitat).slice(0, LIMIT || undefined);
 console.log(`total=${speciesLists.length} need-habitat=${need.length}`);
 

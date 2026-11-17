@@ -2,6 +2,12 @@
 
 import { useState } from "react";
 import { Bone, Eye, Info, Layers } from "lucide-react";
+import anatomyData from "@/public/data/endemic-anatomy.json";
+
+const ANATOMY_TEXT = (anatomyData.entries ?? {}) as Record<
+  string,
+  { description: string; scientificName: string; refs: string[]; source_name: string; source_url: string }
+>;
 
 type Layer = "surface" | "skeleton" | "muscle";
 type Mode =
@@ -9,6 +15,7 @@ type Mode =
   | "snub-monkey"
   | "pheasant"
   | "salamander"
+  | "frog"
   | "snake"
   | "turtle"
   | "fish"
@@ -448,6 +455,63 @@ const SALAMANDER_PARTS: Part[] = [
   },
 ];
 
+const FROG_PARTS: Part[] = [
+  {
+    id: "frog-body",
+    label: "短躯干与无尾",
+    x: 45,
+    y: 48,
+    summary: "成体无尾、躯干短",
+    detail: "蛙类成体尾部退化，躯干短而宽，便于跳跃时收拢身体。蝌蚪期仍有长尾，变态后消失。",
+    layer: "surface",
+  },
+  {
+    id: "frog-hindlimb",
+    label: "长后肢",
+    x: 40,
+    y: 70,
+    summary: "跳跃推进",
+    detail: "后肢股骨与胫腓骨延长，跳跃时提供主要推进力。不同蛙类的后肢长度与其跳跃能力相关。",
+    layer: "skeleton",
+  },
+  {
+    id: "frog-tympanum",
+    label: "鼓膜",
+    x: 74,
+    y: 42,
+    summary: "感知声波",
+    detail: "鼓膜位于眼后，是接收声波的结构。雄蛙常通过鸣叫宣示领域与求偶，鼓膜与鸣囊协同工作。",
+    layer: "surface",
+  },
+  {
+    id: "frog-skin",
+    label: "皮肤与黏液",
+    x: 48,
+    y: 56,
+    summary: "辅助呼吸、保湿",
+    detail: "蛙类皮肤富含黏液腺，可辅助气体交换并保持湿润，对水质与湿度变化敏感。",
+    layer: "surface",
+  },
+  {
+    id: "frog-web",
+    label: "蹼",
+    x: 44,
+    y: 80,
+    summary: "游泳与攀爬",
+    detail: "许多蛙类趾间具蹼，有助于游泳；树蛙类趾端常膨大，便于在枝叶间附着。",
+    layer: "skeleton",
+  },
+  {
+    id: "frog-jump-muscle",
+    label: "后肢肌群",
+    x: 36,
+    y: 64,
+    summary: "爆发式跳跃",
+    detail: "后肢肌群（尤其臀肌与股肌）发达，能在短时间内产生爆发式推进，是逃避捕食者的关键。",
+    layer: "muscle",
+  },
+];
+
 const SNAKE_PARTS: Part[] = [
   {
     id: "snake-vertebra",
@@ -681,6 +745,7 @@ const MODE_PARTS: Record<Mode, Part[]> = {
   "snub-monkey": SNUB_MONKEY_PARTS,
   pheasant: PHEASANT_PARTS,
   salamander: SALAMANDER_PARTS,
+  frog: FROG_PARTS,
   snake: SNAKE_PARTS,
   turtle: TURTLE_PARTS,
   fish: FISH_PARTS,
@@ -694,6 +759,7 @@ const MODE_LABELS: Record<Mode, string> = {
   "snub-monkey": "金丝猴",
   pheasant: "雉类",
   salamander: "大鲵",
+  frog: "蛙类",
   snake: "蛇类",
   turtle: "龟类",
   fish: "鱼类",
@@ -707,6 +773,7 @@ const MODE_COLOR: Record<Mode, string> = {
   "snub-monkey": "#C7A55E",
   pheasant: "#8C4A2F",
   salamander: "#5B6B48",
+  frog: "#6B7B4A",
   snake: "#6B7B4A",
   turtle: "#5E5236",
   fish: "#5E7A8A",
@@ -723,6 +790,7 @@ function modeForSlug(slug?: string, group?: string): Mode {
   if (/(sturgeon|paddlefish|sucker|schizothorax|barbel|lenok|taimen|fish)/.test(slug) || group === "fish") return "fish";
   if (/(crane|tern|gull)/.test(slug)) return "crane";
   if (group === "bird") return "pheasant";
+  if (/(frog|toad|hyla|microhyla|odorrana|quasipaa|rana|pelophylax|amops)/.test(slug)) return "frog";
   if (group === "amphibian") return "salamander";
   if (/(monkey|gibbon|macaque|langur)/.test(slug)) return "snub-monkey";
   return "tiger";
@@ -773,7 +841,7 @@ export function AnatomyExplorer({
       <div className="border border-[var(--line)] bg-[var(--surface)]">
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--line)] p-3">
           <div className="flex gap-1">
-            {(["tiger", "snub-monkey", "pheasant", "salamander", "snake", "turtle", "fish", "crane", "elephant", "bird"] as Mode[]).map((m) => (
+            {(["tiger", "snub-monkey", "pheasant", "salamander", "frog", "snake", "turtle", "fish", "crane", "elephant", "bird"] as Mode[]).map((m) => (
               <button
                 key={m}
                 onClick={() => switchMode(m)}
@@ -969,6 +1037,22 @@ export function AnatomyExplorer({
       </div>
 
       <div className="flex flex-col">
+        {selectedSpecies && ANATOMY_TEXT[selectedSpecies.slug] && (
+          <div className="mb-3 border border-[var(--line)] bg-[var(--surface)] p-5">
+            <p className="label text-[var(--muted)]">形态与鉴别 · {selectedSpecies.label}</p>
+            <p className="mt-2 font-serif text-[12px] italic text-[var(--muted)]">
+              {ANATOMY_TEXT[selectedSpecies.slug].scientificName}
+            </p>
+            <p className="mt-3 whitespace-pre-line text-[12px] leading-relaxed text-[var(--ink-soft)]">
+              {ANATOMY_TEXT[selectedSpecies.slug].description}
+            </p>
+            {ANATOMY_TEXT[selectedSpecies.slug].refs.length > 0 && (
+              <p className="mt-3 text-[10px] leading-relaxed text-[var(--muted)]">
+                文献：{ANATOMY_TEXT[selectedSpecies.slug].refs[0]}
+              </p>
+            )}
+          </div>
+        )}
         <div className="border border-[var(--line)] bg-[var(--surface)] p-5">
           <p className="label text-[var(--muted)]">
             {layer === "surface" ? "Surface anatomy" : layer === "skeleton" ? "Skeletal system" : "Muscular system"}

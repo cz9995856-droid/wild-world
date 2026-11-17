@@ -67,7 +67,11 @@ const RULES: Array<{ test: RegExp; kind: ModelKind }> = [
   { test: /(milu)/, kind: "milu" },
   { test: /(dolphin|baiji|porpoise)/, kind: "dolphin" },
   { test: /(salamander|newt|caecilian)/, kind: "salamander" },
-  { test: /(frog|toad|treefrog|pelophylax|hyla|microhyla|odorrana|quasipaa|rana|amops)/, kind: "frog" },
+  {
+    test: /(hynobius|cynops|tylototriton|echnotriton|vibrissaphora|ichthyophis|andrias|paramesotriton|pachytriton)/,
+    kind: "salamander",
+  },
+  { test: /(frog|toad|treefrog|pelophylax|hyla|microhyla|odorrana|quasipaa|rana|amops|polypedates)/, kind: "frog" },
 ];
 
 export function modelForSlug(slug: string, group?: string): ModelKind {

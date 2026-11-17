@@ -18,6 +18,7 @@ type Mode =
   | "frog"
   | "snake"
   | "turtle"
+  | "crocodile"
   | "fish"
   | "crane"
   | "elephant"
@@ -740,6 +741,63 @@ const CRANE_PARTS: Part[] = [
   },
 ];
 
+const CROCODILE_PARTS: Part[] = [
+  {
+    id: "croc-snout",
+    label: "吻部与齿列",
+    x: 83,
+    y: 42,
+    summary: "吻形因种而异，齿生齿槽",
+    detail: "鳄类吻部形态差异明显：扬子鳄吻短而宽，多数鳄科较狭长。牙齿着生于齿槽，属槽生齿，是鳄类区别于多数爬行类的特征。",
+    layer: "surface",
+  },
+  {
+    id: "croc-osteoderm",
+    label: "背甲（皮内成骨）",
+    x: 45,
+    y: 40,
+    summary: "骨质甲片、防御与保温",
+    detail: "鳄类背部与腹部具皮内成骨形成的骨质甲片，形成坚硬背甲。甲片结构兼具防御功能，并影响其体温调节与水中姿态。",
+    layer: "skeleton",
+  },
+  {
+    id: "croc-tail",
+    label: "侧扁尾",
+    x: 14,
+    y: 52,
+    summary: "游泳主要推进器",
+    detail: "尾部侧扁、肌肉发达，左右摆动产生主要推进力。尾长与尾鳍高度和游泳方式相关，是鳄类水中运动的核心结构。",
+    layer: "skeleton",
+  },
+  {
+    id: "croc-jaw",
+    label: "颌关节与咬肌",
+    x: 72,
+    y: 50,
+    summary: "高咬合力、快速闭合",
+    detail: "鳄类颌关节与咬肌结构支持快速而强大的咬合，适合伏击固定猎物。张口与闭口的肌群配置不对称，闭口力量显著大于张口。",
+    layer: "muscle",
+  },
+  {
+    id: "croc-limb",
+    label: "四肢与蹼",
+    x: 36,
+    y: 72,
+    summary: "半蹼、陆行与水中转向",
+    detail: "四肢短而粗壮，后肢趾间常具蹼，兼顾陆地爬行与水中转向。体型较大的种类更依赖躯干与尾部推进。",
+    layer: "surface",
+  },
+  {
+    id: "croc-palate",
+    label: "次生腭",
+    x: 78,
+    y: 36,
+    summary: "水中咬住猎物仍可呼吸",
+    detail: "鳄类具有次生腭，内鼻孔后移，使个体在口中含猎物或半浸水时仍能呼吸。这是鳄类半水生生活的关键解剖适应。",
+    layer: "skeleton",
+  },
+];
+
 const MODE_PARTS: Record<Mode, Part[]> = {
   tiger: TIGER_PARTS,
   "snub-monkey": SNUB_MONKEY_PARTS,
@@ -748,6 +806,7 @@ const MODE_PARTS: Record<Mode, Part[]> = {
   frog: FROG_PARTS,
   snake: SNAKE_PARTS,
   turtle: TURTLE_PARTS,
+  crocodile: CROCODILE_PARTS,
   fish: FISH_PARTS,
   crane: CRANE_PARTS,
   elephant: ELEPHANT_PARTS,
@@ -762,6 +821,7 @@ const MODE_LABELS: Record<Mode, string> = {
   frog: "蛙类",
   snake: "蛇类",
   turtle: "龟类",
+  crocodile: "鳄类",
   fish: "鱼类",
   crane: "鹤类",
   elephant: "非洲象",
@@ -776,6 +836,7 @@ const MODE_COLOR: Record<Mode, string> = {
   frog: "#6B7B4A",
   snake: "#6B7B4A",
   turtle: "#5E5236",
+  crocodile: "#5E6B3E",
   fish: "#5E7A8A",
   crane: "#EDE8DC",
   elephant: "#8C8A80",
@@ -784,6 +845,7 @@ const MODE_COLOR: Record<Mode, string> = {
 
 function modeForSlug(slug?: string, group?: string): Mode {
   if (!slug) return "tiger";
+  if (/(alligator|crocodile)/.test(slug) && !slug.includes("lizard")) return "crocodile";
   if (/(lizard|agama)/.test(slug)) return "snake";
   if (/(viper|snake|krait|cobra)/.test(slug)) return "snake";
   if (/(turtle|tortoise)/.test(slug)) return "turtle";
@@ -841,7 +903,7 @@ export function AnatomyExplorer({
       <div className="border border-[var(--line)] bg-[var(--surface)]">
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--line)] p-3">
           <div className="flex gap-1">
-            {(["tiger", "snub-monkey", "pheasant", "salamander", "frog", "snake", "turtle", "fish", "crane", "elephant", "bird"] as Mode[]).map((m) => (
+            {(["tiger", "snub-monkey", "pheasant", "salamander", "frog", "snake", "turtle", "crocodile", "fish", "crane", "elephant", "bird"] as Mode[]).map((m) => (
               <button
                 key={m}
                 onClick={() => switchMode(m)}

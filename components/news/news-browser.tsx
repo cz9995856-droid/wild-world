@@ -155,10 +155,10 @@ export function NewsBrowser({ articles, visuals }: { articles: NewsArticle[]; vi
                       {a.title_cn ?? a.title_original}
                     </h3>
                     {a.title_cn && (
-                      <p className="mt-1 line-clamp-1 font-serif text-[11px] italic text-[var(--muted)]">{a.title_original}</p>
+                      <p className="mt-1 line-clamp-1 font-serif text-[10.5px] italic text-[var(--muted)]">英文原题：{a.title_original}</p>
                     )}
                     <p className="mt-2 line-clamp-2 text-[11.5px] leading-relaxed text-[var(--muted)]">
-                      {a.summary_cn ?? a.excerpt_original}
+                      {a.summary_cn ?? "中文摘要待生成"}
                     </p>
                     </div>
                   </Link>

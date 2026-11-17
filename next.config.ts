@@ -21,7 +21,6 @@ const nextConfig: NextConfig = {
       { source: "/lab", destination: "/explore/lab", permanent: true },
       { source: "/map", destination: "/explore/map", permanent: true },
       { source: "/news", destination: "/explore/conservation", permanent: true },
-      { source: "/news/:slug", destination: "/explore/conservation", permanent: true },
       { source: "/favorites", destination: "/explore/favorites", permanent: true },
       { source: "/conservation", destination: "/explore/conservation", permanent: true },
       { source: "/search", destination: "/explore/encyclopedia", permanent: true },

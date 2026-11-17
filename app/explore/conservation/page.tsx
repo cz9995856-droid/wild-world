@@ -21,7 +21,7 @@ export default async function ConservationPage() {
       <WcHeader />
       <div className="wc-page-head">
         <div>
-          <p className="wc-kicker">Conservation &amp; Discovery</p>
+          <p className="wc-kicker">保护与发现</p>
           <h1 className="display mt-2 text-[38px] sm:text-[50px]">保护与发现</h1>
           <p className="wc-prose mt-3">
             聚合中国动物新闻、新物种发现、科研成果与保护动态。标题、发布时间与来源均来自公开 RSS 快照；不虚构新闻，不把旧闻伪装成最新。

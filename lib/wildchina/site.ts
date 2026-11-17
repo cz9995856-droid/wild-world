@@ -43,8 +43,8 @@ export const WC_SECTIONS: WcSection[] = [
     category: "分布与生态",
     en: "Ecological Atlas",
     description: "分布展区：以省域与生态区为索引，查看物种分布、栖息环境与保护区域，不把行政区等同于栖息地。",
-    image: "/media/hero/hero-01.jpg",
-    imageCredit: "馆藏授权影像",
+    image: "/media/species/amur-leopard-01.jpg",
+    imageCredit: "iNaturalist · Лариса Артемьева · CC0",
   },
   {
     href: "/explore/conservation",

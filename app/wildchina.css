@@ -84,6 +84,16 @@
   color: var(--ink-soft);
 }
 
+.wc-header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  margin: calc(-1 * clamp(16px, 2.2vw, 30px)) calc(-1 * clamp(18px, 4vw, 60px)) 0;
+  padding: clamp(16px, 2.2vw, 30px) clamp(18px, 4vw, 60px) 0;
+  background: var(--surface);
+  box-shadow: 0 6px 18px -14px rgba(11, 32, 22, 0.35);
+}
+
 .wc-nav {
   display: grid;
   grid-template-columns: minmax(140px, 0.7fr) minmax(320px, 1.6fr) auto;

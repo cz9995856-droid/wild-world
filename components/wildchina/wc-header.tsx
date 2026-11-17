@@ -26,7 +26,7 @@ export function WcHeader({ query = "" }: { query?: string }) {
   }
 
   return (
-    <>
+    <div className="wc-header-sticky">
       <header className="wc-nav">
         <WcBrand />
 
@@ -77,6 +77,6 @@ export function WcHeader({ query = "" }: { query?: string }) {
           </Link>
         ))}
       </nav>
-    </>
+    </div>
   );
 }

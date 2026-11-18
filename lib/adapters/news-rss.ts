@@ -128,7 +128,7 @@ export async function fetchRssFeed(feed: (typeof RSS_FEEDS)[number], max = 16): 
       language: /[\u4e00-\u9fa5]/.test(title) ? "zh" : "en",
       published_at: publishedAt,
       retrieved_at: new Date().toISOString(),
-      license_note: "仅使用 RSS 标题、摘要与链接；未转载全文与图片。版权归原作者与出版机构。",
+      license_note: "仅使用来源标题、摘要与链接；未转载全文与图片。版权归原作者与出版机构。",
       review_status: "pending_review",
       verified: false,
       ai_generated: false,

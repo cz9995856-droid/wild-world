@@ -177,7 +177,7 @@ export default async function SourcesPage() {
               <ShieldCheck size={16} className="text-[#2A6B51]" />
               <h3 className="mt-3 text-[12.5px] font-medium">文本与新闻</h3>
               <p className="mt-2 text-[10px] leading-relaxed text-[var(--muted)]">
-                新闻仅使用 RSS 标题、摘要与链接，不转载全文与图片。馆藏物种描述为编辑整理，引用 Wikipedia / ADW 等公开来源，
+                新闻仅使用来源标题、摘要与链接，不转载全文与图片。馆藏物种描述为编辑整理，引用 Wikipedia / ADW 等公开来源，
                 不整段复制受版权保护的文本。
               </p>
             </div>

@@ -125,7 +125,7 @@ export const SOURCE_REGISTRY: DataSourceConfig[] = [
   },
   {
     id: "news-mongabay",
-    name: "Mongabay RSS",
+    name: "Mongabay 订阅",
     homepage: "https://news.mongabay.com/",
     purpose: "环境与保护新闻",
     access: "no_key",

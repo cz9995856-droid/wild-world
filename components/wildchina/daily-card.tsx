@@ -27,9 +27,6 @@ export function DailyCard({
   return (
     <section className="wc-hero-card" aria-label="动物时刻">
       <div className="wc-hero-photo">
-        <div className="absolute right-4 top-4 z-20 sm:right-6 sm:top-6">
-          <ChinaFavoriteButton slug={species.slug} label={species.nameCn} />
-        </div>
         {placeholder && (
           <div
             aria-hidden="true"
@@ -57,7 +54,10 @@ export function DailyCard({
         )}
       </div>
 
-      <div className="wc-hero-panel">
+      <div className="wc-hero-panel relative">
+        <div className="absolute right-0 top-12 z-10 sm:top-14">
+          <ChinaFavoriteButton slug={species.slug} label={species.nameCn} />
+        </div>
         <div className="flex items-center justify-between gap-4">
           <span className="wc-kicker">物种档案</span>
           <span className="text-[10px] text-[var(--muted)]">{dateKey} · 北京时间</span>

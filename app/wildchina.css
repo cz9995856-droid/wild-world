@@ -107,9 +107,9 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 4px 18px;
-  padding: 10px 0 2px;
-  font-size: 11px;
+  gap: 6px 26px;
+  padding: 14px 0 4px;
+  font-size: 14px;
   letter-spacing: 0.08em;
   color: var(--muted);
 }
@@ -127,8 +127,8 @@
 
 @media (max-width: 640px) {
   .wc-subnav {
-    gap: 2px 12px;
-    font-size: 10px;
+    gap: 4px 16px;
+    font-size: 12px;
   }
 }
 

@@ -1148,6 +1148,191 @@ const MODE_COLOR: Record<Mode, string> = {
   bird: "#7C8994",
 };
 
+function renderOutline(mode: Mode) {
+  const color = MODE_COLOR[mode];
+  const stroke = "#EDE8DC";
+  const common = { fill: color, stroke, strokeWidth: 0.5 } as const;
+
+  switch (mode) {
+    case "elephant":
+      return (
+        <g>
+          <ellipse cx="44" cy="48" rx="27" ry="20" fill="#8C8A80" fillOpacity="0.85" stroke={stroke} strokeWidth="0.5" />
+          <circle cx="70" cy="38" r="12" fill="#8C8A80" stroke={stroke} strokeWidth="0.5" />
+          <path d="M78 43c4 10 6 18 4 27-1 4-5 4-6 0-2-9-3-15-6-22Z" fill="#8C8A80" stroke={stroke} strokeWidth="0.5" />
+          <path d="M62 33c-8-9-13-1-11 10 1 7 5 12 9 12Z" fill="#7E7C72" stroke={stroke} strokeWidth="0.4" />
+          <rect x="31" y="62" width="5" height="17" rx="2" fill="#7E7C72" />
+          <rect x="43" y="63" width="5" height="17" rx="2" fill="#7E7C72" />
+          <rect x="55" y="62" width="5" height="16" rx="2" fill="#7E7C72" />
+          <circle cx="75" cy="35" r="1.1" fill="#141C18" />
+        </g>
+      );
+    case "bird":
+    case "songbird":
+      return (
+        <g>
+          <ellipse cx="46" cy="52" rx="15" ry="11" {...common} />
+          <circle cx="64" cy="43" r="7" {...common} />
+          <path d="M71 42l8 2-8 3Z" fill="#C29B4A" />
+          <path d="M32 50c-6-3-11 0-13 4 6 2 10 1 14-1Z" fill={color} />
+          <circle cx="66" cy="41" r="0.9" fill="#141C18" />
+          <path d="M43 63l-1 9M47 63l1 9" stroke="#C29B4A" strokeWidth="0.9" />
+        </g>
+      );
+    case "crane":
+      return (
+        <g>
+          <ellipse cx="44" cy="52" rx="17" ry="10" {...common} />
+          <path d="M56 48c6-4 8-12 9-18" stroke={color} strokeWidth="3" fill="none" strokeLinecap="round" />
+          <circle cx="66" cy="28" r="5" {...common} />
+          <path d="M71 27l9 2-9 2Z" fill="#C9B74A" />
+          <path d="M38 62v22M46 62v22" stroke="#C9B74A" strokeWidth="0.9" />
+          <path d="M27 50c-5-1-8 2-9 5 5 1 8 0 11-2Z" fill={color} />
+          <circle cx="68" cy="27" r="0.8" fill="#141C18" />
+        </g>
+      );
+    case "duck":
+      return (
+        <g>
+          <ellipse cx="44" cy="54" rx="22" ry="10" {...common} />
+          <circle cx="66" cy="44" r="7" {...common} />
+          <path d="M72 43c5 1 7 2 7 3s-3 2-7 2Z" fill="#D9B34A" />
+          <path d="M24 52c-6 1-9 4-9 7 5-1 8-3 10-5Z" fill={color} />
+          <path d="M36 64l-4 5h10l-2-5M50 64l-3 5h9l-2-5" fill="#D9B34A" opacity="0.9" />
+          <circle cx="68" cy="42" r="0.8" fill="#141C18" />
+        </g>
+      );
+    case "pheasant":
+      return (
+        <g>
+          <ellipse cx="46" cy="52" rx="18" ry="12" {...common} />
+          <circle cx="66" cy="42" r="7" {...common} />
+          <path d="M71 41l8 2-8 3Z" fill="#D9C36A" />
+          <path d="M30 48c-12 2-20 8-24 14 9-2 16-5 22-7Z" fill={color} opacity="0.9" />
+          <path d="M66 35c-1-4 0-6 2-7 1 3 1 5 0 7Z" fill="#2E6B4F" />
+          <circle cx="68" cy="40" r="0.9" fill="#141C18" />
+          <path d="M44 64v9M50 64v9" stroke="#C29B4A" strokeWidth="0.9" />
+        </g>
+      );
+    case "tiger":
+      return (
+        <g>
+          <ellipse cx="44" cy="50" rx="24" ry="14" {...common} />
+          <circle cx="70" cy="40" r="9" {...common} />
+          <path d="M66 31l-2-5 4 1Z" fill={color} />
+          <path d="M76 31l2-5-4 1Z" fill={color} />
+          <path d="M20 46c-8 1-13 6-15 11 6-1 11-3 15-5Z" fill={color} />
+          <circle cx="74" cy="38" r="1" fill="#141C18" />
+          <path d="M34 62v14M44 63v14M56 62v14" stroke={color} strokeWidth="2.4" strokeLinecap="round" />
+        </g>
+      );
+    case "snub-monkey":
+    case "primate":
+      return (
+        <g>
+          <ellipse cx="45" cy="54" rx="14" ry="17" {...common} />
+          <circle cx="54" cy="28" r="9" {...common} />
+          <ellipse cx="60" cy="29" rx="4" ry="5" fill="#C9AE8A" stroke={stroke} strokeWidth="0.3" />
+          <path d="M33 46c-6 8-8 16-6 22" stroke={color} strokeWidth="3" fill="none" strokeLinecap="round" />
+          <path d="M56 42c6 8 8 16 6 22" stroke={color} strokeWidth="3" fill="none" strokeLinecap="round" />
+          <path d="M32 62c-4 6-6 12-4 18" stroke={color} strokeWidth="4" fill="none" strokeLinecap="round" />
+          <path d="M24 50c-8 4-12 10-12 16 5-4 9-7 13-10Z" fill={color} opacity="0.85" />
+          <circle cx="57" cy="26" r="0.9" fill="#141C18" />
+        </g>
+      );
+    case "ungulate":
+      return (
+        <g>
+          <ellipse cx="44" cy="52" rx="24" ry="13" {...common} />
+          <path d="M62 46c6-3 8-8 9-13" stroke={color} strokeWidth="7" fill="none" strokeLinecap="round" />
+          <ellipse cx="74" cy="30" rx="7" ry="5" {...common} />
+          <path d="M72 24c-2-6 0-9 3-10 1 4 0 7-1 10Z" fill="#7A6547" />
+          <path d="M79 24c2-5 4-7 6-7-1 4-2 6-4 8Z" fill="#7A6547" />
+          <path d="M22 50c-4 1-6 4-6 6 3 0 5-1 7-2Z" fill={color} />
+          <circle cx="77" cy="29" r="0.8" fill="#141C18" />
+          <path d="M32 64v16M42 65v16M54 65v16M60 64v16" stroke={color} strokeWidth="2.6" strokeLinecap="round" />
+        </g>
+      );
+    case "rodent":
+      return (
+        <g>
+          <ellipse cx="46" cy="56" rx="15" ry="11" {...common} />
+          <circle cx="62" cy="48" r="8" {...common} />
+          <circle cx="58" cy="41" r="3.2" fill="#C9B69A" />
+          <circle cx="66" cy="40" r="3.2" fill="#C9B69A" />
+          <path d="M32 56c-8 2-13 8-15 13 6-4 11-7 15-9Z" fill={color} />
+          <circle cx="65" cy="47" r="0.9" fill="#141C18" />
+          <path d="M40 66v11M50 66v11" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
+        </g>
+      );
+    case "snake":
+      return (
+        <g>
+          <path d="M76 46c-10-6-22-6-30 0-8 6-18 6-26 0" stroke={color} strokeWidth="9" fill="none" strokeLinecap="round" />
+          <ellipse cx="80" cy="46" rx="6" ry="4.5" {...common} />
+          <path d="M86 46l8 0M86 47l8 2" stroke="#C0392B" strokeWidth="0.8" />
+          <circle cx="82" cy="44.5" r="0.9" fill="#D9B33E" />
+        </g>
+      );
+    case "turtle":
+      return (
+        <g>
+          <path d="M26 58c0-16 12-26 26-26s26 10 26 26Z" fill={color} stroke={stroke} strokeWidth="0.5" />
+          <path d="M24 58h52" stroke={stroke} strokeWidth="1.2" />
+          <ellipse cx="76" cy="54" rx="6" ry="4.5" {...common} />
+          <path d="M30 60l-6 8M42 61l-4 9M60 61l4 9M70 60l6 8" stroke={color} strokeWidth="3" strokeLinecap="round" />
+          <circle cx="78" cy="53" r="0.8" fill="#141C18" />
+        </g>
+      );
+    case "crocodile":
+      return (
+        <g>
+          <ellipse cx="44" cy="54" rx="24" ry="9" {...common} />
+          <path d="M64 52c8 0 14 1 20 2-4 4-10 5-20 4Z" {...common} />
+          <path d="M64 52l4-2 4 2 4-2 4 2 4-2" stroke={stroke} strokeWidth="0.5" fill="none" />
+          <path d="M20 52c-6 1-9 4-10 6 5 0 8-1 11-2Z" fill={color} />
+          <path d="M34 62l-1 8M44 62l1 8M54 62l-1 8" stroke={color} strokeWidth="2.2" strokeLinecap="round" />
+          <circle cx="72" cy="49" r="0.8" fill="#141C18" />
+        </g>
+      );
+    case "fish":
+      return (
+        <g>
+          <ellipse cx="44" cy="52" rx="26" ry="13" {...common} />
+          <path d="M70 52l10-9v18Z" fill={color} stroke={stroke} strokeWidth="0.4" />
+          <path d="M42 40c6-5 12-5 16-1-6 2-11 2-16 1Z" fill={color} opacity="0.9" />
+          <path d="M40 64c5 4 10 4 14 1-5-1-9-2-14-1Z" fill={color} opacity="0.8" />
+          <circle cx="62" cy="49" r="1.2" fill="#141C18" />
+          <path d="M56 46c2 2 2 6 0 8" stroke={stroke} strokeWidth="0.5" fill="none" />
+        </g>
+      );
+    case "frog":
+      return (
+        <g>
+          <ellipse cx="46" cy="56" rx="19" ry="11" {...common} />
+          <ellipse cx="58" cy="48" rx="11" ry="7" {...common} />
+          <circle cx="54" cy="41" r="3.2" fill="#C9B74A" />
+          <circle cx="63" cy="41" r="3.2" fill="#C9B74A" />
+          <path d="M30 62c-6 6-8 12-6 17 5-4 8-8 10-12Z" fill={color} />
+          <path d="M36 66l-2 10M52 66l2 10" stroke={color} strokeWidth="2.2" strokeLinecap="round" />
+          <path d="M40 66c4 2 8 2 12 0" stroke={stroke} strokeWidth="0.4" fill="none" />
+        </g>
+      );
+    case "salamander":
+      return (
+        <g>
+          <ellipse cx="44" cy="54" rx="22" ry="7" {...common} />
+          <ellipse cx="68" cy="52" rx="7" ry="5" {...common} />
+          <path d="M23 53c-8 0-14 1-18 4 7 2 13 2 18 0Z" fill={color} />
+          <path d="M34 60l-2 7M44 60l2 7" stroke={color} strokeWidth="1.8" strokeLinecap="round" />
+          <circle cx="71" cy="51" r="0.7" fill="#141C18" />
+        </g>
+      );
+    default:
+      return null;
+  }
+}
+
 function modeForSlug(slug?: string, group?: string): Mode {
   if (!slug) return "tiger";
   if (/(alligator|crocodile)/.test(slug) && !slug.includes("lizard")) return "crocodile";
@@ -1291,58 +1476,7 @@ export function AnatomyExplorer({
               ))}
             </g>
 
-            {mode === "tiger" || mode === "snub-monkey" || mode === "pheasant" || mode === "salamander" ? (
-              <g>
-                <ellipse
-                  cx="44"
-                  cy="48"
-                  rx={mode === "salamander" ? 26 : 22}
-                  ry={mode === "salamander" ? 8 : mode === "pheasant" ? 13 : 15}
-                  fill={MODE_COLOR[mode]}
-                  fillOpacity="0.85"
-                  stroke="#EDE8DC"
-                  strokeWidth="0.5"
-                />
-                <circle
-                  cx={mode === "salamander" ? 74 : 67}
-                  cy={mode === "pheasant" ? 40 : 36}
-                  r={mode === "snub-monkey" ? 8 : mode === "salamander" ? 7 : 9}
-                  fill={MODE_COLOR[mode]}
-                  stroke="#EDE8DC"
-                  strokeWidth="0.5"
-                />
-                {mode === "pheasant" && (
-                  <path d="M30 44c-14 2-22 8-26 14 10-2 18-5 26-7Z" fill={MODE_COLOR[mode]} stroke="#EDE8DC" strokeWidth="0.3" />
-                )}
-                {mode === "snub-monkey" && <path d="M24 48c-8 3-12 9-12 16 6-4 10-7 14-9Z" fill={MODE_COLOR[mode]} />}
-                {mode === "tiger" && <path d="M20 44c-8 2-13 7-15 12 6-1 11-3 15-5Z" fill={MODE_COLOR[mode]} />}
-                {mode === "salamander" && <path d="M20 48c-10 1-16 3-18 5 8 2 14 2 19 1Z" fill={MODE_COLOR[mode]} />}
-                <circle cx={mode === "salamander" ? 78 : 71} cy={mode === "pheasant" ? 38 : 35} r="1" fill="#141C18" />
-              </g>
-            ) : mode === "elephant" ? (
-              <g>
-                <ellipse cx="44" cy="48" rx="27" ry="20" fill="#8C8A80" fillOpacity="0.85" stroke="#EDE8DC" strokeWidth="0.5" />
-                <circle cx="70" cy="38" r="12" fill="#8C8A80" stroke="#EDE8DC" strokeWidth="0.5" />
-                <path d="M78 43c4 10 6 18 4 27-1 4-5 4-6 0-2-9-3-15-6-22Z" fill="#8C8A80" stroke="#EDE8DC" strokeWidth="0.5" />
-                <path d="M62 33c-8-9-13-1-11 10 1 7 5 12 9 12Z" fill="#7E7C72" stroke="#EDE8DC" strokeWidth="0.4" />
-                <path d="M79 50l2 13" stroke="#E9E2D3" strokeWidth="1.6" strokeLinecap="round" />
-                <circle cx="75" cy="35" r="1.1" fill="#141C18" />
-                <rect x="31" y="62" width="5" height="17" rx="2" fill="#7E7C72" />
-                <rect x="43" y="63" width="5" height="17" rx="2" fill="#7E7C72" />
-                <rect x="55" y="62" width="5" height="16" rx="2" fill="#7E7C72" />
-                <path d="M19 44c-2 6-2 12 1 16" stroke="#8C8A80" strokeWidth="2" fill="none" strokeLinecap="round" />
-              </g>
-            ) : (
-              <g>
-                <ellipse cx="43" cy="48" rx="20" ry="13" fill="#7C8994" stroke="#EDE8DC" strokeWidth="0.5" />
-                <circle cx="64" cy="40" r="7.5" fill="#EDE8DC" stroke="#7C8994" strokeWidth="0.4" />
-                <path d="M71 39l9 2-9 3Z" fill="#C29B4A" />
-                <path d="M44 40c12-4 22 2 27 10-12 2-22 0-30-4Z" fill="#5D6B74" stroke="#EDE8DC" strokeWidth="0.4" />
-                <path d="M25 44c-6-2-10 1-12 5 6 2 11 1 15-1Z" fill="#5D6B74" />
-                <circle cx="66" cy="38" r="0.9" fill="#141C18" />
-                <path d="M36 60l-1 10M40 60l1 10" stroke="#C29B4A" strokeWidth="0.9" />
-              </g>
-            )}
+            {renderOutline(mode)}
 
             {layer === "skeleton" && (
               <g stroke="#E9E2D3" strokeWidth="0.7" fill="none" opacity="0.9">
@@ -1381,7 +1515,7 @@ export function AnatomyExplorer({
             )}
 
             <g fill="#EDE8DC" fontFamily="monospace" fontSize="1.6" opacity="0.5">
-              <text x="4" y="95">FIG. {String(["tiger", "snub-monkey", "pheasant", "salamander", "elephant", "bird"].indexOf(mode) + 1).padStart(2, "0")} · {layer.toUpperCase()}</text>
+              <text x="4" y="95">FIG. {String(["tiger", "primate", "ungulate", "rodent", "snub-monkey", "pheasant", "songbird", "duck", "crane", "salamander", "frog", "snake", "turtle", "crocodile", "fish", "elephant", "bird"].indexOf(mode) + 1).padStart(2, "0")} · {layer.toUpperCase()}</text>
               <text x="78" y="95">WILD WORLD</text>
             </g>
           </svg>

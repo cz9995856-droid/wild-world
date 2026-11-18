@@ -96,7 +96,7 @@
 
 .wc-nav {
   display: grid;
-  grid-template-columns: minmax(140px, 0.7fr) minmax(320px, 1.6fr) auto;
+  grid-template-columns: minmax(175px, 0.8fr) minmax(320px, 1.6fr) auto;
   align-items: center;
   gap: clamp(16px, 2.4vw, 40px);
   padding-bottom: clamp(14px, 1.6vw, 20px);

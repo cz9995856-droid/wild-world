@@ -1,3 +1,7 @@
+import taxonomyCnData from "@/lib/wildchina/taxonomy-cn.json";
+
+const EXTRA_CN = (taxonomyCnData.names ?? {}) as Record<string, string>;
+
 const TAXON_CN: Record<string, string> = {
   Amphibia: "两栖纲",
   Mammalia: "哺乳纲",
@@ -63,8 +67,11 @@ const TAXON_CN: Record<string, string> = {
 };
 
 export function taxonCn(value: string): string {
-  const key = String(value || "").replace(/^[^A-Za-z]*/, "").trim();
-  return TAXON_CN[key] ?? value;
+  const raw = String(value || "").trim();
+  if (!raw) return "";
+  if (/[\u4e00-\u9fa5]/.test(raw)) return raw;
+  const key = raw.replace(/^[^A-Za-z]*/, "");
+  return TAXON_CN[key] ?? EXTRA_CN[key] ?? "";
 }
 
 export function taxonomyLine(taxonomy: {
@@ -73,8 +80,14 @@ export function taxonomyLine(taxonomy: {
   family: string;
   genus: string;
 }): string {
-  return [taxonomy.class, taxonomy.order, taxonomy.family, taxonomy.genus]
-    .filter(Boolean)
-    .map(taxonCn)
+  const levels: Array<[string, string]> = [
+    ["纲", taxonomy.class],
+    ["目", taxonomy.order],
+    ["科", taxonomy.family],
+    ["属", taxonomy.genus],
+  ];
+  return levels
+    .filter(([, value]) => Boolean(value))
+    .map(([level, value]) => taxonCn(value) || `${level}待核验`)
     .join(" → ");
 }

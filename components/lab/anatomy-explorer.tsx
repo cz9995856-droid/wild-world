@@ -12,8 +12,13 @@ const ANATOMY_TEXT = (anatomyData.entries ?? {}) as Record<
 type Layer = "surface" | "skeleton" | "muscle";
 type Mode =
   | "tiger"
+  | "primate"
+  | "ungulate"
+  | "rodent"
   | "snub-monkey"
   | "pheasant"
+  | "songbird"
+  | "duck"
   | "salamander"
   | "frog"
   | "snake"
@@ -235,7 +240,7 @@ const TIGER_PARTS: Part[] = [
     x: 79,
     y: 40,
     summary: "短颌、强咬肌",
-    detail: "华南虎的犬齿粗壮，下颌短而厚，咬肌发达，适合制服中型有蹄类猎物。裂齿结构用于剪切肌肉与骨骼。",
+    detail: "食肉动物的犬齿粗壮，下颌短而厚，咬肌发达，适合制服中型有蹄类猎物。裂齿结构用于剪切肌肉与骨骼。",
     layer: "surface",
   },
   {
@@ -253,7 +258,7 @@ const TIGER_PARTS: Part[] = [
     x: 72,
     y: 34,
     summary: "宽颧弓、短吻",
-    detail: "猫科颅骨短而宽，颧弓粗壮以容纳咬肌。华南虎颅骨尺寸小于东北虎，符合其体型差异。",
+    detail: "猫科颅骨短而宽，颧弓粗壮以容纳咬肌。小型猫科颅骨尺寸通常小于大型猫科，符合其体型差异。",
     layer: "skeleton",
   },
   {
@@ -292,7 +297,7 @@ const SNUB_MONKEY_PARTS: Part[] = [
     x: 78,
     y: 34,
     summary: "鼻孔上仰",
-    detail: "金丝猴属的鼻梁短、鼻孔朝上，是“仰鼻猴”名称来源。这一特征在高山冷湿环境中可能与减少热量散失有关。",
+    detail: "仰鼻猴类的鼻梁短、鼻孔朝上，是“仰鼻猴”名称来源。这一特征在高山冷湿环境中可能与减少热量散失有关。",
     layer: "surface",
   },
   {
@@ -301,7 +306,7 @@ const SNUB_MONKEY_PARTS: Part[] = [
     x: 74,
     y: 40,
     summary: "裸露皮肤呈蓝灰",
-    detail: "川金丝猴面部皮肤裸露，呈淡蓝或灰蓝色；不同金丝猴种类的面部色彩与毛色差异是分类识别依据之一。",
+    detail: "川仰鼻猴面部皮肤裸露，呈淡蓝或灰蓝色；不同仰鼻猴种类的面部色彩与毛色差异是分类识别依据之一。",
     layer: "surface",
   },
   {
@@ -328,7 +333,7 @@ const SNUB_MONKEY_PARTS: Part[] = [
     x: 42,
     y: 38,
     summary: "攀爬与悬吊",
-    detail: "肩带与胸肌发达，支持攀爬、悬吊与跳跃；金丝猴在秦岭等高海拔森林中依赖树冠层移动。",
+    detail: "肩带与胸肌发达，支持攀爬、悬吊与跳跃；仰鼻猴在秦岭等高海拔森林中依赖树冠层移动。",
     layer: "muscle",
   },
   {
@@ -798,9 +803,299 @@ const CROCODILE_PARTS: Part[] = [
   },
 ];
 
+const UNGULATE_PARTS: Part[] = [
+  {
+    id: "ungulate-hoof",
+    label: "蹄",
+    x: 62,
+    y: 78,
+    summary: "角质蹄、承重与缓冲",
+    detail: "有蹄类以角质蹄包裹趾端，行走时承受体重并缓冲冲击。蹄的形态与栖息地相关：开阔草原多为硬蹄，山地种类蹄缘更灵活。",
+    layer: "surface",
+  },
+  {
+    id: "ungulate-horn",
+    label: "角或鹿角",
+    x: 82,
+    y: 32,
+    summary: "防御、求偶与同类竞争",
+    detail: "牛科多为终生不脱落的骨质角，鹿科多为周期性脱落的鹿角。角的有无与形态是识别性别和年龄的重要依据。",
+    layer: "surface",
+  },
+  {
+    id: "ungulate-teeth",
+    label: "齿列与磨齿",
+    x: 80,
+    y: 44,
+    summary: "草食性齿、研磨植食",
+    detail: "有蹄类臼齿宽大、具复杂釉质褶皱，适合研磨纤维性植物。鹿科与牛科的齿式差异可反映取食策略。",
+    layer: "skeleton",
+  },
+  {
+    id: "ungulate-gut",
+    label: "消化道",
+    x: 52,
+    y: 50,
+    summary: "反刍或后肠发酵",
+    detail: "牛科多为反刍动物，具多室胃；鹿科与部分有蹄类采用不同发酵策略。消化道结构决定其对植物纤维的利用效率。",
+    layer: "skeleton",
+  },
+  {
+    id: "ungulate-limb-muscle",
+    label: "四肢肌群",
+    x: 55,
+    y: 68,
+    summary: "奔跑与山地攀爬",
+    detail: "四肢肌群发达，支持长距离迁移与快速逃避。山地种类的屈肌与伸肌配置更利于在陡坡稳定移动。",
+    layer: "muscle",
+  },
+  {
+    id: "ungulate-tail",
+    label: "尾",
+    x: 18,
+    y: 54,
+    summary: "平衡与群体信号",
+    detail: "尾部在急转与攀爬时辅助平衡；部分种类的尾色与摆动方式可作为群体内的视觉信号。",
+    layer: "muscle",
+  },
+];
+
+const PRIMATE_PARTS: Part[] = [
+  {
+    id: "primate-thumb",
+    label: "对握拇指",
+    x: 40,
+    y: 52,
+    summary: "抓握树枝与食物",
+    detail: "灵长类拇指与其他指对握，能稳定抓握枝条、果实与工具。对握能力是树栖生活的关键适应。",
+    layer: "surface",
+  },
+  {
+    id: "primate-eyes",
+    label: "双眼立体视觉",
+    x: 76,
+    y: 34,
+    summary: "判断距离与抓取",
+    detail: "双眼朝前、视野重叠，形成立体视觉，便于在树冠层判断距离与精确抓取。",
+    layer: "surface",
+  },
+  {
+    id: "primate-arm",
+    label: "长臂与肩带",
+    x: 38,
+    y: 44,
+    summary: "攀爬、悬吊与跳跃",
+    detail: "肩带灵活、前肢较长，支持攀爬、悬吊与树间跳跃。不同类群的前后肢比例反映其运动方式。",
+    layer: "skeleton",
+  },
+  {
+    id: "primate-tail",
+    label: "尾",
+    x: 16,
+    y: 50,
+    summary: "平衡或缠绕抓握",
+    detail: "尾在树间移动时辅助平衡；部分种类尾腹面具皮垫，可缠绕枝条承担体重。",
+    layer: "skeleton",
+  },
+  {
+    id: "primate-nail",
+    label: "指端指甲",
+    x: 44,
+    y: 60,
+    summary: "指端灵活、触觉敏锐",
+    detail: "指端多为扁平指甲而非爪，配合丰富的触觉小体，提高精细操作与触觉分辨能力。",
+    layer: "surface",
+  },
+  {
+    id: "primate-shoulder-muscle",
+    label: "肩背肌群",
+    x: 42,
+    y: 38,
+    summary: "攀爬与悬吊发力",
+    detail: "肩背肌群发达，支持攀爬与悬吊运动；树栖程度越高，肩带肌群占比通常越大。",
+    layer: "muscle",
+  },
+];
+
+const RODENT_PARTS: Part[] = [
+  {
+    id: "rodent-incisor",
+    label: "门齿",
+    x: 82,
+    y: 40,
+    summary: "持续生长、啃咬",
+    detail: "啮齿类上下各一对门齿，终生持续生长，需通过啃咬磨损维持长度。釉质仅覆盖前缘，形成自锐结构。",
+    layer: "surface",
+  },
+  {
+    id: "rodent-cheek",
+    label: "颊囊",
+    x: 70,
+    y: 46,
+    summary: "暂存与搬运食物",
+    detail: "部分啮齿类具颊囊，可暂存食物并搬运至巢穴。颊囊容量与取食策略相关。",
+    layer: "surface",
+  },
+  {
+    id: "rodent-hindlimb",
+    label: "后肢",
+    x: 44,
+    y: 74,
+    summary: "跳跃与挖掘",
+    detail: "后肢形态差异大：跳鼠类后肢延长适合跳跃，鼢鼠类前肢与爪更发达，适合挖掘。",
+    layer: "skeleton",
+  },
+  {
+    id: "rodent-tail",
+    label: "尾",
+    x: 16,
+    y: 54,
+    summary: "平衡、攀爬或储存",
+    detail: "尾部功能多样：树栖种类用于平衡，部分种类尾可储存脂肪或作为社群信号。",
+    layer: "skeleton",
+  },
+  {
+    id: "rodent-skull",
+    label: "颅骨与咬肌",
+    x: 74,
+    y: 32,
+    summary: "啃咬力与听觉",
+    detail: "颅骨短而结实，咬肌发达；听泡较大，利于感知低频声与地面振动。",
+    layer: "muscle",
+  },
+  {
+    id: "rodent-fur",
+    label: "毛被",
+    x: 48,
+    y: 50,
+    summary: "保温与伪装",
+    detail: "毛被厚密，提供保温与伪装；高寒种类的毛被更长，色调多与栖息地背景接近。",
+    layer: "surface",
+  },
+];
+
+const SONGBIRD_PARTS: Part[] = [
+  {
+    id: "songbird-beak",
+    label: "喙",
+    x: 82,
+    y: 38,
+    summary: "取食与鸣叫",
+    detail: "雀形目喙形多样：食虫类细尖，食种类粗短。喙形是判断取食习性的直接外部特征。",
+    layer: "surface",
+  },
+  {
+    id: "songbird-syrinx",
+    label: "鸣管",
+    x: 62,
+    y: 46,
+    summary: "发声器官",
+    detail: "鸣管位于气管与支气管交界处，是雀形目鸣声的主要发声结构，受多组肌肉精细控制。",
+    layer: "surface",
+  },
+  {
+    id: "songbird-wing",
+    label: "翼",
+    x: 40,
+    y: 44,
+    summary: "短距飞行与机动",
+    detail: "雀形目翼形多样，多在林间短距飞行，强调机动性而非长距离滑翔。",
+    layer: "skeleton",
+  },
+  {
+    id: "songbird-foot",
+    label: "足趾",
+    x: 46,
+    y: 76,
+    summary: "栖握与抓附",
+    detail: "雀形目多为常态足（三前一后），趾具弯曲爪，可稳定抓握枝条；部分种类趾部特化以适应攀爬。",
+    layer: "skeleton",
+  },
+  {
+    id: "songbird-pec",
+    label: "胸肌",
+    x: 44,
+    y: 50,
+    summary: "飞行与鸣唱支撑",
+    detail: "胸肌驱动翼部运动；鸣唱时也需要稳定的呼吸支持，胸腹肌群协同控制气流。",
+    layer: "muscle",
+  },
+  {
+    id: "songbird-tail",
+    label: "尾羽",
+    x: 16,
+    y: 50,
+    summary: "平衡与姿态",
+    detail: "尾羽在飞行与停栖时辅助平衡，也参与求偶展示与警戒姿态。",
+    layer: "muscle",
+  },
+];
+
+const DUCK_PARTS: Part[] = [
+  {
+    id: "duck-bill",
+    label: "扁喙",
+    x: 84,
+    y: 42,
+    summary: "滤食与触觉",
+    detail: "鸭类喙宽扁，边缘具栉板，可在浅水中滤食水生植物与无脊椎动物；喙端触觉小体丰富。",
+    layer: "surface",
+  },
+  {
+    id: "duck-web",
+    label: "蹼足",
+    x: 46,
+    y: 78,
+    summary: "游泳推进",
+    detail: "趾间具蹼，划水时增大接触面积，是水禽游泳的主要推进结构。",
+    layer: "skeleton",
+  },
+  {
+    id: "duck-oil",
+    label: "尾脂腺",
+    x: 18,
+    y: 50,
+    summary: "分泌油脂、涂抹羽毛",
+    detail: "尾脂腺分泌油脂，个体用喙涂抹至羽毛，增强防水性并维持羽毛结构。",
+    layer: "surface",
+  },
+  {
+    id: "duck-wing",
+    label: "翼",
+    x: 40,
+    y: 44,
+    summary: "飞行与水面起飞",
+    detail: "鸭类翼形较宽，适合短距飞行与水面起飞；部分种类翅羽具金属光泽的翼镜。",
+    layer: "skeleton",
+  },
+  {
+    id: "duck-pec",
+    label: "胸肌",
+    x: 44, 
+    y: 50,
+    summary: "飞行发力",
+    detail: "胸肌附着于龙骨突，提供飞行推进力；潜水种类胸肌与后肢肌群的配置更利于水下运动。",
+    layer: "muscle",
+  },
+  {
+    id: "duck-down",
+    label: "绒羽",
+    x: 50,
+    y: 56,
+    summary: "保温与浮力",
+    detail: "贴身绒羽形成保温层，配合油脂防水，使水禽在低温水体中维持体温与浮力。",
+    layer: "surface",
+  },
+];
+
 const MODE_PARTS: Record<Mode, Part[]> = {
   tiger: TIGER_PARTS,
+  primate: PRIMATE_PARTS,
+  ungulate: UNGULATE_PARTS,
+  rodent: RODENT_PARTS,
   "snub-monkey": SNUB_MONKEY_PARTS,
+  songbird: SONGBIRD_PARTS,
+  duck: DUCK_PARTS,
   pheasant: PHEASANT_PARTS,
   salamander: SALAMANDER_PARTS,
   frog: FROG_PARTS,
@@ -814,8 +1109,13 @@ const MODE_PARTS: Record<Mode, Part[]> = {
 };
 
 const MODE_LABELS: Record<Mode, string> = {
-  tiger: "华南虎",
-  "snub-monkey": "金丝猴",
+  tiger: "食肉目",
+  primate: "灵长类",
+  ungulate: "有蹄类",
+  rodent: "啮齿类",
+  "snub-monkey": "仰鼻猴类",
+  songbird: "雀形目",
+  duck: "鸭雁类",
   pheasant: "雉类",
   salamander: "大鲵",
   frog: "蛙类",
@@ -830,7 +1130,12 @@ const MODE_LABELS: Record<Mode, string> = {
 
 const MODE_COLOR: Record<Mode, string> = {
   tiger: "#C97A3C",
+  primate: "#C7A55E",
+  ungulate: "#9A6B47",
+  rodent: "#A89574",
   "snub-monkey": "#C7A55E",
+  songbird: "#8A7A5B",
+  duck: "#7A6A4A",
   pheasant: "#8C4A2F",
   salamander: "#5B6B48",
   frog: "#6B7B4A",
@@ -849,12 +1154,17 @@ function modeForSlug(slug?: string, group?: string): Mode {
   if (/(lizard|agama)/.test(slug)) return "snake";
   if (/(viper|snake|krait|cobra)/.test(slug)) return "snake";
   if (/(turtle|tortoise)/.test(slug)) return "turtle";
-  if (/(sturgeon|paddlefish|sucker|schizothorax|barbel|lenok|taimen|fish)/.test(slug) || group === "fish") return "fish";
-  if (/(crane|tern|gull)/.test(slug)) return "crane";
+  if (group === "fish") return "fish";
+  if (/(crane|tern|gull|ibis)/.test(slug)) return "crane";
+  if (/(duck|goose|swan)/.test(slug)) return "duck";
+  if (/(tit|thrush|babbler|magpie|hwamei|parrotbill|fulvetta|warbler)/.test(slug)) return "songbird";
   if (group === "bird") return "pheasant";
-  if (/(frog|toad|hyla|microhyla|odorrana|quasipaa|rana|pelophylax|amops)/.test(slug)) return "frog";
+  if (/(frog|toad|hyla|microhyla|odorrana|quasipaa|rana|pelophylax|amops|polypedates)/.test(slug)) return "frog";
   if (group === "amphibian") return "salamander";
-  if (/(monkey|gibbon|macaque|langur)/.test(slug)) return "snub-monkey";
+  if (/(pika|squirrel|zokor|hare|rabbit)/.test(slug)) return "rodent";
+  if (/(monkey|gibbon|langur|macaque)/.test(slug)) return "primate";
+  if (/(deer|musk|serow|gazelle|antelope|takin|yak|milu|cattle|ox)/.test(slug)) return "ungulate";
+  if (group === "mammal") return "ungulate";
   return "tiger";
 }
 
@@ -903,7 +1213,7 @@ export function AnatomyExplorer({
       <div className="border border-[var(--line)] bg-[var(--surface)]">
         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--line)] p-3">
           <div className="flex gap-1">
-            {(["tiger", "snub-monkey", "pheasant", "salamander", "frog", "snake", "turtle", "crocodile", "fish", "crane", "elephant", "bird"] as Mode[]).map((m) => (
+            {(["tiger", "primate", "ungulate", "rodent", "pheasant", "songbird", "duck", "crane", "salamander", "frog", "snake", "turtle", "crocodile", "fish", "elephant", "bird"] as Mode[]).map((m) => (
               <button
                 key={m}
                 onClick={() => switchMode(m)}

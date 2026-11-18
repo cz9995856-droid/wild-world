@@ -96,10 +96,10 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
           <InfoBlock title="基础分类信息">
             <dl className="grid gap-3 sm:grid-cols-2">
               {[
-                ["纲", taxonCn(species.taxonomy.class)],
-                ["目", taxonCn(species.taxonomy.order)],
-                ["科", taxonCn(species.taxonomy.family)],
-                ["属", taxonCn(species.taxonomy.genus)],
+                ["纲", taxonCn(species.taxonomy.class) || "待核验"],
+                ["目", taxonCn(species.taxonomy.order) || "待核验"],
+                ["科", taxonCn(species.taxonomy.family) || "待核验"],
+                ["属", taxonCn(species.taxonomy.genus) || "待核验"],
               ].map(([label, value]) => (
                 <div key={label} className="border-t border-[var(--line)] pt-2">
                   <dt className="wc-field-label">{label}</dt>

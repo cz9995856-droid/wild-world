@@ -101,9 +101,12 @@ export function DailyCard({
           </div>
         </dl>
 
-        <div className="mt-6 flex justify-end">
-          <Link href="/explore" className="btn-primary">
-            探索更多 <ArrowRight size={15} />
+        <div className="mt-8 flex justify-end">
+          <Link
+            href="/explore"
+            className="btn-primary min-h-14 w-full justify-center px-8 py-4 text-[15px] sm:w-auto sm:min-w-[200px]"
+          >
+            探索更多 <ArrowRight size={18} />
           </Link>
         </div>
       </div>

@@ -25,11 +25,11 @@ export function DailyCard({
   dateKey: string;
 }) {
   return (
-    <section className="wc-hero-card relative" aria-label="动物时刻">
-      <div className="absolute right-4 top-4 z-20">
-        <ChinaFavoriteButton slug={species.slug} label={species.nameCn} />
-      </div>
+    <section className="wc-hero-card" aria-label="动物时刻">
       <div className="wc-hero-photo">
+        <div className="absolute right-4 top-4 z-20 sm:right-6 sm:top-6">
+          <ChinaFavoriteButton slug={species.slug} label={species.nameCn} />
+        </div>
         {placeholder && (
           <div
             aria-hidden="true"
@@ -108,9 +108,9 @@ export function DailyCard({
         <div className="mt-8 flex justify-end">
           <Link
             href="/explore"
-            className="btn-primary min-h-14 w-full justify-center px-8 py-4 text-[15px] sm:w-auto sm:min-w-[200px]"
+            className="btn-primary min-h-16 w-full justify-center px-10 py-5 text-[16px] sm:w-auto sm:min-w-[240px]"
           >
-            探索更多 <ArrowRight size={18} />
+            探索更多 <ArrowRight size={20} />
           </Link>
         </div>
       </div>

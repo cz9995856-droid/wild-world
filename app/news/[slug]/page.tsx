@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const article = await getNewsBySlug(slug);
   if (!article) return { title: "新闻未找到" };
   return {
-    title: article.title_cn ?? article.title_original,
+    title: article.title_cn ?? "中文标题待生成",
     description: (article.summary_cn ?? article.excerpt_original).slice(0, 150),
   };
 }
@@ -61,7 +61,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
             </div>
 
             <h1 className="display mt-5 text-[34px] leading-[1.08] sm:text-[44px]">
-              {article.title_cn ?? article.title_original}
+              {article.title_cn ?? "中文标题待生成"}
             </h1>
             {article.title_cn && (
               <p className="mt-3 font-serif text-[14px] italic leading-relaxed text-[var(--muted)]">英文原题：{article.title_original}</p>
@@ -69,7 +69,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
 
             <OfficialSourceBar
               href={article.original_url}
-              name={`${article.source_name} · ${article.title_original}`}
+              name={`${article.source_name} · 官方原文`}
               note={`该报道发布于 ${formatDate(article.published_at)}，版权归原媒体所有。本馆只提供官方原文入口，不转载全文与图片。`}
               cta="阅读官方原文"
               className="mt-7"
@@ -81,7 +81,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
               </p>
               {article.summary_cn && (
                 <p className="mt-3 text-[10px] leading-relaxed text-[var(--muted)]">
-                  中文摘要为馆方编辑依据 RSS 摘要整理，未逐句核对原文。完整内容请阅读原文。
+                  中文摘要为馆方编辑依据来源摘要整理，未逐句核对原文。完整内容请阅读原文。
                 </p>
               )}
             </div>
@@ -109,7 +109,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
                 阅读原文 <ExternalLink size={14} />
               </a>
               <a href={article.source_url} target="_blank" rel="noreferrer" className="btn-outline">
-                {article.source_name} RSS
+                {article.source_name} · 来源订阅
               </a>
             </div>
 
@@ -133,7 +133,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
                   该条目仍在审核队列
                 </p>
                 <p className="mt-2 text-[11px] leading-relaxed text-[var(--muted)]">
-                  当前展示的是源站原始标题与 RSS 摘要，尚未完成中文编辑与事实复核。审核通过后会标记为「编辑整理」或「已核验」。
+                  当前展示的是源站原始标题与来源摘要，尚未完成中文编辑与事实复核。审核通过后会标记为「编辑整理」或「已核验」。
                 </p>
               </div>
             )}
@@ -160,7 +160,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
                 <>
                   <p className="mt-1 text-[10.5px] leading-relaxed text-[var(--muted)]">{sourceInfo.focus}</p>
                   <p className="mt-3 text-[10px] text-[var(--muted)]">
-                    状态：{sourceInfo.status === "connected" ? "RSS 已连接" : sourceInfo.status === "blocked" ? "网络阻断" : "需授权"}
+                    状态：{sourceInfo.status === "connected" ? "订阅源已连接" : sourceInfo.status === "blocked" ? "网络阻断" : "需授权"}
                   </p>
                 </>
               )}
@@ -170,7 +170,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
                 rel="noreferrer"
                 className="mt-3 inline-flex items-center gap-1 text-[10.5px] underline"
               >
-                RSS 源地址 <ExternalLink size={10} />
+                来源订阅地址 <ExternalLink size={10} />
               </a>
             </div>
 

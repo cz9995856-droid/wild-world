@@ -3,7 +3,7 @@ import { shanghaiDateKey } from "@/lib/wildchina/daily";
 import { getSpeciesImage } from "@/lib/wildchina/media";
 import { CHINA_SPECIES } from "@/lib/wildchina/species";
 import { DailyRotator, type AnimalMomentItem } from "@/components/wildchina/daily-rotator";
-import { WcBrand } from "@/components/wildchina/wc-brand";
+import { WcHeader } from "@/components/wildchina/wc-header";
 import lqipData from "@/public/data/home-lqip.json";
 
 const LQIP = (lqipData.placeholders ?? {}) as Record<string, string>;
@@ -47,9 +47,7 @@ export default function HomePage() {
 
   return (
     <div className="wc-frame">
-      <header className="flex items-center justify-between">
-        <WcBrand />
-      </header>
+      <WcHeader />
       <DailyRotator items={items} dateKey={dateKey} />
     </div>
   );

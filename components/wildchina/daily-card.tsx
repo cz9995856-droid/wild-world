@@ -3,6 +3,7 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 import type { ChinaSpecies } from "@/lib/wildchina/species";
 import type { ChinaImage } from "@/lib/wildchina/media";
 import { WcPhoto } from "@/components/wildchina/wc-photo";
+import { ChinaFavoriteButton } from "@/components/wildchina/china-favorite-button";
 import { taxonomyLine } from "@/lib/wildchina/taxonomy";
 
 const NONE = "暂无记录";
@@ -24,7 +25,10 @@ export function DailyCard({
   dateKey: string;
 }) {
   return (
-    <section className="wc-hero-card" aria-label="动物时刻">
+    <section className="wc-hero-card relative" aria-label="动物时刻">
+      <div className="absolute right-4 top-4 z-20">
+        <ChinaFavoriteButton slug={species.slug} label={species.nameCn} />
+      </div>
       <div className="wc-hero-photo">
         {placeholder && (
           <div

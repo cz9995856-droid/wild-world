@@ -22,7 +22,7 @@ export function OfficialSourceBar({
       )}
     >
       <div className="min-w-0">
-        <p className="label text-[var(--clay)]">Official source · 官方来源</p>
+        <p className="label text-[var(--clay)]">官方来源</p>
         <p className="mt-1 truncate text-[13px] font-medium text-[var(--ink-soft)]">{name}</p>
         {note && <p className="mt-0.5 text-[10.5px] leading-relaxed text-[var(--muted)]">{note}</p>}
       </div>

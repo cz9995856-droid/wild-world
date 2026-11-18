@@ -69,7 +69,14 @@ const TAXON_CN: Record<string, string> = {
 export function taxonCn(value: string): string {
   const raw = String(value || "").trim();
   if (!raw) return "";
-  if (/[\u4e00-\u9fa5]/.test(raw)) return raw;
+  if (/[\u4e00-\u9fa5]/.test(raw)) {
+    const cjk = raw
+      .replace(/[A-Za-z][A-Za-z .'-]*/g, "")
+      .replace(/[（()）]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    return cjk || raw;
+  }
   const key = raw.replace(/^[^A-Za-z]*/, "");
   return TAXON_CN[key] ?? EXTRA_CN[key] ?? "";
 }

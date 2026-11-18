@@ -11,6 +11,7 @@ import {
   type ChinaGroup,
 } from "@/lib/wildchina/species";
 import { getSpeciesImage, thumbUrl } from "@/lib/wildchina/media";
+import { taxonCn } from "@/lib/wildchina/taxonomy";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
@@ -52,17 +53,22 @@ export default async function ChinaEncyclopediaPage({
     if (current.status && species.conservation.status !== current.status) return false;
     if (current.province && !species.provinces.includes(current.province)) return false;
     if (!q) return true;
+    const terms = q.split(/\s+/).filter(Boolean);
+    if (terms.length === 0) return true;
     const haystack = [
       species.nameCn,
       species.englishName,
       species.scientificName,
       ...species.aliases,
+      species.groupLabel,
       species.taxonomy.family,
+      taxonCn(species.taxonomy.family),
       species.taxonomy.order,
+      taxonCn(species.taxonomy.order),
     ]
       .join(" ")
       .toLowerCase();
-    return haystack.includes(q);
+    return terms.every((term) => haystack.includes(term));
   });
 
   const provinces = [...new Set(CHINA_SPECIES.flatMap((species) => species.provinces))];

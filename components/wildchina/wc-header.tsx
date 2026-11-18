@@ -1,11 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
-import { Heart, Moon, Search, Sun } from "lucide-react";
+import { Heart, Moon, Sun } from "lucide-react";
 import { useUI } from "@/components/providers";
 import { WcBrand } from "@/components/wildchina/wc-brand";
+import { SearchSuggest } from "@/components/wildchina/search-suggest";
 
 const NAV = [
   { href: "/explore/encyclopedia", label: "物种图鉴" },
@@ -15,34 +14,14 @@ const NAV = [
 ];
 
 export function WcHeader({ query = "" }: { query?: string }) {
-  const router = useRouter();
   const { theme, toggleTheme, favorites } = useUI();
-  const [value, setValue] = useState(query);
-
-  function submit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    const q = value.trim();
-    router.push(q ? `/explore/encyclopedia?q=${encodeURIComponent(q)}` : "/explore/encyclopedia");
-  }
 
   return (
     <div className="wc-header-sticky">
       <header className="wc-nav">
         <WcBrand />
 
-        <form className="wc-search" onSubmit={submit} role="search">
-          <Search size={18} className="shrink-0 text-[var(--muted)]" aria-hidden="true" />
-          <input
-            value={value}
-            onChange={(event) => setValue(event.target.value)}
-            placeholder="搜索中文名、别名或拉丁学名"
-            aria-label="搜索物种中文名、别名或拉丁学名"
-            name="q"
-          />
-          <button type="submit" className="shrink-0 text-[11px] tracking-[0.18em] text-[var(--muted)]">
-            搜索
-          </button>
-        </form>
+        <SearchSuggest initialQuery={query} />
 
         <div className="flex items-center gap-2">
           <button

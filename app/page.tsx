@@ -4,6 +4,9 @@ import { getSpeciesImage } from "@/lib/wildchina/media";
 import { CHINA_SPECIES } from "@/lib/wildchina/species";
 import { DailyRotator, type AnimalMomentItem } from "@/components/wildchina/daily-rotator";
 import { WcBrand } from "@/components/wildchina/wc-brand";
+import lqipData from "@/public/data/home-lqip.json";
+
+const LQIP = (lqipData.placeholders ?? {}) as Record<string, string>;
 
 export const metadata: Metadata = {
   title: { absolute: "WildChina · 中国特有脊椎动物数字自然博物馆" },
@@ -36,6 +39,7 @@ export default function HomePage() {
               endemic: s.endemic,
             },
             image,
+            placeholder: LQIP[s.slug],
           },
         ];
       })

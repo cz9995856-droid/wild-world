@@ -15,15 +15,24 @@ export type CardSpecies = Pick<
 export function DailyCard({
   species,
   image,
+  placeholder,
   dateKey,
 }: {
   species: CardSpecies;
   image: ChinaImage | null;
+  placeholder?: string;
   dateKey: string;
 }) {
   return (
     <section className="wc-hero-card" aria-label="动物时刻">
       <div className="wc-hero-photo">
+        {placeholder && (
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 scale-110 bg-cover bg-center blur-2xl"
+            style={{ backgroundImage: `url("${placeholder}")` }}
+          />
+        )}
         <WcPhoto
           src={image?.url ?? null}
           alt={`${species.nameCn} ${species.scientificName}`}

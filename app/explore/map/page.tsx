@@ -20,14 +20,14 @@ export default function ChinaMapPage() {
           </p>
         </div>
         <p className="text-[11px] leading-relaxed text-[var(--muted)]">
-          当前可用图层：动物分布
+          当前可用图层：动物分布 · 生态环境 · 自然保护区 · 重点保护区域
           <br />
-          生态环境 / 自然保护区 / 重点保护区域：待可核验数据接入
+          生态与保护图层为编辑整理示意点位，非官方边界
         </p>
       </div>
       <ChinaMap />
       <p className="mt-6 text-[10.5px] leading-relaxed text-[var(--muted)]">
-        省级记录来自本馆编辑整理的中国特有脊椎动物档案，不等同于完整分布范围。省界底图为公开 GeoJSON 数据，仅用于索引展示。
+        省级记录来自本馆编辑整理的中国特有脊椎动物档案，不等同于完整分布范围。生态区与保护地图层为示意点位，用于理解地理格局，不作行政或法律依据；省界底图为公开 GeoJSON 数据，仅用于索引展示。
       </p>
     </div>
   );

@@ -55,7 +55,7 @@ export function DailyCard({
       </div>
 
       <div className="wc-hero-panel relative">
-        <div className="absolute right-0 top-12 z-10 sm:top-14">
+        <div className="absolute right-0 top-16 z-10 sm:top-20">
           <ChinaFavoriteButton slug={species.slug} label={species.nameCn} />
         </div>
         <div className="flex items-center justify-between gap-4">

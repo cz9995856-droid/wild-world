@@ -5,6 +5,7 @@ import maplibregl, { type Map as MlMap } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Layers, Loader2 } from "lucide-react";
 import { CHINA_SPECIES } from "@/lib/wildchina/species";
+import mapLayerData from "@/public/data/map-layers.json";
 import { cn } from "@/lib/utils";
 
 type GeoFeature = {
@@ -15,12 +16,20 @@ type GeoFeature = {
 
 type ProvinceCollection = { type: "FeatureCollection"; features: GeoFeature[] };
 
+type OverlayPoint = { name: string; lat: number; lng: number; radius?: number; note?: string; province?: string };
+
 const LAYERS = [
-  { id: "species", label: "动物分布", ready: true },
-  { id: "habitat", label: "生态环境", ready: false },
-  { id: "reserve", label: "自然保护区", ready: false },
-  { id: "priority", label: "重点保护区域", ready: false },
+  { id: "species", label: "动物分布", ready: true, note: "省级记录索引" },
+  { id: "habitat", label: "生态环境", ready: true, note: "生态区示意" },
+  { id: "reserve", label: "自然保护区", ready: true, note: "国家级保护区示意点位" },
+  { id: "priority", label: "重点保护区域", ready: true, note: "生物多样性优先区示意点位" },
 ] as const;
+
+const OVERLAYS: Record<string, OverlayPoint[]> = {
+  habitat: (mapLayerData.ecoregions ?? []) as OverlayPoint[],
+  reserve: (mapLayerData.reserves ?? []) as OverlayPoint[],
+  priority: (mapLayerData.priorities ?? []) as OverlayPoint[],
+};
 
 function normalizeProvince(name: string) {
   return name
@@ -46,6 +55,7 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
   const [layer, setLayer] = useState<(typeof LAYERS)[number]["id"]>("species");
   const [selected, setSelected] = useState<string | null>(null);
   const [collection, setCollection] = useState<ProvinceCollection | null>(null);
+  const [overlayName, setOverlayName] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -79,6 +89,7 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
         version: 8,
         sources: {
           provinces: { type: "geojson", data: collection as unknown as GeoJSON.FeatureCollection },
+          overlay: { type: "geojson", data: { type: "FeatureCollection", features: [] } as unknown as GeoJSON.FeatureCollection },
         },
         layers: [
           { id: "background", type: "background", paint: { "background-color": "#ede6d8" } },
@@ -109,6 +120,28 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
             source: "provinces",
             paint: { "line-color": "#163a2b", "line-width": 0.7, "line-opacity": 0.45 },
           },
+          {
+            id: "overlay-fill",
+            type: "circle",
+            source: "overlay",
+            paint: {
+              "circle-radius": ["case", ["==", ["get", "kind"], "habitat"], 34, 6.5],
+              "circle-color": [
+                "match",
+                ["get", "kind"],
+                "habitat",
+                "#6f9478",
+                "reserve",
+                "#2f5c43",
+                "priority",
+                "#C29B4A",
+                "#2f5c43",
+              ],
+              "circle-opacity": ["case", ["==", ["get", "kind"], "habitat"], 0.28, 0.85],
+              "circle-stroke-color": "#163a2b",
+              "circle-stroke-width": 0.9,
+            },
+          },
         ],
       },
       center: [104, 35.5],
@@ -125,6 +158,13 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
     map.on("click", "province-fill", (event) => {
       const name = event.features?.[0]?.properties?.name;
       if (typeof name === "string") setSelected(name);
+    });
+    map.on("click", "overlay-fill", (event) => {
+      const name = event.features?.[0]?.properties?.name;
+      if (typeof name === "string") setOverlayName(name);
+    });
+    map.on("mousemove", "overlay-fill", () => {
+      map.getCanvas().style.cursor = "pointer";
     });
     map.on("mousemove", "province-fill", () => {
       map.getCanvas().style.cursor = "pointer";
@@ -144,6 +184,23 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
       mapRef.current = null;
     };
   }, [collection]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !ready) return;
+    const points = OVERLAYS[layer] ?? [];
+    const data = {
+      type: "FeatureCollection",
+      features: points.map((point) => ({
+        type: "Feature",
+        geometry: { type: "Point", coordinates: [point.lng, point.lat] },
+        properties: { ...point, kind: layer },
+      })),
+    };
+    const source = map.getSource("overlay") as maplibregl.GeoJSONSource | undefined;
+    source?.setData(data as unknown as GeoJSON.FeatureCollection);
+    setOverlayName(null);
+  }, [layer, ready]);
 
   const selectedSpecies = useMemo(() => (selected ? speciesForProvince(selected) : []), [selected]);
   const activeLayer = LAYERS.find((item) => item.id === layer);
@@ -171,7 +228,7 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
           <p className="flex items-center gap-1.5 text-[var(--ink-soft)]">
             <Layers size={12} /> 省级分布索引
           </p>
-          <p className="mt-1 leading-relaxed">颜色越深表示该省有记录的物种越多；行政区不等于真实栖息地。</p>
+          <p className="mt-1 leading-relaxed">动物分布：颜色越深表示该省记录物种越多；生态/保护图层为示意点位，不代表官方边界。</p>
         </div>
 
         <p className="pointer-events-none absolute bottom-1 right-3 z-10 text-[9px] text-[var(--muted)]">
@@ -203,11 +260,36 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
               </button>
             ))}
           </div>
-          {activeLayer && !activeLayer.ready && (
+          {activeLayer && (
             <p className="mt-3 text-[10px] leading-relaxed text-[var(--muted)]">
-              「{activeLayer.label}」图层尚未接入可核验数据，暂不显示，避免用推测数据填充地图。
+              {activeLayer.ready
+                ? `「${activeLayer.label}」：${activeLayer.note}。点位为编辑整理示意，非官方边界。`
+                : `「${activeLayer.label}」图层尚未接入可核验数据。`}
             </p>
           )}
+          {OVERLAYS[layer]?.length ? (
+            <div className="mt-3 max-h-[220px] overflow-y-auto border-t border-[var(--line)] pt-2">
+              {OVERLAYS[layer].map((point) => (
+                <button
+                  key={point.name}
+                  type="button"
+                  onClick={() => setOverlayName(point.name)}
+                  className={cn(
+                    "block w-full border-b border-[var(--line)] px-1 py-1.5 text-left text-[10.5px] transition-colors last:border-0",
+                    overlayName === point.name ? "text-[var(--forest)]" : "text-[var(--ink-soft)] hover:text-[var(--forest)]"
+                  )}
+                >
+                  {point.name}
+                  {point.province ? <span className="ml-1 text-[9px] text-[var(--muted)]">{point.province}</span> : null}
+                </button>
+              ))}
+            </div>
+          ) : null}
+          {overlayName ? (
+            <p className="mt-2 text-[10px] leading-relaxed text-[var(--muted)]">
+              {OVERLAYS[layer]?.find((p) => p.name === overlayName)?.note ?? "示意点位，用于理解该区域的生态与保护意义。"}
+            </p>
+          ) : null}
         </div>
 
         <div className="border border-[var(--line)] bg-[var(--surface)] p-4">

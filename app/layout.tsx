@@ -33,6 +33,12 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh-CN" suppressHydrationWarning>
+      <head>
+        <link rel="preconnect" href="https://inaturalist-open-data.s3.amazonaws.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://inaturalist-open-data.s3.amazonaws.com" />
+        <link rel="preconnect" href="https://api.gbif.org" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://api.gbif.org" />
+      </head>
       <body className="min-h-screen antialiased">
         <Providers initialLocale="zh">
           <main id="main">{children}</main>

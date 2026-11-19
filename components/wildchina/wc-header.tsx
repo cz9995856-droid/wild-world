@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Heart, Moon, Sun } from "lucide-react";
 import { useUI } from "@/components/providers";
 import { WcBrand } from "@/components/wildchina/wc-brand";

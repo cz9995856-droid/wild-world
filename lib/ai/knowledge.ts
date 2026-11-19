@@ -38,6 +38,13 @@ export function retrieveSpecies(question: string, species: Species[], limit = 3)
         reasons.push(`名称命中：${name}`);
       }
     }
+    if (s.name_cn.length >= 3 && !q.includes(s.name_cn.toLowerCase())) {
+      const core = s.name_cn.slice(-3);
+      if (q.includes(core)) {
+        score += 60;
+        reasons.push(`名称近似：${core}`);
+      }
+    }
     const fields = [
       { text: s.summary, weight: 2, label: "概述" },
       { text: s.diet, weight: 3, label: "食性" },

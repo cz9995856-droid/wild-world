@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import "./wildchina.css";
+import "./handbook.css";
 import { Providers } from "@/components/providers";
 import { WC } from "@/lib/wildchina/site";
 

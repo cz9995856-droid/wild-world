@@ -7,14 +7,14 @@ import { WcBrand } from "@/components/wildchina/wc-brand";
 import { SearchSuggest } from "@/components/wildchina/search-suggest";
 
 const NAV = [
-  { href: "/explore/encyclopedia", label: "物种图鉴" },
-  { href: "/explore/lab", label: "生命实验室" },
-  { href: "/explore/map", label: "生态地图" },
-  { href: "/explore/conservation", label: "保护与发现" },
+  { href: "/explore/encyclopedia", label: "发现" },
+  { href: "/explore/collection", label: "收集" },
+  { href: "/explore/lab", label: "挑战" },
 ];
 
 export function WcHeader({ query = "" }: { query?: string }) {
   const { theme, toggleTheme, favorites } = useUI();
+  const pathname = usePathname();
 
   return (
     <div className="wc-header-sticky">
@@ -53,6 +53,18 @@ export function WcHeader({ query = "" }: { query?: string }) {
         {NAV.map((item) => (
           <Link key={item.href} href={item.href}>
             {item.label}
+          </Link>
+        ))}
+      </nav>
+
+      <nav className="hb-bottom-nav" aria-label="移动端主导航">
+        {NAV.map((item) => (
+          <Link
+            key={item.href}
+            href={item.href}
+            aria-current={pathname?.startsWith(item.href) ? "page" : undefined}
+          >
+            <span>{item.label}</span>
           </Link>
         ))}
       </nav>

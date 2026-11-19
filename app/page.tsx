@@ -90,7 +90,6 @@ export default function HomePage() {
         <MissionCard
           dateKey={dateKey}
           province={province}
-          group={group}
           groupLabel={groupLabel}
           count={2}
           href={missionHref}

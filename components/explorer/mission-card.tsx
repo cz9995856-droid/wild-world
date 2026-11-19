@@ -7,14 +7,12 @@ import { ArrowRight, Check, Target } from "lucide-react";
 export function MissionCard({
   dateKey,
   province,
-  group,
   groupLabel,
   count,
   href,
 }: {
   dateKey: string;
   province: string;
-  group: string;
   groupLabel: string;
   count: number;
   href: string;

@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import maplibregl, { type Map as MlMap } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { Layers, Loader2 } from "lucide-react";
+import { Loader2 } from "lucide-react";
 import { CHINA_SPECIES } from "@/lib/wildchina/species";
 import mapLayerData from "@/public/data/map-layers.json";
 import { cn } from "@/lib/utils";
@@ -146,6 +146,13 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
       },
       center: [104, 35.5],
       zoom: 3.2,
+      minZoom: 2.8,
+      maxZoom: 8,
+      maxBounds: [
+        [70, 14],
+        [140, 56],
+      ],
+      renderWorldCopies: false,
       attributionControl: false,
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
@@ -206,8 +213,8 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
   const activeLayer = LAYERS.find((item) => item.id === layer);
 
   return (
-    <div className="grid gap-4 lg:grid-cols-[1fr_340px]">
-      <div className={cn("relative overflow-hidden border border-[var(--line)] bg-[var(--surface-2)]", height)}>
+    <div className="grid gap-4 lg:grid-cols-[1fr_360px] lg:items-start">
+      <div className={cn("relative overflow-hidden border border-[var(--line)] bg-[var(--surface-2)] lg:h-[68svh] lg:min-h-[460px]", height)}>
         <div className="absolute inset-0">
           <div ref={containerRef} className="h-full w-full" />
         </div>
@@ -224,19 +231,32 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
           </div>
         )}
 
-        <div className="pointer-events-none absolute left-3 top-3 z-10 max-w-[240px] border border-[var(--line)] bg-[color-mix(in_srgb,var(--surface)_92%,transparent)] px-3 py-2 text-[10.5px] text-[var(--muted)] shadow-sm backdrop-blur">
-          <p className="flex items-center gap-1.5 text-[var(--ink-soft)]">
-            <Layers size={12} /> 省级分布索引
-          </p>
-          <p className="mt-1 leading-relaxed">动物分布：颜色越深表示该省记录物种越多；生态/保护图层为示意点位，不代表官方边界。</p>
-        </div>
-
         <p className="pointer-events-none absolute bottom-1 right-3 z-10 text-[9px] text-[var(--muted)]">
           省界：阿里云 DataV GeoJSON · 公开数据；仅作索引，不代表物种真实分布范围
         </p>
       </div>
 
-      <aside className="space-y-3">
+      <aside className="space-y-3 lg:max-h-[68svh] lg:overflow-y-auto lg:pr-1">
+        {overlayName ? (
+          <div className="border border-[var(--forest)] bg-[var(--surface)] p-4">
+            <div className="flex items-start justify-between gap-2">
+              <p className="wc-field-label text-[var(--forest)]">选中点位</p>
+              <button
+                type="button"
+                onClick={() => setOverlayName(null)}
+                className="text-[10px] text-[var(--muted)] hover:text-[var(--ink)]"
+                aria-label="关闭点位信息"
+              >
+                关闭
+              </button>
+            </div>
+            <p className="mt-1 text-[14px]">{overlayName}</p>
+            <p className="mt-2 text-[11px] leading-relaxed text-[var(--ink-soft)]">
+              {OVERLAYS[layer]?.find((p) => p.name === overlayName)?.note ?? "示意点位，用于理解该区域的生态与保护意义。"}
+            </p>
+            <p className="mt-2 text-[9.5px] text-[var(--muted)]">点位为编辑整理示意，非官方边界。</p>
+          </div>
+        ) : null}
         <div className="border border-[var(--line)] bg-[var(--surface)] p-4">
           <p className="wc-field-label">图层切换</p>
           <div className="mt-3 space-y-1.5">
@@ -293,14 +313,17 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
         </div>
 
         <div className="border border-[var(--line)] bg-[var(--surface)] p-4">
-          <p className="wc-field-label">{selected ?? "点击省份"}</p>
+          <p className="wc-field-label">{selected ? `${selected} · ${selectedSpecies.length} 条记录` : "点击省份"}</p>
           {selected ? (
             selectedSpecies.length > 0 ? (
               <ul className="mt-3 space-y-2">
                 {selectedSpecies.map((species) => (
                   <li key={species.slug}>
                     <a href={`/explore/encyclopedia/${species.slug}`} className="flex items-baseline justify-between gap-2 border-b border-[var(--line)] pb-2 text-[12px] hover:text-[var(--forest)]">
-                      <span>{species.nameCn}</span>
+                      <span>
+                        {species.nameCn}
+                        <span className="ml-1.5 text-[9px] text-[var(--muted)]">{species.groupLabel}</span>
+                      </span>
                       <span className="text-[9.5px] text-[var(--muted)]">{species.conservation.status}</span>
                     </a>
                   </li>

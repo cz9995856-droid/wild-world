@@ -10,6 +10,7 @@ const NAV = [
   { href: "/explore/encyclopedia", label: "物种图鉴" },
   { href: "/explore/lab", label: "生命实验室" },
   { href: "/explore/challenge", label: "生命挑战" },
+  { href: "/explore/mentor", label: "AI 导师" },
   { href: "/explore/conservation", label: "保护与发现" },
 ];
 

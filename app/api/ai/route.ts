@@ -24,9 +24,9 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "rate_limited", message: "提问过于频繁，请稍后再试。" }, { status: 429 });
   }
 
-  let body: { question?: unknown; locale?: unknown };
+  let body: { question?: unknown; locale?: unknown; history?: unknown };
   try {
-    body = (await request.json()) as { question?: unknown; locale?: unknown };
+    body = (await request.json()) as { question?: unknown; locale?: unknown; history?: unknown };
   } catch {
     return NextResponse.json({ error: "invalid_json" }, { status: 400 });
   }
@@ -39,8 +39,18 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "question_too_long", message: "问题请控制在 500 字以内。" }, { status: 400 });
   }
 
+  const historyInput = Array.isArray(body.history) ? body.history : [];
+  const history = historyInput
+    .filter((item): item is { role: "user" | "assistant"; content: string } => {
+      if (!item || typeof item !== "object") return false;
+      const record = item as Record<string, unknown>;
+      return (record.role === "user" || record.role === "assistant") && typeof record.content === "string";
+    })
+    .slice(-4)
+    .map((item) => ({ role: item.role, content: item.content.slice(0, 600) }));
+
   const [species, news] = await Promise.all([getAllSpecies(), getNews()]);
-  const result = await answerQuestion(question, species, news, locale);
+  const result = await answerQuestion(question, species, news, locale, history);
   return NextResponse.json({
     ...result,
     provider_configured: isLlmConfigured(),

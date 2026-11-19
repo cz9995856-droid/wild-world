@@ -51,7 +51,8 @@ export async function answerQuestion(
   question: string,
   species: Species[],
   news: NewsArticle[],
-  locale: "zh" | "en"
+  locale: "zh" | "en",
+  history?: Array<{ role: "user" | "assistant"; content: string }>
 ): Promise<AiAnswer> {
   const intents = detectIntents(question);
   const matches = retrieveSpecies(question, species, 3);
@@ -89,6 +90,7 @@ export async function answerQuestion(
         max_tokens: 900,
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
+          ...(history ?? []).slice(-4).map((item) => ({ role: item.role, content: item.content })),
           {
             role: "user",
             content: `馆藏资料：\n${context || "（无匹配资料）"}\n\n用户问题：${question}\n\n请以${locale === "zh" ? "中文" : "English"}回答。`,

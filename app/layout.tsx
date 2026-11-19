@@ -7,13 +7,13 @@ import { WC } from "@/lib/wildchina/site";
 export const metadata: Metadata = {
   metadataBase: new URL(WC.url),
   title: {
-    default: "WildChina · 中国特有脊椎动物探索",
+    default: "WildChina · 中国特有脊椎动物探索者计划",
     template: "%s · WildChina",
   },
   description: WC.description,
-  keywords: ["中国特有动物", "野生动物", "自然科普", "物种图鉴", "生态保护", "WildChina"],
+  keywords: ["中国特有动物", "野生动物", "自然科普", "物种图鉴", "生态保护", "WildChina", "探索者计划", "青少年科普"],
   openGraph: {
-    title: "WildChina · 中国特有脊椎动物探索",
+    title: "WildChina · 中国特有脊椎动物探索者计划",
     description: WC.description,
     type: "website",
     locale: "zh_CN",

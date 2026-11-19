@@ -1,10 +1,10 @@
 export const WC = {
   name: "WildChina",
   nameCn: "野性中国",
-  tagline: "中国特有脊椎动物数字自然博物馆",
+  tagline: "中国特有脊椎动物探索者计划",
   taglineEn: "A Digital Museum of China's Endemic Vertebrates",
   description:
-    "WildChina（野性中国）是中国特有脊椎动物的数字自然博物馆：以物种档案为馆藏，用可追溯的来源、逐张核验的影像与克制的叙事，呈现中国独有野生生命的形态、生态与保护价值。",
+    "WildChina（野性中国）是中国特有脊椎动物探索者计划：361 种真实馆藏、每日任务、互动实验与可追溯数据，面向青少年理解中国野生生命的形态、生态与保护价值。",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
 };
 

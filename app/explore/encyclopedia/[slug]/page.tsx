@@ -54,6 +54,14 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
   const code = String(index + 1).padStart(3, "0");
   const accent = GROUP_ACCENT[species.group] ?? "var(--ink)";
 
+  const imageNote = hero
+    ? hero.review_status === "illustration"
+      ? "示意图 · 非实拍"
+      : hero.license && /NC/i.test(hero.license)
+        ? `${hero.license} · 非商业使用`
+        : null
+    : null;
+
   const oneLine =
     species.endemic === "strict"
       ? `全世界只有中国有野外种群的${species.nameCn}。`
@@ -107,6 +115,8 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
             ]}
             distribution={species.distribution}
             habitats={species.habitats.join("、")}
+            sourceNote={species.detailSource ? `${species.detailSource.name} · ${species.detailSource.retrievedAt}` : null}
+            imageNote={imageNote}
           />
         </div>
 
@@ -181,6 +191,15 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
               <SubBlock label="外貌及形态特征">{species.morphology}</SubBlock>
               <SubBlock label="生活习性">{species.behavior}</SubBlock>
               <SubBlock label="食性与繁殖">{species.dietReproduction}</SubBlock>
+              {species.detailSource && (
+                <p className="mt-3 border-t border-[var(--line)] pt-2 text-[9.5px] leading-relaxed text-[var(--muted)]">
+                  本页形态与生态信息来自
+                  <a href={species.detailSource.url} target="_blank" rel="noreferrer" className="mx-1 underline">
+                    {species.detailSource.name}
+                  </a>
+                  （{species.detailSource.retrievedAt} 抓取）。原文引用：{species.detailSource.citation}
+                </p>
+              )}
             </DetailPanel>
 
             <DetailPanel title="栖息环境">
@@ -285,6 +304,18 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
               <p className="text-[10px] text-[var(--muted)]">保护等级口径</p>
               <p className="mt-1 text-[11.5px] leading-relaxed text-[var(--ink-soft)]">{species.conservation.note}</p>
             </div>
+            {species.detailSource && (
+              <div>
+                <p className="text-[10px] text-[var(--muted)]">字段级来源</p>
+                <p className="mt-1 text-[11.5px] leading-relaxed text-[var(--ink-soft)]">
+                  形态、生境、习性与保护等级：
+                  <a href={species.detailSource.url} target="_blank" rel="noreferrer" className="underline">
+                    {species.detailSource.name}
+                  </a>
+                  ，{species.detailSource.retrievedAt} 抓取。引用格式：{species.detailSource.citation}
+                </p>
+              </div>
+            )}
             <div>
               <p className="text-[10px] text-[var(--muted)]">资料来源</p>
               <ul className="mt-1.5 space-y-1.5 text-[11.5px]">

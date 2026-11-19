@@ -2,6 +2,9 @@ import raw from "@/public/data/china-media.json";
 import amphibianRaw from "@/public/data/china-media-amphibians.json";
 import extraRaw from "@/public/data/china-media-extra.json";
 import habitatRaw from "@/public/data/china-media-habitat.json";
+import amphibianSourcedRaw from "@/public/data/china-media-amphibians-sourced.json";
+import amphibianLocalizedRaw from "@/public/data/china-media-amphibians-localized.json";
+import amphibianIllustrationRaw from "@/public/data/china-media-amphibians-illustration.json";
 
 export interface ChinaImage {
   url: string;
@@ -26,8 +29,11 @@ interface ChinaMediaEntry {
 
 const BASE_MEDIA = {
   ...(raw.species as Record<string, ChinaMediaEntry>),
+  ...(amphibianIllustrationRaw.species as Record<string, ChinaMediaEntry>),
   ...(amphibianRaw.species as Record<string, ChinaMediaEntry>),
   ...(extraRaw.species as Record<string, ChinaMediaEntry>),
+  ...(amphibianSourcedRaw.species as Record<string, ChinaMediaEntry>),
+  ...(amphibianLocalizedRaw.species as Record<string, ChinaMediaEntry>),
 };
 
 const HABITAT_MEDIA = (habitatRaw.species ?? {}) as Record<string, ChinaMediaEntry>;
@@ -39,6 +45,17 @@ export const CHINA_MEDIA = Object.entries(HABITAT_MEDIA).reduce<Record<string, C
   },
   { ...BASE_MEDIA }
 );
+
+const ILLUSTRATIONS = amphibianIllustrationRaw.species as Record<string, ChinaMediaEntry>;
+const ND_LICENSE = /by-nc-nd/i;
+
+for (const [slug, entry] of Object.entries(ILLUSTRATIONS)) {
+  const current = CHINA_MEDIA[slug]?.hero;
+  const needsReplace = !current || (ND_LICENSE.test(current.license ?? "") && /^https?:/.test(current.url ?? ""));
+  if (needsReplace && entry.hero) {
+    CHINA_MEDIA[slug] = { ...(CHINA_MEDIA[slug] ?? {}), hero: entry.hero };
+  }
+}
 
 export function getSpeciesImage(slug: string, slot: ChinaMediaSlot): ChinaImage | null {
   return CHINA_MEDIA[slug]?.[slot] ?? null;

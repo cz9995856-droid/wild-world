@@ -1,7 +1,15 @@
 import amphibianData from "@/public/data/china-species-amphibians.json";
+import amphibianDetailData from "@/public/data/china-amphibians-detail.json";
 import extraData from "@/public/data/china-species-extra.json";
 
 export type ChinaGroup = "mammal" | "bird" | "reptile" | "amphibian" | "fish";
+
+export interface SpeciesProvenance {
+  name: string;
+  url: string;
+  citation: string;
+  retrievedAt: string;
+}
 
 export interface ChinaSpecies {
   slug: string;
@@ -37,6 +45,7 @@ export interface ChinaSpecies {
   };
   sources: Array<{ name: string; url: string }>;
   verified: boolean;
+  detailSource?: SpeciesProvenance;
 }
 
 const SP2000 = "https://www.sp2000.org.cn/";
@@ -403,11 +412,104 @@ function dedupeBySlug(list: ChinaSpecies[]): ChinaSpecies[] {
   return [...map.values()];
 }
 
+interface AmphibianDetailEntry {
+  acId: number;
+  acUrl: string;
+  acNameCn: string;
+  acScientificName: string;
+  matchedBy: string;
+  diagnosis: string;
+  morphology: string;
+  habitat: string;
+  habit: string;
+  reproduction: string;
+  diet: string;
+  naturalHistory: string;
+  distribution: string;
+  iucn: string;
+  iucnLabel: string;
+  nationalProtection: string;
+  cites: string;
+  habitats: string[];
+  citation: string;
+}
+
+const AMPHIBIAN_DETAIL: Record<string, AmphibianDetailEntry> = (
+  amphibianDetailData as unknown as { species: Record<string, AmphibianDetailEntry> }
+).species;
+
+const AMPHIBIAN_CITATION = (amphibianDetailData as unknown as { citation: string }).citation;
+const AMPHIBIAN_RETRIEVED_AT = (amphibianDetailData as unknown as { retrievedAt: string }).retrievedAt;
+
+const IUCN_LABEL_CN: Record<string, string> = {
+  EX: "灭绝",
+  EW: "野外灭绝",
+  CR: "极危",
+  EN: "濒危",
+  VU: "易危",
+  NT: "近危",
+  LC: "无危",
+  DD: "数据缺乏",
+  NE: "未评估",
+};
+
+function isPlaceholder(value: string | undefined) {
+  return !value || value.includes("待编辑核验") || value.includes("待补充");
+}
+
+function decorateAmphibian(species: ChinaSpecies): ChinaSpecies {
+  const detail = AMPHIBIAN_DETAIL[species.slug];
+  if (!detail) return species;
+
+  const morphology = isPlaceholder(species.morphology) && detail.morphology ? detail.morphology : species.morphology;
+
+  const behaviorParts = [
+    detail.habitat ? `生境：${detail.habitat}` : "",
+    detail.habit ? `习性：${detail.habit}` : "",
+    detail.reproduction ? `繁殖：${detail.reproduction}` : "",
+  ].filter(Boolean);
+  const behavior = isPlaceholder(species.behavior) && behaviorParts.length ? behaviorParts.join(" ") : species.behavior;
+
+  const dietReproduction = isPlaceholder(species.dietReproduction) && detail.reproduction ? `繁殖：${detail.reproduction}` : species.dietReproduction;
+
+  const habitats = species.habitats.length ? species.habitats : detail.habitats;
+
+  const upgraded = species.conservation.status === "NE" && detail.iucn ? detail.iucn : species.conservation.status;
+  const conservation =
+    upgraded !== species.conservation.status
+      ? {
+          status: upgraded,
+          label: IUCN_LABEL_CN[upgraded] ?? upgraded,
+          year: null,
+          note: "等级来自中国两栖类信息系统收录的 IUCN 评估结果；具体评估年份以 IUCN 红色名录官网为准，本站不做推测。",
+        }
+      : species.conservation;
+
+  return {
+    ...species,
+    morphology,
+    behavior,
+    dietReproduction,
+    habitats,
+    conservation,
+    sources: [
+      ...species.sources,
+      { name: `中国两栖类信息系统 · ${detail.acNameCn}`, url: detail.acUrl },
+    ],
+    detailSource: {
+      name: "中国两栖类信息系统（AmphibiaChina）",
+      url: detail.acUrl,
+      citation: detail.citation || AMPHIBIAN_CITATION,
+      retrievedAt: AMPHIBIAN_RETRIEVED_AT,
+    },
+  };
+}
+
 export const CHINA_SPECIES: ChinaSpecies[] = dedupeBySlug([
   ...BASE_CHINA_SPECIES,
   ...(amphibianData as unknown as ChinaSpecies[]),
   ...(extraData as unknown as ChinaSpecies[]),
-]);
+]).map(decorateAmphibian);
 
 export const CHINA_SPECIES_BY_SLUG = new Map(CHINA_SPECIES.map((s) => [s.slug, s]));
 

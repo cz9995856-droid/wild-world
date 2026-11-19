@@ -22,6 +22,8 @@ export interface SpeciesCardProps {
   taxonomy: Array<[string, string]>;
   distribution: string;
   habitats: string;
+  sourceNote?: string | null;
+  imageNote?: string | null;
 }
 
 const GROUP_VAR: Record<string, string> = {
@@ -33,7 +35,7 @@ const GROUP_VAR: Record<string, string> = {
 };
 
 export function SpeciesCard(props: SpeciesCardProps) {
-  const { slug, code, nameCn, scientificName, englishName, group, groupLabel, endemicLine, conservation, image, imageCredit, morphology, taxonomy, distribution, habitats } = props;
+  const { slug, code, nameCn, scientificName, englishName, group, groupLabel, endemicLine, conservation, image, imageCredit, morphology, taxonomy, distribution, habitats, sourceNote, imageNote } = props;
   const { isFavorite, toggleFavorite } = useUI();
   const seen = isFavorite(slug);
   const [flipped, setFlipped] = useState(false);
@@ -99,6 +101,11 @@ export function SpeciesCard(props: SpeciesCardProps) {
 
             <span className="relative mx-4 mt-3 block flex-1 overflow-hidden border border-[var(--line-strong)] bg-[var(--surface-2)]">
               <WcPhoto src={image} alt={`${nameCn} 卡牌主视觉`} priority sizes="(max-width: 1024px) 100vw, 480px" fallbackLabel="影像待补" fallbackNote="尚未取得可核验的授权图片" />
+              {imageNote && (
+                <span className="absolute left-2 top-2 bg-[color-mix(in_srgb,var(--ink)_86%,transparent)] px-2 py-1 text-[8.5px] text-[var(--paper)]">
+                  {imageNote}
+                </span>
+              )}
             </span>
 
             <span className="block px-4 pb-3 pt-3">
@@ -132,6 +139,9 @@ export function SpeciesCard(props: SpeciesCardProps) {
               <p className={cn("mt-1.5 text-[12px] leading-relaxed", pending ? "text-[var(--muted)]" : "text-[var(--ink-soft)]")}>
                 {pending ? "形态描述尚未完成核验，本站先不填数字。" : morphology}
               </p>
+              {sourceNote && !pending && (
+                <p className="mt-1.5 text-[8.5px] text-[var(--muted)]">来源：{sourceNote}</p>
+              )}
             </div>
 
             <dl className="mt-4 grid grid-cols-2 gap-x-3 gap-y-2.5 px-4">

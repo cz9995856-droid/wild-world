@@ -216,3 +216,69 @@ body {
     transform: none !important;
   }
 }
+
+/* 收藏卡牌：3D 翻转 + 指针倾斜 */
+.hb-flip-scene {
+  perspective: 1400px;
+  transform-style: preserve-3d;
+  transition: transform 0.25s ease-out;
+  will-change: transform;
+}
+
+.hb-flip-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.hb-flip-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.hb-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+}
+
+.hb-face-back {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(180deg);
+  overflow-y: auto;
+}
+
+.hb-seen-pop {
+  animation: hb-seen-pop 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes hb-seen-pop {
+  0% { transform: scale(1); }
+  35% { transform: scale(1.12) rotate(-1.5deg); }
+  100% { transform: scale(1); }
+}
+
+.hb-snap-row {
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.hb-snap-row::-webkit-scrollbar {
+  display: none;
+}
+
+.hb-snap-row > * {
+  scroll-snap-align: start;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hb-flip-scene,
+  .hb-flip-inner {
+    transition: none !important;
+  }
+
+  .hb-seen-pop {
+    animation: none !important;
+  }
+}

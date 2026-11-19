@@ -84,7 +84,7 @@ export default function DataLabPage() {
         withoutRecords={noRecords}
       />
       <p className="mt-6 text-[10.5px] leading-relaxed text-[var(--muted)]">
-        统计口径：物种总数为馆藏当前收录；保护等级来自 iNaturalist 同步的 IUCN 字段，未评估（NE）不等于无危；省域计数为有该省记录的物种数，受采样强度影响，不能当作真实分布面积。
+        统计口径：物种总数为馆藏当前收录；两栖类保护等级优先采用中国两栖类信息系统收录的 IUCN 评估，其余来自 iNaturalist 同步的 IUCN 字段，未评估（NE）不等于无危；省域计数为有该省记录的物种数，受采样强度影响，不能当作真实分布面积。
       </p>
     </div>
   );

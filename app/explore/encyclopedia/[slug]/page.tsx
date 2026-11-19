@@ -26,6 +26,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 const NONE = "暂无记录";
 
+const NE_COUNT = CHINA_SPECIES.filter((item) => item.conservation.status === "NE").length;
+const NE_SHARE = Math.round((NE_COUNT / CHINA_SPECIES.length) * 100);
+
 const GROUP_ACCENT: Record<string, string> = {
   mammal: "var(--tax-mammal)",
   bird: "var(--tax-bird)",
@@ -220,7 +223,7 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
               </div>
               <p className="mt-2 text-[12.5px] leading-relaxed text-[var(--ink-soft)]">{species.conservation.note}</p>
               <p className="mt-2 text-[10px] leading-relaxed text-[var(--muted)]">
-                NE（未评估）不代表无危。本站约六成物种尚无正式评估等级，引用时请回到原始名录核对。
+                NE（未评估）不代表无危。本站现有 {NE_COUNT} 种（{NE_SHARE}%）尚无正式评估等级，引用时请回到原始名录核对。
               </p>
             </DetailPanel>
           </div>

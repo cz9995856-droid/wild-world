@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { WcHeader } from "@/components/wildchina/wc-header";
 import { MentorChat } from "@/components/mentor/mentor-chat";
+import { CHINA_SPECIES } from "@/lib/wildchina/species";
 
 export const metadata: Metadata = {
   title: "AI 自然导师",
@@ -20,7 +21,7 @@ export default function MentorPage() {
           </p>
         </div>
         <p className="text-[11px] leading-relaxed text-[var(--muted)]">
-          馆藏 361 种 · 四大类群
+          馆藏 {CHINA_SPECIES.length} 种 · 五大类群
           <br />
           回答依据馆藏检索 · 附来源
         </p>

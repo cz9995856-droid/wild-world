@@ -28,10 +28,6 @@ const QUIZ_SLUGS = ["odorrana-wuchuanensis", "giant-panda", "crested-ibis", "chi
 
 const FACTS = [
   {
-    text: "馆藏 361 种里，超过六成还没有正式的保护等级评估。未评估不等于安全。",
-    source: "数据实验室",
-  },
-  {
     text: "大熊猫抓竹子的「第六根手指」不是手指，是腕部一块变大的籽骨。",
     source: "物种档案 · 大熊猫",
   },
@@ -71,6 +67,16 @@ function mini(slug: string) {
 
 export default function HomePage() {
   const dateKey = shanghaiDateKey();
+
+  const neCount = CHINA_SPECIES.filter((item) => item.conservation.status === "NE").length;
+  const neShare = Math.round((neCount / CHINA_SPECIES.length) * 100);
+  const facts = [
+    {
+      text: `馆藏 ${CHINA_SPECIES.length} 种里，${neCount} 种（${neShare}%）还没有正式的保护等级评估。未评估不等于安全。`,
+      source: "数据实验室",
+    },
+    ...FACTS,
+  ];
 
   const rare = RARE_SLUGS.map(mini).filter((item): item is NonNullable<typeof item> => Boolean(item));
   const quiz = QUIZ_SLUGS.map(mini).filter((item): item is NonNullable<typeof item> => Boolean(item));
@@ -128,7 +134,7 @@ export default function HomePage() {
             <span className="inline-block h-1.5 w-24 bg-[var(--line)]">
               <span className="block h-full w-1/12 bg-[var(--tax-amphibian)]" />
             </span>
-            你已认识 0 / 361
+            你已认识 0 / {CHINA_SPECIES.length}
           </p>
         </div>
 
@@ -199,7 +205,7 @@ export default function HomePage() {
         <div className="border border-[var(--line)] bg-[var(--surface)] p-4">
           <p className="text-[12px]">你知道吗</p>
           <ul className="mt-3 space-y-2.5">
-            {FACTS.map((fact) => (
+            {facts.map((fact) => (
               <li key={fact.text} className="border-b border-[var(--line)] pb-2.5 last:border-0">
                 <p className="text-[11.5px] leading-relaxed text-[var(--ink-soft)]">{fact.text}</p>
                 <p className="mt-1 text-[9px] text-[var(--muted)]">{fact.source}</p>

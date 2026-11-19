@@ -120,6 +120,27 @@ export default function HomePage() {
           <span className="block text-[13px]">生态地图 · 找</span>
           <span className="mt-0.5 block text-[10px] text-[var(--muted)]">分布记录、生态区与保护地</span>
         </Link>
+        <Link
+          href="/explore/missions"
+          className="border border-[var(--line)] bg-[var(--surface)] px-4 py-3 transition-colors hover:border-[var(--forest)]"
+        >
+          <span className="block text-[13px]">探索任务 · 打卡</span>
+          <span className="mt-0.5 block text-[10px] text-[var(--muted)]">每天一个真实任务，记录连续天数</span>
+        </Link>
+        <Link
+          href="/explore/collection"
+          className="border border-[var(--line)] bg-[var(--surface)] px-4 py-3 transition-colors hover:border-[var(--forest)]"
+        >
+          <span className="block text-[13px]">收集册 · 收</span>
+          <span className="mt-0.5 block text-[10px] text-[var(--muted)]">收藏物种，查看各类群收集进度</span>
+        </Link>
+        <Link
+          href="/explore/data"
+          className="border border-[var(--line)] bg-[var(--surface)] px-4 py-3 transition-colors hover:border-[var(--forest)]"
+        >
+          <span className="block text-[13px]">数据实验室 · 看</span>
+          <span className="mt-0.5 block text-[10px] text-[var(--muted)]">类群、保护等级与省域记录统计</span>
+        </Link>
       </nav>
     </div>
   );

@@ -2,9 +2,10 @@
 
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-import { Activity, Box, Bone, Globe2, Trophy } from "lucide-react";
+import { Activity, Box, Bone, Globe2, Sparkles, Trophy } from "lucide-react";
 import { AnatomyExplorer } from "@/components/lab/anatomy-explorer";
 import { ChallengeCenter } from "@/components/quiz/challenge-center";
+import { MentorChat } from "@/components/mentor/mentor-chat";
 import type { ModelOption } from "@/lib/wildchina/model-map";
 import { WorldMapLoader } from "@/components/map/world-map-loader";
 import { DataBadge } from "@/components/ui/badges";
@@ -23,6 +24,7 @@ const TABS = [
   { id: "anatomy", label: "身体结构", icon: Bone, source: "原创示意" },
   { id: "geo", label: "地理探索", icon: Globe2, source: "GBIF / iNat 实时" },
   { id: "quiz", label: "知识挑战", icon: Trophy, source: "馆方题库" },
+  { id: "mentor", label: "AI 导师", icon: Sparkles, source: "馆藏问答" },
 ] as const;
 
 type TabId = (typeof TABS)[number]["id"];
@@ -119,6 +121,7 @@ export function LabTabs({
           </div>
         )}
         {active === "quiz" && <ChallengeCenter />}
+        {active === "mentor" && <MentorChat />}
 
         <div className="mt-8 border-t border-[var(--line)] pt-4 text-[9.5px] leading-relaxed text-[var(--muted)]">
           实验室使用的模型与示意为馆方原创，题库为编辑整理；外部观测记录逐条标注来源。

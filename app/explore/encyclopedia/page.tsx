@@ -14,6 +14,24 @@ import { getSpeciesImage, thumbUrl } from "@/lib/wildchina/media";
 import { taxonCn } from "@/lib/wildchina/taxonomy";
 import { cn } from "@/lib/utils";
 
+const GROUP_ACCENT: Record<string, string> = {
+  mammal: "var(--tax-mammal)",
+  bird: "var(--tax-bird)",
+  amphibian: "var(--tax-amphibian)",
+  reptile: "var(--tax-reptile)",
+  fish: "var(--tax-fish)",
+};
+
+const GROUP_TAG: Record<string, string> = {
+  mammal: "hb-tag-mammal",
+  bird: "hb-tag-bird",
+  amphibian: "hb-tag-amphibian",
+  reptile: "hb-tag-reptile",
+  fish: "hb-tag-fish",
+};
+
+const CODE_BY_SLUG = new Map(CHINA_SPECIES.map((species, index) => [species.slug, String(index + 1).padStart(3, "0")]));
+
 export const metadata: Metadata = {
   title: "物种图鉴",
   description: "按纲、分布地区、栖息环境与保护等级检索中国特有脊椎动物。",
@@ -87,7 +105,7 @@ export default async function ChinaEncyclopediaPage({
 
       <div className="wc-page-head">
         <div>
-          <p className="wc-kicker">Species Archive</p>
+          <p className="hb-hand">野外手册 · 物种图鉴</p>
           <h1 className="display mt-2 text-[38px] sm:text-[50px]">物种图鉴</h1>
           <p className="wc-prose mt-3">
             以中国特有脊椎动物为核心的数字档案馆。分类、分布与保护信息逐条标注来源；缺少数据的字段显示「暂无记录」，不做推测。
@@ -176,7 +194,8 @@ export default async function ChinaEncyclopediaPage({
             return (
               <article
                 key={species.slug}
-                className="group relative border border-[var(--line)] bg-[var(--surface)] transition-shadow hover:shadow-[var(--wc-shadow-soft)]"
+                className="group hb-card hb-card-lift relative overflow-hidden border border-[var(--line)] bg-[var(--surface)]"
+                style={{ borderTop: `4px solid ${GROUP_ACCENT[species.group] ?? "var(--ink)"}` }}
               >
                 <Link href={speciesHref(species.slug)} className="block">
                   <div className="relative aspect-[4/3] overflow-hidden bg-[var(--surface-2)]">
@@ -192,17 +211,19 @@ export default async function ChinaEncyclopediaPage({
                         {image.source_name} · {image.author}
                       </p>
                     )}
+                    <div className="absolute inset-x-0 bottom-0 translate-y-full bg-[color-mix(in_srgb,var(--ink)_92%,transparent)] px-3 py-2 text-[10px] text-[var(--paper)] transition-transform duration-300 group-hover:translate-y-0">
+                      保护等级：{species.conservation.label}（{species.conservation.status}）
+                      {species.conservation.year ? ` · ${species.conservation.year} 年` : " · 评估年份待核验"}
+                    </div>
                   </div>
                   <div className="p-4">
-                    <p className="text-[10px] tracking-[0.16em] text-[var(--muted)]">{species.groupLabel}</p>
+                    <p className="text-[9.5px] tracking-[0.18em] text-[var(--muted)]">NO. {CODE_BY_SLUG.get(species.slug)}</p>
                     <h2 className="mt-1 text-[19px] leading-snug">{species.nameCn}</h2>
                     <p className="mt-1 font-serif text-[11.5px] italic text-[var(--muted)]">
                       {species.scientificName}
                     </p>
                     <p className="mt-2 flex flex-wrap gap-1.5 text-[9.5px] text-[var(--ink-soft)]">
-                      <span className="border border-[var(--line)] px-1.5 py-0.5">
-                        {species.conservation.status}
-                      </span>
+                      <span className={cn("hb-tag py-0 text-[9.5px]", GROUP_TAG[species.group])}>{species.groupLabel}</span>
                       <span className="border border-[var(--line)] px-1.5 py-0.5">
                         {species.endemic === "strict" ? "中国特有" : "主要分布于中国"}
                       </span>

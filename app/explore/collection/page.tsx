@@ -9,12 +9,15 @@ export const metadata: Metadata = {
   description: "记录你在探索中收藏的中国特有脊椎动物，查看各类群收集进度。",
 };
 
-const items: CollectionItem[] = CHINA_SPECIES.map((s) => ({
+const items: CollectionItem[] = CHINA_SPECIES.map((s, index) => ({
   slug: s.slug,
   nameCn: s.nameCn,
   groupLabel: s.groupLabel,
   group: s.group,
   thumb: thumbUrl(getSpeciesImage(s.slug, "hero")?.url),
+  code: String(index + 1).padStart(3, "0"),
+  conservationLabel: s.conservation.label,
+  conservationStatus: s.conservation.status,
 }));
 
 export default function CollectionPage() {
@@ -23,8 +26,8 @@ export default function CollectionPage() {
       <WcHeader />
       <div className="wc-page-head">
         <div>
-          <p className="wc-kicker">收集册 · COLLECTION</p>
-          <h1 className="display mt-2 text-[38px] sm:text-[50px]">我的收集</h1>
+          <p className="hb-hand">野外手册 · 收集册</p>
+          <h1 className="hb-display mt-2 text-[38px] sm:text-[50px]">我的收集</h1>
           <p className="wc-prose mt-3">
             收藏过的物种会进入收集册。收集不是竞赛，而是你与中国特有动物之间建立的联系记录。
           </p>

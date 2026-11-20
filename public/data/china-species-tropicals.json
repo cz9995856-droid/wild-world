@@ -5,10 +5,10 @@
  "attribution": "Tropicals.cn (CC BY 4.0)",
  "retrievedAt": "2026-11-19",
  "stats": {
-  "matched": 313,
-  "replacedEnglish": 281,
+  "matched": 320,
+  "replacedEnglish": 287,
   "addedAlias": 30,
-  "taxonomyChecked": 313
+  "taxonomyChecked": 320
  },
  "species": {
   "ichthyophis-bannanicus": {
@@ -8859,6 +8859,203 @@
     "genus": "Crossoptilon"
    },
    "nameVerifiedAgainst": "Tropicals.cn"
+  },
+  "leptobrachella-alpinus": {
+   "tropicalsId": 367911,
+   "tropicalsSlug": "leptobrachella-alpina",
+   "nameCn": "高山掌突蟾",
+   "nameEn": "Alpine Asian Toad",
+   "scientificName": "Leptobrachella alpina",
+   "nameAuthorship": "(Fei, Ye & Li in Fei, Ye & Huang, 1990)",
+   "taxonomicStatus": "accepted",
+   "acceptedScientificName": null,
+   "cnNameSource": "gbif",
+   "cnNameConfidence": "authoritative",
+   "aliases": [
+    "高山拟髭蟾",
+    "高山角蟾"
+   ],
+   "gbifUsageKey": 10734844,
+   "colId": "3TK8Z",
+   "wikidataQid": "Q101496419",
+   "taxonomy": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Amphibia",
+    "order": "Anura",
+    "family": "Megophryidae",
+    "genus": "Leptobrachella"
+   },
+   "nameVerifiedAgainst": "Tropicals.cn",
+   "useEnglishName": "Alpine Asian Toad"
+  },
+  "brachytarsophrys-popeii": {
+   "tropicalsId": 120964,
+   "tropicalsSlug": "brachytarsophrys-popei",
+   "nameCn": "珀普短腿蟾",
+   "nameEn": "Pope’s Shortlegged Toad",
+   "scientificName": "Brachytarsophrys popei",
+   "nameAuthorship": "Zhao, Yang, Chen, Chen & Wang, 2014",
+   "taxonomicStatus": "accepted",
+   "acceptedScientificName": null,
+   "cnNameSource": "sp2000_2026",
+   "cnNameConfidence": "authoritative",
+   "aliases": [
+    "浦氏短腿蟾",
+    "波普短腿蟾",
+    "浦氏角蟾"
+   ],
+   "gbifUsageKey": 10930991,
+   "colId": "N2QX",
+   "wikidataQid": "Q18169071",
+   "taxonomy": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Amphibia",
+    "order": "Anura",
+    "family": "Megophryidae",
+    "genus": "Brachytarsophrys"
+   },
+   "nameVerifiedAgainst": "Tropicals.cn",
+   "useEnglishName": "Pope’s Shortlegged Toad"
+  },
+  "hyla-immaculata": {
+   "tropicalsId": 224352,
+   "tropicalsSlug": "dryophytes-immaculatus",
+   "nameCn": "无斑雨蛙",
+   "nameEn": "Spotless Tree Toad",
+   "scientificName": "Dryophytes immaculatus",
+   "nameAuthorship": "(Boettger, 1888)",
+   "taxonomicStatus": "accepted",
+   "acceptedScientificName": null,
+   "cnNameSource": "gbif",
+   "cnNameConfidence": "authoritative",
+   "aliases": [
+    "韩国雨蛙",
+    "朝鲜雨蛙"
+   ],
+   "gbifUsageKey": 10807870,
+   "colId": "37VNL",
+   "wikidataQid": "Q32373190",
+   "taxonomy": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Amphibia",
+    "order": "Anura",
+    "family": "Hylidae",
+    "genus": "Dryophytes"
+   },
+   "nameVerifiedAgainst": "Tropicals.cn",
+   "useEnglishName": "Spotless Tree Toad"
+  },
+  "rana-weiningensis": {
+   "tropicalsId": 121154,
+   "tropicalsSlug": "pseudorana-weiningensis",
+   "nameCn": "威宁蛙",
+   "nameEn": "Weining Frog",
+   "scientificName": "Pseudorana weiningensis",
+   "nameAuthorship": "(Liu, Hu & Yang, 1962)",
+   "taxonomicStatus": "accepted",
+   "acceptedScientificName": null,
+   "cnNameSource": "sp2000_2026",
+   "cnNameConfidence": "authoritative",
+   "aliases": [
+    "威宁林蛙",
+    "假林蛙"
+   ],
+   "gbifUsageKey": 2427323,
+   "colId": "6WH5F",
+   "wikidataQid": "Q28008454",
+   "taxonomy": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Amphibia",
+    "order": "Anura",
+    "family": "Ranidae",
+    "genus": "Pseudorana"
+   },
+   "nameVerifiedAgainst": "Tropicals.cn",
+   "useEnglishName": "Weining Frog"
+  },
+  "hylarana-spinulosa": {
+   "tropicalsId": 116601,
+   "tropicalsSlug": "sylvirana-spinulosa",
+   "nameCn": "细刺水蛙",
+   "nameEn": null,
+   "scientificName": "Sylvirana spinulosa",
+   "nameAuthorship": null,
+   "taxonomicStatus": "synonym",
+   "acceptedScientificName": "Hylarana spinulosa",
+   "cnNameSource": "sp2000_2026",
+   "cnNameConfidence": "authoritative",
+   "aliases": [
+    "刺皮水蛙",
+    "斯氏水蛙"
+   ],
+   "gbifUsageKey": 2426861,
+   "colId": null,
+   "wikidataQid": "Q22979226",
+   "taxonomy": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Amphibia",
+    "order": "Anura",
+    "family": "Ranidae",
+    "genus": "Sylvirana"
+   },
+   "nameVerifiedAgainst": "Tropicals.cn"
+  },
+  "chinese-thrush": {
+   "tropicalsId": 428318,
+   "tropicalsSlug": "pterorhinus-davidi",
+   "nameCn": "山噪鹛",
+   "nameEn": "Plain Laughingthrush",
+   "scientificName": "Pterorhinus davidi",
+   "nameAuthorship": "Swinhoe, 1868",
+   "taxonomicStatus": "accepted",
+   "acceptedScientificName": null,
+   "cnNameSource": "ioc_multiling_15.2",
+   "cnNameConfidence": "authoritative",
+   "aliases": [],
+   "gbifUsageKey": null,
+   "colId": "SKL9L",
+   "wikidataQid": null,
+   "taxonomy": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Leiothrichidae",
+    "genus": "Pterorhinus"
+   },
+   "nameVerifiedAgainst": "Tropicals.cn",
+   "useEnglishName": "Plain Laughingthrush"
+  },
+  "yellow-bellied-tit": {
+   "tropicalsId": 428011,
+   "tropicalsSlug": "periparus-venustulus",
+   "nameCn": "黄腹山雀",
+   "nameEn": "Yellow-bellied Tit",
+   "scientificName": "Periparus venustulus",
+   "nameAuthorship": null,
+   "taxonomicStatus": "synonym",
+   "acceptedScientificName": "Pardaliparus venustulus",
+   "cnNameSource": "ioc_multiling_15.2",
+   "cnNameConfidence": "authoritative",
+   "aliases": [],
+   "gbifUsageKey": null,
+   "colId": null,
+   "wikidataQid": null,
+   "taxonomy": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Paridae",
+    "genus": "Periparus"
+   },
+   "nameVerifiedAgainst": "Tropicals.cn",
+   "useEnglishName": "Yellow-bellied Tit"
   }
  }
 }

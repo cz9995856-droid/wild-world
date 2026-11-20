@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T08:10:52.602Z",
+ "generated_at": "2026-11-20T08:12:38.909Z",
  "count": 361,
  "items": [
   {
@@ -1376,9 +1376,12 @@
   {
    "slug": "leptobrachella-alpinus",
    "cn": "高山掌突蟾",
-   "en": "高山掌突蟾",
+   "en": "Alpine Asian Toad",
    "sci": "Leptobrachella alpinus",
-   "aliases": [],
+   "aliases": [
+    "高山拟髭蟾",
+    "高山角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1809,9 +1812,13 @@
   {
    "slug": "brachytarsophrys-popeii",
    "cn": "珀普短腿蟾",
-   "en": "珀普短腿蟾",
+   "en": "Pope’s Shortlegged Toad",
    "sci": "Brachytarsophrys popeii",
-   "aliases": [],
+   "aliases": [
+    "浦氏短腿蟾",
+    "波普短腿蟾",
+    "浦氏角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1927,9 +1934,12 @@
   {
    "slug": "hyla-immaculata",
    "cn": "无斑雨蛙",
-   "en": "无斑雨蛙",
+   "en": "Spotless Tree Toad",
    "sci": "Hyla immaculata",
-   "aliases": [],
+   "aliases": [
+    "韩国雨蛙",
+    "朝鲜雨蛙"
+   ],
    "group": "两栖纲",
    "family": "雨蛙科",
    "order": "无尾目"
@@ -1989,9 +1999,12 @@
   {
    "slug": "rana-weiningensis",
    "cn": "威宁蛙",
-   "en": "威宁蛙",
+   "en": "Weining Frog",
    "sci": "Rana weiningensis",
-   "aliases": [],
+   "aliases": [
+    "威宁林蛙",
+    "假林蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2626,7 +2639,10 @@
    "cn": "细刺水蛙",
    "en": "细刺水蛙",
    "sci": "Hylarana spinulosa",
-   "aliases": [],
+   "aliases": [
+    "刺皮水蛙",
+    "斯氏水蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -3999,7 +4015,7 @@
   {
    "slug": "chinese-thrush",
    "cn": "山噪鹛",
-   "en": "山噪鹛",
+   "en": "Plain Laughingthrush",
    "sci": "Garrulax davidi",
    "aliases": [],
    "group": "鸟纲",
@@ -4009,7 +4025,7 @@
   {
    "slug": "yellow-bellied-tit",
    "cn": "黄腹山雀",
-   "en": "黄腹山雀",
+   "en": "Yellow-bellied Tit",
    "sci": "Pardaliparus venustulus",
    "aliases": [],
    "group": "鸟纲",

@@ -53,6 +53,13 @@ export interface ChinaSpecies {
     wikidata?: string | null;
     tropicalsId?: number | null;
   };
+  nameCheck?: {
+    nameCn: string | null;
+    scientificName: string | null;
+    taxonomicStatus: string | null;
+    acceptedScientificName: string | null;
+    cnNameSource: string | null;
+  };
 }
 
 const SP2000 = "https://www.sp2000.org.cn/";
@@ -475,6 +482,8 @@ interface TropicalsEntry {
   wikidataQid: string | null;
   cnNameSource: string | null;
   tropicalsId: number | null;
+  taxonomicStatus?: string | null;
+  acceptedScientificName?: string | null;
 }
 
 const TROPICALS: Record<string, TropicalsEntry> = (
@@ -505,6 +514,13 @@ function decorateTropicals(species: ChinaSpecies): ChinaSpecies {
       col: entry.colId,
       wikidata: entry.wikidataQid,
       tropicalsId: entry.tropicalsId,
+    },
+    nameCheck: {
+      nameCn: entry.nameCn,
+      scientificName: entry.scientificName,
+      taxonomicStatus: entry.taxonomicStatus ?? null,
+      acceptedScientificName: entry.acceptedScientificName ?? null,
+      cnNameSource: entry.cnNameSource,
     },
     sources: [
       ...species.sources,

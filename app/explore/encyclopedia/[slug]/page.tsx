@@ -363,7 +363,15 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
                     </li>
                   )}
                 </ul>
-                <p className="mt-1.5 text-[9px] text-[var(--muted)]">名称、分类与外部 ID 由 Tropicals.cn 校对（CC BY 4.0）。</p>
+                <p className="mt-1.5 text-[9px] text-[var(--muted)]">
+                  名称、分类与外部 ID 由 Tropicals.cn 校对（CC BY 4.0）。
+                  {species.nameCheck?.scientificName && species.nameCheck.scientificName !== species.scientificName && (
+                    <>
+                      {" "}Tropicals 采用学名：{species.nameCheck.scientificName}
+                      {species.nameCheck.taxonomicStatus ? `（${species.nameCheck.taxonomicStatus}）` : ""}；本站档案沿用原学名。
+                    </>
+                  )}
+                </p>
               </div>
             )}
             <p className="text-[10px] leading-relaxed text-[var(--muted)]">

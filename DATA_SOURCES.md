@@ -1,6 +1,6 @@
 # 数据源、许可与待授权清单
 
-版本：2026-11-14 · 所有“已连接”状态均经过实际请求验证；未验证的项目明确标记。
+版本：2026-11-19 · 所有“已连接”状态均经过实际请求验证；未验证的项目明确标记。
 
 ## 1. 已接入并实际使用
 
@@ -14,6 +14,14 @@
 | [ScienceDaily](https://www.sciencedaily.com/rss/plants_animals.xml) | 动植物研究 | RSS | **已连接** | 仅标题 / 摘要 / 链接 |
 | [Phys.org](https://phys.org/rss-feed/biology-news/plants-animals/) | 生物学研究 | RSS | **已连接** | 仅标题 / 摘要 / 链接 |
 | [Natural Earth](https://www.naturalearthdata.com/) | 世界边界底图 | `public/data/world-land.json`、`world-graticule.json`（world-atlas + topojson-client 离线生成） | **本地离线可用**，不依赖公共 tile 服务 | 公共领域 |
+| [中国两栖类信息系统](http://www.amphibiachina.org/)（中科院昆明动物所） | 两栖类形态、生境、习性、繁殖、分布、IUCN 等级 | 物种页 `/species/{id}` 抓取（2026-11-19），解析为 `public/data/china-amphibians-detail.json` | **已抓取**：296 种匹配 295 种，282 种有形态、274 种有生境/习性、249 种有 IUCN 等级 | 文字为编辑整理引用，按站点规范署名；不转载其图库图片。引用：AmphibiaChina. 2026. The database of Chinese amphibians |
+| [Tropicals.cn](https://tropicals.cn/) | 中文名、英文名、别名、分类、外部 ID 校对 | `POST /api/v1/names/resolve-batch`、`GET /api/v1/species/{slug}`（2026-11-19） | **已抓取**：312 种精确匹配，产出 `public/data/china-species-tropicals.json` | 名称、分类与外部 ID 为 **CC BY 4.0**，署名 Tropicals.cn；产地 / 百科正文 / 性状属 API Terms 限制字段，本站未保存 |
+
+### 2026-11-19 中国特有脊椎动物专题补充
+
+- 两栖类：295 / 296 种补齐形态与生态字段；图片本地化 199 张（CC BY-NC 为主）+ 39 张 CC0/BY/BY-SA + 9 张自绘示意图（替代 ND 授权素材）
+- 全站未评估（NE）比例由约 62% 降至 25%（90 / 361），首页与详情页改为运行时计算
+- 名称校对：修复 297 种两栖类与 47 种补充物种「英文名等于中文名」的占位问题，并补充别名
 
 ### 抓取结果（`public/data/integration.json`）
 

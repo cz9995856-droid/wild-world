@@ -1,6 +1,7 @@
 import amphibianData from "@/public/data/china-species-amphibians.json";
 import amphibianDetailData from "@/public/data/china-amphibians-detail.json";
 import extraData from "@/public/data/china-species-extra.json";
+import tropicalsData from "@/public/data/china-species-tropicals.json";
 
 export type ChinaGroup = "mammal" | "bird" | "reptile" | "amphibian" | "fish";
 
@@ -46,6 +47,12 @@ export interface ChinaSpecies {
   sources: Array<{ name: string; url: string }>;
   verified: boolean;
   detailSource?: SpeciesProvenance;
+  externalIds?: {
+    gbif?: number | null;
+    col?: string | null;
+    wikidata?: string | null;
+    tropicalsId?: number | null;
+  };
 }
 
 const SP2000 = "https://www.sp2000.org.cn/";
@@ -457,6 +464,55 @@ function isPlaceholder(value: string | undefined) {
   return !value || value.includes("待编辑核验") || value.includes("待补充");
 }
 
+interface TropicalsEntry {
+  nameCn: string | null;
+  nameEn: string | null;
+  scientificName: string | null;
+  aliases: string[];
+  useEnglishName?: string;
+  gbifUsageKey: number | null;
+  colId: string | null;
+  wikidataQid: string | null;
+  cnNameSource: string | null;
+  tropicalsId: number | null;
+}
+
+const TROPICALS: Record<string, TropicalsEntry> = (
+  tropicalsData as unknown as { species: Record<string, TropicalsEntry> }
+).species;
+
+function decorateTropicals(species: ChinaSpecies): ChinaSpecies {
+  const entry = TROPICALS[species.slug];
+  if (!entry) return species;
+
+  const englishBroken =
+    !species.englishName ||
+    species.englishName === species.nameCn ||
+    /[\u4e00-\u9fa5]/.test(species.englishName);
+  const englishName = englishBroken && entry.nameEn ? entry.nameEn : species.englishName;
+
+  const extraAliases = [entry.nameCn, ...(entry.aliases ?? [])].filter(
+    (name): name is string => Boolean(name) && name !== species.nameCn
+  );
+  const aliases = [...new Set([...species.aliases, ...extraAliases])];
+
+  return {
+    ...species,
+    englishName,
+    aliases,
+    externalIds: {
+      gbif: entry.gbifUsageKey,
+      col: entry.colId,
+      wikidata: entry.wikidataQid,
+      tropicalsId: entry.tropicalsId,
+    },
+    sources: [
+      ...species.sources,
+      { name: "Tropicals.cn · 名称与分类（CC BY 4.0）", url: "https://tropicals.cn/" },
+    ],
+  };
+}
+
 function decorateAmphibian(species: ChinaSpecies): ChinaSpecies {
   const detail = AMPHIBIAN_DETAIL[species.slug];
   if (!detail) return species;
@@ -509,7 +565,7 @@ export const CHINA_SPECIES: ChinaSpecies[] = dedupeBySlug([
   ...BASE_CHINA_SPECIES,
   ...(amphibianData as unknown as ChinaSpecies[]),
   ...(extraData as unknown as ChinaSpecies[]),
-]).map(decorateAmphibian);
+]).map(decorateAmphibian).map(decorateTropicals);
 
 export const CHINA_SPECIES_BY_SLUG = new Map(CHINA_SPECIES.map((s) => [s.slug, s]));
 

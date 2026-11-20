@@ -1,13 +1,15 @@
 {
- "generated_at": "2026-11-18T13:27:33.786Z",
+ "generated_at": "2026-11-20T08:10:52.602Z",
  "count": 361,
  "items": [
   {
    "slug": "ichthyophis-bannanicus",
    "cn": "版纳鱼螈",
-   "en": "版纳鱼螈",
+   "en": "Mengla County Caecilian",
    "sci": "Ichthyophis bannanicus",
-   "aliases": [],
+   "aliases": [
+    "西双版纳鱼螈"
+   ],
    "group": "两栖纲",
    "family": "鱼螈科",
    "order": "无足目"
@@ -15,9 +17,11 @@
   {
    "slug": "hynobius-amjiensis",
    "cn": "安吉小鲵",
-   "en": "安吉小鲵",
+   "en": "Anji Salamander",
    "sci": "Hynobius amjiensis",
-   "aliases": [],
+   "aliases": [
+    "安吉蝾螈"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -25,9 +29,12 @@
   {
    "slug": "hynobius-arisanensis",
    "cn": "阿里山小鲵",
-   "en": "阿里山小鲵",
+   "en": "Arisan Hynobiid",
    "sci": "Hynobius arisanensis",
-   "aliases": [],
+   "aliases": [
+    "台湾阿里山小鲵",
+    "高山小鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -35,9 +42,12 @@
   {
    "slug": "hynobius-chinensis",
    "cn": "中国小鲵",
-   "en": "中国小鲵",
+   "en": "Chinese Salamander",
    "sci": "Hynobius chinensis",
-   "aliases": [],
+   "aliases": [
+    "黑斑小鲵",
+    "山泥鳅"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -45,9 +55,11 @@
   {
    "slug": "hynobius-formosanus",
    "cn": "台湾小鲵",
-   "en": "台湾小鲵",
+   "en": "Taiwan Salamander",
    "sci": "Hynobius formosanus",
-   "aliases": [],
+   "aliases": [
+    "台湾山椒鱼"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -55,9 +67,12 @@
   {
    "slug": "hynobius-fucus",
    "cn": "观雾小鲵",
-   "en": "观雾小鲵",
+   "en": "Taiwan Lesser Salamander",
    "sci": "Hynobius fucus",
-   "aliases": [],
+   "aliases": [
+    "观雾山椒鱼",
+    "台湾山椒鱼"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -65,9 +80,11 @@
   {
    "slug": "hynobius-glacialis",
    "cn": "南湖小鲵",
-   "en": "南湖小鲵",
+   "en": "Nanhu Salamander",
    "sci": "Hynobius glacialis",
-   "aliases": [],
+   "aliases": [
+    "南湖山椒鱼"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -75,9 +92,11 @@
   {
    "slug": "hynobius-guabangshanensis",
    "cn": "挂榜山小鲵",
-   "en": "挂榜山小鲵",
+   "en": "Guabang Shan Salamander",
    "sci": "Hynobius guabangshanensis",
-   "aliases": [],
+   "aliases": [
+    "金华小鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -85,7 +104,7 @@
   {
    "slug": "hynobius-maoershanensis",
    "cn": "猫儿山小鲵",
-   "en": "猫儿山小鲵",
+   "en": "Maoershan Hynobiid",
    "sci": "Hynobius maoershanensis",
    "aliases": [],
    "group": "两栖纲",
@@ -95,9 +114,11 @@
   {
    "slug": "hynobius-sonani",
    "cn": "楚南小鲵",
-   "en": "楚南小鲵",
+   "en": "Taichu Salamander",
    "sci": "Hynobius sonani",
-   "aliases": [],
+   "aliases": [
+    "孙氏小鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -105,9 +126,12 @@
   {
    "slug": "hynobius-yiwuensis",
    "cn": "义乌小鲵",
-   "en": "义乌小鲵",
+   "en": "Yiwu Salamander",
    "sci": "Hynobius yiwuensis",
-   "aliases": [],
+   "aliases": [
+    "红线小鲵",
+    "义乌山椒鱼"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -115,9 +139,11 @@
   {
    "slug": "pachyhynobius-shangchengensis",
    "cn": "商城肥鲵",
-   "en": "商城肥鲵",
+   "en": "Shangcheng Stout Salamander",
    "sci": "Pachyhynobius shangchengensis",
-   "aliases": [],
+   "aliases": [
+    "商城小鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -125,9 +151,12 @@
   {
    "slug": "pseudohynobius-flavomaculatus",
    "cn": "黄斑拟小鲵",
-   "en": "黄斑拟小鲵",
+   "en": "Yellow-spotted Salamander",
    "sci": "Pseudohynobius flavomaculatus",
-   "aliases": [],
+   "aliases": [
+    "黄斑小鲵",
+    "伪小鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -135,9 +164,11 @@
   {
    "slug": "pseudohynobius-guizhouensis",
    "cn": "贵州拟小鲵",
-   "en": "贵州拟小鲵",
+   "en": "Guizhou Salamander",
    "sci": "Pseudohynobius guizhouensis",
-   "aliases": [],
+   "aliases": [
+    "贵州小鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -145,9 +176,11 @@
   {
    "slug": "pseudohynobius-jinfo",
    "cn": "金佛拟小鲵",
-   "en": "金佛拟小鲵",
+   "en": "Jinfo Salamander",
    "sci": "Pseudohynobius jinfo",
-   "aliases": [],
+   "aliases": [
+    "金佛山拟小鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -155,9 +188,11 @@
   {
    "slug": "pseudohynobius-kuankuoshuiensis",
    "cn": "宽阔水拟小鲵",
-   "en": "宽阔水拟小鲵",
+   "en": "Kuankuoshui Salamander",
    "sci": "Pseudohynobius kuankuoshuiensis",
-   "aliases": [],
+   "aliases": [
+    "宽水拟小鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -165,9 +200,13 @@
   {
    "slug": "pseudohynobius-puxiongensis",
    "cn": "普雄拟小鲵",
-   "en": "普雄拟小鲵",
+   "en": "Puxiong Salamander",
    "sci": "Pseudohynobius puxiongensis",
-   "aliases": [],
+   "aliases": [
+    "普雄原鲵",
+    "普雄小鲵",
+    "普雄蝾螈"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -175,9 +214,11 @@
   {
    "slug": "pseudohynobius-shuichengensis",
    "cn": "水城拟小鲵",
-   "en": "水城拟小鲵",
+   "en": "Shuicheng Salamander",
    "sci": "Pseudohynobius shuichengensis",
-   "aliases": [],
+   "aliases": [
+    "水城小鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -185,9 +226,12 @@
   {
    "slug": "liua-shihi",
    "cn": "巫山巴鲵",
-   "en": "巫山巴鲵",
+   "en": "Wushan Salamander",
    "sci": "Liua shihi",
-   "aliases": [],
+   "aliases": [
+    "巫山小鲵",
+    "施氏巴鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -195,9 +239,12 @@
   {
    "slug": "liua-tsinpaensis",
    "cn": "秦巴巴鲵",
-   "en": "秦巴巴鲵",
+   "en": "Tsinpa Salamander",
    "sci": "Liua tsinpaensis",
-   "aliases": [],
+   "aliases": [
+    "秦巴拟小鲵",
+    "理县巴鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -205,9 +252,12 @@
   {
    "slug": "onychodactylus-zhangyapingi",
    "cn": "吉林爪鲵",
-   "en": "吉林爪鲵",
+   "en": "Jilin Clawed Salamander",
    "sci": "Onychodactylus zhangyapingi",
-   "aliases": [],
+   "aliases": [
+    "张氏爪鲵",
+    "吉林无肺螈"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -215,9 +265,13 @@
   {
    "slug": "onychodactylus-zhaoermii",
    "cn": "辽宁爪鲵",
-   "en": "辽宁爪鲵",
+   "en": "Liaoning Clawed Salamander",
    "sci": "Onychodactylus zhaoermii",
-   "aliases": [],
+   "aliases": [
+    "赵尔宓爪鲵",
+    "赵氏爪鲵",
+    "长白山爪鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -225,9 +279,11 @@
   {
    "slug": "batrachuperus-karlschmidti",
    "cn": "无斑山溪鲵",
-   "en": "无斑山溪鲵",
+   "en": "Chiala Mountain Salamander",
    "sci": "Batrachuperus karlschmidti",
-   "aliases": [],
+   "aliases": [
+    "卡尔施密特山溪鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -235,9 +291,12 @@
   {
    "slug": "batrachuperus-londongensis",
    "cn": "龙洞山溪鲵",
-   "en": "龙洞山溪鲵",
+   "en": "Longdong Stream Salamander",
    "sci": "Batrachuperus londongensis",
-   "aliases": [],
+   "aliases": [
+    "龙洞鲵",
+    "四川山溪鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -245,9 +304,12 @@
   {
    "slug": "batrachuperus-pinchonii",
    "cn": "山溪鲵",
-   "en": "山溪鲵",
+   "en": "Stream Salamander",
    "sci": "Batrachuperus pinchonii",
-   "aliases": [],
+   "aliases": [
+    "川西小鲵",
+    "娃娃鱼(俗称混淆)"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -255,9 +317,11 @@
   {
    "slug": "batrachuperus-taibaiensis",
    "cn": "太白山溪鲵",
-   "en": "太白山溪鲵",
+   "en": "Alpine Stream Salamander",
    "sci": "Batrachuperus taibaiensis",
-   "aliases": [],
+   "aliases": [
+    "太白溪鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -265,9 +329,12 @@
   {
    "slug": "batrachuperus-tibetanus",
    "cn": "西藏山溪鲵",
-   "en": "西藏山溪鲵",
+   "en": "Alpine Stream Salamander",
    "sci": "Batrachuperus tibetanus",
-   "aliases": [],
+   "aliases": [
+    "西藏疣螈",
+    "高山溪鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -275,9 +342,11 @@
   {
    "slug": "batrachuperus-yenyuanensis",
    "cn": "盐源山溪鲵",
-   "en": "盐源山溪鲵",
+   "en": "Yenyuan Stream Salamander",
    "sci": "Batrachuperus yenyuanensis",
-   "aliases": [],
+   "aliases": [
+    "盐源小鲵"
+   ],
    "group": "两栖纲",
    "family": "小鲵科",
    "order": "有尾目"
@@ -285,9 +354,13 @@
   {
    "slug": "andrias-davidianus",
    "cn": "中国大鲵",
-   "en": "中国大鲵复合群",
+   "en": "Chinese Giant Salamander",
    "sci": "Andrias davidianus",
-   "aliases": [],
+   "aliases": [
+    "大鲵",
+    "娃娃鱼",
+    "人鱼"
+   ],
    "group": "两栖纲",
    "family": "隐鳃鲵科",
    "order": "有尾目"
@@ -295,9 +368,13 @@
   {
    "slug": "tylototriton-asperrimus",
    "cn": "细痣疣螈",
-   "en": "细痣疣螈",
+   "en": "Black Knobby Newt",
    "sci": "Tylototriton asperrimus",
-   "aliases": [],
+   "aliases": [
+    "黑疣螈",
+    "粗皮疣螈",
+    "云南疣螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -305,9 +382,12 @@
   {
    "slug": "tylototriton-kweichowensis",
    "cn": "贵州疣螈",
-   "en": "贵州疣螈",
+   "en": "Kweichow crocodile newt",
    "sci": "Tylototriton kweichowensis",
-   "aliases": [],
+   "aliases": [
+    "贵疣",
+    "贵州脆皮螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -315,9 +395,13 @@
   {
    "slug": "tylototriton-lizhengchangi",
    "cn": "莽山疣螈",
-   "en": "莽山疣螈",
+   "en": "Tylototriton lizhengchangi",
    "sci": "Tylototriton lizhengchangi",
-   "aliases": [],
+   "aliases": [
+    "李正昌疣螈",
+    "李氏疣螈",
+    "云南疣螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -325,7 +409,7 @@
   {
    "slug": "tylototriton-pseudoverrucosus",
    "cn": "川南疣螈",
-   "en": "川南疣螈",
+   "en": "Chuannan Crocodile Newt",
    "sci": "Tylototriton pseudoverrucosus",
    "aliases": [],
    "group": "两栖纲",
@@ -335,9 +419,12 @@
   {
    "slug": "tylototriton-shanjing",
    "cn": "红瘰疣螈",
-   "en": "红瘰疣螈",
+   "en": "Hoanglien Mountain Crocodile Newt",
    "sci": "Tylototriton shanjing",
-   "aliases": [],
+   "aliases": [
+    "山境疣螈",
+    "云南疣螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -345,9 +432,12 @@
   {
    "slug": "tylototriton-verrucosus",
    "cn": "棕黑疣螈",
-   "en": "棕黑疣螈",
+   "en": "Crocodile Newt",
    "sci": "Tylototriton verrucosus",
-   "aliases": [],
+   "aliases": [
+    "喜山疣螈",
+    "红腹疣螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -355,9 +445,11 @@
   {
    "slug": "tylototriton-wenxianensis",
    "cn": "文县疣螈",
-   "en": "文县疣螈",
+   "en": "Wenxian Knobby Newt",
    "sci": "Tylototriton wenxianensis",
-   "aliases": [],
+   "aliases": [
+    "甘肃疣螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -365,9 +457,11 @@
   {
    "slug": "tylototriton-yangi",
    "cn": "滇南疣螈",
-   "en": "滇南疣螈",
+   "en": "Tiannan Crocodile Newt",
    "sci": "Tylototriton yangi",
-   "aliases": [],
+   "aliases": [
+    "杨氏疣螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -375,9 +469,12 @@
   {
    "slug": "tylototriton-taliangensis",
    "cn": "大凉疣螈",
-   "en": "大凉疣螈",
+   "en": "Pusakang Crocodile Newt",
    "sci": "Tylototriton taliangensis",
-   "aliases": [],
+   "aliases": [
+    "大凉山疣螈",
+    "Taliang Crocodile Newt"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -385,9 +482,12 @@
   {
    "slug": "tylototriton-anhuiensis",
    "cn": "安徽疣螈",
-   "en": "安徽疣螈",
+   "en": "Anhui Knobby Newt",
    "sci": "Tylototriton anhuiensis",
-   "aliases": [],
+   "aliases": [
+    "皖南疣螈",
+    "黄山疣螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -395,9 +495,11 @@
   {
    "slug": "tylototriton-hainanensis",
    "cn": "海南疣螈",
-   "en": "海南疣螈",
+   "en": "Hainan Knobby Newt",
    "sci": "Tylototriton hainanensis",
-   "aliases": [],
+   "aliases": [
+    "海南瘰螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -405,9 +507,12 @@
   {
    "slug": "echinotriton-chinhaiensis",
    "cn": "镇海棘螈",
-   "en": "镇海棘螈",
+   "en": "China Spiny Crocodile Newt",
    "sci": "Echinotriton chinhaiensis",
-   "aliases": [],
+   "aliases": [
+    "陈氏棘螈",
+    "宁海棘螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -415,9 +520,12 @@
   {
    "slug": "echinotriton-maxiquadratus",
    "cn": "高山棘螈",
-   "en": "高山棘螈",
+   "en": "Mountain Spiny Crocodile Newt",
    "sci": "Echinotriton maxiquadratus",
-   "aliases": [],
+   "aliases": [
+    "大颌棘螈",
+    "最大棘螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -425,9 +533,12 @@
   {
    "slug": "pachytriton-archospotus",
    "cn": "弓斑肥螈",
-   "en": "弓斑肥螈",
+   "en": "Guidong Stout Newt",
    "sci": "Pachytriton archospotus",
-   "aliases": [],
+   "aliases": [
+    "桂东肥螈",
+    "弓斑胖螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -435,9 +546,12 @@
   {
    "slug": "pachytriton-brevipes",
    "cn": "黑斑肥螈",
-   "en": "黑斑肥螈",
+   "en": "Black-spotted Stout Newt",
    "sci": "Pachytriton brevipes",
-   "aliases": [],
+   "aliases": [
+    "短肢肥螈",
+    "黑斑疣螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -445,9 +559,12 @@
   {
    "slug": "pachytriton-changi",
    "cn": "张氏肥螈",
-   "en": "张氏肥螈",
+   "en": "Chang's Stout Newt",
    "sci": "Pachytriton changi",
-   "aliases": [],
+   "aliases": [
+    "张氏胖螈",
+    "Chang's Newt"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -455,9 +572,13 @@
   {
    "slug": "pachytriton-feii",
    "cn": "费氏肥螈",
-   "en": "费氏肥螈",
+   "en": "Fei's Stout Newt",
    "sci": "Pachytriton feii",
-   "aliases": [],
+   "aliases": [
+    "费氏肥鲵",
+    "费氏小鲵",
+    "广西肥鲵"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -465,9 +586,12 @@
   {
    "slug": "pachytriton-granulosus",
    "cn": "秉志肥螈",
-   "en": "秉志肥螈",
+   "en": "Bingzhi's Stout Newt",
    "sci": "Pachytriton granulosus",
-   "aliases": [],
+   "aliases": [
+    "颗粒肥螈",
+    "秉志蝾螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -475,9 +599,12 @@
   {
    "slug": "pachytriton-inexpectatus",
    "cn": "瑶山肥螈",
-   "en": "瑶山肥螈",
+   "en": "Spotless Stout Newt",
    "sci": "Pachytriton inexpectatus",
-   "aliases": [],
+   "aliases": [
+    "无斑肥螈",
+    "大瑶山肥螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -485,9 +612,12 @@
   {
    "slug": "pachytriton-moi",
    "cn": "莫氏肥螈",
-   "en": "莫氏肥螈",
+   "en": "Mo's Stout Newt",
    "sci": "Pachytriton moi",
-   "aliases": [],
+   "aliases": [
+    "莫氏胖螈",
+    "广西肥螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -495,9 +625,12 @@
   {
    "slug": "pachytriton-xanthospilos",
    "cn": "黄斑肥螈",
-   "en": "黄斑肥螈",
+   "en": "Pachytriton xanthospilos",
    "sci": "Pachytriton xanthospilos",
-   "aliases": [],
+   "aliases": [
+    "黄斑蝾螈",
+    "广西肥螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -505,9 +638,13 @@
   {
    "slug": "pachytriton-airobranchiatus",
    "cn": "南方肥螈",
-   "en": "南方肥螈",
+   "en": "Pachytriton airobranchiatus",
    "sci": "Pachytriton airobranchiatus",
-   "aliases": [],
+   "aliases": [
+    "南方肥鲵",
+    "气枝肥鲵",
+    "南方小鲵"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -515,9 +652,13 @@
   {
    "slug": "pachytriton-wuguanfui",
    "cn": "吴氏肥螈",
-   "en": "吴氏肥螈",
+   "en": "Pachytriton wuguanfui",
    "sci": "Pachytriton wuguanfui",
-   "aliases": [],
+   "aliases": [
+    "贺州肥螈",
+    "吴氏胖螈",
+    "桂北肥螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -525,7 +666,7 @@
   {
    "slug": "paramesotriton-caudopunctatus",
    "cn": "尾斑瘰螈",
-   "en": "尾斑瘰螈",
+   "en": "Spot-tailed Warty Newt",
    "sci": "Paramesotriton caudopunctatus",
    "aliases": [],
    "group": "两栖纲",
@@ -535,9 +676,12 @@
   {
    "slug": "paramesotriton-chinensis",
    "cn": "中国瘰螈",
-   "en": "中国瘰螈",
+   "en": "Chinese Warty Newt",
    "sci": "Paramesotriton chinensis",
-   "aliases": [],
+   "aliases": [
+    "中华瘰螈",
+    "黑斑肥螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -545,9 +689,11 @@
   {
    "slug": "paramesotriton-fuzhongensis",
    "cn": "富钟瘰螈",
-   "en": "富钟瘰螈",
+   "en": "Wanggao Warty Newt",
    "sci": "Paramesotriton fuzhongensis",
-   "aliases": [],
+   "aliases": [
+    "富川瘰螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -555,9 +701,12 @@
   {
    "slug": "paramesotriton-guangxiensis",
    "cn": "广西瘰螈",
-   "en": "广西瘰螈",
+   "en": "Guangxi Salamander",
    "sci": "Paramesotriton guangxiensis",
-   "aliases": [],
+   "aliases": [
+    "广西疣螈",
+    "大明山瘰螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -565,9 +714,12 @@
   {
    "slug": "paramesotriton-hongkongensis",
    "cn": "香港瘰螈",
-   "en": "香港瘰螈",
+   "en": "Hong Kong Warty Newt",
    "sci": "Paramesotriton hongkongensis",
-   "aliases": [],
+   "aliases": [
+    "港瘰",
+    "香港蝾螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -575,9 +727,12 @@
   {
    "slug": "paramesotriton-labiatus",
    "cn": "无斑瘰螈",
-   "en": "无斑瘰螈",
+   "en": "Spotless Smooth Warty Newt",
    "sci": "Paramesotriton labiatus",
-   "aliases": [],
+   "aliases": [
+    "唇斑瘰螈",
+    "光背瘰螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -585,9 +740,12 @@
   {
    "slug": "paramesotriton-longliensis",
    "cn": "龙里瘰螈",
-   "en": "龙里瘰螈",
+   "en": "Longli Warty Newt",
    "sci": "Paramesotriton longliensis",
-   "aliases": [],
+   "aliases": [
+    "贵州龙里蝾螈",
+    "龙里疣螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -595,9 +753,11 @@
   {
    "slug": "paramesotriton-maolanensis",
    "cn": "茂兰瘰螈",
-   "en": "茂兰瘰螈",
+   "en": "Maolan Warty Newt",
    "sci": "Paramesotriton maolanensis",
-   "aliases": [],
+   "aliases": [
+    "贵州瘰螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -605,9 +765,11 @@
   {
    "slug": "paramesotriton-qixilingensis",
    "cn": "七溪岭瘰螈",
-   "en": "七溪岭瘰螈",
+   "en": "Paramesotriton qixilingensis",
    "sci": "Paramesotriton qixilingensis",
-   "aliases": [],
+   "aliases": [
+    "七溪岭疣螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -615,7 +777,7 @@
   {
    "slug": "paramesotriton-yunwuensis",
    "cn": "云雾瘰螈",
-   "en": "云雾瘰螈",
+   "en": "Yunwu Warty Newt",
    "sci": "Paramesotriton yunwuensis",
    "aliases": [],
    "group": "两栖纲",
@@ -625,9 +787,12 @@
   {
    "slug": "paramesotriton-zhijinensis",
    "cn": "织金瘰螈",
-   "en": "织金瘰螈",
+   "en": "Zhijin Warty Newt",
    "sci": "Paramesotriton zhijinensis",
-   "aliases": [],
+   "aliases": [
+    "织金疣螈",
+    "贵州瘰螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -635,9 +800,11 @@
   {
    "slug": "paramesotriton-aurantius",
    "cn": "橙脊瘰螈",
-   "en": "橙脊瘰螈",
+   "en": "Paramesotriton aurantius",
    "sci": "Paramesotriton aurantius",
-   "aliases": [],
+   "aliases": [
+    "橙脊蝾螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -645,7 +812,7 @@
   {
    "slug": "paramesotriton-wulingensis",
    "cn": "武陵瘰螈",
-   "en": "武陵瘰螈",
+   "en": "Wuling Warty Newt",
    "sci": "Paramesotriton wulingensis",
    "aliases": [],
    "group": "两栖纲",
@@ -655,9 +822,12 @@
   {
    "slug": "cynops-chenggongensis",
    "cn": "呈贡蝾螈",
-   "en": "呈贡蝾螈",
+   "en": "Cynops chenggongensis",
    "sci": "Cynops chenggongensis",
-   "aliases": [],
+   "aliases": [
+    "昆明蝾螈",
+    "呈贡火腹蝾螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -665,9 +835,11 @@
   {
    "slug": "cynops-cyanurus",
    "cn": "蓝尾蝾螈",
-   "en": "蓝尾蝾螈",
+   "en": "Cynops cyanurus",
    "sci": "Cynops cyanurus",
-   "aliases": [],
+   "aliases": [
+    "滇南蝾螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -675,9 +847,11 @@
   {
    "slug": "cynops-fudingensis",
    "cn": "福鼎蝾螈",
-   "en": "福鼎蝾螈",
+   "en": "Cynops fudingensis",
    "sci": "Cynops fudingensis",
-   "aliases": [],
+   "aliases": [
+    "福鼎火腹蝾螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -685,9 +859,14 @@
   {
    "slug": "cynops-orientalis",
    "cn": "东方蝾螈",
-   "en": "东方蝾螈",
+   "en": "Oriental Fire-bellied Newt",
    "sci": "Cynops orientalis",
-   "aliases": [],
+   "aliases": [
+    "东方火腹螈",
+    "中华蝾螈",
+    "火腹蝾螈",
+    "Chinese Fire Belly Newt"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -695,9 +874,12 @@
   {
    "slug": "cynops-glaucus",
    "cn": "灰蓝蝾螈",
-   "en": "灰蓝蝾螈",
+   "en": "Cynops glaucus",
    "sci": "Cynops glaucus",
-   "aliases": [],
+   "aliases": [
+    "蓝背蝾螈",
+    "桂黔蝾螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -705,9 +887,12 @@
   {
    "slug": "cynops-orphicus",
    "cn": "潮汕蝾螈",
-   "en": "潮汕蝾螈",
+   "en": "Cynops orphicus",
    "sci": "Cynops orphicus",
-   "aliases": [],
+   "aliases": [
+    "神秘蝾螈",
+    "滇南蝾螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -715,9 +900,13 @@
   {
    "slug": "cynops-wolterstorffi",
    "cn": "滇螈",
-   "en": "滇螈",
+   "en": "Cynops wolterstorffi",
    "sci": "Cynops wolterstorffi",
-   "aliases": [],
+   "aliases": [
+    "沃尔特斯托夫蝾螈",
+    "云南海南螈",
+    "昆明蝾螈"
+   ],
    "group": "两栖纲",
    "family": "蝾螈科",
    "order": "有尾目"
@@ -725,9 +914,11 @@
   {
    "slug": "bombina-maxima",
    "cn": "大蹼铃蟾",
-   "en": "大蹼铃蟾",
+   "en": "Large-webbed Bell Toad",
    "sci": "Bombina maxima",
-   "aliases": [],
+   "aliases": [
+    "云南大蹼铃蟾"
+   ],
    "group": "两栖纲",
    "family": "铃蟾科",
    "order": "无尾目"
@@ -755,9 +946,12 @@
   {
    "slug": "oreolalax-chuanbeiensis",
    "cn": "川北齿蟾",
-   "en": "川北齿蟾",
+   "en": "Chuanbei Toothed Toad",
    "sci": "Oreolalax chuanbeiensis",
-   "aliases": [],
+   "aliases": [
+    "川北角蟾",
+    "川北齿蛙"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -765,7 +959,7 @@
   {
    "slug": "oreolalax-granulosus",
    "cn": "棘疣齿蟾",
-   "en": "棘疣齿蟾",
+   "en": "Spiny Warty Toothed Toad",
    "sci": "Oreolalax granulosus",
    "aliases": [],
    "group": "两栖纲",
@@ -775,7 +969,7 @@
   {
    "slug": "oreolalax-jingdongensis",
    "cn": "景东齿蟾",
-   "en": "景东齿蟾",
+   "en": "Jingdong Toothed Toad",
    "sci": "Oreolalax jingdongensis",
    "aliases": [],
    "group": "两栖纲",
@@ -785,9 +979,11 @@
   {
    "slug": "oreolalax-liangbeiensis",
    "cn": "凉北齿蟾",
-   "en": "凉北齿蟾",
+   "en": "Liangbei Toothed Toad",
    "sci": "Oreolalax liangbeiensis",
-   "aliases": [],
+   "aliases": [
+    "凉北角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -795,9 +991,12 @@
   {
    "slug": "oreolalax-lichuanensis",
    "cn": "利川齿蟾",
-   "en": "利川齿蟾",
+   "en": "Lichuan Toothed Toad",
    "sci": "Oreolalax lichuanensis",
-   "aliases": [],
+   "aliases": [
+    "利川角蟾",
+    "利川齿蛙"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -805,9 +1004,11 @@
   {
    "slug": "oreolalax-major",
    "cn": "大齿蟾",
-   "en": "大齿蟾",
+   "en": "Large Toothed Toad",
    "sci": "Oreolalax major",
-   "aliases": [],
+   "aliases": [
+    "巨型齿蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -815,9 +1016,11 @@
   {
    "slug": "oreolalax-multipunctatus",
    "cn": "点斑齿蟾",
-   "en": "点斑齿蟾",
+   "en": "Spotted Toothed Toad",
    "sci": "Oreolalax multipunctatus",
-   "aliases": [],
+   "aliases": [
+    "多点齿蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -825,9 +1028,11 @@
   {
    "slug": "oreolalax-nanjiangensis",
    "cn": "南江齿蟾",
-   "en": "南江齿蟾",
+   "en": "Nanjiang Toothed Toad",
    "sci": "Oreolalax nanjiangensis",
-   "aliases": [],
+   "aliases": [
+    "南江角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -835,9 +1040,11 @@
   {
    "slug": "oreolalax-omeimontis",
    "cn": "峨眉齿蟾",
-   "en": "峨眉齿蟾",
+   "en": "Omei Toothed Toad",
    "sci": "Oreolalax omeimontis",
-   "aliases": [],
+   "aliases": [
+    "峨眉山齿蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -845,9 +1052,12 @@
   {
    "slug": "oreolalax-pingii",
    "cn": "秉志齿蟾",
-   "en": "秉志齿蟾",
+   "en": "Ping's Toothed Toad",
    "sci": "Oreolalax pingii",
-   "aliases": [],
+   "aliases": [
+    "秉志角蟾",
+    "峨眉秉志蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -855,9 +1065,12 @@
   {
    "slug": "oreolalax-popei",
    "cn": "宝兴齿蟾",
-   "en": "宝兴齿蟾",
+   "en": "Baoxing Toothed Toad",
    "sci": "Oreolalax popei",
-   "aliases": [],
+   "aliases": [
+    "宝兴角蟾",
+    "川西齿蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -865,9 +1078,12 @@
   {
    "slug": "oreolalax-puxiongensis",
    "cn": "普雄齿蟾",
-   "en": "普雄齿蟾",
+   "en": "Puxiong Toothed Toad",
    "sci": "Oreolalax puxiongensis",
-   "aliases": [],
+   "aliases": [
+    "普雄角蟾",
+    "普雄齿蛙"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -875,9 +1091,11 @@
   {
    "slug": "oreolalax-rhodostigmatus",
    "cn": "红点齿蟾",
-   "en": "红点齿蟾",
+   "en": "Red-spotted Toothed Toad",
    "sci": "Oreolalax rhodostigmatus",
-   "aliases": [],
+   "aliases": [
+    "红点角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -885,9 +1103,12 @@
   {
    "slug": "oreolalax-rugosus",
    "cn": "疣刺齿蟾",
-   "en": "疣刺齿蟾",
+   "en": "Warty Toothed Toad",
    "sci": "Oreolalax rugosus",
-   "aliases": [],
+   "aliases": [
+    "刺角蟾",
+    "粗糙齿蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -895,9 +1116,11 @@
   {
    "slug": "oreolalax-schmidti",
    "cn": "无蹼齿蟾",
-   "en": "无蹼齿蟾",
+   "en": "Webless Toothed Toad",
    "sci": "Oreolalax schmidti",
-   "aliases": [],
+   "aliases": [
+    "施氏齿蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -905,9 +1128,11 @@
   {
    "slug": "oreolalax-weigoldi",
    "cn": "魏氏齿蟾",
-   "en": "魏氏齿蟾",
+   "en": "Weigold's Toothed Toad",
    "sci": "Oreolalax weigoldi",
-   "aliases": [],
+   "aliases": [
+    "魏氏角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -915,9 +1140,11 @@
   {
    "slug": "oreolalax-xiangchengensis",
    "cn": "乡城齿蟾",
-   "en": "乡城齿蟾",
+   "en": "Xiangcheng Toothed Toad",
    "sci": "Oreolalax xiangchengensis",
-   "aliases": [],
+   "aliases": [
+    "乡城角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -925,9 +1152,11 @@
   {
    "slug": "scutiger-boulengeri",
    "cn": "西藏齿突蟾",
-   "en": "西藏齿突蟾",
+   "en": "Xizang Alpine Toad",
    "sci": "Scutiger boulengeri",
-   "aliases": [],
+   "aliases": [
+    "西藏高山蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -945,9 +1174,12 @@
   {
    "slug": "scutiger-glandulatus",
    "cn": "胸腺齿突蟾",
-   "en": "胸腺齿突蟾",
+   "en": "Gland-chest Cat-eyed Toad",
    "sci": "Scutiger glandulatus",
-   "aliases": [],
+   "aliases": [
+    "胸腺猫眼蟾",
+    "胸腺蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -955,9 +1187,12 @@
   {
    "slug": "scutiger-gongshanensis",
    "cn": "贡山齿突蟾",
-   "en": "贡山齿突蟾",
+   "en": "Gongshan Lazy Toad",
    "sci": "Scutiger gongshanensis",
-   "aliases": [],
+   "aliases": [
+    "贡山猫眼蟾",
+    "贡山懒蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -967,7 +1202,10 @@
    "cn": "六盘齿突蟾",
    "en": "六盘齿突蟾",
    "sci": "Scutiger liupanensis",
-   "aliases": [],
+   "aliases": [
+    "六盘山齿突蟾",
+    "宁夏齿突蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -975,9 +1213,11 @@
   {
    "slug": "scutiger-maculatus",
    "cn": "花齿突蟾",
-   "en": "花齿突蟾",
+   "en": "Spotted Lazy Toad",
    "sci": "Scutiger maculatus",
-   "aliases": [],
+   "aliases": [
+    "花懒蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -985,9 +1225,12 @@
   {
    "slug": "scutiger-mammatus",
    "cn": "刺胸齿突蟾",
-   "en": "刺胸齿突蟾",
+   "en": "Tungsolo Lazy Toad",
    "sci": "Scutiger mammatus",
-   "aliases": [],
+   "aliases": [
+    "刺胸猫眼蟾",
+    "乳腺齿突蟾(旧称)"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -997,7 +1240,11 @@
    "cn": "木里齿突蟾",
    "en": "木里齿突蟾",
    "sci": "Scutiger muliensis",
-   "aliases": [],
+   "aliases": [
+    "木里猫眼蟾",
+    "木里角蟾",
+    "木里懒蛤蟆"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1007,7 +1254,10 @@
    "cn": "平武齿突蟾",
    "en": "平武齿突蟾",
    "sci": "Scutiger pingwuensis",
-   "aliases": [],
+   "aliases": [
+    "平武角蟾",
+    "平武懒蛤蟆"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1015,9 +1265,12 @@
   {
    "slug": "scutiger-tuberculatus",
    "cn": "圆疣齿突蟾",
-   "en": "圆疣齿突蟾",
+   "en": "Bumpy Lazy Toad",
    "sci": "Scutiger tuberculatus",
-   "aliases": [],
+   "aliases": [
+    "圆疣猫眼蟾",
+    "圆疣蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1025,9 +1278,12 @@
   {
    "slug": "scutiger-wanglangensis",
    "cn": "王朗齿突蟾",
-   "en": "王朗齿突蟾",
+   "en": "Wanglang Alpine Toad",
    "sci": "Scutiger wanglangensis",
-   "aliases": [],
+   "aliases": [
+    "王朗角蟾",
+    "王朗懒蛤蟆"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1035,7 +1291,7 @@
   {
    "slug": "scutiger-wuguanfui",
    "cn": "吴氏齿突蟾",
-   "en": "吴氏齿突蟾",
+   "en": "Wu's lazy toad",
    "sci": "Scutiger wuguanfui",
    "aliases": [],
    "group": "两栖纲",
@@ -1045,9 +1301,12 @@
   {
    "slug": "scutiger-spinosus",
    "cn": "刺疣齿突蟾",
-   "en": "刺疣齿突蟾",
+   "en": "Spiny Lazy Toad",
    "sci": "Scutiger spinosus",
-   "aliases": [],
+   "aliases": [
+    "刺齿突蟾",
+    "多刺齿突蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1055,9 +1314,11 @@
   {
    "slug": "leptobrachium-boringii",
    "cn": "峨眉髭蟾",
-   "en": "峨眉髭蟾",
+   "en": "Taosze Spiny Toad",
    "sci": "Leptobrachium boringii",
-   "aliases": [],
+   "aliases": [
+    "胡子蛙"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1065,9 +1326,12 @@
   {
    "slug": "leptobrachium-hainanense",
    "cn": "海南拟髭蟾",
-   "en": "海南拟髭蟾",
+   "en": "Hainan moustache Toad",
    "sci": "Leptobrachium hainanense",
-   "aliases": [],
+   "aliases": [
+    "海南角蟾",
+    "海南懒蛤"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1075,9 +1339,11 @@
   {
    "slug": "leptobrachium-leishanense",
    "cn": "雷山髭蟾",
-   "en": "雷山髭蟾",
+   "en": "Leishan Moustache Toad",
    "sci": "Leptobrachium leishanense",
-   "aliases": [],
+   "aliases": [
+    "雷山拟髭蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1085,9 +1351,12 @@
   {
    "slug": "leptobrachium-liui",
    "cn": "崇安髭蟾",
-   "en": "崇安髭蟾",
+   "en": "Pope's Spiny Toad",
    "sci": "Leptobrachium liui",
-   "aliases": [],
+   "aliases": [
+    "胡子蛙",
+    "崇安角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1097,7 +1366,9 @@
    "cn": "腾冲拟髭蟾",
    "en": "腾冲拟髭蟾",
    "sci": "Leptobrachium tengchongense",
-   "aliases": [],
+   "aliases": [
+    "腾冲角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1115,9 +1386,12 @@
   {
    "slug": "leptobrachella-laui",
    "cn": "刘氏掌突蟾",
-   "en": "刘氏掌突蟾",
+   "en": "Lau's Leaf Little Toad",
    "sci": "Leptobrachella laui",
-   "aliases": [],
+   "aliases": [
+    "劳氏掌突蟾",
+    "刘氏角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1125,7 +1399,7 @@
   {
    "slug": "leptobrachella-liui",
    "cn": "福建掌突蟾",
-   "en": "福建掌突蟾",
+   "en": "Fujian Asian Toad",
    "sci": "Leptobrachella liui",
    "aliases": [],
    "group": "两栖纲",
@@ -1135,9 +1409,11 @@
   {
    "slug": "leptobrachella-mangshanensis",
    "cn": "莽山掌突蟾",
-   "en": "莽山掌突蟾",
+   "en": "Mangshan Leaf Litter Toad",
    "sci": "Leptobrachella mangshanensis",
-   "aliases": [],
+   "aliases": [
+    "莽山拟髭蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1155,9 +1431,11 @@
   {
    "slug": "leptobrachella-purpura",
    "cn": "紫棕掌突蟾",
-   "en": "紫棕掌突蟾",
+   "en": "Purplish-brown Leaf Litter Toad",
    "sci": "Leptobrachella purpura",
-   "aliases": [],
+   "aliases": [
+    "紫棕角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1165,9 +1443,11 @@
   {
    "slug": "leptobrachella-tengchongensis",
    "cn": "腾冲掌突蟾",
-   "en": "腾冲掌突蟾",
+   "en": "Tengchong Leaf Litter Toad",
    "sci": "Leptobrachella tengchongensis",
-   "aliases": [],
+   "aliases": [
+    "腾冲角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1175,9 +1455,11 @@
   {
    "slug": "leptobrachella-yingjiangensis",
    "cn": "盈江掌突蟾",
-   "en": "盈江掌突蟾",
+   "en": "Yingjiang Leaf Litter Toad",
    "sci": "Leptobrachella yingjiangensis",
-   "aliases": [],
+   "aliases": [
+    "盈江拟髭蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1185,9 +1467,11 @@
   {
    "slug": "leptobrachella-yunkaiensis",
    "cn": "云开掌突蟾",
-   "en": "云开掌突蟾",
+   "en": "Yunkai Mountain’s Leaf Litter Toad",
    "sci": "Leptobrachella yunkaiensis",
-   "aliases": [],
+   "aliases": [
+    "云开山掌突蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1195,9 +1479,13 @@
   {
    "slug": "leptobrachella-bijie",
    "cn": "毕节掌突蟾",
-   "en": "毕节掌突蟾",
+   "en": "Bijie Leaf Litter Toad",
    "sci": "Leptobrachella bijie",
-   "aliases": [],
+   "aliases": [
+    "毕节山掌突蟾",
+    "毕节小角蟾",
+    "贵州山蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1205,9 +1493,11 @@
   {
    "slug": "leptobrachella-wulingensis",
    "cn": "武陵掌突蟾",
-   "en": "武陵掌突蟾",
+   "en": "Wuling Leaf-litter Toad",
    "sci": "Leptobrachella wulingensis",
-   "aliases": [],
+   "aliases": [
+    "武陵山掌突蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1215,9 +1505,11 @@
   {
    "slug": "leptobrachella-suiyangensis",
    "cn": "绥阳掌突蟾",
-   "en": "绥阳掌突蟾",
+   "en": "Suiyang Leaf-litter Toad",
    "sci": "Leptobrachella suiyangensis",
-   "aliases": [],
+   "aliases": [
+    "绥阳山掌突蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1227,7 +1519,10 @@
    "cn": "岜沙掌突蟾",
    "en": "岜沙掌突蟾",
    "sci": "Leptobrachella bashaensis",
-   "aliases": [],
+   "aliases": [
+    "八射山掌突蟾",
+    "八射掌突蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1235,9 +1530,12 @@
   {
    "slug": "megophrys-binchuanensis",
    "cn": "宾川角蟾",
-   "en": "宾川角蟾",
+   "en": "Binchuan Horned Toad",
    "sci": "Megophrys binchuanensis",
-   "aliases": [],
+   "aliases": [
+    "宾川异角蟾",
+    "云南角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1245,9 +1543,12 @@
   {
    "slug": "megophrys-boettgeri",
    "cn": "淡肩角蟾",
-   "en": "淡肩角蟾",
+   "en": "Boettger's Spadefoot Toad",
    "sci": "Megophrys boettgeri",
-   "aliases": [],
+   "aliases": [
+    "贝氏角蟾",
+    "博特格角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1255,9 +1556,11 @@
   {
    "slug": "megophrys-brachykolos",
    "cn": "短肢角蟾",
-   "en": "短肢角蟾",
+   "en": "Short-legged Horned Toad",
    "sci": "Megophrys brachykolos",
-   "aliases": [],
+   "aliases": [
+    "短腿角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1267,7 +1570,9 @@
    "cn": "陈氏角蟾",
    "en": "陈氏角蟾",
    "sci": "Megophrys cheni",
-   "aliases": [],
+   "aliases": [
+    "Chen's Horned Toad"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1275,9 +1580,12 @@
   {
    "slug": "megophrys-daweimontis",
    "cn": "大围角蟾",
-   "en": "大围角蟾",
+   "en": "Dawei Eyebrow Toad",
    "sci": "Megophrys daweimontis",
-   "aliases": [],
+   "aliases": [
+    "大围山角蟾",
+    "大围山异角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1285,9 +1593,11 @@
   {
    "slug": "megophrys-gigantica",
    "cn": "大花角蟾",
-   "en": "大花角蟾",
+   "en": "Giant Spadefoot Toad",
    "sci": "Megophrys gigantica",
-   "aliases": [],
+   "aliases": [
+    "巨型角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1295,7 +1605,7 @@
   {
    "slug": "megophrys-huangshanensis",
    "cn": "黄山角蟾",
-   "en": "黄山角蟾",
+   "en": "Huangshan Horned Toad",
    "sci": "Megophrys huangshanensis",
    "aliases": [],
    "group": "两栖纲",
@@ -1305,9 +1615,11 @@
   {
    "slug": "megophrys-kuatunensis",
    "cn": "挂墩角蟾",
-   "en": "挂墩角蟾",
+   "en": "Kuatun Horned Toad",
    "sci": "Megophrys kuatunensis",
-   "aliases": [],
+   "aliases": [
+    "福建角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1317,7 +1629,9 @@
    "cn": "林氏角蟾",
    "en": "林氏角蟾",
    "sci": "Megophrys lini",
-   "aliases": [],
+   "aliases": [
+    "林氏角怪"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1325,9 +1639,12 @@
   {
    "slug": "megophrys-mangshanensis",
    "cn": "莽山角蟾",
-   "en": "莽山角蟾",
+   "en": "Mangshan Horned Toad",
    "sci": "Megophrys mangshanensis",
-   "aliases": [],
+   "aliases": [
+    "莽山异角蟾",
+    "湖南角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1335,7 +1652,7 @@
   {
    "slug": "megophrys-medogensis",
    "cn": "墨脱角蟾",
-   "en": "墨脱角蟾",
+   "en": "Medog Horned Toad",
    "sci": "Megophrys medogensis",
    "aliases": [],
    "group": "两栖纲",
@@ -1345,9 +1662,12 @@
   {
    "slug": "megophrys-nankiangensis",
    "cn": "南江角蟾",
-   "en": "南江角蟾",
+   "en": "Nankiang Horned Toad",
    "sci": "Megophrys nankiangensis",
-   "aliases": [],
+   "aliases": [
+    "南江拟角蟾",
+    "四川角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1355,7 +1675,7 @@
   {
    "slug": "megophrys-omeimontis",
    "cn": "峨眉角蟾",
-   "en": "峨眉角蟾",
+   "en": "Omei Horned Toad",
    "sci": "Megophrys omeimontis",
    "aliases": [],
    "group": "两栖纲",
@@ -1365,9 +1685,11 @@
   {
    "slug": "megophrys-shapingensis",
    "cn": "沙坪角蟾",
-   "en": "沙坪角蟾",
+   "en": "Shaping Horned Toad",
    "sci": "Megophrys shapingensis",
-   "aliases": [],
+   "aliases": [
+    "沙坪异角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1375,9 +1697,11 @@
   {
    "slug": "megophrys-spinata",
    "cn": "棘指角蟾",
-   "en": "棘指角蟾",
+   "en": "Spiny-fingered horned toad",
    "sci": "Megophrys spinata",
-   "aliases": [],
+   "aliases": [
+    "刺指角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1385,7 +1709,7 @@
   {
    "slug": "megophrys-wawuensis",
    "cn": "瓦屋角蟾",
-   "en": "瓦屋角蟾",
+   "en": "Wawu Horned Toad",
    "sci": "Megophrys wawuensis",
    "aliases": [],
    "group": "两栖纲",
@@ -1395,9 +1719,12 @@
   {
    "slug": "megophrys-wuliangshanensis",
    "cn": "无量山角蟾",
-   "en": "无量山角蟾",
+   "en": "Wuliangshan Horned Toad",
    "sci": "Megophrys wuliangshanensis",
-   "aliases": [],
+   "aliases": [
+    "无量山异角蟾",
+    "云南高山角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1405,9 +1732,12 @@
   {
    "slug": "megophrys-wushanensis",
    "cn": "巫山角蟾",
-   "en": "巫山角蟾",
+   "en": "Wushan Horned Toad",
    "sci": "Megophrys wushanensis",
-   "aliases": [],
+   "aliases": [
+    "巫山异角蟾",
+    "巫山异角蛙"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1417,7 +1747,11 @@
    "cn": "费氏角蟾",
    "en": "费氏角蟾",
    "sci": "Megophrys feii",
-   "aliases": [],
+   "aliases": [
+    "Megophrys feii",
+    "费氏异角蟾",
+    "Fei's Horned Frog"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1427,7 +1761,9 @@
    "cn": "南岭角蟾",
    "en": "南岭角蟾",
    "sci": "Megophrys nanlingensis",
-   "aliases": [],
+   "aliases": [
+    "岭南角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1437,7 +1773,9 @@
    "cn": "周氏角蟾",
    "en": "周氏角蟾",
    "sci": "Megophrys zhoui",
-   "aliases": [],
+   "aliases": [
+    "周氏异角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1445,9 +1783,12 @@
   {
    "slug": "brachytarsophrys-platyparietus",
    "cn": "平顶短腿蟾",
-   "en": "平顶短腿蟾",
+   "en": "Karin Hills Frog",
    "sci": "Brachytarsophrys platyparietus",
-   "aliases": [],
+   "aliases": [
+    "卡伦山蛙",
+    "平顶角蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1455,9 +1796,12 @@
   {
    "slug": "brachytarsophrys-chuannanensis",
    "cn": "川南短腿蟾",
-   "en": "川南短腿蟾",
+   "en": "Chuanan Short-legged Toad",
    "sci": "Brachytarsophrys chuannanensis",
-   "aliases": [],
+   "aliases": [
+    "川南角蟾",
+    "四川短腿蟾"
+   ],
    "group": "两栖纲",
    "family": "角蟾科",
    "order": "无尾目"
@@ -1475,9 +1819,12 @@
   {
    "slug": "bufo-ailaoanus",
    "cn": "哀牢溪蟾",
-   "en": "哀牢溪蟾",
+   "en": "Ailao Toad",
    "sci": "Bufo ailaoanus",
-   "aliases": [],
+   "aliases": [
+    "哀牢蟾蜍",
+    "云南溪蟾"
+   ],
    "group": "两栖纲",
    "family": "蟾蜍科",
    "order": "无尾目"
@@ -1485,7 +1832,7 @@
   {
    "slug": "bufo-aspinius",
    "cn": "无棘溪蟾",
-   "en": "无棘溪蟾",
+   "en": "Spineless Stream Toad",
    "sci": "Bufo aspinius",
    "aliases": [],
    "group": "两栖纲",
@@ -1495,9 +1842,11 @@
   {
    "slug": "bufo-luchunnicus",
    "cn": "绿春溪蟾",
-   "en": "绿春溪蟾",
+   "en": "Luchun Stream Toad",
    "sci": "Bufo luchunnicus",
-   "aliases": [],
+   "aliases": [
+    "绿春蟾蜍"
+   ],
    "group": "两栖纲",
    "family": "蟾蜍科",
    "order": "无尾目"
@@ -1505,7 +1854,7 @@
   {
    "slug": "bufo-menglianus",
    "cn": "孟连溪蟾",
-   "en": "孟连溪蟾",
+   "en": "Menglian Stream Toad",
    "sci": "Bufo menglianus",
    "aliases": [],
    "group": "两栖纲",
@@ -1515,9 +1864,12 @@
   {
    "slug": "bufo-tuberospinius",
    "cn": "疣棘蟾蜍",
-   "en": "疣棘溪蟾",
+   "en": "Dahoaping Stream Toad",
    "sci": "Bufo tuberospinius",
-   "aliases": [],
+   "aliases": [
+    "疣棘溪蟾",
+    "瘤棘蟾"
+   ],
    "group": "两栖纲",
    "family": "蟾蜍科",
    "order": "无尾目"
@@ -1525,9 +1877,11 @@
   {
    "slug": "ingerophrynus-ledongensis",
    "cn": "乐东蟾蜍",
-   "en": "乐东蟾蜍",
+   "en": "Ledong Toad",
    "sci": "Ingerophrynus ledongensis",
-   "aliases": [],
+   "aliases": [
+    "海南乐东蟾"
+   ],
    "group": "两栖纲",
    "family": "蟾蜍科",
    "order": "无尾目"
@@ -1535,9 +1889,11 @@
   {
    "slug": "parapelophryne-scalpta",
    "cn": "鳞皮小蟾",
-   "en": "鳞皮小蟾",
+   "en": "Hainan Flathead Toad",
    "sci": "Parapelophryne scalpta",
-   "aliases": [],
+   "aliases": [
+    "海南鳞皮小蟾"
+   ],
    "group": "两栖纲",
    "family": "蟾蜍科",
    "order": "无尾目"
@@ -1545,9 +1901,12 @@
   {
    "slug": "hyla-annectans",
    "cn": "华西雨蛙",
-   "en": "华西雨蛙",
+   "en": "Jerdon's Tree Frog",
    "sci": "Hyla annectans",
-   "aliases": [],
+   "aliases": [
+    "张氏树蛙",
+    "绿树蛙"
+   ],
    "group": "两栖纲",
    "family": "雨蛙科",
    "order": "无尾目"
@@ -1555,9 +1914,12 @@
   {
    "slug": "hyla-chinensis",
    "cn": "中国雨蛙",
-   "en": "中国雨蛙",
+   "en": "Common Chinese tree frog",
    "sci": "Hyla chinensis",
-   "aliases": [],
+   "aliases": [
+    "华雨蛙",
+    "绿树蛙(俗称)"
+   ],
    "group": "两栖纲",
    "family": "雨蛙科",
    "order": "无尾目"
@@ -1575,9 +1937,12 @@
   {
    "slug": "hyla-sanchiangensis",
    "cn": "三港雨蛙",
-   "en": "三港雨蛙",
+   "en": "San Chiang Treefrog",
    "sci": "Hyla sanchiangensis",
-   "aliases": [],
+   "aliases": [
+    "三门雨蛙",
+    "浙江雨蛙"
+   ],
    "group": "两栖纲",
    "family": "雨蛙科",
    "order": "无尾目"
@@ -1585,9 +1950,12 @@
   {
    "slug": "hyla-simplex",
    "cn": "华南雨蛙",
-   "en": "华南雨蛙",
+   "en": "Annam Tree Frog",
    "sci": "Hyla simplex",
-   "aliases": [],
+   "aliases": [
+    "简单雨蛙",
+    "越南树蛙"
+   ],
    "group": "两栖纲",
    "family": "雨蛙科",
    "order": "无尾目"
@@ -1595,9 +1963,11 @@
   {
    "slug": "hyla-tsinlingensis",
    "cn": "秦岭雨蛙",
-   "en": "秦岭雨蛙",
+   "en": "Shensi Tree Frog",
    "sci": "Hyla tsinlingensis",
-   "aliases": [],
+   "aliases": [
+    "秦岭树蛙"
+   ],
    "group": "两栖纲",
    "family": "雨蛙科",
    "order": "无尾目"
@@ -1605,9 +1975,13 @@
   {
    "slug": "rana-sangzhiensis",
    "cn": "桑植蛙",
-   "en": "桑植蛙",
+   "en": "Zhangcun Frog",
    "sci": "Rana sangzhiensis",
-   "aliases": [],
+   "aliases": [
+    "桑植趾沟蛙",
+    "桑植林蛙",
+    "桑植赤蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1625,9 +1999,13 @@
   {
    "slug": "rana-longicrus",
    "cn": "长肢林蛙",
-   "en": "长肢林蛙",
+   "en": "Taipa Frog",
    "sci": "Rana longicrus",
-   "aliases": [],
+   "aliases": [
+    "长脚赤蛙",
+    "长脚蛙",
+    "东南亚赤蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1635,9 +2013,12 @@
   {
    "slug": "rana-chaochiaoensis",
    "cn": "昭觉林蛙",
-   "en": "昭觉林蛙",
+   "en": "Chaochiao Frog",
    "sci": "Rana chaochiaoensis",
-   "aliases": [],
+   "aliases": [
+    "昭觉蛙",
+    "四川林蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1645,9 +2026,12 @@
   {
    "slug": "rana-chensinensis",
    "cn": "中国林蛙",
-   "en": "中国林蛙",
+   "en": "Chinese Brown Frog",
    "sci": "Rana chensinensis",
-   "aliases": [],
+   "aliases": [
+    "哈士蟆",
+    "雪蛤"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1655,9 +2039,12 @@
   {
    "slug": "rana-chevronta",
    "cn": "峰斑林蛙",
-   "en": "峰斑林蛙",
+   "en": "Chevron-spotted Brown Frog",
    "sci": "Rana chevronta",
-   "aliases": [],
+   "aliases": [
+    "人字纹林蛙",
+    "峰斑蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1665,9 +2052,12 @@
   {
    "slug": "rana-culaiensis",
    "cn": "徂徕林蛙",
-   "en": "徂徕林蛙",
+   "en": "Culai Brown Frog",
    "sci": "Rana culaiensis",
-   "aliases": [],
+   "aliases": [
+    "库莱树蛙",
+    "云雾蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1675,9 +2065,11 @@
   {
    "slug": "rana-hanluica",
    "cn": "寒露林蛙",
-   "en": "寒露林蛙",
+   "en": "Hanlui Brown Frog",
    "sci": "Rana hanluica",
-   "aliases": [],
+   "aliases": [
+    "寒露蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1685,9 +2077,12 @@
   {
    "slug": "rana-jiemuxiensis",
    "cn": "借母溪林蛙",
-   "en": "借母溪林蛙",
+   "en": "Jiemuxi Brown Frog",
    "sci": "Rana jiemuxiensis",
-   "aliases": [],
+   "aliases": [
+    "借母溪蛙",
+    "湖南林蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1695,9 +2090,12 @@
   {
    "slug": "rana-omeimontis",
    "cn": "峨眉林蛙",
-   "en": "峨眉林蛙",
+   "en": "Omei Wood Frog",
    "sci": "Rana omeimontis",
-   "aliases": [],
+   "aliases": [
+    "峨眉山蛙",
+    "峨眉臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1705,9 +2103,12 @@
   {
    "slug": "rana-shuchinae",
    "cn": "胫腺蛙",
-   "en": "胫腺蛙",
+   "en": "Gland-shanked Pond Frog",
    "sci": "Rana shuchinae",
-   "aliases": [],
+   "aliases": [
+    "蜀南蛙",
+    "四川胫腺蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1717,7 +2118,10 @@
    "cn": "明全蛙",
    "en": "明全蛙",
    "sci": "Rana zhengi",
-   "aliases": [],
+   "aliases": [
+    "郑氏林蛙",
+    "郑氏臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1725,9 +2129,12 @@
   {
    "slug": "rana-zhenhaiensis",
    "cn": "镇海林蛙",
-   "en": "镇海林蛙",
+   "en": "Zhenhai Brown Frog",
    "sci": "Rana zhenhaiensis",
-   "aliases": [],
+   "aliases": [
+    "镇海蛙",
+    "浙江林蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1735,9 +2142,12 @@
   {
    "slug": "rana-dabieshanensis",
    "cn": "大别山林蛙",
-   "en": "大别山林蛙",
+   "en": "Dabie Mountain Brown Frog",
    "sci": "Rana dabieshanensis",
-   "aliases": [],
+   "aliases": [
+    "大别山臭蛙(误称)",
+    "皖西林蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1745,9 +2155,12 @@
   {
    "slug": "amolops-bellulus",
    "cn": "片马湍蛙",
-   "en": "片马湍蛙",
+   "en": "Pianma Torrent Frog",
    "sci": "Amolops bellulus",
-   "aliases": [],
+   "aliases": [
+    "片马阿姆蛙",
+    "美丽湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1757,7 +2170,9 @@
    "cn": "察隅湍蛙",
    "en": "察隅湍蛙",
    "sci": "Amolops chayuensis",
-   "aliases": [],
+   "aliases": [
+    "察隅阿姆蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1765,9 +2180,11 @@
   {
    "slug": "amolops-chunganensis",
    "cn": "崇安湍蛙",
-   "en": "崇安湍蛙",
+   "en": "Chungan Sucker Frog",
    "sci": "Amolops chunganensis",
-   "aliases": [],
+   "aliases": [
+    "崇安蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1777,7 +2194,9 @@
    "cn": "戴云湍蛙",
    "en": "戴云湍蛙",
    "sci": "Amolops daiyunensis",
-   "aliases": [],
+   "aliases": [
+    "戴云阿姆蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1785,9 +2204,11 @@
   {
    "slug": "amolops-granulosus",
    "cn": "棘皮湍蛙",
-   "en": "棘皮湍蛙",
+   "en": "Granular Torrent Frog",
    "sci": "Amolops granulosus",
-   "aliases": [],
+   "aliases": [
+    "颗粒湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1795,9 +2216,11 @@
   {
    "slug": "amolops-hainanensis",
    "cn": "海南湍蛙",
-   "en": "海南湍蛙",
+   "en": "Hainan Torrent Frog",
    "sci": "Amolops hainanensis",
-   "aliases": [],
+   "aliases": [
+    "海南瀑布蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1805,9 +2228,12 @@
   {
    "slug": "amolops-hongkongensis",
    "cn": "香港湍蛙",
-   "en": "香港湍蛙",
+   "en": "Hong Kong Cascade Frog",
    "sci": "Amolops hongkongensis",
-   "aliases": [],
+   "aliases": [
+    "港湍蛙",
+    "香港瀑布蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1817,7 +2243,9 @@
    "cn": "金江湍蛙",
    "en": "金江湍蛙",
    "sci": "Amolops jinjiangensis",
-   "aliases": [],
+   "aliases": [
+    "金沙江湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1837,7 +2265,10 @@
    "cn": "理县湍蛙",
    "en": "理县湍蛙",
    "sci": "Amolops lifanensis",
-   "aliases": [],
+   "aliases": [
+    "理县蛙",
+    "四川理县湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1845,9 +2276,12 @@
   {
    "slug": "amolops-loloensis",
    "cn": "棕点湍蛙",
-   "en": "棕点湍蛙",
+   "en": "Lolokou Sucker Frog",
    "sci": "Amolops loloensis",
-   "aliases": [],
+   "aliases": [
+    "洛洛湍蛙",
+    "阿莫洛夫斯湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1855,9 +2289,12 @@
   {
    "slug": "amolops-mantzorum",
    "cn": "四川湍蛙",
-   "en": "四川湍蛙",
+   "en": "Sichuan Torrent Frog",
    "sci": "Amolops mantzorum",
-   "aliases": [],
+   "aliases": [
+    "四川蛙",
+    "孟氏湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1865,9 +2302,12 @@
   {
    "slug": "amolops-ricketti",
    "cn": "华南湍蛙",
-   "en": "华南湍蛙",
+   "en": "Chinese Sucker Frog",
    "sci": "Amolops ricketti",
-   "aliases": [],
+   "aliases": [
+    "郑氏湍蛙",
+    "坑蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1875,7 +2315,7 @@
   {
    "slug": "amolops-torrentis",
    "cn": "小湍蛙",
-   "en": "小湍蛙",
+   "en": "Little Torrent Frog",
    "sci": "Amolops torrentis",
    "aliases": [],
    "group": "两栖纲",
@@ -1887,7 +2327,10 @@
    "cn": "平疣湍蛙",
    "en": "平疣湍蛙",
    "sci": "Amolops tuberodepressus",
-   "aliases": [],
+   "aliases": [
+    "平疣蛙",
+    "湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1895,9 +2338,11 @@
   {
    "slug": "amolops-viridimaculatus",
    "cn": "绿点湍蛙",
-   "en": "绿点湍蛙",
+   "en": "Green-spotted Torrent Frog",
    "sci": "Amolops viridimaculatus",
-   "aliases": [],
+   "aliases": [
+    "绿斑湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1905,9 +2350,12 @@
   {
    "slug": "amolops-wuyiensis",
    "cn": "武夷湍蛙",
-   "en": "武夷湍蛙",
+   "en": "Sanchiang Sucker Frog",
    "sci": "Amolops wuyiensis",
-   "aliases": [],
+   "aliases": [
+    "武夷蛙",
+    "三港吸蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1915,9 +2363,11 @@
   {
    "slug": "amolops-albispinus",
    "cn": "白刺湍蛙",
-   "en": "白刺湍蛙",
+   "en": "White-spined Cascade Frog",
    "sci": "Amolops albispinus",
-   "aliases": [],
+   "aliases": [
+    "白棘湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1925,9 +2375,12 @@
   {
    "slug": "amolops-nyingchiensis",
    "cn": "林芝湍蛙",
-   "en": "林芝湍蛙",
+   "en": "Nyingchi Cascade Frog",
    "sci": "Amolops nyingchiensis",
-   "aliases": [],
+   "aliases": [
+    "林芝溪蛙",
+    "雅鲁藏布湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1937,7 +2390,10 @@
    "cn": "文山湍蛙",
    "en": "文山湍蛙",
    "sci": "Amolops wenshanensis",
-   "aliases": [],
+   "aliases": [
+    "文山蛙",
+    "滇南湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1947,7 +2403,10 @@
    "cn": "新都桥湍蛙",
    "en": "新都桥湍蛙",
    "sci": "Amolops xinduqiao",
-   "aliases": [],
+   "aliases": [
+    "四川湍蛙(局部俗称)",
+    "高原吸盘蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1957,7 +2416,9 @@
    "cn": "云开湍蛙",
    "en": "云开湍蛙",
    "sci": "Amolops yunkaiensis",
-   "aliases": [],
+   "aliases": [
+    "云开阿姆蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1965,9 +2426,12 @@
   {
    "slug": "amolops-sinensis",
    "cn": "中华湍蛙",
-   "en": "中华湍蛙",
+   "en": "Chinese Torrent Frog",
    "sci": "Amolops sinensis",
-   "aliases": [],
+   "aliases": [
+    "中国湍蛙",
+    "辛氏湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1975,9 +2439,12 @@
   {
    "slug": "amolops-yatseni",
    "cn": "逸仙湍蛙",
-   "en": "逸仙湍蛙",
+   "en": "Yat-sen’s Torrent Frog",
    "sci": "Amolops yatseni",
-   "aliases": [],
+   "aliases": [
+    "雅氏湍蛙",
+    "詹氏湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1987,7 +2454,10 @@
    "cn": "孟定湍蛙",
    "en": "孟定湍蛙",
    "sci": "Amolops mengdingensis",
-   "aliases": [],
+   "aliases": [
+    "云南孟定湍蛙",
+    "耿马湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -1995,7 +2465,7 @@
   {
    "slug": "amolops-shuichengicus",
    "cn": "水城湍蛙",
-   "en": "水城湍蛙",
+   "en": "Shuicheng Torrent Frog",
    "sci": "Amolops shuichengicus",
    "aliases": [],
    "group": "两栖纲",
@@ -2005,7 +2475,7 @@
   {
    "slug": "nidirana-adenopleura",
    "cn": "弹琴蛙",
-   "en": "弹琴蛙",
+   "en": "Olive Frog",
    "sci": "Nidirana adenopleura",
    "aliases": [],
    "group": "两栖纲",
@@ -2015,9 +2485,12 @@
   {
    "slug": "nidirana-daunchina",
    "cn": "仙琴蛙",
-   "en": "仙琴蛙",
+   "en": "Emei Music Frog",
    "sci": "Nidirana daunchina",
-   "aliases": [],
+   "aliases": [
+    "达氏琴蛙",
+    "南琴蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2025,9 +2498,11 @@
   {
    "slug": "nidirana-hainanensis",
    "cn": "海南琴蛙",
-   "en": "海南琴蛙",
+   "en": "Hainan Music Frog",
    "sci": "Nidirana hainanensis",
-   "aliases": [],
+   "aliases": [
+    "海南拟林蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2035,9 +2510,11 @@
   {
    "slug": "nidirana-pleuraden",
    "cn": "滇蛙",
-   "en": "滇蛙",
+   "en": "Yunnan Music Frog",
    "sci": "Nidirana pleuraden",
-   "aliases": [],
+   "aliases": [
+    "侧条厚唇蛙(误称)"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2045,9 +2522,12 @@
   {
    "slug": "nidirana-nankunensis",
    "cn": "南昆山琴蛙",
-   "en": "南昆山琴蛙",
+   "en": "Mt. Nankun Music Frog",
    "sci": "Nidirana nankunensis",
-   "aliases": [],
+   "aliases": [
+    "琴蛙",
+    "南昆山蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2055,9 +2535,11 @@
   {
    "slug": "nidirana-leishanensis",
    "cn": "雷山琴蛙",
-   "en": "雷山琴蛙",
+   "en": "Leishan Music Frog",
    "sci": "Nidirana leishanensis",
-   "aliases": [],
+   "aliases": [
+    "琴蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2065,7 +2547,7 @@
   {
    "slug": "nidirana-mangveni",
    "cn": "孟闻琴蛙",
-   "en": "孟闻琴蛙",
+   "en": "Mangven Chang's Music Frog",
    "sci": "Nidirana mangveni",
    "aliases": [],
    "group": "两栖纲",
@@ -2075,9 +2557,12 @@
   {
    "slug": "nidirana-xiangica",
    "cn": "湘琴蛙",
-   "en": "湘琴蛙",
+   "en": "Xiangjiang Music Frog",
    "sci": "Nidirana xiangica",
-   "aliases": [],
+   "aliases": [
+    "湖南琴蛙",
+    "湘江琴蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2085,9 +2570,12 @@
   {
    "slug": "nidirana-occidentalis",
    "cn": "滇西琴蛙",
-   "en": "滇西琴蛙",
+   "en": "Western Yunnan Music Frog",
    "sci": "Nidirana occidentalis",
-   "aliases": [],
+   "aliases": [
+    "西方琴蛙",
+    "云南琴蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2095,9 +2583,11 @@
   {
    "slug": "glandirana-minima",
    "cn": "小腺蛙",
-   "en": "小腺蛙",
+   "en": "Little Gland Frog",
    "sci": "Glandirana minima",
-   "aliases": [],
+   "aliases": [
+    "腺蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2107,7 +2597,11 @@
    "cn": "天台腺蛙",
    "en": "天台粗皮蛙",
    "sci": "Glandirana tientaiensis",
-   "aliases": [],
+   "aliases": [
+    "天台粗皮蛙",
+    "天台蛙",
+    "粗皮蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2115,9 +2609,14 @@
   {
    "slug": "hylarana-latouchii",
    "cn": "阔褶水蛙",
-   "en": "阔褶水蛙",
+   "en": "LaTouche's Frog",
    "sci": "Hylarana latouchii",
-   "aliases": [],
+   "aliases": [
+    "拉都希氏赤蛙",
+    "大头蛙",
+    "拉都氏蛙",
+    "山坑蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2135,7 +2634,7 @@
   {
    "slug": "odorrana-anlungensis",
    "cn": "安龙臭蛙",
-   "en": "安龙臭蛙",
+   "en": "Lungtou Frog",
    "sci": "Odorrana anlungensis",
    "aliases": [],
    "group": "两栖纲",
@@ -2145,9 +2644,11 @@
   {
    "slug": "odorrana-cangyuanensis",
    "cn": "沧源臭蛙",
-   "en": "沧源臭蛙",
+   "en": "Cangyuan Odorous Frog",
    "sci": "Odorrana cangyuanensis",
-   "aliases": [],
+   "aliases": [
+    "沧源蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2155,9 +2656,11 @@
   {
    "slug": "odorrana-exiliversabilis",
    "cn": "小竹叶蛙",
-   "en": "小竹叶蛙",
+   "en": "Fujian Bamboo-leaf Frog",
    "sci": "Odorrana exiliversabilis",
-   "aliases": [],
+   "aliases": [
+    "小叶竹蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2165,9 +2668,12 @@
   {
    "slug": "odorrana-grahami",
    "cn": "无指盘臭蛙",
-   "en": "无指盘臭蛙",
+   "en": "Diskless-fingered Odorous Frog",
    "sci": "Odorrana grahami",
-   "aliases": [],
+   "aliases": [
+    "格雷厄姆臭蛙",
+    "峨眉臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2175,7 +2681,7 @@
   {
    "slug": "odorrana-graminea",
    "cn": "大绿臭蛙",
-   "en": "大绿臭蛙",
+   "en": "Large Odorous Frog",
    "sci": "Odorrana graminea",
    "aliases": [],
    "group": "两栖纲",
@@ -2195,9 +2701,12 @@
   {
    "slug": "odorrana-hejiangensis",
    "cn": "合江臭蛙",
-   "en": "合江臭蛙",
+   "en": "Hejiang Frog",
    "sci": "Odorrana hejiangensis",
-   "aliases": [],
+   "aliases": [
+    "合江湍蛙",
+    "四川臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2205,9 +2714,12 @@
   {
    "slug": "odorrana-huanggangensis",
    "cn": "黄岗臭蛙",
-   "en": "黄岗臭蛙",
+   "en": "Huanggang Odorous Frog",
    "sci": "Odorrana huanggangensis",
-   "aliases": [],
+   "aliases": [
+    "黄岗湍蛙",
+    "武夷山臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2215,9 +2727,11 @@
   {
    "slug": "odorrana-kuangwuensis",
    "cn": "光雾臭蛙",
-   "en": "光雾臭蛙",
+   "en": "Kuang-wu Shan Frog",
    "sci": "Odorrana kuangwuensis",
-   "aliases": [],
+   "aliases": [
+    "光雾山臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2225,9 +2739,11 @@
   {
    "slug": "odorrana-leporipes",
    "cn": "龙头山臭蛙",
-   "en": "龙头山臭蛙",
+   "en": "Longtoushan Large Odorous Frog",
    "sci": "Odorrana leporipes",
-   "aliases": [],
+   "aliases": [
+    "龙头山湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2235,9 +2751,12 @@
   {
    "slug": "odorrana-lungshengensis",
    "cn": "龙胜臭蛙",
-   "en": "龙胜臭蛙",
+   "en": "Lung-shen-hsien Frog",
    "sci": "Odorrana lungshengensis",
-   "aliases": [],
+   "aliases": [
+    "龙胜湍蛙",
+    "龙胜奇臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2245,9 +2764,11 @@
   {
    "slug": "odorrana-margaretae",
    "cn": "绿臭蛙",
-   "en": "绿臭蛙",
+   "en": "Green Odorous Frog",
    "sci": "Odorrana margaretae",
-   "aliases": [],
+   "aliases": [
+    "玛格丽特臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2255,9 +2776,12 @@
   {
    "slug": "odorrana-nanjiangensis",
    "cn": "南江臭蛙",
-   "en": "南江臭蛙",
+   "en": "Nanjing Odorous Frog",
    "sci": "Odorrana nanjiangensis",
-   "aliases": [],
+   "aliases": [
+    "南江湍蛙",
+    "四川臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2265,9 +2789,12 @@
   {
    "slug": "odorrana-nasuta",
    "cn": "鸭嘴竹叶蛙",
-   "en": "鸭嘴竹叶蛙",
+   "en": "Hainan Bamboo-leaf Frog",
    "sci": "Odorrana nasuta",
-   "aliases": [],
+   "aliases": [
+    "尖吻臭蛙",
+    "鼻突臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2275,7 +2802,7 @@
   {
    "slug": "odorrana-rotodora",
    "cn": "圆斑臭蛙",
-   "en": "圆斑臭蛙",
+   "en": "Round-spotted Odorous Frog",
    "sci": "Odorrana rotodora",
    "aliases": [],
    "group": "两栖纲",
@@ -2285,9 +2812,12 @@
   {
    "slug": "odorrana-schmackeri",
    "cn": "花臭蛙",
-   "en": "花臭蛙复合群",
+   "en": "Schmacker's Frog",
    "sci": "Odorrana schmackeri",
-   "aliases": [],
+   "aliases": [
+    "臭蛙",
+    "Schmacker's Odorous Frog"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2295,9 +2825,11 @@
   {
    "slug": "odorrana-tianmuii",
    "cn": "天目臭蛙",
-   "en": "天目臭蛙",
+   "en": "Tianmu Odorous Frog",
    "sci": "Odorrana tianmuii",
-   "aliases": [],
+   "aliases": [
+    "天目湍蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2305,9 +2837,12 @@
   {
    "slug": "odorrana-tormota",
    "cn": "凹耳臭蛙",
-   "en": "凹耳臭蛙",
+   "en": "Concave-eared Torrent Frog",
    "sci": "Odorrana tormota",
-   "aliases": [],
+   "aliases": [
+    "超声波蛙",
+    "安吉臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2315,9 +2850,12 @@
   {
    "slug": "odorrana-versabilis",
    "cn": "竹叶蛙",
-   "en": "竹叶蛙",
+   "en": "Bamboo-leaf Frog",
    "sci": "Odorrana versabilis",
-   "aliases": [],
+   "aliases": [
+    "臭蛙",
+    "绿叶蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2325,7 +2863,7 @@
   {
    "slug": "odorrana-wuchuanensis",
    "cn": "务川臭蛙",
-   "en": "务川臭蛙",
+   "en": "Wuchuan Odorous Frog",
    "sci": "Odorrana wuchuanensis",
    "aliases": [],
    "group": "两栖纲",
@@ -2335,9 +2873,12 @@
   {
    "slug": "odorrana-fengkaiensis",
    "cn": "封开臭蛙",
-   "en": "封开臭蛙",
+   "en": "Fengkai Cascade Frog",
    "sci": "Odorrana fengkaiensis",
-   "aliases": [],
+   "aliases": [
+    "封开湍蛙",
+    "广东臭蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2345,9 +2886,12 @@
   {
    "slug": "odorrana-kweichowensis",
    "cn": "贵州臭蛙",
-   "en": "贵州臭蛙",
+   "en": "Guizhou Odorous Frog",
    "sci": "Odorrana kweichowensis",
-   "aliases": [],
+   "aliases": [
+    "贵州湍蛙",
+    "贵臭"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2355,7 +2899,7 @@
   {
    "slug": "odorrana-yizhangensis",
    "cn": "宜章臭蛙",
-   "en": "宜章臭蛙",
+   "en": "Yizang Odorous Frog",
    "sci": "Odorrana yizhangensis",
    "aliases": [],
    "group": "两栖纲",
@@ -2365,9 +2909,12 @@
   {
    "slug": "pelophylax-fukienensis",
    "cn": "福建侧褶蛙",
-   "en": "福建侧褶蛙",
+   "en": "Fukien Gold-striped Pond Frog",
    "sci": "Pelophylax fukienensis",
-   "aliases": [],
+   "aliases": [
+    "福建青蛙",
+    "闽蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2375,9 +2922,12 @@
   {
    "slug": "pelophylax-hubeiensis",
    "cn": "湖北侧褶蛙",
-   "en": "湖北侧褶蛙",
+   "en": "Hubei Frog",
    "sci": "Pelophylax hubeiensis",
-   "aliases": [],
+   "aliases": [
+    "湖蛙",
+    "湖北青蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2385,9 +2935,12 @@
   {
    "slug": "pelophylax-plancyi",
    "cn": "金线侧褶蛙",
-   "en": "金线侧褶蛙",
+   "en": "Beijing Gold-striped Pond Frog",
    "sci": "Pelophylax plancyi",
-   "aliases": [],
+   "aliases": [
+    "金线蛙",
+    "Plancy's Frog"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2395,9 +2948,12 @@
   {
    "slug": "pelophylax-tenggerensis",
    "cn": "腾格里蛙",
-   "en": "腾格里蛙",
+   "en": "Yellow River Frog",
    "sci": "Pelophylax tenggerensis",
-   "aliases": [],
+   "aliases": [
+    "黄河蛙",
+    "宁夏侧褶蛙"
+   ],
    "group": "两栖纲",
    "family": "蛙科",
    "order": "无尾目"
@@ -2405,7 +2961,7 @@
   {
    "slug": "liurana-alpina",
    "cn": "高山舌突蛙",
-   "en": "高山舌突蛙",
+   "en": "Alpine Papilla-tongued Frog",
    "sci": "Liurana alpina",
    "aliases": [],
    "group": "两栖纲",
@@ -2415,7 +2971,7 @@
   {
    "slug": "liurana-medogensis",
    "cn": "墨脱舌突蛙",
-   "en": "墨脱舌突蛙",
+   "en": "Medog Papilla-tongued Frog",
    "sci": "Liurana medogensis",
    "aliases": [],
    "group": "两栖纲",
@@ -2425,7 +2981,7 @@
   {
    "slug": "liurana-xizangensis",
    "cn": "西藏舌突蛙",
-   "en": "西藏舌突蛙",
+   "en": "Xizang Eastern Frog",
    "sci": "Liurana xizangensis",
    "aliases": [],
    "group": "两栖纲",
@@ -2435,9 +2991,13 @@
   {
    "slug": "fejervarya-multistriata",
    "cn": "泽陆蛙",
-   "en": "泽陆蛙",
+   "en": "Hong Kong Rice-paddy Frog",
    "sci": "Fejervarya multistriata",
-   "aliases": [],
+   "aliases": [
+    "泽蛙",
+    "田鸡",
+    "麻拐"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2447,7 +3007,10 @@
    "cn": "刘氏泰诺蛙",
    "en": "刘氏泰诺蛙",
    "sci": "Limnonectes liui",
-   "aliases": [],
+   "aliases": [
+    "刘氏大头蛙",
+    "云南大头蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2457,7 +3020,10 @@
    "cn": "脆皮大头蛙",
    "en": "脆皮大头蛙",
    "sci": "Limnonectes fragilis",
-   "aliases": [],
+   "aliases": [
+    "林农氏大头蛙",
+    "脆弱大头蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2465,9 +3031,11 @@
   {
    "slug": "limnonectes-fujianensis",
    "cn": "福建大头蛙",
-   "en": "福建大头蛙",
+   "en": "Fujian Large-headed Frog",
    "sci": "Limnonectes fujianensis",
-   "aliases": [],
+   "aliases": [
+    "Fujian Big-headed Frog"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2475,9 +3043,12 @@
   {
    "slug": "nanorana-chayuensis",
    "cn": "察隅棘蛙",
-   "en": "察隅棘蛙",
+   "en": "Chayu Paa Frog",
    "sci": "Nanorana chayuensis",
-   "aliases": [],
+   "aliases": [
+    "察隅蛙",
+    "西藏倭蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2487,7 +3058,11 @@
    "cn": "双团棘胸蛙",
    "en": "双团棘胸蛙",
    "sci": "Nanorana phrynoides",
-   "aliases": [],
+   "aliases": [
+    "蟾状棘蛙",
+    "蟾蜍棘蛙",
+    "高山棘蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2495,9 +3070,12 @@
   {
    "slug": "nanorana-conaensis",
    "cn": "错那棘蛙",
-   "en": "错那棘蛙",
+   "en": "Cona Paa Frog",
    "sci": "Nanorana conaensis",
-   "aliases": [],
+   "aliases": [
+    "错那帕蛙",
+    "高原棘蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2505,9 +3083,11 @@
   {
    "slug": "nanorana-maculosa",
    "cn": "花棘蛙",
-   "en": "花棘蛙",
+   "en": "Piebald Spiny Frog",
    "sci": "Nanorana maculosa",
-   "aliases": [],
+   "aliases": [
+    "花背棘蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2515,9 +3095,11 @@
   {
    "slug": "nanorana-medogensis",
    "cn": "墨脱棘蛙",
-   "en": "墨脱棘蛙",
+   "en": "Medog Spiny Frog",
    "sci": "Nanorana medogensis",
-   "aliases": [],
+   "aliases": [
+    "西藏棘蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2525,9 +3107,12 @@
   {
    "slug": "nanorana-parkeri",
    "cn": "高山倭蛙",
-   "en": "高山倭蛙",
+   "en": "High Himalaya Frog",
    "sci": "Nanorana parkeri",
-   "aliases": [],
+   "aliases": [
+    "帕克氏倭蛙",
+    "西藏倭蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2535,9 +3120,12 @@
   {
    "slug": "nanorana-pleskei",
    "cn": "倭蛙",
-   "en": "倭蛙",
+   "en": "Tibetan Frog",
    "sci": "Nanorana pleskei",
-   "aliases": [],
+   "aliases": [
+    "普氏倭蛙",
+    "高原倭蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2545,9 +3133,11 @@
   {
    "slug": "nanorana-quadranus",
    "cn": "隆肛蛙",
-   "en": "隆肛蛙",
+   "en": "Swelled-vented Frog",
    "sci": "Nanorana quadranus",
-   "aliases": [],
+   "aliases": [
+    "西南棘蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2555,9 +3145,11 @@
   {
    "slug": "nanorana-taihangnica",
    "cn": "太行隆肛蛙",
-   "en": "太行隆肛蛙",
+   "en": "Taihangshan Swelled-vented Frog",
    "sci": "Nanorana taihangnica",
-   "aliases": [],
+   "aliases": [
+    "太行蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2565,9 +3157,12 @@
   {
    "slug": "nanorana-unculuanus",
    "cn": "棘肛蛙",
-   "en": "棘肛蛙",
+   "en": "Yunnan Asian Frog",
    "sci": "Nanorana unculuanus",
-   "aliases": [],
+   "aliases": [
+    "云南棘肛蛙",
+    "Unculuanus Frog"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2575,9 +3170,12 @@
   {
    "slug": "nanorana-ventripunctata",
    "cn": "腹斑倭蛙",
-   "en": "腹斑倭蛙",
+   "en": "Spot-bellied Plateau Frog",
    "sci": "Nanorana ventripunctata",
-   "aliases": [],
+   "aliases": [
+    "腹斑蛙",
+    "高原倭蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2585,9 +3183,12 @@
   {
    "slug": "nanorana-sichuanensis",
    "cn": "四川棘蛙",
-   "en": "四川棘蛙",
+   "en": "Sichuan Paa Frog",
    "sci": "Nanorana sichuanensis",
-   "aliases": [],
+   "aliases": [
+    "川西棘蛙",
+    "石蚌"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2595,9 +3196,12 @@
   {
    "slug": "quasipaa-boulengeri",
    "cn": "棘腹蛙",
-   "en": "棘腹蛙",
+   "en": "Spiny-bellied Frog",
    "sci": "Quasipaa boulengeri",
-   "aliases": [],
+   "aliases": [
+    "布尔杰氏棘蛙",
+    "石蚌"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2605,9 +3209,12 @@
   {
    "slug": "quasipaa-exilispinosa",
    "cn": "小棘蛙",
-   "en": "小棘蛙",
+   "en": "Little Spiny Frog",
    "sci": "Quasipaa exilispinosa",
-   "aliases": [],
+   "aliases": [
+    "石蛙(误称)",
+    "哈士蟆(误称)"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2615,9 +3222,11 @@
   {
    "slug": "quasipaa-jiulongensis",
    "cn": "九龙棘蛙",
-   "en": "九龙棘蛙",
+   "en": "Jiulong Spiny Frog",
    "sci": "Quasipaa jiulongensis",
-   "aliases": [],
+   "aliases": [
+    "九龙山棘蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2625,9 +3234,12 @@
   {
    "slug": "quasipaa-shini",
    "cn": "棘侧蛙",
-   "en": "棘侧蛙",
+   "en": "Spiny-flanked Frog",
    "sci": "Quasipaa shini",
-   "aliases": [],
+   "aliases": [
+    "施氏角蟾",
+    "石蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2635,9 +3247,13 @@
   {
    "slug": "quasipaa-spinosa",
    "cn": "棘胸蛙",
-   "en": "棘胸蛙",
+   "en": "Giant Spiny Frog",
    "sci": "Quasipaa spinosa",
-   "aliases": [],
+   "aliases": [
+    "石鸡",
+    "石蛙",
+    "坑蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2645,9 +3261,13 @@
   {
    "slug": "quasipaa-yei",
    "cn": "叶氏隆肛蛙",
-   "en": "叶氏隆肛蛙",
+   "en": "Ye's Spiny-vented Frog",
    "sci": "Quasipaa yei",
-   "aliases": [],
+   "aliases": [
+    "叶氏肛刺蛙",
+    "叶氏臭蛙",
+    "叶氏棘胸蛙"
+   ],
    "group": "两栖纲",
    "family": "叉舌蛙科",
    "order": "无尾目"
@@ -2655,9 +3275,11 @@
   {
    "slug": "buergeria-oxycephala",
    "cn": "海南溪树蛙",
-   "en": "海南溪树蛙",
+   "en": "Hainan Stream Tree Frog",
    "sci": "Buergeria oxycephala",
-   "aliases": [],
+   "aliases": [
+    "尖吻溪树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2665,9 +3287,11 @@
   {
    "slug": "buergeria-otai",
    "cn": "太田溪树蛙",
-   "en": "太田溪树蛙",
+   "en": "Ota's stream tree frog",
    "sci": "Buergeria otai",
-   "aliases": [],
+   "aliases": [
+    "冲绳溪树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2675,9 +3299,12 @@
   {
    "slug": "theloderma-rhododiscus",
    "cn": "红吸盘棱皮树蛙",
-   "en": "红吸盘棱皮树蛙",
+   "en": "Red-disked Small Treefrog",
    "sci": "Theloderma rhododiscus",
-   "aliases": [],
+   "aliases": [
+    "红吸盘树蛙",
+    "托氏棱皮树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2685,9 +3312,12 @@
   {
    "slug": "feihyla-fuhua",
    "cn": "抚华费树蛙",
-   "en": "抚华费树蛙",
+   "en": "White-cheeked Small Treefrog",
    "sci": "Feihyla fuhua",
-   "aliases": [],
+   "aliases": [
+    "费氏树蛙",
+    "抚华小树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2697,7 +3327,9 @@
    "cn": "弄岗纤树蛙",
    "en": "弄岗纤树蛙",
    "sci": "Gracixalus nonggangensis",
-   "aliases": [],
+   "aliases": [
+    "弄岗小树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2705,9 +3337,11 @@
   {
    "slug": "gracixalus-guangdongensis",
    "cn": "广东纤树蛙",
-   "en": "广东纤树蛙",
+   "en": "Guangdong Tree Frog",
    "sci": "Gracixalus guangdongensis",
-   "aliases": [],
+   "aliases": [
+    "粤西纤树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2715,9 +3349,11 @@
   {
    "slug": "gracixalus-jinggangensis",
    "cn": "井冈纤树蛙",
-   "en": "井冈纤树蛙",
+   "en": "Jinggang Tree Frog",
    "sci": "Gracixalus jinggangensis",
-   "aliases": [],
+   "aliases": [
+    "井冈山树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2725,9 +3361,12 @@
   {
    "slug": "gracixalus-tianlinensis",
    "cn": "田林纤树蛙",
-   "en": "田林纤树蛙",
+   "en": "Tianlin Small Tree Frog",
    "sci": "Gracixalus tianlinensis",
-   "aliases": [],
+   "aliases": [
+    "广西纤树蛙",
+    "田林小树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2735,9 +3374,12 @@
   {
    "slug": "kurixalus-idiootocus",
    "cn": "面天原指树蛙",
-   "en": "面天原指树蛙",
+   "en": "Temple Tree Frog",
    "sci": "Kurixalus idiootocus",
-   "aliases": [],
+   "aliases": [
+    "面天树蛙",
+    "Idiootocus Tree Frog"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2745,9 +3387,12 @@
   {
    "slug": "kurixalus-berylliniris",
    "cn": "碧眼原指树蛙",
-   "en": "碧眼原指树蛙",
+   "en": "Green Iris Tree Frog",
    "sci": "Kurixalus berylliniris",
-   "aliases": [],
+   "aliases": [
+    "绿眼原指树蛙",
+    "越南碧眼蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2757,7 +3402,10 @@
    "cn": "冷泉原指树蛙",
    "en": "冷泉原指树蛙",
    "sci": "Kurixalus lenquanensis",
-   "aliases": [],
+   "aliases": [
+    "冷泉树蛙",
+    "Lenquan Tree Frog"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2765,9 +3413,11 @@
   {
    "slug": "kurixalus-wangi",
    "cn": "王氏原指树蛙",
-   "en": "王氏原指树蛙",
+   "en": "Wang's Tree Frog",
    "sci": "Kurixalus wangi",
-   "aliases": [],
+   "aliases": [
+    "王氏树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2775,9 +3425,11 @@
   {
    "slug": "liuixalus-hainanus",
    "cn": "海南刘树蛙",
-   "en": "海南刘树蛙",
+   "en": "Hainan Small Treefrog",
    "sci": "Liuixalus hainanus",
-   "aliases": [],
+   "aliases": [
+    "海南小树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2785,9 +3437,12 @@
   {
    "slug": "liuixalus-ocellatus",
    "cn": "眼斑刘树蛙",
-   "en": "眼斑刘树蛙",
+   "en": "Ocellated Bubble-nest Frog",
    "sci": "Liuixalus ocellatus",
-   "aliases": [],
+   "aliases": [
+    "刘氏小树蛙",
+    "眼斑小树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2795,9 +3450,12 @@
   {
    "slug": "liuixalus-romeri",
    "cn": "罗默刘树蛙",
-   "en": "罗默刘树蛙",
+   "en": "Romer's Tree Frog",
    "sci": "Liuixalus romeri",
-   "aliases": [],
+   "aliases": [
+    "罗默氏小树蛙",
+    "香港小树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2805,9 +3463,12 @@
   {
    "slug": "liuixalus-feii",
    "cn": "费氏刘树蛙",
-   "en": "费氏刘树蛙",
+   "en": "Fei’s Small Tree Frog",
    "sci": "Liuixalus feii",
-   "aliases": [],
+   "aliases": [
+    "费氏小树蛙",
+    "Fei's Small Tree Frog"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2815,9 +3476,11 @@
   {
    "slug": "philautus-kempii",
    "cn": "肯氏小树蛙",
-   "en": "肯氏小树蛙",
+   "en": "Kemp's Bush Frog",
    "sci": "Philautus kempii",
-   "aliases": [],
+   "aliases": [
+    "肯氏灌树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2827,7 +3490,9 @@
    "cn": "黄连山灌树蛙",
    "en": "黄连山灌树蛙",
    "sci": "Raorchestes huanglianshan",
-   "aliases": [],
+   "aliases": [
+    "黄连山小树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2837,7 +3502,9 @@
    "cn": "勐海灌树蛙",
    "en": "勐海灌树蛙",
    "sci": "Raorchestes hillisi",
-   "aliases": [],
+   "aliases": [
+    "希氏灌树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2845,9 +3512,11 @@
   {
    "slug": "rhacophorus-translineatus",
    "cn": "横纹树蛙",
-   "en": "横纹树蛙",
+   "en": "Medog Flying Frog",
    "sci": "Rhacophorus translineatus",
-   "aliases": [],
+   "aliases": [
+    "中国横纹树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2855,9 +3524,12 @@
   {
    "slug": "zhangixalus-leucofasciatus",
    "cn": "白线树蛙",
-   "en": "白线树蛙",
+   "en": "White-striped Treefrog",
    "sci": "Zhangixalus leucofasciatus",
-   "aliases": [],
+   "aliases": [
+    "白条树蛙",
+    "张氏树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2865,9 +3537,12 @@
   {
    "slug": "zhangixalus-wui",
    "cn": "利川树蛙",
-   "en": "利川树蛙",
+   "en": "Lichuan Treefrog",
    "sci": "Zhangixalus wui",
-   "aliases": [],
+   "aliases": [
+    "吴氏张氏树蛙",
+    "湖北树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2875,9 +3550,12 @@
   {
    "slug": "nasutixalus-yingjiangensis",
    "cn": "盈江棱鼻树蛙",
-   "en": "盈江棱鼻树蛙",
+   "en": "Yingjiang Tree-hole Frog",
    "sci": "Nasutixalus yingjiangensis",
-   "aliases": [],
+   "aliases": [
+    "盈江树蛙",
+    "棱鼻树蛙"
+   ],
    "group": "两栖纲",
    "family": "树蛙科",
    "order": "无尾目"
@@ -2885,9 +3563,12 @@
   {
    "slug": "glyphoglossus-yunnanensis",
    "cn": "云南小狭口蛙",
-   "en": "云南小狭口蛙",
+   "en": "Yunnan Small Narrow-mouthed Frog",
    "sci": "Glyphoglossus yunnanensis",
-   "aliases": [],
+   "aliases": [
+    "滇南小狭口蛙",
+    "云南狭口蛙"
+   ],
    "group": "两栖纲",
    "family": "姬蛙科",
    "order": "无尾目"
@@ -2895,9 +3576,12 @@
   {
    "slug": "kaloula-rugifera",
    "cn": "四川狭口蛙",
-   "en": "四川狭口蛙",
+   "en": "Sichuan Digging Frog",
    "sci": "Kaloula rugifera",
-   "aliases": [],
+   "aliases": [
+    "皱皮狭口蛙",
+    "四川姬蛙"
+   ],
    "group": "两栖纲",
    "family": "姬蛙科",
    "order": "无尾目"
@@ -2905,9 +3589,12 @@
   {
    "slug": "kaloula-verrucosa",
    "cn": "多疣狭口蛙",
-   "en": "多疣狭口蛙",
+   "en": "Chinese Narrowmouth Toad",
    "sci": "Kaloula verrucosa",
-   "aliases": [],
+   "aliases": [
+    "多疣姬蛙",
+    "臭蛙"
+   ],
    "group": "两栖纲",
    "family": "姬蛙科",
    "order": "无尾目"
@@ -2915,9 +3602,11 @@
   {
    "slug": "microhyla-fissipes",
    "cn": "饰纹姬蛙",
-   "en": "饰纹姬蛙",
+   "en": "Ornate Narrow-mouthed Frog",
    "sci": "Microhyla fissipes",
-   "aliases": [],
+   "aliases": [
+    "小口蛙"
+   ],
    "group": "两栖纲",
    "family": "姬蛙科",
    "order": "无尾目"
@@ -2925,9 +3614,12 @@
   {
    "slug": "microhyla-mixtura",
    "cn": "合征姬蛙",
-   "en": "合征姬蛙",
+   "en": "Mixtured Pygmy Frog",
    "sci": "Microhyla mixtura",
-   "aliases": [],
+   "aliases": [
+    "混合姬蛙",
+    "杂色姬蛙"
+   ],
    "group": "两栖纲",
    "family": "姬蛙科",
    "order": "无尾目"
@@ -2935,9 +3627,11 @@
   {
    "slug": "microhyla-beilunensis",
    "cn": "北仑姬蛙",
-   "en": "北仑姬蛙",
+   "en": "Beilun Pygmy Frog",
    "sci": "Microhyla beilunensis",
-   "aliases": [],
+   "aliases": [
+    "北仑小姬蛙"
+   ],
    "group": "两栖纲",
    "family": "姬蛙科",
    "order": "无尾目"
@@ -2945,9 +3639,11 @@
   {
    "slug": "microhyla-fanjingshanensis",
    "cn": "梵净山姬蛙",
-   "en": "梵净山姬蛙",
+   "en": "Microhyla fanjingshanensis",
    "sci": "Microhyla fanjingshanensis",
-   "aliases": [],
+   "aliases": [
+    "梵净山小姬蛙"
+   ],
    "group": "两栖纲",
    "family": "姬蛙科",
    "order": "无尾目"
@@ -2955,9 +3651,12 @@
   {
    "slug": "micryletta-steinegeri",
    "cn": "史氏小姬蛙",
-   "en": "史氏小姬蛙",
+   "en": "Stejneger's Paddy Frog",
    "sci": "Micryletta steinegeri",
-   "aliases": [],
+   "aliases": [
+    "施泰因格氏小姬蛙",
+    "史氏姬蛙"
+   ],
    "group": "两栖纲",
    "family": "姬蛙科",
    "order": "无尾目"
@@ -3165,9 +3864,11 @@
   {
    "slug": "blue-eared-pheasant",
    "cn": "蓝马鸡",
-   "en": "蓝马鸡",
+   "en": "Blue Eared-Pheasant",
    "sci": "Crossoptilon auritum",
-   "aliases": [],
+   "aliases": [
+    "青马鸡"
+   ],
    "group": "鸟纲",
    "family": "雉科",
    "order": ""
@@ -3175,9 +3876,12 @@
   {
    "slug": "white-eared-pheasant",
    "cn": "白马鸡",
-   "en": "白马鸡",
+   "en": "White Eared-Pheasant (White)",
    "sci": "Crossoptilon crossoptilon",
-   "aliases": [],
+   "aliases": [
+    "雪雉",
+    "白雉"
+   ],
    "group": "鸟纲",
    "family": "雉科",
    "order": ""
@@ -3185,9 +3889,12 @@
   {
    "slug": "golden-pheasant",
    "cn": "红腹锦鸡",
-   "en": "红腹锦鸡",
+   "en": "Golden Pheasant",
    "sci": "Chrysolophus pictus",
-   "aliases": [],
+   "aliases": [
+    "金鸡",
+    "采鸡"
+   ],
    "group": "鸟纲",
    "family": "雉科",
    "order": ""
@@ -3195,9 +3902,12 @@
   {
    "slug": "chinese-monal",
    "cn": "绿尾虹雉",
-   "en": "绿尾虹雉",
+   "en": "Chinese Monal",
    "sci": "Lophophorus lhuysii",
-   "aliases": [],
+   "aliases": [
+    "青雉",
+    "鹰鸡"
+   ],
    "group": "鸟纲",
    "family": "雉科",
    "order": ""
@@ -3205,9 +3915,12 @@
   {
    "slug": "tibetan-eared-pheasant",
    "cn": "红腹角雉",
-   "en": "红腹角雉",
+   "en": "Temminck's Tragopan",
    "sci": "Tragopan temminckii",
-   "aliases": [],
+   "aliases": [
+    "寿鸡",
+    "五采鸡"
+   ],
    "group": "鸟纲",
    "family": "雉科",
    "order": ""
@@ -3215,9 +3928,12 @@
   {
    "slug": "cabots-tragopan",
    "cn": "黄腹角雉",
-   "en": "黄腹角雉",
+   "en": "Cabot's tragopan",
    "sci": "Tragopan caboti",
-   "aliases": [],
+   "aliases": [
+    "黄鸡",
+    "角鸡"
+   ],
    "group": "鸟纲",
    "family": "雉科",
    "order": ""
@@ -3225,9 +3941,12 @@
   {
    "slug": "white-necked-long-tailed-pheasant",
    "cn": "白颈长尾雉",
-   "en": "白颈长尾雉",
+   "en": "Elliot's Pheasant",
    "sci": "Syrmaticus ellioti",
-   "aliases": [],
+   "aliases": [
+    "白颈雉",
+    "杭鸡"
+   ],
    "group": "鸟纲",
    "family": "雉科",
    "order": ""
@@ -3235,9 +3954,11 @@
   {
    "slug": "reeves-pheasant",
    "cn": "白冠长尾雉",
-   "en": "白冠长尾雉",
+   "en": "Reeves's Pheasant",
    "sci": "Syrmaticus reevesii",
-   "aliases": [],
+   "aliases": [
+    "Long-tailed Pheasant"
+   ],
    "group": "鸟纲",
    "family": "雉科",
    "order": ""
@@ -3245,9 +3966,12 @@
   {
    "slug": "sichuan-partridge",
    "cn": "四川山鹧鸪",
-   "en": "四川山鹧鸪",
+   "en": "Sichuan Partridge",
    "sci": "Arborophila rufipectus",
-   "aliases": [],
+   "aliases": [
+    "砣砣鸡",
+    "四川特有种"
+   ],
    "group": "鸟纲",
    "family": "雉科",
    "order": ""
@@ -3255,7 +3979,7 @@
   {
    "slug": "hainan-partridge",
    "cn": "海南山鹧鸪",
-   "en": "海南山鹧鸪",
+   "en": "Hainan Partridge",
    "sci": "Arborophila ardens",
    "aliases": [],
    "group": "鸟纲",
@@ -3265,7 +3989,7 @@
   {
    "slug": "reed-parrotbill",
    "cn": "震旦鸦雀",
-   "en": "震旦鸦雀",
+   "en": "Reed Parrotbill",
    "sci": "Paradoxornis heudei",
    "aliases": [],
    "group": "鸟纲",
@@ -3295,7 +4019,7 @@
   {
    "slug": "white-browed-tit",
    "cn": "白眉山雀",
-   "en": "白眉山雀",
+   "en": "White-browed Tit",
    "sci": "Poecile superciliosus",
    "aliases": [],
    "group": "鸟纲",
@@ -3305,9 +4029,12 @@
   {
    "slug": "baoxing-thrush",
    "cn": "宝兴歌鸫",
-   "en": "宝兴歌鸫",
+   "en": "Chinese Thrush",
    "sci": "Turdus mupinensis",
-   "aliases": [],
+   "aliases": [
+    "宝兴鸫",
+    "白眉歌鸫"
+   ],
    "group": "鸟纲",
    "family": "",
    "order": ""
@@ -3315,9 +4042,13 @@
   {
    "slug": "chinese-crocodile-lizard",
    "cn": "鳄蜥",
-   "en": "鳄蜥",
+   "en": "Chinese Crocodile Lizard",
    "sci": "Shinisaurus crocodilurus",
-   "aliases": [],
+   "aliases": [
+    "蛇鳄蜥",
+    "瑶山鳄蜥",
+    "中国鳄蜥"
+   ],
    "group": "爬行纲",
    "family": "",
    "order": ""
@@ -3325,9 +4056,12 @@
   {
    "slug": "mangshan-pit-viper",
    "cn": "莽山烙铁头",
-   "en": "莽山原矛头蝮",
+   "en": "Mang Mountain Pitviper",
    "sci": "Protobothrops mangshanensis",
-   "aliases": [],
+   "aliases": [
+    "莽山原矛头蝮",
+    "蝰蛇"
+   ],
    "group": "爬行纲",
    "family": "蝰科",
    "order": ""
@@ -3335,9 +4069,13 @@
   {
    "slug": "white-headed-viper",
    "cn": "白头蝰",
-   "en": "白头蝰",
+   "en": "White-headed Burmese Viper",
    "sci": "Azemiops kharini",
-   "aliases": [],
+   "aliases": [
+    "卡氏白头蝰",
+    "哈里氏白头蝰",
+    "越南白头蝰"
+   ],
    "group": "爬行纲",
    "family": "",
    "order": ""
@@ -3345,9 +4083,12 @@
   {
    "slug": "sharp-nosed-pit-viper",
    "cn": "尖吻蝮",
-   "en": "尖吻蝮",
+   "en": "Chinese Moccasin",
    "sci": "Deinagkistrodon acutus",
-   "aliases": [],
+   "aliases": [
+    "五步蛇",
+    "百步蛇"
+   ],
    "group": "爬行纲",
    "family": "蝰科",
    "order": ""
@@ -3355,9 +4096,13 @@
   {
    "slug": "jerdons-pit-viper",
    "cn": "烙铁头",
-   "en": "菜花原矛头蝮",
+   "en": "Jerdon's Pitviper",
    "sci": "Protobothrops jerdonii",
-   "aliases": [],
+   "aliases": [
+    "菜花原矛头蝮",
+    "菜花烙铁头",
+    "青竹标"
+   ],
    "group": "爬行纲",
    "family": "蝰科",
    "order": ""
@@ -3365,9 +4110,13 @@
   {
    "slug": "king-rat-snake",
    "cn": "王锦蛇",
-   "en": "王锦蛇",
+   "en": "Keeled Rat Snake",
    "sci": "Elaphe carinata",
-   "aliases": [],
+   "aliases": [
+    "菜花蛇",
+    "大王蛇",
+    "臭黄颔"
+   ],
    "group": "爬行纲",
    "family": "游蛇科",
    "order": ""
@@ -3375,9 +4124,13 @@
   {
    "slug": "beauty-rat-snake",
    "cn": "黑眉锦蛇",
-   "en": "黑眉锦蛇",
+   "en": "Beauty Snake",
    "sci": "Elaphe taeniura",
-   "aliases": [],
+   "aliases": [
+    "菜花蛇",
+    "家蛇",
+    "秤星蛇"
+   ],
    "group": "爬行纲",
    "family": "游蛇科",
    "order": ""
@@ -3385,9 +4138,14 @@
   {
    "slug": "oriental-rat-snake",
    "cn": "乌梢蛇",
-   "en": "乌梢蛇",
+   "en": "Black-striped Rat Snake",
    "sci": "Ptyas dhumnades",
-   "aliases": [],
+   "aliases": [
+    "乌梢锦蛇",
+    "乌梢鼠蛇",
+    "黑线鼠蛇",
+    "泰国乌梢蛇"
+   ],
    "group": "爬行纲",
    "family": "游蛇科",
    "order": ""
@@ -3395,9 +4153,13 @@
   {
    "slug": "yellow-margined-box-turtle",
    "cn": "黄缘闭壳龟",
-   "en": "黄缘闭壳龟",
+   "en": "Chinese Box Turtle / Yellow-margined Box Turtle",
    "sci": "Cuora flavomarginata",
-   "aliases": [],
+   "aliases": [
+    "黄缘盒龟",
+    "夹板龟",
+    "金头龟"
+   ],
    "group": "爬行纲",
    "family": "",
    "order": ""
@@ -3405,9 +4167,13 @@
   {
    "slug": "hot-spring-snake",
    "cn": "温泉蛇",
-   "en": "西藏温泉蛇",
+   "en": "Xizang Hot-spring Keel-back",
    "sci": "Thermophis baileyi",
-   "aliases": [],
+   "aliases": [
+    "西藏温泉蛇",
+    "Bailey's Hot-spring Snake",
+    "藏南温泉蛇"
+   ],
    "group": "爬行纲",
    "family": "游蛇科",
    "order": ""
@@ -3465,9 +4231,11 @@
   {
    "slug": "crested-ibis",
    "cn": "朱鹮",
-   "en": "朱鹮",
+   "en": "Crested Ibis",
    "sci": "Nipponia nippon",
-   "aliases": [],
+   "aliases": [
+    "朱鹭"
+   ],
    "group": "鸟纲",
    "family": "",
    "order": ""
@@ -3577,7 +4345,10 @@
    "cn": "褐马鸡",
    "en": "Brown Eared Pheasant",
    "sci": "Crossoptilon mantchuricum",
-   "aliases": [],
+   "aliases": [
+    "鹖",
+    "角鸡"
+   ],
    "group": "",
    "family": "雉科",
    "order": "鸡形目"

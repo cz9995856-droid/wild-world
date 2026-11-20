@@ -194,6 +194,20 @@ export default async function SourcesPage() {
               </p>
             </div>
           </div>
+          <div className="mt-4 border border-[var(--line)] bg-[var(--surface)] p-5">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <p className="text-[12.5px] font-medium">Tropicals.cn · 名称与分类校对</p>
+              <span className="text-[9.5px] text-[var(--muted)]">CC BY 4.0 · 2026-11-19</span>
+            </div>
+            <p className="mt-2 max-w-4xl text-[10px] leading-relaxed text-[var(--muted)]">
+              用于核对 312 种脊椎动物的中文名、英文名、别名与分类，并为每个物种保存 GBIF / Catalogue of Life / Wikidata 外部 ID。
+              本站只保存名称、分类与外部 ID 这些 CC BY 4.0 字段；产地、百科正文与性状字段未写入本站数据集。
+              署名：Tropicals.cn（CC BY 4.0）。
+            </p>
+            <a href="https://tropicals.cn/" target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 text-[10px] underline">
+              访问来源 <ExternalLink size={10} />
+            </a>
+          </div>
         </section>
 
         <section id="licenses" className="mt-12 scroll-mt-28">

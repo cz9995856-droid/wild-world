@@ -70,7 +70,10 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
       ? `全世界只有中国有野外种群的${species.nameCn}。`
       : `主要生活在中国，周边国家只有零星记录的${species.nameCn}。`;
 
-  const related = CHINA_SPECIES.filter((item) => item.slug !== slug && item.group === species.group).slice(0, 3);
+  const sameFamily = CHINA_SPECIES.filter((item) => item.slug !== slug && item.taxonomy.family === species.taxonomy.family);
+  const sameOrder = CHINA_SPECIES.filter((item) => item.slug !== slug && item.taxonomy.order === species.taxonomy.order);
+  const related = (sameFamily.length >= 3 ? sameFamily : sameOrder.length >= 3 ? sameOrder : sameFamily.length ? sameFamily : sameOrder).slice(0, 4);
+  const relatedScope = sameFamily.length >= 3 ? "同科" : "同目";
 
   const neighbours = species.provinces.length
     ? CHINA_SPECIES.filter((item) => item.slug !== slug && item.provinces.some((province) => species.provinces.includes(province)))
@@ -274,7 +277,7 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
         <section className="mt-10">
           <div className="flex items-end justify-between gap-3">
             <h2 className="hb-h2">相似的物种</h2>
-            <p className="text-[10px] text-[var(--muted)]">同属{species.groupLabel} · 滑动查看</p>
+            <p className="text-[10px] text-[var(--muted)]">{relatedScope} · 滑动查看</p>
           </div>
           <div className="hb-snap-row mt-3 flex gap-3 overflow-x-auto pb-2">
             {related.map((item) => {
@@ -331,6 +334,38 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
                 ))}
               </ul>
             </div>
+            {species.externalIds && (
+              <div>
+                <p className="text-[10px] text-[var(--muted)]">外部物种 ID</p>
+                <ul className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1.5 text-[11px]">
+                  {species.externalIds.gbif && (
+                    <li>
+                      GBIF{" "}
+                      <a href={`https://www.gbif.org/species/${species.externalIds.gbif}`} target="_blank" rel="noreferrer" className="underline">
+                        {species.externalIds.gbif}
+                      </a>
+                    </li>
+                  )}
+                  {species.externalIds.col && (
+                    <li>
+                      Catalogue of Life{" "}
+                      <a href={`https://www.catalogueoflife.org/data/taxon/${species.externalIds.col}`} target="_blank" rel="noreferrer" className="underline">
+                        {species.externalIds.col}
+                      </a>
+                    </li>
+                  )}
+                  {species.externalIds.wikidata && (
+                    <li>
+                      Wikidata{" "}
+                      <a href={`https://www.wikidata.org/wiki/${species.externalIds.wikidata}`} target="_blank" rel="noreferrer" className="underline">
+                        {species.externalIds.wikidata}
+                      </a>
+                    </li>
+                  )}
+                </ul>
+                <p className="mt-1.5 text-[9px] text-[var(--muted)]">名称、分类与外部 ID 由 Tropicals.cn 校对（CC BY 4.0）。</p>
+              </div>
+            )}
             <p className="text-[10px] leading-relaxed text-[var(--muted)]">
               SP2000 物种标识：{species.sp2000.id ?? "暂无记录"}。
               {species.sp2000.id === null && " Species 2000 China 未开放可编程详情接口，本站不编造记录编号。"}

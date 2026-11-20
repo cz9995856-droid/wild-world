@@ -67,6 +67,24 @@ try {
 // 去重
 const map = new Map();
 for (const item of items) if (!map.has(item.slug)) map.set(item.slug, item);
+
+// Tropicals.cn 名称校对（CC BY 4.0）
+try {
+  const tropRaw = JSON.parse(await readFile(path.join(ROOT, "public/data/china-species-tropicals.json"), "utf8"));
+  const trop = tropRaw.species ?? {};
+  for (const [slug, item] of map) {
+    const entry = trop[slug];
+    if (!entry) continue;
+    if (entry.useEnglishName && (/^[\x00-\x7F]*$/.test(item.en ?? "") === false || !item.en || item.en === item.cn)) {
+      item.en = entry.useEnglishName;
+    }
+    const extra = [entry.nameCn, ...(entry.aliases ?? [])].filter((name) => name && name !== item.cn);
+    item.aliases = [...new Set([...(item.aliases ?? []), ...extra])];
+  }
+} catch {
+  // ignore
+}
+
 const final = [...map.values()];
 
 await writeFile(OUT, JSON.stringify({ generated_at: new Date().toISOString(), count: final.length, items: final }, null, 1));

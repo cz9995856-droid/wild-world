@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T08:12:38.909Z",
+ "generated_at": "2026-11-20T15:39:17.853Z",
  "count": 361,
  "items": [
   {
@@ -3794,8 +3794,8 @@
    "sci": "Capricornis milneedwardsii",
    "aliases": [],
    "group": "哺乳纲",
-   "family": "",
-   "order": ""
+   "family": "牛科",
+   "order": "偶蹄目"
   },
   {
    "slug": "sichuan-takin",
@@ -3844,7 +3844,7 @@
    "sci": "Trogopterus xanthipes",
    "aliases": [],
    "group": "哺乳纲",
-   "family": "",
+   "family": "松鼠科",
    "order": "啮齿目"
   },
   {
@@ -3854,7 +3854,7 @@
    "sci": "Eospalax fontanierii",
    "aliases": [],
    "group": "哺乳纲",
-   "family": "",
+   "family": "鼹形鼠科",
    "order": "啮齿目"
   },
   {
@@ -3887,7 +3887,7 @@
    ],
    "group": "鸟纲",
    "family": "雉科",
-   "order": ""
+   "order": "鸡形目"
   },
   {
    "slug": "white-eared-pheasant",
@@ -3900,7 +3900,7 @@
    ],
    "group": "鸟纲",
    "family": "雉科",
-   "order": ""
+   "order": "鸡形目"
   },
   {
    "slug": "golden-pheasant",
@@ -3913,7 +3913,7 @@
    ],
    "group": "鸟纲",
    "family": "雉科",
-   "order": ""
+   "order": "鸡形目"
   },
   {
    "slug": "chinese-monal",
@@ -3926,7 +3926,7 @@
    ],
    "group": "鸟纲",
    "family": "雉科",
-   "order": ""
+   "order": "鸡形目"
   },
   {
    "slug": "tibetan-eared-pheasant",
@@ -3939,7 +3939,7 @@
    ],
    "group": "鸟纲",
    "family": "雉科",
-   "order": ""
+   "order": "鸡形目"
   },
   {
    "slug": "cabots-tragopan",
@@ -3952,7 +3952,7 @@
    ],
    "group": "鸟纲",
    "family": "雉科",
-   "order": ""
+   "order": "鸡形目"
   },
   {
    "slug": "white-necked-long-tailed-pheasant",
@@ -3965,7 +3965,7 @@
    ],
    "group": "鸟纲",
    "family": "雉科",
-   "order": ""
+   "order": "鸡形目"
   },
   {
    "slug": "reeves-pheasant",
@@ -3977,7 +3977,7 @@
    ],
    "group": "鸟纲",
    "family": "雉科",
-   "order": ""
+   "order": "鸡形目"
   },
   {
    "slug": "sichuan-partridge",
@@ -3990,7 +3990,7 @@
    ],
    "group": "鸟纲",
    "family": "雉科",
-   "order": ""
+   "order": "鸡形目"
   },
   {
    "slug": "hainan-partridge",
@@ -4000,7 +4000,7 @@
    "aliases": [],
    "group": "鸟纲",
    "family": "雉科",
-   "order": ""
+   "order": "鸡形目"
   },
   {
    "slug": "reed-parrotbill",
@@ -4009,8 +4009,8 @@
    "sci": "Paradoxornis heudei",
    "aliases": [],
    "group": "鸟纲",
-   "family": "",
-   "order": ""
+   "family": "鸦雀科",
+   "order": "雀形目"
   },
   {
    "slug": "chinese-thrush",
@@ -4020,7 +4020,7 @@
    "aliases": [],
    "group": "鸟纲",
    "family": "",
-   "order": ""
+   "order": "雀形目"
   },
   {
    "slug": "yellow-bellied-tit",
@@ -4029,8 +4029,8 @@
    "sci": "Pardaliparus venustulus",
    "aliases": [],
    "group": "鸟纲",
-   "family": "",
-   "order": ""
+   "family": "山雀科",
+   "order": "雀形目"
   },
   {
    "slug": "white-browed-tit",
@@ -4039,8 +4039,8 @@
    "sci": "Poecile superciliosus",
    "aliases": [],
    "group": "鸟纲",
-   "family": "",
-   "order": ""
+   "family": "山雀科",
+   "order": "雀形目"
   },
   {
    "slug": "baoxing-thrush",
@@ -4052,8 +4052,8 @@
     "白眉歌鸫"
    ],
    "group": "鸟纲",
-   "family": "",
-   "order": ""
+   "family": "鸫科",
+   "order": "雀形目"
   },
   {
    "slug": "chinese-crocodile-lizard",
@@ -4066,8 +4066,8 @@
     "中国鳄蜥"
    ],
    "group": "爬行纲",
-   "family": "",
-   "order": ""
+   "family": "鳄蜥科",
+   "order": "有鳞目"
   },
   {
    "slug": "mangshan-pit-viper",
@@ -4080,7 +4080,7 @@
    ],
    "group": "爬行纲",
    "family": "蝰科",
-   "order": ""
+   "order": "有鳞目"
   },
   {
    "slug": "white-headed-viper",
@@ -4093,7 +4093,7 @@
     "越南白头蝰"
    ],
    "group": "爬行纲",
-   "family": "",
+   "family": "蝰科",
    "order": ""
   },
   {
@@ -4107,7 +4107,7 @@
    ],
    "group": "爬行纲",
    "family": "蝰科",
-   "order": ""
+   "order": "有鳞目"
   },
   {
    "slug": "jerdons-pit-viper",
@@ -4121,7 +4121,7 @@
    ],
    "group": "爬行纲",
    "family": "蝰科",
-   "order": ""
+   "order": "有鳞目"
   },
   {
    "slug": "king-rat-snake",
@@ -4135,7 +4135,7 @@
    ],
    "group": "爬行纲",
    "family": "游蛇科",
-   "order": ""
+   "order": "有鳞目"
   },
   {
    "slug": "beauty-rat-snake",
@@ -4149,7 +4149,7 @@
    ],
    "group": "爬行纲",
    "family": "游蛇科",
-   "order": ""
+   "order": "有鳞目"
   },
   {
    "slug": "oriental-rat-snake",
@@ -4164,7 +4164,7 @@
    ],
    "group": "爬行纲",
    "family": "游蛇科",
-   "order": ""
+   "order": "有鳞目"
   },
   {
    "slug": "yellow-margined-box-turtle",
@@ -4177,8 +4177,8 @@
     "金头龟"
    ],
    "group": "爬行纲",
-   "family": "",
-   "order": ""
+   "family": "地龟科",
+   "order": "龟鳖目"
   },
   {
    "slug": "hot-spring-snake",
@@ -4192,7 +4192,7 @@
    ],
    "group": "爬行纲",
    "family": "游蛇科",
-   "order": ""
+   "order": "有鳞目"
   },
   {
    "slug": "chinese-sturgeon",
@@ -4202,7 +4202,7 @@
    "aliases": [],
    "group": "硬骨鱼纲",
    "family": "鲟科",
-   "order": ""
+   "order": "鲟形目"
   },
   {
    "slug": "yangtze-sturgeon",
@@ -4212,7 +4212,7 @@
    "aliases": [],
    "group": "硬骨鱼纲",
    "family": "鲟科",
-   "order": ""
+   "order": "鲟形目"
   },
   {
    "slug": "chinese-sucker",
@@ -4221,8 +4221,8 @@
    "sci": "Myxocyprinus asiaticus",
    "aliases": [],
    "group": "硬骨鱼纲",
-   "family": "",
-   "order": ""
+   "family": "胭脂鱼科",
+   "order": "鲤形目"
   },
   {
    "slug": "dali-schizothorax",
@@ -4232,7 +4232,7 @@
    "aliases": [],
    "group": "硬骨鱼纲",
    "family": "鲤科",
-   "order": ""
+   "order": "鲤形目"
   },
   {
    "slug": "dianchi-golden-line-barbel",
@@ -4242,7 +4242,7 @@
    "aliases": [],
    "group": "硬骨鱼纲",
    "family": "鲤科",
-   "order": ""
+   "order": "鲤形目"
   },
   {
    "slug": "crested-ibis",
@@ -4253,8 +4253,8 @@
     "朱鹭"
    ],
    "group": "鸟纲",
-   "family": "",
-   "order": ""
+   "family": "鹮科",
+   "order": "鹈形目"
   },
   {
    "slug": "chinese-paddlefish",
@@ -4263,8 +4263,8 @@
    "sci": "Psephurus gladius",
    "aliases": [],
    "group": "硬骨鱼纲",
-   "family": "",
-   "order": ""
+   "family": "匙吻鲟科",
+   "order": "鲟形目"
   },
   {
    "slug": "giant-panda",

@@ -5,6 +5,7 @@ const ROOT = process.cwd();
 const OUT = path.join(ROOT, "public/data/species-index.json");
 
 const taxonomyCn = JSON.parse(await readFile(path.join(ROOT, "lib/wildchina/taxonomy-cn.json"), "utf8")).names ?? {};
+const gbif = JSON.parse(await readFile(path.join(ROOT, "public/data/china-gbif-enrichment.json"), "utf8")).species;
 
 function cn(latin) {
   if (!latin) return "";
@@ -28,8 +29,8 @@ for (const f of ["china-species-amphibians.json", "china-species-extra.json"]) {
         sci: s.scientificName,
         aliases: s.aliases ?? [],
         group: s.groupLabel ?? "",
-        family: cn(s.taxonomy?.family),
-        order: cn(s.taxonomy?.order),
+        family: cn(s.taxonomy?.family || gbif[s.slug]?.family),
+        order: cn(s.taxonomy?.order || gbif[s.slug]?.order),
       });
     }
   } catch {

@@ -14,6 +14,8 @@ const media = {
   ...JSON.parse(fs.readFileSync(path.join(root, "public/data/china-media-amphibians-localized.json"), "utf8")).species,
 };
 
+const gbif = JSON.parse(fs.readFileSync(path.join(root, "public/data/china-gbif-enrichment.json"), "utf8")).species;
+
 const source = fs.readFileSync(path.join(root, "lib/wildchina/species.ts"), "utf8");
 const baseBlocks = source.split(/\n  \{\n/).filter((block) => block.includes('slug: "')).slice(0, 13);
 const baseEntries = baseBlocks.map((block) => ({
@@ -44,7 +46,7 @@ const items = [...amphibians, ...extra].map((s) => ({
   group: s.group,
   groupLabel: s.groupLabel,
   status: s.conservation?.status ?? "NE",
-  provinces: s.provinces ?? [],
+  provinces: (s.provinces ?? []).length ? s.provinces : gbif[s.slug]?.provinces ?? [],
   thumb: thumb(media[s.slug]?.hero?.url ?? media[s.slug]?.full?.url),
 }));
 

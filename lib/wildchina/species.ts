@@ -2,6 +2,7 @@ import amphibianData from "@/public/data/china-species-amphibians.json";
 import amphibianDetailData from "@/public/data/china-amphibians-detail.json";
 import extraData from "@/public/data/china-species-extra.json";
 import tropicalsData from "@/public/data/china-species-tropicals.json";
+import gbifData from "@/public/data/china-gbif-enrichment.json";
 
 export type ChinaGroup = "mammal" | "bird" | "reptile" | "amphibian" | "fish";
 
@@ -529,6 +530,48 @@ function decorateTropicals(species: ChinaSpecies): ChinaSpecies {
   };
 }
 
+interface GbifEntry {
+  usageKey: number | null;
+  class: string | null;
+  order: string | null;
+  family: string | null;
+  genus: string | null;
+  provinces: string[];
+  occurrenceCount: number | null;
+}
+
+const GBIF: Record<string, GbifEntry> = (gbifData as unknown as { species: Record<string, GbifEntry> }).species;
+
+function decorateGbif(species: ChinaSpecies): ChinaSpecies {
+  const entry = GBIF[species.slug];
+  const conservation =
+    species.conservation.status === "NE" && species.conservation.year
+      ? { ...species.conservation, year: null }
+      : species.conservation;
+  if (!entry) return conservation === species.conservation ? species : { ...species, conservation };
+
+  const taxonomy = {
+    class: species.taxonomy.class || entry.class || "",
+    order: species.taxonomy.order || entry.order || "",
+    family: species.taxonomy.family || entry.family || "",
+    genus: species.taxonomy.genus || entry.genus || "",
+  };
+
+  const provinces = species.provinces.length ? species.provinces : entry.provinces;
+  const needsDistribution = !species.distribution || species.distribution.includes("待核验");
+  const distribution =
+    needsDistribution && provinces.length
+      ? `GBIF 在中国记录于${provinces.slice(0, 6).join("、")}${provinces.length > 6 ? " 等" : ""}（${provinces.length} 个省级行政区；观测记录汇总，非完整分布区）。`
+      : species.distribution;
+
+  const sources =
+    provinces.length && !species.provinces.length
+      ? [...species.sources, { name: `GBIF 观测记录 · taxon ${entry.usageKey}`, url: `https://www.gbif.org/species/${entry.usageKey}` }]
+      : species.sources;
+
+  return { ...species, taxonomy, provinces, distribution, conservation, sources };
+}
+
 function decorateAmphibian(species: ChinaSpecies): ChinaSpecies {
   const detail = AMPHIBIAN_DETAIL[species.slug];
   if (!detail) return species;
@@ -581,7 +624,7 @@ export const CHINA_SPECIES: ChinaSpecies[] = dedupeBySlug([
   ...BASE_CHINA_SPECIES,
   ...(amphibianData as unknown as ChinaSpecies[]),
   ...(extraData as unknown as ChinaSpecies[]),
-]).map(decorateAmphibian).map(decorateTropicals);
+]).map(decorateAmphibian).map(decorateTropicals).map(decorateGbif);
 
 export const CHINA_SPECIES_BY_SLUG = new Map(CHINA_SPECIES.map((s) => [s.slug, s]));
 

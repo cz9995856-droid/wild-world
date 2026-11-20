@@ -6,6 +6,7 @@ import amphibianSourcedRaw from "@/public/data/china-media-amphibians-sourced.js
 import amphibianLocalizedRaw from "@/public/data/china-media-amphibians-localized.json";
 import amphibianIllustrationRaw from "@/public/data/china-media-amphibians-illustration.json";
 import extraLocalizedRaw from "@/public/data/china-media-extra-localized.json";
+import habitatIllustrationsRaw from "@/public/data/china-habitat-illustrations.json";
 
 export interface ChinaImage {
   url: string;
@@ -59,8 +60,25 @@ for (const [slug, entry] of Object.entries(ILLUSTRATIONS)) {
   }
 }
 
+const HABITAT_ILLUSTRATIONS = (habitatIllustrationsRaw as unknown as { species: Record<string, string> }).species;
+
 export function getSpeciesImage(slug: string, slot: ChinaMediaSlot): ChinaImage | null {
-  return CHINA_MEDIA[slug]?.[slot] ?? null;
+  const direct = CHINA_MEDIA[slug]?.[slot] ?? null;
+  if (direct || slot !== "habitat") return direct;
+  const scene = HABITAT_ILLUSTRATIONS[slug];
+  if (!scene) return null;
+  return {
+    url: `/media/habitat-illustrations/${scene}.webp`,
+    author: "WildChina 编辑部",
+    source_name: "生境类型示意图",
+    source_url: "/sources",
+    license: "CC BY 4.0",
+    license_url: "https://creativecommons.org/licenses/by/4.0/",
+    commercial_use: true,
+    verified: false,
+    review_status: "illustration",
+    ai_generated: false,
+  };
 }
 
 const THUMB_DIRS = new Set(["species", "pixabay", "habitat", "extra", "hero"]);

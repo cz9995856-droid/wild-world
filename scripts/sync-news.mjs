@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { XMLParser } from "fast-xml-parser";
 
@@ -91,16 +91,6 @@ const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_
 const articles = [];
 const errors = [];
 
-const previousTranslations = new Map();
-try {
-  const previous = JSON.parse(await readFile(path.join(ROOT, "public/data/news-snapshot.json"), "utf8"));
-  for (const item of previous.articles ?? []) {
-    if (item.title_cn && item.original_url) previousTranslations.set(item.original_url, item);
-  }
-} catch {
-  // 首次同步没有旧快照
-}
-
 for (const feed of FEEDS) {
   try {
     const res = await fetch(feed.url, {
@@ -126,11 +116,10 @@ for (const feed of FEEDS) {
         id,
         slug: `${slugBase}-${id.slice(-6)}`,
         title_original: title,
-        title_cn: previousTranslations.get(link)?.title_cn ?? null,
+        title_cn: null,
         excerpt_original: excerpt || "RSS 未提供摘要，请前往原文阅读。",
-        summary_cn: previousTranslations.get(link)?.summary_cn ?? null,
-        summary_status: previousTranslations.get(link)?.summary_status ?? "pending_ai",
-        translated_at: previousTranslations.get(link)?.translated_at,
+        summary_cn: null,
+        summary_status: "pending_ai",
         keywords: [],
         category: categorize(`${title} ${excerpt}`, feed.fallback),
         source_name: feed.name,

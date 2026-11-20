@@ -67,7 +67,7 @@ export default function DataLabPage() {
           <p className="wc-kicker">数据实验室 · DATA LAB</p>
           <h1 className="display mt-2 text-[38px] sm:text-[50px]">数据背后</h1>
           <p className="wc-prose mt-3">
-            这些数字不是装饰。它们来自馆藏记录，也暴露了馆藏的局限——比如超过一半物种还没有保护等级评估。
+            这些数字来自真实收录，也暴露了收录的局限——比如还有物种没有保护等级评估。
           </p>
         </div>
         <p className="text-[11px] leading-relaxed text-[var(--muted)]">
@@ -84,7 +84,7 @@ export default function DataLabPage() {
         withoutRecords={noRecords}
       />
       <p className="mt-6 text-[10.5px] leading-relaxed text-[var(--muted)]">
-        统计口径：物种总数为馆藏当前收录；两栖类保护等级优先采用中国两栖类信息系统收录的 IUCN 评估，其余来自 iNaturalist 同步的 IUCN 字段，未评估（NE）不等于无危；省域计数为有该省记录的物种数，受采样强度影响，不能当作真实分布面积。
+        统计口径：物种总数为当前收录；两栖类保护等级优先采用中国两栖类信息系统收录的 IUCN 评估，其余来自 iNaturalist 同步的 IUCN 字段，未评估（NE）不等于无危；省域计数为有该省记录的物种数，受采样强度影响，不能当作真实分布面积。
       </p>
     </div>
   );

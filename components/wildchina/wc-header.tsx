@@ -52,7 +52,7 @@ export function WcHeader({ query = "" }: { query?: string }) {
 
       <nav className="wc-subnav" aria-label="主要展区">
         {NAV.map((item) => (
-          <Link key={item.href} href={item.href}>
+          <Link prefetch={false} key={item.href} href={item.href}>
             {item.label}
           </Link>
         ))}

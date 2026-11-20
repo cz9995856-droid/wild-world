@@ -1,12 +1,11 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Check, Flame, MapPin, Sparkles, X } from "lucide-react";
+import { Mascot } from "@/components/youth/mascot";
 import { useUI } from "@/components/providers";
-import { cn } from "@/lib/utils";
 
-interface MiniSpecies {
+export interface MiniSpecies {
   slug: string;
   nameCn: string;
   group: string;
@@ -22,48 +21,21 @@ const GROUP_COLOR: Record<string, string> = {
   fish: "var(--tax-fish)",
 };
 
-const PROVINCE_DOTS: Array<{ name: string; x: number; y: number }> = [
-  { name: "黑龙江", x: 86, y: 10 },
-  { name: "吉林", x: 84, y: 17 },
-  { name: "辽宁", x: 80, y: 23 },
-  { name: "内蒙古", x: 63, y: 16 },
-  { name: "北京", x: 72, y: 26 },
-  { name: "天津", x: 75, y: 27 },
-  { name: "河北", x: 71, y: 30 },
-  { name: "山西", x: 67, y: 34 },
-  { name: "山东", x: 76, y: 34 },
-  { name: "河南", x: 69, y: 40 },
-  { name: "陕西", x: 61, y: 40 },
-  { name: "宁夏", x: 58, y: 34 },
-  { name: "甘肃", x: 50, y: 34 },
-  { name: "青海", x: 40, y: 36 },
-  { name: "新疆", x: 20, y: 24 },
-  { name: "西藏", x: 26, y: 46 },
-  { name: "四川", x: 54, y: 47 },
-  { name: "重庆", x: 62, y: 47 },
-  { name: "湖北", x: 68, y: 45 },
-  { name: "安徽", x: 74, y: 42 },
-  { name: "江苏", x: 79, y: 40 },
-  { name: "上海", x: 83, y: 42 },
-  { name: "浙江", x: 80, y: 47 },
-  { name: "江西", x: 75, y: 50 },
-  { name: "湖南", x: 68, y: 51 },
-  { name: "贵州", x: 60, y: 53 },
-  { name: "云南", x: 52, y: 60 },
-  { name: "广西", x: 62, y: 61 },
-  { name: "广东", x: 70, y: 60 },
-  { name: "福建", x: 76, y: 54 },
-  { name: "海南", x: 68, y: 70 },
-  { name: "台湾", x: 84, y: 57 },
-];
+export function KnownCounter({ total }: { total: number }) {
+  const { favorites } = useUI();
+  return (
+    <Link
+      prefetch={false}
+      href="/explore/collection"
+      className="y-tag y-press bg-[var(--surface)] text-[13px]"
+      aria-label={`你已认识 ${favorites.length} 种，共 ${total} 种，点击查看收集册`}
+    >
+      你认识 {favorites.length} / {total}
+    </Link>
+  );
+}
 
-export function DailyQuiz({
-  cards,
-  answerSlug,
-}: {
-  cards: MiniSpecies[];
-  answerSlug: string;
-}) {
+export function DailyQuiz({ cards, answerSlug }: { cards: MiniSpecies[]; answerSlug: string }) {
   const [picked, setPicked] = useState<string | null>(null);
   const [xp, setXp] = useState(0);
   const [streak, setStreak] = useState(0);
@@ -72,7 +44,7 @@ export function DailyQuiz({
   useEffect(() => {
     try {
       const raw = window.localStorage.getItem("wildchina.quiz.daily");
-      const data = raw ? (JSON.parse(raw) as { date?: string; xp?: number; streak?: number }) : {};
+      const data = raw ? (JSON.parse(raw) as { xp?: number; streak?: number }) : {};
       setXp(data.xp ?? 0);
       setStreak(data.streak ?? 0);
     } catch {
@@ -99,194 +71,126 @@ export function DailyQuiz({
     }
   }
 
-  return (
-    <section className="border border-[var(--line)] bg-[var(--surface)] p-4 sm:p-5">
-      <div className="flex flex-wrap items-center justify-between gap-2">
-        <p className="flex items-center gap-2 text-[12px]">
-          <Sparkles size={14} className="text-[var(--amber)]" /> 今日一题
-        </p>
-        <p className="flex items-center gap-3 text-[10px] text-[var(--muted)]">
-          <span>+{xp} 经验</span>
-          <span className="flex items-center gap-1">
-            <Flame size={11} className="text-[var(--clay)]" /> {streak} 天
-          </span>
-        </p>
-      </div>
-      <p className="mt-2 text-[14px] leading-relaxed">下面四种动物，哪一种是两栖动物？</p>
-
-      <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4">
-        {cards.map((card) => {
-          const chosen = picked === card.slug;
-          const isAnswer = card.slug === answerSlug;
-          const state = !picked ? "idle" : isAnswer ? "right" : chosen ? "wrong" : "dim";
-          return (
-            <button
-              key={card.slug}
-              type="button"
-              onClick={() => pick(card.slug)}
-              disabled={Boolean(picked)}
-              className={cn(
-                "border p-2 text-left transition-all",
-                state === "idle" && "hb-card-lift border-[var(--line)]",
-                state === "right" && "border-[var(--tax-amphibian)] bg-[var(--tax-amphibian-3)]",
-                state === "wrong" && "border-[var(--tax-reptile)] bg-[var(--tax-reptile-3)] opacity-80",
-                state === "dim" && "border-[var(--line)] opacity-45"
-              )}
-            >
-              <span
-                className="block h-16 w-full bg-cover bg-center"
-                style={{ backgroundImage: card.thumb ? `url("${card.thumb}")` : undefined }}
-                aria-hidden="true"
-              />
-              <span className="mt-1.5 block truncate text-[11.5px]">{card.nameCn}</span>
-              <span className="mt-0.5 flex items-center gap-1 text-[9px] text-[var(--muted)]">
-                {picked ? (
-                  <>
-                    <span className="h-1.5 w-1.5" style={{ background: GROUP_COLOR[card.group] }} />
-                    {card.groupLabel}
-                  </>
-                ) : (
-                  <span>&nbsp;</span>
-                )}
-              </span>
-            </button>
-          );
-        })}
-      </div>
-
-      <div className="mt-3 min-h-[22px] text-[11px]">
-        {picked === null && <span className="text-[var(--muted)]">选一个，立刻知道答案。</span>}
-        {picked !== null && correct && (
-          <span className="flex items-center gap-1.5 text-[var(--tax-amphibian)]">
-            <Check size={13} /> 对了，经验 +10。两栖动物皮肤裸露、幼体用鳃、成体用肺和皮肤呼吸。
-          </span>
-        )}
-        {picked !== null && !correct && (
-          <span className="flex items-center gap-1.5 text-[var(--tax-reptile)]">
-            <X size={13} /> 不是它。另外三种分别是兽类、鸟类和爬行类，再看一眼。
-          </span>
-        )}
-      </div>
-    </section>
-  );
-}
-
-export function ProvincePreview({
-  provinceSpecies,
-}: {
-  provinceSpecies: Record<string, MiniSpecies[]>;
-}) {
-  const [active, setActive] = useState<string | null>(null);
-  const list = active ? provinceSpecies[active] ?? [] : [];
+  const mood = picked === null ? "happy" : correct ? "cheer" : "wow";
 
   return (
-    <section className="grid gap-4 lg:grid-cols-[1fr_260px]">
-      <div className="relative border border-[var(--line)] bg-[var(--surface)] p-4">
-        <p className="text-[12px]">点一个省份，看那里住着谁</p>
-        <div className="relative mt-3 h-[260px] w-full">
-          {PROVINCE_DOTS.map((dot) => {
-            const species = provinceSpecies[dot.name] ?? [];
-            const color = species.length ? GROUP_COLOR[species[0].group] : "var(--muted)";
+    <div className="grid gap-4 sm:grid-cols-[auto_1fr] sm:items-start">
+      <div className="flex items-center gap-3 sm:flex-col sm:items-start">
+        <Mascot mood={mood} />
+        <div className="y-tag bg-[var(--surface)]">+{xp} 经验 · 连续 {streak} 天</div>
+      </div>
+
+      <div>
+        <h2 className="y-title text-[26px]">哪一种不是两栖动物？</h2>
+        <p className="mt-1 text-[13px] font-medium">点一张卡，马上知道答案。</p>
+
+        <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {cards.map((card) => {
+            const chosen = picked === card.slug;
+            const isAnswer = card.slug === answerSlug;
+            const dim = picked && !isAnswer && !chosen;
             return (
               <button
-                key={dot.name}
+                key={card.slug}
                 type="button"
-                onClick={() => setActive(dot.name)}
-                style={{ left: `${dot.x}%`, top: `${dot.y}%`, borderColor: color, color }}
-                className={cn(
-                  "absolute -translate-x-1/2 -translate-y-1/2 border px-1.5 py-0.5 text-[8.5px] transition-transform hover:scale-110",
-                  active === dot.name && "bg-[var(--ink)] text-[var(--paper)]"
-                )}
-                title={dot.name}
+                onClick={() => pick(card.slug)}
+                disabled={Boolean(picked)}
+                className={`y-card y-press overflow-hidden text-left ${dim ? "opacity-45" : ""}`}
+                style={{
+                  borderColor: isAnswer && picked ? "var(--tax-reptile)" : chosen && !correct ? "var(--tax-amphibian)" : "var(--ink)",
+                  aspectRatio: "3 / 4",
+                }}
               >
-                {dot.name}
+                <span
+                  className="block w-full bg-cover bg-center"
+                  style={{ backgroundImage: card.thumb ? `url("${card.thumb}")` : undefined, aspectRatio: "1 / 1" }}
+                  aria-hidden="true"
+                />
+                <span className="block px-2.5 py-2">
+                  <span className="block truncate text-[12.5px] font-bold">{card.nameCn}</span>
+                  <span className="mt-0.5 block text-[10px] font-medium" style={{ color: picked ? GROUP_COLOR[card.group] : "var(--muted)" }}>
+                    {picked ? card.groupLabel : "猜猜它是谁"}
+                  </span>
+                </span>
               </button>
             );
           })}
         </div>
-        <p className="mt-2 text-[9px] text-[var(--muted)]">点位为省域示意位置，不是实际分布点。</p>
-      </div>
 
-      <aside className="border border-[var(--line)] bg-[var(--surface-2)] p-4">
-        {active ? (
-          <>
-            <p className="flex items-center gap-1.5 text-[11px] text-[var(--ink-soft)]">
-              <MapPin size={12} /> {active}
-            </p>
-            <div className="mt-2 space-y-1.5">
-              {list.slice(0, 3).map((species) => (
-                <Link
-                  key={species.slug}
-                  href={`/explore/encyclopedia/${species.slug}`}
-                  className="block border-b border-[var(--line)] pb-1.5 text-[11px] hover:text-[var(--forest)]"
-                >
-                  {species.nameCn}
-                  <span className="ml-1.5 text-[9px] text-[var(--muted)]">{species.groupLabel}</span>
-                </Link>
-              ))}
-              {list.length === 0 && <p className="text-[10px] text-[var(--muted)]">该省暂无馆藏记录。</p>}
-            </div>
-            <Link href={`/explore/encyclopedia?province=${encodeURIComponent(active)}`} className="mt-3 inline-block text-[10px] underline">
-              查看全部 →
-            </Link>
-          </>
-        ) : (
-          <p className="text-[11px] leading-relaxed text-[var(--muted)]">
-            选一个省份，这里会显示该省记录中的 3 种中国特有动物。
-          </p>
-        )}
-      </aside>
-    </section>
+        <div className="mt-3 min-h-[26px] text-[13px] font-bold">
+          {picked === null && <span>提示：看皮肤、看幼体，不看长相。</span>}
+          {picked !== null && correct && <span>答对了！它其实属于{ cards.find((c) => c.slug === answerSlug)?.groupLabel }，经验 +10。</span>}
+          {picked !== null && !correct && <span>差一点点！正确答案标出来了，再看一眼它的类群。</span>}
+        </div>
+      </div>
+    </div>
   );
 }
 
-export function CollectionRings({
+export function ProvincePreview({ provinces }: { provinces: Array<{ name: string; count: number }> }) {
+  const [active, setActive] = useState<string | null>(null);
+  const current = provinces.find((item) => item.name === active);
+  return (
+    <div>
+      <div className="flex flex-wrap items-end justify-between gap-2">
+        <h2 className="y-title text-[26px]">它们住在中国哪里？</h2>
+        <span className="y-tag bg-[var(--surface)]">点一个省份试试</span>
+      </div>
+      <div className="mt-4 flex flex-wrap gap-2">
+        {provinces.map((province) => (
+          <button
+            key={province.name}
+            type="button"
+            onClick={() => setActive(province.name)}
+            className="y-tag y-press bg-[var(--surface)] text-[12px]"
+            style={{ borderColor: active === province.name ? "var(--ink)" : "rgba(27,26,23,0.4)" }}
+          >
+            {province.name}
+          </button>
+        ))}
+      </div>
+      <div className="mt-4 flex min-h-[52px] items-center gap-3 rounded-[var(--r-md)] border-2 border-[var(--ink)] bg-[var(--surface)] px-4 py-3">
+        <Mascot mood={active ? "cheer" : "happy"} className="!h-12 !w-12" />
+        <p className="text-[13px] font-medium">
+          {current ? `${current.name}记录到 ${current.count} 种中国特有动物。` : "全国 31 个省级记录在这里，先点一个你熟悉的。"}
+        </p>
+        {current && (
+          <Link prefetch={false} href={`/explore/encyclopedia?province=${encodeURIComponent(current.name)}`} className="y-btn ml-auto text-[12px]">
+            去看动物卡
+          </Link>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export function CollectionProgress({
   groups,
-  groupSlugs,
 }: {
-  groups: Array<{ group: string; label: string; total: number }>;
-  groupSlugs: Record<string, string[]>;
+  groups: Array<{ group: string; label: string; total: number; slugs: string[] }>;
 }) {
   const { favorites } = useUI();
-  const totals = useMemo(() => {
-    return groups.map((group) => {
-      const slugs = groupSlugs[group.group] ?? [];
-      const got = favorites.filter((slug) => slugs.includes(slug)).length;
-      return { ...group, got };
-    });
-  }, [groups, groupSlugs, favorites]);
-
   return (
-    <section className="border border-[var(--line)] bg-[var(--surface)] p-4">
-      <div className="flex items-center justify-between">
-        <p className="text-[12px]">收集进度</p>
-        <Link href="/explore/collection" className="text-[10px] underline">
-          查看收集册
+    <div>
+      <div className="flex items-end justify-between gap-2">
+        <h2 className="y-title text-[26px]">我的收集进度</h2>
+        <Link prefetch={false} href="/explore/collection" className="y-tag y-press bg-[var(--surface)]">
+          打开收集册
         </Link>
       </div>
-      <div className="mt-3 grid grid-cols-5 gap-2">
-        {totals.map((group) => {
-          const percent = group.total ? Math.min(100, (group.got / group.total) * 100) : 0;
+      <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-5">
+        {groups.map((group) => {
+          const got = favorites.filter((slug) => group.slugs.includes(slug)).length;
           return (
-            <div key={group.group} className="text-center">
-              <svg viewBox="0 0 36 36" className="mx-auto h-12 w-12 -rotate-90">
-                <circle cx="18" cy="18" r="15" fill="none" stroke="var(--line)" strokeWidth="3" />
-                <circle
-                  cx="18"
-                  cy="18"
-                  r="15"
-                  fill="none"
-                  stroke={GROUP_COLOR[group.group]}
-                  strokeWidth="3"
-                  strokeDasharray={`${(percent / 100) * 94.2} 94.2`}
-                />
-              </svg>
-              <p className="mt-1 text-[9px] text-[var(--muted)]">{group.label}</p>
+            <div key={group.group} className="y-card bg-[var(--surface)] p-3 text-center">
+              <p className="text-[12px] font-bold">{group.label}</p>
+              <p className="y-title mt-1 text-[24px]">{got}</p>
+              <p className="text-[10px] font-medium">/ {group.total} 种</p>
+              <span className="mx-auto mt-2 block h-1.5 w-full rounded-full" style={{ background: GROUP_COLOR[group.group] }} />
             </div>
           );
         })}
       </div>
-      <p className="mt-2 text-[9px] text-[var(--muted)]">已收藏 {favorites.length} 种 · 收藏即入册</p>
-    </section>
+    </div>
   );
 }

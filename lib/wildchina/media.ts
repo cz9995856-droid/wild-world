@@ -5,6 +5,7 @@ import habitatRaw from "@/public/data/china-media-habitat.json";
 import amphibianSourcedRaw from "@/public/data/china-media-amphibians-sourced.json";
 import amphibianLocalizedRaw from "@/public/data/china-media-amphibians-localized.json";
 import amphibianIllustrationRaw from "@/public/data/china-media-amphibians-illustration.json";
+import extraLocalizedRaw from "@/public/data/china-media-extra-localized.json";
 
 export interface ChinaImage {
   url: string;
@@ -34,6 +35,7 @@ const BASE_MEDIA = {
   ...(extraRaw.species as Record<string, ChinaMediaEntry>),
   ...(amphibianSourcedRaw.species as Record<string, ChinaMediaEntry>),
   ...(amphibianLocalizedRaw.species as Record<string, ChinaMediaEntry>),
+  ...(extraLocalizedRaw.species as Record<string, ChinaMediaEntry>),
 };
 
 const HABITAT_MEDIA = (habitatRaw.species ?? {}) as Record<string, ChinaMediaEntry>;
@@ -70,6 +72,13 @@ export function thumbUrl(url: string | null | undefined): string {
   const dir = rest.split("/")[0];
   if (!THUMB_DIRS.has(dir)) return url;
   return `/media/thumbs/${rest.replace(/\.(jpe?g|png|webp)$/i, ".webp")}`;
+}
+
+export function cardUrl(url: string | null | undefined): string {
+  if (!url) return "";
+  if (!url.startsWith("/media/")) return url;
+  const rest = url.slice("/media/".length).replace(/\.(jpe?g|png|webp)$/i, ".webp");
+  return `/media/cards/${rest}`;
 }
 
 export function hasHero(slug: string): boolean {

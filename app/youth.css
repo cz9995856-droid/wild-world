@@ -1,0 +1,219 @@
+:root {
+  --paper: #f6f1e7;
+  --surface: #fffaf0;
+  --ink: #1b1a17;
+  --ink-soft: #4a443c;
+  --muted: #6d6558;
+  --line: rgba(27, 26, 23, 0.18);
+
+  --r-sm: 12px;
+  --r-md: 20px;
+  --r-lg: 28px;
+
+  --band-mammal: #e8a33d;
+  --band-bird: #4fa8e8;
+  --band-amphibian: #9bd34a;
+  --band-reptile: #e0705a;
+  --band-fish: #8e95f0;
+  --band-yellow: #ffd84d;
+
+  --tax-mammal: #b45309;
+  --tax-bird: #0369a1;
+  --tax-amphibian: #4d7c0f;
+  --tax-reptile: #9a3412;
+  --tax-fish: #3730a3;
+
+  --y-title: "YTitle", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --y-body: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+@font-face {
+  font-family: "YTitle";
+  src: url("/fonts/title-subset.woff2") format("woff2");
+  font-weight: 900;
+  font-display: swap;
+}
+
+.y-title {
+  font-family: var(--y-title);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+}
+
+.y-body {
+  font-family: var(--y-body);
+}
+
+.y-band {
+  border-radius: var(--r-lg);
+  padding: clamp(18px, 3vw, 30px);
+  color: var(--ink);
+  content-visibility: auto;
+  contain-intrinsic-size: 620px;
+}
+
+.y-band-hero {
+  content-visibility: visible;
+  contain-intrinsic-size: none;
+}
+
+.y-card {
+  background: var(--surface);
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  box-shadow: 0 4px 0 var(--ink);
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+
+.y-card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 var(--ink);
+}
+
+.y-card:active,
+.y-press:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--ink);
+}
+
+.y-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 12px 22px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--band-yellow);
+  color: var(--ink);
+  font-weight: 800;
+  font-size: 14px;
+  box-shadow: 0 4px 0 var(--ink);
+  transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+}
+
+.y-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 var(--ink);
+}
+
+.y-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--ink);
+}
+
+.y-btn-ghost {
+  background: var(--surface);
+}
+
+.y-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.y-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 128px;
+  padding: 18px;
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  color: var(--ink);
+  box-shadow: 0 4px 0 var(--ink);
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+
+.y-entry:hover {
+  transform: translateY(-2px) rotate(-0.6deg);
+  box-shadow: 0 6px 0 var(--ink);
+}
+
+.y-entry:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 var(--ink);
+}
+
+.y-entry svg {
+  width: 30px;
+  height: 30px;
+}
+
+.y-img {
+  border-radius: var(--r-md);
+  overflow: hidden;
+  border: 2px solid var(--ink);
+  background: var(--paper);
+}
+
+.y-mascot {
+  width: 88px;
+  height: 88px;
+  flex: none;
+}
+
+.y-mascot .m-wow,
+.y-mascot .m-cheer {
+  opacity: 0;
+}
+
+.y-mascot.is-wow .m-wow,
+.y-mascot.is-cheer .m-cheer {
+  opacity: 1;
+}
+
+.y-mascot.is-wow .m-happy,
+.y-mascot.is-cheer .m-happy {
+  opacity: 0;
+}
+
+.y-mascot .m-happy,
+.y-mascot .m-wow,
+.y-mascot .m-cheer {
+  transition: opacity 0.2s ease;
+}
+
+.y-pop {
+  animation: y-pop 0.4s ease;
+}
+
+@keyframes y-pop {
+  0% { transform: scale(0.9); }
+  60% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .y-card,
+  .y-card-hover:hover,
+  .y-entry,
+  .y-entry:hover,
+  .y-btn,
+  .y-btn:hover,
+  .y-press:active,
+  .y-card:active,
+  .y-entry:active,
+  .y-btn:active {
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .y-pop {
+    animation: none !important;
+  }
+
+  .y-mascot .m-happy,
+  .y-mascot .m-wow,
+  .y-mascot .m-cheer {
+    transition: none !important;
+  }
+}

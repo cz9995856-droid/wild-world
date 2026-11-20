@@ -2,7 +2,9 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import "./wildchina.css";
 import "./handbook.css";
+import "./youth.css";
 import { Providers } from "@/components/providers";
+import { YouthIconDefs } from "@/components/youth/icons";
 import { WC } from "@/lib/wildchina/site";
 
 export const metadata: Metadata = {
@@ -41,6 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="dns-prefetch" href="https://api.gbif.org" />
       </head>
       <body className="min-h-screen antialiased">
+        <YouthIconDefs />
         <Providers initialLocale="zh">
           <main id="main">{children}</main>
         </Providers>

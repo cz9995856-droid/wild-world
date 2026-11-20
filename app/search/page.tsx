@@ -12,10 +12,10 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "搜索",
-  description: "搜索 WILD WORLD 的物种档案、新闻、专区与实验室内容。",
+  description: "搜索动物卡、新闻、专区与实验室内容。",
 };
 
-const TYPE_LABEL = { species: "物种档案", news: "新闻", page: "专区" } as const;
+const TYPE_LABEL = { species: "动物卡", news: "新闻", page: "专区" } as const;
 
 export default async function SearchPage({
   searchParams,
@@ -42,7 +42,7 @@ export default async function SearchPage({
       <PageHeader
         kicker="Search · 全站搜索"
         title={q ? `「${q}」的搜索结果` : "搜索博物馆"}
-        description="覆盖物种档案、新闻与专区页面。搜索基于本站已收录内容，不会凭空生成未收录的物种或新闻。"
+        description="覆盖动物卡、新闻与专区页面。搜索基于本站已收录内容，不会凭空生成未收录的物种或新闻。"
         breadcrumbs={[{ label: "搜索" }]}
       />
       <div className="container-museum pb-20">
@@ -110,7 +110,7 @@ export default async function SearchPage({
             <div className="mb-6 flex flex-wrap items-center gap-2">
               {[
                 { key: "all", label: "全部", count: counts.length },
-                { key: "species", label: "物种档案", count: countOf("species") },
+                { key: "species", label: "动物卡", count: countOf("species") },
                 { key: "news", label: "新闻", count: countOf("news") },
                 { key: "page", label: "专区", count: countOf("page") },
               ].map((tab) => (
@@ -144,9 +144,9 @@ export default async function SearchPage({
               <div className="border border-dashed border-[var(--line-strong)] px-6 py-16 text-center">
                 <p className="text-[14px]">没有找到匹配「{q}」的内容。</p>
                 <p className="mt-2 text-[11.5px] leading-relaxed text-[var(--muted)]">
-                  试试中文名、英文名或拉丁学名。馆藏未收录的物种不会被臆造。
+                  试试中文名、英文名或拉丁学名。未收录的物种不会被臆造。
                 </p>
-                <Link href="/encyclopedia" className="mt-5 inline-block btn-outline">浏览全部馆藏</Link>
+                <Link href="/encyclopedia" className="mt-5 inline-block btn-outline">浏览全部动物卡</Link>
               </div>
             ) : (
               <div className="divide-y divide-[var(--line)] border-y border-[var(--line)]">

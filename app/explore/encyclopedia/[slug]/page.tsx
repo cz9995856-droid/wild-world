@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const species = CHINA_SPECIES_BY_SLUG.get(slug);
   if (!species) return { title: "物种未找到" };
   return {
-    title: `${species.nameCn} · 物种档案`,
+    title: `${species.nameCn} · 动物卡`,
     description: `${species.nameCn}（${species.scientificName}）：${species.distribution}。`,
   };
 }

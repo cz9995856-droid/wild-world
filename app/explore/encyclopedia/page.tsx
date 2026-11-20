@@ -30,6 +30,31 @@ const GROUP_TAG: Record<string, string> = {
   fish: "hb-tag-fish",
 };
 
+const GROUP_ROTATION = ["mammal", "bird", "reptile", "fish", "amphibian"];
+
+function interleaveByGroup(list: typeof CHINA_SPECIES): typeof CHINA_SPECIES {
+  const buckets = new Map<string, typeof CHINA_SPECIES>();
+  for (const item of list) {
+    const bucket = buckets.get(item.group) ?? [];
+    bucket.push(item);
+    buckets.set(item.group, bucket);
+  }
+  const queues = [...GROUP_ROTATION.map((group) => buckets.get(group) ?? []), ...[...buckets.entries()].filter(([group]) => !GROUP_ROTATION.includes(group)).map(([, value]) => value)];
+  const output: typeof CHINA_SPECIES = [];
+  let moved = true;
+  while (moved) {
+    moved = false;
+    for (const queue of queues) {
+      const item = queue.shift();
+      if (item) {
+        output.push(item);
+        moved = true;
+      }
+    }
+  }
+  return output;
+}
+
 const CODE_BY_SLUG = new Map(CHINA_SPECIES.map((species, index) => [species.slug, String(index + 1).padStart(3, "0")]));
 
 export const metadata: Metadata = {
@@ -92,11 +117,14 @@ export default async function ChinaEncyclopediaPage({
   const provinces = [...new Set(CHINA_SPECIES.flatMap((species) => species.provinces))];
   const statuses = [...new Set(CHINA_SPECIES.map((species) => species.conservation.status))];
 
+  const hasFilter = Boolean(current.q || current.group || current.habitat || current.status || current.province);
+  const ordered = hasFilter ? filtered : interleaveByGroup(filtered);
+
   const PAGE_SIZE = 36;
   const requestedPage = Math.max(1, Number(current.page ?? "1") || 1);
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const page = Math.min(requestedPage, totalPages);
-  const pageItems = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  const pageItems = ordered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
   const pageHref = (target: number) => hrefWith({ ...current, page: undefined }, { page: target > 1 ? String(target) : undefined });
 
   return (
@@ -113,6 +141,12 @@ export default async function ChinaEncyclopediaPage({
         </div>
         <p className="text-[11px] leading-relaxed text-[var(--muted)]">
           当前收录 {filtered.length} / {CHINA_SPECIES.length} 种
+          {!hasFilter && (
+            <>
+              <br />
+              默认按类群轮换展示 · 收录以两栖为主，其他类群持续补充
+            </>
+          )}
           <br />
           严格特有 {CHINA_SPECIES.filter((s) => s.endemic === "strict").length} 种 · 主要分布于中国{" "}
           {CHINA_SPECIES.filter((s) => s.endemic === "main").length} 种

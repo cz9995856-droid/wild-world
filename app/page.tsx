@@ -1,228 +1,214 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
-import { shanghaiDateKey } from "@/lib/wildchina/daily";
-import { getSpeciesImage, thumbUrl } from "@/lib/wildchina/media";
-import { CHINA_SPECIES } from "@/lib/wildchina/species";
+import { Mascot } from "@/components/youth/mascot";
+import { Band, EntryCard } from "@/components/youth/band";
 import { WcHeader } from "@/components/wildchina/wc-header";
-import { CollectionRings, DailyQuiz, ProvincePreview } from "@/components/home/explorer-home";
+import { CollectionProgress, DailyQuiz, KnownCounter, ProvincePreview } from "@/components/home/explorer-home";
+import { cardUrl, getSpeciesImage } from "@/lib/wildchina/media";
+import { CHINA_SPECIES } from "@/lib/wildchina/species";
 
 export const metadata: Metadata = {
-  title: { absolute: "WildChina · 中国特有脊椎动物探索者计划" },
-  description:
-    "面向中学生的中国特有脊椎动物探索者计划：每天认识一种只在中国生活的动物，收集、挑战、查证真实数据。",
+  title: { absolute: "WildChina · 中国特有动物卡" },
+  description: "翻开动物卡，认识只在中国生活的动物。答题、收集、查分布，一天认识一种。",
 };
 
-const RARE_SLUGS = [
-  "ichthyophis-bannanicus",
-  "vibrissaphora-boringii",
-  "chinese-giant-salamander",
-  "complex-toothed-flying-squirrel",
-  "chinese-pangolin",
-  "mangshan-pit-viper",
-  "crested-ibis",
-  "hynobius-amjiensis",
+const GROUP_ENTRIES = [
+  { key: "mammal", title: "兽类", color: "var(--band-mammal)", icon: "paw" as const },
+  { key: "bird", title: "鸟类", color: "var(--band-bird)", icon: "spark" as const },
+  { key: "amphibian", title: "两栖", color: "var(--band-amphibian)", icon: "book" as const },
+  { key: "reptile", title: "爬行", color: "var(--band-reptile)", icon: "cards" as const },
+  { key: "fish", title: "鱼类", color: "var(--band-fish)", icon: "target" as const },
 ];
 
-const QUIZ_SLUGS = ["odorrana-wuchuanensis", "giant-panda", "crested-ibis", "chinese-alligator"];
+const RARE_BY_GROUP: Record<string, string[]> = {
+  mammal: ["complex-toothed-flying-squirrel", "chinese-pangolin"],
+  bird: ["crested-ibis", "chinese-thrush"],
+  amphibian: ["vibrissaphora-boringii", "chinese-giant-salamander"],
+  reptile: ["mangshan-pit-viper", "chinese-alligator"],
+  fish: ["chinese-sturgeon", "chinese-sucker"],
+};
+
+const QUIZ_SLUGS = ["odorrana-wuchuanensis", "hynobius-fucus", "andrias-davidianus", "giant-panda"];
 
 const FACTS = [
-  {
-    text: "大熊猫抓竹子的「第六根手指」不是手指，是腕部一块变大的籽骨。",
-    source: "物种档案 · 大熊猫",
-  },
-  {
-    text: "大鲵没有发育良好的肺，主要靠皮肤和口腔黏膜呼吸，所以水质一变它就撑不住。",
-    source: "物种档案 · 大鲵",
-  },
-  {
-    text: "莽山烙铁头直到 1990 年代才被科学描述，此前当地一直有它的传说。",
-    source: "物种档案 · 莽山烙铁头",
-  },
-  {
-    text: "朱鹮繁殖期的粉色不是色素基因，来自食物里的类胡萝卜素沉积。",
-    source: "物种档案 · 朱鹮",
-  },
-];
-
-const GROUP_ORDER: Array<[string, string]> = [
-  ["amphibian", "两栖"],
-  ["mammal", "兽类"],
-  ["bird", "鸟类"],
-  ["reptile", "爬行"],
-  ["fish", "鱼类"],
+  { text: "大熊猫抓竹子的「第六根手指」不是手指，是腕部一块变大的籽骨。", source: "动物卡 · 大熊猫" },
+  { text: "大鲵没有发育良好的肺，主要靠皮肤和口腔黏膜呼吸，所以水质一变它就撑不住。", source: "动物卡 · 大鲵" },
+  { text: "朱鹮繁殖期的粉色来自食物里的类胡萝卜素，不是天生粉。", source: "动物卡 · 朱鹮" },
 ];
 
 function mini(slug: string) {
-  const species = CHINA_SPECIES.find((s) => s.slug === slug);
+  const species = CHINA_SPECIES.find((item) => item.slug === slug);
   if (!species) return null;
   return {
     slug: species.slug,
     nameCn: species.nameCn,
     group: species.group,
     groupLabel: species.groupLabel,
-    thumb: thumbUrl(getSpeciesImage(species.slug, "hero")?.url),
+    thumb: cardUrl(getSpeciesImage(species.slug, "hero")?.url),
   };
 }
 
 export default function HomePage() {
-  const dateKey = shanghaiDateKey();
+  const total = CHINA_SPECIES.length;
+  const groupCounts = new Map<string, number>();
+  for (const species of CHINA_SPECIES) groupCounts.set(species.group, (groupCounts.get(species.group) ?? 0) + 1);
 
-  const neCount = CHINA_SPECIES.filter((item) => item.conservation.status === "NE").length;
-  const neShare = Math.round((neCount / CHINA_SPECIES.length) * 100);
-  const facts = [
-    {
-      text: `馆藏 ${CHINA_SPECIES.length} 种里，${neCount} 种（${neShare}%）还没有正式的保护等级评估。未评估不等于安全。`,
-      source: "数据实验室",
-    },
-    ...FACTS,
-  ];
+  const rare = GROUP_ENTRIES.flatMap((entry) => (RARE_BY_GROUP[entry.key] ?? []).map(mini)).filter(
+    (item): item is NonNullable<typeof item> => Boolean(item)
+  );
 
-  const rare = RARE_SLUGS.map(mini).filter((item): item is NonNullable<typeof item> => Boolean(item));
   const quiz = QUIZ_SLUGS.map(mini).filter((item): item is NonNullable<typeof item> => Boolean(item));
-  const quizAnswer = "odorrana-wuchuanensis";
+  const quizAnswer = "giant-panda";
 
-  const provinceSpecies: Record<string, Array<NonNullable<ReturnType<typeof mini>>>> = {};
+  const provinceCounts = new Map<string, number>();
   for (const species of CHINA_SPECIES) {
     for (const province of species.provinces ?? []) {
-      const list = provinceSpecies[province] ?? [];
-      if (list.length >= 3) continue;
-      const item = mini(species.slug);
-      if (item) list.push(item);
-      provinceSpecies[province] = list;
+      provinceCounts.set(province, (provinceCounts.get(province) ?? 0) + 1);
     }
   }
+  const provinces = [...provinceCounts.entries()]
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 16);
 
-  const groups = GROUP_ORDER.map(([group, label]) => ({
-    group,
-    label,
-    total: CHINA_SPECIES.filter((s) => s.group === group).length,
+  const groups = GROUP_ENTRIES.map((entry) => ({
+    group: entry.key,
+    label: entry.title,
+    total: groupCounts.get(entry.key) ?? 0,
+    slugs: CHINA_SPECIES.filter((species) => species.group === entry.key).map((species) => species.slug),
   }));
-  const groupSlugs = Object.fromEntries(
-    GROUP_ORDER.map(([group]) => [group, CHINA_SPECIES.filter((s) => s.group === group).map((s) => s.slug)])
-  ) as Record<string, string[]>;
 
   const hero = rare[0];
   const heroImage = hero ? getSpeciesImage(hero.slug, "hero") : null;
 
   return (
-    <div className="wc-frame">
+    <div className="wc-frame y-body">
       <WcHeader />
 
-      <section className="mt-6 grid gap-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-        <div>
-          <p className="hb-hand">野外手册 · 第 001 页</p>
-          <h1 className="hb-display mt-2">
-            全世界只有中国
-            <br />
-            才有的动物，
-            <br />
-            你认识几种？
-          </h1>
-          <p className="mt-4 max-w-[520px] text-[15px] leading-relaxed text-[var(--ink-soft)]">
-            这里不是百科。每一张卡牌都是一种只在中国生活的动物，点开它，看它住在哪、吃什么、为什么需要被记住。
-          </p>
-          <div className="mt-5 flex flex-wrap items-center gap-3">
-            <Link href="/explore/encyclopedia" className="hb-btn">
-              开始探索 <ArrowRight size={16} />
-            </Link>
-            <Link href="/explore/missions" className="hb-btn hb-btn-ghost">
-              今天的任务
-            </Link>
+      <Band color="var(--band-yellow)" hero className="mt-4">
+        <div className="grid items-center gap-5 lg:grid-cols-[1.15fr_0.85fr]">
+          <div>
+            <div className="flex items-center gap-3">
+              <Mascot mood="happy" />
+              <KnownCounter total={total} />
+            </div>
+            <h1 className="y-title mt-4 text-[clamp(38px,6.6vw,68px)]">
+              今天，你能认出几种？
+            </h1>
+            <p className="mt-3 max-w-[520px] text-[15px] font-medium leading-relaxed">
+              翻开一张动物卡，看看只在中国生活的它们。答一题、收一张，每天多认识一种。
+            </p>
+            <div className="mt-5 flex flex-wrap items-center gap-3">
+              <Link prefetch={false} href="/explore/encyclopedia" className="y-btn">
+                开始探索
+              </Link>
+              <Link prefetch={false} href={`/explore/encyclopedia/${hero?.slug ?? "giant-panda"}`} className="y-btn y-btn-ghost">
+                今日神秘动物
+              </Link>
+            </div>
           </div>
-          <p className="mt-4 flex items-center gap-2 text-[11px] text-[var(--muted)]">
-            <span className="inline-block h-1.5 w-24 bg-[var(--line)]">
-              <span className="block h-full w-1/12 bg-[var(--tax-amphibian)]" />
-            </span>
-            你已认识 0 / {CHINA_SPECIES.length}
-          </p>
-        </div>
 
-        {heroImage && (
-          <Link href={`/explore/encyclopedia/${hero?.slug}`} className="hb-card-tilt block">
-            <div className="border border-[var(--line)] bg-[var(--surface)] p-2">
+          {heroImage && (
+            <Link prefetch={false} href={`/explore/encyclopedia/${hero?.slug}`} className="y-card y-card-hover block p-3">
               <span
-                className="block aspect-[4/3] w-full bg-cover bg-center"
-                style={{ backgroundImage: `url("${thumbUrl(heroImage.url)}")` }}
+                className="y-img block w-full bg-cover bg-center"
+                style={{ backgroundImage: `url("${cardUrl(heroImage.url)}")`, aspectRatio: "4 / 3" }}
                 aria-hidden="true"
               />
-              <div className="flex items-end justify-between gap-2 px-2 py-2">
-                <div>
-                  <p className="text-[9px] tracking-[0.18em] text-[var(--muted)]">NO. 001 · {dateKey}</p>
-                  <p className="mt-1 text-[20px] font-extrabold">{hero?.nameCn}</p>
-                </div>
-                <span className="hb-tag hb-tag-amphibian">{hero?.groupLabel}</span>
-              </div>
-            </div>
-          </Link>
-        )}
+              <span className="mt-3 flex items-center justify-between gap-2 px-1">
+                <span className="y-title text-[22px]">{hero?.nameCn}</span>
+                <span className="y-tag bg-[var(--surface)]">{hero?.groupLabel}</span>
+              </span>
+            </Link>
+          )}
+        </div>
+      </Band>
+
+      <section className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+        {GROUP_ENTRIES.map((entry) => (
+          <EntryCard
+            key={entry.key}
+            href={`/explore/encyclopedia?group=${entry.key}`}
+            icon={entry.icon}
+            title={entry.title}
+            desc={`${groupCounts.get(entry.key) ?? 0} 种等你翻牌`}
+            color={entry.color}
+          />
+        ))}
       </section>
 
-      <div className="mt-8">
-        <DailyQuiz cards={quiz} answerSlug={quizAnswer} />
+      <div className="mt-5">
+        <Band color="var(--band-bird)">
+          <DailyQuiz cards={quiz} answerSlug={quizAnswer} />
+        </Band>
       </div>
 
-      <section className="mt-8">
-        <div className="flex items-end justify-between gap-3">
-          <h2 className="hb-h2">冷门，但值得认识</h2>
-          <Link href="/explore/encyclopedia" className="text-[10px] underline">
-            全部物种
-          </Link>
-        </div>
-        <div className="no-scrollbar mt-3 flex snap-x gap-3 overflow-x-auto pb-2">
-          {rare.map((item, index) => (
-            <Link
-              key={item.slug}
-              href={`/explore/encyclopedia/${item.slug}`}
-              className="hb-card hb-card-lift w-[220px] shrink-0 snap-start"
-            >
-              <span
-                className="block aspect-[5/4] w-full bg-cover bg-center"
-                style={{ backgroundImage: `url("${item.thumb}")` }}
-                aria-hidden="true"
-              />
-              <div className="px-3 py-2.5">
-                <p className="text-[9px] tracking-[0.16em] text-[var(--muted)]">NO. {String(index + 2).padStart(3, "0")}</p>
-                <p className="mt-1 truncate text-[14px] font-bold">{item.nameCn}</p>
-                <p className="mt-1 line-clamp-2 text-[10.5px] leading-relaxed text-[var(--muted)]">
-                  中国特有 · {item.groupLabel}。点开看它的分类与分布。
-                </p>
-              </div>
+      <div className="mt-5">
+        <Band color="var(--band-amphibian)">
+          <div className="flex items-end justify-between gap-3">
+            <h2 className="y-title text-[26px]">冷门，但超有意思</h2>
+            <Link prefetch={false} href="/explore/encyclopedia" className="y-tag y-press bg-[var(--surface)]">
+              全部动物卡
             </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="mt-8">
-        <h2 className="hb-h2">它住在中国哪里</h2>
-        <div className="mt-3">
-          <ProvincePreview provinceSpecies={provinceSpecies} />
-        </div>
-      </section>
-
-      <section className="mt-8 grid gap-4 lg:grid-cols-[1fr_1fr]">
-        <CollectionRings groups={groups} groupSlugs={groupSlugs} />
-        <div className="border border-[var(--line)] bg-[var(--surface)] p-4">
-          <p className="text-[12px]">你知道吗</p>
-          <ul className="mt-3 space-y-2.5">
-            {facts.map((fact) => (
-              <li key={fact.text} className="border-b border-[var(--line)] pb-2.5 last:border-0">
-                <p className="text-[11.5px] leading-relaxed text-[var(--ink-soft)]">{fact.text}</p>
-                <p className="mt-1 text-[9px] text-[var(--muted)]">{fact.source}</p>
-              </li>
+          </div>
+          <div className="no-scrollbar mt-4 flex snap-x gap-3 overflow-x-auto pb-2">
+            {rare.map((item) => (
+              <Link
+                prefetch={false}
+                key={item.slug}
+                href={`/explore/encyclopedia/${item.slug}`}
+                className="y-card y-card-hover w-[190px] shrink-0 snap-start overflow-hidden"
+              >
+                <span
+                  className="block w-full bg-cover bg-center"
+                  style={{ backgroundImage: `url("${item.thumb}")`, aspectRatio: "1 / 1" }}
+                  aria-hidden="true"
+                />
+                <span className="block px-3 py-2.5">
+                  <span className="block truncate text-[15px] font-bold">{item.nameCn}</span>
+                  <span className="mt-0.5 block text-[11px] font-medium">{item.groupLabel} · 点开看看</span>
+                </span>
+              </Link>
             ))}
-          </ul>
-        </div>
-      </section>
+          </div>
+        </Band>
+      </div>
 
-      <p className="mt-6 flex flex-wrap items-center gap-3 text-[10.5px] text-[var(--muted)]">
-        <Link href="/explore/data" className="underline">
+      <div className="mt-5 grid gap-5 lg:grid-cols-2">
+        <Band color="var(--band-reptile)">
+          <ProvincePreview provinces={provinces} />
+        </Band>
+        <Band color="var(--band-fish)">
+          <CollectionProgress groups={groups} />
+        </Band>
+      </div>
+
+      <div className="mt-5">
+        <Band color="var(--band-mammal)">
+          <div className="flex items-center gap-3">
+            <Mascot mood="cheer" className="!h-14 !w-14" />
+            <h2 className="y-title text-[26px]">你知道吗</h2>
+          </div>
+          <div className="mt-4 grid gap-3 sm:grid-cols-3">
+            {FACTS.map((fact) => (
+              <div key={fact.text} className="y-card bg-[var(--surface)] p-4">
+                <p className="text-[13px] font-medium leading-relaxed">{fact.text}</p>
+                <p className="mt-2 text-[10px] font-bold">{fact.source}</p>
+              </div>
+            ))}
+          </div>
+        </Band>
+      </div>
+
+      <p className="mt-6 flex flex-wrap items-center gap-3 text-[11px] font-medium text-[var(--muted)]">
+        <Link prefetch={false} href="/explore/data" className="underline">
           数据说明
         </Link>
-        <span>来源、统计口径与未评估比例</span>
-        <span>·</span>
-        <Link href="/sources" className="underline">
+        <Link prefetch={false} href="/sources" className="underline">
           影像与授权
+        </Link>
+        <Link prefetch={false} href="/explore/collection" className="underline">
+          我的收集册
         </Link>
       </p>
     </div>

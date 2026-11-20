@@ -4,7 +4,6 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import maplibregl, { type Map as MlMap } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { Loader2 } from "lucide-react";
-import { CHINA_SPECIES } from "@/lib/wildchina/species";
 import mapLayerData from "@/public/data/map-layers.json";
 import { cn } from "@/lib/utils";
 
@@ -42,15 +41,32 @@ function normalizeProvince(name: string) {
     .trim();
 }
 
-function speciesForProvince(province: string) {
-  const key = normalizeProvince(province);
-  return CHINA_SPECIES.filter((species) => species.provinces.some((p) => normalizeProvince(p) === key));
+export interface LiteSpecies {
+  slug: string;
+  cn: string;
+  groupLabel: string;
+  status: string;
+  provinces: string[];
 }
 
 export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MlMap | null>(null);
+  const [mapSpecies, setMapSpecies] = useState<LiteSpecies[]>([]);
   const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch("/data/species-lite.json")
+      .then((res) => res.json())
+      .then((data) => {
+        if (!cancelled) setMapSpecies(data.items ?? []);
+      })
+      .catch(() => undefined);
+    return () => {
+      cancelled = true;
+    };
+  }, []);
   const [error, setError] = useState(false);
   const [layer, setLayer] = useState<(typeof LAYERS)[number]["id"]>("species");
   const [selected, setSelected] = useState<string | null>(null);
@@ -68,7 +84,9 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
         if (cancelled) return;
         const features = json.features.map((feature) => {
           const name = String(feature.properties?.name ?? "");
-          const count = speciesForProvince(name).length;
+          const count = mapSpecies.filter(
+            (species) => species.provinces.some((p) => normalizeProvince(p) === normalizeProvince(name))
+          ).length;
           return { ...feature, properties: { ...feature.properties, count } };
         });
         setCollection({ ...json, features });
@@ -79,7 +97,7 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [mapSpecies]);
 
   useEffect(() => {
     if (!containerRef.current || !collection || mapRef.current) return;
@@ -209,7 +227,13 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
     setOverlayName(null);
   }, [layer, ready]);
 
-  const selectedSpecies = useMemo(() => (selected ? speciesForProvince(selected) : []), [selected]);
+  const selectedSpecies = useMemo(
+    () =>
+      selected
+        ? mapSpecies.filter((species) => species.provinces.some((p) => normalizeProvince(p) === normalizeProvince(selected)))
+        : [],
+    [selected, mapSpecies]
+  );
   const activeLayer = LAYERS.find((item) => item.id === layer);
 
   return (
@@ -321,10 +345,10 @@ export function ChinaMap({ height = "min-h-[62svh]" }: { height?: string }) {
                   <li key={species.slug}>
                     <a href={`/explore/encyclopedia/${species.slug}`} className="flex items-baseline justify-between gap-2 border-b border-[var(--line)] pb-2 text-[12px] hover:text-[var(--forest)]">
                       <span>
-                        {species.nameCn}
+                        {species.cn}
                         <span className="ml-1.5 text-[9px] text-[var(--muted)]">{species.groupLabel}</span>
                       </span>
-                      <span className="text-[9.5px] text-[var(--muted)]">{species.conservation.status}</span>
+                      <span className="text-[9.5px] text-[var(--muted)]">{species.status}</span>
                     </a>
                   </li>
                 ))}

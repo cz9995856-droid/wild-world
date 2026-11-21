@@ -28,19 +28,26 @@ export function ScrollRail({
     window.setTimeout(update, 320);
   }
 
-  const drag = useRef<{ x: number; left: number } | null>(null);
+  const drag = useRef<{ x: number; left: number; active: boolean } | null>(null);
 
   function onPointerDown(event: React.PointerEvent<HTMLDivElement>) {
     const el = ref.current;
     if (!el || event.pointerType === "touch") return;
-    drag.current = { x: event.clientX, left: el.scrollLeft };
-    el.setPointerCapture(event.pointerId);
+    drag.current = { x: event.clientX, left: el.scrollLeft, active: false };
   }
 
   function onPointerMove(event: React.PointerEvent<HTMLDivElement>) {
     const el = ref.current;
     if (!el || !drag.current) return;
-    el.scrollLeft = drag.current.left - (event.clientX - drag.current.x);
+    const delta = event.clientX - drag.current.x;
+    if (!drag.current.active && Math.abs(delta) > 8) {
+      drag.current.active = true;
+      el.setPointerCapture(event.pointerId);
+    }
+    if (drag.current.active) {
+      el.scrollLeft = drag.current.left - delta;
+      event.preventDefault();
+    }
   }
 
   function onPointerUp() {

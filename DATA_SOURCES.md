@@ -1,28 +1,36 @@
 # 数据源、许可与待授权清单
 
-版本：2026-11-13 · 所有“已连接”状态均经过实际请求验证；未验证的项目明确标记。
+版本：2026-11-19 · 所有“已连接”状态均经过实际请求验证；未验证的项目明确标记。
 
 ## 1. 已接入并实际使用
 
 | 来源 | 用途 | 接口 / 方式 | 当前状态 | 许可与商用 |
 | --- | --- | --- | --- | --- |
 | [GBIF](https://www.gbif.org/) | 物种分类键、观测记录 | `https://api.gbif.org/v1/species/match`、`/occurrence/search` | **实时可用**，无需密钥 | 各数据集许可不同（CC0 / CC BY / CC BY-NC）；逐条记录 `datasetKey` 与许可；商用需逐条核对 |
-| [iNaturalist](https://www.inaturalist.org/) | 物种图片、野外录音、观测点 | `https://api.inaturalist.org/v1/taxa`、`/observations`；媒体文件 `inaturalist-open-data.s3.amazonaws.com` | **已抓取**：94 张图、9 条录音；观测点实时 | 逐张 CC BY / CC BY-NC / CC BY-NC-SA 等；NC 不商用；本站不提供 NC 素材直接下载 |
+| [iNaturalist](https://www.inaturalist.org/) | 物种图片、野外录音、观测点 | `https://api.inaturalist.org/v1/taxa`、`/observations`；媒体文件 `inaturalist-open-data.s3.amazonaws.com` | **已抓取**：144 张图（36 物种 × 4）、36 条录音（本地 30 秒试听预览）；观测点实时 | 逐张 CC BY / CC BY-NC / CC BY-NC-SA 等；NC 不商用；本站不提供 NC 素材直接下载 |
+| [Pixabay](https://pixabay.com/) | 高清野生动物照片扩展 | `https://pixabay.com/api/`（官方 API）+ 本地压缩入库 | **已抓取**：35 张横版图（每物种 1 张；vaquita 无合适横版图未使用替代品） | Pixabay Content License：可商用与改编；禁止转售未改编素材与暗示背书；逐张保留作者与页面链接 |
 | [Mongabay RSS](https://news.mongabay.com/feed/) | 保护与环境新闻 | RSS | **已连接**（32 条原始条目） | 仅标题 / 摘要 / 链接；版权归 Mongabay |
 | [Nature RSS](https://www.nature.com/nature.rss) | 动物学研究 | RSS | **已连接**（按动物相关性过滤） | 仅标题 / 摘要 / 链接；版权归 Nature Portfolio |
 | [ScienceDaily](https://www.sciencedaily.com/rss/plants_animals.xml) | 动植物研究 | RSS | **已连接** | 仅标题 / 摘要 / 链接 |
 | [Phys.org](https://phys.org/rss-feed/biology-news/plants-animals/) | 生物学研究 | RSS | **已连接** | 仅标题 / 摘要 / 链接 |
-| [MapLibre demo tiles](https://demotiles.maplibre.org/style.json) | 世界底图 | 公共样式 | **已连接** | 底图数据源自 Natural Earth（公共领域）；MapLibre 开源 |
-| [Natural Earth](https://www.naturalearthdata.com/) | 边界数据 | 经 MapLibre demo 提供 | 已使用 | 公共领域 |
+| [Natural Earth](https://www.naturalearthdata.com/) | 世界边界底图 | `public/data/world-land.json`、`world-graticule.json`（world-atlas + topojson-client 离线生成） | **本地离线可用**，不依赖公共 tile 服务 | 公共领域 |
+| [中国两栖类信息系统](http://www.amphibiachina.org/)（中科院昆明动物所） | 两栖类形态、生境、习性、繁殖、分布、IUCN 等级 | 物种页 `/species/{id}` 抓取（2026-11-19），解析为 `public/data/china-amphibians-detail.json` | **已抓取**：296 种匹配 295 种，282 种有形态、274 种有生境/习性、249 种有 IUCN 等级 | 文字为编辑整理引用，按站点规范署名；不转载其图库图片。引用：AmphibiaChina. 2026. The database of Chinese amphibians |
+| [Tropicals.cn](https://tropicals.cn/) | 中文名、英文名、别名、分类、外部 ID 校对 | `POST /api/v1/names/resolve-batch`、`GET /api/v1/species/{slug}`（2026-11-19） | **已抓取**：312 种精确匹配，产出 `public/data/china-species-tropicals.json` | 名称、分类与外部 ID 为 **CC BY 4.0**，署名 Tropicals.cn；产地 / 百科正文 / 性状属 API Terms 限制字段，本站未保存 |
+
+### 2026-11-19 中国特有脊椎动物专题补充
+
+- 两栖类：295 / 296 种补齐形态与生态字段；图片本地化 199 张（CC BY-NC 为主）+ 39 张 CC0/BY/BY-SA + 9 张自绘示意图（替代 ND 授权素材）
+- 全站未评估（NE）比例由约 62% 降至 25%（90 / 361），首页与详情页改为运行时计算
+- 名称校对：修复 297 种两栖类与 47 种补充物种「英文名等于中文名」的占位问题，并补充别名
 
 ### 抓取结果（`public/data/integration.json`）
 
-- 生成时间：2026-11-13
-- 物种：24 / 24 有档案，23 / 24 有可用授权照片（kakapo 暂无，使用原创插画回退）
-- 图片：94 张，全部保存作者、许可、原始记录 ID、获取时间
-- 录音：9 条（iNaturalist，许可与录音者逐条记录）
-- 首屏：4 张横向授权照片（`public/media/hero`）
-- 已知缺口：kakapo 的 iNaturalist 查询超时，未使用替代图片冒充真实照片
+- 生成时间：2026-11-14
+- 物种：36 / 36 有档案，36 / 36 有可用授权照片
+- 图片：179 张（144 张 iNaturalist + 35 张 Pixabay），全部保存作者、许可、原始记录 ID、获取时间
+- 录音：36 条（iNaturalist，许可与录音者逐条记录；本地为 30 秒试听预览，完整录音见来源页）
+- 首屏：4 张横向授权照片（`public/media/hero`）+ 馆方用授权图片生成的 22 秒循环短片（`wild-world-loop.mp4`）
+- 已知限制：98 张 iNaturalist 素材为 CC BY-NC，仅用于非商业展示；新闻配图只选可商用影像，并标注“示意图”
 
 > 媒体文件已本地化到 `public/media`，避免外链失效。许可元数据仍指向原始记录页。
 

@@ -116,10 +116,31 @@ export function WorldMap({
     if (!containerRef.current || mapRef.current) return;
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: "https://demotiles.maplibre.org/style.json",
+      style: {
+        version: 8,
+        sources: {
+          land: { type: "geojson", data: "/data/world-land.json" },
+          graticule: { type: "geojson", data: "/data/world-graticule.json" },
+        },
+        layers: [
+          { id: "background", type: "background", paint: { "background-color": "#EDE8DC" } },
+          {
+            id: "land",
+            type: "fill",
+            source: "land",
+            paint: { "fill-color": "#D9D0BE", "fill-outline-color": "#948C79" },
+          },
+          {
+            id: "graticule",
+            type: "line",
+            source: "graticule",
+            paint: { "line-color": "#122019", "line-opacity": 0.12, "line-width": 0.6 },
+          },
+        ],
+      },
       center: [25, 18],
       zoom: 1.4,
-      attributionControl: { compact: true },
+      attributionControl: false,
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
     map.addControl(new maplibregl.ScaleControl({ maxWidth: 90, unit: "metric" }), "bottom-left");
@@ -134,8 +155,14 @@ export function WorldMap({
     const fallbackTimer = window.setTimeout(() => {
       if (!map.loaded()) setMapError(true);
     }, 15000);
+    const resizeObserver = new ResizeObserver(() => {
+      if (!mapRef.current) return;
+      mapRef.current.resize();
+    });
+    if (containerRef.current) resizeObserver.observe(containerRef.current);
     mapRef.current = map;
     return () => {
+      resizeObserver.disconnect();
       window.clearTimeout(fallbackTimer);
       map.remove();
       mapRef.current = null;
@@ -311,7 +338,9 @@ export function WorldMap({
   return (
     <div className={`grid gap-4 lg:grid-cols-[1fr_320px] ${height}`}>
       <div className="relative min-h-[420px] overflow-hidden border border-[var(--line)] bg-[var(--surface-2)]">
-        <div ref={containerRef} className="absolute inset-0" />
+        <div className="absolute inset-0">
+          <div ref={containerRef} className="h-full w-full" />
+        </div>
         {!mapReady && !mapError && (
           <div className="absolute inset-0 flex items-center justify-center bg-[var(--surface-2)] text-[12px] text-[var(--muted)]">
             <Loader2 size={16} className="mr-2 animate-spin" /> 正在加载 MapLibre 底图…
@@ -322,24 +351,27 @@ export function WorldMap({
             <MapPin size={22} className="text-[var(--clay)]" />
             <p className="mt-3 text-[13px]">底图加载失败</p>
             <p className="mt-1 max-w-sm text-[11px] leading-relaxed text-[var(--muted)]">
-              地图样式来自 MapLibre 公共 demo。网络不可用时不会显示伪造点位。
+              地图样式来自本地离线 Natural Earth 数据。网络不可用时不会显示伪造点位。
             </p>
             <button onClick={() => window.location.reload()} className="btn-outline mt-4">
               重试
             </button>
           </div>
         )}
-        <div className="pointer-events-none absolute left-3 top-3 z-10 border border-[var(--line)] bg-[var(--surface)] px-3 py-2 text-[9.5px] text-[var(--muted)] shadow-sm">
+        <div className="pointer-events-none absolute left-3 top-3 z-10 border border-[var(--line)] bg-[var(--surface)] px-3 py-2 text-[11px] text-[var(--muted)] shadow-sm">
           <p className="text-[var(--ink-soft)]">图例 / Legend</p>
           <p className="mt-1 flex items-center gap-1.5"><span className="h-2 w-2 rounded-full bg-[#C29B4A]" /> GBIF {gbifCount}</p>
           <p className="mt-0.5 flex items-center gap-1.5"><span className="h-2 w-2 rounded-full bg-[#2A6B51]" /> iNaturalist {inatCount}</p>
         </div>
         <button
           onClick={resetView}
-          className="absolute bottom-4 right-4 z-10 flex items-center gap-1.5 border border-[var(--line-strong)] bg-[var(--surface)] px-3 py-2 text-[10px] shadow-sm"
+          className="absolute bottom-4 right-4 z-10 flex items-center gap-1.5 border border-[var(--line-strong)] bg-[var(--surface)] px-3 py-2 text-[11px] shadow-sm"
         >
           <RotateCcw size={11} /> 重置视图
         </button>
+        <span className="pointer-events-none absolute bottom-1 right-4 z-10 text-[9px] text-[var(--muted)]">
+          Natural Earth（公共领域）· GBIF · iNaturalist
+        </span>
       </div>
 
       <aside className="space-y-3">

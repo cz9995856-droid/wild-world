@@ -1,10 +1,10 @@
 export const SITE = {
-  name: "WILD WORLD",
-  nameCn: "野界",
-  tagline: "全球数字动物自然博物馆",
-  taglineEn: "A Global Digital Museum of Animal Life",
+  name: "WildChina",
+  nameCn: "野性中国",
+  tagline: "中国特有脊椎动物探索",
+  taglineEn: "Exploring China's Endemic Vertebrates",
   description:
-    "WILD WORLD 是一座面向公众的数字动物自然博物馆：以可追溯的数据来源、逐张核验的影像许可与沉浸式叙事，呈现地球上的野生生命。",
+    "WildChina 是一个以中国特有脊椎动物为核心的自然科普、物种探索与生态保护网站：用可追溯的来源、逐张核验的影像与克制的叙事，记录中国独有的野生生命。",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   founded: "2026",
 };
@@ -26,6 +26,7 @@ export const FOOTER_GROUPS = [
       { href: "/encyclopedia", label: "动物百科" },
       { href: "/photography", label: "高清摄影馆" },
       { href: "/videos", label: "纪录片专区" },
+      { href: "/taxonomy", label: "分类树" },
       { href: "/timeline", label: "进化时间线" },
     ],
   },

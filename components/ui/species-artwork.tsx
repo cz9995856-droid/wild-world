@@ -12,6 +12,8 @@ const SHAPE_EARS: Record<string, { left: string; right: string }> = {
   reptile: { left: "M64 76c-4-12 4-18 12-10Z", right: "M136 76c4-12-4-18-12-10Z" },
   amphibian: { left: "M66 78c-6-10 0-18 10-12Z", right: "M134 78c6-10 0-18-10-12Z" },
   insect: { left: "M70 70c-8-18 2-30 10-14Z", right: "M130 70c8-18-2-30-10-14Z" },
+  fish: { left: "M58 90c-10-8-12-14-12-18 10-2 20 4 28 10Z", right: "M142 90c10-8 12-14 12-18-10-2-20 4-28 10Z" },
+  invertebrate: { left: "M66 80c-10-10-8-22 4-20", right: "M134 80c10-10 8-22-4-20" },
 };
 
 const EXTRA: Record<string, string> = {
@@ -21,6 +23,8 @@ const EXTRA: Record<string, string> = {
   antelope: "M100 46c-6 0-10-4-10-9",
   whale: "M52 106c10 10 26 14 48 14s38-4 48-14",
   insect: "M74 84c-14-6-22-2-26 6 8 6 16 6 24 2Zm52 0c14-6 22-2 26 6-8 6-16 6-24 2Z",
+  fish: "M60 92c12 14 30 18 40 18s28-4 40-18",
+  invertebrate: "M82 118c6 10 30 10 36 0",
   amphibian: "M74 112c-8 2-12 8-10 14M126 112c8 2 12 8 10 14",
   reptile: "M82 118c4 8 32 8 36 0",
   primate: "M80 118c6 6 34 6 40 0",

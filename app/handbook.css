@@ -1,0 +1,284 @@
+/* ============================================================
+   WildChina 探索者手册 · 设计令牌
+   核心理念：野外手册 × 收藏卡牌 × 杂志
+   ============================================================ */
+
+:root {
+  /* 纸张与墨色 */
+  --paper: #f6f1e7;
+  --surface: #fcf8ef;
+  --surface-2: #efe8d9;
+  --ink: #1c1a17;
+  --ink-soft: #45403a;
+  --muted: #6f675b;
+  --line: rgba(28, 26, 23, 0.14);
+  --line-strong: rgba(28, 26, 23, 0.3);
+
+  /* 品牌色：不再使用深绿森林，改为墨黑 + 琥珀 */
+  --forest: #1c1a17;
+  --forest-deep: #000000;
+  --amber: #b45309;
+  --clay: #9a3412;
+  --sage: #4d7c0f;
+
+  /* 类群色：每色 3 个明度 */
+  --tax-mammal: #b45309;
+  --tax-mammal-2: #d97706;
+  --tax-mammal-3: #f3c98b;
+  --tax-bird: #0369a1;
+  --tax-bird-2: #0284c7;
+  --tax-bird-3: #a5d8f3;
+  --tax-amphibian: #4d7c0f;
+  --tax-amphibian-2: #65a30d;
+  --tax-amphibian-3: #c6e08a;
+  --tax-reptile: #9a3412;
+  --tax-reptile-2: #c2410c;
+  --tax-reptile-3: #f0b49a;
+  --tax-fish: #3730a3;
+  --tax-fish-2: #4338ca;
+  --tax-fish-3: #b9b6f0;
+
+  /* 字体 */
+  --font-sans: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-heavy: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --font-hand: "LXGW WenKai", "Kaiti SC", "STKaiti", "KaiTi", serif;
+
+  /* 字号阶梯（6 级） */
+  --text-display: clamp(42px, 8vw, 76px);
+  --text-h1: clamp(30px, 5vw, 46px);
+  --text-h2: clamp(22px, 3vw, 30px);
+  --text-h3: 19px;
+  --text-body: 16px;
+  --text-caption: 12px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* 标题：粗黑体 */
+.hb-display {
+  font-family: var(--font-heavy);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1.02;
+  font-size: var(--text-display);
+}
+
+.hb-h1 {
+  font-family: var(--font-heavy);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+  font-size: var(--text-h1);
+}
+
+.hb-h2 {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  font-size: var(--text-h2);
+}
+
+/* 手写注释 */
+.hb-hand {
+  font-family: var(--font-hand);
+  font-size: 15px;
+  color: var(--ink-soft);
+}
+
+/* 卡牌：可倾斜、可翻转 */
+.hb-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.28s;
+}
+
+.hb-card-lift:hover {
+  transform: translateY(-5px) rotate(-0.8deg);
+  box-shadow: 0 18px 30px -24px rgba(28, 26, 23, 0.5);
+}
+
+.hb-card-tilt {
+  transform: rotate(-2deg);
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.hb-card-tilt:hover {
+  transform: rotate(0deg) translateY(-4px);
+}
+
+/* 类群标签 */
+.hb-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--line-strong);
+  padding: 3px 9px;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+}
+
+.hb-tag::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: var(--tag-color, var(--muted));
+}
+
+.hb-tag-mammal { --tag-color: var(--tax-mammal); }
+.hb-tag-bird { --tag-color: var(--tax-bird); }
+.hb-tag-amphibian { --tag-color: var(--tax-amphibian); }
+.hb-tag-reptile { --tag-color: var(--tax-reptile); }
+.hb-tag-fish { --tag-color: var(--tax-fish); }
+
+/* 按钮：触控目标 ≥ 48px */
+.hb-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 22px;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 14px;
+  font-weight: 600;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.hb-btn:hover {
+  transform: translateY(-2px);
+}
+
+.hb-btn-ghost {
+  background: transparent;
+  color: var(--ink);
+}
+
+/* 底部导航（移动端） */
+.hb-bottom-nav {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .hb-bottom-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 60;
+    background: var(--paper);
+    border-top: 1px solid var(--line-strong);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .hb-bottom-nav a {
+    min-height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-size: 11px;
+    color: var(--ink-soft);
+  }
+
+  .hb-bottom-nav a[aria-current="page"] {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .wc-frame {
+    padding-bottom: 80px;
+  }
+}
+
+/* 动效降级 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+
+  .hb-card-lift:hover,
+  .hb-card-tilt,
+  .hb-card-tilt:hover,
+  .hb-btn:hover {
+    transform: none !important;
+  }
+}
+
+/* 收藏卡牌：3D 翻转 + 指针倾斜 */
+.hb-flip-scene {
+  perspective: 1400px;
+  transform-style: preserve-3d;
+  transition: transform 0.25s ease-out;
+  will-change: transform;
+}
+
+.hb-flip-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.hb-flip-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.hb-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+}
+
+.hb-face-back {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(180deg);
+  overflow-y: auto;
+}
+
+.hb-seen-pop {
+  animation: hb-seen-pop 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes hb-seen-pop {
+  0% { transform: scale(1); }
+  35% { transform: scale(1.12) rotate(-1.5deg); }
+  100% { transform: scale(1); }
+}
+
+.hb-snap-row {
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.hb-snap-row::-webkit-scrollbar {
+  display: none;
+}
+
+.hb-snap-row > * {
+  scroll-snap-align: start;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hb-flip-scene,
+  .hb-flip-inner {
+    transition: none !important;
+  }
+
+  .hb-seen-pop {
+    animation: none !important;
+  }
+}

@@ -31,6 +31,14 @@ jobs:
           WRANGLER_SEND_METRICS: "false"
         run: npx --yes wrangler@latest whoami 2>&1 | sed -E 's/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/[email-redacted]/g'
 
+      - name: Verify API token is active
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          code=$(curl -sS -o /tmp/token-verify.json -w '%{http_code}' -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" https://api.cloudflare.com/client/v4/user/tokens/verify)
+          cat /tmp/token-verify.json
+          test "$code" = "200"
+
       - name: Verify Cloudflare Pages permission
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

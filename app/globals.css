@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --paper: #f5f1e7;
-  --surface: #fbf8f1;
-  --surface-2: #efe9dc;
-  --ink: #122019;
-  --ink-soft: #34443a;
-  --muted: #64716a;
-  --line: rgba(18, 32, 25, 0.14);
-  --line-strong: rgba(18, 32, 25, 0.26);
-  --forest: #0f2e22;
-  --forest-deep: #081711;
-  --sage: #a9bfa8;
-  --amber: #c29b4a;
-  --clay: #a96246;
-  --photo-overlay: linear-gradient(180deg, rgba(8, 23, 17, 0.05) 20%, rgba(8, 23, 17, 0.72) 100%);
+  --paper: #f3ede1;
+  --surface: #faf6ec;
+  --surface-2: #e8dfcf;
+  --ink: #14251c;
+  --ink-soft: #34483b;
+  --muted: #6b7367;
+  --line: rgba(20, 37, 28, 0.14);
+  --line-strong: rgba(20, 37, 28, 0.28);
+  --forest: #163a2b;
+  --forest-deep: #0b2016;
+  --sage: #a8b79e;
+  --amber: #b08a58;
+  --clay: #8b6a4b;
+  --photo-overlay: linear-gradient(180deg, rgba(11, 32, 22, 0.04) 18%, rgba(11, 32, 22, 0.74) 100%);
 }
 
 [data-theme="dark"] {
@@ -187,8 +187,8 @@ button {
 
   .prose-museum {
     color: var(--ink-soft);
-    font-size: 15px;
-    line-height: 1.9;
+    font-size: 16px;
+    line-height: 1.85;
     letter-spacing: 0.01em;
   }
 
@@ -296,3 +296,18 @@ button {
 .map-dark .maplibregl-canvas {
   filter: saturate(0.5) brightness(0.9);
 }
+
+/* Readability pass: the museum relies on small labels, but metadata must remain legible. */
+.text-\[8\.5px\] { font-size: 10.5px !important; }
+.text-\[9px\] { font-size: 11px !important; }
+.text-\[9\.5px\] { font-size: 11.5px !important; }
+.text-\[10px\] { font-size: 12px !important; }
+.text-\[10\.5px\] { font-size: 12.5px !important; }
+.text-\[11px\] { font-size: 13px !important; }
+.text-\[11\.5px\] { font-size: 13.5px !important; }
+.text-\[12px\] { font-size: 14px !important; }
+.text-\[12\.5px\] { font-size: 14.5px !important; }
+.text-\[13px\] { font-size: 15px !important; }
+.text-\[13\.5px\] { font-size: 15.5px !important; }
+
+body { font-size: 16px; }

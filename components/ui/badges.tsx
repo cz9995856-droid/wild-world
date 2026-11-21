@@ -39,6 +39,7 @@ export function DataBadge({
   className?: string;
   showDescription?: boolean;
 }) {
+  if (status === "pending_review" || status === "pending") return null;
   const meta = DATA_STATUS_META[status] ?? DATA_STATUS_META.pending;
   return (
     <span

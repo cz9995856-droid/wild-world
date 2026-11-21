@@ -1,0 +1,133 @@
+{
+ "source": "WildChina 编辑部自绘 SVG 示意图",
+ "retrievedAt": "2026-11-19",
+ "note": "统一风格的 2D 图鉴示意，用于尚无可用授权照片的物种；不代表真实个体形态细节。",
+ "species": {
+  "hynobius-formosanus": {
+   "hero": {
+    "url": "/media/species/amph-illustration/hynobius-formosanus.webp",
+    "author": "WildChina 编辑部",
+    "source_name": "本站自绘示意图",
+    "source_url": "/sources",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": false,
+    "review_status": "illustration",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-lizhengchangi": {
+   "hero": {
+    "url": "/media/species/amph-illustration/tylototriton-lizhengchangi.webp",
+    "author": "WildChina 编辑部",
+    "source_name": "本站自绘示意图",
+    "source_url": "/sources",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": false,
+    "review_status": "illustration",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-archospotus": {
+   "hero": {
+    "url": "/media/species/amph-illustration/pachytriton-archospotus.webp",
+    "author": "WildChina 编辑部",
+    "source_name": "本站自绘示意图",
+    "source_url": "/sources",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": false,
+    "review_status": "illustration",
+    "ai_generated": false
+   }
+  },
+  "scutiger-boulengeri": {
+   "hero": {
+    "url": "/media/species/amph-illustration/scutiger-boulengeri.webp",
+    "author": "WildChina 编辑部",
+    "source_name": "本站自绘示意图",
+    "source_url": "/sources",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": false,
+    "review_status": "illustration",
+    "ai_generated": false
+   }
+  },
+  "scutiger-pingwuensis": {
+   "hero": {
+    "url": "/media/species/amph-illustration/scutiger-pingwuensis.webp",
+    "author": "WildChina 编辑部",
+    "source_name": "本站自绘示意图",
+    "source_url": "/sources",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": false,
+    "review_status": "illustration",
+    "ai_generated": false
+   }
+  },
+  "leptobrachium-hainanense": {
+   "hero": {
+    "url": "/media/species/amph-illustration/leptobrachium-hainanense.webp",
+    "author": "WildChina 编辑部",
+    "source_name": "本站自绘示意图",
+    "source_url": "/sources",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": false,
+    "review_status": "illustration",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-mangshanensis": {
+   "hero": {
+    "url": "/media/species/amph-illustration/leptobrachella-mangshanensis.webp",
+    "author": "WildChina 编辑部",
+    "source_name": "本站自绘示意图",
+    "source_url": "/sources",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": false,
+    "review_status": "illustration",
+    "ai_generated": false
+   }
+  },
+  "amolops-hainanensis": {
+   "hero": {
+    "url": "/media/species/amph-illustration/amolops-hainanensis.webp",
+    "author": "WildChina 编辑部",
+    "source_name": "本站自绘示意图",
+    "source_url": "/sources",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": false,
+    "review_status": "illustration",
+    "ai_generated": false
+   }
+  },
+  "fejervarya-multistriata": {
+   "hero": {
+    "url": "/media/species/amph-illustration/fejervarya-multistriata.webp",
+    "author": "WildChina 编辑部",
+    "source_name": "本站自绘示意图",
+    "source_url": "/sources",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": false,
+    "review_status": "illustration",
+    "ai_generated": false
+   }
+  }
+ }
+}

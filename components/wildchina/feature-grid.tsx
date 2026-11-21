@@ -1,0 +1,32 @@
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+import { WC_SECTIONS } from "@/lib/wildchina/site";
+
+export function FeatureGrid() {
+  return (
+    <div className="wc-grid">
+      {WC_SECTIONS.map((section) => (
+        <Link key={section.href} href={section.href} className="wc-feature">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={section.image} alt={section.title} loading="lazy" />
+          <span className="wc-feature-arrow" aria-hidden="true">
+            <ArrowUpRight size={17} />
+          </span>
+          {section.href === "/explore/lab" && (
+            <span className="absolute left-4 top-4 border border-[#f3ede1]/50 bg-[#0b2016]/70 px-2 py-1 text-[9px] tracking-[0.2em] text-[#f3ede1] backdrop-blur">
+              主板块
+            </span>
+          )}
+          <div className="wc-feature-body">
+            <p className="text-[10px] tracking-[0.26em] text-[#f3ede1]/70">{section.category}</p>
+            <h2 className="display mt-2 text-[28px] sm:text-[34px]">{section.title}</h2>
+            <p className="mt-2 max-w-[46ch] text-[12.5px] leading-relaxed text-[#f3ede1]/80">
+              {section.description}
+            </p>
+            <p className="mt-3 text-[9px] text-[#f3ede1]/55">影像：{section.imageCredit}</p>
+          </div>
+        </Link>
+      ))}
+    </div>
+  );
+}

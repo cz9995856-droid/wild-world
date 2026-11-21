@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { PageHeader } from "@/components/ui/page-header";
 import { SpeciesBrowser } from "@/components/species-browser";
 import { getAllSpecies, getMediaAssets } from "@/lib/repository";
@@ -33,6 +34,9 @@ export default async function EncyclopediaPage({
         breadcrumbs={[{ label: "动物百科" }]}
         meta={
           <div className="flex flex-wrap items-center gap-2 text-[10px] text-[var(--muted)] lg:justify-end">
+            <Link href="/taxonomy" className="chip border-[var(--forest)]/40 text-[var(--forest)] hover:border-[var(--forest)]">
+              界 · 门 · 纲 · 目 · 科 · 属 · 种 →
+            </Link>
             <span className="chip">{species.length} 件档案</span>
             <span className="chip">5 个类群</span>
             <span className="chip">来源：GBIF / IUCN / ADW / Wikipedia</span>

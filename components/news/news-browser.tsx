@@ -8,8 +8,10 @@ import { NEWS_CATEGORIES } from "@/lib/data/news-meta";
 import { DataBadge } from "@/components/ui/badges";
 import { EmptyState } from "@/components/ui/states";
 import { formatDate, relativeTime } from "@/lib/utils";
+import { NewsArt } from "@/components/news/news-art";
+import type { NewsVisual } from "@/lib/news-visual";
 
-export function NewsBrowser({ articles }: { articles: NewsArticle[] }) {
+export function NewsBrowser({ articles, visuals }: { articles: NewsArticle[]; visuals?: Record<string, NewsVisual> }) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
   const [source, setSource] = useState("all");
@@ -141,16 +143,24 @@ export function NewsBrowser({ articles }: { articles: NewsArticle[] }) {
                   <span>{relativeTime(a.published_at)}</span>
                 </div>
                 <div className="min-w-0">
-                  <Link href={`/news/${a.slug}`} className="block">
+                  <Link href={`/news/${a.slug}`} className="flex flex-col gap-3 sm:flex-row sm:gap-4">
+                    <NewsArt
+                      visual={visuals?.[a.category] ?? null}
+                      category={a.category}
+                      className="h-36 w-full shrink-0 sm:h-24 sm:w-36"
+                      sizes="(max-width: 640px) 100vw, 144px"
+                    />
+                    <div className="min-w-0">
                     <h3 className="text-[17px] leading-snug transition-colors group-hover:text-[var(--forest)] sm:text-[19px]">
                       {a.title_cn ?? a.title_original}
                     </h3>
                     {a.title_cn && (
-                      <p className="mt-1 line-clamp-1 font-serif text-[11px] italic text-[var(--muted)]">{a.title_original}</p>
+                      <p className="mt-1 line-clamp-1 font-serif text-[10.5px] italic text-[var(--muted)]">英文原题：{a.title_original}</p>
                     )}
                     <p className="mt-2 line-clamp-2 text-[11.5px] leading-relaxed text-[var(--muted)]">
-                      {a.summary_cn ?? a.excerpt_original}
+                      {a.summary_cn ?? "中文摘要待生成"}
                     </p>
+                    </div>
                   </Link>
                   <div className="mt-3 flex flex-wrap items-center gap-2 text-[9.5px] text-[var(--muted)]">
                     <span>{a.source_name}</span>

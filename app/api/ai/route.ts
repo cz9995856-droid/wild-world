@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
-import { getAllSpecies, getNews } from "@/lib/repository";
+import { getNews } from "@/lib/repository";
+import { CHINA_SPECIES } from "@/lib/wildchina/species";
+import type { Species } from "@/lib/types";
 import { answerQuestion, isLlmConfigured } from "@/lib/ai/answer";
 
 export const dynamic = "force-dynamic";
@@ -24,9 +26,9 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "rate_limited", message: "提问过于频繁，请稍后再试。" }, { status: 429 });
   }
 
-  let body: { question?: unknown; locale?: unknown };
+  let body: { question?: unknown; locale?: unknown; history?: unknown };
   try {
-    body = (await request.json()) as { question?: unknown; locale?: unknown };
+    body = (await request.json()) as { question?: unknown; locale?: unknown; history?: unknown };
   } catch {
     return NextResponse.json({ error: "invalid_json" }, { status: 400 });
   }
@@ -39,8 +41,78 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "question_too_long", message: "问题请控制在 500 字以内。" }, { status: 400 });
   }
 
-  const [species, news] = await Promise.all([getAllSpecies(), getNews()]);
-  const result = await answerQuestion(question, species, news, locale);
+  const historyInput = Array.isArray(body.history) ? body.history : [];
+  const history = historyInput
+    .filter((item): item is { role: "user" | "assistant"; content: string } => {
+      if (!item || typeof item !== "object") return false;
+      const record = item as Record<string, unknown>;
+      return (record.role === "user" || record.role === "assistant") && typeof record.content === "string";
+    })
+    .slice(-4)
+    .map((item) => ({ role: item.role, content: item.content.slice(0, 600) }));
+
+  const [news] = await Promise.all([getNews()]);
+  const species = CHINA_SPECIES.map((s) => ({
+    id: s.slug,
+    slug: s.slug,
+    name_cn: s.nameCn,
+    name_en: s.englishName,
+    scientific_name: s.scientificName,
+    aliases: s.aliases,
+    group: s.group,
+    group_label: s.groupLabel,
+    tagline: "",
+    summary: s.distribution ? `${s.nameCn}：${s.distribution}` : "",
+    appearance: s.morphology,
+    behavior: s.behavior,
+    diet: s.dietReproduction,
+    diet_type: [],
+    habitat: (s.habitats ?? []).join("、") || s.distribution,
+    reproduction: s.dietReproduction,
+    size: { length_cm: null, height_cm: null },
+    weight: { min_kg: 0, max_kg: 0 },
+    lifespan_years: [0, 0] as [number, number],
+    speed_kmh: null,
+    fun_facts: [],
+    conservation: {
+      status: s.conservation.status,
+      status_label: s.conservation.label,
+      trend: "unknown" as const,
+      assessment_year: s.conservation.year,
+      population_note: s.conservation.note,
+      threats: [],
+      measures: [],
+      source: {
+        source_name: "馆藏编辑整理",
+        source_url: "",
+        license: "",
+        retrieved_at: new Date().toISOString(),
+        verified: false,
+        review_status: "editorial" as const,
+      },
+    },
+    distribution: { regions: s.provinces ?? [], countries: ["CN"], biomes: [], note: s.distribution },
+    taxonomy: s.taxonomy,
+    media_ids: [],
+    audio_ids: [],
+    related_slugs: [],
+    sources: (s.sources ?? []).map((src) => ({
+      source_name: src.name,
+      source_url: src.url,
+      license: "",
+      retrieved_at: new Date().toISOString(),
+      verified: false,
+      review_status: "editorial" as const,
+    })),
+    data_status: "curated" as const,
+    review_status: "pending_review" as const,
+    verified: false,
+    featured: false,
+    updated_at: new Date().toISOString(),
+    palette: { base: "#1F4D3A", deep: "#0B241C", accent: "#C8A96A" },
+    artwork: "mammal",
+  })) as unknown as Species[];
+  const result = await answerQuestion(question, species, news, locale, history);
   return NextResponse.json({
     ...result,
     provider_configured: isLlmConfigured(),

@@ -1,6 +1,4 @@
 import "server-only";
-import { readFile, writeFile, mkdir } from "node:fs/promises";
-import path from "node:path";
 import type { DataSourceConfig, NewsArticle, Species } from "@/lib/types";
 
 export interface SectionOverride {
@@ -40,6 +38,8 @@ export interface StoreShape {
   news_overrides: Record<string, Partial<NewsArticle>>;
   news_manual: NewsArticle[];
   news_deleted: string[];
+  live_news: NewsArticle[];
+  news_live_updated_at?: string;
   source_overrides: Record<string, Partial<DataSourceConfig>>;
   media_overrides: Record<string, MediaReviewOverride>;
   section_overrides: Record<string, SectionOverride>;
@@ -48,61 +48,144 @@ export interface StoreShape {
   updated_at: string;
 }
 
-export const EMPTY_STORE: StoreShape = {
-  version: 1,
-  species_overrides: {},
-  new_species: [],
-  deleted_species: [],
-  news_overrides: {},
-  news_manual: [],
-  news_deleted: [],
-  source_overrides: {},
-  media_overrides: {},
-  section_overrides: {},
-  settings: {},
-  sync_logs: [],
-  updated_at: new Date(0).toISOString(),
-};
+function emptyStore(): StoreShape {
+  return {
+    version: 1,
+    species_overrides: {},
+    new_species: [],
+    deleted_species: [],
+    news_overrides: {},
+    news_manual: [],
+    news_deleted: [],
+    live_news: [],
+    source_overrides: {},
+    media_overrides: {},
+    section_overrides: {},
+    settings: {},
+    sync_logs: [],
+    updated_at: new Date(0).toISOString(),
+  };
+}
 
-const DATA_DIR = path.join(process.cwd(), ".data");
-const STORE_PATH = path.join(DATA_DIR, "content.json");
+export const EMPTY_STORE: StoreShape = emptyStore();
+
+const STORE_PATH = ".data/content.json";
 
 let writeLock: Promise<void> = Promise.resolve();
+let schemaReady: Promise<void> | null = null;
 
-export async function readStore(): Promise<StoreShape> {
+interface D1PreparedStatement {
+  bind(...values: unknown[]): D1PreparedStatement;
+  first<T = unknown>(): Promise<T | null>;
+  run(): Promise<unknown>;
+}
+
+interface D1DatabaseLike {
+  prepare(query: string): D1PreparedStatement;
+}
+
+async function getD1(): Promise<D1DatabaseLike | null> {
+  if (process.env.STORAGE_DRIVER !== "d1") return null;
   try {
-    const raw = await readFile(STORE_PATH, "utf8");
-    const parsed = JSON.parse(raw) as Partial<StoreShape>;
-    return {
-      ...EMPTY_STORE,
-      ...parsed,
-      species_overrides: parsed.species_overrides ?? {},
-      new_species: parsed.new_species ?? [],
-      deleted_species: parsed.deleted_species ?? [],
-      news_overrides: parsed.news_overrides ?? {},
-      news_manual: parsed.news_manual ?? [],
-      news_deleted: parsed.news_deleted ?? [],
-      source_overrides: parsed.source_overrides ?? {},
-      media_overrides: parsed.media_overrides ?? {},
-      section_overrides: parsed.section_overrides ?? {},
-      settings: parsed.settings ?? {},
-      sync_logs: parsed.sync_logs ?? [],
-    };
+    const mod = await import("@opennextjs/cloudflare");
+    const context = mod.getCloudflareContext();
+    const db = (context?.env as { DB?: D1DatabaseLike } | undefined)?.DB;
+    return db ?? null;
   } catch {
-    return { ...EMPTY_STORE };
+    return null;
   }
 }
 
-async function writeStoreDirect(store: StoreShape): Promise<void> {
-  await mkdir(DATA_DIR, { recursive: true });
-  const tmp = `${STORE_PATH}.tmp`;
-  await writeFile(tmp, JSON.stringify(store, null, 2), "utf8");
-  await writeFile(STORE_PATH, JSON.stringify(store, null, 2), "utf8");
+async function ensureSchema(db: D1DatabaseLike): Promise<void> {
+  if (!schemaReady) {
+    schemaReady = db
+      .prepare(
+        "CREATE TABLE IF NOT EXISTS content_store (id TEXT PRIMARY KEY, value TEXT NOT NULL, updated_at TEXT NOT NULL)"
+      )
+      .run()
+      .then(() => undefined)
+      .catch((err) => {
+        schemaReady = null;
+        throw err;
+      });
+  }
+  await schemaReady;
+}
+
+function normalizeStore(parsed: Partial<StoreShape>): StoreShape {
+  return {
+    ...emptyStore(),
+    ...parsed,
+    version: parsed.version ?? 1,
+    species_overrides: parsed.species_overrides ?? {},
+    new_species: parsed.new_species ?? [],
+    deleted_species: parsed.deleted_species ?? [],
+    news_overrides: parsed.news_overrides ?? {},
+    news_manual: parsed.news_manual ?? [],
+    news_deleted: parsed.news_deleted ?? [],
+    live_news: parsed.live_news ?? [],
+    source_overrides: parsed.source_overrides ?? {},
+    media_overrides: parsed.media_overrides ?? {},
+    section_overrides: parsed.section_overrides ?? {},
+    settings: parsed.settings ?? {},
+    sync_logs: parsed.sync_logs ?? [],
+  };
+}
+
+async function readFileStore(): Promise<StoreShape> {
   try {
-    const { rename } = await import("node:fs/promises");
-    await rename(tmp, STORE_PATH);
+    const { readFile } = await import("node:fs/promises");
+    const path = await import("node:path");
+    const raw = await readFile(path.join(process.cwd(), STORE_PATH), "utf8");
+    return normalizeStore(JSON.parse(raw) as Partial<StoreShape>);
   } catch {
-    // rename can fail on some mounted volumes; the direct write above is the fallback.
+    return emptyStore();
+  }
+}
+
+export async function readStore(): Promise<StoreShape> {
+  const db = await getD1();
+  if (db) {
+    await ensureSchema(db);
+    const row = await db
+      .prepare("SELECT value FROM content_store WHERE id = ?")
+      .bind("store")
+      .first<{ value: string }>();
+    if (!row?.value) return emptyStore();
+    try {
+      return normalizeStore(JSON.parse(row.value) as Partial<StoreShape>);
+    } catch {
+      return emptyStore();
+    }
+  }
+  return readFileStore();
+}
+
+async function writeStoreDirect(store: StoreShape): Promise<void> {
+  const db = await getD1();
+  if (db) {
+    await ensureSchema(db);
+    await db
+      .prepare(
+        "INSERT INTO content_store (id, value, updated_at) VALUES (?, ?, ?) ON CONFLICT(id) DO UPDATE SET value = excluded.value, updated_at = excluded.updated_at"
+      )
+      .bind("store", JSON.stringify(store), new Date().toISOString())
+      .run();
+    return;
+  }
+
+  const { writeFile, mkdir, rename } = await import("node:fs/promises");
+  const path = await import("node:path");
+  const dataDir = path.join(process.cwd(), ".data");
+  const storePath = path.join(process.cwd(), STORE_PATH);
+  await mkdir(dataDir, { recursive: true });
+  const tmp = `${storePath}.tmp`;
+  await writeFile(tmp, JSON.stringify(store, null, 2), "utf8");
+  await writeFile(storePath, JSON.stringify(store, null, 2), "utf8");
+  try {
+    await rename(tmp, storePath);
+  } catch {
+    // The direct write above is the fallback on volumes that reject rename.
   }
 }
 

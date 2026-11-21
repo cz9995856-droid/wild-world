@@ -76,7 +76,7 @@ supabase db push          # 应用 supabase/migrations/0001_init.sql
 1. `supabase/migrations/0001_init.sql`
 2. `supabase/seed.sql`
 
-`seed.sql` 由后台导出自动生成，包含 24 个物种、96 张媒体、20 条录音、48 条新闻、8 个视频条目、12 道题、7 个时间线节点、来源与首页配置。
+`seed.sql` 是 Supabase 用的自动生成快照，当前仍为较早一次导出的内容（未包含本轮新增物种）。Cloudflare 部署默认使用静态种子 + D1，不依赖该文件。如需同步 Supabase，请先在后台导出最新数据，再运行 `node scripts/json-to-seed-sql.mjs <input.json>` 重新生成。
 
 ### 4.2 环境变量
 

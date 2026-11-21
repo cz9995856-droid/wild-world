@@ -1,205 +1,216 @@
 import type { Metadata } from "next";
-import { HomeHero } from "@/components/home/hero";
-import { HomeSections, type HomeSectionItem } from "@/components/home/home-sections";
-import { RandomExplorer } from "@/components/home/random-explorer";
-import {
-  AiTeaser,
-  CategorySection,
-  CompareTeaser,
-  ConservationSection,
-  DailySection,
-  FeaturedSection,
-  LabTeaser,
-  MapTeaser,
-  NewsSection,
-  PhotographySection,
-  RankingsSection,
-  TimelineTeaser,
-  VideosSection,
-} from "@/components/home/sections";
-import {
-  getDailySpecies,
-  getAllSpecies,
-  getMediaAssets,
-  getNews,
-  getNewsMeta,
-  getSiteSettings,
-  getVideos,
-} from "@/lib/repository";
-import { NEWS_SOURCES } from "@/lib/data/news-meta";
-import { hashString } from "@/lib/utils";
-
-export const dynamic = "force-dynamic";
+import Link from "next/link";
+import { Mascot } from "@/components/youth/mascot";
+import { Band, EntryCard } from "@/components/youth/band";
+import { WcHeader } from "@/components/wildchina/wc-header";
+import { CollectionProgress, DailyQuiz, KnownCounter, ProvincePreview } from "@/components/home/explorer-home";
+import { cardUrl, getSpeciesImage } from "@/lib/wildchina/media";
+import { CHINA_SPECIES } from "@/lib/wildchina/species";
 
 export const metadata: Metadata = {
-  title: "WILD WORLD · 全球数字动物自然博物馆",
-  description:
-    "WILD WORLD 是一座面向公众的数字动物自然博物馆：可追溯的物种档案、逐张核验的影像许可、真实观测地图与互动实验室。",
+  title: { absolute: "WildChina · 中国特有动物卡" },
+  description: "翻开动物卡，认识只在中国生活的动物。答题、收集、查分布，一天认识一种。",
 };
 
-export default async function HomePage() {
-  const [species, media, news, newsMeta, settings] = await Promise.all([
-    getAllSpecies(),
-    getMediaAssets(),
-    getNews(),
-    getNewsMeta(),
-    getSiteSettings(),
-  ]);
-  const daily = await getDailySpecies();
-  const videos = getVideos();
+const GROUP_ENTRIES = [
+  { key: "mammal", title: "兽类", color: "var(--band-mammal)", icon: "paw" as const },
+  { key: "bird", title: "鸟类", color: "var(--band-bird)", icon: "spark" as const },
+  { key: "amphibian", title: "两栖", color: "var(--band-amphibian)", icon: "book" as const },
+  { key: "reptile", title: "爬行", color: "var(--band-reptile)", icon: "cards" as const },
+  { key: "fish", title: "鱼类", color: "var(--band-fish)", icon: "target" as const },
+];
 
-  const covers: Record<string, string> = {};
-  for (const asset of media) {
-    const sp = species.find((s) => s.id === asset.species_id);
-    if (sp && !covers[sp.slug]) covers[sp.slug] = asset.url;
+const RARE_BY_GROUP: Record<string, string[]> = {
+  mammal: ["complex-toothed-flying-squirrel", "chinese-pangolin"],
+  bird: ["crested-ibis", "chinese-thrush"],
+  amphibian: ["vibrissaphora-boringii", "chinese-giant-salamander"],
+  reptile: ["mangshan-pit-viper", "chinese-alligator"],
+  fish: ["chinese-sturgeon", "chinese-sucker"],
+};
+
+const QUIZ_SLUGS = ["odorrana-wuchuanensis", "hynobius-fucus", "andrias-davidianus", "giant-panda"];
+
+const FACTS = [
+  { text: "大熊猫抓竹子的「第六根手指」不是手指，是腕部一块变大的籽骨。", source: "动物卡 · 大熊猫" },
+  { text: "大鲵没有发育良好的肺，主要靠皮肤和口腔黏膜呼吸，所以水质一变它就撑不住。", source: "动物卡 · 大鲵" },
+  { text: "朱鹮繁殖期的粉色来自食物里的类胡萝卜素，不是天生粉。", source: "动物卡 · 朱鹮" },
+];
+
+function mini(slug: string) {
+  const species = CHINA_SPECIES.find((item) => item.slug === slug);
+  if (!species) return null;
+  return {
+    slug: species.slug,
+    nameCn: species.nameCn,
+    group: species.group,
+    groupLabel: species.groupLabel,
+    thumb: cardUrl(getSpeciesImage(species.slug, "hero")?.url),
+  };
+}
+
+export default function HomePage() {
+  const total = CHINA_SPECIES.length;
+  const groupCounts = new Map<string, number>();
+  for (const species of CHINA_SPECIES) groupCounts.set(species.group, (groupCounts.get(species.group) ?? 0) + 1);
+
+  const rare = GROUP_ENTRIES.flatMap((entry) => (RARE_BY_GROUP[entry.key] ?? []).map(mini)).filter(
+    (item): item is NonNullable<typeof item> => Boolean(item)
+  );
+
+  const quiz = QUIZ_SLUGS.map(mini).filter((item): item is NonNullable<typeof item> => Boolean(item));
+  const quizAnswer = "giant-panda";
+
+  const provinceCounts = new Map<string, number>();
+  for (const species of CHINA_SPECIES) {
+    for (const province of species.provinces ?? []) {
+      provinceCounts.set(province, (provinceCounts.get(province) ?? 0) + 1);
+    }
   }
+  const provinces = [...provinceCounts.entries()]
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 16);
 
-  const counts: Record<string, number> = {};
-  for (const s of species) counts[s.group] = (counts[s.group] ?? 0) + 1;
+  const groups = GROUP_ENTRIES.map((entry) => ({
+    group: entry.key,
+    label: entry.title,
+    total: groupCounts.get(entry.key) ?? 0,
+    slugs: CHINA_SPECIES.filter((species) => species.group === entry.key).map((species) => species.slug),
+  }));
 
-  const categoryImages: Record<string, string> = {};
-  for (const group of ["mammal", "bird", "reptile", "amphibian", "insect"]) {
-    const withPhoto = species.find((s) => s.group === group && covers[s.slug]);
-    if (withPhoto) categoryImages[group] = covers[withPhoto.slug];
-  }
-
-  const featured = species.filter((s) => s.featured).slice(0, 4);
-  const featuredList = featured.length >= 4 ? featured : species.slice(0, 4);
-  const focusNews = news.slice(0, 5);
-  const videoCredits: Record<string, { author: string; license: string; source_url: string }> = {};
-  settings.hero_images.forEach((url, index) => {
-    const credit = settings.hero_credits[index];
-    if (credit) videoCredits[url] = { author: credit.author, license: credit.license, source_url: credit.source_url };
-  });
-  const connectedSources = NEWS_SOURCES.filter((s) => s.status === "connected").length;
-
-  const todayKey = new Date().toISOString().slice(0, 10);
-  const seed = hashString(todayKey);
-  const randomInitial = [...species]
-    .sort((a, b) => hashString(a.slug + seed) - hashString(b.slug + seed))
-    .slice(0, 4);
-
-  const sections: HomeSectionItem[] = [
-    {
-      id: "news",
-      label: "新闻中心",
-      description: "真实 RSS 来源、发布日期与原文链接。",
-      defaultVisible: true,
-      node: (
-        <NewsSection
-          news={focusNews}
-          total={news.length}
-          sources={connectedSources}
-          generatedAt={newsMeta.generated_at}
-        />
-      ),
-    },
-    {
-      id: "random",
-      label: "随机动物探索",
-      description: "按类群随机抽取馆藏物种。",
-      defaultVisible: true,
-      node: <RandomExplorer species={species} covers={covers} initial={randomInitial} />,
-    },
-    {
-      id: "categories",
-      label: "动物分类",
-      description: "按哺乳动物、鸟类等类群进入馆藏。",
-      defaultVisible: true,
-      node: <CategorySection counts={counts} images={categoryImages} />,
-    },
-    {
-      id: "featured",
-      label: "精选百科",
-      description: "馆藏精选物种档案。",
-      defaultVisible: true,
-      node: <FeaturedSection species={featuredList} covers={covers} />,
-    },
-    {
-      id: "lab",
-      label: "互动实验室",
-      description: "3D、解剖、声音、地理、测验与喂养模拟。",
-      defaultVisible: true,
-      node: <LabTeaser />,
-    },
-    {
-      id: "map",
-      label: "全球动物地图",
-      description: "GBIF 与 iNaturalist 的真实观测点。",
-      defaultVisible: true,
-      node: <MapTeaser gbifReady />,
-    },
-    {
-      id: "conservation",
-      label: "濒危动物",
-      description: "保护等级、趋势与威胁。",
-      defaultVisible: true,
-      node: <ConservationSection species={species} covers={covers} />,
-    },
-    {
-      id: "photography",
-      label: "高清摄影馆",
-      description: "逐张署名的授权野生动物影像。",
-      defaultVisible: true,
-      node: <PhotographySection photos={media.slice(0, 40)} />,
-    },
-    {
-      id: "videos",
-      label: "纪录片",
-      description: "官方观看入口，不转载完整影片。",
-      defaultVisible: true,
-      node: <VideosSection videos={videos} credits={videoCredits} />,
-    },
-    {
-      id: "daily",
-      label: "每日动物",
-      description: "每天一件馆藏推荐。",
-      defaultVisible: true,
-      node: <DailySection species={daily} cover={covers[daily.slug]} />,
-    },
-    {
-      id: "rankings",
-      label: "排行榜",
-      description: "在可比条件下排序，标注来源。",
-      defaultVisible: true,
-      node: <RankingsSection species={species} />,
-    },
-    {
-      id: "timeline",
-      label: "进化时间线",
-      description: "从寒武纪到第四纪的演化节点。",
-      defaultVisible: false,
-      node: <TimelineTeaser />,
-    },
-    {
-      id: "ai",
-      label: "AI 动物问答",
-      description: "基于馆藏知识库的问答入口。",
-      defaultVisible: false,
-      node: <AiTeaser />,
-    },
-    {
-      id: "compare",
-      label: "动物对比",
-      description: "并排比较三种动物的可可比字段。",
-      defaultVisible: false,
-      node: <CompareTeaser species={species} />,
-    },
-  ];
+  const hero = rare[0];
+  const heroImage = hero ? getSpeciesImage(hero.slug, "hero") : null;
 
   return (
-    <>
-      <HomeHero
-        images={settings.hero_images}
-        credits={settings.hero_credits}
-        videoUrl={settings.hero_video_url}
-        poster={settings.hero_poster}
-        videoCredit={settings.hero_video_credit}
-        newsCount={news.length}
-        sourceCount={connectedSources + 2}
-        speciesCount={species.length}
-      />
-      <HomeSections items={sections} />
-    </>
+    <div className="wc-frame y-body">
+      <WcHeader />
+
+      <Band color="var(--band-yellow)" hero className="mt-4">
+        <div className="grid items-center gap-5 lg:grid-cols-[1.15fr_0.85fr]">
+          <div>
+            <div className="flex items-center gap-3">
+              <Mascot mood="happy" />
+              <KnownCounter total={total} />
+            </div>
+            <h1 className="y-title mt-4 text-[clamp(38px,6.6vw,68px)]">
+              今天，你能认出几种？
+            </h1>
+            <p className="mt-3 max-w-[520px] text-[15px] font-medium leading-relaxed">
+              翻开一张动物卡，看看只在中国生活的它们。答一题、收一张，每天多认识一种。
+            </p>
+            <div className="mt-5 flex flex-wrap items-center gap-3">
+              <Link prefetch={false} href="/explore/encyclopedia" className="y-btn">
+                开始探索
+              </Link>
+              <Link prefetch={false} href={`/explore/encyclopedia/${hero?.slug ?? "giant-panda"}`} className="y-btn y-btn-ghost">
+                今日神秘动物
+              </Link>
+            </div>
+          </div>
+
+          {heroImage && (
+            <Link prefetch={false} href={`/explore/encyclopedia/${hero?.slug}`} className="y-card y-card-hover block p-3">
+              <span
+                className="y-img block w-full bg-cover bg-center"
+                style={{ backgroundImage: `url("${cardUrl(heroImage.url)}")`, aspectRatio: "4 / 3" }}
+                aria-hidden="true"
+              />
+              <span className="mt-3 flex items-center justify-between gap-2 px-1">
+                <span className="y-title text-[22px]">{hero?.nameCn}</span>
+                <span className="y-tag bg-[var(--surface)]">{hero?.groupLabel}</span>
+              </span>
+            </Link>
+          )}
+        </div>
+      </Band>
+
+      <section className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+        {GROUP_ENTRIES.map((entry) => (
+          <EntryCard
+            key={entry.key}
+            href={`/explore/encyclopedia?group=${entry.key}`}
+            icon={entry.icon}
+            title={entry.title}
+            desc={`${groupCounts.get(entry.key) ?? 0} 种等你翻牌`}
+            color={entry.color}
+          />
+        ))}
+      </section>
+
+      <div className="mt-5">
+        <Band color="var(--band-bird)">
+          <DailyQuiz cards={quiz} answerSlug={quizAnswer} />
+        </Band>
+      </div>
+
+      <div className="mt-5">
+        <Band color="var(--band-amphibian)">
+          <div className="flex items-end justify-between gap-3">
+            <h2 className="y-title text-[26px]">冷门，但超有意思</h2>
+            <Link prefetch={false} href="/explore/encyclopedia" className="y-tag y-press bg-[var(--surface)]">
+              全部动物卡
+            </Link>
+          </div>
+          <div className="no-scrollbar mt-4 flex snap-x gap-3 overflow-x-auto pb-2">
+            {rare.map((item) => (
+              <Link
+                prefetch={false}
+                key={item.slug}
+                href={`/explore/encyclopedia/${item.slug}`}
+                className="y-card y-card-hover w-[190px] shrink-0 snap-start overflow-hidden"
+              >
+                <span
+                  className="block w-full bg-cover bg-center"
+                  style={{ backgroundImage: `url("${item.thumb}")`, aspectRatio: "1 / 1" }}
+                  aria-hidden="true"
+                />
+                <span className="block px-3 py-2.5">
+                  <span className="block truncate text-[15px] font-bold">{item.nameCn}</span>
+                  <span className="mt-0.5 block text-[11px] font-medium">{item.groupLabel} · 点开看看</span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </Band>
+      </div>
+
+      <div className="mt-5 grid gap-5 lg:grid-cols-2">
+        <Band color="var(--band-reptile)">
+          <ProvincePreview provinces={provinces} />
+        </Band>
+        <Band color="var(--band-fish)">
+          <CollectionProgress groups={groups} />
+        </Band>
+      </div>
+
+      <div className="mt-5">
+        <Band color="var(--band-mammal)">
+          <div className="flex items-center gap-3">
+            <Mascot mood="cheer" className="!h-14 !w-14" />
+            <h2 className="y-title text-[26px]">你知道吗</h2>
+          </div>
+          <div className="mt-4 grid gap-3 sm:grid-cols-3">
+            {FACTS.map((fact) => (
+              <div key={fact.text} className="y-card bg-[var(--surface)] p-4">
+                <p className="text-[13px] font-medium leading-relaxed">{fact.text}</p>
+                <p className="mt-2 text-[10px] font-bold">{fact.source}</p>
+              </div>
+            ))}
+          </div>
+        </Band>
+      </div>
+
+      <p className="mt-6 flex flex-wrap items-center gap-3 text-[11px] font-medium text-[var(--muted)]">
+        <Link prefetch={false} href="/explore/data" className="underline">
+          数据说明
+        </Link>
+        <Link prefetch={false} href="/sources" className="underline">
+          影像与授权
+        </Link>
+        <Link prefetch={false} href="/explore/collection" className="underline">
+          我的收集册
+        </Link>
+      </p>
+    </div>
   );
 }

@@ -2,12 +2,11 @@
 
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-import { Activity, Box, Bone, Globe2, Headphones, Trophy, Utensils } from "lucide-react";
-import type { AudioEntry, FeedingPlan, QuizQuestion, Species } from "@/lib/types";
+import { Activity, Box, Bone, Globe2, Sparkles, Trophy } from "lucide-react";
 import { AnatomyExplorer } from "@/components/lab/anatomy-explorer";
-import { SoundLab } from "@/components/lab/sound-lab";
-import { QuizLab } from "@/components/lab/quiz-lab";
-import { FeedingLab } from "@/components/lab/feeding-lab";
+import { ChallengeCenter } from "@/components/quiz/challenge-center";
+import { MentorChat } from "@/components/mentor/mentor-chat";
+import type { ModelOption } from "@/lib/wildchina/model-map";
 import { WorldMapLoader } from "@/components/map/world-map-loader";
 import { DataBadge } from "@/components/ui/badges";
 
@@ -23,28 +22,25 @@ const Lab3D = dynamic(() => import("@/components/lab/lab-3d").then((m) => m.Lab3
 const TABS = [
   { id: "three-d", label: "3D 探索", icon: Box, source: "原创模型" },
   { id: "anatomy", label: "身体结构", icon: Bone, source: "原创示意" },
-  { id: "sound", label: "声音实验室", icon: Headphones, source: "iNaturalist 授权" },
   { id: "geo", label: "地理探索", icon: Globe2, source: "GBIF / iNat 实时" },
   { id: "quiz", label: "知识挑战", icon: Trophy, source: "馆方题库" },
-  { id: "feeding", label: "喂养模拟", icon: Utensils, source: "教育模拟" },
+  { id: "mentor", label: "AI 导师", icon: Sparkles, source: "馆藏问答" },
 ] as const;
 
 type TabId = (typeof TABS)[number]["id"];
 
 export function LabTabs({
-  species,
-  recordings,
-  quiz,
-  feeding,
+  speciesCount,
   mapOptions,
   initialSlug,
+  initialGroup,
+  models,
 }: {
-  species: Species[];
-  recordings: AudioEntry[];
-  quiz: QuizQuestion[];
-  feeding: FeedingPlan[];
+  speciesCount: number;
   mapOptions: Array<{ slug: string; name_cn: string; name_en: string; scientific_name: string; gbif_taxon_key: number | null }>;
   initialSlug: string;
+  initialGroup?: string;
+  models?: ModelOption[];
 }) {
   const [active, setActive] = useState<TabId>("three-d");
 
@@ -57,9 +53,6 @@ export function LabTabs({
     setActive(id);
     window.history.replaceState(null, "", `#${id}`);
   }
-
-  const speciesBySlug = Object.fromEntries(species.map((s) => [s.slug, `${s.name_cn} · ${s.name_en}`]));
-  const audioPools = recordings.slice(0, 40);
 
   return (
     <div className="grid gap-6 lg:grid-cols-[240px_1fr]">
@@ -96,9 +89,9 @@ export function LabTabs({
             <Activity size={12} /> Data provenance
           </p>
           <p className="mt-2 text-[9.5px] leading-relaxed text-[var(--muted)]">
-            三组内容需分开理解：原创教学模型（非扫描）、授权录音（逐条署名）、实时观测（外部接口）。
-            页面会分别标注状态。
+            原创教学模型（非扫描）与实时观测（外部接口）分开标注。页面会分别显示状态。
           </p>
+          <p className="mt-2 text-[9px] text-[var(--muted)]">已覆盖 {speciesCount} 种动物</p>
           <DataBadge status="editorial" className="mt-2" />
         </div>
       </aside>
@@ -111,9 +104,14 @@ export function LabTabs({
           </h2>
         </div>
 
-        {active === "three-d" && <Lab3D />}
-        {active === "anatomy" && <AnatomyExplorer />}
-        {active === "sound" && <SoundLab recordings={audioPools} speciesBySlug={speciesBySlug} />}
+        {active === "three-d" && <Lab3D initialSlug={initialSlug} group={initialGroup} models={models} />}
+        {active === "anatomy" && (
+          <AnatomyExplorer
+            initialSlug={initialSlug}
+            group={initialGroup}
+            options={models?.map((m) => ({ slug: m.slug, label: m.label, group: m.group, note: m.note }))}
+          />
+        )}
         {active === "geo" && (
           <div>
             <div className="mb-3 border border-[var(--line)] bg-[var(--surface-2)] p-4 text-[10.5px] leading-relaxed text-[var(--muted)]">
@@ -122,11 +120,11 @@ export function LabTabs({
             <WorldMapLoader options={mapOptions} initialSlug={initialSlug} height="min-h-[560px]" />
           </div>
         )}
-        {active === "quiz" && <QuizLab questions={quiz} />}
-        {active === "feeding" && <FeedingLab plans={feeding} species={species} />}
+        {active === "quiz" && <ChallengeCenter />}
+        {active === "mentor" && <MentorChat />}
 
         <div className="mt-8 border-t border-[var(--line)] pt-4 text-[9.5px] leading-relaxed text-[var(--muted)]">
-          实验室使用的模型、示意与题库为馆方原创或编辑整理；外部音频与观测记录逐条标注来源与许可。
+          实验室使用的模型与示意为馆方原创，题库为编辑整理；外部观测记录逐条标注来源。
           发现错误？请在 <a href="/sources" className="underline">数据与许可</a> 页查看更正流程。
         </div>
       </div>

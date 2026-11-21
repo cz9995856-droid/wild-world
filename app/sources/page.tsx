@@ -151,6 +151,65 @@ export default async function SourcesPage() {
           </div>
         </section>
 
+        <section id="endemic-provenance" className="mt-12 scroll-mt-28">
+          <div className="mb-4">
+            <p className="label text-[var(--muted)]">Endemic species · 2026-11-19</p>
+            <h2 className="display mt-2 text-[28px]">中国特有脊椎动物专题的新增来源</h2>
+            <p className="mt-2 max-w-3xl text-[11px] leading-relaxed text-[var(--muted)]">
+              物种卡牌中的形态、生境、习性与保护等级来自下列来源，逐条保留了抓取日期与原文引用。抓取只保存文字与可再使用的图片，不转载来源站点的排版与图库。
+            </p>
+          </div>
+          <div className="grid gap-4 lg:grid-cols-3">
+            <div className="border border-[var(--line)] bg-[var(--surface)] p-5">
+              <p className="text-[12.5px] font-medium">中国两栖类信息系统（AmphibiaChina）</p>
+              <p className="mt-2 text-[10px] leading-relaxed text-[var(--muted)]">
+                中国科学院昆明动物研究所。用于两栖类的形态特征、生境、习性、繁殖、地理分布与 IUCN 等级。295 种完成匹配，字段级来源见各物种页「数据说明」。
+              </p>
+              <p className="mt-2 text-[9.5px] leading-relaxed text-[var(--muted)]">
+                引用：AmphibiaChina. 2026. The database of Chinese amphibians. http://www.amphibiachina.org/
+              </p>
+              <a href="http://www.amphibiachina.org/" target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 text-[10px] underline">
+                访问来源 <ExternalLink size={10} />
+              </a>
+            </div>
+            <div className="border border-[var(--line)] bg-[var(--surface)] p-5">
+              <p className="text-[12.5px] font-medium">iNaturalist 开放数据（经 GBIF 镜像）</p>
+              <p className="mt-2 text-[10px] leading-relaxed text-[var(--muted)]">
+                两栖类补充照片。仅采用授权明确的作品，作者与原始页面随图标注；CC BY-NC 与 CC BY-NC-SA 作品仅用于本站非商业科普展示。
+              </p>
+              <p className="mt-2 text-[9.5px] leading-relaxed text-[var(--muted)]">
+                图片已本地化，避免第三方 CDN 失效；许可与作者信息保留在媒体记录中。
+              </p>
+              <a href="https://www.inaturalist.org/" target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 text-[10px] underline">
+                访问来源 <ExternalLink size={10} />
+              </a>
+            </div>
+            <div className="border border-[var(--line)] bg-[var(--surface)] p-5">
+              <p className="text-[12.5px] font-medium">本站自绘 2D 示意图</p>
+              <p className="mt-2 text-[10px] leading-relaxed text-[var(--muted)]">
+                对尚无可用授权照片的物种，使用统一风格的矢量示意图，明确标注「示意图 · 非实拍」，不冒充真实个体影像。
+              </p>
+              <p className="mt-2 text-[9.5px] leading-relaxed text-[var(--muted)]">
+                许可：CC BY 4.0，署名 WildChina 编辑部；示意图不用于物种鉴定。
+              </p>
+            </div>
+          </div>
+          <div className="mt-4 border border-[var(--line)] bg-[var(--surface)] p-5">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <p className="text-[12.5px] font-medium">Tropicals.cn · 名称与分类校对</p>
+              <span className="text-[9.5px] text-[var(--muted)]">CC BY 4.0 · 2026-11-19</span>
+            </div>
+            <p className="mt-2 max-w-4xl text-[10px] leading-relaxed text-[var(--muted)]">
+              用于核对 312 种脊椎动物的中文名、英文名、别名与分类，并为每个物种保存 GBIF / Catalogue of Life / Wikidata 外部 ID。
+              本站只保存名称、分类与外部 ID 这些 CC BY 4.0 字段；产地、百科正文与性状字段未写入本站数据集。
+              署名：Tropicals.cn（CC BY 4.0）。
+            </p>
+            <a href="https://tropicals.cn/" target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 text-[10px] underline">
+              访问来源 <ExternalLink size={10} />
+            </a>
+          </div>
+        </section>
+
         <section id="licenses" className="mt-12 scroll-mt-28">
           <div className="mb-4">
             <p className="label text-[var(--muted)]">License policy</p>
@@ -177,7 +236,7 @@ export default async function SourcesPage() {
               <ShieldCheck size={16} className="text-[#2A6B51]" />
               <h3 className="mt-3 text-[12.5px] font-medium">文本与新闻</h3>
               <p className="mt-2 text-[10px] leading-relaxed text-[var(--muted)]">
-                新闻仅使用 RSS 标题、摘要与链接，不转载全文与图片。馆藏物种描述为编辑整理，引用 Wikipedia / ADW 等公开来源，
+                新闻仅使用来源标题、摘要与链接，不转载全文与图片。馆藏物种描述为编辑整理，引用 Wikipedia / ADW 等公开来源，
                 不整段复制受版权保护的文本。
               </p>
             </div>

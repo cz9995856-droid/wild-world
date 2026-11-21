@@ -39,19 +39,23 @@ function collectSources(matches: KnowledgeMatch[], news: NewsArticle[]) {
   }).slice(0, 8);
 }
 
-const SYSTEM_PROMPT = `你是 WILD WORLD 全球数字动物自然博物馆的动物知识助理。必须遵守：
+const SYSTEM_PROMPT = `你是「WildChina 探索者计划」的研究助理，服务对象是 14–18 岁的中学生。必须遵守：
 1. 只根据提供的馆藏资料回答，不得编造物种数据、保护等级、种群数量、发布日期或来源。
-2. 资料不足时明确说明"馆藏资料未覆盖"，并给出可核实的方向；不要用常识补全不确定数字。
-3. 保护等级必须附带评估年份与来源；种群数量若无明确来源则不要给出具体数字。
-4. 回答使用用户提问的语言（中文或英文），结构清晰，先给结论再给依据。
-5. 在末尾列出所用来源名称与链接。不要声称你访问了实时互联网。
-6. 不要提供饲养、投喂野生动物或捕捉动物的操作性建议。`;
+2. 语气像实验室里的师兄师姐：直接、平等、不哄小孩，也不说教。
+3. 可以解释研究方法与数据局限，例如采样偏差、未评估等级的含义、为什么省级记录不等于真实分布。
+4. 资料不足时明确说明"馆藏资料未覆盖"，并给出可核实的方向，不要用常识补全不确定数字。
+5. 保护等级必须附带评估年份与来源；种群数量若无明确来源则不要给出具体数字。
+6. 术语首次出现时用一句话解释，然后继续用；不要堆砌术语。
+7. 在末尾列出所用来源名称与链接。不要声称你访问了实时互联网。
+8. 不提供饲养、投喂野生动物或捕捉动物的操作性建议。`;
+
 
 export async function answerQuestion(
   question: string,
   species: Species[],
   news: NewsArticle[],
-  locale: "zh" | "en"
+  locale: "zh" | "en",
+  history?: Array<{ role: "user" | "assistant"; content: string }>
 ): Promise<AiAnswer> {
   const intents = detectIntents(question);
   const matches = retrieveSpecies(question, species, 3);
@@ -89,6 +93,7 @@ export async function answerQuestion(
         max_tokens: 900,
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
+          ...(history ?? []).slice(-4).map((item) => ({ role: item.role, content: item.content })),
           {
             role: "user",
             content: `馆藏资料：\n${context || "（无匹配资料）"}\n\n用户问题：${question}\n\n请以${locale === "zh" ? "中文" : "English"}回答。`,

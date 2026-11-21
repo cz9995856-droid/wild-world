@@ -1,0 +1,186 @@
+name: Deploy Cloudflare Pages + Worker
+
+on:
+  push:
+    branches: [cf-pages]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  statuses: write
+
+concurrency:
+  group: cloudflare-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Prepare Cloudflare resources
+        id: prepare
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          node scripts/cloudflare/prepare.mjs 2>&1 | tee cloudflare/deploy-debug.log
+          node -e "const m=require('./cloudflare/deploy-meta.json');console.log('WORKER_URL='+m.workerUrl);console.log('PAGES_URL='+m.pagesUrl);console.log('D1_ID='+m.d1Id)" >> "$GITHUB_ENV"
+
+      - name: Publish prepare failure log
+        if: steps.prepare.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B cf-debug
+          git add -f cloudflare/deploy-debug.log
+          git commit -m "ci: capture cloudflare prepare failure" || true
+          git push -f origin cf-debug || true
+          exit 1
+
+      - name: Publish deployed Worker URL
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-worker-url -f description=worker -f target_url="$WORKER_URL"
+          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-pages-url -f description=pages -f target_url="$PAGES_URL"
+          gh api -X POST "repos/$GITHUB_REPOSITORY/statuses/$GITHUB_SHA" -f state=success -f context=cf-account-id -f description="$CLOUDFLARE_ACCOUNT_ID"
+
+      - name: Build Worker
+        env:
+          CF_BUILD: "1"
+          NEXT_PUBLIC_SITE_URL: https://wild-world-museum.pages.dev
+        run: npx opennextjs-cloudflare build
+
+      - name: Split media to Pages
+        run: |
+          rm -rf cloudflare/pages/public/media
+          mkdir -p cloudflare/pages/public
+          cp -r public/media cloudflare/pages/public/media
+          node scripts/optimize-worker-media.mjs .open-next/assets/media
+          du -sh cloudflare/pages/public/media .open-next/assets/media
+
+      - name: Deploy Worker
+        id: deploy
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler deploy --config wrangler.generated.jsonc 2>&1 | tee cloudflare/deploy-debug.log
+
+      - name: Publish deploy failure log
+        if: steps.deploy.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B cf-debug
+          git add -f cloudflare/deploy-debug.log
+          git commit -m "ci: capture cloudflare worker deploy failure"
+          git push -f origin cf-debug
+          exit 1
+
+      - name: Set Worker secrets
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+          ADMIN_SESSION_SECRET: ${{ secrets.ADMIN_SESSION_SECRET }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
+        run: |
+          set -e
+          put_secret() {
+            name="$1"; value="$2"
+            if [ -n "$value" ]; then
+              printf '%s' "$value" | npx wrangler secret put "$name" --name wild-world-app
+              echo "set $name"
+            else
+              echo "skip $name (not configured)"
+            fi
+          }
+          put_secret ADMIN_PASSWORD "$ADMIN_PASSWORD"
+          put_secret ADMIN_SESSION_SECRET "$ADMIN_SESSION_SECRET"
+          put_secret AI_API_KEY "$AI_API_KEY"
+          put_secret AI_BASE_URL "$AI_BASE_URL"
+          put_secret AI_MODEL "$AI_MODEL"
+
+      - name: Deploy Pages proxy
+        id: pages
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler pages deploy cloudflare/pages/public --project-name wild-world-museum --branch main --commit-dirty=true 2>&1 | tee cloudflare/pages-debug.log
+
+      - name: Publish Pages failure log
+        if: steps.pages.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B cf-debug
+          git add -f cloudflare/pages-debug.log
+          git commit -m "ci: capture cloudflare pages deploy failure"
+          git push -f origin cf-debug
+          exit 1
+
+      - name: Smoke home
+        run: curl -fsS --max-time 60 "$PAGES_URL/" | grep -o "WILD WORLD" | head -1
+
+      - name: Smoke search API
+        run: curl -fsS --max-time 60 "$PAGES_URL/api/search?q=%E9%9B%AA%E8%B1%B9" | grep -o '"results"' | head -1
+
+      - name: Smoke media
+        run: curl -fsSI --max-time 60 "$PAGES_URL/media/hero/hero-01.jpg" | grep -i "content-type" | head -1
+
+      - name: Smoke species detail
+        run: curl -fsS --max-time 60 "$PAGES_URL/encyclopedia/giant-panda" | grep -o "大熊猫" | head -1
+
+      - name: Smoke map
+        if: always()
+        run: curl -fsS --max-time 60 "$PAGES_URL/map" | grep -o "全球动物地图" | head -1
+
+      - name: Smoke Worker
+        if: always()
+        run: curl -fsS --max-time 60 "$WORKER_URL/api/search?q=%E9%9B%AA%E8%B1%B9" | grep -o '"results"' | head -1
+
+      - name: Smoke admin (browser UA)
+        if: always()
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+          code=$(curl -sS -L -A "$UA" -o /dev/null -w '%{http_code}' --max-time 60 "$PAGES_URL/admin")
+          echo "admin status=$code"
+          test "$code" = "200"
+
+      - name: Summary
+        run: |
+          {
+            echo "## Cloudflare deployment"
+            echo ""
+            echo "- Pages: $PAGES_URL"
+            echo "- Worker: $WORKER_URL"
+            echo "- D1: $D1_ID"
+            echo ""
+            echo "Vercel 主站仍在线；确认 Pages 正常后再删除 Vercel。"
+          } >> "$GITHUB_STEP_SUMMARY"

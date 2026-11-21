@@ -2,19 +2,21 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader } from "@/components/ui/page-header";
 import { NewsBrowser } from "@/components/news/news-browser";
-import { getNews } from "@/lib/repository";
+import { getAllSpecies, getMediaAssets, getNews } from "@/lib/repository";
 import { NEWS_SOURCES } from "@/lib/data/news-meta";
 import { formatDate } from "@/lib/utils";
+import { buildNewsVisuals } from "@/lib/news-visual";
 
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "新闻中心",
-  description: "只聚合允许的 RSS 来源，展示真实标题、发布日期、来源、原文链接与审核状态。",
+  description: "只聚合允许的公开来源，展示真实标题、发布日期、来源、原文链接与审核状态。",
 };
 
 export default async function NewsPage() {
-  const articles = await getNews();
+  const [articles, species, media] = await Promise.all([getNews(), getAllSpecies(), getMediaAssets()]);
+  const visuals = buildNewsVisuals(media, species);
   const connected = NEWS_SOURCES.filter((s) => s.status === "connected");
 
   return (
@@ -22,7 +24,7 @@ export default async function NewsPage() {
       <PageHeader
         kicker="Newsroom · 新闻中心"
         title="来自源站的野生动物新闻"
-        description="这里不是虚构的“实时资讯”。标题、发布日期与链接来自允许的 RSS 源；中文摘要标注为编辑翻译或待生成，所有条目在发布前保留审核状态。"
+        description="这里不是虚构的“实时资讯”。标题、发布日期与链接来自允许的公开来源；中文摘要标注为编辑翻译或待生成，所有条目在发布前保留审核状态。"
         breadcrumbs={[{ label: "新闻中心" }]}
         meta={
           <div className="flex flex-wrap gap-2 lg:justify-end">
@@ -49,7 +51,7 @@ export default async function NewsPage() {
                     <a href={s.homepage} target="_blank" rel="noreferrer" className="hover:underline">{s.name}</a>
                     <span className="text-[var(--muted)]">
                       {" "}
-                      · {s.status === "connected" ? "RSS 已连接" : s.status === "blocked" ? "网络阻断 / 失败" : "需授权"}
+                      · {s.status === "connected" ? "订阅源已连接" : s.status === "blocked" ? "网络阻断 / 失败" : "需授权"}
                     </span>
                     {s.note && <span className="mt-0.5 block text-[9.5px] leading-relaxed text-[var(--muted)]">{s.note}</span>}
                   </span>
@@ -60,13 +62,13 @@ export default async function NewsPage() {
           <div className="border-t border-[var(--line)] pt-4 text-[10px] leading-relaxed text-[var(--muted)] sm:border-l sm:border-t-0 sm:pl-5 sm:pt-0">
             <p className="text-[var(--ink-soft)]">内容使用边界</p>
             <p className="mt-2">
-              仅使用 RSS 提供的标题、摘要与链接，不转载全文与图片。发布日期来自源站；中文摘要不冒充 AI 自动生成，也不替代原文。
+              仅使用来源提供的标题、摘要与链接，不转载全文与图片。发布日期来自源站；中文摘要不冒充 AI 自动生成，也不替代原文。
             </p>
             <Link href="/sources" className="mt-3 inline-block underline">查看完整来源与许可清单 →</Link>
           </div>
         </div>
 
-        <NewsBrowser articles={articles} />
+        <NewsBrowser articles={articles} visuals={visuals} />
       </div>
     </>
   );

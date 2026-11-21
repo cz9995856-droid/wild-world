@@ -232,9 +232,9 @@ export default async function SpeciesDetailPage({ params }: { params: Promise<{ 
               href={species.conservation.source.source_url}
               target="_blank"
               rel="noreferrer"
-              className="mt-3 inline-flex items-center gap-1 text-[10px] underline opacity-90"
+              className="mt-3 inline-flex items-center gap-1.5 border border-current/40 px-2.5 py-1.5 text-[10.5px] font-medium opacity-95 transition-opacity hover:opacity-70"
             >
-              查看评估来源 <ExternalLink size={10} />
+              官方来源 · IUCN 评估 <ExternalLink size={11} />
             </a>
           </div>
 

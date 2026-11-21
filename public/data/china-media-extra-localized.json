@@ -1,0 +1,776 @@
+{
+ "source": "iNaturalist 开放数据（本地化）",
+ "retrievedAt": "2026-11-19",
+ "species": {
+  "milu": {
+   "hero": {
+    "url": "/media/species/extra-local/milu.webp",
+    "author": "Mike Evans",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/177105337",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "chinese-alligator": {
+   "hero": {
+    "url": "/media/species/extra-local/chinese-alligator.webp",
+    "author": "Logan Fu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/567675962",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "sichuan-snub-nosed-monkey": {
+   "hero": {
+    "url": "/media/species/extra-local/sichuan-snub-nosed-monkey.webp",
+    "author": "Jack Hynes",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/95986791",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "yunnan-snub-nosed-monkey": {
+   "hero": {
+    "url": "/media/species/extra-local/yunnan-snub-nosed-monkey.webp",
+    "author": "Scott Bowers",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/13400591",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hainan-gibbon": {
+   "hero": {
+    "url": "/media/species/extra-local/hainan-gibbon.webp",
+    "author": "observe-syz",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/513126251",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "guizhou-snub-nosed-monkey": {
+   "hero": {
+    "url": "/media/species/extra-local/guizhou-snub-nosed-monkey.webp",
+    "author": "花蚀",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/247494116",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "south-china-tiger": {
+   "hero": {
+    "url": "/media/species/extra-local/south-china-tiger.webp",
+    "author": "anonymous",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/58512139",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "przewalski-gazelle": {
+   "hero": {
+    "url": "/media/species/extra-local/przewalski-gazelle.webp",
+    "author": "pfaucher",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/27772484",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "brown-eared-pheasant": {
+   "hero": {
+    "url": "/media/species/extra-local/brown-eared-pheasant.webp",
+    "author": "Yishen Xiao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/607401216",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "chinese-monal": {
+   "hero": {
+    "url": "/media/species/extra-local/chinese-monal.webp",
+    "author": "Lucy Yuan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/391875626",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "chinese-giant-salamander": {
+   "hero": {
+    "url": "/media/species/extra-local/chinese-giant-salamander.webp",
+    "author": "王晨宇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/409145395",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "baiji": {
+   "hero": {
+    "url": "/media/species/extra-local/baiji.webp",
+    "author": "\nTangdadi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/155441209",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tibetan-antelope": {
+   "hero": {
+    "url": "/media/species/extra-local/tibetan-antelope.webp",
+    "author": "pfaucher",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/27823297",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "white-headed-langur": {
+   "hero": {
+    "url": "/media/species/extra-local/white-headed-langur.webp",
+    "author": "Msx.Zhao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/346929095",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "francois-langur": {
+   "hero": {
+    "url": "/media/species/extra-local/francois-langur.webp",
+    "author": "Nat Panda",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/148865296",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tibetan-macaque": {
+   "hero": {
+    "url": "/media/species/extra-local/tibetan-macaque.webp",
+    "author": "jpgalvan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/4954565",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "chinese-pangolin": {
+   "hero": {
+    "url": "/media/species/extra-local/chinese-pangolin.webp",
+    "author": "Dash Huang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/66000241",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "large-indian-civet": {
+   "hero": {
+    "url": "/media/species/extra-local/large-indian-civet.webp",
+    "author": "pfaucher",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/11172409",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "small-indian-civet": {
+   "hero": {
+    "url": "/media/species/extra-local/small-indian-civet.webp",
+    "author": "Royle Safaris",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/429342601",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "asian-golden-cat": {
+   "hero": {
+    "url": "/media/species/extra-local/asian-golden-cat.webp",
+    "author": "Karen Stout",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/187398363",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "forest-musk-deer": {
+   "hero": {
+    "url": "/media/species/extra-local/forest-musk-deer.webp",
+    "author": "Phil Benstead",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/155080061",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "alpine-musk-deer": {
+   "hero": {
+    "url": "/media/species/extra-local/alpine-musk-deer.webp",
+    "author": "M. van Dijk",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/57246177",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "white-lipped-deer": {
+   "hero": {
+    "url": "/media/species/extra-local/white-lipped-deer.webp",
+    "author": "ZhenningLiu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/350172505",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tufted-deer": {
+   "hero": {
+    "url": "/media/species/extra-local/tufted-deer.webp",
+    "author": "Heather Paul",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/48247959",
+    "license": "CC BY-ND",
+    "license_url": "https://creativecommons.org/licenses/by-nd/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "sichuan-takin": {
+   "hero": {
+    "url": "/media/species/extra-local/sichuan-takin.webp",
+    "author": "Rinzy Wangchuk",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/17186986",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "wild-yak": {
+   "hero": {
+    "url": "/media/species/extra-local/wild-yak.webp",
+    "author": "花蚀",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/328930831",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "chinese-hare": {
+   "hero": {
+    "url": "/media/species/extra-local/chinese-hare.webp",
+    "author": "Thomas Hardwicke",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/218912",
+    "license": "PD",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "plateau-pika": {
+   "hero": {
+    "url": "/media/species/extra-local/plateau-pika.webp",
+    "author": "Homemountain/Shan Gui",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/47522017",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "complex-toothed-flying-squirrel": {
+   "hero": {
+    "url": "/media/species/extra-local/complex-toothed-flying-squirrel.webp",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/184026622",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "chinese-zokor": {
+   "hero": {
+    "url": "/media/species/extra-local/chinese-zokor.webp",
+    "author": "niveum",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/450535716",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tibetan-sand-fox": {
+   "hero": {
+    "url": "/media/species/extra-local/tibetan-sand-fox.webp",
+    "author": "taiyi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/154177499",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "chinese-desert-cat": {
+   "hero": {
+    "url": "/media/species/extra-local/chinese-desert-cat.webp",
+    "author": "吴其远",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/421097576",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "blue-eared-pheasant": {
+   "hero": {
+    "url": "/media/species/extra-local/blue-eared-pheasant.webp",
+    "author": "marcore!",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/78189597",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "white-eared-pheasant": {
+   "hero": {
+    "url": "/media/species/extra-local/white-eared-pheasant.webp",
+    "author": "Sajee Kongsuwan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/339530253",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "golden-pheasant": {
+   "hero": {
+    "url": "/media/species/extra-local/golden-pheasant.webp",
+    "author": "Xiaogang Zhou",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/233914195",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tibetan-eared-pheasant": {
+   "hero": {
+    "url": "/media/species/extra-local/tibetan-eared-pheasant.webp",
+    "author": "Carolyn Stewart",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/398530465",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "cabots-tragopan": {
+   "hero": {
+    "url": "/media/species/extra-local/cabots-tragopan.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/631233095",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "reeves-pheasant": {
+   "hero": {
+    "url": "/media/species/extra-local/reeves-pheasant.webp",
+    "author": "Hedwig.cz",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/356970587",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "sichuan-partridge": {
+   "hero": {
+    "url": "/media/species/extra-local/sichuan-partridge.webp",
+    "author": "allenxue",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/258315923",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "white-browed-tit": {
+   "hero": {
+    "url": "/media/species/extra-local/white-browed-tit.webp",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367800877",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "baoxing-thrush": {
+   "hero": {
+    "url": "/media/species/extra-local/baoxing-thrush.webp",
+    "author": "Kelvin Joshua Che",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/173467194",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "chinese-crocodile-lizard": {
+   "hero": {
+    "url": "/media/species/extra-local/chinese-crocodile-lizard.webp",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/328486529",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "mangshan-pit-viper": {
+   "hero": {
+    "url": "/media/species/extra-local/mangshan-pit-viper.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/741643280",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "sharp-nosed-pit-viper": {
+   "hero": {
+    "url": "/media/species/extra-local/sharp-nosed-pit-viper.webp",
+    "author": "Shaway Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/583781578",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "jerdons-pit-viper": {
+   "hero": {
+    "url": "/media/species/extra-local/jerdons-pit-viper.webp",
+    "author": "chintan sheth",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/161590855",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "king-rat-snake": {
+   "hero": {
+    "url": "/media/species/extra-local/king-rat-snake.webp",
+    "author": "mamahunter",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/387806329",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "beauty-rat-snake": {
+   "hero": {
+    "url": "/media/species/extra-local/beauty-rat-snake.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/677583202",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "oriental-rat-snake": {
+   "hero": {
+    "url": "/media/species/extra-local/oriental-rat-snake.webp",
+    "author": "redhat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/4252670",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "yellow-margined-box-turtle": {
+   "hero": {
+    "url": "/media/species/extra-local/yellow-margined-box-turtle.webp",
+    "author": "李佳翰",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/200188424",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "chinese-sturgeon": {
+   "hero": {
+    "url": "/media/species/extra-local/chinese-sturgeon.webp",
+    "author": "CEphoto, Uwe Aranas",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/94461909",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "yangtze-sturgeon": {
+   "hero": {
+    "url": "/media/species/extra-local/yangtze-sturgeon.webp",
+    "author": "CAFS",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/1436780",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "chinese-sucker": {
+   "hero": {
+    "url": "/media/species/extra-local/chinese-sucker.webp",
+    "author": "5snake5",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/94380522",
+    "license": "PD",
+    "license_url": "",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "dianchi-golden-line-barbel": {
+   "hero": {
+    "url": "/media/species/extra-local/dianchi-golden-line-barbel.webp",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/490003151",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "crested-ibis": {
+   "hero": {
+    "url": "/media/species/extra-local/crested-ibis.webp",
+    "author": "Justin Walker",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/85404012",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "chinese-paddlefish": {
+   "hero": {
+    "url": "/media/species/extra-local/chinese-paddlefish.webp",
+    "author": "\nWei Qiwei",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/121307554",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  }
+ }
+}

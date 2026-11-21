@@ -61,18 +61,8 @@ export async function POST(request: Request) {
     const started_at = new Date().toISOString();
     const { articles, logs } = await syncAllFeeds();
     let writeError: string | null = null;
-    try {
-      const { writeFile, mkdir } = await import("node:fs/promises");
-      const path = await import("node:path");
-      await mkdir(path.join(process.cwd(), ".data"), { recursive: true });
-      const file = path.join(process.cwd(), ".data/news-live.json");
-      let previous: NewsArticle[] = [];
-      try {
-        const raw = await import("node:fs/promises").then((fs) => fs.readFile(file, "utf8"));
-        previous = (JSON.parse(raw) as { articles?: NewsArticle[] }).articles ?? [];
-      } catch {
-        previous = [];
-      }
+    const storeResult = await mutateStore((store) => {
+      const previous = store.live_news ?? [];
       const seen = new Set<string>();
       const merged = [...articles, ...previous].filter((a) => {
         const key = a.title_original.toLowerCase().replace(/\s+/g, " ").trim();
@@ -80,10 +70,10 @@ export async function POST(request: Request) {
         seen.add(key);
         return true;
       });
-      await writeFile(file, JSON.stringify({ generated_at: started_at, articles: merged }, null, 2));
-    } catch (err) {
-      writeError = err instanceof Error ? err.message : String(err);
-    }
+      store.live_news = merged.slice(0, 300);
+      store.news_live_updated_at = started_at;
+    });
+    if (!storeResult.ok) writeError = storeResult.error ?? "unknown write error";
     const failed = logs.filter((l) => !l.ok);
     await appendSyncLog({
       job: "news-rss",

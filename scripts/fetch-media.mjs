@@ -63,10 +63,22 @@ async function download(url, dest) {
   await pipeline(res.body, createWriteStream(dest));
 }
 
-const photos = [];
-const sounds = [];
-const external = {};
+let previous = { photos: [], sounds: [], species: {}, hero: [] };
+try {
+  previous = JSON.parse(await readFile(path.join(ROOT, "public/data/integration.json"), "utf8"));
+} catch {
+  // first run
+}
+const photos = Array.isArray(previous.photos) ? [...previous.photos] : [];
+const sounds = Array.isArray(previous.sounds) ? [...previous.sounds] : [];
+const external = previous.species && typeof previous.species === "object" ? { ...previous.species } : {};
 const errors = [];
+
+const dedupe = (list, key) => {
+  const map = new Map();
+  for (const item of list) map.set(item[key], item);
+  return [...map.values()];
+};
 
 async function writeIntegration(hero = []) {
   await mkdir(path.join(ROOT, "public/data"), { recursive: true });
@@ -76,8 +88,8 @@ async function writeIntegration(hero = []) {
       {
         generated_at: new Date().toISOString(),
         provider: "iNaturalist Open Data + GBIF Species API",
-        photos,
-        sounds,
+        photos: dedupe(photos, "id"),
+        sounds: dedupe(sounds, "id"),
         species: external,
         hero,
         errors,

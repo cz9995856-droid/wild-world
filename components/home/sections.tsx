@@ -11,17 +11,21 @@ import { NEWS_CATEGORY_LABEL } from "@/lib/data/news-meta";
 import { TREND_ARROW, TREND_LABEL, formatDate, relativeTime } from "@/lib/utils";
 import { buildRankings } from "@/lib/rankings";
 import { TIMELINE } from "@/lib/data/timeline";
+import { NewsArt } from "@/components/news/news-art";
+import type { NewsVisual } from "@/lib/news-visual";
 
 export function NewsSection({
   news,
   total,
   sources,
   generatedAt,
+  visuals,
 }: {
   news: NewsArticle[];
   total: number;
   sources: number;
   generatedAt: string | null;
+  visuals?: Record<string, NewsVisual>;
 }) {
   const [lead, ...rest] = news;
   if (!lead) return null;
@@ -57,6 +61,13 @@ export function NewsSection({
                 <div className="absolute bottom-0 left-0 h-[1px] w-full bg-[#EDE8DC]" />
               </div>
               <div className="relative">
+                <NewsArt
+                  visual={visuals?.[lead.category] ?? null}
+                  category={lead.category}
+                  className="mb-7 aspect-[16/7] w-full border border-white/10"
+                  sizes="(max-width: 1024px) 100vw, 60vw"
+                  priority
+                />
                 <div className="flex flex-wrap items-center gap-2 text-[9.5px] uppercase tracking-[0.18em] text-[#A9BFA8]">
                   <span className="border border-[#A9BFA8]/40 px-2 py-0.5">
                     {NEWS_CATEGORY_LABEL[lead.category]}
@@ -98,20 +109,28 @@ export function NewsSection({
           <div className="flex flex-col divide-y divide-[var(--line)] border-y border-[var(--line)]">
             {rest.slice(0, 4).map((article, index) => (
               <Reveal key={article.id} delay={80 + index * 50}>
-                <Link href={`/news/${article.slug}`} className="group block py-4">
-                  <div className="flex items-center gap-2 text-[9.5px] uppercase tracking-[0.14em] text-[var(--muted)]">
-                    <span className="text-[var(--clay)]">{NEWS_CATEGORY_LABEL[article.category]}</span>
-                    <span>·</span>
-                    <span>{article.source_name}</span>
-                    <span>·</span>
-                    <span>{relativeTime(article.published_at)}</span>
+                <Link href={`/news/${article.slug}`} className="group flex gap-4 py-4">
+                  <NewsArt
+                    visual={visuals?.[article.category] ?? null}
+                    category={article.category}
+                    className="h-20 w-24 shrink-0"
+                    sizes="96px"
+                  />
+                  <div className="min-w-0">
+                    <div className="flex flex-wrap items-center gap-2 text-[9.5px] uppercase tracking-[0.14em] text-[var(--muted)]">
+                      <span className="text-[var(--clay)]">{NEWS_CATEGORY_LABEL[article.category]}</span>
+                      <span>·</span>
+                      <span>{article.source_name}</span>
+                      <span>·</span>
+                      <span>{relativeTime(article.published_at)}</span>
+                    </div>
+                    <h4 className="mt-2 text-[14px] leading-snug transition-colors group-hover:text-[var(--forest)]">
+                      {article.title_cn ?? article.title_original}
+                    </h4>
+                    <p className="mt-1.5 line-clamp-2 text-[11px] leading-relaxed text-[var(--muted)]">
+                      {article.summary_cn ?? article.excerpt_original}
+                    </p>
                   </div>
-                  <h4 className="mt-2 text-[14px] leading-snug transition-colors group-hover:text-[var(--forest)]">
-                    {article.title_cn ?? article.title_original}
-                  </h4>
-                  <p className="mt-1.5 line-clamp-2 text-[11px] leading-relaxed text-[var(--muted)]">
-                    {article.summary_cn ?? article.excerpt_original}
-                  </p>
                 </Link>
               </Reveal>
             ))}

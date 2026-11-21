@@ -1,0 +1,2793 @@
+{
+ "source": "iNaturalist 开放数据（经 GBIF / iNaturalist 开放数据镜像）",
+ "retrievedAt": "2026-11-19",
+ "note": "保留原始授权与作者署名。CC BY-NC / CC BY-NC-SA 图片仅用于本站非商业科普展示；CC BY-NC-ND 图片未做裁剪或再加工，故未列入本文件。",
+ "species": {
+  "hynobius-amjiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/hynobius-amjiensis.webp",
+    "author": "Yinpeng Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/348573513",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hynobius-arisanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/hynobius-arisanensis.webp",
+    "author": "Cheng-Tao Lin",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/40624720",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hynobius-chinensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/hynobius-chinensis.webp",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/619713822",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hynobius-fucus": {
+   "hero": {
+    "url": "/media/species/amph-inat/hynobius-fucus.webp",
+    "author": "Shaway Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/356951788",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hynobius-maoershanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/hynobius-maoershanensis.webp",
+    "author": "p_concolor",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/551211495",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hynobius-sonani": {
+   "hero": {
+    "url": "/media/species/amph-inat/hynobius-sonani.webp",
+    "author": "guanyuan8488",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/443588388",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hynobius-yiwuensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/hynobius-yiwuensis.webp",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/307663637",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pachyhynobius-shangchengensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/pachyhynobius-shangchengensis.webp",
+    "author": "海丰沙塘鳢",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/635193541",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pseudohynobius-flavomaculatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/pseudohynobius-flavomaculatus.webp",
+    "author": "kangrinpoche",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/263722760",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pseudohynobius-jinfo": {
+   "hero": {
+    "url": "/media/species/amph-inat/pseudohynobius-jinfo.webp",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/484055058",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pseudohynobius-kuankuoshuiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/pseudohynobius-kuankuoshuiensis.webp",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/437887291",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "liua-shihi": {
+   "hero": {
+    "url": "/media/species/amph-inat/liua-shihi.webp",
+    "author": "noobmaster6138",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/275482566",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "liua-tsinpaensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/liua-tsinpaensis.webp",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/388831080",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "onychodactylus-zhangyapingi": {
+   "hero": {
+    "url": "/media/species/amph-inat/onychodactylus-zhangyapingi.webp",
+    "author": "Dallin Kohler",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/376353196",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "onychodactylus-zhaoermii": {
+   "hero": {
+    "url": "/media/species/amph-inat/onychodactylus-zhaoermii.webp",
+    "author": "Dallin Kohler",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/378001853",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "batrachuperus-karlschmidti": {
+   "hero": {
+    "url": "/media/species/amph-inat/batrachuperus-karlschmidti.webp",
+    "author": "ZY Yao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/57583083",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "batrachuperus-pinchonii": {
+   "hero": {
+    "url": "/media/species/amph-inat/batrachuperus-pinchonii.webp",
+    "author": "ZY Yao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/57583098",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "batrachuperus-taibaiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/batrachuperus-taibaiensis.webp",
+    "author": "Zongzhuang Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/260528376",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "batrachuperus-tibetanus": {
+   "hero": {
+    "url": "/media/species/amph-inat/batrachuperus-tibetanus.webp",
+    "author": "2012 Todd Pierson",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/155356",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "batrachuperus-yenyuanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/batrachuperus-yenyuanensis.webp",
+    "author": "昆虫学liuye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/478256340",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "andrias-davidianus": {
+   "hero": {
+    "url": "/media/species/amph-inat/andrias-davidianus.webp",
+    "author": "王晨宇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/409145395",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-kweichowensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/tylototriton-kweichowensis.webp",
+    "author": "esoue",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/667304331",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-pseudoverrucosus": {
+   "hero": {
+    "url": "/media/species/amph-inat/tylototriton-pseudoverrucosus.webp",
+    "author": "nectocotis",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/693393504",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-shanjing": {
+   "hero": {
+    "url": "/media/species/amph-inat/tylototriton-shanjing.webp",
+    "author": "Yann Bigant",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/276585582",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-verrucosus": {
+   "hero": {
+    "url": "/media/species/amph-inat/tylototriton-verrucosus.webp",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/293553123",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-wenxianensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/tylototriton-wenxianensis.webp",
+    "author": "刘昭宇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/604922996",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-taliangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/tylototriton-taliangensis.webp",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/692071879",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-anhuiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/tylototriton-anhuiensis.webp",
+    "author": "rofmsyb",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/649112958",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-hainanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/tylototriton-hainanensis.webp",
+    "author": "oldfears",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/381203730",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "echinotriton-chinhaiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/echinotriton-chinhaiensis.webp",
+    "author": "mingyafeng",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/634609088",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "echinotriton-maxiquadratus": {
+   "hero": {
+    "url": "/media/species/amph-inat/echinotriton-maxiquadratus.webp",
+    "author": "jjydd",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/612732438",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-feii": {
+   "hero": {
+    "url": "/media/species/amph-inat/pachytriton-feii.webp",
+    "author": "John Howes",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/62374106",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-granulosus": {
+   "hero": {
+    "url": "/media/species/amph-inat/pachytriton-granulosus.webp",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/329394294",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-inexpectatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/pachytriton-inexpectatus.webp",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/616010001",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-xanthospilos": {
+   "hero": {
+    "url": "/media/species/amph-inat/pachytriton-xanthospilos.webp",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/328484249",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-airobranchiatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/pachytriton-airobranchiatus.webp",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/233018794",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pachytriton-wuguanfui": {
+   "hero": {
+    "url": "/media/species/amph-inat/pachytriton-wuguanfui.webp",
+    "author": "relifenai",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/442871394",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-caudopunctatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/paramesotriton-caudopunctatus.webp",
+    "author": "昆虫学liuye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/558367006",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-chinensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/paramesotriton-chinensis.webp",
+    "author": "shiguangshi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/272208829",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-fuzhongensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/paramesotriton-fuzhongensis.webp",
+    "author": "Yixuan Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/734408351",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-hongkongensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/paramesotriton-hongkongensis.webp",
+    "author": "Tse Chung Yi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/173940393",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-labiatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/paramesotriton-labiatus.webp",
+    "author": "KENPEI",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/214350151",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-yunwuensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/paramesotriton-yunwuensis.webp",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/586555272",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "paramesotriton-aurantius": {
+   "hero": {
+    "url": "/media/species/amph-inat/paramesotriton-aurantius.webp",
+    "author": "Future",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/332622377",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "bombina-maxima": {
+   "hero": {
+    "url": "/media/species/amph-inat/bombina-maxima.webp",
+    "author": "jincan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/440938069",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "bombina-fortinuptialis": {
+   "hero": {
+    "url": "/media/species/amph-inat/bombina-fortinuptialis.webp",
+    "author": "ong-siau-kun",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/131205997",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "bombina-lichuanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/bombina-lichuanensis.webp",
+    "author": "noobmaster6138",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/304661424",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-lichuanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/oreolalax-lichuanensis.webp",
+    "author": "yihangli",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/550212244",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-multipunctatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/oreolalax-multipunctatus.webp",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/308628829",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-nanjiangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/oreolalax-nanjiangensis.webp",
+    "author": "林孫鋒(Lin Sun Fong)",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/204801740",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-omeimontis": {
+   "hero": {
+    "url": "/media/species/amph-inat/oreolalax-omeimontis.webp",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/303413972",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-rhodostigmatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/oreolalax-rhodostigmatus.webp",
+    "author": "Jiao Sun (孙娇)",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/213331796",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-schmidti": {
+   "hero": {
+    "url": "/media/species/amph-inat/oreolalax-schmidti.webp",
+    "author": "F. Yucheng",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/416801298",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-xiangchengensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/oreolalax-xiangchengensis.webp",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/753686447",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "scutiger-chintingensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/scutiger-chintingensis.webp",
+    "author": "Haitong and Nicola",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/383353302",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "scutiger-glandulatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/scutiger-glandulatus.webp",
+    "author": "董昆鹏 (Kun-Peng DONG)",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/333564918",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "scutiger-mammatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/scutiger-mammatus.webp",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/346804435",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "scutiger-tuberculatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/scutiger-tuberculatus.webp",
+    "author": "Jigme Tshelthrim Wangyal",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/200415072",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "scutiger-wuguanfui": {
+   "hero": {
+    "url": "/media/species/amph-inat/scutiger-wuguanfui.webp",
+    "author": "徐Kai",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/314216575",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "scutiger-spinosus": {
+   "hero": {
+    "url": "/media/species/amph-inat/scutiger-spinosus.webp",
+    "author": "\nKai Wang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/79255508",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "leptobrachium-boringii": {
+   "hero": {
+    "url": "/media/species/amph-inat/leptobrachium-boringii.webp",
+    "author": "Cameron M. Hudson, Jinzhong Fu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/1677442",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "leptobrachium-liui": {
+   "hero": {
+    "url": "/media/species/amph-inat/leptobrachium-liui.webp",
+    "author": "Huang Baochen | 黄宝臣",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/590099644",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "leptobrachium-tengchongense": {
+   "hero": {
+    "url": "/media/species/amph-inat/leptobrachium-tengchongense.webp",
+    "author": "Yinpeng Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/350291188",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-laui": {
+   "hero": {
+    "url": "/media/species/amph-inat/leptobrachella-laui.webp",
+    "author": "Tommy Hui",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/64663125",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-liui": {
+   "hero": {
+    "url": "/media/species/amph-inat/leptobrachella-liui.webp",
+    "author": "shiguangshi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/380108812",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-maoershanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/leptobrachella-maoershanensis.webp",
+    "author": "ong-siau-kun",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/231224957",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-yunkaiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/leptobrachella-yunkaiensis.webp",
+    "author": "aazicat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/480294837",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-bashaensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/leptobrachella-bashaensis.webp",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/727548324",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "brachytarsophrys-platyparietus": {
+   "hero": {
+    "url": "/media/species/amph-inat/brachytarsophrys-platyparietus.webp",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/407357159",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "bufo-ailaoanus": {
+   "hero": {
+    "url": "/media/species/amph-inat/bufo-ailaoanus.webp",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/437113009",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "bufo-tuberospinius": {
+   "hero": {
+    "url": "/media/species/amph-inat/bufo-tuberospinius.webp",
+    "author": "Yinpeng Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/348578739",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hyla-annectans": {
+   "hero": {
+    "url": "/media/species/amph-inat/hyla-annectans.webp",
+    "author": "红耳鹎 Xinrong Lin",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/287513608",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hyla-chinensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/hyla-chinensis.webp",
+    "author": "oldfears",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/316298652",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hyla-sanchiangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/hyla-sanchiangensis.webp",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/418923663",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hyla-tsinlingensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/hyla-tsinlingensis.webp",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/327341960",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rana-sangzhiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/rana-sangzhiensis.webp",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/727535805",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rana-longicrus": {
+   "hero": {
+    "url": "/media/species/amph-inat/rana-longicrus.webp",
+    "author": "cypherone",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/13173858",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rana-chaochiaoensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/rana-chaochiaoensis.webp",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/238852456",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rana-chensinensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/rana-chensinensis.webp",
+    "author": "Kim, Hyun-tae",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/1505327",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rana-culaiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/rana-culaiensis.webp",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/181309920",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rana-hanluica": {
+   "hero": {
+    "url": "/media/species/amph-inat/rana-hanluica.webp",
+    "author": "jinze",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/225434308",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rana-jiemuxiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/rana-jiemuxiensis.webp",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/402101095",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rana-omeimontis": {
+   "hero": {
+    "url": "/media/species/amph-inat/rana-omeimontis.webp",
+    "author": "Ed Shaw",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/128278856",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rana-zhenhaiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/rana-zhenhaiensis.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/652836874",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rana-dabieshanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/rana-dabieshanensis.webp",
+    "author": "张艺言",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/345176581",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-bellulus": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-bellulus.webp",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/346818481",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-chunganensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-chunganensis.webp",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/227878533",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-hongkongensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-hongkongensis.webp",
+    "author": "Tommy Hui",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/34058458",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-jinjiangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-jinjiangensis.webp",
+    "author": "luzhuoyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/394631482",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-mantzorum": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-mantzorum.webp",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/327339679",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-ricketti": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-ricketti.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/716752029",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-torrentis": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-torrentis.webp",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/348064437",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-wuyiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-wuyiensis.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/693930414",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-albispinus": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-albispinus.webp",
+    "author": "Tse Chung Yi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/226082337",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-nyingchiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-nyingchiensis.webp",
+    "author": "夜星槎",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/327341486",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-yunkaiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-yunkaiensis.webp",
+    "author": "kangkang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/262123484",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-sinensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-sinensis.webp",
+    "author": "Yoonjung Yi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/156264535",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-yatseni": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-yatseni.webp",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/565340261",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nidirana-adenopleura": {
+   "hero": {
+    "url": "/media/species/amph-inat/nidirana-adenopleura.webp",
+    "author": "Liu JimFood",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/19954756",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nidirana-daunchina": {
+   "hero": {
+    "url": "/media/species/amph-inat/nidirana-daunchina.webp",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/219354893",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nidirana-hainanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/nidirana-hainanensis.webp",
+    "author": "龙栩川",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/659364987",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nidirana-pleuraden": {
+   "hero": {
+    "url": "/media/species/amph-inat/nidirana-pleuraden.webp",
+    "author": "wuyuxuan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/159770229",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nidirana-mangveni": {
+   "hero": {
+    "url": "/media/species/amph-inat/nidirana-mangveni.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/710526037",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nidirana-xiangica": {
+   "hero": {
+    "url": "/media/species/amph-inat/nidirana-xiangica.webp",
+    "author": "tianji12138",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/490138716",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "glandirana-minima": {
+   "hero": {
+    "url": "/media/species/amph-inat/glandirana-minima.webp",
+    "author": "antzheng",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/226356101",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "glandirana-tientaiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/glandirana-tientaiensis.webp",
+    "author": "Amaël Borzée",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/160296339",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hylarana-latouchii": {
+   "hero": {
+    "url": "/media/species/amph-inat/hylarana-latouchii.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/652835785",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hylarana-spinulosa": {
+   "hero": {
+    "url": "/media/species/amph-inat/hylarana-spinulosa.webp",
+    "author": "Larry Chen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/348568885",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-exiliversabilis": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-exiliversabilis.webp",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/473414306",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-grahami": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-grahami.webp",
+    "author": "Yinpeng Zhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/347400856",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-graminea": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-graminea.webp",
+    "author": "Simba",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/368064421",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-hejiangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-hejiangensis.webp",
+    "author": "昆虫学liuye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/444419553",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-huanggangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-huanggangensis.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/743670605",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-kuangwuensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-kuangwuensis.webp",
+    "author": "航一帆",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/166254888",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-leporipes": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-leporipes.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/716753211",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-lungshengensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-lungshengensis.webp",
+    "author": "昆虫学liuye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/444396393",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-margaretae": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-margaretae.webp",
+    "author": "ZY Yao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/113733133",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-nanjiangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-nanjiangensis.webp",
+    "author": "qy17",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/703221927",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-nasuta": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-nasuta.webp",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/254786706",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-tianmuii": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-tianmuii.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/693932431",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-tormota": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-tormota.webp",
+    "author": "Xuan Chuan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/305526437",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-wuchuanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-wuchuanensis.webp",
+    "author": "Anthony Ye",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/446783583",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-kweichowensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-kweichowensis.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/706056219",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-yizhangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-yizhangensis.webp",
+    "author": "Haocong_Cat",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/661279137",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pelophylax-fukienensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/pelophylax-fukienensis.webp",
+    "author": "u7 Liao",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/85592298",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "pelophylax-plancyi": {
+   "hero": {
+    "url": "/media/species/amph-inat/pelophylax-plancyi.webp",
+    "author": "zdk0812",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/463087761",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "liurana-alpina": {
+   "hero": {
+    "url": "/media/species/amph-inat/liurana-alpina.webp",
+    "author": "徐Kai",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/314214241",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "liurana-medogensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/liurana-medogensis.webp",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/694546065",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "liurana-xizangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/liurana-xizangensis.webp",
+    "author": "Shuangqi Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/671565855",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "limnonectes-fragilis": {
+   "hero": {
+    "url": "/media/species/amph-inat/limnonectes-fragilis.webp",
+    "author": "帕索卡",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/604171856",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "limnonectes-fujianensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/limnonectes-fujianensis.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/716752420",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nanorana-chayuensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/nanorana-chayuensis.webp",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/183585488",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nanorana-conaensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/nanorana-conaensis.webp",
+    "author": "Haijie Lu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/411352202",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nanorana-medogensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/nanorana-medogensis.webp",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/694545762",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nanorana-parkeri": {
+   "hero": {
+    "url": "/media/species/amph-inat/nanorana-parkeri.webp",
+    "author": "desertnaturalist",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/66200441",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nanorana-pleskei": {
+   "hero": {
+    "url": "/media/species/amph-inat/nanorana-pleskei.webp",
+    "author": "Li Jianong",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/265082788",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nanorana-taihangnica": {
+   "hero": {
+    "url": "/media/species/amph-inat/nanorana-taihangnica.webp",
+    "author": "Maojin Lang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/189603603",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nanorana-unculuanus": {
+   "hero": {
+    "url": "/media/species/amph-inat/nanorana-unculuanus.webp",
+    "author": "渔喵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/237351883",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-exilispinosa": {
+   "hero": {
+    "url": "/media/species/amph-inat/quasipaa-exilispinosa.webp",
+    "author": "HKEI",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/11215825",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-shini": {
+   "hero": {
+    "url": "/media/species/amph-inat/quasipaa-shini.webp",
+    "author": "墨湖布清蛇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/322380096",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-spinosa": {
+   "hero": {
+    "url": "/media/species/amph-inat/quasipaa-spinosa.webp",
+    "author": "Marco Chan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/111395911",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-yei": {
+   "hero": {
+    "url": "/media/species/amph-inat/quasipaa-yei.webp",
+    "author": "JIN Pin-Tsen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/527431947",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "buergeria-oxycephala": {
+   "hero": {
+    "url": "/media/species/amph-inat/buergeria-oxycephala.webp",
+    "author": "j_wildphoto",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/234913351",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "buergeria-otai": {
+   "hero": {
+    "url": "/media/species/amph-inat/buergeria-otai.webp",
+    "author": "Liu JimFood",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/17966989",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "feihyla-fuhua": {
+   "hero": {
+    "url": "/media/species/amph-inat/feihyla-fuhua.webp",
+    "author": "observe-syz",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/344556255",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "gracixalus-jinggangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/gracixalus-jinggangensis.webp",
+    "author": "钟彦葵",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/519546637",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "gracixalus-tianlinensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/gracixalus-tianlinensis.webp",
+    "author": "鸹鸹",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/454611898",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "kurixalus-idiootocus": {
+   "hero": {
+    "url": "/media/species/amph-inat/kurixalus-idiootocus.webp",
+    "author": "曾粲然",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/468601615",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "kurixalus-berylliniris": {
+   "hero": {
+    "url": "/media/species/amph-inat/kurixalus-berylliniris.webp",
+    "author": "Shaway Liu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/251822287",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "kurixalus-wangi": {
+   "hero": {
+    "url": "/media/species/amph-inat/kurixalus-wangi.webp",
+    "author": "CHUNG CHANG-LIN",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/59039108",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "liuixalus-romeri": {
+   "hero": {
+    "url": "/media/species/amph-inat/liuixalus-romeri.webp",
+    "author": "Tse Chung Yi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/218541729",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "raorchestes-huanglianshan": {
+   "hero": {
+    "url": "/media/species/amph-inat/raorchestes-huanglianshan.webp",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/625292838",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "raorchestes-hillisi": {
+   "hero": {
+    "url": "/media/species/amph-inat/raorchestes-hillisi.webp",
+    "author": "刘光裕 Liu Guangyu",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/162070715",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rhacophorus-translineatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/rhacophorus-translineatus.webp",
+    "author": "chintan sheth",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/162563203",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "zhangixalus-leucofasciatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/zhangixalus-leucofasciatus.webp",
+    "author": "墨湖布清蛇",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/223612709",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "zhangixalus-wui": {
+   "hero": {
+    "url": "/media/species/amph-inat/zhangixalus-wui.webp",
+    "author": "kangrinpoche",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/393204968",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "glyphoglossus-yunnanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/glyphoglossus-yunnanensis.webp",
+    "author": "Yunnanlist",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/382914474",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "kaloula-rugifera": {
+   "hero": {
+    "url": "/media/species/amph-inat/kaloula-rugifera.webp",
+    "author": "Simba",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/384988900",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "kaloula-verrucosa": {
+   "hero": {
+    "url": "/media/species/amph-inat/kaloula-verrucosa.webp",
+    "author": "observe-syz",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/345818060",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "microhyla-fissipes": {
+   "hero": {
+    "url": "/media/species/amph-inat/microhyla-fissipes.webp",
+    "author": "藜梓柠",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/637504887",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "microhyla-beilunensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/microhyla-beilunensis.webp",
+    "author": "Hakura",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/633506305",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "tylototriton-yangi": {
+   "hero": {
+    "url": "/media/species/amph-inat/tylototriton-yangi.webp",
+    "author": "zhangchi2004",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/733006727",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "cynops-fudingensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/cynops-fudingensis.webp",
+    "author": "nancyecho22",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/628705853",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "oreolalax-major": {
+   "hero": {
+    "url": "/media/species/amph-inat/oreolalax-major.webp",
+    "author": "Michael Zelun Lee",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/662511357",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "scutiger-wanglangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/scutiger-wanglangensis.webp",
+    "author": "CORDENOS Thierry",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/541986642",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "leptobrachium-leishanense": {
+   "hero": {
+    "url": "/media/species/amph-inat/leptobrachium-leishanense.webp",
+    "author": "Amaël Borzée",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/616010260",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "leptobrachella-purpura": {
+   "hero": {
+    "url": "/media/species/amph-inat/leptobrachella-purpura.webp",
+    "author": "通通",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/492081077",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "megophrys-binchuanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/megophrys-binchuanensis.webp",
+    "author": "wresy",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/712063898",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "megophrys-brachykolos": {
+   "hero": {
+    "url": "/media/species/amph-inat/megophrys-brachykolos.webp",
+    "author": "o-o2002",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/618420944",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "megophrys-kuatunensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/megophrys-kuatunensis.webp",
+    "author": "© President and Fellows of Harvard College",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://iiif.mcz.harvard.edu/iiif/3/1519/full/max/0/default.jpg",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "megophrys-mangshanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/megophrys-mangshanensis.webp",
+    "author": "桃子",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/639436571",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "megophrys-medogensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/megophrys-medogensis.webp",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/1104938/colour.png",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "megophrys-omeimontis": {
+   "hero": {
+    "url": "/media/species/amph-inat/megophrys-omeimontis.webp",
+    "author": "zztty",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/665805878",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "megophrys-shapingensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/megophrys-shapingensis.webp",
+    "author": "虫虫",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/360783303",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "megophrys-wawuensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/megophrys-wawuensis.webp",
+    "author": "夜星槎",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/308627984",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "megophrys-nanlingensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/megophrys-nanlingensis.webp",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/954636/colour.png",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "megophrys-wushanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/megophrys-wushanensis.webp",
+    "author": "春泥",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/750487675",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "ingerophrynus-ledongensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/ingerophrynus-ledongensis.webp",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/954214/colour.png",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "parapelophryne-scalpta": {
+   "hero": {
+    "url": "/media/species/amph-inat/parapelophryne-scalpta.webp",
+    "author": "oldfears",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/607643835",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "hyla-simplex": {
+   "hero": {
+    "url": "/media/species/amph-inat/hyla-simplex.webp",
+    "author": "王琰",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/617173676",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "rana-shuchinae": {
+   "hero": {
+    "url": "/media/species/amph-inat/rana-shuchinae.webp",
+    "author": "© President and Fellows of Harvard College",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://iiif.mcz.harvard.edu/iiif/3/942/full/max/0/default.jpg",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-tuberodepressus": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-tuberodepressus.webp",
+    "author": "MINGFEI HOU",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/755497483",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-granulosus": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-granulosus.webp",
+    "author": "steve b",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/522933680",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-loloensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-loloensis.webp",
+    "author": "fugee",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/621528725",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "amolops-viridimaculatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/amolops-viridimaculatus.webp",
+    "author": "通通",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/595184841",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nidirana-nankunensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/nidirana-nankunensis.webp",
+    "author": "Amaël Borzée",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/647538692",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nidirana-leishanensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/nidirana-leishanensis.webp",
+    "author": "Tree-Cheng",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/703057674",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nidirana-occidentalis": {
+   "hero": {
+    "url": "/media/species/amph-inat/nidirana-occidentalis.webp",
+    "author": "jing zheng",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/701847072",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-fengkaiensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-fengkaiensis.webp",
+    "author": "Haocong_Cat",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/678951374",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "odorrana-schmackeri": {
+   "hero": {
+    "url": "/media/species/amph-inat/odorrana-schmackeri.webp",
+    "author": "Amaël Borzée",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/717617503",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "nanorana-quadranus": {
+   "hero": {
+    "url": "/media/species/amph-inat/nanorana-quadranus.webp",
+    "author": "Gao XiaoYan",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/536062474",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-jiulongensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/quasipaa-jiulongensis.webp",
+    "author": "HAO JIAJUN",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/393108113",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "gracixalus-nonggangensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/gracixalus-nonggangensis.webp",
+    "author": "橄榄",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/438612981",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "quasipaa-boulengeri": {
+   "hero": {
+    "url": "/media/species/amph-inat/quasipaa-boulengeri.webp",
+    "author": "Amaël Borzée",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/615910119",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "theloderma-rhododiscus": {
+   "hero": {
+    "url": "/media/species/amph-inat/theloderma-rhododiscus.webp",
+    "author": "sandcarve",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/631360073",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "gracixalus-guangdongensis": {
+   "hero": {
+    "url": "/media/species/amph-inat/gracixalus-guangdongensis.webp",
+    "author": "sandcarve",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/634210665",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "liuixalus-hainanus": {
+   "hero": {
+    "url": "/media/species/amph-inat/liuixalus-hainanus.webp",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/spectrograms/FRENVBIZTF/1182502/colour.png",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "liuixalus-ocellatus": {
+   "hero": {
+    "url": "/media/species/amph-inat/liuixalus-ocellatus.webp",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://xeno-canto.org/sounds/spectrograms/KQMHASAYBL/1002665/colour.png",
+    "license": "CC BY-NC-SA",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  },
+  "microhyla-mixtura": {
+   "hero": {
+    "url": "/media/species/amph-inat/microhyla-mixtura.webp",
+    "author": "leekelai",
+    "source_name": "GBIF / iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/602906106",
+    "license": "CC BY-NC",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "sourced",
+    "ai_generated": false
+   }
+  }
+ }
+}

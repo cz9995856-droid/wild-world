@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-21T11:46:31.826Z",
- "count": 460,
+ "generated_at": "2026-11-21T17:45:41.606Z",
+ "count": 549,
  "items": [
   {
    "slug": "ichthyophis-bannanicus",
@@ -5255,6 +5255,896 @@
    "group": "鸟纲",
    "family": "雉科",
    "order": "鸡形目"
+  },
+  {
+   "slug": "red-panda",
+   "cn": "小熊猫",
+   "en": "Red Panda",
+   "sci": "Ailurus fulgens",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "食肉目"
+  },
+  {
+   "slug": "snow-leopard",
+   "cn": "雪豹",
+   "en": "Snow Leopard",
+   "sci": "Panthera uncia",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "猫科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "asian-black-bear",
+   "cn": "亚洲黑熊",
+   "en": "Asian Black Bear",
+   "sci": "Ursus thibetanus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "食肉目"
+  },
+  {
+   "slug": "sika-deer",
+   "cn": "梅花鹿",
+   "en": "Sika Deer",
+   "sci": "Cervus nippon",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鹿科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "mongolian-wild-ass",
+   "cn": "蒙古野驴",
+   "en": "Mongolian Wild Ass",
+   "sci": "Equus hemionus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "saiga-antelope",
+   "cn": "高鼻羚羊",
+   "en": "Saiga Antelope",
+   "sci": "Saiga tatarica",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "牛科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "elds-deer",
+   "cn": "坡鹿",
+   "en": "Eld's Deer",
+   "sci": "Rucervus eldii",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鹿科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "clouded-leopard",
+   "cn": "云豹",
+   "en": "Clouded Leopard",
+   "sci": "Neofelis nebulosa",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "猫科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "leopard",
+   "cn": "金钱豹",
+   "en": "Leopard",
+   "sci": "Panthera pardus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "猫科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "dhole",
+   "cn": "豺",
+   "en": "Dhole",
+   "sci": "Cuon alpinus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "犬科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "brown-bear",
+   "cn": "棕熊",
+   "en": "Brown Bear",
+   "sci": "Ursus arctos",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "食肉目"
+  },
+  {
+   "slug": "eurasian-lynx",
+   "cn": "猞猁",
+   "en": "Eurasian Lynx",
+   "sci": "Lynx lynx",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "猫科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "pallas-cat",
+   "cn": "兔狲",
+   "en": "Pallas's Cat",
+   "sci": "Otocolobus manul",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "猫科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "jungle-cat",
+   "cn": "丛林猫",
+   "en": "Jungle Cat",
+   "sci": "Felis chaus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "猫科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "leopard-cat",
+   "cn": "豹猫",
+   "en": "Leopard Cat",
+   "sci": "Prionailurus bengalensis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "猫科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "yellow-throated-marten",
+   "cn": "黄喉貂",
+   "en": "Yellow-throated Marten",
+   "sci": "Martes flavigula",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "食肉目"
+  },
+  {
+   "slug": "masked-palm-civet",
+   "cn": "果子狸",
+   "en": "Masked Palm Civet",
+   "sci": "Paguma larvata",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "灵猫科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "crab-eating-mongoose",
+   "cn": "食蟹獴",
+   "en": "Crab-eating Mongoose",
+   "sci": "Herpestes urva",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "食肉目"
+  },
+  {
+   "slug": "eurasian-otter",
+   "cn": "水獭",
+   "en": "Eurasian Otter",
+   "sci": "Lutra lutra",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "食肉目"
+  },
+  {
+   "slug": "blood-pheasant",
+   "cn": "血雉",
+   "en": "Blood Pheasant",
+   "sci": "Ithaginis cruentus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "koklass-pheasant",
+   "cn": "勺鸡",
+   "en": "Koklass Pheasant",
+   "sci": "Pucrasia macrolopha",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "snow-partridge",
+   "cn": "雪鹑",
+   "en": "Snow Partridge",
+   "sci": "Lerwa lerwa",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "black-necked-long-tailed-pheasant",
+   "cn": "黑颈长尾雉",
+   "en": "Black-necked Long-tailed Pheasant",
+   "sci": "Syrmaticus humiae",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "silver-pheasant",
+   "cn": "白鹇",
+   "en": "Silver Pheasant",
+   "sci": "Lophura nycthemera",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "white-browed-hill-partridge",
+   "cn": "白眉山鹧鸪",
+   "en": "White-browed Hill Partridge",
+   "sci": "Arborophila gingica",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "brown-breasted-hill-partridge",
+   "cn": "褐胸山鹧鸪",
+   "en": "Brown-breasted Hill Partridge",
+   "sci": "Arborophila brunneopectus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "necklaced-hill-partridge",
+   "cn": "环颈山鹧鸪",
+   "en": "Necklaced Hill Partridge",
+   "sci": "Arborophila torqueola",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "tibetan-partridge",
+   "cn": "高原山鹑",
+   "en": "Tibetan Partridge",
+   "sci": "Perdix hodgsoniae",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "daurian-partridge",
+   "cn": "斑翅山鹑",
+   "en": "Daurian Partridge",
+   "sci": "Perdix dauurica",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "chinese-francolin",
+   "cn": "中华鹧鸪",
+   "en": "Chinese Francolin",
+   "sci": "Francolinus pintadeanus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "tibetan-sandgrouse",
+   "cn": "西藏毛腿沙鸡",
+   "en": "Tibetan Sandgrouse",
+   "sci": "Syrrhaptes tibetanus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "red-crowned-crane",
+   "cn": "丹顶鹤",
+   "en": "Red-crowned Crane",
+   "sci": "Grus japonensis",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "siberian-crane",
+   "cn": "白鹤",
+   "en": "Siberian Crane",
+   "sci": "Grus leucogeranus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "hooded-crane",
+   "cn": "白头鹤",
+   "en": "Hooded Crane",
+   "sci": "Grus monacha",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "oriental-white-stork",
+   "cn": "东方白鹳",
+   "en": "Oriental White Stork",
+   "sci": "Ciconia boyciana",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "black-stork",
+   "cn": "黑鹳",
+   "en": "Black Stork",
+   "sci": "Ciconia nigra",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "eurasian-spoonbill",
+   "cn": "白琵鹭",
+   "en": "Eurasian Spoonbill",
+   "sci": "Platalea leucorodia",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "鹮科",
+   "order": "鹈形目"
+  },
+  {
+   "slug": "whooper-swan",
+   "cn": "大天鹅",
+   "en": "Whooper Swan",
+   "sci": "Cygnus cygnus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "mandarin-duck",
+   "cn": "鸳鸯",
+   "en": "Mandarin Duck",
+   "sci": "Aix galericulata",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "chinese-softshell-turtle",
+   "cn": "中华鳖",
+   "en": "Chinese Softshell Turtle",
+   "sci": "Pelodiscus sinensis",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "chinese-pond-turtle",
+   "cn": "乌龟",
+   "en": "Chinese Pond Turtle",
+   "sci": "Mauremys reevesii",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "yellow-pond-turtle",
+   "cn": "黄喉拟水龟",
+   "en": "Yellow Pond Turtle",
+   "sci": "Mauremys mutica",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "beals-eyed-turtle",
+   "cn": "眼斑水龟",
+   "en": "Beal's Eyed Turtle",
+   "sci": "Sacalia bealei",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "four-eyed-turtle",
+   "cn": "四眼斑水龟",
+   "en": "Four-eyed Turtle",
+   "sci": "Sacalia quadriocellata",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "keeled-box-turtle",
+   "cn": "锯缘摄龟",
+   "en": "Keeled Box Turtle",
+   "sci": "Cuora mouhotii",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "yellow-margined-box-turtle-galbinifrons",
+   "cn": "黄额盒龟",
+   "en": "Yellow-margined Box Turtle",
+   "sci": "Cuora galbinifrons",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "golden-headed-box-turtle",
+   "cn": "金头闭壳龟",
+   "en": "Golden-headed Box Turtle",
+   "sci": "Cuora aurocapitata",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "baise-box-turtle",
+   "cn": "百色闭壳龟",
+   "en": "Baise Box Turtle",
+   "sci": "Cuora mccordi",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "yunnan-box-turtle",
+   "cn": "云南闭壳龟",
+   "en": "Yunnan Box Turtle",
+   "sci": "Cuora yunnanensis",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "zhou-box-turtle",
+   "cn": "周氏闭壳龟",
+   "en": "Zhou's Box Turtle",
+   "sci": "Cuora zhoui",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "pan-box-turtle",
+   "cn": "潘氏闭壳龟",
+   "en": "Pan's Box Turtle",
+   "sci": "Cuora pani",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "picturata-box-turtle",
+   "cn": "图纹闭壳龟",
+   "en": "Picturata Box Turtle",
+   "sci": "Cuora picturata",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "three-striped-box-turtle",
+   "cn": "三线闭壳龟",
+   "en": "Three-striped Box Turtle",
+   "sci": "Cuora trifasciata",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "southeast-asian-box-turtle",
+   "cn": "安布闭壳龟",
+   "en": "Southeast Asian Box Turtle",
+   "sci": "Cuora amboinensis",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "chinese-stripe-necked-turtle",
+   "cn": "中华花龟",
+   "en": "Chinese Stripe-necked Turtle",
+   "sci": "Ocadia sinensis",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "philippine-stripe-necked-turtle",
+   "cn": "菲氏花龟",
+   "en": "Philippine Stripe-necked Turtle",
+   "sci": "Ocadia philippeni",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "地龟科",
+   "order": ""
+  },
+  {
+   "slug": "big-headed-turtle",
+   "cn": "平胸龟",
+   "en": "Big-headed Turtle",
+   "sci": "Platysternon megacephalum",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "elongated-tortoise",
+   "cn": "缅甸陆龟",
+   "en": "Elongated Tortoise",
+   "sci": "Indotestudo elongata",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "impressed-tortoise",
+   "cn": "凹甲陆龟",
+   "en": "Impressed Tortoise",
+   "sci": "Manouria impressa",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "horsfields-tortoise",
+   "cn": "四爪陆龟",
+   "en": "Horsfield's Tortoise",
+   "sci": "Testudo horsfieldii",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "tokay-gecko",
+   "cn": "大壁虎",
+   "en": "Tokay Gecko",
+   "sci": "Gekko gecko",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "chinese-gecko",
+   "cn": "中国壁虎",
+   "en": "Chinese Gecko",
+   "sci": "Gekko chinensis",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "peking-gecko",
+   "cn": "无蹼壁虎",
+   "en": "Peking Gecko",
+   "sci": "Gekko swinhonis",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "japanese-gecko",
+   "cn": "多疣壁虎",
+   "en": "Japanese Gecko",
+   "sci": "Gekko japonicus",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "dabrys-sturgeon",
+   "cn": "达氏鲟",
+   "en": "Dabry's Sturgeon",
+   "sci": "Acipenser dabryanus",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲟科",
+   "order": "鲟形目"
+  },
+  {
+   "slug": "amur-sturgeon",
+   "cn": "施氏鲟",
+   "en": "Amur Sturgeon",
+   "sci": "Acipenser schrenckii",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲟科",
+   "order": "鲟形目"
+  },
+  {
+   "slug": "kaluga",
+   "cn": "鳇鱼",
+   "en": "Kaluga",
+   "sci": "Huso dauricus",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲟科",
+   "order": "鲟形目"
+  },
+  {
+   "slug": "siberian-sturgeon",
+   "cn": "西伯利亚鲟",
+   "en": "Siberian Sturgeon",
+   "sci": "Acipenser baerii",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲟科",
+   "order": "鲟形目"
+  },
+  {
+   "slug": "ship-sturgeon",
+   "cn": "裸腹鲟",
+   "en": "Ship Sturgeon",
+   "sci": "Acipenser nudiventris",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲟科",
+   "order": "鲟形目"
+  },
+  {
+   "slug": "sterlet",
+   "cn": "小体鲟",
+   "en": "Sterlet",
+   "sci": "Acipenser ruthenus",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲟科",
+   "order": "鲟形目"
+  },
+  {
+   "slug": "taimen",
+   "cn": "哲罗鲑",
+   "en": "Taimen",
+   "sci": "Hucho taimen",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "lenok",
+   "cn": "细鳞鲑",
+   "en": "Lenok",
+   "sci": "Brachymystax lenok",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "chum-salmon",
+   "cn": "大麻哈鱼",
+   "en": "Chum Salmon",
+   "sci": "Oncorhynchus keta",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "masu-salmon",
+   "cn": "马苏大麻哈鱼",
+   "en": "Masu Salmon",
+   "sci": "Oncorhynchus masou",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "pink-salmon",
+   "cn": "驼背大麻哈鱼",
+   "en": "Pink Salmon",
+   "sci": "Oncorhynchus gorbuscha",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "large-icefish",
+   "cn": "大银鱼",
+   "en": "Large Icefish",
+   "sci": "Protosalanx hyalocranius",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "taihu-icefish",
+   "cn": "太湖新银鱼",
+   "en": "Taihu Icefish",
+   "sci": "Neosalanx taihuensis",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "qinghai-lake-naked-carp",
+   "cn": "青海湖裸鲤",
+   "en": "Qinghai Lake Naked Carp",
+   "sci": "Gymnocypris przewalskii",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "eckloni-naked-carp",
+   "cn": "花斑裸鲤",
+   "en": "Ecklon's Naked Carp",
+   "sci": "Gymnocypris eckloni",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "yellow-river-schizopygopsis",
+   "cn": "黄河裸裂尻鱼",
+   "en": "Yellow River Schizopygopsis",
+   "sci": "Schizopygopsis pylzovi",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "malacanthus-schizopygopsis",
+   "cn": "软刺裸裂尻鱼",
+   "en": "Malacanthus Schizopygopsis",
+   "sci": "Schizopygopsis malacanthus",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "jialing-schizopygopsis",
+   "cn": "嘉陵裸裂尻鱼",
+   "en": "Jialing Schizopygopsis",
+   "sci": "Schizopygopsis kialingensis",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "prenanti-schizothorax",
+   "cn": "齐口裂腹鱼",
+   "en": "Prenant's Schizothorax",
+   "sci": "Schizothorax prenanti",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "davidi-schizothorax",
+   "cn": "重口裂腹鱼",
+   "en": "David's Schizothorax",
+   "sci": "Schizothorax davidi",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "dolichonema-schizothorax",
+   "cn": "长丝裂腹鱼",
+   "en": "Long-filament Schizothorax",
+   "sci": "Schizothorax dolichonema",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "wangchiachii-schizothorax",
+   "cn": "短须裂腹鱼",
+   "en": "Short-barbel Schizothorax",
+   "sci": "Schizothorax wangchiachii",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "kozlovi-schizothorax",
+   "cn": "四川裂腹鱼",
+   "en": "Kozlov's Schizothorax",
+   "sci": "Schizothorax kozlovi",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "grahami-schizothorax",
+   "cn": "昆明裂腹鱼",
+   "en": "Graham's Schizothorax",
+   "sci": "Schizothorax grahami",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "taliensis-schizothorax",
+   "cn": "大理裂腹鱼",
+   "en": "Tali Schizothorax",
+   "sci": "Schizothorax taliensis",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
   },
   {
    "slug": "giant-panda",

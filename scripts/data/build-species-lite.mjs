@@ -5,6 +5,7 @@ const root = process.cwd();
 const amphibians = JSON.parse(fs.readFileSync(path.join(root, "public/data/china-species-amphibians.json"), "utf8"));
 const extra = JSON.parse(fs.readFileSync(path.join(root, "public/data/china-species-extra.json"), "utf8"));
 const batch = JSON.parse(fs.readFileSync(path.join(root, "public/data/china-species-batch.json"), "utf8"));
+const batch2 = JSON.parse(fs.readFileSync(path.join(root, "public/data/china-species-batch2.json"), "utf8"));
 
 const media = {
   ...JSON.parse(fs.readFileSync(path.join(root, "public/data/china-media.json"), "utf8")).species,
@@ -41,7 +42,7 @@ function thumb(url) {
   return `/media/thumbs/${rest.replace(/\.(jpe?g|png|webp)$/i, ".webp")}`;
 }
 
-const items = [...amphibians, ...extra, ...batch].map((s) => ({
+const items = [...amphibians, ...extra, ...batch, ...batch2].map((s) => ({
   slug: s.slug,
   cn: s.nameCn,
   sci: s.scientificName,

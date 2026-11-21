@@ -18,7 +18,7 @@ function cn(latin) {
 const items = [];
 
 // 两栖 + 新增物种
-for (const f of ["china-species-amphibians.json", "china-species-extra.json", "china-species-batch.json"]) {
+for (const f of ["china-species-amphibians.json", "china-species-extra.json", "china-species-batch.json", "china-species-batch2.json"]) {
   try {
     const list = JSON.parse(await readFile(path.join(ROOT, "public/data", f), "utf8"));
     for (const s of list) {

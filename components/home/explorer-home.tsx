@@ -36,11 +36,49 @@ export function KnownCounter({ total }: { total: number }) {
   );
 }
 
-export function DailyQuiz({ cards, answerSlug }: { cards: MiniSpecies[]; answerSlug: string }) {
+const GROUP_INFO: Record<string, string> = {
+  mammal: "哺乳纲：胎生哺乳、体表被毛、体温恒定",
+  bird: "鸟纲：羽毛、卵生、前肢成翼",
+  amphibian: "两栖纲：皮肤湿润、幼体多水生、成体可陆生",
+  reptile: "爬行纲：鳞片覆盖、卵生、变温",
+  fish: "鱼类：鳃呼吸、鳍游泳、终生水生",
+};
+
+function shuffle<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+interface QuizRound {
+  cards: MiniSpecies[];
+  answerSlug: string;
+  groupLabel: string;
+}
+
+function buildRound(pool: MiniSpecies[]): QuizRound | null {
+  const groups = [...new Set(pool.map((s) => s.group))];
+  const group = groups[Math.floor(Math.random() * groups.length)];
+  const same = shuffle(pool.filter((s) => s.group === group));
+  const others = shuffle(pool.filter((s) => s.group !== group));
+  if (same.length < 3 || others.length < 1) return null;
+  const answer = others[0];
+  return {
+    cards: shuffle([...same.slice(0, 3), answer]),
+    answerSlug: answer.slug,
+    groupLabel: same[0].groupLabel,
+  };
+}
+
+export function DailyQuiz({ pool }: { pool: MiniSpecies[] }) {
+  const [round, setRound] = useState<QuizRound | null>(() => buildRound(pool));
   const [picked, setPicked] = useState<string | null>(null);
   const [xp, setXp] = useState(0);
   const [streak, setStreak] = useState(0);
-  const correct = picked === answerSlug;
+  const correct = picked === round?.answerSlug;
 
   useEffect(() => {
     try {
@@ -56,7 +94,7 @@ export function DailyQuiz({ cards, answerSlug }: { cards: MiniSpecies[]; answerS
   function pick(slug: string) {
     if (picked) return;
     setPicked(slug);
-    if (slug === answerSlug) {
+    if (slug === round?.answerSlug) {
       const nextXp = xp + 10;
       const nextStreak = streak + 1;
       setXp(nextXp);
@@ -73,57 +111,69 @@ export function DailyQuiz({ cards, answerSlug }: { cards: MiniSpecies[]; answerS
   }
 
   const mood = picked === null ? "happy" : correct ? "cheer" : "wow";
+  if (!round) return null;
 
   return (
-    <div className="grid gap-4 sm:grid-cols-[auto_1fr] sm:items-start">
-      <div className="flex items-center gap-3 sm:flex-col sm:items-start">
+    <div>
+      <div className="flex items-center gap-3">
         <Mascot mood={mood} />
         <div className="y-tag bg-[var(--surface)]">+{xp} 经验 · 连续 {streak} 天</div>
       </div>
+      <h2 className="y-title mt-3 text-[26px]">哪一种不是{round.groupLabel}？</h2>
+      <p className="mt-1 text-[13px] font-medium">点一张卡，马上知道答案。每次刷新题目都不一样。</p>
 
-      <div>
-        <h2 className="y-title text-[26px]">哪一种不是两栖动物？</h2>
-        <p className="mt-1 text-[13px] font-medium">点一张卡，马上知道答案。</p>
-
-        <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
-          {cards.map((card) => {
-            const chosen = picked === card.slug;
-            const isAnswer = card.slug === answerSlug;
-            const dim = picked && !isAnswer && !chosen;
-            return (
-              <button
-                key={card.slug}
-                type="button"
-                onClick={() => pick(card.slug)}
-                disabled={Boolean(picked)}
-                className={`y-card y-press overflow-hidden text-left ${dim ? "opacity-45" : ""}`}
-                style={{
-                  borderColor: isAnswer && picked ? "var(--tax-reptile)" : chosen && !correct ? "var(--tax-amphibian)" : "var(--ink)",
-                  aspectRatio: "3 / 4",
-                }}
-              >
-                <span
-                  className="block w-full bg-cover bg-center"
-                  style={{ backgroundImage: card.thumb ? `url("${card.thumb}")` : undefined, aspectRatio: "1 / 1" }}
-                  aria-hidden="true"
-                />
-                <span className="block px-2.5 py-2">
-                  <span className="block truncate text-[12.5px] font-bold">{card.nameCn}</span>
-                  <span className="mt-0.5 block text-[10px] font-medium" style={{ color: picked ? GROUP_COLOR[card.group] : "var(--muted)" }}>
-                    {picked ? card.groupLabel : "猜猜它是谁"}
-                  </span>
-                </span>
-              </button>
-            );
-          })}
-        </div>
-
-        <div className="mt-3 min-h-[26px] text-[13px] font-bold">
-          {picked === null && <span>提示：看皮肤、看幼体，不看长相。</span>}
-          {picked !== null && correct && <span>答对了！它其实属于{ cards.find((c) => c.slug === answerSlug)?.groupLabel }，经验 +10。</span>}
-          {picked !== null && !correct && <span>差一点点！正确答案标出来了，再看一眼它的类群。</span>}
-        </div>
+      <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        {round.cards.map((card) => {
+          const chosen = picked === card.slug;
+          const isAnswer = card.slug === round.answerSlug;
+          const dim = picked && !isAnswer && !chosen;
+          return (
+            <button
+              key={card.slug}
+              type="button"
+              onClick={() => pick(card.slug)}
+              disabled={Boolean(picked)}
+              className={`y-card y-press flex min-h-[120px] flex-col items-center justify-center gap-1 p-3 text-center ${dim ? "opacity-45" : ""}`}
+              style={{ borderColor: isAnswer && picked ? "var(--tax-reptile)" : chosen && !correct ? "var(--tax-amphibian)" : "var(--ink)" }}
+            >
+              <span className="text-[17px] font-black leading-tight">{card.nameCn}</span>
+              <span className="text-[10px] font-medium" style={{ color: picked ? GROUP_COLOR[card.group] : "var(--muted)" }}>
+                {picked ? card.groupLabel : "猜猜它是谁"}
+              </span>
+            </button>
+          );
+        })}
       </div>
+
+      <div className="mt-3 text-[13px] font-bold">
+        {picked === null && <span>提示：看类群特征，不看长相。</span>}
+        {picked !== null && correct && <span>答对了！经验 +10。</span>}
+        {picked !== null && !correct && <span>差一点点，正确答案已标出。</span>}
+      </div>
+
+      {picked !== null && (
+        <div className="mt-3 space-y-1.5 border-t border-[var(--line)] pt-3">
+          <p className="text-[11px] font-bold text-[var(--muted)]">答案解析</p>
+          {round.cards.map((card) => (
+            <p key={card.slug} className="text-[11.5px] leading-relaxed">
+              <strong className={card.slug === round.answerSlug ? "text-[var(--tax-reptile)]" : ""}>{card.nameCn}</strong>
+              ：{GROUP_INFO[card.group]}
+              {card.slug === round.answerSlug ? "（因此它不属于本组）" : ""}
+            </p>
+          ))}
+        </div>
+      )}
+
+      <button
+        type="button"
+        onClick={() => {
+          setPicked(null);
+          setRound(buildRound(pool));
+        }}
+        className="mt-3 text-[11px] underline"
+      >
+        换一题
+      </button>
     </div>
   );
 }

@@ -30,7 +30,6 @@ const RARE_BY_GROUP: Record<string, string[]> = {
   fish: ["chinese-sturgeon", "chinese-sucker"],
 };
 
-const QUIZ_SLUGS = ["odorrana-wuchuanensis", "hynobius-fucus", "andrias-davidianus", "giant-panda"];
 
 const FACTS = [
   {
@@ -72,8 +71,7 @@ export default function HomePage() {
     (item): item is NonNullable<typeof item> => Boolean(item)
   );
 
-  const quiz = QUIZ_SLUGS.map(mini).filter((item): item is NonNullable<typeof item> => Boolean(item));
-  const quizAnswer = "giant-panda";
+  const pool = CHINA_SPECIES.map((species) => mini(species.slug)).filter((item): item is NonNullable<typeof item> => Boolean(item));
 
   const provinceCounts = new Map<string, number>();
   for (const species of CHINA_SPECIES) {
@@ -154,7 +152,7 @@ export default function HomePage() {
 
       <div className="mt-5">
         <Band color="var(--band-bird)">
-          <DailyQuiz cards={quiz} answerSlug={quizAnswer} />
+          <DailyQuiz pool={pool} />
         </Band>
       </div>
 

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-21T17:45:41.606Z",
- "count": 549,
+ "generated_at": "2026-11-21T18:06:16.584Z",
+ "count": 628,
  "items": [
   {
    "slug": "ichthyophis-bannanicus",
@@ -6141,6 +6141,796 @@
    "cn": "大理裂腹鱼",
    "en": "Tali Schizothorax",
    "sci": "Schizothorax taliensis",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "small-clawed-otter",
+   "cn": "小爪水獭",
+   "en": "Small-clawed Otter",
+   "sci": "Aonyx cinerea",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "食肉目"
+  },
+  {
+   "slug": "smooth-coated-otter",
+   "cn": "江獭",
+   "en": "Smooth-coated Otter",
+   "sci": "Lutrogale perspicillata",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "食肉目"
+  },
+  {
+   "slug": "chinese-ferret-badger",
+   "cn": "鼬獾",
+   "en": "Chinese Ferret Badger",
+   "sci": "Melogale moschata",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "食肉目"
+  },
+  {
+   "slug": "hog-badger",
+   "cn": "猪獾",
+   "en": "Hog Badger",
+   "sci": "Arctonyx collaris",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "食肉目"
+  },
+  {
+   "slug": "asian-badger",
+   "cn": "亚洲狗獾",
+   "en": "Asian Badger",
+   "sci": "Meles leucurus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "食肉目"
+  },
+  {
+   "slug": "raccoon-dog",
+   "cn": "貉",
+   "en": "Raccoon Dog",
+   "sci": "Nyctereutes procyonoides",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "犬科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "red-fox",
+   "cn": "赤狐",
+   "en": "Red Fox",
+   "sci": "Vulpes vulpes",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "犬科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "corsac-fox",
+   "cn": "沙狐",
+   "en": "Corsac Fox",
+   "sci": "Vulpes corsac",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "犬科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "grey-wolf",
+   "cn": "狼",
+   "en": "Grey Wolf",
+   "sci": "Canis lupus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "犬科",
+   "order": "食肉目"
+  },
+  {
+   "slug": "qinling-takin",
+   "cn": "秦岭羚牛",
+   "en": "Qinling Takin",
+   "sci": "Budorcas bedfordi",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "牛科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "wild-boar",
+   "cn": "野猪",
+   "en": "Wild Boar",
+   "sci": "Sus scrofa",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "red-deer",
+   "cn": "马鹿",
+   "en": "Red Deer",
+   "sci": "Cervus elaphus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鹿科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "siberian-roe-deer",
+   "cn": "狍",
+   "en": "Siberian Roe Deer",
+   "sci": "Capreolus pygargus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鹿科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "indian-muntjac",
+   "cn": "黄麂",
+   "en": "Indian Muntjac",
+   "sci": "Muntiacus muntjak",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鹿科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "feas-muntjac",
+   "cn": "菲氏麂",
+   "en": "Fea's Muntjac",
+   "sci": "Muntiacus feae",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鹿科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "gongshan-muntjac",
+   "cn": "贡山麂",
+   "en": "Gongshan Muntjac",
+   "sci": "Muntiacus gongshanensis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鹿科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "sambar-deer",
+   "cn": "水鹿",
+   "en": "Sambar Deer",
+   "sci": "Rusa unicolor",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鹿科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "burmese-python",
+   "cn": "缅甸蟒",
+   "en": "Burmese Python",
+   "sci": "Python bivittatus",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "mandarin-rat-snake",
+   "cn": "玉斑锦蛇",
+   "en": "Mandarin Rat Snake",
+   "sci": "Elaphe mandarina",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "游蛇科",
+   "order": ""
+  },
+  {
+   "slug": "common-crane",
+   "cn": "灰鹤",
+   "en": "Common Crane",
+   "sci": "Grus grus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "white-naped-crane",
+   "cn": "白枕鹤",
+   "en": "White-naped Crane",
+   "sci": "Grus vipio",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "demoiselle-crane",
+   "cn": "蓑羽鹤",
+   "en": "Demoiselle Crane",
+   "sci": "Anthropoides virgo",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "bar-headed-goose",
+   "cn": "斑头雁",
+   "en": "Bar-headed Goose",
+   "sci": "Anser indicus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "greylag-goose",
+   "cn": "灰雁",
+   "en": "Greylag Goose",
+   "sci": "Anser anser",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "swan-goose",
+   "cn": "鸿雁",
+   "en": "Swan Goose",
+   "sci": "Anser cygnoides",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "bean-goose",
+   "cn": "豆雁",
+   "en": "Bean Goose",
+   "sci": "Anser fabalis",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "white-fronted-goose",
+   "cn": "白额雁",
+   "en": "White-fronted Goose",
+   "sci": "Anser albifrons",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "lesser-white-fronted-goose",
+   "cn": "小白额雁",
+   "en": "Lesser White-fronted Goose",
+   "sci": "Anser erythropus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "snow-goose",
+   "cn": "雪雁",
+   "en": "Snow Goose",
+   "sci": "Anser caerulescens",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "mallard",
+   "cn": "绿头鸭",
+   "en": "Mallard",
+   "sci": "Anas platyrhynchos",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "northern-pintail",
+   "cn": "针尾鸭",
+   "en": "Northern Pintail",
+   "sci": "Anas acuta",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "eurasian-teal",
+   "cn": "绿翅鸭",
+   "en": "Eurasian Teal",
+   "sci": "Anas crecca",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "falcated-duck",
+   "cn": "罗纹鸭",
+   "en": "Falcated Duck",
+   "sci": "Anas falcata",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "eurasian-wigeon",
+   "cn": "赤颈鸭",
+   "en": "Eurasian Wigeon",
+   "sci": "Anas penelope",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "gadwall",
+   "cn": "赤膀鸭",
+   "en": "Gadwall",
+   "sci": "Anas strepera",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "northern-shoveler",
+   "cn": "琵嘴鸭",
+   "en": "Northern Shoveler",
+   "sci": "Anas clypeata",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "ferruginous-duck",
+   "cn": "白眼潜鸭",
+   "en": "Ferruginous Duck",
+   "sci": "Aythya nyroca",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "baers-pochard",
+   "cn": "青头潜鸭",
+   "en": "Baer's Pochard",
+   "sci": "Aythya baeri",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "common-pochard",
+   "cn": "红头潜鸭",
+   "en": "Common Pochard",
+   "sci": "Aythya ferina",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "king-ratsnake",
+   "cn": "王锦蛇",
+   "en": "King Ratsnake",
+   "sci": "Elaphe carinata",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "游蛇科",
+   "order": ""
+  },
+  {
+   "slug": "black-browed-ratsnake",
+   "cn": "黑眉锦蛇",
+   "en": "Black-browed Ratsnake",
+   "sci": "Elaphe taeniura",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "游蛇科",
+   "order": ""
+  },
+  {
+   "slug": "amur-ratsnake",
+   "cn": "棕黑锦蛇",
+   "en": "Amur Ratsnake",
+   "sci": "Elaphe schrenckii",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "游蛇科",
+   "order": ""
+  },
+  {
+   "slug": "steppe-ratsnake",
+   "cn": "白条锦蛇",
+   "en": "Steppe Ratsnake",
+   "sci": "Elaphe dione",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "游蛇科",
+   "order": ""
+  },
+  {
+   "slug": "red-backed-ratsnake",
+   "cn": "红点锦蛇",
+   "en": "Red-backed Ratsnake",
+   "sci": "Elaphe rufodorsata",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "游蛇科",
+   "order": ""
+  },
+  {
+   "slug": "davids-ratsnake",
+   "cn": "团花锦蛇",
+   "en": "David's Ratsnake",
+   "sci": "Elaphe davidi",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "游蛇科",
+   "order": ""
+  },
+  {
+   "slug": "indochinese-ratsnake",
+   "cn": "灰鼠蛇",
+   "en": "Indochinese Ratsnake",
+   "sci": "Ptyas korros",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "游蛇科",
+   "order": ""
+  },
+  {
+   "slug": "oriental-ratsnake",
+   "cn": "滑鼠蛇",
+   "en": "Oriental Ratsnake",
+   "sci": "Ptyas mucosus",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "游蛇科",
+   "order": ""
+  },
+  {
+   "slug": "big-eyed-ratsnake",
+   "cn": "乌梢蛇",
+   "en": "Big-eyed Ratsnake",
+   "sci": "Zaocys dhumnades",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "游蛇科",
+   "order": ""
+  },
+  {
+   "slug": "chinese-water-snake",
+   "cn": "中国水蛇",
+   "en": "Chinese Water Snake",
+   "sci": "Enhydris chinensis",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "chinese-coral-snake",
+   "cn": "中华珊瑚蛇",
+   "en": "Chinese Coral Snake",
+   "sci": "Sinomicrurus macclellandi",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "many-banded-krait",
+   "cn": "银环蛇",
+   "en": "Many-banded Krait",
+   "sci": "Bungarus multicinctus",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "banded-krait",
+   "cn": "金环蛇",
+   "en": "Banded Krait",
+   "sci": "Bungarus fasciatus",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "chinese-cobra",
+   "cn": "眼镜蛇",
+   "en": "Chinese Cobra",
+   "sci": "Naja atra",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "king-cobra",
+   "cn": "眼镜王蛇",
+   "en": "King Cobra",
+   "sci": "Ophiophagus hannah",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "hundred-pace-viper",
+   "cn": "尖吻蝮",
+   "en": "Hundred-pace Viper",
+   "sci": "Deinagkistrodon acutus",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "蝰科",
+   "order": ""
+  },
+  {
+   "slug": "short-tailed-mamushi",
+   "cn": "短尾蝮",
+   "en": "Short-tailed Mamushi",
+   "sci": "Gloydius brevicaudus",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "蝰科",
+   "order": ""
+  },
+  {
+   "slug": "strauchs-pitviper",
+   "cn": "高原蝮",
+   "en": "Strauch's Pitviper",
+   "sci": "Gloydius strauchi",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "蝰科",
+   "order": ""
+  },
+  {
+   "slug": "chinese-lancehead",
+   "cn": "中国蝮蛇",
+   "en": "Chinese Lancehead",
+   "sci": "Gloydius intermedius",
+   "aliases": [],
+   "group": "爬行纲",
+   "family": "蝰科",
+   "order": ""
+  },
+  {
+   "slug": "yunnan-schizothorax",
+   "cn": "云南裂腹鱼",
+   "en": "Yunnan Schizothorax",
+   "sci": "Schizothorax yunnanensis",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "macropogon-schizothorax",
+   "cn": "巨须裂腹鱼",
+   "en": "Macropogon Schizothorax",
+   "sci": "Schizothorax macropogon",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "walton-schizothorax",
+   "cn": "拉萨裂腹鱼",
+   "en": "Walton's Schizothorax",
+   "sci": "Schizothorax waltoni",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "dybowski-naked-carp",
+   "cn": "新疆裸重唇鱼",
+   "en": "Dybowski's Naked Carp",
+   "sci": "Gymnodiptychus dybowskii",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "pachycheilus-naked-carp",
+   "cn": "厚唇裸重唇鱼",
+   "en": "Pachycheilus Naked Carp",
+   "sci": "Gymnodiptychus pachycheilus",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "chinese-barb",
+   "cn": "中华倒刺鲃",
+   "en": "Chinese Barb",
+   "sci": "Spinibarbus sinensis",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "holland-barb",
+   "cn": "光倒刺鲃",
+   "en": "Holland's Barb",
+   "sci": "Spinibarbus hollandi",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "yunnan-acrossocheilus",
+   "cn": "云南光唇鱼",
+   "en": "Yunnan Acrossocheilus",
+   "sci": "Acrossocheilus yunnanensis",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "pale-chub",
+   "cn": "宽鳍鱲",
+   "en": "Pale Chub",
+   "sci": "Zacco platypus",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "chinese-hooksnout-carp",
+   "cn": "马口鱼",
+   "en": "Chinese Hooksnout Carp",
+   "sci": "Opsariichthys bidens",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "black-carp",
+   "cn": "青鱼",
+   "en": "Black Carp",
+   "sci": "Mylopharyngodon piceus",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "grass-carp",
+   "cn": "草鱼",
+   "en": "Grass Carp",
+   "sci": "Ctenopharyngodon idella",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "silver-carp",
+   "cn": "鲢鱼",
+   "en": "Silver Carp",
+   "sci": "Hypophthalmichthys molitrix",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "bighead-carp",
+   "cn": "鳙鱼",
+   "en": "Bighead Carp",
+   "sci": "Hypophthalmichthys nobilis",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "bluntnose-bream",
+   "cn": "团头鲂",
+   "en": "Bluntnose Bream",
+   "sci": "Megalobrama amblycephala",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "predatory-carp",
+   "cn": "翘嘴鲌",
+   "en": "Predatory Carp",
+   "sci": "Culter alburnus",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "mongolian-carp",
+   "cn": "蒙古鲌",
+   "en": "Mongolian Carp",
+   "sci": "Culter mongolicus",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "redfin-carp",
+   "cn": "红鳍原鲌",
+   "en": "Redfin Carp",
+   "sci": "Cultrichthys erythropterus",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "silver-gudgeon",
+   "cn": "银鲴",
+   "en": "Silver Gudgeon",
+   "sci": "Xenocypris argentea",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "yellowtail-gudgeon",
+   "cn": "黄尾鲴",
+   "en": "Yellowtail Gudgeon",
+   "sci": "Xenocypris davidi",
+   "aliases": [],
+   "group": "硬骨鱼纲",
+   "family": "鲤科",
+   "order": "鲤形目"
+  },
+  {
+   "slug": "chinese-bitterling",
+   "cn": "中华鳑鲏",
+   "en": "Chinese Bitterling",
+   "sci": "Rhodeus sinensis",
    "aliases": [],
    "group": "硬骨鱼纲",
    "family": "鲤科",

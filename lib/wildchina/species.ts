@@ -3,6 +3,7 @@ import amphibianDetailData from "@/public/data/china-amphibians-detail.json";
 import extraData from "@/public/data/china-species-extra.json";
 import batchData from "@/public/data/china-species-batch.json";
 import batch2Data from "@/public/data/china-species-batch2.json";
+import batch3Data from "@/public/data/china-species-batch3.json";
 import tropicalsData from "@/public/data/china-species-tropicals.json";
 import gbifData from "@/public/data/china-gbif-enrichment.json";
 
@@ -628,6 +629,7 @@ export const CHINA_SPECIES: ChinaSpecies[] = dedupeBySlug([
   ...(extraData as unknown as ChinaSpecies[]),
   ...(batchData as unknown as ChinaSpecies[]),
   ...(batch2Data as unknown as ChinaSpecies[]),
+  ...(batch3Data as unknown as ChinaSpecies[]),
 ]).map(decorateAmphibian).map(decorateTropicals).map(decorateGbif);
 
 export const CHINA_SPECIES_BY_SLUG = new Map(CHINA_SPECIES.map((s) => [s.slug, s]));

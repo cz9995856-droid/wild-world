@@ -1,0 +1,4803 @@
+[
+ {
+  "slug": "small-clawed-otter",
+  "nameCn": "小爪水獭",
+  "aliases": [],
+  "scientificName": "Aonyx cinerea",
+  "englishName": "Small-clawed Otter",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Mustelidae",
+   "genus": "Amblonyx"
+  },
+  "distribution": "GBIF 在中国记录于广东（1 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "广东"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2433894",
+    "url": "https://www.gbif.org/species/2433894"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2433894
+  }
+ },
+ {
+  "slug": "smooth-coated-otter",
+  "nameCn": "江獭",
+  "aliases": [],
+  "scientificName": "Lutrogale perspicillata",
+  "englishName": "Smooth-coated Otter",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Mustelidae",
+   "genus": "Lutrogale"
+  },
+  "distribution": "GBIF 中国观测记录不足，分布待进一步核验。",
+  "provinces": [],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2433686",
+    "url": "https://www.gbif.org/species/2433686"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2433686
+  }
+ },
+ {
+  "slug": "chinese-ferret-badger",
+  "nameCn": "鼬獾",
+  "aliases": [],
+  "scientificName": "Melogale moschata",
+  "englishName": "Chinese Ferret Badger",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Mustelidae",
+   "genus": "Melogale"
+  },
+  "distribution": "GBIF 在中国记录于江苏、四川、广东、浙江、福建、云南 等（12 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "江苏",
+   "四川",
+   "广东",
+   "浙江",
+   "福建",
+   "云南",
+   "江西",
+   "安徽",
+   "海南",
+   "湖南",
+   "湖北",
+   "上海"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2433636",
+    "url": "https://www.gbif.org/species/2433636"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2433636
+  }
+ },
+ {
+  "slug": "hog-badger",
+  "nameCn": "猪獾",
+  "aliases": [],
+  "scientificName": "Arctonyx collaris",
+  "englishName": "Hog Badger",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Mustelidae",
+   "genus": "Arctonyx"
+  },
+  "distribution": "GBIF 在中国记录于安徽、湖南、四川、广东、甘肃、湖北（6 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "安徽",
+   "湖南",
+   "四川",
+   "广东",
+   "甘肃",
+   "湖北"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2433743",
+    "url": "https://www.gbif.org/species/2433743"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2433743
+  }
+ },
+ {
+  "slug": "asian-badger",
+  "nameCn": "亚洲狗獾",
+  "aliases": [],
+  "scientificName": "Meles leucurus",
+  "englishName": "Asian Badger",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Mustelidae",
+   "genus": "Meles"
+  },
+  "distribution": "GBIF 在中国记录于宁夏、北京、江苏、四川、青海、安徽 等（19 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "宁夏",
+   "北京",
+   "江苏",
+   "四川",
+   "青海",
+   "安徽",
+   "黑龙江",
+   "吉林",
+   "山东",
+   "甘肃",
+   "河北",
+   "西藏",
+   "湖南",
+   "辽宁",
+   "陕西",
+   "上海",
+   "山西",
+   "天津",
+   "浙江"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2433868",
+    "url": "https://www.gbif.org/species/2433868"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2433868
+  }
+ },
+ {
+  "slug": "raccoon-dog",
+  "nameCn": "貉",
+  "aliases": [],
+  "scientificName": "Nyctereutes procyonoides",
+  "englishName": "Raccoon Dog",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Canidae",
+   "genus": "Nyctereutes"
+  },
+  "distribution": "GBIF 在中国记录于上海、江苏、安徽、四川、北京、吉林 等（15 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "上海",
+   "江苏",
+   "安徽",
+   "四川",
+   "北京",
+   "吉林",
+   "福建",
+   "湖北",
+   "河南",
+   "云南",
+   "黑龙江",
+   "甘肃",
+   "河北",
+   "湖南",
+   "山西"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2434552",
+    "url": "https://www.gbif.org/species/2434552"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2434552
+  }
+ },
+ {
+  "slug": "red-fox",
+  "nameCn": "赤狐",
+  "aliases": [],
+  "scientificName": "Vulpes vulpes",
+  "englishName": "Red Fox",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Canidae",
+   "genus": "Vulpes"
+  },
+  "distribution": "GBIF 在中国记录于宁夏、青海、新疆、四川、黑龙江、福建 等（20 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "宁夏",
+   "青海",
+   "新疆",
+   "四川",
+   "黑龙江",
+   "福建",
+   "西藏",
+   "吉林",
+   "甘肃",
+   "山西",
+   "云南",
+   "河北",
+   "湖北",
+   "辽宁",
+   "北京",
+   "江苏",
+   "江西",
+   "贵州",
+   "湖南",
+   "陕西"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5219243",
+    "url": "https://www.gbif.org/species/5219243"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5219243
+  }
+ },
+ {
+  "slug": "corsac-fox",
+  "nameCn": "沙狐",
+  "aliases": [],
+  "scientificName": "Vulpes corsac",
+  "englishName": "Corsac Fox",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Canidae",
+   "genus": "Vulpes"
+  },
+  "distribution": "GBIF 在中国记录于新疆、黑龙江、云南（3 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "新疆",
+   "黑龙江",
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5219293",
+    "url": "https://www.gbif.org/species/5219293"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5219293
+  }
+ },
+ {
+  "slug": "grey-wolf",
+  "nameCn": "狼",
+  "aliases": [],
+  "scientificName": "Canis lupus",
+  "englishName": "Grey Wolf",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Carnivora",
+   "family": "Canidae",
+   "genus": "Canis"
+  },
+  "distribution": "GBIF 在中国记录于青海、北京、浙江、江苏、山东、广东 等（30 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "青海",
+   "北京",
+   "浙江",
+   "江苏",
+   "山东",
+   "广东",
+   "四川",
+   "安徽",
+   "福建",
+   "西藏",
+   "河北",
+   "江西",
+   "新疆",
+   "湖北",
+   "辽宁",
+   "云南",
+   "贵州",
+   "山西",
+   "广西",
+   "甘肃",
+   "河南",
+   "上海",
+   "黑龙江",
+   "湖南",
+   "吉林",
+   "海南",
+   "陕西",
+   "天津",
+   "重庆",
+   "内蒙古"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5219173",
+    "url": "https://www.gbif.org/species/5219173"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5219173
+  }
+ },
+ {
+  "slug": "qinling-takin",
+  "nameCn": "秦岭羚牛",
+  "aliases": [],
+  "scientificName": "Budorcas bedfordi",
+  "englishName": "Qinling Takin",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Bovidae",
+   "genus": "Budorcas"
+  },
+  "distribution": "GBIF 中国观测记录不足，分布待进一步核验。",
+  "provinces": [],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有物种收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 8844584",
+    "url": "https://www.gbif.org/species/8844584"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 8844584
+  }
+ },
+ {
+  "slug": "wild-boar",
+  "nameCn": "野猪",
+  "aliases": [],
+  "scientificName": "Sus scrofa",
+  "englishName": "Wild Boar",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Suidae",
+   "genus": "Sus"
+  },
+  "distribution": "GBIF 在中国记录于宁夏、安徽、四川、广东、北京、江苏 等（27 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "宁夏",
+   "安徽",
+   "四川",
+   "广东",
+   "北京",
+   "江苏",
+   "云南",
+   "福建",
+   "山西",
+   "海南",
+   "湖北",
+   "江西",
+   "湖南",
+   "甘肃",
+   "浙江",
+   "陕西",
+   "河南",
+   "吉林",
+   "辽宁",
+   "西藏",
+   "广西",
+   "贵州",
+   "黑龙江",
+   "青海",
+   "山东",
+   "重庆",
+   "天津"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 7705930",
+    "url": "https://www.gbif.org/species/7705930"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 7705930
+  }
+ },
+ {
+  "slug": "red-deer",
+  "nameCn": "马鹿",
+  "aliases": [],
+  "scientificName": "Cervus elaphus",
+  "englishName": "Red Deer",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Cervidae",
+   "genus": "Cervus"
+  },
+  "distribution": "GBIF 在中国记录于青海、新疆、宁夏、甘肃、四川、黑龙江 等（12 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "青海",
+   "新疆",
+   "宁夏",
+   "甘肃",
+   "四川",
+   "黑龙江",
+   "西藏",
+   "云南",
+   "山西",
+   "安徽",
+   "广东",
+   "吉林"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2440958",
+    "url": "https://www.gbif.org/species/2440958"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2440958
+  }
+ },
+ {
+  "slug": "siberian-roe-deer",
+  "nameCn": "狍",
+  "aliases": [],
+  "scientificName": "Capreolus pygargus",
+  "englishName": "Siberian Roe Deer",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Cervidae",
+   "genus": "Capreolus"
+  },
+  "distribution": "GBIF 在中国记录于宁夏、吉林、北京、四川、青海、河北 等（11 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "宁夏",
+   "吉林",
+   "北京",
+   "四川",
+   "青海",
+   "河北",
+   "黑龙江",
+   "甘肃",
+   "山西",
+   "陕西",
+   "新疆"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5220127",
+    "url": "https://www.gbif.org/species/5220127"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5220127
+  }
+ },
+ {
+  "slug": "indian-muntjac",
+  "nameCn": "黄麂",
+  "aliases": [],
+  "scientificName": "Muntiacus muntjak",
+  "englishName": "Indian Muntjac",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Cervidae",
+   "genus": "Muntiacus"
+  },
+  "distribution": "GBIF 在中国记录于云南、广东、海南、西藏、浙江、湖北 等（8 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "云南",
+   "广东",
+   "海南",
+   "西藏",
+   "浙江",
+   "湖北",
+   "福建",
+   "江西"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2440943",
+    "url": "https://www.gbif.org/species/2440943"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2440943
+  }
+ },
+ {
+  "slug": "feas-muntjac",
+  "nameCn": "菲氏麂",
+  "aliases": [],
+  "scientificName": "Muntiacus feae",
+  "englishName": "Fea's Muntjac",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Cervidae",
+   "genus": "Muntiacus"
+  },
+  "distribution": "GBIF 中国观测记录不足，分布待进一步核验。",
+  "provinces": [],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2440944",
+    "url": "https://www.gbif.org/species/2440944"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2440944
+  }
+ },
+ {
+  "slug": "gongshan-muntjac",
+  "nameCn": "贡山麂",
+  "aliases": [],
+  "scientificName": "Muntiacus gongshanensis",
+  "englishName": "Gongshan Muntjac",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Cervidae",
+   "genus": "Muntiacus"
+  },
+  "distribution": "GBIF 在中国记录于云南（1 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有物种收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2440947",
+    "url": "https://www.gbif.org/species/2440947"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2440947
+  }
+ },
+ {
+  "slug": "sambar-deer",
+  "nameCn": "水鹿",
+  "aliases": [],
+  "scientificName": "Rusa unicolor",
+  "englishName": "Sambar Deer",
+  "group": "mammal",
+  "groupLabel": "哺乳纲",
+  "taxonomy": {
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Cervidae",
+   "genus": "Rusa"
+  },
+  "distribution": "GBIF 在中国记录于四川、云南、安徽、广东、贵州、海南 等（7 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "四川",
+   "云南",
+   "安徽",
+   "广东",
+   "贵州",
+   "海南",
+   "湖北"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 7261386",
+    "url": "https://www.gbif.org/species/7261386"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 7261386
+  }
+ },
+ {
+  "slug": "burmese-python",
+  "nameCn": "缅甸蟒",
+  "aliases": [],
+  "scientificName": "Python bivittatus",
+  "englishName": "Burmese Python",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Pythonidae",
+   "genus": "Python"
+  },
+  "distribution": "GBIF 在中国记录于广东、海南、福建、云南、广西、江西 等（8 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "广东",
+   "海南",
+   "福建",
+   "云南",
+   "广西",
+   "江西",
+   "香港",
+   "四川"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 4820533",
+    "url": "https://www.gbif.org/species/4820533"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 4820533
+  }
+ },
+ {
+  "slug": "mandarin-rat-snake",
+  "nameCn": "玉斑锦蛇",
+  "aliases": [],
+  "scientificName": "Elaphe mandarina",
+  "englishName": "Mandarin Rat Snake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Colubridae",
+   "genus": "Euprepiophis"
+  },
+  "distribution": "GBIF 在中国记录于江西、贵州、四川、云南（4 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "江西",
+   "贵州",
+   "四川",
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2458542",
+    "url": "https://www.gbif.org/species/2458542"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2458542
+  }
+ },
+ {
+  "slug": "common-crane",
+  "nameCn": "灰鹤",
+  "aliases": [],
+  "scientificName": "Grus grus",
+  "englishName": "Common Crane",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Gruiformes",
+   "family": "Gruidae",
+   "genus": "Grus"
+  },
+  "distribution": "GBIF 在中国记录于江西、北京、河北、江苏、山东、云南 等（28 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "江西",
+   "北京",
+   "河北",
+   "江苏",
+   "山东",
+   "云南",
+   "上海",
+   "新疆",
+   "天津",
+   "湖北",
+   "湖南",
+   "河南",
+   "辽宁",
+   "贵州",
+   "山西",
+   "浙江",
+   "青海",
+   "四川",
+   "陕西",
+   "吉林",
+   "西藏",
+   "黑龙江",
+   "海南",
+   "宁夏",
+   "安徽",
+   "福建",
+   "甘肃",
+   "广东"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2474950",
+    "url": "https://www.gbif.org/species/2474950"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2474950
+  }
+ },
+ {
+  "slug": "white-naped-crane",
+  "nameCn": "白枕鹤",
+  "aliases": [],
+  "scientificName": "Grus vipio",
+  "englishName": "White-naped Crane",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Gruiformes",
+   "family": "Gruidae",
+   "genus": "Grus"
+  },
+  "distribution": "GBIF 在中国记录于江西、北京、山东、河北、天津、江苏 等（16 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "江西",
+   "北京",
+   "山东",
+   "河北",
+   "天津",
+   "江苏",
+   "吉林",
+   "黑龙江",
+   "浙江",
+   "上海",
+   "湖南",
+   "安徽",
+   "辽宁",
+   "湖北",
+   "山西",
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2474942",
+    "url": "https://www.gbif.org/species/2474942"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2474942
+  }
+ },
+ {
+  "slug": "demoiselle-crane",
+  "nameCn": "蓑羽鹤",
+  "aliases": [],
+  "scientificName": "Anthropoides virgo",
+  "englishName": "Demoiselle Crane",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Gruiformes",
+   "family": "Gruidae",
+   "genus": "Anthropoides"
+  },
+  "distribution": "GBIF 在中国记录于新疆、青海、北京、黑龙江、吉林、山东 等（17 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "新疆",
+   "青海",
+   "北京",
+   "黑龙江",
+   "吉林",
+   "山东",
+   "河北",
+   "江西",
+   "江苏",
+   "四川",
+   "云南",
+   "安徽",
+   "贵州",
+   "宁夏",
+   "上海",
+   "山西",
+   "西藏"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2474936",
+    "url": "https://www.gbif.org/species/2474936"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2474936
+  }
+ },
+ {
+  "slug": "bar-headed-goose",
+  "nameCn": "斑头雁",
+  "aliases": [],
+  "scientificName": "Anser indicus",
+  "englishName": "Bar-headed Goose",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Anser"
+  },
+  "distribution": "GBIF 在中国记录于青海、北京、西藏、云南、四川、甘肃 等（27 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "青海",
+   "北京",
+   "西藏",
+   "云南",
+   "四川",
+   "甘肃",
+   "贵州",
+   "江西",
+   "湖北",
+   "天津",
+   "江苏",
+   "新疆",
+   "陕西",
+   "河北",
+   "山东",
+   "河南",
+   "山西",
+   "浙江",
+   "湖南",
+   "重庆",
+   "安徽",
+   "福建",
+   "宁夏",
+   "辽宁",
+   "上海",
+   "海南",
+   "吉林"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498035",
+    "url": "https://www.gbif.org/species/2498035"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498035
+  }
+ },
+ {
+  "slug": "greylag-goose",
+  "nameCn": "灰雁",
+  "aliases": [],
+  "scientificName": "Anser anser",
+  "englishName": "Greylag Goose",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Anser"
+  },
+  "distribution": "GBIF 在中国记录于北京、江西、新疆、青海、山东、天津 等（30 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "江西",
+   "新疆",
+   "青海",
+   "山东",
+   "天津",
+   "湖北",
+   "浙江",
+   "云南",
+   "四川",
+   "上海",
+   "江苏",
+   "河北",
+   "安徽",
+   "湖南",
+   "吉林",
+   "陕西",
+   "甘肃",
+   "辽宁",
+   "福建",
+   "广东",
+   "河南",
+   "山西",
+   "黑龙江",
+   "宁夏",
+   "西藏",
+   "广西",
+   "重庆",
+   "贵州",
+   "海南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498036",
+    "url": "https://www.gbif.org/species/2498036"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498036
+  }
+ },
+ {
+  "slug": "swan-goose",
+  "nameCn": "鸿雁",
+  "aliases": [],
+  "scientificName": "Anser cygnoides",
+  "englishName": "Swan Goose",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Anser"
+  },
+  "distribution": "GBIF 在中国记录于北京、江西、浙江、上海、河北、山东 等（31 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "江西",
+   "浙江",
+   "上海",
+   "河北",
+   "山东",
+   "广东",
+   "江苏",
+   "湖北",
+   "天津",
+   "辽宁",
+   "安徽",
+   "福建",
+   "吉林",
+   "陕西",
+   "云南",
+   "河南",
+   "湖南",
+   "黑龙江",
+   "山西",
+   "四川",
+   "广西",
+   "海南",
+   "西藏",
+   "甘肃",
+   "贵州",
+   "重庆",
+   "宁夏",
+   "新疆",
+   "内蒙古",
+   "青海"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498034",
+    "url": "https://www.gbif.org/species/2498034"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498034
+  }
+ },
+ {
+  "slug": "bean-goose",
+  "nameCn": "豆雁",
+  "aliases": [],
+  "scientificName": "Anser fabalis",
+  "englishName": "Bean Goose",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Anser"
+  },
+  "distribution": "GBIF 在中国记录于江西、浙江、北京、江苏、上海、天津 等（28 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "江西",
+   "浙江",
+   "北京",
+   "江苏",
+   "上海",
+   "天津",
+   "湖北",
+   "山东",
+   "河北",
+   "吉林",
+   "安徽",
+   "辽宁",
+   "湖南",
+   "河南",
+   "福建",
+   "陕西",
+   "新疆",
+   "山西",
+   "黑龙江",
+   "广东",
+   "青海",
+   "云南",
+   "重庆",
+   "甘肃",
+   "宁夏",
+   "四川",
+   "西藏",
+   "贵州"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498027",
+    "url": "https://www.gbif.org/species/2498027"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498027
+  }
+ },
+ {
+  "slug": "white-fronted-goose",
+  "nameCn": "白额雁",
+  "aliases": [],
+  "scientificName": "Anser albifrons",
+  "englishName": "White-fronted Goose",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Anser"
+  },
+  "distribution": "GBIF 在中国记录于江西、浙江、北京、江苏、吉林、上海 等（28 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "江西",
+   "浙江",
+   "北京",
+   "江苏",
+   "吉林",
+   "上海",
+   "山东",
+   "湖北",
+   "福建",
+   "河北",
+   "辽宁",
+   "安徽",
+   "湖南",
+   "天津",
+   "河南",
+   "青海",
+   "黑龙江",
+   "广东",
+   "云南",
+   "四川",
+   "新疆",
+   "甘肃",
+   "西藏",
+   "山西",
+   "贵州",
+   "陕西",
+   "重庆",
+   "广西"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498017",
+    "url": "https://www.gbif.org/species/2498017"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498017
+  }
+ },
+ {
+  "slug": "lesser-white-fronted-goose",
+  "nameCn": "小白额雁",
+  "aliases": [],
+  "scientificName": "Anser erythropus",
+  "englishName": "Lesser White-fronted Goose",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Anser"
+  },
+  "distribution": "GBIF 在中国记录于浙江、江西、北京、上海、湖南、湖北 等（19 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "浙江",
+   "江西",
+   "北京",
+   "上海",
+   "湖南",
+   "湖北",
+   "安徽",
+   "江苏",
+   "河北",
+   "吉林",
+   "四川",
+   "辽宁",
+   "山东",
+   "黑龙江",
+   "河南",
+   "天津",
+   "福建",
+   "青海",
+   "广东"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498026",
+    "url": "https://www.gbif.org/species/2498026"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498026
+  }
+ },
+ {
+  "slug": "snow-goose",
+  "nameCn": "雪雁",
+  "aliases": [],
+  "scientificName": "Anser caerulescens",
+  "englishName": "Snow Goose",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Anser"
+  },
+  "distribution": "GBIF 在中国记录于江西、吉林、天津、山东、江苏、浙江 等（11 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "江西",
+   "吉林",
+   "天津",
+   "山东",
+   "江苏",
+   "浙江",
+   "湖北",
+   "安徽",
+   "北京",
+   "黑龙江",
+   "河南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498167",
+    "url": "https://www.gbif.org/species/2498167"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498167
+  }
+ },
+ {
+  "slug": "mallard",
+  "nameCn": "绿头鸭",
+  "aliases": [],
+  "scientificName": "Anas platyrhynchos",
+  "englishName": "Mallard",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Anas"
+  },
+  "distribution": "GBIF 在中国记录于北京、浙江、江苏、上海、四川、天津 等（31 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "浙江",
+   "江苏",
+   "上海",
+   "四川",
+   "天津",
+   "河北",
+   "辽宁",
+   "山东",
+   "云南",
+   "新疆",
+   "江西",
+   "湖北",
+   "青海",
+   "河南",
+   "安徽",
+   "广东",
+   "甘肃",
+   "陕西",
+   "西藏",
+   "吉林",
+   "山西",
+   "福建",
+   "黑龙江",
+   "湖南",
+   "广西",
+   "重庆",
+   "贵州",
+   "宁夏",
+   "海南",
+   "内蒙古"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 9761484",
+    "url": "https://www.gbif.org/species/9761484"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 9761484
+  }
+ },
+ {
+  "slug": "northern-pintail",
+  "nameCn": "针尾鸭",
+  "aliases": [],
+  "scientificName": "Anas acuta",
+  "englishName": "Northern Pintail",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Anas"
+  },
+  "distribution": "GBIF 在中国记录于北京、上海、广东、浙江、江苏、江西 等（30 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "上海",
+   "广东",
+   "浙江",
+   "江苏",
+   "江西",
+   "青海",
+   "福建",
+   "山东",
+   "天津",
+   "云南",
+   "四川",
+   "河北",
+   "湖北",
+   "新疆",
+   "河南",
+   "吉林",
+   "辽宁",
+   "安徽",
+   "甘肃",
+   "陕西",
+   "海南",
+   "湖南",
+   "西藏",
+   "贵州",
+   "山西",
+   "广西",
+   "黑龙江",
+   "宁夏",
+   "重庆"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498112",
+    "url": "https://www.gbif.org/species/2498112"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498112
+  }
+ },
+ {
+  "slug": "eurasian-teal",
+  "nameCn": "绿翅鸭",
+  "aliases": [],
+  "scientificName": "Anas crecca",
+  "englishName": "Eurasian Teal",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Anas"
+  },
+  "distribution": "GBIF 在中国记录于浙江、北京、上海、江苏、江西、广东 等（30 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "浙江",
+   "北京",
+   "上海",
+   "江苏",
+   "江西",
+   "广东",
+   "四川",
+   "天津",
+   "福建",
+   "河北",
+   "山东",
+   "云南",
+   "青海",
+   "湖北",
+   "安徽",
+   "辽宁",
+   "陕西",
+   "河南",
+   "甘肃",
+   "吉林",
+   "山西",
+   "贵州",
+   "新疆",
+   "湖南",
+   "西藏",
+   "海南",
+   "黑龙江",
+   "广西",
+   "重庆",
+   "宁夏"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 8214667",
+    "url": "https://www.gbif.org/species/8214667"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 8214667
+  }
+ },
+ {
+  "slug": "falcated-duck",
+  "nameCn": "罗纹鸭",
+  "aliases": [],
+  "scientificName": "Anas falcata",
+  "englishName": "Falcated Duck",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Mareca"
+  },
+  "distribution": "GBIF 在中国记录于安徽、黑龙江、香港、江苏、福建、河北 等（10 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "安徽",
+   "黑龙江",
+   "香港",
+   "江苏",
+   "福建",
+   "河北",
+   "山东",
+   "北京",
+   "广东",
+   "上海"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498096",
+    "url": "https://www.gbif.org/species/2498096"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498096
+  }
+ },
+ {
+  "slug": "eurasian-wigeon",
+  "nameCn": "赤颈鸭",
+  "aliases": [],
+  "scientificName": "Anas penelope",
+  "englishName": "Eurasian Wigeon",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Mareca"
+  },
+  "distribution": "GBIF 在中国记录于安徽、四川、福建（3 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "安徽",
+   "四川",
+   "福建"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498111",
+    "url": "https://www.gbif.org/species/2498111"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498111
+  }
+ },
+ {
+  "slug": "gadwall",
+  "nameCn": "赤膀鸭",
+  "aliases": [],
+  "scientificName": "Anas strepera",
+  "englishName": "Gadwall",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Mareca"
+  },
+  "distribution": "GBIF 在中国记录于安徽、福建、河北、江苏、四川（5 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "安徽",
+   "福建",
+   "河北",
+   "江苏",
+   "四川"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498151",
+    "url": "https://www.gbif.org/species/2498151"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498151
+  }
+ },
+ {
+  "slug": "northern-shoveler",
+  "nameCn": "琵嘴鸭",
+  "aliases": [],
+  "scientificName": "Anas clypeata",
+  "englishName": "Northern Shoveler",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Spatula"
+  },
+  "distribution": "GBIF 在中国记录于四川、黑龙江、福建、甘肃、河北、江苏（6 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "四川",
+   "黑龙江",
+   "福建",
+   "甘肃",
+   "河北",
+   "江苏"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498089",
+    "url": "https://www.gbif.org/species/2498089"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498089
+  }
+ },
+ {
+  "slug": "ferruginous-duck",
+  "nameCn": "白眼潜鸭",
+  "aliases": [],
+  "scientificName": "Aythya nyroca",
+  "englishName": "Ferruginous Duck",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Aythya"
+  },
+  "distribution": "GBIF 在中国记录于北京、天津、四川、云南、青海、浙江 等（29 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "天津",
+   "四川",
+   "云南",
+   "青海",
+   "浙江",
+   "新疆",
+   "山东",
+   "上海",
+   "江苏",
+   "河北",
+   "甘肃",
+   "西藏",
+   "陕西",
+   "辽宁",
+   "河南",
+   "贵州",
+   "江西",
+   "吉林",
+   "广东",
+   "宁夏",
+   "湖北",
+   "安徽",
+   "山西",
+   "黑龙江",
+   "湖南",
+   "广西",
+   "重庆",
+   "福建"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498259",
+    "url": "https://www.gbif.org/species/2498259"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498259
+  }
+ },
+ {
+  "slug": "baers-pochard",
+  "nameCn": "青头潜鸭",
+  "aliases": [],
+  "scientificName": "Aythya baeri",
+  "englishName": "Baer's Pochard",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Aythya"
+  },
+  "distribution": "GBIF 在中国记录于北京、江苏、四川、浙江、天津、河北 等（26 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "江苏",
+   "四川",
+   "浙江",
+   "天津",
+   "河北",
+   "江西",
+   "上海",
+   "山东",
+   "湖北",
+   "安徽",
+   "河南",
+   "辽宁",
+   "云南",
+   "吉林",
+   "黑龙江",
+   "湖南",
+   "陕西",
+   "山西",
+   "广东",
+   "贵州",
+   "福建",
+   "广西",
+   "重庆",
+   "香港",
+   "青海"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498260",
+    "url": "https://www.gbif.org/species/2498260"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498260
+  }
+ },
+ {
+  "slug": "common-pochard",
+  "nameCn": "红头潜鸭",
+  "aliases": [],
+  "scientificName": "Aythya ferina",
+  "englishName": "Common Pochard",
+  "group": "bird",
+  "groupLabel": "鸟纲",
+  "taxonomy": {
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Aythya"
+  },
+  "distribution": "GBIF 在中国记录于北京、上海、江苏、浙江、四川、云南 等（29 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "上海",
+   "江苏",
+   "浙江",
+   "四川",
+   "云南",
+   "天津",
+   "青海",
+   "山东",
+   "新疆",
+   "辽宁",
+   "河北",
+   "江西",
+   "河南",
+   "湖北",
+   "吉林",
+   "甘肃",
+   "陕西",
+   "广东",
+   "黑龙江",
+   "安徽",
+   "山西",
+   "西藏",
+   "福建",
+   "贵州",
+   "湖南",
+   "宁夏",
+   "重庆",
+   "海南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2498255",
+    "url": "https://www.gbif.org/species/2498255"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2498255
+  }
+ },
+ {
+  "slug": "king-ratsnake",
+  "nameCn": "王锦蛇",
+  "aliases": [],
+  "scientificName": "Elaphe carinata",
+  "englishName": "King Ratsnake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Colubridae",
+   "genus": "Elaphe"
+  },
+  "distribution": "GBIF 在中国记录于浙江、云南、福建、江西、贵州、四川 等（19 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "浙江",
+   "云南",
+   "福建",
+   "江西",
+   "贵州",
+   "四川",
+   "江苏",
+   "北京",
+   "湖北",
+   "安徽",
+   "湖南",
+   "广东",
+   "陕西",
+   "河北",
+   "重庆",
+   "广西",
+   "山东",
+   "河南",
+   "台湾"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2458466",
+    "url": "https://www.gbif.org/species/2458466"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2458466
+  }
+ },
+ {
+  "slug": "black-browed-ratsnake",
+  "nameCn": "黑眉锦蛇",
+  "aliases": [],
+  "scientificName": "Elaphe taeniura",
+  "englishName": "Black-browed Ratsnake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Colubridae",
+   "genus": "Elaphe"
+  },
+  "distribution": "GBIF 在中国记录于云南、四川、浙江、北京、上海、广东 等（25 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "云南",
+   "四川",
+   "浙江",
+   "北京",
+   "上海",
+   "广东",
+   "安徽",
+   "江苏",
+   "福建",
+   "贵州",
+   "江西",
+   "湖北",
+   "湖南",
+   "重庆",
+   "陕西",
+   "河南",
+   "海南",
+   "山东",
+   "广西",
+   "河北",
+   "台湾",
+   "天津",
+   "甘肃",
+   "香港",
+   "山西"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 8889878",
+    "url": "https://www.gbif.org/species/8889878"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 8889878
+  }
+ },
+ {
+  "slug": "amur-ratsnake",
+  "nameCn": "棕黑锦蛇",
+  "aliases": [],
+  "scientificName": "Elaphe schrenckii",
+  "englishName": "Amur Ratsnake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Colubridae",
+   "genus": "Elaphe"
+  },
+  "distribution": "GBIF 在中国记录于吉林、黑龙江、辽宁、河北、安徽、上海 等（7 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "吉林",
+   "黑龙江",
+   "辽宁",
+   "河北",
+   "安徽",
+   "上海",
+   "浙江"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2458438",
+    "url": "https://www.gbif.org/species/2458438"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2458438
+  }
+ },
+ {
+  "slug": "steppe-ratsnake",
+  "nameCn": "白条锦蛇",
+  "aliases": [],
+  "scientificName": "Elaphe dione",
+  "englishName": "Steppe Ratsnake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Colubridae",
+   "genus": "Elaphe"
+  },
+  "distribution": "GBIF 在中国记录于北京、山东、吉林、黑龙江、宁夏、辽宁 等（18 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "山东",
+   "吉林",
+   "黑龙江",
+   "宁夏",
+   "辽宁",
+   "河北",
+   "甘肃",
+   "山西",
+   "陕西",
+   "天津",
+   "新疆",
+   "河南",
+   "上海",
+   "青海",
+   "安徽",
+   "江苏",
+   "四川"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2458400",
+    "url": "https://www.gbif.org/species/2458400"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2458400
+  }
+ },
+ {
+  "slug": "red-backed-ratsnake",
+  "nameCn": "红点锦蛇",
+  "aliases": [],
+  "scientificName": "Elaphe rufodorsata",
+  "englishName": "Red-backed Ratsnake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Colubridae",
+   "genus": "Oocatochus"
+  },
+  "distribution": "GBIF 在中国记录于江苏、安徽、江西、浙江、天津、上海 等（7 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "江苏",
+   "安徽",
+   "江西",
+   "浙江",
+   "天津",
+   "上海",
+   "海南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5789764",
+    "url": "https://www.gbif.org/species/5789764"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5789764
+  }
+ },
+ {
+  "slug": "davids-ratsnake",
+  "nameCn": "团花锦蛇",
+  "aliases": [],
+  "scientificName": "Elaphe davidi",
+  "englishName": "David's Ratsnake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Colubridae",
+   "genus": "Elaphe"
+  },
+  "distribution": "GBIF 在中国记录于北京、山东、山西、辽宁（4 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "山东",
+   "山西",
+   "辽宁"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2458477",
+    "url": "https://www.gbif.org/species/2458477"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2458477
+  }
+ },
+ {
+  "slug": "indochinese-ratsnake",
+  "nameCn": "灰鼠蛇",
+  "aliases": [],
+  "scientificName": "Ptyas korros",
+  "englishName": "Indochinese Ratsnake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Colubridae",
+   "genus": "Ptyas"
+  },
+  "distribution": "GBIF 在中国记录于广东、云南、海南、福建、江西、贵州 等（12 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "广东",
+   "云南",
+   "海南",
+   "福建",
+   "江西",
+   "贵州",
+   "广西",
+   "香港",
+   "澳门",
+   "湖南",
+   "上海",
+   "湖北"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5224050",
+    "url": "https://www.gbif.org/species/5224050"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5224050
+  }
+ },
+ {
+  "slug": "oriental-ratsnake",
+  "nameCn": "滑鼠蛇",
+  "aliases": [],
+  "scientificName": "Ptyas mucosus",
+  "englishName": "Oriental Ratsnake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Colubridae",
+   "genus": "Ptyas"
+  },
+  "distribution": "GBIF 在中国记录于广东、海南、福建、香港、广西、云南 等（10 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "广东",
+   "海南",
+   "福建",
+   "香港",
+   "广西",
+   "云南",
+   "澳门",
+   "湖北",
+   "江苏",
+   "四川"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5224052",
+    "url": "https://www.gbif.org/species/5224052"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5224052
+  }
+ },
+ {
+  "slug": "big-eyed-ratsnake",
+  "nameCn": "乌梢蛇",
+  "aliases": [],
+  "scientificName": "Zaocys dhumnades",
+  "englishName": "Big-eyed Ratsnake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Colubridae",
+   "genus": "Zaocys"
+  },
+  "distribution": "GBIF 在中国记录于江西、安徽、上海、四川、江苏、浙江 等（7 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "江西",
+   "安徽",
+   "上海",
+   "四川",
+   "江苏",
+   "浙江",
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2457363",
+    "url": "https://www.gbif.org/species/2457363"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2457363
+  }
+ },
+ {
+  "slug": "chinese-water-snake",
+  "nameCn": "中国水蛇",
+  "aliases": [],
+  "scientificName": "Enhydris chinensis",
+  "englishName": "Chinese Water Snake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Homalopsidae",
+   "genus": "Myrrophis"
+  },
+  "distribution": "GBIF 在中国记录于海南、福建、广东、江西、香港（5 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "海南",
+   "福建",
+   "广东",
+   "江西",
+   "香港"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5224382",
+    "url": "https://www.gbif.org/species/5224382"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5224382
+  }
+ },
+ {
+  "slug": "chinese-coral-snake",
+  "nameCn": "中华珊瑚蛇",
+  "aliases": [],
+  "scientificName": "Sinomicrurus macclellandi",
+  "englishName": "Chinese Coral Snake",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Elapidae",
+   "genus": "Sinomicrurus"
+  },
+  "distribution": "GBIF 在中国记录于海南、香港、江西、云南（4 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "海南",
+   "香港",
+   "江西",
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2470516",
+    "url": "https://www.gbif.org/species/2470516"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2470516
+  }
+ },
+ {
+  "slug": "many-banded-krait",
+  "nameCn": "银环蛇",
+  "aliases": [],
+  "scientificName": "Bungarus multicinctus",
+  "englishName": "Many-banded Krait",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Elapidae",
+   "genus": "Bungarus"
+  },
+  "distribution": "GBIF 在中国记录于广东、浙江、福建、贵州、云南、海南 等（16 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "广东",
+   "浙江",
+   "福建",
+   "贵州",
+   "云南",
+   "海南",
+   "江西",
+   "广西",
+   "湖南",
+   "湖北",
+   "安徽",
+   "香港",
+   "四川",
+   "江苏",
+   "澳门",
+   "上海"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5226813",
+    "url": "https://www.gbif.org/species/5226813"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5226813
+  }
+ },
+ {
+  "slug": "banded-krait",
+  "nameCn": "金环蛇",
+  "aliases": [],
+  "scientificName": "Bungarus fasciatus",
+  "englishName": "Banded Krait",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Elapidae",
+   "genus": "Bungarus"
+  },
+  "distribution": "GBIF 在中国记录于广东、广西、海南、云南、香港（5 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "广东",
+   "广西",
+   "海南",
+   "云南",
+   "香港"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5226830",
+    "url": "https://www.gbif.org/species/5226830"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5226830
+  }
+ },
+ {
+  "slug": "chinese-cobra",
+  "nameCn": "眼镜蛇",
+  "aliases": [],
+  "scientificName": "Naja atra",
+  "englishName": "Chinese Cobra",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Elapidae",
+   "genus": "Naja"
+  },
+  "distribution": "GBIF 在中国记录于广东、浙江、福建、海南、贵州、江西 等（12 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "广东",
+   "浙江",
+   "福建",
+   "海南",
+   "贵州",
+   "江西",
+   "广西",
+   "湖南",
+   "安徽",
+   "香港",
+   "四川",
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2470319",
+    "url": "https://www.gbif.org/species/2470319"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2470319
+  }
+ },
+ {
+  "slug": "king-cobra",
+  "nameCn": "眼镜王蛇",
+  "aliases": [],
+  "scientificName": "Ophiophagus hannah",
+  "englishName": "King Cobra",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Elapidae",
+   "genus": "Ophiophagus"
+  },
+  "distribution": "GBIF 在中国记录于广东、云南、贵州、福建、西藏、海南 等（11 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "广东",
+   "云南",
+   "贵州",
+   "福建",
+   "西藏",
+   "海南",
+   "澳门",
+   "四川",
+   "广西",
+   "香港",
+   "江西"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2469850",
+    "url": "https://www.gbif.org/species/2469850"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2469850
+  }
+ },
+ {
+  "slug": "hundred-pace-viper",
+  "nameCn": "尖吻蝮",
+  "aliases": [],
+  "scientificName": "Deinagkistrodon acutus",
+  "englishName": "Hundred-pace Viper",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Viperidae",
+   "genus": "Deinagkistrodon"
+  },
+  "distribution": "GBIF 在中国记录于浙江、福建、江西、湖南、安徽、广西 等（11 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "浙江",
+   "福建",
+   "江西",
+   "湖南",
+   "安徽",
+   "广西",
+   "贵州",
+   "广东",
+   "四川",
+   "重庆",
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2444497",
+    "url": "https://www.gbif.org/species/2444497"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2444497
+  }
+ },
+ {
+  "slug": "short-tailed-mamushi",
+  "nameCn": "短尾蝮",
+  "aliases": [],
+  "scientificName": "Gloydius brevicaudus",
+  "englishName": "Short-tailed Mamushi",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Viperidae",
+   "genus": "Gloydius"
+  },
+  "distribution": "GBIF 在中国记录于浙江、江苏、安徽、北京、上海、江西 等（19 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "浙江",
+   "江苏",
+   "安徽",
+   "北京",
+   "上海",
+   "江西",
+   "湖北",
+   "河南",
+   "河北",
+   "湖南",
+   "辽宁",
+   "四川",
+   "重庆",
+   "陕西",
+   "贵州",
+   "吉林",
+   "山西",
+   "广东",
+   "山东"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2444545",
+    "url": "https://www.gbif.org/species/2444545"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2444545
+  }
+ },
+ {
+  "slug": "strauchs-pitviper",
+  "nameCn": "高原蝮",
+  "aliases": [],
+  "scientificName": "Gloydius strauchi",
+  "englishName": "Strauch's Pitviper",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Viperidae",
+   "genus": "Gloydius"
+  },
+  "distribution": "GBIF 在中国记录于四川（1 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "四川"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2444556",
+    "url": "https://www.gbif.org/species/2444556"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2444556
+  }
+ },
+ {
+  "slug": "chinese-lancehead",
+  "nameCn": "中国蝮蛇",
+  "aliases": [],
+  "scientificName": "Gloydius intermedius",
+  "englishName": "Chinese Lancehead",
+  "group": "reptile",
+  "groupLabel": "爬行纲",
+  "taxonomy": {
+   "class": "Squamata",
+   "order": "",
+   "family": "Viperidae",
+   "genus": "Gloydius"
+  },
+  "distribution": "GBIF 在中国记录于吉林、黑龙江、辽宁、陕西、甘肃、内蒙古 等（8 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "吉林",
+   "黑龙江",
+   "辽宁",
+   "陕西",
+   "甘肃",
+   "内蒙古",
+   "西藏",
+   "新疆"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2444616",
+    "url": "https://www.gbif.org/species/2444616"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2444616
+  }
+ },
+ {
+  "slug": "yunnan-schizothorax",
+  "nameCn": "云南裂腹鱼",
+  "aliases": [],
+  "scientificName": "Schizothorax yunnanensis",
+  "englishName": "Yunnan Schizothorax",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Schizothorax"
+  },
+  "distribution": "GBIF 在中国记录于云南（1 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有物种收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 4286956",
+    "url": "https://www.gbif.org/species/4286956"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 4286956
+  }
+ },
+ {
+  "slug": "macropogon-schizothorax",
+  "nameCn": "巨须裂腹鱼",
+  "aliases": [],
+  "scientificName": "Schizothorax macropogon",
+  "englishName": "Macropogon Schizothorax",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Schizothorax"
+  },
+  "distribution": "GBIF 在中国记录于西藏（1 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "西藏"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有物种收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2363643",
+    "url": "https://www.gbif.org/species/2363643"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2363643
+  }
+ },
+ {
+  "slug": "walton-schizothorax",
+  "nameCn": "拉萨裂腹鱼",
+  "aliases": [],
+  "scientificName": "Schizothorax waltoni",
+  "englishName": "Walton's Schizothorax",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Schizothorax"
+  },
+  "distribution": "GBIF 中国观测记录不足，分布待进一步核验。",
+  "provinces": [],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有物种收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2363693",
+    "url": "https://www.gbif.org/species/2363693"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2363693
+  }
+ },
+ {
+  "slug": "dybowski-naked-carp",
+  "nameCn": "新疆裸重唇鱼",
+  "aliases": [],
+  "scientificName": "Gymnodiptychus dybowskii",
+  "englishName": "Dybowski's Naked Carp",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Gymnodiptychus"
+  },
+  "distribution": "GBIF 在中国记录于甘肃、新疆（2 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "甘肃",
+   "新疆"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2362516",
+    "url": "https://www.gbif.org/species/2362516"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2362516
+  }
+ },
+ {
+  "slug": "pachycheilus-naked-carp",
+  "nameCn": "厚唇裸重唇鱼",
+  "aliases": [],
+  "scientificName": "Gymnodiptychus pachycheilus",
+  "englishName": "Pachycheilus Naked Carp",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Gymnodiptychus"
+  },
+  "distribution": "GBIF 中国观测记录不足，分布待进一步核验。",
+  "provinces": [],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有物种收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2362513",
+    "url": "https://www.gbif.org/species/2362513"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2362513
+  }
+ },
+ {
+  "slug": "chinese-barb",
+  "nameCn": "中华倒刺鲃",
+  "aliases": [],
+  "scientificName": "Spinibarbus sinensis",
+  "englishName": "Chinese Barb",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Spinibarbus"
+  },
+  "distribution": "GBIF 在中国记录于四川、贵州（2 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "四川",
+   "贵州"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2365453",
+    "url": "https://www.gbif.org/species/2365453"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2365453
+  }
+ },
+ {
+  "slug": "holland-barb",
+  "nameCn": "光倒刺鲃",
+  "aliases": [],
+  "scientificName": "Spinibarbus hollandi",
+  "englishName": "Holland's Barb",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Spinibarbus"
+  },
+  "distribution": "GBIF 在中国记录于福建、广西、重庆、湖南（4 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "福建",
+   "广西",
+   "重庆",
+   "湖南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2365474",
+    "url": "https://www.gbif.org/species/2365474"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2365474
+  }
+ },
+ {
+  "slug": "yunnan-acrossocheilus",
+  "nameCn": "云南光唇鱼",
+  "aliases": [],
+  "scientificName": "Acrossocheilus yunnanensis",
+  "englishName": "Yunnan Acrossocheilus",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Acrossocheilus"
+  },
+  "distribution": "GBIF 在中国记录于贵州、云南、海南（3 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "贵州",
+   "云南",
+   "海南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有物种收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2366394",
+    "url": "https://www.gbif.org/species/2366394"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2366394
+  }
+ },
+ {
+  "slug": "pale-chub",
+  "nameCn": "宽鳍鱲",
+  "aliases": [],
+  "scientificName": "Zacco platypus",
+  "englishName": "Pale Chub",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Zacco"
+  },
+  "distribution": "GBIF 在中国记录于北京、山西、河南、四川、湖南、辽宁 等（15 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "山西",
+   "河南",
+   "四川",
+   "湖南",
+   "辽宁",
+   "广西",
+   "福建",
+   "河北",
+   "海南",
+   "香港",
+   "浙江",
+   "甘肃",
+   "广东",
+   "上海"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2365787",
+    "url": "https://www.gbif.org/species/2365787"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2365787
+  }
+ },
+ {
+  "slug": "chinese-hooksnout-carp",
+  "nameCn": "马口鱼",
+  "aliases": [],
+  "scientificName": "Opsariichthys bidens",
+  "englishName": "Chinese Hooksnout Carp",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Opsariichthys"
+  },
+  "distribution": "GBIF 在中国记录于北京、广西、山东、贵州、湖南、浙江 等（25 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "广西",
+   "山东",
+   "贵州",
+   "湖南",
+   "浙江",
+   "福建",
+   "山西",
+   "江苏",
+   "河北",
+   "河南",
+   "广东",
+   "陕西",
+   "四川",
+   "江西",
+   "湖北",
+   "安徽",
+   "重庆",
+   "云南",
+   "内蒙古",
+   "黑龙江",
+   "辽宁",
+   "甘肃",
+   "吉林",
+   "上海"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2365479",
+    "url": "https://www.gbif.org/species/2365479"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2365479
+  }
+ },
+ {
+  "slug": "black-carp",
+  "nameCn": "青鱼",
+  "aliases": [],
+  "scientificName": "Mylopharyngodon piceus",
+  "englishName": "Black Carp",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Mylopharyngodon"
+  },
+  "distribution": "GBIF 在中国记录于北京、江苏、上海、云南、湖北、广东 等（14 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "江苏",
+   "上海",
+   "云南",
+   "湖北",
+   "广东",
+   "贵州",
+   "湖南",
+   "山东",
+   "浙江",
+   "安徽",
+   "广西",
+   "河南",
+   "江西"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2362110",
+    "url": "https://www.gbif.org/species/2362110"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2362110
+  }
+ },
+ {
+  "slug": "grass-carp",
+  "nameCn": "草鱼",
+  "aliases": [],
+  "scientificName": "Ctenopharyngodon idella",
+  "englishName": "Grass Carp",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Ctenopharyngodon"
+  },
+  "distribution": "GBIF 在中国记录于广东、上海、北京、福建、江西、安徽 等（22 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "广东",
+   "上海",
+   "北京",
+   "福建",
+   "江西",
+   "安徽",
+   "浙江",
+   "江苏",
+   "河南",
+   "贵州",
+   "香港",
+   "山东",
+   "湖北",
+   "湖南",
+   "辽宁",
+   "四川",
+   "云南",
+   "甘肃",
+   "广西",
+   "河北",
+   "黑龙江",
+   "山西"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2362030",
+    "url": "https://www.gbif.org/species/2362030"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2362030
+  }
+ },
+ {
+  "slug": "silver-carp",
+  "nameCn": "鲢鱼",
+  "aliases": [],
+  "scientificName": "Hypophthalmichthys molitrix",
+  "englishName": "Silver Carp",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Hypophthalmichthys"
+  },
+  "distribution": "GBIF 在中国记录于江西、广东、上海、北京、内蒙古、江苏 等（22 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "江西",
+   "广东",
+   "上海",
+   "北京",
+   "内蒙古",
+   "江苏",
+   "山东",
+   "安徽",
+   "浙江",
+   "湖北",
+   "湖南",
+   "云南",
+   "山西",
+   "福建",
+   "河南",
+   "吉林",
+   "甘肃",
+   "广西",
+   "贵州",
+   "香港",
+   "辽宁",
+   "四川"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2362473",
+    "url": "https://www.gbif.org/species/2362473"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2362473
+  }
+ },
+ {
+  "slug": "bighead-carp",
+  "nameCn": "鳙鱼",
+  "aliases": [],
+  "scientificName": "Hypophthalmichthys nobilis",
+  "englishName": "Bighead Carp",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Hypophthalmichthys"
+  },
+  "distribution": "GBIF 在中国记录于江苏、浙江、山东、上海、北京、广东 等（19 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "江苏",
+   "浙江",
+   "山东",
+   "上海",
+   "北京",
+   "广东",
+   "江西",
+   "云南",
+   "河南",
+   "湖北",
+   "湖南",
+   "内蒙古",
+   "安徽",
+   "重庆",
+   "福建",
+   "贵州",
+   "山西",
+   "香港",
+   "吉林"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2362486",
+    "url": "https://www.gbif.org/species/2362486"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2362486
+  }
+ },
+ {
+  "slug": "bluntnose-bream",
+  "nameCn": "团头鲂",
+  "aliases": [],
+  "scientificName": "Megalobrama amblycephala",
+  "englishName": "Bluntnose Bream",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Megalobrama"
+  },
+  "distribution": "GBIF 在中国记录于上海、江苏、安徽、湖南、浙江、福建 等（7 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "上海",
+   "江苏",
+   "安徽",
+   "湖南",
+   "浙江",
+   "福建",
+   "湖北"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "strict",
+  "endemicNote": "按中国特有物种收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2362740",
+    "url": "https://www.gbif.org/species/2362740"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2362740
+  }
+ },
+ {
+  "slug": "predatory-carp",
+  "nameCn": "翘嘴鲌",
+  "aliases": [],
+  "scientificName": "Culter alburnus",
+  "englishName": "Predatory Carp",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Culter"
+  },
+  "distribution": "GBIF 在中国记录于浙江、北京、山东、江苏、广东、湖南 等（21 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "浙江",
+   "北京",
+   "山东",
+   "江苏",
+   "广东",
+   "湖南",
+   "上海",
+   "安徽",
+   "福建",
+   "辽宁",
+   "广西",
+   "贵州",
+   "河北",
+   "河南",
+   "湖北",
+   "江西",
+   "陕西",
+   "山西",
+   "四川",
+   "天津",
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2367642",
+    "url": "https://www.gbif.org/species/2367642"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2367642
+  }
+ },
+ {
+  "slug": "mongolian-carp",
+  "nameCn": "蒙古鲌",
+  "aliases": [],
+  "scientificName": "Culter mongolicus",
+  "englishName": "Mongolian Carp",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Chanodichthys"
+  },
+  "distribution": "GBIF 在中国记录于四川、湖南、上海（3 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "四川",
+   "湖南",
+   "上海"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2367645",
+    "url": "https://www.gbif.org/species/2367645"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2367645
+  }
+ },
+ {
+  "slug": "redfin-carp",
+  "nameCn": "红鳍原鲌",
+  "aliases": [],
+  "scientificName": "Cultrichthys erythropterus",
+  "englishName": "Redfin Carp",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Chanodichthys"
+  },
+  "distribution": "GBIF 在中国记录于广西、河南、湖南、江苏、山西、云南（6 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "广西",
+   "河南",
+   "湖南",
+   "江苏",
+   "山西",
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2367704",
+    "url": "https://www.gbif.org/species/2367704"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2367704
+  }
+ },
+ {
+  "slug": "silver-gudgeon",
+  "nameCn": "银鲴",
+  "aliases": [],
+  "scientificName": "Xenocypris argentea",
+  "englishName": "Silver Gudgeon",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Xenocypris"
+  },
+  "distribution": "GBIF 在中国记录于广西、河北、浙江、福建、广东、江苏 等（7 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "广西",
+   "河北",
+   "浙江",
+   "福建",
+   "广东",
+   "江苏",
+   "上海"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5205541",
+    "url": "https://www.gbif.org/species/5205541"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5205541
+  }
+ },
+ {
+  "slug": "yellowtail-gudgeon",
+  "nameCn": "黄尾鲴",
+  "aliases": [],
+  "scientificName": "Xenocypris davidi",
+  "englishName": "Yellowtail Gudgeon",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Xenocypris"
+  },
+  "distribution": "GBIF 在中国记录于安徽、福建、香港、湖北、湖南、云南（6 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "安徽",
+   "福建",
+   "香港",
+   "湖北",
+   "湖南",
+   "云南"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 5205558",
+    "url": "https://www.gbif.org/species/5205558"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 5205558
+  }
+ },
+ {
+  "slug": "chinese-bitterling",
+  "nameCn": "中华鳑鲏",
+  "aliases": [],
+  "scientificName": "Rhodeus sinensis",
+  "englishName": "Chinese Bitterling",
+  "group": "fish",
+  "groupLabel": "硬骨鱼纲",
+  "taxonomy": {
+   "class": "",
+   "order": "Cypriniformes",
+   "family": "Cyprinidae",
+   "genus": "Rhodeus"
+  },
+  "distribution": "GBIF 在中国记录于北京、上海、江苏、浙江、河北、山西 等（15 个省级行政区；观测记录汇总，非完整分布区）。",
+  "provinces": [
+   "北京",
+   "上海",
+   "江苏",
+   "浙江",
+   "河北",
+   "山西",
+   "云南",
+   "河南",
+   "辽宁",
+   "安徽",
+   "山东",
+   "江西",
+   "吉林",
+   "甘肃",
+   "湖北"
+  ],
+  "habitats": [],
+  "conservation": {
+   "status": "NE",
+   "label": "未评估",
+   "year": null,
+   "note": "等级待接入权威评估后复核。"
+  },
+  "morphology": "形态描述待补充，待依据权威图鉴核验后更新。",
+  "behavior": "行为与生境信息待补充，待依据权威资料核验后更新。",
+  "dietReproduction": "食性与繁殖信息待补充，待依据权威资料核验后更新。",
+  "endemic": "main",
+  "endemicNote": "按主要分布于中国收录，待名录复核。",
+  "sp2000": {
+   "id": null,
+   "url": "https://www.sp2000.org.cn/"
+  },
+  "sources": [
+   {
+    "name": "GBIF 分类与观测记录 · taxon 2360841",
+    "url": "https://www.gbif.org/species/2360841"
+   },
+   {
+    "name": "IUCN Red List（等级待核验）",
+    "url": "https://www.iucnredlist.org/"
+   }
+  ],
+  "verified": false,
+  "externalIds": {
+   "gbif": 2360841
+  }
+ }
+]

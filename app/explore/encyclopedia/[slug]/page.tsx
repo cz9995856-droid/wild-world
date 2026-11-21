@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { WcHeader } from "@/components/wildchina/wc-header";
 import { WcPhoto, WcCredit } from "@/components/wildchina/wc-photo";
+import { SpeciesTypeCard } from "@/components/species/species-type-card";
 import { SpeciesCard } from "@/components/species/species-card";
 import { ShareCardButton } from "@/components/species/share-card-button";
 import { CHINA_SPECIES, CHINA_SPECIES_BY_SLUG, speciesHref } from "@/lib/wildchina/species";
@@ -279,7 +280,11 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
               return (
                 <Link key={item.slug} href={speciesHref(item.slug)} className="hb-card hb-card-lift w-[168px] shrink-0">
                   <div className="relative aspect-[5/4] overflow-hidden bg-[var(--surface-2)]">
-                    <WcPhoto src={thumbUrl(image?.url) || null} alt={item.nameCn} sizes="168px" />
+                    {image?.url ? (
+                      <WcPhoto src={thumbUrl(image?.url) || null} alt={item.nameCn} sizes="168px" />
+                    ) : (
+                      <SpeciesTypeCard nameCn={item.nameCn} scientificName={item.scientificName} groupLabel={item.groupLabel} group={item.group} aspectRatio="5 / 4" />
+                    )}
                   </div>
                   <div className="px-2.5 py-2">
                     <p className="truncate text-[13px] font-bold">{item.nameCn}</p>
@@ -304,7 +309,11 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
               return (
                 <Link key={item.slug} href={speciesHref(item.slug)} className="hb-card hb-card-lift w-[220px] shrink-0">
                   <div className="relative aspect-[5/4] overflow-hidden bg-[var(--surface-2)]">
-                    <WcPhoto src={thumbUrl(image?.url) || null} alt={item.nameCn} sizes="220px" />
+                    {image?.url ? (
+                      <WcPhoto src={thumbUrl(image?.url) || null} alt={item.nameCn} sizes="220px" />
+                    ) : (
+                      <SpeciesTypeCard nameCn={item.nameCn} scientificName={item.scientificName} groupLabel={item.groupLabel} group={item.group} aspectRatio="5 / 4" />
+                    )}
                   </div>
                   <div className="px-3 py-2.5">
                     <p className="truncate text-[14px] font-bold">{item.nameCn}</p>

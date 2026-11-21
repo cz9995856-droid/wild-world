@@ -5,6 +5,7 @@ import { Band, EntryCard } from "@/components/youth/band";
 import { WcHeader } from "@/components/wildchina/wc-header";
 import { CollectionProgress, DailyQuiz, KnownCounter, ProvincePreview } from "@/components/home/explorer-home";
 import { ScrollRail } from "@/components/ui/scroll-rail";
+import { SpeciesTypeCard } from "@/components/species/species-type-card";
 import { cardUrl, getSpeciesImage } from "@/lib/wildchina/media";
 import { CHINA_SPECIES } from "@/lib/wildchina/species";
 
@@ -43,6 +44,7 @@ function mini(slug: string) {
   return {
     slug: species.slug,
     nameCn: species.nameCn,
+    scientificName: species.scientificName,
     group: species.group,
     groupLabel: species.groupLabel,
     thumb: cardUrl(getSpeciesImage(species.slug, "hero")?.url),
@@ -160,11 +162,21 @@ export default function HomePage() {
                 href={`/explore/encyclopedia/${item.slug}`}
                 className="y-card y-card-hover w-[190px] shrink-0 snap-start overflow-hidden"
               >
+                {item.thumb ? (
                 <span
                   className="block w-full bg-cover bg-center"
                   style={{ backgroundImage: `url("${item.thumb}")`, aspectRatio: "1 / 1" }}
                   aria-hidden="true"
                 />
+              ) : (
+                <SpeciesTypeCard
+                  nameCn={item.nameCn}
+                  scientificName={item.scientificName ?? ""}
+                  groupLabel={item.groupLabel}
+                  group={item.group}
+                  aspectRatio="1 / 1"
+                />
+              )}
                 <span className="block px-3 py-2.5">
                   <span className="block truncate text-[15px] font-bold">{item.nameCn}</span>
                   <span className="mt-0.5 block text-[11px] font-medium">{item.groupLabel} · 点开看看</span>

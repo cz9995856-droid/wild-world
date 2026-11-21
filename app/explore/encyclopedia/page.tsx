@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { WcHeader } from "@/components/wildchina/wc-header";
 import { WcPhoto } from "@/components/wildchina/wc-photo";
+import { SpeciesTypeCard } from "@/components/species/species-type-card";
 import { ChinaFavoriteButton } from "@/components/wildchina/china-favorite-button";
 import {
   CHINA_GROUPS,
@@ -238,13 +239,22 @@ export default async function ChinaEncyclopediaPage({
               >
                 <Link href={speciesHref(species.slug)} className="block">
                   <div className="relative aspect-[4/3] overflow-hidden bg-[var(--surface-2)]">
-                    <WcPhoto
-                      src={thumbUrl(image?.url) || null}
-                      alt={`${species.nameCn} ${species.scientificName}`}
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                      className="transition-transform duration-700 group-hover:scale-[1.04]"
-                      fallbackNote="待人工审核的授权图片"
-                    />
+                    {image?.url ? (
+                      <WcPhoto
+                        src={thumbUrl(image?.url) || null}
+                        alt={`${species.nameCn} ${species.scientificName}`}
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                        className="transition-transform duration-700 group-hover:scale-[1.04]"
+                      />
+                    ) : (
+                      <SpeciesTypeCard
+                        nameCn={species.nameCn}
+                        scientificName={species.scientificName}
+                        groupLabel={species.groupLabel}
+                        group={species.group}
+                        aspectRatio="4 / 3"
+                      />
+                    )}
                     {image && (
                       <p className="absolute bottom-2 left-0 right-0 truncate px-3 text-[8.5px] text-[#f3ede1]/80">
                         {image.source_name} · {image.author}

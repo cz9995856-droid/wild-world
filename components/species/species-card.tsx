@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import { Check, Heart, RotateCcw } from "lucide-react";
 import { WcPhoto } from "@/components/wildchina/wc-photo";
+import { SpeciesTypeCard } from "@/components/species/species-type-card";
 import { useUI } from "@/components/providers";
 import { cn } from "@/lib/utils";
 
@@ -100,7 +101,11 @@ export function SpeciesCard(props: SpeciesCardProps) {
             </span>
 
             <span className="relative mx-4 mt-3 block flex-1 overflow-hidden border border-[var(--line-strong)] bg-[var(--surface-2)]">
-              <WcPhoto src={image} alt={`${nameCn} 卡牌主视觉`} priority sizes="(max-width: 1024px) 100vw, 480px" fallbackLabel="影像待补" fallbackNote="尚未取得可核验的授权图片" />
+              {image ? (
+                <WcPhoto src={image} alt={`${nameCn} 卡牌主视觉`} priority sizes="(max-width: 1024px) 100vw, 480px" />
+              ) : (
+                <SpeciesTypeCard nameCn={nameCn} scientificName={scientificName} groupLabel={groupLabel} group={group} aspectRatio="auto" />
+              )}
               {imageNote && (
                 <span className="absolute left-2 top-2 bg-[color-mix(in_srgb,var(--ink)_86%,transparent)] px-2 py-1 text-[8.5px] text-[var(--paper)]">
                   {imageNote}

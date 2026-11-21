@@ -8,6 +8,7 @@ import { useUI } from "@/components/providers";
 export interface MiniSpecies {
   slug: string;
   nameCn: string;
+  scientificName?: string;
   group: string;
   groupLabel: string;
   thumb: string;

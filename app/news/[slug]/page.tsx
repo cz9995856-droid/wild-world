@@ -6,6 +6,7 @@ import { getNews, getNewsBySlug, getAllSpecies } from "@/lib/repository";
 import { NEWS_CATEGORY_LABEL, NEWS_SOURCES } from "@/lib/data/news-meta";
 import { DataBadge } from "@/components/ui/badges";
 import { OfficialSourceBar } from "@/components/ui/official-source";
+import { WcHeader } from "@/components/wildchina/wc-header";
 import { formatDate, formatDateTime } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
@@ -36,7 +37,11 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
   const sourceInfo = NEWS_SOURCES.find((s) => s.id === article.source_id);
 
   return (
-    <article className="pb-20 pt-[104px] sm:pt-[124px]">
+    <>
+      <div className="wc-nav-shell">
+        <WcHeader />
+      </div>
+      <article className="pb-20 pt-8 sm:pt-10">
       <div className="container-museum">
         <nav className="mb-8 flex flex-wrap items-center gap-2 text-[10px] text-[var(--muted)]" aria-label="面包屑">
           <Link href="/" className="hover:text-[var(--ink)]">首页</Link>
@@ -214,5 +219,6 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
         )}
       </div>
     </article>
+    </>
   );
 }

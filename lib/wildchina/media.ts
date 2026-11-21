@@ -8,7 +8,6 @@ import amphibianIllustrationRaw from "@/public/data/china-media-amphibians-illus
 import extraLocalizedRaw from "@/public/data/china-media-extra-localized.json";
 import habitatIllustrationsRaw from "@/public/data/china-habitat-illustrations.json";
 import batchRaw from "@/public/data/china-media-batch.json";
-import { CHINA_SPECIES_BY_SLUG } from "./species";
 
 export interface ChinaImage {
   url: string;
@@ -66,10 +65,8 @@ for (const [slug, entry] of Object.entries(ILLUSTRATIONS)) {
 const HABITAT_ILLUSTRATIONS = (habitatIllustrationsRaw as unknown as { species: Record<string, string> }).species;
 
 export function getSpeciesImage(slug: string, slot: ChinaMediaSlot): ChinaImage | null {
-  // 两栖物种统一使用汉字卡片，不再依赖批量抓取的低一致性图片
-  if (slot !== "habitat" && CHINA_SPECIES_BY_SLUG.get(slug)?.group === "amphibian") {
-    return null;
-  }
+  // 全部物种统一使用汉字卡片，真实影像通过卡片内的外部链接查看
+  if (slot !== "habitat") return null;
   const direct = CHINA_MEDIA[slug]?.[slot] ?? null;
   if (direct || slot !== "habitat") return direct;
   const scene = HABITAT_ILLUSTRATIONS[slug];

@@ -1,3 +1,5 @@
+"use client";
+
 const GROUP_COLOR: Record<string, string> = {
   mammal: "#b45309",
   bird: "#0369a1",
@@ -20,15 +22,20 @@ export function SpeciesTypeCard({
   groupLabel,
   group,
   aspectRatio = "1 / 1",
+  gbifId,
 }: {
   nameCn: string;
   scientificName: string;
   groupLabel: string;
   group: string;
   aspectRatio?: string;
+  gbifId?: number | null;
 }) {
   const accent = GROUP_COLOR[group] ?? "#1c1a17";
   const bg = GROUP_BG[group] ?? "#f4f1ea";
+  const imageUrl = gbifId
+    ? `https://www.gbif.org/species/${gbifId}`
+    : `https://www.inaturalist.org/taxa/search?q=${encodeURIComponent(scientificName)}`;
   return (
     <div className="species-type-card" style={{ aspectRatio, background: bg, color: accent }}>
       <span className="species-type-watermark" aria-hidden="true">
@@ -39,7 +46,15 @@ export function SpeciesTypeCard({
         <p className="species-type-name">{nameCn}</p>
         <p className="species-type-sci">{scientificName}</p>
       </div>
-      <span className="species-type-foot">WildChina · 汉字卡</span>
+      <a
+        href={imageUrl}
+        target="_blank"
+        rel="noreferrer"
+        className="species-type-foot underline"
+        onClick={(event) => event.stopPropagation()}
+      >
+        查看真实影像 ↗
+      </a>
     </div>
   );
 }

@@ -33,9 +33,21 @@ const RARE_BY_GROUP: Record<string, string[]> = {
 const QUIZ_SLUGS = ["odorrana-wuchuanensis", "hynobius-fucus", "andrias-davidianus", "giant-panda"];
 
 const FACTS = [
-  { text: "大熊猫抓竹子的「第六根手指」不是手指，是腕部一块变大的籽骨。", source: "动物卡 · 大熊猫" },
-  { text: "大鲵没有发育良好的肺，主要靠皮肤和口腔黏膜呼吸，所以水质一变它就撑不住。", source: "动物卡 · 大鲵" },
-  { text: "朱鹮繁殖期的粉色来自食物里的类胡萝卜素，不是天生粉。", source: "动物卡 · 朱鹮" },
+  {
+    text: "大熊猫抓竹子的「第六根手指」不是手指，是腕部一块变大的籽骨。",
+    source: "动物卡 · 大熊猫",
+    url: "https://www.inaturalist.org/taxa/search?q=Ailuropoda%20melanoleuca",
+  },
+  {
+    text: "大鲵没有发育良好的肺，主要靠皮肤和口腔黏膜呼吸，所以水质一变它就撑不住。",
+    source: "动物卡 · 大鲵",
+    url: "https://www.inaturalist.org/taxa/search?q=Andrias%20davidianus",
+  },
+  {
+    text: "朱鹮繁殖期的粉色来自食物里的类胡萝卜素，不是天生粉。",
+    source: "动物卡 · 朱鹮",
+    url: "https://www.inaturalist.org/taxa/search?q=Nipponia%20nippon",
+  },
 ];
 
 function mini(slug: string) {
@@ -198,16 +210,27 @@ export default function HomePage() {
 
       <div className="mt-5">
         <Band color="var(--band-mammal)">
-          <div className="flex items-center gap-3">
-            <Mascot mood="cheer" className="!h-14 !w-14" />
-            <h2 className="y-title text-[26px]">你知道吗</h2>
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex items-center gap-3">
+              <Mascot mood="cheer" className="!h-14 !w-14" />
+              <h2 className="y-title text-[26px]">你知道吗</h2>
+            </div>
+            <Link prefetch={false} href="/explore/fun-facts" className="y-tag y-press bg-[var(--surface)]">
+              更多冷知识
+            </Link>
           </div>
           <div className="mt-4 grid gap-3 sm:grid-cols-3">
             {FACTS.map((fact) => (
-              <div key={fact.text} className="y-card bg-[var(--surface)] p-4">
+              <a
+                key={fact.text}
+                href={fact.url}
+                target="_blank"
+                rel="noreferrer"
+                className="y-card y-card-hover block bg-[var(--surface)] p-4"
+              >
                 <p className="text-[13px] font-medium leading-relaxed">{fact.text}</p>
-                <p className="mt-2 text-[10px] font-bold">{fact.source}</p>
-              </div>
+                <p className="mt-2 text-[10px] font-bold">{fact.source} ↗</p>
+              </a>
             ))}
           </div>
         </Band>

@@ -2316,6 +2316,58 @@
     "review_status": "editorial",
     "ai_generated": false
    }
+  },
+  "tibetan-shrew": {
+   "hero": {
+    "url": "/media/batch/tibetan-shrew.jpg",
+    "author": "A. Risser",
+    "source_name": "GBIF 观测记录（全球）",
+    "source_url": "https://www.gbif.org/occurrence/1317294445",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/tibetan-shrew.jpg",
+    "author": "A. Risser",
+    "source_name": "GBIF 观测记录（全球）",
+    "source_url": "https://www.gbif.org/occurrence/1317294445",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "yellow-steppe-lemming": {
+   "hero": {
+    "url": "/media/batch/yellow-steppe-lemming.jpg",
+    "author": "GBIF 记录贡献者",
+    "source_name": "GBIF 观测记录（全球）",
+    "source_url": "https://www.gbif.org/occurrence/1320712479",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/yellow-steppe-lemming.jpg",
+    "author": "GBIF 记录贡献者",
+    "source_name": "GBIF 观测记录（全球）",
+    "source_url": "https://www.gbif.org/occurrence/1320712479",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
   }
  }
 }

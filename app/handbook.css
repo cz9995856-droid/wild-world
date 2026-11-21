@@ -92,6 +92,7 @@ body {
 .hb-card {
   background: var(--surface);
   border: 1px solid var(--line);
+  border-radius: var(--r-md);
   transition: transform 0.28s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.28s;
 }
 
@@ -115,6 +116,7 @@ body {
   align-items: center;
   gap: 6px;
   border: 1px solid var(--line-strong);
+  border-radius: 999px;
   padding: 3px 9px;
   font-size: 11px;
   letter-spacing: 0.06em;
@@ -140,6 +142,7 @@ body {
   justify-content: center;
   gap: 8px;
   min-height: 48px;
+  border-radius: 999px;
   padding: 0 22px;
   border: 1px solid var(--ink);
   background: var(--ink);

@@ -152,7 +152,7 @@ button {
   .card {
     background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: 4px;
+    border-radius: var(--r-md);
     transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.45s, border-color 0.45s;
   }
 
@@ -163,7 +163,7 @@ button {
   }
 
   .field {
-    @apply h-11 w-full rounded-xs border bg-transparent px-3 text-[13px] outline-none transition-colors;
+    @apply h-11 w-full rounded-full border bg-transparent px-4 text-[13px] outline-none transition-colors;
     border-color: var(--line-strong);
     color: var(--ink);
   }

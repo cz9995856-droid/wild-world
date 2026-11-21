@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { BookOpen, CalendarDays, Compass, Leaf, RotateCcw, Shield, Sparkles, Trophy } from "lucide-react";
+import Link from "next/link";
+import { ArrowRight, BookOpen, CalendarDays, Compass, Leaf, RotateCcw, Shield, Sparkles, Trophy } from "lucide-react";
 import type { QuizQuestion, QuizTopic } from "@/lib/types";
 import { QUIZ_BANK, QUIZ_BY_ID, QUIZ_TOPICS, questionsByDifficulty, questionsByTopic, topicCounts } from "@/lib/wildchina/quiz-bank";
 import {
@@ -53,7 +54,26 @@ function dailyQuestions(dateKey: string): QuizQuestion[] {
   return pool.slice(0, 10);
 }
 
-export function ChallengeCenter() {
+export interface SpeciesChallenge {
+  slug: string;
+  nameCn: string;
+  scientificName: string;
+  englishName: string;
+  groupLabel: string;
+  distribution: string;
+  provinces: string[];
+  conservation: { status: string; label: string; year: number | null; note: string };
+}
+
+export function ChallengeCenter({
+  species,
+  speciesQuestions = [],
+  bankCount = 0,
+}: {
+  species?: SpeciesChallenge | null;
+  speciesQuestions?: QuizQuestion[];
+  bankCount?: number;
+}) {
   const [store, setStore] = useState<QuizStore>({ version: 1, records: [] });
   const [mounted, setMounted] = useState(false);
   const [run, setRun] = useState<{ title: string; subtitle: string; questions: QuizQuestion[] } | null>(null);
@@ -98,6 +118,36 @@ export function ChallengeCenter() {
 
   return (
     <div className="space-y-8">
+      {species && (
+        <section className="border border-[var(--forest)] bg-[var(--surface)] p-5 sm:p-6">
+          <div className="flex flex-wrap items-start justify-between gap-4">
+            <div>
+              <p className="wc-kicker">Species Challenge · 物种专属挑战</p>
+              <h2 className="display mt-2 text-[26px]">{species.nameCn}的专属挑战</h2>
+              <p className="mt-1 font-serif text-[12px] italic text-[var(--muted)]">
+                {species.scientificName} · {species.englishName}
+              </p>
+              <p className="mt-3 max-w-2xl text-[12px] leading-relaxed text-[var(--ink-soft)]">{species.distribution}</p>
+              <p className="mt-2 text-[10px] text-[var(--muted)]">
+                共 {speciesQuestions.length} 题：馆藏精编题 {bankCount} 道 + 物种卡速测 {Math.max(0, speciesQuestions.length - bankCount)} 道。
+              </p>
+            </div>
+            <div className="flex flex-col items-start gap-2 sm:items-end">
+              <button
+                onClick={() => start(`${species.nameCn}专属挑战`, "Species Challenge", speciesQuestions)}
+                disabled={speciesQuestions.length === 0}
+                className="hb-btn text-[12px] disabled:opacity-40"
+              >
+                开始挑战 <ArrowRight size={14} />
+              </button>
+              <Link href={`/explore/encyclopedia/${species.slug}`} className="text-[11px] underline">
+                返回{species.nameCn}物种卡
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
       <section className="border border-[var(--line)] bg-[var(--surface)] p-5 sm:p-6">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>

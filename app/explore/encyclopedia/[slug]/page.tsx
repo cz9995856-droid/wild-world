@@ -152,7 +152,7 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
             <Link href={`/explore/lab?species=${species.slug}#three-d`} className="hb-btn text-[12px]">
               进入生命实验室 <ExternalLink size={14} />
             </Link>
-            <Link href="/explore/challenge" className="hb-btn hb-btn-ghost text-[12px]">
+            <Link href={`/explore/challenge?species=${species.slug}`} className="hb-btn hb-btn-ghost text-[12px]">
               相关挑战 <ArrowRight size={14} />
             </Link>
           </div>
@@ -228,6 +228,25 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
               <p className="mt-2 text-[10px] leading-relaxed text-[var(--muted)]">
                 NE（未评估）不代表无危。本站现有 {NE_COUNT} 种（{NE_SHARE}%）尚无正式评估等级，引用时请回到原始名录核对。
               </p>
+            </DetailPanel>
+
+            <DetailPanel title="English Summary">
+              <p className="text-[12.5px] leading-relaxed text-[var(--ink-soft)]">
+                {species.nameCn} (<em>{species.scientificName}</em>
+                {species.englishName ? `, ${species.englishName}` : ""}) belongs to{" "}
+                {species.taxonomy.class || "class pending"} → {species.taxonomy.order || "order pending"} →{" "}
+                {species.taxonomy.family || "family pending"}.
+              </p>
+              <p className="mt-2 text-[12.5px] leading-relaxed text-[var(--ink-soft)]">
+                {species.endemic === "strict" ? "Endemic to China. " : "Mainly distributed in China. "}
+                {species.provinces.length
+                  ? `GBIF occurrence records in China: ${species.provinces.join(", ")} (observation-based, not a complete range).`
+                  : "GBIF occurrence data for China is limited; distribution pending verification."}
+              </p>
+              <p className="mt-2 text-[12.5px] leading-relaxed text-[var(--ink-soft)]">
+                Conservation status: {species.conservation.label} ({species.conservation.status}). {species.conservation.note}
+              </p>
+              <p className="mt-3 text-[10px] text-[var(--muted)]">本页正文以中文为主；以上为基于馆藏结构化数据生成的英文摘要，未逐条人工翻译。</p>
             </DetailPanel>
           </div>
         </div>
@@ -402,7 +421,7 @@ export default async function ChinaSpeciesDetailPage({ params }: { params: Promi
 
 function DetailPanel({ title, children, defaultOpen = false }: { title: string; children: React.ReactNode; defaultOpen?: boolean }) {
   return (
-    <details open={defaultOpen} className="border border-[var(--line)] bg-[var(--surface)]">
+    <details open={defaultOpen} className="overflow-hidden rounded-xl border border-[var(--line)] bg-[var(--surface)]">
       <summary className="cursor-pointer px-4 py-3 text-[13px] font-bold">{title}</summary>
       <div className="border-t border-[var(--line)] px-4 py-3">{children}</div>
     </details>

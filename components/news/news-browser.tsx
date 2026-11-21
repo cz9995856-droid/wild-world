@@ -1,8 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { Search, X } from "lucide-react";
+import { RefreshCw, Search, X } from "lucide-react";
 import type { NewsArticle } from "@/lib/types";
 import { NEWS_CATEGORIES } from "@/lib/data/news-meta";
 import { DataBadge } from "@/components/ui/badges";
@@ -11,22 +11,55 @@ import { formatDate, relativeTime } from "@/lib/utils";
 import { NewsArt } from "@/components/news/news-art";
 import type { NewsVisual } from "@/lib/news-visual";
 
-export function NewsBrowser({ articles, visuals }: { articles: NewsArticle[]; visuals?: Record<string, NewsVisual> }) {
+export function NewsBrowser({
+  articles,
+  visuals,
+  generatedAt: initialGeneratedAt,
+}: {
+  articles: NewsArticle[];
+  visuals?: Record<string, NewsVisual>;
+  generatedAt?: string | null;
+}) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
   const [source, setSource] = useState("all");
   const [status, setStatus] = useState("all");
   const [limit, setLimit] = useState(10);
+  const [items, setItems] = useState(articles);
+  const [generatedAt, setGeneratedAt] = useState<string | null>(initialGeneratedAt ?? null);
+  const [refreshing, setRefreshing] = useState(false);
+
+  async function refreshNews() {
+    setRefreshing(true);
+    try {
+      const res = await fetch("/api/news", { cache: "no-store" });
+      if (res.ok) {
+        const data = await res.json();
+        if (Array.isArray(data.articles) && data.articles.length) {
+          setItems(data.articles);
+          setGeneratedAt(data.generated_at ?? null);
+        }
+      }
+    } catch {
+      // 网络失败时保留当前数据
+    } finally {
+      setRefreshing(false);
+    }
+  }
+
+  useEffect(() => {
+    refreshNews();
+  }, []);
 
   const sources = useMemo(() => {
     const map = new Map<string, number>();
-    for (const a of articles) map.set(a.source_name, (map.get(a.source_name) ?? 0) + 1);
+    for (const a of items) map.set(a.source_name, (map.get(a.source_name) ?? 0) + 1);
     return [...map.entries()].sort((a, b) => b[1] - a[1]);
-  }, [articles]);
+  }, [items]);
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase().trim();
-    return articles.filter((a) => {
+    return items.filter((a) => {
       if (category !== "all" && a.category !== category) return false;
       if (source !== "all" && a.source_name !== source) return false;
       if (status !== "all" && a.review_status !== status) return false;
@@ -36,7 +69,7 @@ export function NewsBrowser({ articles, visuals }: { articles: NewsArticle[]; vi
         .toLowerCase()
         .includes(q);
     });
-  }, [articles, query, category, source, status]);
+  }, [items, query, category, source, status]);
 
   const shown = filtered.slice(0, limit);
 
@@ -91,7 +124,7 @@ export function NewsBrowser({ articles, visuals }: { articles: NewsArticle[]; vi
             全部
           </button>
           {NEWS_CATEGORIES.map((c) => {
-            const count = articles.filter((a) => a.category === c.key).length;
+            const count = items.filter((a) => a.category === c.key).length;
             return (
               <button
                 key={c.key}
@@ -111,6 +144,18 @@ export function NewsBrowser({ articles, visuals }: { articles: NewsArticle[]; vi
             );
           })}
           <span className="ml-auto shrink-0 text-[10px] text-[var(--muted)]">{filtered.length} 条</span>
+        </div>
+        <div className="mt-2 flex items-center gap-3 text-[10px] text-[var(--muted)]">
+          <span>最近同步 {generatedAt ? new Date(generatedAt).toLocaleString("zh-CN", { hour12: false }) : "待同步"}</span>
+          <button
+            onClick={refreshNews}
+            disabled={refreshing}
+            className="inline-flex items-center gap-1 underline disabled:opacity-50"
+            aria-label="检查新闻更新"
+          >
+            <RefreshCw size={11} className={refreshing ? "animate-spin" : ""} />
+            {refreshing ? "正在检查更新…" : "检查更新"}
+          </button>
         </div>
       </div>
 

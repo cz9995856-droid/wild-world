@@ -1,5 +1,8 @@
 name: News sync
 
+# 每天 UTC 02:00 同步 RSS 快照并推送回 cf-pages。
+# 注意：GitHub 定时任务只在默认分支生效，且长期不活跃的仓库会被自动暂停，
+# 需定期在 Actions 页确认；站点同时支持运行时超过 12 小时自动重抓 RSS 作为兜底。
 on:
   schedule:
     - cron: "0 2 * * *"
@@ -49,3 +52,8 @@ jobs:
             git commit -m "chore(wildchina): scheduled news sync"
             git push origin HEAD:cf-pages
           fi
+
+      - name: Trigger Cloudflare Pages deploy (optional)
+        if: ${{ secrets.CF_PAGES_DEPLOY_HOOK_URL != '' }}
+        run: |
+          curl -fsS -X POST "${{ secrets.CF_PAGES_DEPLOY_HOOK_URL }}" || echo "部署钩子调用失败，请检查 Cloudflare Pages 配置"

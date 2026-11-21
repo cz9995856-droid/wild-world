@@ -9,6 +9,7 @@ import { SOURCE_REGISTRY } from "@/lib/sources/registry";
 import { NEWS_SOURCES } from "@/lib/data/news-meta";
 import { applyEditorial } from "@/lib/data/news-editorial";
 import { INTEGRATION, NEWS_SNAPSHOT } from "@/lib/data/static-data";
+import { fetchNewsSnapshot, type NewsSnapshot } from "@/lib/data/news-fetch";
 import { readStore, type StoreShape } from "@/lib/store/content-store";
 import { hashString } from "@/lib/utils";
 
@@ -222,9 +223,37 @@ export async function getSpeciesAudio(slug: string): Promise<AudioEntry[]> {
   return all.filter((a) => a.species_slug === slug);
 }
 
+const NEWS_TTL_MS = 12 * 3600 * 1000;
+let newsSnapshot: NewsSnapshot = NEWS_SNAPSHOT as NewsSnapshot;
+let newsRefreshPromise: Promise<void> | null = null;
+
+async function refreshNewsSnapshot(): Promise<void> {
+  try {
+    const snapshot = await fetchNewsSnapshot();
+    if (snapshot.articles.length > 0) {
+      newsSnapshot = snapshot;
+    }
+  } catch (error) {
+    console.warn("新闻运行时刷新失败，继续使用旧快照：", error);
+  }
+}
+
+async function ensureFreshNews(): Promise<void> {
+  if (process.env.NEXT_PHASE === "phase-production-build") return;
+  const generatedAt = newsSnapshot.generated_at ? new Date(newsSnapshot.generated_at).getTime() : 0;
+  if (Date.now() - generatedAt < NEWS_TTL_MS) return;
+  if (!newsRefreshPromise) {
+    newsRefreshPromise = refreshNewsSnapshot().finally(() => {
+      newsRefreshPromise = null;
+    });
+  }
+  await newsRefreshPromise;
+}
+
 export async function getNews(): Promise<NewsArticle[]> {
+  await ensureFreshNews();
   const store = await readStore();
-  const snapshot = NEWS_SNAPSHOT.articles ?? [];
+  const snapshot = newsSnapshot.articles ?? [];
   const live = store.live_news ?? [];
   const deleted = new Set(store.news_deleted);
   const merged = new Map<string, NewsArticle>();
@@ -241,11 +270,12 @@ export async function getNewsBySlug(slug: string): Promise<NewsArticle | null> {
 }
 
 export async function getNewsMeta(): Promise<{ generated_at: string | null; errors: Array<{ source_id: string; message: string; at: string }>; count: number }> {
+  await ensureFreshNews();
   const store = await readStore();
   return {
-    generated_at: store.news_live_updated_at ?? NEWS_SNAPSHOT.generated_at ?? null,
-    errors: NEWS_SNAPSHOT.errors ?? [],
-    count: (NEWS_SNAPSHOT.articles?.length ?? 0) + (store.live_news?.length ?? 0),
+    generated_at: store.news_live_updated_at ?? newsSnapshot.generated_at ?? null,
+    errors: newsSnapshot.errors ?? [],
+    count: (newsSnapshot.articles?.length ?? 0) + (store.live_news?.length ?? 0),
   };
 }
 

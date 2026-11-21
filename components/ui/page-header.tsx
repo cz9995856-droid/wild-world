@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { WcHeader } from "@/components/wildchina/wc-header";
 
 export function PageHeader({
   kicker,
@@ -16,7 +17,11 @@ export function PageHeader({
   children?: React.ReactNode;
 }) {
   return (
-    <header className="relative border-b border-[var(--line)] pb-10 pt-[104px] sm:pb-14 sm:pt-[124px]">
+    <>
+      <div className="wc-nav-shell">
+        <WcHeader />
+      </div>
+      <header className="relative border-b border-[var(--line)] pb-10 pt-8 sm:pb-14 sm:pt-10">
       <div className="container-museum">
         {breadcrumbs && (
           <nav aria-label="面包屑" className="mb-6 flex flex-wrap items-center gap-2 text-[10px] text-[var(--muted)]">
@@ -49,5 +54,6 @@ export function PageHeader({
         {children && <div className="mt-8">{children}</div>}
       </div>
     </header>
+    </>
   );
 }

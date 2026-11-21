@@ -4,7 +4,7 @@ import path from "node:path";
 import sharp from "sharp";
 
 const ROOT = process.cwd();
-const SRC_DIRS = ["species", "pixabay", "habitat", "extra", "hero"];
+const SRC_DIRS = ["species", "pixabay", "habitat", "extra", "hero", "batch"];
 const THUMB_ROOT = path.join(ROOT, "public/media/thumbs");
 const WIDTH = 800;
 const QUALITY = 90;

@@ -1,0 +1,2321 @@
+{
+ "source": "iNaturalist / GBIF 观测媒体 / Wikimedia Commons",
+ "retrievedAt": "2026-11-21",
+ "note": "逐张记录作者、来源、许可；NC 素材仅用于非商业展示。",
+ "species": {
+  "tibetan-gazelle": {
+   "hero": {
+    "url": "/media/batch/tibetan-gazelle.jpg",
+    "author": "Ashwin Viswanathan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/46242429",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/tibetan-gazelle.jpg",
+    "author": "Ashwin Viswanathan",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/46242429",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "yangtze-finet": {
+   "hero": {
+    "url": "/media/batch/yangtze-finet.jpg",
+    "author": "Richard Fuller",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/59552974",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/yangtze-finet.jpg",
+    "author": "Richard Fuller",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/59552974",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "anhui-musk-deer": {
+   "hero": {
+    "url": "/media/batch/anhui-musk-deer.jpg",
+    "author": "User:מנחם.אל",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/121135633",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/anhui-musk-deer.jpg",
+    "author": "User:מנחם.אל",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/121135633",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "black-musk-deer": {
+   "hero": {
+    "url": "/media/batch/black-musk-deer.jpg",
+    "author": "中国物种信息系统（CSIS）",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/205081",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/black-musk-deer.jpg",
+    "author": "中国物种信息系统（CSIS）",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/205081",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "reeves-muntjac": {
+   "hero": {
+    "url": "/media/batch/reeves-muntjac.jpg",
+    "author": "Rob Pople",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/42134891",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/reeves-muntjac.jpg",
+    "author": "Rob Pople",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/42134891",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "black-muntjac": {
+   "hero": {
+    "url": "/media/batch/black-muntjac.jpg",
+    "author": "anonymous",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/56326727",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/black-muntjac.jpg",
+    "author": "anonymous",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/56326727",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "taiwan-serow": {
+   "hero": {
+    "url": "/media/batch/taiwan-serow.jpg",
+    "author": "Cheng-Tao Lin",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/62912975",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/taiwan-serow.jpg",
+    "author": "Cheng-Tao Lin",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/62912975",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "taiwan-macaque": {
+   "hero": {
+    "url": "/media/batch/taiwan-macaque.jpg",
+    "author": "葉子",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/61260558",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/taiwan-macaque.jpg",
+    "author": "葉子",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/61260558",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hainan-hare": {
+   "hero": {
+    "url": "/media/batch/hainan-hare.jpg",
+    "author": "上海科学技术出版社",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/218909",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/hainan-hare.jpg",
+    "author": "上海科学技术出版社",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/218909",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "helan-pika": {
+   "hero": {
+    "url": "/media/batch/helan-pika.jpg",
+    "author": "harleyzhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/711946182",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/helan-pika.jpg",
+    "author": "harleyzhang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/711946182",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "ili-pika": {
+   "hero": {
+    "url": "/media/batch/ili-pika.jpg",
+    "author": "Chermundy",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/64209045",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/ili-pika.jpg",
+    "author": "Chermundy",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/64209045",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "moupin-pika": {
+   "hero": {
+    "url": "/media/batch/moupin-pika.jpg",
+    "author": "madfox",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/5433533",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/moupin-pika.jpg",
+    "author": "madfox",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/5433533",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "gansu-zokor": {
+   "hero": {
+    "url": "/media/batch/gansu-zokor.jpg",
+    "author": "科学出版社",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/17770631",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/gansu-zokor.jpg",
+    "author": "科学出版社",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/17770631",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rothschild-zokor": {
+   "hero": {
+    "url": "/media/batch/rothschild-zokor.jpg",
+    "author": "科学出版社",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/17770614",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/rothschild-zokor.jpg",
+    "author": "科学出版社",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/17770614",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "skywalker-hoolock": {
+   "hero": {
+    "url": "/media/batch/skywalker-hoolock.jpg",
+    "author": "Lee E. Harding",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/10033083",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/skywalker-hoolock.jpg",
+    "author": "Lee E. Harding",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/10033083",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "myanmar-snub-nosed-monkey": {
+   "hero": {
+    "url": "/media/batch/myanmar-snub-nosed-monkey.jpg",
+    "author": "Eric.L.Chen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/249351045",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/myanmar-snub-nosed-monkey.jpg",
+    "author": "Eric.L.Chen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/249351045",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "kiang": {
+   "hero": {
+    "url": "/media/batch/kiang.jpg",
+    "author": "belgianchocolate",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/189892127",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/kiang.jpg",
+    "author": "belgianchocolate",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/189892127",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "bharal": {
+   "hero": {
+    "url": "/media/batch/bharal.jpg",
+    "author": "Fabrice Stoger",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/67395769",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/bharal.jpg",
+    "author": "Fabrice Stoger",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/67395769",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "chinese-goral": {
+   "hero": {
+    "url": "/media/batch/chinese-goral.jpg",
+    "author": "Fiver, der Hellseher",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/99918741",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/chinese-goral.jpg",
+    "author": "Fiver, der Hellseher",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/99918741",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "red-goral": {
+   "hero": {
+    "url": "/media/batch/red-goral.jpg",
+    "author": "T R Shankar Raman",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/354704675",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/red-goral.jpg",
+    "author": "T R Shankar Raman",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/354704675",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "aeretes-flying-squirrel": {
+   "hero": {
+    "url": "/media/batch/aeretes-flying-squirrel.jpg",
+    "author": "Foley Conifers",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/244753997",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/aeretes-flying-squirrel.jpg",
+    "author": "Foley Conifers",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/244753997",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "red-white-flying-squirrel": {
+   "hero": {
+    "url": "/media/batch/red-white-flying-squirrel.jpg",
+    "author": "pfaucher",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/27023088",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/red-white-flying-squirrel.jpg",
+    "author": "pfaucher",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/27023088",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "dian-vole": {
+   "hero": {
+    "url": "/media/batch/dian-vole.jpg",
+    "author": "rodent_enthusiast",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/314662148",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/dian-vole.jpg",
+    "author": "rodent_enthusiast",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/314662148",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "chinese-vole": {
+   "hero": {
+    "url": "/media/batch/chinese-vole.jpg",
+    "author": "H. Stevens",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1320716124",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/chinese-vole.jpg",
+    "author": "H. Stevens",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1320716124",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "large-toothed-vole": {
+   "hero": {
+    "url": "/media/batch/large-toothed-vole.jpg",
+    "author": "E. Heller",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1317996704",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/large-toothed-vole.jpg",
+    "author": "E. Heller",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1317996704",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "chinese-bamboo-rat": {
+   "hero": {
+    "url": "/media/batch/chinese-bamboo-rat.jpg",
+    "author": "Biodiversity Heritage Library",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/32222101",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/chinese-bamboo-rat.jpg",
+    "author": "Biodiversity Heritage Library",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/32222101",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "chinese-pygmy-dormouse": {
+   "hero": {
+    "url": "/media/batch/chinese-pygmy-dormouse.jpg",
+    "author": "Alexei V. Abramov",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/18783171",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/chinese-pygmy-dormouse.jpg",
+    "author": "Alexei V. Abramov",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/18783171",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "chinese-shrew-hedgehog": {
+   "hero": {
+    "url": "/media/batch/chinese-shrew-hedgehog.jpg",
+    "author": "tim_dinh",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/104478325",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/chinese-shrew-hedgehog.jpg",
+    "author": "tim_dinh",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/104478325",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "emei-shrew-mole": {
+   "hero": {
+    "url": "/media/batch/emei-shrew-mole.jpg",
+    "author": "W. Zappey",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1317221696",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/emei-shrew-mole.jpg",
+    "author": "W. Zappey",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1317221696",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "sichuan-shrew-mole": {
+   "hero": {
+    "url": "/media/batch/sichuan-shrew-mole.jpg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/185978829",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/sichuan-shrew-mole.jpg",
+    "author": "通通",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/185978829",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "mandarin-vole": {
+   "hero": {
+    "url": "/media/batch/mandarin-vole.jpg",
+    "author": "A. Sowerby",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1317413242",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/mandarin-vole.jpg",
+    "author": "A. Sowerby",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1317413242",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "himalayan-marmot": {
+   "hero": {
+    "url": "/media/batch/himalayan-marmot.jpg",
+    "author": "James Hardcastle",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/15898781",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/himalayan-marmot.jpg",
+    "author": "James Hardcastle",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/15898781",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "long-tailed-marmot": {
+   "hero": {
+    "url": "/media/batch/long-tailed-marmot.jpg",
+    "author": "Glynn Morris",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/575326",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/long-tailed-marmot.jpg",
+    "author": "Glynn Morris",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/575326",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "grey-marmot": {
+   "hero": {
+    "url": "/media/batch/grey-marmot.jpg",
+    "author": "Alastair Rae",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/1150611",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/grey-marmot.jpg",
+    "author": "Alastair Rae",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/1150611",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "alashan-ground-squirrel": {
+   "hero": {
+    "url": "/media/batch/alashan-ground-squirrel.jpg",
+    "author": "Wang.QG",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/272430300",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/alashan-ground-squirrel.jpg",
+    "author": "Wang.QG",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/272430300",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "daurian-ground-squirrel": {
+   "hero": {
+    "url": "/media/batch/daurian-ground-squirrel.jpg",
+    "author": "Xavier Rufray",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/103054763",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/daurian-ground-squirrel.jpg",
+    "author": "Xavier Rufray",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/103054763",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "relict-ground-squirrel": {
+   "hero": {
+    "url": "/media/batch/relict-ground-squirrel.jpg",
+    "author": "Vladimir Yu. Arkhipov",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/28552321",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/relict-ground-squirrel.jpg",
+    "author": "Vladimir Yu. Arkhipov",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/28552321",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "cansus-pika": {
+   "hero": {
+    "url": "/media/batch/cansus-pika.jpg",
+    "author": "David Thomas",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/90268644",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/cansus-pika.jpg",
+    "author": "David Thomas",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/90268644",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "red-eared-pika": {
+   "hero": {
+    "url": "/media/batch/red-eared-pika.jpg",
+    "author": "mike_hoit",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/26577137",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/red-eared-pika.jpg",
+    "author": "mike_hoit",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/26577137",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "large-eared-pika": {
+   "hero": {
+    "url": "/media/batch/large-eared-pika.jpg",
+    "author": "Jan Ebr &amp; Ivana Ebrová",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/113367253",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/large-eared-pika.jpg",
+    "author": "Jan Ebr &amp; Ivana Ebrová",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/113367253",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "brown-eared-pheasant-mantchuricum": {
+   "hero": {
+    "url": "/media/batch/brown-eared-pheasant-mantchuricum.jpg",
+    "author": "Xavier Rufray",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/104405085",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/brown-eared-pheasant-mantchuricum.jpg",
+    "author": "Xavier Rufray",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/104405085",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tibetan-eared-pheasant-harmani": {
+   "hero": {
+    "url": "/media/batch/tibetan-eared-pheasant-harmani.jpg",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367800521",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/tibetan-eared-pheasant-harmani.jpg",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367800521",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "lady-amhersts-pheasant": {
+   "hero": {
+    "url": "/media/batch/lady-amhersts-pheasant.jpg",
+    "author": "Henry Koh",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/67441066",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/lady-amhersts-pheasant.jpg",
+    "author": "Henry Koh",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/67441066",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "mikado-pheasant": {
+   "hero": {
+    "url": "/media/batch/mikado-pheasant.jpg",
+    "author": "Jacy Chen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/189175119",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/mikado-pheasant.jpg",
+    "author": "Jacy Chen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/189175119",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "swinhoes-pheasant": {
+   "hero": {
+    "url": "/media/batch/swinhoes-pheasant.jpg",
+    "author": "Thibaud Aronson",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/37569217",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/swinhoes-pheasant.jpg",
+    "author": "Thibaud Aronson",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/37569217",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hainan-peacock-pheasant": {
+   "hero": {
+    "url": "/media/batch/hainan-peacock-pheasant.jpg",
+    "author": "Chen Zhiyang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/340026902",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/hainan-peacock-pheasant.jpg",
+    "author": "Chen Zhiyang",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/340026902",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "przevalskis-rock-partridge": {
+   "hero": {
+    "url": "/media/batch/przevalskis-rock-partridge.jpg",
+    "author": "Phil Benstead",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/127372128",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/przevalskis-rock-partridge.jpg",
+    "author": "Phil Benstead",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/127372128",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "chinese-bamboo-partridge": {
+   "hero": {
+    "url": "/media/batch/chinese-bamboo-partridge.jpg",
+    "author": "harum.koh",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/900758",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/chinese-bamboo-partridge.jpg",
+    "author": "harum.koh",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/900758",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "black-necked-crane": {
+   "hero": {
+    "url": "/media/batch/black-necked-crane.jpg",
+    "author": "egorbirder",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/260820140",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/black-necked-crane.jpg",
+    "author": "egorbirder",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/260820140",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "scaly-sided-merganser": {
+   "hero": {
+    "url": "/media/batch/scaly-sided-merganser.jpg",
+    "author": "BS Thurner Hof",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/13173091",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/scaly-sided-merganser.jpg",
+    "author": "BS Thurner Hof",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/13173091",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "white-eared-night-heron": {
+   "hero": {
+    "url": "/media/batch/white-eared-night-heron.jpg",
+    "author": "Division of Birds",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1320200068",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/white-eared-night-heron.jpg",
+    "author": "Division of Birds",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1320200068",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "chinese-crested-tern": {
+   "hero": {
+    "url": "/media/batch/chinese-crested-tern.jpg",
+    "author": "Christoph Moning",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/102382454",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/chinese-crested-tern.jpg",
+    "author": "Christoph Moning",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/102382454",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "saunderss-gull": {
+   "hero": {
+    "url": "/media/batch/saunderss-gull.jpg",
+    "author": "Division of Birds",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1320051112",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/saunderss-gull.jpg",
+    "author": "Division of Birds",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1320051112",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "alashan-redstart": {
+   "hero": {
+    "url": "/media/batch/alashan-redstart.jpg",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367800556",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/alashan-redstart.jpg",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367800556",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "white-browed-tit": {
+   "hero": {
+    "url": "/media/batch/white-browed-tit.jpg",
+    "author": "孫鋒 林",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/187261915",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/white-browed-tit.jpg",
+    "author": "孫鋒 林",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/187261915",
+    "license": "CC BY-SA",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "yellow-bellied-tit-venustulus": {
+   "hero": {
+    "url": "/media/batch/yellow-bellied-tit-venustulus.jpg",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://data.biodiversitydata.nl/xeno-canto/observation/XC1077404",
+    "license": "CC BY-NC-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/yellow-bellied-tit-venustulus.jpg",
+    "author": "Stichting Xeno-canto voor Natuurgeluiden",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://data.biodiversitydata.nl/xeno-canto/observation/XC1077404",
+    "license": "CC BY-NC-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rufous-capped-fulvetta": {
+   "hero": {
+    "url": "/media/batch/rufous-capped-fulvetta.jpg",
+    "author": "老爷子@中国鸟类图库",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2683270",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/rufous-capped-fulvetta.jpg",
+    "author": "老爷子@中国鸟类图库",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2683270",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "golden-fronted-fulvetta": {
+   "hero": {
+    "url": "/media/batch/golden-fronted-fulvetta.jpg",
+    "author": "coconut163@中国鸟类图库",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2683359",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/golden-fronted-fulvetta.jpg",
+    "author": "coconut163@中国鸟类图库",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2683359",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "nonggang-babbler": {
+   "hero": {
+    "url": "/media/batch/nonggang-babbler.jpg",
+    "author": "David McDonald",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/44273540",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/nonggang-babbler.jpg",
+    "author": "David McDonald",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/44273540",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "reed-parrotbill-heudei": {
+   "hero": {
+    "url": "/media/batch/reed-parrotbill-heudei.jpg",
+    "author": "mr_xiachun@中国鸟类图库",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2683226",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/reed-parrotbill-heudei.jpg",
+    "author": "mr_xiachun@中国鸟类图库",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2683226",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "sichuan-jay": {
+   "hero": {
+    "url": "/media/batch/sichuan-jay.jpg",
+    "author": "Dan Jones",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/442345833",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/sichuan-jay.jpg",
+    "author": "Dan Jones",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/442345833",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "tibetan-rosefinch": {
+   "hero": {
+    "url": "/media/batch/tibetan-rosefinch.jpg",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367800605",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/tibetan-rosefinch.jpg",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367800605",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "koslows-bunting": {
+   "hero": {
+    "url": "/media/batch/koslows-bunting.jpg",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367800225",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/koslows-bunting.jpg",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367800225",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "przewalskis-rosefinch": {
+   "hero": {
+    "url": "/media/batch/przewalskis-rosefinch.jpg",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367800538",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/przewalskis-rosefinch.jpg",
+    "author": "James Eaton",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/367800538",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "slaty-bunting": {
+   "hero": {
+    "url": "/media/batch/slaty-bunting.jpg",
+    "author": "Caiyongchen",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/338676847",
+    "license": "CC BY-NC 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/slaty-bunting.jpg",
+    "author": "Caiyongchen",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/338676847",
+    "license": "CC BY-NC 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "sukatschews-laughingthrush": {
+   "hero": {
+    "url": "/media/batch/sukatschews-laughingthrush.jpg",
+    "author": "Wang.QG",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/288756231",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/sukatschews-laughingthrush.jpg",
+    "author": "Wang.QG",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/288756231",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "davids-laughingthrush": {
+   "hero": {
+    "url": "/media/batch/davids-laughingthrush.jpg",
+    "author": "夏仲归",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/606895471",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/davids-laughingthrush.jpg",
+    "author": "夏仲归",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/606895471",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "spotted-laughingthrush": {
+   "hero": {
+    "url": "/media/batch/spotted-laughingthrush.jpg",
+    "author": "Division of Birds",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1318387074",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/spotted-laughingthrush.jpg",
+    "author": "Division of Birds",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.gbif.org/occurrence/1318387074",
+    "license": "CC0 1.0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "biet-thrush": {
+   "hero": {
+    "url": "/media/batch/biet-thrush.jpg",
+    "author": "byronswift",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/344304105",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/biet-thrush.jpg",
+    "author": "byronswift",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/344304105",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "giant-laughingthrush": {
+   "hero": {
+    "url": "/media/batch/giant-laughingthrush.jpg",
+    "author": "Chris D Thomas",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/346984929",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/giant-laughingthrush.jpg",
+    "author": "Chris D Thomas",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/346984929",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "elliotts-laughingthrush": {
+   "hero": {
+    "url": "/media/batch/elliotts-laughingthrush.jpg",
+    "author": "老爷子@中国鸟类图库",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/555201",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/elliotts-laughingthrush.jpg",
+    "author": "老爷子@中国鸟类图库",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/555201",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "chinese-hwamei": {
+   "hero": {
+    "url": "/media/batch/chinese-hwamei.jpg",
+    "author": "Stephen Matthews",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/29125661",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/chinese-hwamei.jpg",
+    "author": "Stephen Matthews",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/29125661",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "taiwan-blue-magpie": {
+   "hero": {
+    "url": "/media/batch/taiwan-blue-magpie.jpg",
+    "author": "Francesco Veronesi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/66604",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/taiwan-blue-magpie.jpg",
+    "author": "Francesco Veronesi",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/66604",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "taiwan-whistling-thrush": {
+   "hero": {
+    "url": "/media/batch/taiwan-whistling-thrush.jpg",
+    "author": "葉子",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/61049018",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/taiwan-whistling-thrush.jpg",
+    "author": "葉子",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/61049018",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "white-whiskered-laughingthrush": {
+   "hero": {
+    "url": "/media/batch/white-whiskered-laughingthrush.jpg",
+    "author": "Dario Taraborelli",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/665388401",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/white-whiskered-laughingthrush.jpg",
+    "author": "Dario Taraborelli",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/665388401",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "taiwan-partridge": {
+   "hero": {
+    "url": "/media/batch/taiwan-partridge.jpg",
+    "author": "Iain Robson",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/47721510",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/taiwan-partridge.jpg",
+    "author": "Iain Robson",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/47721510",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "white-eared-sibia": {
+   "hero": {
+    "url": "/media/batch/white-eared-sibia.jpg",
+    "author": "Liu JimFood",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/12865025",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/white-eared-sibia.jpg",
+    "author": "Liu JimFood",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/12865025",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "rusty-laughingthrush": {
+   "hero": {
+    "url": "/media/batch/rusty-laughingthrush.jpg",
+    "author": "Tan Kok Hui",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/6932513",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/rusty-laughingthrush.jpg",
+    "author": "Tan Kok Hui",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/6932513",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "sichuan-treecreeper": {
+   "hero": {
+    "url": "/media/batch/sichuan-treecreeper.jpg",
+    "author": "Jonathan M",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/88700706",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/sichuan-treecreeper.jpg",
+    "author": "Jonathan M",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/88700706",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "streak-throated-fulvetta": {
+   "hero": {
+    "url": "/media/batch/streak-throated-fulvetta.jpg",
+    "author": "Tom Heijnen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/409412761",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/streak-throated-fulvetta.jpg",
+    "author": "Tom Heijnen",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/409412761",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "grey-hooded-fulvetta": {
+   "hero": {
+    "url": "/media/batch/grey-hooded-fulvetta.jpg",
+    "author": "老爷子@中国鸟类图库",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2683276",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/grey-hooded-fulvetta.jpg",
+    "author": "老爷子@中国鸟类图库",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/2683276",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "spectacled-parrotbill": {
+   "hero": {
+    "url": "/media/batch/spectacled-parrotbill.jpg",
+    "author": "Jay Pruett",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/197504464",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/spectacled-parrotbill.jpg",
+    "author": "Jay Pruett",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/197504464",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "zappeys-parrotbill": {
+   "hero": {
+    "url": "/media/batch/zappeys-parrotbill.jpg",
+    "author": "Wang.QG",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/219100653",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/zappeys-parrotbill.jpg",
+    "author": "Wang.QG",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/219100653",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "przewalskis-parrotbill": {
+   "hero": {
+    "url": "/media/batch/przewalskis-parrotbill.jpg",
+    "author": "Jiao Sun (孙娇)",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/220259215",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/przewalskis-parrotbill.jpg",
+    "author": "Jiao Sun (孙娇)",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/220259215",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "three-toed-parrotbill": {
+   "hero": {
+    "url": "/media/batch/three-toed-parrotbill.jpg",
+    "author": "leekelai",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/335803680",
+    "license": "CC BY-NC 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/three-toed-parrotbill.jpg",
+    "author": "leekelai",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/335803680",
+    "license": "CC BY-NC 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "emei-leaf-warbler": {
+   "hero": {
+    "url": "/media/batch/emei-leaf-warbler.jpg",
+    "author": "韩一墨",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/360829812",
+    "license": "CC BY-NC 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/emei-leaf-warbler.jpg",
+    "author": "韩一墨",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/360829812",
+    "license": "CC BY-NC 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "hainan-leaf-warbler": {
+   "hero": {
+    "url": "/media/batch/hainan-leaf-warbler.jpg",
+    "author": "desertnaturalist",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/38157096",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/hainan-leaf-warbler.jpg",
+    "author": "desertnaturalist",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/38157096",
+    "license": "CC BY",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "szechenys-monnal": {
+   "hero": {
+    "url": "/media/batch/szechenys-monnal.jpg",
+    "author": "Wang.QG",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/351095638",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/szechenys-monnal.jpg",
+    "author": "Wang.QG",
+    "source_name": "GBIF 观测记录",
+    "source_url": "https://www.inaturalist.org/observations/351095638",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "commercial_use": true,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  },
+  "obscure-monal-partridge": {
+   "hero": {
+    "url": "/media/batch/obscure-monal-partridge.jpg",
+    "author": "Jonathan M",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/87909825",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   },
+   "full": {
+    "url": "/media/batch/obscure-monal-partridge.jpg",
+    "author": "Jonathan M",
+    "source_name": "iNaturalist",
+    "source_url": "https://www.inaturalist.org/photos/87909825",
+    "license": "CC BY-NC",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "commercial_use": false,
+    "verified": true,
+    "review_status": "editorial",
+    "ai_generated": false
+   }
+  }
+ }
+}

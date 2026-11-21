@@ -1,0 +1,1715 @@
+{
+ "source": "GBIF",
+ "url": "https://www.gbif.org/",
+ "retrievedAt": "2026-11-21",
+ "note": "分类单元与省级观测记录来自 GBIF；省级分布为观测记录汇总，存在采样偏差，不代表完整分布区。",
+ "species": {
+  "yangtze-finet": {
+   "usageKey": 4352040,
+   "class": "Mammalia",
+   "order": "Cetacea",
+   "family": "Phocoenidae",
+   "genus": "Neophocaena",
+   "scientificName": "Neophocaena asiaeorientalis (Pilleri & Gihr, 1972)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "江苏",
+    "江西",
+    "安徽",
+    "上海",
+    "浙江",
+    "辽宁",
+    "山东",
+    "河北",
+    "湖北",
+    "湖南"
+   ],
+   "occurrenceCount": 785
+  },
+  "tibetan-gazelle": {
+   "usageKey": 2441149,
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Bovidae",
+   "genus": "Procapra",
+   "scientificName": "Procapra picticaudata Hodgson, 1846",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "四川",
+    "西藏",
+    "甘肃",
+    "新疆"
+   ],
+   "occurrenceCount": 324
+  },
+  "anhui-musk-deer": {
+   "usageKey": 4262221,
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Moschidae",
+   "genus": "Moschus",
+   "scientificName": "Moschus anhuiensis Wang, Hu & Yan, 1982",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "安徽"
+   ],
+   "occurrenceCount": 2
+  },
+  "black-musk-deer": {
+   "usageKey": 2440990,
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Moschidae",
+   "genus": "Moschus",
+   "scientificName": "Moschus fuscus Li, 1981",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "云南"
+   ],
+   "occurrenceCount": 1
+  },
+  "black-muntjac": {
+   "usageKey": 2440945,
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Cervidae",
+   "genus": "Muntiacus",
+   "scientificName": "Muntiacus crinifrons (Sclater, 1885)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "安徽",
+    "浙江"
+   ],
+   "occurrenceCount": 434
+  },
+  "reeves-muntjac": {
+   "usageKey": 2440946,
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Cervidae",
+   "genus": "Muntiacus",
+   "scientificName": "Muntiacus reevesi (Ogilby, 1839)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "安徽",
+    "四川",
+    "福建",
+    "浙江",
+    "江西",
+    "湖北",
+    "广东",
+    "贵州",
+    "甘肃",
+    "湖南",
+    "重庆",
+    "陕西",
+    "江苏",
+    "西藏"
+   ],
+   "occurrenceCount": 24626
+  },
+  "hainan-hare": {
+   "usageKey": 2436774,
+   "class": "Mammalia",
+   "order": "Lagomorpha",
+   "family": "Leporidae",
+   "genus": "Lepus",
+   "scientificName": "Lepus hainanus Swinhoe, 1870",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "海南"
+   ],
+   "occurrenceCount": 7
+  },
+  "taiwan-serow": {
+   "usageKey": 4262612,
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Bovidae",
+   "genus": "Capricornis",
+   "scientificName": "Capricornis swinhoei Gray, 1862",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [],
+   "occurrenceCount": 1
+  },
+  "taiwan-macaque": {
+   "usageKey": 2436615,
+   "class": "Mammalia",
+   "order": "Primates",
+   "family": "Cercopithecidae",
+   "genus": "Macaca",
+   "scientificName": "Macaca cyclopis (Swinhoe, 1863)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "台湾",
+    "福建"
+   ],
+   "occurrenceCount": 24
+  },
+  "helan-pika": {
+   "usageKey": 2436970,
+   "class": "Mammalia",
+   "order": "Lagomorpha",
+   "family": "Ochotonidae",
+   "genus": "Ochotona",
+   "scientificName": "Ochotona argentata Howell, 1928",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "宁夏",
+    "甘肃"
+   ],
+   "occurrenceCount": 10
+  },
+  "moupin-pika": {
+   "usageKey": 2436957,
+   "class": "Mammalia",
+   "order": "Lagomorpha",
+   "family": "Ochotonidae",
+   "genus": "Ochotona",
+   "scientificName": "Ochotona thibetana (A.Milne-Edwards, 1871)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "甘肃",
+    "青海",
+    "云南",
+    "湖北",
+    "陕西"
+   ],
+   "occurrenceCount": 414
+  },
+  "ili-pika": {
+   "usageKey": 2436969,
+   "class": "Mammalia",
+   "order": "Lagomorpha",
+   "family": "Ochotonidae",
+   "genus": "Ochotona",
+   "scientificName": "Ochotona iliensis Li & Ma, 1986",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "新疆"
+   ],
+   "occurrenceCount": 2
+  },
+  "gansu-zokor": {
+   "usageKey": 4264685,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Spalacidae",
+   "genus": "Eospalax",
+   "scientificName": "Eospalax smithii (Thomas, 1911)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "甘肃",
+    "四川"
+   ],
+   "occurrenceCount": 13
+  },
+  "rothschild-zokor": {
+   "usageKey": 4264686,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Spalacidae",
+   "genus": "Eospalax",
+   "scientificName": "Eospalax rothschildi (Thomas, 1911)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "甘肃",
+    "湖北"
+   ],
+   "occurrenceCount": 11
+  },
+  "qinling-zokor": {
+   "usageKey": 11698233,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Spalacidae",
+   "genus": "Eospalax",
+   "scientificName": "Eospalax rufescens (Allen, 1909)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [],
+   "occurrenceCount": 4
+  },
+  "skywalker-hoolock": {
+   "usageKey": 9533083,
+   "class": "Mammalia",
+   "order": "Primates",
+   "family": "Hylobatidae",
+   "genus": "Hoolock",
+   "scientificName": "Hoolock tianxing Peng-Fei Fan, Kai He, Xing Chen et al., 2017",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "云南"
+   ],
+   "occurrenceCount": 20
+  },
+  "kiang": {
+   "usageKey": 2440887,
+   "class": "Mammalia",
+   "order": "Perissodactyla",
+   "family": "Equidae",
+   "genus": "Equus",
+   "scientificName": "Equus kiang Moorcroft, 1841",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "西藏",
+    "四川",
+    "甘肃",
+    "新疆"
+   ],
+   "occurrenceCount": 256
+  },
+  "myanmar-snub-nosed-monkey": {
+   "usageKey": 8316890,
+   "class": "Mammalia",
+   "order": "Primates",
+   "family": "Cercopithecidae",
+   "genus": "Rhinopithecus",
+   "scientificName": "Rhinopithecus strykeri Geissmann, Ngwe Lwin, Saw Soe Aung, Thet Naing Aung, Zin Myo Aung, Tony Htin Hla et al., 2010",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [],
+   "occurrenceCount": 0
+  },
+  "chinese-goral": {
+   "usageKey": 7261419,
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Bovidae",
+   "genus": "Naemorhedus",
+   "scientificName": "Naemorhedus griseus (Milne-Edwards, 1871)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "北京",
+    "陕西",
+    "河北",
+    "湖北",
+    "甘肃",
+    "黑龙江",
+    "重庆",
+    "山西"
+   ],
+   "occurrenceCount": 292
+  },
+  "bharal": {
+   "usageKey": 2441008,
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Bovidae",
+   "genus": "Pseudois",
+   "scientificName": "Pseudois nayaur (Hodgson, 1833)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "四川",
+    "西藏",
+    "宁夏",
+    "甘肃",
+    "新疆",
+    "云南"
+   ],
+   "occurrenceCount": 590
+  },
+  "tibetan-argali": {
+   "usageKey": 11853881,
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Bovidae",
+   "genus": "Ovis",
+   "scientificName": "Ovis hodgsoni Blyth, 1841",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [],
+   "occurrenceCount": 0
+  },
+  "red-white-flying-squirrel": {
+   "usageKey": 5219696,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Sciuridae",
+   "genus": "Petaurista",
+   "scientificName": "Petaurista alborufus (Milne-Edwards, 1870)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "湖北",
+    "贵州",
+    "云南",
+    "广西",
+    "陕西",
+    "甘肃",
+    "湖南",
+    "重庆"
+   ],
+   "occurrenceCount": 81
+  },
+  "red-goral": {
+   "usageKey": 2441013,
+   "class": "Mammalia",
+   "order": "Artiodactyla",
+   "family": "Bovidae",
+   "genus": "Naemorhedus",
+   "scientificName": "Naemorhedus baileyi Pocock, 1914",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "西藏"
+   ],
+   "occurrenceCount": 8
+  },
+  "aeretes-flying-squirrel": {
+   "usageKey": 2437548,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Sciuridae",
+   "genus": "Aeretes",
+   "scientificName": "Aeretes melanopterus (Milne-Edwards, 1867)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "河北",
+    "北京",
+    "贵州",
+    "四川"
+   ],
+   "occurrenceCount": 27
+  },
+  "dian-vole": {
+   "usageKey": 10031398,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Cricetidae",
+   "genus": "Eothenomys",
+   "scientificName": "Eothenomys eleusis",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "云南",
+    "贵州"
+   ],
+   "occurrenceCount": 83
+  },
+  "yunnan-vole": {
+   "usageKey": 4265026,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Cricetidae",
+   "genus": "Eothenomys",
+   "scientificName": "Eothenomys miletus (Thomas, 1914)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "云南"
+   ],
+   "occurrenceCount": 259
+  },
+  "chinese-vole": {
+   "usageKey": 2438892,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Cricetidae",
+   "genus": "Eothenomys",
+   "scientificName": "Eothenomys chinensis (Thomas, 1891)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川"
+   ],
+   "occurrenceCount": 82
+  },
+  "chinese-pygmy-dormouse": {
+   "usageKey": 2437710,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Platacanthomyidae",
+   "genus": "Typhlomys",
+   "scientificName": "Typhlomys cinereus Milne-Edwards, 1877",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "福建",
+    "贵州"
+   ],
+   "occurrenceCount": 83
+  },
+  "large-toothed-vole": {
+   "usageKey": 2438895,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Cricetidae",
+   "genus": "Eothenomys",
+   "scientificName": "Eothenomys custos (Thomas, 1912)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "云南",
+    "四川"
+   ],
+   "occurrenceCount": 248
+  },
+  "chinese-bamboo-rat": {
+   "usageKey": 2438057,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Spalacidae",
+   "genus": "Rhizomys",
+   "scientificName": "Rhizomys sinensis Gray, 1831",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "福建",
+    "广东",
+    "西藏",
+    "云南",
+    "青海",
+    "浙江"
+   ],
+   "occurrenceCount": 147
+  },
+  "emei-shrew-mole": {
+   "usageKey": 2436254,
+   "class": "Mammalia",
+   "order": "Soricomorpha",
+   "family": "Talpidae",
+   "genus": "Uropsilus",
+   "scientificName": "Uropsilus andersoni (Thomas, 1911)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川"
+   ],
+   "occurrenceCount": 23
+  },
+  "chinese-shrew-hedgehog": {
+   "usageKey": 2437164,
+   "class": "Mammalia",
+   "order": "Erinaceomorpha",
+   "family": "Erinaceidae",
+   "genus": "Neotetracus",
+   "scientificName": "Neotetracus sinensis Trouessart, 1909",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "云南",
+    "四川",
+    "贵州",
+    "广西"
+   ],
+   "occurrenceCount": 124
+  },
+  "gracile-shrew-mole": {
+   "usageKey": 2436253,
+   "class": "Mammalia",
+   "order": "Soricomorpha",
+   "family": "Talpidae",
+   "genus": "Uropsilus",
+   "scientificName": "Uropsilus gracilis (Thomas, 1911)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "云南"
+   ],
+   "occurrenceCount": 227
+  },
+  "gansu-shrew": {
+   "usageKey": 2436113,
+   "class": "Mammalia",
+   "order": "Soricomorpha",
+   "family": "Soricidae",
+   "genus": "Sorex",
+   "scientificName": "Sorex cansulus Thomas, 1912",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "甘肃"
+   ],
+   "occurrenceCount": 16
+  },
+  "sichuan-shrew-mole": {
+   "usageKey": 2436252,
+   "class": "Mammalia",
+   "order": "Soricomorpha",
+   "family": "Talpidae",
+   "genus": "Uropsilus",
+   "scientificName": "Uropsilus soricipes Milne-Edwards, 1871",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "云南",
+    "湖北"
+   ],
+   "occurrenceCount": 477
+  },
+  "tibetan-shrew": {
+   "usageKey": 2436052,
+   "class": "Mammalia",
+   "order": "Soricomorpha",
+   "family": "Soricidae",
+   "genus": "Sorex",
+   "scientificName": "Sorex thibetanus Kastschenko, 1905",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "西藏"
+   ],
+   "occurrenceCount": 22
+  },
+  "yunnan-shrew": {
+   "usageKey": 2435950,
+   "class": "Mammalia",
+   "order": "Soricomorpha",
+   "family": "Soricidae",
+   "genus": "Sorex",
+   "scientificName": "Sorex excelsus G.M.Allen, 1923",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "云南",
+    "四川"
+   ],
+   "occurrenceCount": 12
+  },
+  "himalayan-marmot": {
+   "usageKey": 2437371,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Sciuridae",
+   "genus": "Marmota",
+   "scientificName": "Marmota himalayana (Hodgson, 1841)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "四川",
+    "甘肃",
+    "西藏",
+    "新疆",
+    "陕西",
+    "云南"
+   ],
+   "occurrenceCount": 594
+  },
+  "mandarin-vole": {
+   "usageKey": 2438404,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Cricetidae",
+   "genus": "Lasiopodomys",
+   "scientificName": "Lasiopodomys mandarinus (Milne-Edwards, 1871)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "山西",
+    "陕西",
+    "湖北"
+   ],
+   "occurrenceCount": 54
+  },
+  "alashan-ground-squirrel": {
+   "usageKey": 2437315,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Sciuridae",
+   "genus": "Spermophilus",
+   "scientificName": "Spermophilus alashanicus Büchner, 1888",
+   "matchType": "FUZZY",
+   "status": "ACCEPTED",
+   "provinces": [
+    "宁夏",
+    "甘肃",
+    "青海",
+    "山西"
+   ],
+   "occurrenceCount": 53
+  },
+  "long-tailed-marmot": {
+   "usageKey": 2437366,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Sciuridae",
+   "genus": "Marmota",
+   "scientificName": "Marmota caudata (Geoffroy, 1844)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "新疆"
+   ],
+   "occurrenceCount": 23
+  },
+  "grey-marmot": {
+   "usageKey": 8911743,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Sciuridae",
+   "genus": "Marmota",
+   "scientificName": "Marmota baibacina Kastschenko, 1899",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "新疆"
+   ],
+   "occurrenceCount": 79
+  },
+  "daurian-ground-squirrel": {
+   "usageKey": 2437294,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Sciuridae",
+   "genus": "Spermophilus",
+   "scientificName": "Spermophilus dauricus Brandt, 1843",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "甘肃",
+    "内蒙古",
+    "黑龙江",
+    "河北",
+    "辽宁",
+    "吉林",
+    "天津",
+    "宁夏",
+    "陕西",
+    "北京"
+   ],
+   "occurrenceCount": 219
+  },
+  "relict-ground-squirrel": {
+   "usageKey": 2437310,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Sciuridae",
+   "genus": "Spermophilus",
+   "scientificName": "Spermophilus relictus (Kashkarov, 1923)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "新疆"
+   ],
+   "occurrenceCount": 3
+  },
+  "long-tailed-ground-squirrel": {
+   "usageKey": 2437312,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Sciuridae",
+   "genus": "Urocitellus",
+   "scientificName": "Spermophilus undulatus (Pallas, 1778)",
+   "matchType": "EXACT",
+   "status": "SYNONYM",
+   "provinces": [],
+   "occurrenceCount": 4
+  },
+  "large-eared-pika": {
+   "usageKey": 2436971,
+   "class": "Mammalia",
+   "order": "Lagomorpha",
+   "family": "Ochotonidae",
+   "genus": "Ochotona",
+   "scientificName": "Ochotona macrotis (Günther, 1875)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "新疆",
+    "四川",
+    "西藏",
+    "青海"
+   ],
+   "occurrenceCount": 39
+  },
+  "cansus-pika": {
+   "usageKey": 2436996,
+   "class": "Mammalia",
+   "order": "Lagomorpha",
+   "family": "Ochotonidae",
+   "genus": "Ochotona",
+   "scientificName": "Ochotona cansus Lyon, 1907",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "甘肃",
+    "青海",
+    "西藏",
+    "山西"
+   ],
+   "occurrenceCount": 259
+  },
+  "red-eared-pika": {
+   "usageKey": 2437001,
+   "class": "Mammalia",
+   "order": "Lagomorpha",
+   "family": "Ochotonidae",
+   "genus": "Ochotona",
+   "scientificName": "Ochotona erythrotis (Büchner, 1890)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "四川",
+    "甘肃",
+    "西藏"
+   ],
+   "occurrenceCount": 159
+  },
+  "brown-eared-pheasant-mantchuricum": {
+   "usageKey": 2474098,
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Crossoptilon",
+   "scientificName": "Crossoptilon mantchuricum Swinhoe, 1863",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "山西",
+    "北京",
+    "河北",
+    "陕西"
+   ],
+   "occurrenceCount": 572
+  },
+  "przewalski-steppe-lemming": {
+   "usageKey": 2438164,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Cricetidae",
+   "genus": "Eolagurus",
+   "scientificName": "Eolagurus przewalskii (Büchner, 1889)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "内蒙古",
+    "青海",
+    "西藏"
+   ],
+   "occurrenceCount": 8
+  },
+  "yellow-steppe-lemming": {
+   "usageKey": 2438165,
+   "class": "Mammalia",
+   "order": "Rodentia",
+   "family": "Cricetidae",
+   "genus": "Eolagurus",
+   "scientificName": "Eolagurus luteus (Eversmann, 1840)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [],
+   "occurrenceCount": 0
+  },
+  "mikado-pheasant": {
+   "usageKey": 2473482,
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Syrmaticus",
+   "scientificName": "Syrmaticus mikado (Ogilvie-Grant, 1906)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "台湾"
+   ],
+   "occurrenceCount": 15
+  },
+  "lady-amhersts-pheasant": {
+   "usageKey": 5228033,
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Chrysolophus",
+   "scientificName": "Chrysolophus amherstiae (Leadbeater, 1829)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "云南",
+    "福建",
+    "广东",
+    "贵州",
+    "西藏"
+   ],
+   "occurrenceCount": 2004
+  },
+  "tibetan-eared-pheasant-harmani": {
+   "usageKey": 2474100,
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Crossoptilon",
+   "scientificName": "Crossoptilon harmani Elwes, 1881",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "西藏"
+   ],
+   "occurrenceCount": 431
+  },
+  "przevalskis-rock-partridge": {
+   "usageKey": 5228023,
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Alectoris",
+   "scientificName": "Alectoris magna (Przewalski, 1876)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "甘肃"
+   ],
+   "occurrenceCount": 808
+  },
+  "swinhoes-pheasant": {
+   "usageKey": 5227984,
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Lophura",
+   "scientificName": "Lophura swinhoii (Gould, 1863)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "台湾"
+   ],
+   "occurrenceCount": 25
+  },
+  "hainan-peacock-pheasant": {
+   "usageKey": 5788396,
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Polyplectron",
+   "scientificName": "Polyplectron katsumatae Rothschild, 1906",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "海南"
+   ],
+   "occurrenceCount": 117
+  },
+  "scaly-sided-merganser": {
+   "usageKey": 5232483,
+   "class": "Aves",
+   "order": "Anseriformes",
+   "family": "Anatidae",
+   "genus": "Mergus",
+   "scientificName": "Mergus squamatus Gould, 1864",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "浙江",
+    "江西",
+    "北京",
+    "四川",
+    "上海",
+    "安徽",
+    "吉林",
+    "陕西",
+    "广东",
+    "福建",
+    "黑龙江",
+    "山东",
+    "湖北",
+    "江苏",
+    "重庆",
+    "河南",
+    "湖南",
+    "辽宁",
+    "贵州",
+    "青海",
+    "天津",
+    "广西",
+    "山西",
+    "云南"
+   ],
+   "occurrenceCount": 1406
+  },
+  "chinese-bamboo-partridge": {
+   "usageKey": 5227939,
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Bambusicola",
+   "scientificName": "Bambusicola thoracicus (Temminck, 1815)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "浙江",
+    "四川",
+    "福建",
+    "江西",
+    "江苏",
+    "湖北",
+    "广东",
+    "陕西",
+    "贵州",
+    "重庆",
+    "安徽",
+    "湖南",
+    "广西",
+    "河南",
+    "台湾",
+    "上海",
+    "甘肃",
+    "云南"
+   ],
+   "occurrenceCount": 8137
+  },
+  "black-necked-crane": {
+   "usageKey": 2474960,
+   "class": "Aves",
+   "order": "Gruiformes",
+   "family": "Gruidae",
+   "genus": "Grus",
+   "scientificName": "Grus nigricollis Prjevalsky, 1876",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "青海",
+    "西藏",
+    "云南",
+    "贵州",
+    "甘肃",
+    "新疆"
+   ],
+   "occurrenceCount": 2464
+  },
+  "white-eared-night-heron": {
+   "usageKey": 2480838,
+   "class": "Aves",
+   "order": "Pelecaniformes",
+   "family": "Ardeidae",
+   "genus": "Gorsachius",
+   "scientificName": "Gorsachius magnificus (Ogilvie-Grant, 1899)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "广东",
+    "浙江",
+    "福建",
+    "广西",
+    "江西",
+    "安徽",
+    "海南",
+    "湖南",
+    "四川"
+   ],
+   "occurrenceCount": 180
+  },
+  "chinese-crested-tern": {
+   "usageKey": 6065837,
+   "class": "Aves",
+   "order": "Charadriiformes",
+   "family": "Laridae",
+   "genus": "Thalasseus",
+   "scientificName": "Thalasseus bernsteini (Schlegel, 1863)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "浙江",
+    "山东",
+    "福建",
+    "江苏",
+    "上海",
+    "广东"
+   ],
+   "occurrenceCount": 1082
+  },
+  "saunderss-gull": {
+   "usageKey": 2481145,
+   "class": "Aves",
+   "order": "Charadriiformes",
+   "family": "Laridae",
+   "genus": "Chroicocephalus",
+   "scientificName": "Larus saundersi (Swinhoe, 1871)",
+   "matchType": "EXACT",
+   "status": "SYNONYM",
+   "provinces": [
+    "江苏",
+    "福建",
+    "辽宁"
+   ],
+   "occurrenceCount": 19
+  },
+  "alashan-redstart": {
+   "usageKey": 5231227,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Muscicapidae",
+   "genus": "Phoenicurus",
+   "scientificName": "Phoenicurus alaschanicus (Prjevalsky, 1876)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "宁夏",
+    "甘肃",
+    "北京"
+   ],
+   "occurrenceCount": 376
+  },
+  "white-browed-tit": {
+   "usageKey": 2487856,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Paridae",
+   "genus": "Poecile",
+   "scientificName": "Poecile superciliosus Prjevalsky, 1876",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "四川",
+    "西藏",
+    "甘肃"
+   ],
+   "occurrenceCount": 820
+  },
+  "relict-gull": {
+   "usageKey": 2481199,
+   "class": "Aves",
+   "order": "Charadriiformes",
+   "family": "Laridae",
+   "genus": "Ichthyaetus",
+   "scientificName": "Larus relictus Lönnberg, 1931",
+   "matchType": "EXACT",
+   "status": "SYNONYM",
+   "provinces": [],
+   "occurrenceCount": 1
+  },
+  "golden-fronted-fulvetta": {
+   "usageKey": 6090263,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Pellorneidae",
+   "genus": "Alcippe",
+   "scientificName": "Schoeniparus variegaticeps (Yen, 1932)",
+   "matchType": "EXACT",
+   "status": "SYNONYM",
+   "provinces": [
+    "四川",
+    "广西"
+   ],
+   "occurrenceCount": 293
+  },
+  "yellow-bellied-tit-venustulus": {
+   "usageKey": 6093849,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Paridae",
+   "genus": "Periparus",
+   "scientificName": "Pardaliparus venustulus (Swinhoe, 1870)",
+   "matchType": "EXACT",
+   "status": "SYNONYM",
+   "provinces": [
+    "江苏",
+    "湖北"
+   ],
+   "occurrenceCount": 150
+  },
+  "rufous-capped-fulvetta": {
+   "usageKey": 7341935,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Sylviidae",
+   "genus": "Fulvetta",
+   "scientificName": "Fulvetta ruficapilla (J.Verreaux, 1870)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "云南",
+    "四川",
+    "陕西",
+    "甘肃",
+    "贵州",
+    "湖北",
+    "重庆"
+   ],
+   "occurrenceCount": 1646
+  },
+  "nonggang-babbler": {
+   "usageKey": 5789000,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Timaliidae",
+   "genus": "Stachyris",
+   "scientificName": "Stachyris nonggangensis Fang & Aiwu, 2008",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "广西"
+   ],
+   "occurrenceCount": 222
+  },
+  "reed-parrotbill-heudei": {
+   "usageKey": 2493515,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Sylviidae",
+   "genus": "Paradoxornis",
+   "scientificName": "Paradoxornis heudei David, 1872",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "上海",
+    "北京",
+    "天津",
+    "河北",
+    "江苏",
+    "山东",
+    "浙江",
+    "辽宁",
+    "黑龙江",
+    "安徽",
+    "河南"
+   ],
+   "occurrenceCount": 6618
+  },
+  "sichuan-jay": {
+   "usageKey": 2482448,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Corvidae",
+   "genus": "Perisoreus",
+   "scientificName": "Perisoreus internigrans (Thayer & Bangs, 1912)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "甘肃",
+    "西藏",
+    "青海"
+   ],
+   "occurrenceCount": 346
+  },
+  "tibetan-rosefinch": {
+   "usageKey": 2494139,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Fringillidae",
+   "genus": "Carpodacus",
+   "scientificName": "Carpodacus roborowskii (Przewalski, 1887)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "西藏",
+    "四川"
+   ],
+   "occurrenceCount": 323
+  },
+  "przewalskis-rosefinch": {
+   "usageKey": 2494599,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Urocynchramidae",
+   "genus": "Urocynchramus",
+   "scientificName": "Urocynchramus pylzowi Przewalski, 1876",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "四川",
+    "西藏"
+   ],
+   "occurrenceCount": 613
+  },
+  "koslows-bunting": {
+   "usageKey": 2491483,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Emberizidae",
+   "genus": "Emberiza",
+   "scientificName": "Emberiza koslowi Bianchi, 1904",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "四川",
+    "西藏"
+   ],
+   "occurrenceCount": 269
+  },
+  "davids-laughingthrush": {
+   "usageKey": 10329905,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Leiothrichidae",
+   "genus": "Garrulax",
+   "scientificName": "Pterorhinus davidi Swinhoe, 1868",
+   "matchType": "EXACT",
+   "status": "SYNONYM",
+   "provinces": [
+    "北京",
+    "青海",
+    "甘肃",
+    "四川",
+    "河北",
+    "山西",
+    "陕西",
+    "宁夏",
+    "天津",
+    "西藏",
+    "辽宁",
+    "河南"
+   ],
+   "occurrenceCount": 7050
+  },
+  "slaty-bunting": {
+   "usageKey": 6100798,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Emberizidae",
+   "genus": "Emberiza",
+   "scientificName": "Emberiza siemsseni (G.H.Martens, 1906)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "浙江",
+    "湖北",
+    "陕西",
+    "安徽",
+    "湖南",
+    "重庆",
+    "甘肃",
+    "福建",
+    "河南",
+    "贵州",
+    "江西",
+    "宁夏",
+    "山西",
+    "云南",
+    "广西"
+   ],
+   "occurrenceCount": 1291
+  },
+  "sukatschews-laughingthrush": {
+   "usageKey": 2493461,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Leiothrichidae",
+   "genus": "Garrulax",
+   "scientificName": "Garrulax sukatschewi (Berezowski & Bianchi, 1891)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "甘肃"
+   ],
+   "occurrenceCount": 417
+  },
+  "biet-thrush": {
+   "usageKey": 2493439,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Leiothrichidae",
+   "genus": "Garrulax",
+   "scientificName": "Garrulax bieti (Oustalet, 1897)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "云南",
+    "四川"
+   ],
+   "occurrenceCount": 40
+  },
+  "giant-laughingthrush": {
+   "usageKey": 2493449,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Leiothrichidae",
+   "genus": "Garrulax",
+   "scientificName": "Garrulax maximus (J.Verreaux, 1870)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "青海",
+    "云南",
+    "甘肃",
+    "西藏"
+   ],
+   "occurrenceCount": 2565
+  },
+  "spotted-laughingthrush": {
+   "usageKey": 2493466,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Leiothrichidae",
+   "genus": "Garrulax",
+   "scientificName": "Garrulax lunulatus (J.Verreaux, 1870)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "云南"
+   ],
+   "occurrenceCount": 29
+  },
+  "elliotts-laughingthrush": {
+   "usageKey": 6101126,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Leiothrichidae",
+   "genus": "Trochalopteron",
+   "scientificName": "Trochalopteron elliotii J.Verreaux, 1870",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "青海",
+    "云南",
+    "甘肃",
+    "湖北",
+    "陕西",
+    "重庆",
+    "贵州",
+    "西藏",
+    "山西",
+    "河南",
+    "宁夏",
+    "湖南",
+    "山东"
+   ],
+   "occurrenceCount": 9492
+  },
+  "taiwan-blue-magpie": {
+   "usageKey": 2482421,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Corvidae",
+   "genus": "Urocissa",
+   "scientificName": "Urocissa caerulea Gould, 1863",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "河北",
+    "台湾"
+   ],
+   "occurrenceCount": 4
+  },
+  "chinese-hwamei": {
+   "usageKey": 2493479,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Leiothrichidae",
+   "genus": "Garrulax",
+   "scientificName": "Garrulax canorus (Linnaeus, 1758)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "浙江",
+    "广东",
+    "福建",
+    "上海",
+    "江苏",
+    "安徽",
+    "湖北",
+    "河南",
+    "湖南",
+    "江西",
+    "四川",
+    "广西",
+    "山东",
+    "台湾",
+    "云南",
+    "甘肃",
+    "陕西",
+    "北京",
+    "海南",
+    "贵州",
+    "香港",
+    "山西",
+    "重庆",
+    "辽宁"
+   ],
+   "occurrenceCount": 766
+  },
+  "taiwan-whistling-thrush": {
+   "usageKey": 5733816,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Muscicapidae",
+   "genus": "Myophonus",
+   "scientificName": "Myophonus insularis Gould, 1863",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [],
+   "occurrenceCount": 2
+  },
+  "taiwan-partridge": {
+   "usageKey": 2473654,
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Arborophila",
+   "scientificName": "Arborophila crudigularis (Swinhoe, 1864)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "台湾"
+   ],
+   "occurrenceCount": 24
+  },
+  "white-whiskered-laughingthrush": {
+   "usageKey": 6101127,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Leiothrichidae",
+   "genus": "Trochalopteron",
+   "scientificName": "Trochalopteron morrisonianum Ogilvie-Grant, 1906",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "台湾"
+   ],
+   "occurrenceCount": 3
+  },
+  "sichuan-treecreeper": {
+   "usageKey": 5789210,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Certhiidae",
+   "genus": "Certhia",
+   "scientificName": "Certhia tianquanensis G.Li, 1995",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "陕西",
+    "湖北"
+   ],
+   "occurrenceCount": 527
+  },
+  "white-eared-sibia": {
+   "usageKey": 2493394,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Leiothrichidae",
+   "genus": "Heterophasia",
+   "scientificName": "Heterophasia auricularis (Swinhoe, 1864)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "台湾"
+   ],
+   "occurrenceCount": 9
+  },
+  "rusty-laughingthrush": {
+   "usageKey": 9842437,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Leiothrichidae",
+   "genus": "Garrulax",
+   "scientificName": "Pterorhinus poecilorhynchus (Gould, 1863)",
+   "matchType": "EXACT",
+   "status": "SYNONYM",
+   "provinces": [],
+   "occurrenceCount": 1
+  },
+  "streak-throated-fulvetta": {
+   "usageKey": 6093439,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Sylviidae",
+   "genus": "Fulvetta",
+   "scientificName": "Fulvetta striaticollis (J.Verreaux, 1870)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "西藏",
+    "青海",
+    "云南",
+    "甘肃"
+   ],
+   "occurrenceCount": 815
+  },
+  "spectacled-parrotbill": {
+   "usageKey": 6100924,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Sylviidae",
+   "genus": "Sinosuthora",
+   "scientificName": "Sinosuthora conspicillata (David, 1871)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "陕西",
+    "甘肃",
+    "湖北",
+    "重庆",
+    "湖南",
+    "宁夏",
+    "青海"
+   ],
+   "occurrenceCount": 375
+  },
+  "grey-hooded-fulvetta": {
+   "usageKey": 7341914,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Sylviidae",
+   "genus": "Fulvetta",
+   "scientificName": "Fulvetta cinereiceps (J.Verreaux, 1870)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "甘肃",
+    "湖北",
+    "重庆",
+    "广西",
+    "陕西",
+    "福建",
+    "贵州",
+    "湖南",
+    "云南",
+    "江西",
+    "宁夏"
+   ],
+   "occurrenceCount": 1983
+  },
+  "three-toed-parrotbill": {
+   "usageKey": 6100919,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Sylviidae",
+   "genus": "Cholornis",
+   "scientificName": "Cholornis paradoxa J.Verreaux, 1870",
+   "matchType": "FUZZY",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "湖北",
+    "陕西",
+    "甘肃"
+   ],
+   "occurrenceCount": 749
+  },
+  "zappeys-parrotbill": {
+   "usageKey": 6100925,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Sylviidae",
+   "genus": "Sinosuthora",
+   "scientificName": "Sinosuthora zappeyi (Thayer & Bangs, 1912)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川"
+   ],
+   "occurrenceCount": 477
+  },
+  "przewalskis-parrotbill": {
+   "usageKey": 6100922,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Sylviidae",
+   "genus": "Sinosuthora",
+   "scientificName": "Sinosuthora przewalskii (Berezowski & Bianchi, 1891)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "甘肃"
+   ],
+   "occurrenceCount": 34
+  },
+  "emei-leaf-warbler": {
+   "usageKey": 5789196,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Phylloscopidae",
+   "genus": "Phylloscopus",
+   "scientificName": "Phylloscopus emeiensis Alström & Olson, 1995",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "湖北",
+    "陕西",
+    "广东",
+    "湖南",
+    "重庆"
+   ],
+   "occurrenceCount": 689
+  },
+  "szechenys-monnal": {
+   "usageKey": 2473535,
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Tetraophasis",
+   "scientificName": "Tetraophasis szechenyii Madarász, 1885",
+   "matchType": "FUZZY",
+   "status": "ACCEPTED",
+   "provinces": [
+    "青海",
+    "西藏",
+    "四川",
+    "云南"
+   ],
+   "occurrenceCount": 603
+  },
+  "hainan-leaf-warbler": {
+   "usageKey": 5789208,
+   "class": "Aves",
+   "order": "Passeriformes",
+   "family": "Phylloscopidae",
+   "genus": "Phylloscopus",
+   "scientificName": "Phylloscopus hainanus Olsson, Alstrom & Colston, 1993",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "海南"
+   ],
+   "occurrenceCount": 567
+  },
+  "obscure-monal-partridge": {
+   "usageKey": 2473534,
+   "class": "Aves",
+   "order": "Galliformes",
+   "family": "Phasianidae",
+   "genus": "Tetraophasis",
+   "scientificName": "Tetraophasis obscurus (J.Verreaux, 1869)",
+   "matchType": "EXACT",
+   "status": "ACCEPTED",
+   "provinces": [
+    "四川",
+    "青海",
+    "甘肃"
+   ],
+   "occurrenceCount": 726
+  }
+ }
+}

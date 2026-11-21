@@ -208,7 +208,7 @@ export function MentorChat() {
         <div className="border border-[var(--line)] bg-[var(--surface-2)] p-4 text-[9.5px] leading-relaxed text-[var(--muted)]">
           <p className="text-[var(--ink-soft)]">使用说明</p>
           <p className="mt-2">
-            回答基于馆藏 361 种中国特有脊椎动物档案检索。问题不会写入数据库；仅在你发起提问时，问题与检索到的馆藏片段会发送给语言模型服务。
+            回答基于馆藏中国特有脊椎动物档案检索。问题不会写入数据库；仅在你发起提问时，问题与检索到的馆藏片段会发送给语言模型服务。
           </p>
           <p className="mt-2">不提供饲养、投喂或捕捉野生动物的建议。</p>
         </div>

@@ -57,6 +57,11 @@ function interleaveByGroup(list: typeof CHINA_SPECIES): typeof CHINA_SPECIES {
 
 const CODE_BY_SLUG = new Map(CHINA_SPECIES.map((species, index) => [species.slug, String(index + 1).padStart(3, "0")]));
 
+const GROUP_COUNT = CHINA_GROUPS.map((group) => ({
+  label: group.label.replace("纲", ""),
+  count: CHINA_SPECIES.filter((species) => species.group === group.key).length,
+}));
+
 export const metadata: Metadata = {
   title: "物种图鉴",
   description: "按纲、分布地区、栖息环境与保护等级检索中国特有脊椎动物。",
@@ -144,7 +149,7 @@ export default async function ChinaEncyclopediaPage({
           {!hasFilter && (
             <>
               <br />
-              默认按类群轮换展示 · 收录以两栖为主，其他类群持续补充
+              默认按类群轮换展示 · {GROUP_COUNT.map((group) => `${group.label} ${group.count}`).join(" · ")}
             </>
           )}
           <br />

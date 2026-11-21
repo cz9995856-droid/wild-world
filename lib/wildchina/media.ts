@@ -7,6 +7,7 @@ import amphibianLocalizedRaw from "@/public/data/china-media-amphibians-localize
 import amphibianIllustrationRaw from "@/public/data/china-media-amphibians-illustration.json";
 import extraLocalizedRaw from "@/public/data/china-media-extra-localized.json";
 import habitatIllustrationsRaw from "@/public/data/china-habitat-illustrations.json";
+import batchRaw from "@/public/data/china-media-batch.json";
 
 export interface ChinaImage {
   url: string;
@@ -30,6 +31,7 @@ interface ChinaMediaEntry {
 }
 
 const BASE_MEDIA = {
+  ...(batchRaw.species as Record<string, ChinaMediaEntry>),
   ...(raw.species as Record<string, ChinaMediaEntry>),
   ...(amphibianIllustrationRaw.species as Record<string, ChinaMediaEntry>),
   ...(amphibianRaw.species as Record<string, ChinaMediaEntry>),
@@ -81,7 +83,7 @@ export function getSpeciesImage(slug: string, slot: ChinaMediaSlot): ChinaImage 
   };
 }
 
-const THUMB_DIRS = new Set(["species", "pixabay", "habitat", "extra", "hero"]);
+const THUMB_DIRS = new Set(["species", "pixabay", "habitat", "extra", "hero", "batch"]);
 
 export function thumbUrl(url: string | null | undefined): string {
   if (!url) return "";

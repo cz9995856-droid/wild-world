@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-20T15:39:17.853Z",
- "count": 361,
+ "generated_at": "2026-11-21T08:37:58.862Z",
+ "count": 460,
  "items": [
   {
    "slug": "ichthyophis-bannanicus",
@@ -4265,6 +4265,996 @@
    "group": "硬骨鱼纲",
    "family": "匙吻鲟科",
    "order": "鲟形目"
+  },
+  {
+   "slug": "tibetan-gazelle",
+   "cn": "藏原羚",
+   "en": "Tibetan Gazelle",
+   "sci": "Procapra picticaudata",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "牛科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "yangtze-finet",
+   "cn": "长江江豚",
+   "en": "Yangtze Finless Porpoise",
+   "sci": "Neophocaena asiaeorientalis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "anhui-musk-deer",
+   "cn": "安徽麝",
+   "en": "Anhui Musk Deer",
+   "sci": "Moschus anhuiensis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "麝科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "black-musk-deer",
+   "cn": "黑麝",
+   "en": "Black Musk Deer",
+   "sci": "Moschus fuscus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "麝科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "reeves-muntjac",
+   "cn": "小麂",
+   "en": "Reeves's Muntjac",
+   "sci": "Muntiacus reevesi",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鹿科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "black-muntjac",
+   "cn": "黑麂",
+   "en": "Black Muntjac",
+   "sci": "Muntiacus crinifrons",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鹿科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "taiwan-serow",
+   "cn": "台湾鬣羚",
+   "en": "Taiwan Serow",
+   "sci": "Capricornis swinhoei",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "牛科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "taiwan-macaque",
+   "cn": "台湾猕猴",
+   "en": "Formosan Rock Macaque",
+   "sci": "Macaca cyclopis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "猴科",
+   "order": "灵长目"
+  },
+  {
+   "slug": "hainan-hare",
+   "cn": "海南兔",
+   "en": "Hainan Hare",
+   "sci": "Lepus hainanus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "兔科",
+   "order": "兔形目"
+  },
+  {
+   "slug": "helan-pika",
+   "cn": "贺兰山鼠兔",
+   "en": "Helan Shan Pika",
+   "sci": "Ochotona argentata",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鼠兔科",
+   "order": "兔形目"
+  },
+  {
+   "slug": "ili-pika",
+   "cn": "伊犁鼠兔",
+   "en": "Ili Pika",
+   "sci": "Ochotona iliensis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鼠兔科",
+   "order": "兔形目"
+  },
+  {
+   "slug": "moupin-pika",
+   "cn": "藏鼠兔",
+   "en": "Moupin Pika",
+   "sci": "Ochotona thibetana",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鼠兔科",
+   "order": "兔形目"
+  },
+  {
+   "slug": "gansu-zokor",
+   "cn": "甘肃鼢鼠",
+   "en": "Gansu Zokor",
+   "sci": "Eospalax smithii",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鼹形鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "rothschild-zokor",
+   "cn": "罗氏鼢鼠",
+   "en": "Rothschild's Zokor",
+   "sci": "Eospalax rothschildi",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鼹形鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "qinling-zokor",
+   "cn": "秦岭鼢鼠",
+   "en": "Qinling Zokor",
+   "sci": "Eospalax rufescens",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鼹形鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "skywalker-hoolock",
+   "cn": "天行长臂猿",
+   "en": "Skywalker Hoolock Gibbon",
+   "sci": "Hoolock tianxing",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "灵长目"
+  },
+  {
+   "slug": "myanmar-snub-nosed-monkey",
+   "cn": "怒江金丝猴",
+   "en": "Myanmar Snub-nosed Monkey",
+   "sci": "Rhinopithecus strykeri",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "猴科",
+   "order": "灵长目"
+  },
+  {
+   "slug": "kiang",
+   "cn": "藏野驴",
+   "en": "Kiang",
+   "sci": "Equus kiang",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "tibetan-argali",
+   "cn": "西藏盘羊",
+   "en": "Tibetan Argali",
+   "sci": "Ovis hodgsoni",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "牛科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "bharal",
+   "cn": "岩羊",
+   "en": "Bharal",
+   "sci": "Pseudois nayaur",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "牛科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "chinese-goral",
+   "cn": "中华斑羚",
+   "en": "Chinese Goral",
+   "sci": "Naemorhedus griseus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "牛科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "red-goral",
+   "cn": "赤斑羚",
+   "en": "Red Goral",
+   "sci": "Naemorhedus baileyi",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "牛科",
+   "order": "偶蹄目"
+  },
+  {
+   "slug": "aeretes-flying-squirrel",
+   "cn": "沟牙鼯鼠",
+   "en": "Groove-toothed Flying Squirrel",
+   "sci": "Aeretes melanopterus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "松鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "red-white-flying-squirrel",
+   "cn": "红白鼯鼠",
+   "en": "Red-and-white Giant Flying Squirrel",
+   "sci": "Petaurista alborufus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "松鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "dian-vole",
+   "cn": "滇绒鼠",
+   "en": "Yunnan Red-backed Vole",
+   "sci": "Eothenomys eleusis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "chinese-vole",
+   "cn": "中华绒鼠",
+   "en": "Chinese Red-backed Vole",
+   "sci": "Eothenomys chinensis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "yunnan-vole",
+   "cn": "云南绒鼠",
+   "en": "Yunnan Vole",
+   "sci": "Eothenomys miletus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "large-toothed-vole",
+   "cn": "大绒鼠",
+   "en": "Large-toothed Red-backed Vole",
+   "sci": "Eothenomys custos",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "chinese-bamboo-rat",
+   "cn": "中华竹鼠",
+   "en": "Chinese Bamboo Rat",
+   "sci": "Rhizomys sinensis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鼹形鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "chinese-pygmy-dormouse",
+   "cn": "猪尾鼠",
+   "en": "Chinese Pygmy Dormouse",
+   "sci": "Typhlomys cinereus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "chinese-shrew-hedgehog",
+   "cn": "中华鼩猬",
+   "en": "Chinese Shrew Hedgehog",
+   "sci": "Neotetracus sinensis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "gracile-shrew-mole",
+   "cn": "长尾鼩鼹",
+   "en": "Gracile Shrew Mole",
+   "sci": "Uropsilus gracilis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "emei-shrew-mole",
+   "cn": "峨眉鼩鼹",
+   "en": "Emei Shrew Mole",
+   "sci": "Uropsilus andersoni",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "sichuan-shrew-mole",
+   "cn": "四川鼩鼹",
+   "en": "Sichuan Shrew Mole",
+   "sci": "Uropsilus soricipes",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "tibetan-shrew",
+   "cn": "藏鼩鼱",
+   "en": "Tibetan Shrew",
+   "sci": "Sorex thibetanus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "gansu-shrew",
+   "cn": "甘肃鼩鼱",
+   "en": "Gansu Shrew",
+   "sci": "Sorex cansulus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "yunnan-shrew",
+   "cn": "云南鼩鼱",
+   "en": "Yunnan Shrew",
+   "sci": "Sorex excelsus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "mandarin-vole",
+   "cn": "棕色田鼠",
+   "en": "Mandarin Vole",
+   "sci": "Lasiopodomys mandarinus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "himalayan-marmot",
+   "cn": "喜马拉雅旱獭",
+   "en": "Himalayan Marmot",
+   "sci": "Marmota himalayana",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "松鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "long-tailed-marmot",
+   "cn": "长尾旱獭",
+   "en": "Long-tailed Marmot",
+   "sci": "Marmota caudata",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "松鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "grey-marmot",
+   "cn": "灰旱獭",
+   "en": "Grey Marmot",
+   "sci": "Marmota baibacina",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "松鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "alashan-ground-squirrel",
+   "cn": "阿拉善黄鼠",
+   "en": "Alashan Ground Squirrel",
+   "sci": "Spermophilus alaschanicus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "松鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "daurian-ground-squirrel",
+   "cn": "达乌尔黄鼠",
+   "en": "Daurian Ground Squirrel",
+   "sci": "Spermophilus dauricus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "松鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "long-tailed-ground-squirrel",
+   "cn": "长尾黄鼠",
+   "en": "Long-tailed Ground Squirrel",
+   "sci": "Spermophilus undulatus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "松鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "relict-ground-squirrel",
+   "cn": "天山黄鼠",
+   "en": "Relict Ground Squirrel",
+   "sci": "Spermophilus relictus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "松鼠科",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "cansus-pika",
+   "cn": "间颅鼠兔",
+   "en": "Gansu Pika",
+   "sci": "Ochotona cansus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鼠兔科",
+   "order": "兔形目"
+  },
+  {
+   "slug": "red-eared-pika",
+   "cn": "红耳鼠兔",
+   "en": "Red-eared Pika",
+   "sci": "Ochotona erythrotis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鼠兔科",
+   "order": "兔形目"
+  },
+  {
+   "slug": "large-eared-pika",
+   "cn": "大耳鼠兔",
+   "en": "Large-eared Pika",
+   "sci": "Ochotona macrotis",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "鼠兔科",
+   "order": "兔形目"
+  },
+  {
+   "slug": "yellow-steppe-lemming",
+   "cn": "黄兔尾鼠",
+   "en": "Yellow Steppe Lemming",
+   "sci": "Eolagurus luteus",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "przewalski-steppe-lemming",
+   "cn": "草原兔尾鼠",
+   "en": "Przewalski's Steppe Lemming",
+   "sci": "Eolagurus przewalskii",
+   "aliases": [],
+   "group": "哺乳纲",
+   "family": "",
+   "order": "啮齿目"
+  },
+  {
+   "slug": "brown-eared-pheasant-mantchuricum",
+   "cn": "褐马鸡",
+   "en": "Brown Eared Pheasant",
+   "sci": "Crossoptilon mantchuricum",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "tibetan-eared-pheasant-harmani",
+   "cn": "藏马鸡",
+   "en": "Tibetan Eared Pheasant",
+   "sci": "Crossoptilon harmani",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "lady-amhersts-pheasant",
+   "cn": "白腹锦鸡",
+   "en": "Lady Amherst's Pheasant",
+   "sci": "Chrysolophus amherstiae",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "mikado-pheasant",
+   "cn": "黑长尾雉",
+   "en": "Mikado Pheasant",
+   "sci": "Syrmaticus mikado",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "swinhoes-pheasant",
+   "cn": "蓝腹鹇",
+   "en": "Swinhoe's Pheasant",
+   "sci": "Lophura swinhoii",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "hainan-peacock-pheasant",
+   "cn": "海南孔雀雉",
+   "en": "Hainan Peacock-Pheasant",
+   "sci": "Polyplectron katsumatae",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "przevalskis-rock-partridge",
+   "cn": "大石鸡",
+   "en": "Przevalski's Partridge",
+   "sci": "Alectoris magna",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "chinese-bamboo-partridge",
+   "cn": "灰胸竹鸡",
+   "en": "Chinese Bamboo Partridge",
+   "sci": "Bambusicola thoracicus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "black-necked-crane",
+   "cn": "黑颈鹤",
+   "en": "Black-necked Crane",
+   "sci": "Grus nigricollis",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "scaly-sided-merganser",
+   "cn": "中华秋沙鸭",
+   "en": "Scaly-sided Merganser",
+   "sci": "Mergus squamatus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "white-eared-night-heron",
+   "cn": "海南鳽",
+   "en": "White-eared Night Heron",
+   "sci": "Gorsachius magnificus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "鹈形目"
+  },
+  {
+   "slug": "chinese-crested-tern",
+   "cn": "中华凤头燕鸥",
+   "en": "Chinese Crested Tern",
+   "sci": "Thalasseus bernsteini",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "saunderss-gull",
+   "cn": "黑嘴鸥",
+   "en": "Saunders's Gull",
+   "sci": "Larus saundersi",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "relict-gull",
+   "cn": "遗鸥",
+   "en": "Relict Gull",
+   "sci": "Larus relictus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": ""
+  },
+  {
+   "slug": "alashan-redstart",
+   "cn": "贺兰山红尾鸲",
+   "en": "Ala Shan Redstart",
+   "sci": "Phoenicurus alaschanicus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "yellow-bellied-tit-venustulus",
+   "cn": "黄腹山雀",
+   "en": "Yellow-bellied Tit",
+   "sci": "Pardaliparus venustulus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "山雀科",
+   "order": "雀形目"
+  },
+  {
+   "slug": "rufous-capped-fulvetta",
+   "cn": "棕头雀鹛",
+   "en": "Rufous-capped Fulvetta",
+   "sci": "Fulvetta ruficapilla",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "golden-fronted-fulvetta",
+   "cn": "金额雀鹛",
+   "en": "Golden-fronted Fulvetta",
+   "sci": "Schoeniparus variegaticeps",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "nonggang-babbler",
+   "cn": "弄岗穗鹛",
+   "en": "Nonggang Babbler",
+   "sci": "Stachyris nonggangensis",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "reed-parrotbill-heudei",
+   "cn": "震旦鸦雀",
+   "en": "Reed Parrotbill",
+   "sci": "Paradoxornis heudei",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "sichuan-jay",
+   "cn": "黑头噪鸦",
+   "en": "Sichuan Jay",
+   "sci": "Perisoreus internigrans",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "tibetan-rosefinch",
+   "cn": "藏雀",
+   "en": "Tibetan Rosefinch",
+   "sci": "Carpodacus roborowskii",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "koslows-bunting",
+   "cn": "藏鹀",
+   "en": "Kozlov's Bunting",
+   "sci": "Emberiza koslowi",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "przewalskis-rosefinch",
+   "cn": "朱鹀",
+   "en": "Przevalski's Rosefinch",
+   "sci": "Urocynchramus pylzowi",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "slaty-bunting",
+   "cn": "蓝鹀",
+   "en": "Slaty Bunting",
+   "sci": "Emberiza siemsseni",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "sukatschews-laughingthrush",
+   "cn": "黑额山噪鹛",
+   "en": "Sukatschev's Laughingthrush",
+   "sci": "Garrulax sukatschewi",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "davids-laughingthrush",
+   "cn": "山噪鹛",
+   "en": "David's Laughingthrush",
+   "sci": "Pterorhinus davidi",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "spotted-laughingthrush",
+   "cn": "斑背噪鹛",
+   "en": "Spotted Laughingthrush",
+   "sci": "Garrulax lunulatus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "biet-thrush",
+   "cn": "白点噪鹛",
+   "en": "Biet's Laughingthrush",
+   "sci": "Garrulax bieti",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "giant-laughingthrush",
+   "cn": "大噪鹛",
+   "en": "Giant Laughingthrush",
+   "sci": "Garrulax maximus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "elliotts-laughingthrush",
+   "cn": "橙翅噪鹛",
+   "en": "Elliot's Laughingthrush",
+   "sci": "Trochalopteron elliotii",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "chinese-hwamei",
+   "cn": "画眉",
+   "en": "Chinese Hwamei",
+   "sci": "Garrulax canorus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "taiwan-blue-magpie",
+   "cn": "台湾蓝鹊",
+   "en": "Taiwan Blue Magpie",
+   "sci": "Urocissa caerulea",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "taiwan-whistling-thrush",
+   "cn": "台湾紫啸鸫",
+   "en": "Taiwan Whistling Thrush",
+   "sci": "Myophonus insularis",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "white-whiskered-laughingthrush",
+   "cn": "玉山噪鹛",
+   "en": "White-whiskered Laughingthrush",
+   "sci": "Trochalopteron morrisonianum",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "taiwan-partridge",
+   "cn": "台湾山鹧鸪",
+   "en": "Taiwan Partridge",
+   "sci": "Arborophila crudigularis",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "white-eared-sibia",
+   "cn": "白耳奇鹛",
+   "en": "White-eared Sibia",
+   "sci": "Heterophasia auricularis",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "rusty-laughingthrush",
+   "cn": "棕噪鹛",
+   "en": "Rusty Laughingthrush",
+   "sci": "Pterorhinus poecilorhynchus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "sichuan-treecreeper",
+   "cn": "四川旋木雀",
+   "en": "Sichuan Treecreeper",
+   "sci": "Certhia tianquanensis",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "streak-throated-fulvetta",
+   "cn": "高山雀鹛",
+   "en": "Streak-throated Fulvetta",
+   "sci": "Fulvetta striaticollis",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "grey-hooded-fulvetta",
+   "cn": "灰头雀鹛",
+   "en": "Grey-hooded Fulvetta",
+   "sci": "Fulvetta cinereiceps",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "spectacled-parrotbill",
+   "cn": "白眶鸦雀",
+   "en": "Spectacled Parrotbill",
+   "sci": "Sinosuthora conspicillata",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "zappeys-parrotbill",
+   "cn": "暗色鸦雀",
+   "en": "Zappey's Parrotbill",
+   "sci": "Sinosuthora zappeyi",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "przewalskis-parrotbill",
+   "cn": "灰冠鸦雀",
+   "en": "Przevalski's Parrotbill",
+   "sci": "Sinosuthora przewalskii",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "three-toed-parrotbill",
+   "cn": "三趾鸦雀",
+   "en": "Three-toed Parrotbill",
+   "sci": "Cholornis paradoxus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "emei-leaf-warbler",
+   "cn": "峨眉柳莺",
+   "en": "Emei Leaf Warbler",
+   "sci": "Phylloscopus emeiensis",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "hainan-leaf-warbler",
+   "cn": "海南柳莺",
+   "en": "Hainan Leaf Warbler",
+   "sci": "Phylloscopus hainanus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "",
+   "order": "雀形目"
+  },
+  {
+   "slug": "szechenys-monnal",
+   "cn": "四川雉鹑",
+   "en": "Szechenyi's Monal-Partridge",
+   "sci": "Tetraophasis szechenyi",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
+  },
+  {
+   "slug": "obscure-monal-partridge",
+   "cn": "雉鹑",
+   "en": "Verreaux's Monal-Partridge",
+   "sci": "Tetraophasis obscurus",
+   "aliases": [],
+   "group": "鸟纲",
+   "family": "雉科",
+   "order": "鸡形目"
   },
   {
    "slug": "giant-panda",

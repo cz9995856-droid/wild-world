@@ -132,13 +132,19 @@
   }
 }
 
+.wc-nav-shell {
+  padding: clamp(16px, 2.2vw, 30px) clamp(18px, 4vw, 60px) 0;
+  background: var(--surface);
+}
+
 .wc-search {
   display: flex;
   align-items: center;
   gap: 12px;
   height: clamp(46px, 4vw, 54px);
-  padding: 0 18px;
+  padding: 0 20px;
   border: 1px solid var(--line-strong);
+  border-radius: 999px;
   background: var(--surface);
   box-shadow: var(--wc-shadow-soft);
 }
@@ -318,6 +324,9 @@
 @media (max-width: 640px) {
   .wc-frame {
     padding: 14px 16px 18px;
+  }
+  .wc-nav-shell {
+    padding: 14px 16px 0;
   }
   .wc-hero-panel {
     padding: 20px;

@@ -1,6 +1,6 @@
 # 数据源、许可与待授权清单
 
-版本：2026-11-19 · 所有“已连接”状态均经过实际请求验证；未验证的项目明确标记。
+版本：2026-11-21 · 所有“已连接”状态均经过实际请求验证；未验证的项目明确标记。
 
 ## 1. 已接入并实际使用
 
@@ -16,6 +16,14 @@
 | [Natural Earth](https://www.naturalearthdata.com/) | 世界边界底图 | `public/data/world-land.json`、`world-graticule.json`（world-atlas + topojson-client 离线生成） | **本地离线可用**，不依赖公共 tile 服务 | 公共领域 |
 | [中国两栖类信息系统](http://www.amphibiachina.org/)（中科院昆明动物所） | 两栖类形态、生境、习性、繁殖、分布、IUCN 等级 | 物种页 `/species/{id}` 抓取（2026-11-19），解析为 `public/data/china-amphibians-detail.json` | **已抓取**：296 种匹配 295 种，282 种有形态、274 种有生境/习性、249 种有 IUCN 等级 | 文字为编辑整理引用，按站点规范署名；不转载其图库图片。引用：AmphibiaChina. 2026. The database of Chinese amphibians |
 | [Tropicals.cn](https://tropicals.cn/) | 中文名、英文名、别名、分类、外部 ID 校对 | `POST /api/v1/names/resolve-batch`、`GET /api/v1/species/{slug}`（2026-11-19） | **已抓取**：312 种精确匹配，产出 `public/data/china-species-tropicals.json` | 名称、分类与外部 ID 为 **CC BY 4.0**，署名 Tropicals.cn；产地 / 百科正文 / 性状属 API Terms 限制字段，本站未保存 |
+
+### 2026-11-21 兽类 / 鸟类扩充
+
+- 新增 100 种（兽类 50、鸟类 50）：`public/data/china-species-batch.json`；全部通过 GBIF `species/match` 种级校验（100 / 100 EXACT / ACCEPTED）
+- 分布：`GET /v1/occurrence/search?country=CN&facet=stateProvince` 汇总为省级记录，91 / 100 种有中国观测记录；观测记录存在采样偏差，不代表完整分布区
+- 分类：纲、目、科、属取自 GBIF；补充 101 个分类单元中文名映射
+- 图片：89 / 100 种取得授权影像（iNaturalist、GBIF 观测媒体；Wikimedia Commons 作为兜底，当前环境不可达）；逐张记录作者、来源、许可；其余 11 种冷门物种暂无可用授权影像，页面明确显示占位
+- 物种库结构：461 种（两栖 298、兽类 79、鸟类 67、爬行 11、鱼类 6），两栖占比由 82% 降至 65%
 
 ### 2026-11-19 中国特有脊椎动物专题补充
 

@@ -10,6 +10,7 @@ import { NEWS_SOURCES } from "@/lib/data/news-meta";
 import { applyEditorial } from "@/lib/data/news-editorial";
 import { INTEGRATION, NEWS_SNAPSHOT } from "@/lib/data/static-data";
 import { fetchNewsSnapshot, type NewsSnapshot } from "@/lib/data/news-fetch";
+import { translateArticles } from "@/lib/data/news-translate";
 import { readStore, type StoreShape } from "@/lib/store/content-store";
 import { hashString } from "@/lib/utils";
 
@@ -232,6 +233,15 @@ async function refreshNewsSnapshot(): Promise<void> {
     const snapshot = await fetchNewsSnapshot();
     if (snapshot.articles.length > 0) {
       newsSnapshot = snapshot;
+      // 后台异步翻译为中文，不阻塞当前请求；翻译完成后后续请求自动显示中文
+      void (async () => {
+        try {
+          const translated = await translateArticles(snapshot.articles);
+          newsSnapshot = { ...snapshot, articles: translated };
+        } catch (error) {
+          console.warn("新闻后台翻译失败：", error);
+        }
+      })();
     }
   } catch (error) {
     console.warn("新闻运行时刷新失败，继续使用旧快照：", error);

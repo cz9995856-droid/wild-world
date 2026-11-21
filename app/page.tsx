@@ -4,6 +4,7 @@ import { Mascot } from "@/components/youth/mascot";
 import { Band, EntryCard } from "@/components/youth/band";
 import { WcHeader } from "@/components/wildchina/wc-header";
 import { CollectionProgress, DailyQuiz, KnownCounter, ProvincePreview } from "@/components/home/explorer-home";
+import { ScrollRail } from "@/components/ui/scroll-rail";
 import { cardUrl, getSpeciesImage } from "@/lib/wildchina/media";
 import { CHINA_SPECIES } from "@/lib/wildchina/species";
 
@@ -151,7 +152,7 @@ export default function HomePage() {
               全部动物卡
             </Link>
           </div>
-          <div className="no-scrollbar mt-4 flex snap-x gap-3 overflow-x-auto pb-2">
+          <ScrollRail className="mt-4" itemWidth={202}>
             {rare.map((item) => (
               <Link
                 prefetch={false}
@@ -170,7 +171,7 @@ export default function HomePage() {
                 </span>
               </Link>
             ))}
-          </div>
+          </ScrollRail>
         </Band>
       </div>
 

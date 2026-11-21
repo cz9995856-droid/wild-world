@@ -170,6 +170,33 @@
   border-bottom-color: var(--line-strong);
 }
 
+.scroll-rail-btn {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 3px 0 var(--ink);
+  cursor: pointer;
+}
+
+.scroll-rail-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 0 var(--ink);
+}
+
+.scroll-rail-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 0 var(--ink);
+}
+
 @media (max-width: 640px) {
   .wc-subnav {
     gap: 4px 16px;

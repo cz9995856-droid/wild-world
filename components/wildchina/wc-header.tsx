@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { Heart, Moon, Sun } from "lucide-react";
+import { usePathname, useRouter } from "next/navigation";
+import { ArrowLeft, Heart, Home, Moon, Sun } from "lucide-react";
 import { useUI } from "@/components/providers";
 import { WcBrand } from "@/components/wildchina/wc-brand";
 import { SearchSuggest } from "@/components/wildchina/search-suggest";
@@ -10,12 +10,22 @@ import { SearchSuggest } from "@/components/wildchina/search-suggest";
 const NAV = [
   { href: "/explore/encyclopedia", label: "发现" },
   { href: "/explore/collection", label: "收集" },
-  { href: "/explore/lab", label: "挑战" },
+  { href: "/explore/challenge", label: "挑战" },
+  { href: "/explore/conservation", label: "新闻" },
 ];
 
 export function WcHeader({ query = "" }: { query?: string }) {
   const { theme, toggleTheme, favorites } = useUI();
   const pathname = usePathname();
+  const router = useRouter();
+  const isHome = pathname === "/";
+
+  function isActive(href: string) {
+    if (href === "/explore/encyclopedia") {
+      return pathname === "/explore" || pathname.startsWith("/explore/encyclopedia");
+    }
+    return pathname.startsWith(href);
+  }
 
   return (
     <div className="wc-header-sticky">
@@ -51,8 +61,25 @@ export function WcHeader({ query = "" }: { query?: string }) {
       </header>
 
       <nav className="wc-subnav" aria-label="主要展区">
+        {!isHome && (
+          <>
+            <button type="button" onClick={() => router.back()} className="wc-nav-btn wc-nav-back" aria-label="返回上一页">
+              <ArrowLeft size={15} />
+              返回
+            </button>
+            <Link href="/" className="wc-nav-btn wc-nav-back" aria-label="回到主页">
+              <Home size={15} />
+              主页
+            </Link>
+          </>
+        )}
         {NAV.map((item) => (
-          <Link prefetch={false} key={item.href} href={item.href}>
+          <Link
+            prefetch={false}
+            key={item.href}
+            href={item.href}
+            className={`wc-nav-btn${isActive(item.href) ? " wc-nav-btn-active" : ""}`}
+          >
             {item.label}
           </Link>
         ))}
@@ -63,7 +90,7 @@ export function WcHeader({ query = "" }: { query?: string }) {
           <Link
             key={item.href}
             href={item.href}
-            aria-current={pathname?.startsWith(item.href) ? "page" : undefined}
+            aria-current={isActive(item.href) ? "page" : undefined}
           >
             <span>{item.label}</span>
           </Link>

@@ -238,10 +238,10 @@ async function refreshNewsSnapshot(): Promise<void> {
   }
 }
 
-async function ensureFreshNews(): Promise<void> {
+async function ensureFreshNews(force = false): Promise<void> {
   if (process.env.NEXT_PHASE === "phase-production-build") return;
   const generatedAt = newsSnapshot.generated_at ? new Date(newsSnapshot.generated_at).getTime() : 0;
-  if (Date.now() - generatedAt < NEWS_TTL_MS) return;
+  if (!force && Date.now() - generatedAt < NEWS_TTL_MS) return;
   if (!newsRefreshPromise) {
     newsRefreshPromise = refreshNewsSnapshot().finally(() => {
       newsRefreshPromise = null;
@@ -250,8 +250,8 @@ async function ensureFreshNews(): Promise<void> {
   await newsRefreshPromise;
 }
 
-export async function getNews(): Promise<NewsArticle[]> {
-  await ensureFreshNews();
+export async function getNews(options?: { forceRefresh?: boolean }): Promise<NewsArticle[]> {
+  await ensureFreshNews(options?.forceRefresh);
   const store = await readStore();
   const snapshot = newsSnapshot.articles ?? [];
   const live = store.live_news ?? [];
@@ -269,8 +269,8 @@ export async function getNewsBySlug(slug: string): Promise<NewsArticle | null> {
   return all.find((n) => n.slug === slug) ?? null;
 }
 
-export async function getNewsMeta(): Promise<{ generated_at: string | null; errors: Array<{ source_id: string; message: string; at: string }>; count: number }> {
-  await ensureFreshNews();
+export async function getNewsMeta(options?: { forceRefresh?: boolean }): Promise<{ generated_at: string | null; errors: Array<{ source_id: string; message: string; at: string }>; count: number }> {
+  await ensureFreshNews(options?.forceRefresh);
   const store = await readStore();
   return {
     generated_at: store.news_live_updated_at ?? newsSnapshot.generated_at ?? null,

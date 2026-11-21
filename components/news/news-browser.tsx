@@ -29,10 +29,10 @@ export function NewsBrowser({
   const [generatedAt, setGeneratedAt] = useState<string | null>(initialGeneratedAt ?? null);
   const [refreshing, setRefreshing] = useState(false);
 
-  async function refreshNews() {
+  async function refreshNews(force = false) {
     setRefreshing(true);
     try {
-      const res = await fetch("/api/news", { cache: "no-store" });
+      const res = await fetch(force ? "/api/news?refresh=1" : "/api/news", { cache: "no-store" });
       if (res.ok) {
         const data = await res.json();
         if (Array.isArray(data.articles) && data.articles.length) {
@@ -148,7 +148,7 @@ export function NewsBrowser({
         <div className="mt-2 flex items-center gap-3 text-[10px] text-[var(--muted)]">
           <span>最近同步 {generatedAt ? new Date(generatedAt).toLocaleString("zh-CN", { hour12: false }) : "待同步"}</span>
           <button
-            onClick={refreshNews}
+            onClick={() => refreshNews(true)}
             disabled={refreshing}
             className="inline-flex items-center gap-1 underline disabled:opacity-50"
             aria-label="检查新闻更新"

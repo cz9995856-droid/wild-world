@@ -7,6 +7,8 @@
 - **版本号**：v1.0
 - **证明编号**：18255484489
 - **验收日期**：2026-11-22
+- **在线访问地址**：https://wild-world-app.cz9995856.workers.dev
+- **备用访问地址**：https://wild-world-museum.pages.dev
 - **代码仓库**：https://github.com/cz9995856-droid/wild-world（cf-pages 分支）
 
 ## 一、作品简介

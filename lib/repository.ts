@@ -248,8 +248,14 @@ async function refreshNewsSnapshot(): Promise<void> {
   }
 }
 
+const IS_CLOUDFLARE_WORKER =
+  typeof navigator !== "undefined" && /Cloudflare-Workers/i.test(navigator.userAgent ?? "");
+
 async function ensureFreshNews(force = false): Promise<void> {
   if (process.env.NEXT_PHASE === "phase-production-build") return;
+  // Cloudflare Workers 有严格 CPU/内存限制，运行时抓取 RSS 与 AI 翻译会触发 Error 1102，
+  // 新闻更新统一交给每日定时同步（GitHub Actions）与重新部署完成。
+  if (IS_CLOUDFLARE_WORKER) return;
   const generatedAt = newsSnapshot.generated_at ? new Date(newsSnapshot.generated_at).getTime() : 0;
   if (!force && Date.now() - generatedAt < NEWS_TTL_MS) return;
   if (!newsRefreshPromise) {
